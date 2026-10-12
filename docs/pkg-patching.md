@@ -1,6 +1,14 @@
 # Direct PKG patching for Vita3K
 
-The recommended player workflow uses [Retro Trans 0.5.11 or newer](https://github.com/retro-trans/retro-trans-tools/releases/latest):
+**The Retro Trans v0.5.11 release and its downloads were withdrawn on 2026-10-12**
+at the user's request because patching required `work.bin`/`.rif`. The remaining
+latest tools release, v0.5.4, does not support Automatic Vita PKG patching. A
+whole-PKG xdelta replacement without a patch-time license has not been released.
+Use the existing [component-patch instructions](../README.md#applying-the-patch)
+for currently available downloads. Historical checks and the local developer
+workflow remain below.
+
+The withdrawn v0.5.11 workflow was:
 
 1. Open **Automatic** and browse to your original Japanese PCSG00597 `.pkg`.
 2. Select its matching local NoNpDrm `work.bin` or `.rif` in **Matching license**.

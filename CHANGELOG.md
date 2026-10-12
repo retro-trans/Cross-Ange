@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.13 — Withdraw the recommended tools release
+
+- Removed Retro Trans Tools v0.5.11 and its downloads at the user's request because its PKG flow required a license during patching. Removed that recommendation from current game documentation and release instructions.
+- Retained this private game release, its existing translation assets and historical verification records. The whole-PKG route without a patch-time license is not yet published; the remaining tools v0.5.4 release does not support Automatic Vita PKG patching.
+- A local whole-PKG delta round trip reproduced the verified English package exactly, but the delta was 944,873,399 bytes. It was kept local because it is almost the entire package; it is not a release asset.
+
 ### 0.1.13 — ACE-3 release presentation
 
 - Reformatted the existing private release using ACE-3's section order: Apply, changes since the previous build, release status, included content, translation method, acknowledgements, source code and contribution links. Added a manual component-patch table and commands, and preserved the verified PKG identities and Automatic instructions.
