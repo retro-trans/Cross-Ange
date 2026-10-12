@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "repo": "retro-trans/Cross-Ange",
+  "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "published_at": "2026-10-12T04:43:49Z",
+  "repository_visibility": "PRIVATE",
+  "all_uploaded_assets_downloaded_and_verified": true,
+  "contains_complete_game_or_license": false,
+  "retro_trans_app_published": false,
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1899,
+      "sha256": "7e353aa3667bb95c94148d8b031d383d215341c67c7db9ee427cba1d2b3dc540"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Ange.xdelta",
+      "bytes": 5349702,
+      "sha256": "cdb726f114b55e0876bd0ce0b9fc635a748361fb5d6af487bc7f25e11fdec7ce"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-extras.zip",
+      "bytes": 49284,
+      "sha256": "f21f7852c91c1f4a8209fd725f05ba35c61e3fadb581b3583b5cf06b2f04cea7"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-param.xdelta",
+      "bytes": 160,
+      "sha256": "33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-PKG-patches.zip",
+      "bytes": 5399889,
+      "sha256": "c9d7bef8882a45ea6b2b1ff421b6e9f9157882c70cc5c99e73223c694b68529d"
+    },
+    {
+      "name": "EXTRAS-SHA256SUMS.txt",
+      "bytes": 104,
+      "sha256": "a2faff09e79aadbc112ddc926135ff4ec234ac7390768c0ab2a9bd0997f70cfb"
+    },
+    {
+      "name": "RETRO-TRANS-VALIDATION.json",
+      "bytes": 1871,
+      "sha256": "5cd60f61f97f1ca9bda4c8b87eb7dc937985f21293a4e03a718dfa6f654bc6a6"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 381,
+      "sha256": "58a8931950765e0b74c91f5d8875e402f69d176d25524a616f156d45455b9197"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 521,
+      "sha256": "36748d2a8b06221721fedcbaa1a819b6b16dfb70545ee8043b030a4b31e0e635"
+    },
+    {
+      "name": "VITA-PKG-SHA256SUMS.txt",
+      "bytes": 195,
+      "sha256": "d7311d5387daaea00fd4a82e24ab2a624ba50cbf4cb8020b77516a4b56dd65ef"
+    },
+    {
+      "name": "VITA-PKG.json",
+      "bytes": 9483,
+      "sha256": "8c78ef5ded3af14e02143458dfb894a37b1fea8771e7c742bbe153adeba05ae4"
+    }
+  ]
+}

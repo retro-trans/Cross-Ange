@@ -1,7 +1,7 @@
 {
   "project_version": "0.1.13",
   "checked_on": "2026-10-12",
-  "status": "structured_english_direct_pkg_local_test_build_available",
+  "status": "structured_english_generic_vita_pkg_private_release_available",
   "scenario_completed_slices": 166,
   "scenario_exported_rows": 13277,
   "scenario_drafted_japanese_rows": 13214,
@@ -2656,6 +2656,13 @@
     "installation_record": "docs/pkg-patching-validation-0.1.13.json",
     "package": "work/output/cross-ange-0.1.13/Cross-Ange-English-0.1.13.pkg",
     "gameplay_tested": false,
-    "release_published": false
+    "release_published": true,
+    "release_visibility": "private",
+    "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+    "release_validation_record": "docs/releases/v0.1.13-publication.json",
+    "retro_trans_validation_record": "docs/releases/v0.1.13-retro-trans-validation.json",
+    "retro_trans_version": "0.5.8",
+    "retro_trans_app_published": false,
+    "generic_vita_pkg_flow_verified": true
   }
 }

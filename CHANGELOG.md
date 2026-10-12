@@ -5,6 +5,7 @@
 - Verified the local Retro Trans 0.5.8 Windows app against the release ZIP and original PKG: native installation verified all 48 game files, and output matched the standalone package exactly.
 - Verified standard Automatic recognition and both complete-file patch outputs. Recorded the 226-test Retro Trans suite, with four platform-specific skips, and generic profiles for a second title.
 - Added `RETRO-TRANS-VALIDATION.json` to the private release assets. Retro Trans app publication, physical-Vita installation and full gameplay testing remain pending.
+- Published the explicitly requested private v0.1.13 release and downloaded all 11 uploaded assets again; sizes, SHA-256 identities, standard manifests and the generic Vita ZIP profile passed. Repository visibility remains private.
 
 ## 2026-10-12 — v0.1.13 private release preparation
 
