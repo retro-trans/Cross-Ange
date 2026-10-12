@@ -6,14 +6,14 @@ English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Drag
 
 **Installation requirement:** you must have your own `work.bin` for **Cross Ange PCSG00597** (or its matching compatible `.rif`). A license from another game will not work. It is not included in the patch and is never downloaded by the tools. Whole-PKG patching does not read it; supply it when installing the result in Vita3K.
 
-Use **Retro Trans 0.5.12 or a later compatible build**:
+Use the local **Retro Trans 0.5.14** build:
 
 1. Open **Automatic** and browse to your original Japanese PCSG00597 `.pkg`.
 2. Choose a new **Translated PKG** filename and click **Patch**. The matching whole-PKG translation ZIP downloads automatically; there is no license input.
 3. In Vita3K, use **File → Install .pkg** to install the output and supply your matching `work.bin`/`.rif` when requested.
 4. Restart the game and check **v0.1.13** on the title screen. Credits and the font license are included in the translated package.
 
-**The repository and releases remain private.** Automatic downloads need access through your existing GitHub CLI sign-in. The tools 0.5.12 app is currently a local test build, not a published tools release; the remaining published tools 0.5.4 does not support this Automatic PKG route. Tools v0.5.11 has been withdrawn. The [game release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) supplies `VITA-PKG-XDELTA.json` and `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip` for the new flow. The ZIP is approximately **945 MB**. No full `.pkg` file or license is included.
+**The repository and release are public.** Automatic downloads do not require a GitHub sign-in. Use the local Retro Trans 0.5.14 build to test both Vita routes. Tools 0.5.14 is currently a local test build, not a published tools release; the remaining published tools 0.5.4 does not support this Automatic PKG route. Tools v0.5.11 has been withdrawn. The [game release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) supplies `VITA-PKG-XDELTA.json` and `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip` for the new flow. The ZIP is approximately **945 MB**. No full `.pkg` file or license is included.
 
 For a local override, download that ZIP and select it under **Vita → Vita3K PKG → Local patch (optional)**. The original PKG remains unchanged. The release no longer supplies decrypted-component patches or a CPK replacement workflow. See [installation instructions](docs/patch-installation.md).
 

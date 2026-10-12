@@ -41,7 +41,7 @@ Upload and verify the new ZIP/profile before removing retired assets. Test a
 fresh download through the local frozen 0.5.12 app with no local patch argument,
 then test its Automatic UI worker. Compare complete source/output identities.
 Preserve historical validation records in Git; mark them as superseded rather
-than rewriting their original results. The game repository/release stays private.
+than rewriting their original results. The user explicitly requested making the repository and existing release public for Automatic testing. Public downloads require no GitHub sign-in. `docs/public-release-0.1.13.json` records anonymous verification; earlier private-release records retain their historical results.
 
 Publication requires an explicit user request. Updating this game release does
 not authorize a Retro Trans Tools release or source push. Keep the tools 0.5.12

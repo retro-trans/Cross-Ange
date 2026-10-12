@@ -14,7 +14,7 @@ Use your local Retro Trans **0.5.12** app or a later compatible build. Open
 **Patch**. The app downloads the matching whole-PKG ZIP and verifies source,
 patch and complete output identities before saving. No license field is shown.
 
-This release is private. Existing GitHub CLI sign-in must have repository access.
+This release is public. Automatic downloads do not require a GitHub sign-in. Use the local Retro Trans 0.5.14 build for testing.
 The tools 0.5.12 build is local; no tools release is implied by this game release
 update. The older published tools 0.5.4 does not support this Automatic flow.
 

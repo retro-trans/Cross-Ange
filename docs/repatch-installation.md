@@ -16,7 +16,7 @@ matching local license, although whole-PKG patching does not.
 2. Select the original Japanese PCSG00597 `.pkg` and its matching `work.bin`.
 3. Choose a new output folder, with at least **6 GB free** for temporary work.
 4. Leave **Local patch** blank to download the game's hardware patch automatically.
-   Private releases need your existing GitHub CLI sign-in with repository access.
+   This public release downloads without a GitHub sign-in.
    Alternatively select `Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip`.
 5. Click **Create rePatch** and wait for successful verification. The tools use
    an isolated official Vita3K runtime to decrypt your original locally, apply

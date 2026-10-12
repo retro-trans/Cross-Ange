@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.13 — Public Automatic testing
+
+- Made the repository and existing game release public at the user's request. Automatic downloads no longer require GitHub sign-in; current instructions recommend the local tools 0.5.14 build for testing.
+- Verified anonymous organization discovery and both matching release profiles/bundles. Hardware used a fresh downloaded ZIP; whole-PKG reused the previously verified large ZIP cache. Preserved all ten asset identities, game bytes and version; no new tools release was published.
+- Retained prior private-download evidence and added `docs/public-release-0.1.13.json`. Matching game licenses remain required for installation and hardware extraction; whole-PKG patching remains license-free.
+
 ### 0.1.13 — Hardware rePatch support
 
 - Added a separate rePatch profile/ZIP for PCSG00597 v01.00 and generic hardware discovery in the local tools 0.5.14 build. The overlay uses the existing English archive and includes generated credits/font attribution, preserving the original executable and authentication.
