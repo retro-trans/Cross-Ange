@@ -41,7 +41,7 @@ Upload and verify the new ZIP/profile before removing retired assets. Test a
 fresh download through the local frozen 0.5.12 app with no local patch argument,
 then test its Automatic UI worker. Compare complete source/output identities.
 Preserve historical validation records in Git; mark them as superseded rather
-than rewriting their original results. The user explicitly requested making the repository and existing release public for Automatic testing. Public downloads require no GitHub sign-in. `docs/public-release-0.1.13.json` records anonymous verification; earlier private-release records retain their historical results.
+than rewriting their original results. The user subsequently requested restoring repository and release privacy because the whole-PKG download is too large. Keep the project private unless the user explicitly authorizes changing it again. Automatic downloads require GitHub CLI sign-in with repository access. `docs/public-release-0.1.13.json` retains historical anonymous verification from the temporary public period.
 
 Publication requires an explicit user request. Updating this game release does
 not authorize a Retro Trans Tools release or source push. Keep the tools 0.5.12

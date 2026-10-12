@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.1.13 — Restore private access
+
+- Restored repository and existing release privacy at the user's request because the approximately 945 MB whole-PKG download is too large. Updated current instructions to require repository access through GitHub CLI sign-in.
+- Preserved the game version, all ten release assets and prior public verification as historical evidence. This visibility change does not reduce the download size or publish a new tools build.
+
 ### 0.1.13 — Public Automatic testing
 
 - Made the repository and existing game release public at the user's request. Automatic downloads no longer require GitHub sign-in; current instructions recommend the local tools 0.5.14 build for testing.

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T10:20:51.205510+00:00",
+  "version": "0.1.13",
+  "private": true,
+  "repository": "https://github.com/retro-trans/Cross-Ange",
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "reason": "User requested privacy because whole-PKG download is too large",
+  "game_build_unchanged": true,
+  "release_assets_unchanged": true,
+  "assets": [
+    {
+      "name": "AUTOMATIC-VALIDATION.json",
+      "bytes": 2507,
+      "asset_id": 633256645,
+      "digest": "sha256:64730626294048b31f31a9fbb802be04b106dfc44895f36a9f8979db94aac5d8"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip",
+      "bytes": 944874420,
+      "asset_id": 633228553,
+      "digest": "sha256:54bb7c571e6fdc1ac89ff28b07f76b93f0b2182e8e22edb6bc4adc429af8f9cc"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip",
+      "bytes": 5397094,
+      "asset_id": 633359765,
+      "digest": "sha256:ed5411aff296c03a27ffa7a1e4e19d172f26ffb1233e4231f964cbb497930b1a"
+    },
+    {
+      "name": "REPATCH-AUTOMATIC-VALIDATION.json",
+      "bytes": 1996,
+      "asset_id": 633375013,
+      "digest": "sha256:3b875ebb46ad70b81a50bde49fd7efd74d8cac5f7bc08a6ea92fd3305179532e"
+    },
+    {
+      "name": "REPATCH-SHA256SUMS.txt",
+      "bytes": 391,
+      "asset_id": 633375098,
+      "digest": "sha256:cb5ac98d56c31b6e8c1f5b20cb0c681fdad6aed9acbb6bbd50eee1ce2cd6d858"
+    },
+    {
+      "name": "REPATCH-VALIDATION.json",
+      "bytes": 1131,
+      "asset_id": 633374964,
+      "digest": "sha256:81c8616079f7da8ca0db104edcca742e7a7734263e1707df0b6b7edbc37b5906"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 377,
+      "asset_id": 633256728,
+      "digest": "sha256:1d4a4d852ff05dd254dbea04c86181216eba6d9d3570eaffc262437764ed7d4e"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 1286,
+      "asset_id": 633256569,
+      "digest": "sha256:03b9b77acdf5b5040f4b45664fba923bf235fd656990af665e860208e5db45d1"
+    },
+    {
+      "name": "VITA-PKG-XDELTA.json",
+      "bytes": 695,
+      "asset_id": 633233995,
+      "digest": "sha256:963906b15a6ac0c6172f00eaab16c042e54fef39026d9a57786f3ae0bc239dc0"
+    },
+    {
+      "name": "VITA-REPATCH.json",
+      "bytes": 1417,
+      "asset_id": 633359900,
+      "digest": "sha256:2c9407c9cdbe0764b0d8604fdf74e88f1bef36b2d578116cdfc59cf28abd724b"
+    }
+  ]
+}

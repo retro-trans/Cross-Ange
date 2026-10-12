@@ -13,7 +13,7 @@ Use the local **Retro Trans 0.5.14** build:
 3. In Vita3K, use **File → Install .pkg** to install the output and supply your matching `work.bin`/`.rif` when requested.
 4. Restart the game and check **v0.1.13** on the title screen. Credits and the font license are included in the translated package.
 
-**The repository and release are public.** Automatic downloads do not require a GitHub sign-in. Use the local Retro Trans 0.5.14 build to test both Vita routes. Tools 0.5.14 is currently a local test build, not a published tools release; the remaining published tools 0.5.4 does not support this Automatic PKG route. Tools v0.5.11 has been withdrawn. The [game release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) supplies `VITA-PKG-XDELTA.json` and `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip` for the new flow. The ZIP is approximately **945 MB**. No full `.pkg` file or license is included.
+**The repository and release are private again.** Automatic downloads require your existing GitHub CLI sign-in with repository access. Use the local Retro Trans 0.5.14 build to test both Vita routes. Tools 0.5.14 is currently a local test build, not a published tools release; the remaining published tools 0.5.4 does not support this Automatic PKG route. Tools v0.5.11 has been withdrawn. The [game release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) supplies `VITA-PKG-XDELTA.json` and `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip` for the new flow. The ZIP is approximately **945 MB**. No full `.pkg` file or license is included.
 
 For a local override, download that ZIP and select it under **Vita → Vita3K PKG → Local patch (optional)**. The original PKG remains unchanged. The release no longer supplies decrypted-component patches or a CPK replacement workflow. See [installation instructions](docs/patch-installation.md).
 
@@ -39,7 +39,7 @@ File/patch verification does not establish that every scene renders correctly. N
 
 ## Check the translation
 
-Use your own original game for comparison. The public [scenario](work/translation/en/corpus.en.json), [UI](work/translation/en/interface.en.json), [battle/gallery](work/translation/en/additional.en.json), [raster](work/translation/en/raster.en.json) and [system-title](work/translation/en/metadata.en.json) catalogs contain English, source IDs, hashes and review notes. Japanese dialogue is read from local extracted files, rather than distributed in Git.
+Use your own original game for comparison. The [scenario](work/translation/en/corpus.en.json), [UI](work/translation/en/interface.en.json), [battle/gallery](work/translation/en/additional.en.json), [raster](work/translation/en/raster.en.json) and [system-title](work/translation/en/metadata.en.json) catalogs contain English, source IDs, hashes and review notes. Japanese dialogue is read from local extracted files, rather than distributed in Git.
 
 Use [Vita3K testing instructions](docs/vita3k-testing.md) to reproduce a problem. Report the build version, screen or chapter, exact text, emulator/device and a screenshot. Distinguish a translation issue from text clipping, missing artwork or animation problems. Restart the game after changing patch files.
 
