@@ -86,6 +86,43 @@ def package(version, checkout, write=False):
         if set(bundle.namelist()) != set(extras) or any(bundle.read(name)!=raw for name,raw in extras.items()):
             raise ValueError('Extras ZIP readback failed')
     (output/'EXTRAS-SHA256SUMS.txt').write_text(digest(archive)+'  '+archive.name+'\n',encoding='utf-8')
+    # The application owns the PKG encryption code. This ZIP carries only a
+    # declarative profile, verified translation deltas and generated extras.
+    from retro_trans.vita_translation import validate,archive_description,SCHEMA
+    original_pkg = dict(bytes=925548400,sha256='962498429645bf92d0171280b075629ff6dc8100f365ce43805d2cd3e897ebcb')
+    source_files = []
+    original = ROOT/'work/source/decrypted'
+    for path in sorted(original.rglob('*')):
+        if path.is_file():
+            source_files.append(dict(path=path.relative_to(original).as_posix(),bytes=path.stat().st_size,sha256=digest(path)))
+    profile = dict(schema=SCHEMA,name='Cross Ange English '+version,build=version,title_id='PCSG00597',
+        content_id='JP0700-PCSG00597_00-CROSSANGEGAME000',target='Vita3K',minimum_app_version='0.5.8',
+        package=original_pkg,engine='pfs-v5-pkg-key2',source_files=source_files,files=[],extras=[])
+    for row in manifest['patches']:
+        profile['files'].append(dict(path=row['edition'].split(' / ',1)[1],
+            source=dict(bytes=row['source_bytes'],sha256=row['source_sha256']),
+            target=dict(bytes=row['target_bytes'],sha256=row['target_sha256']),
+            patch=dict(name=row['patch'],bytes=row['patch_bytes'],sha256=row['patch_sha256'])))
+    for relative,name in [('sce_sys/manual/025.png','credits.png'),('sce_sys/font-license.txt','font-license.txt')]:
+        raw = extras[relative]
+        profile['extras'].append(dict(path=relative,name=name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()))
+    validate(profile)
+    profile_file = output/'VITA-PKG.json'
+    profile_file.write_text(json.dumps(profile,indent=2)+'\n',encoding='utf-8')
+    vita_zip = output/f'Cross-Ange-English-{version}-Vita-PKG-patches.zip'
+    inventory = {'VITA-PKG.json':profile_file.read_bytes()}
+    inventory.update({row['patch']['name']:(output/row['patch']['name']).read_bytes() for row in profile['files']})
+    inventory.update({row['name']:extras[row['path']] for row in profile['extras']})
+    with zipfile.ZipFile(vita_zip,'x',compression=zipfile.ZIP_DEFLATED) as bundle:
+        for name,raw in inventory.items():
+            entry = zipfile.ZipInfo(name,date_time=(1980,1,1,0,0,0))
+            entry.compress_type = zipfile.ZIP_DEFLATED
+            bundle.writestr(entry,raw)
+    with archive_description(vita_zip) as (checked,temporary):
+        if checked != profile:
+            raise ValueError('Vita PKG profile readback mismatch')
+    (output/'VITA-PKG-SHA256SUMS.txt').write_text(''.join(digest(path)+'  '+path.name+'\n'
+        for path in (profile_file,vita_zip)),encoding='utf-8')
     validate_directory(output)
     print(json.dumps(dict(status='verified-release-package',version=version,
                           patch_roundtrips=len(manifest['patches']),extras_zip_verified=True,
@@ -95,7 +132,7 @@ def package(version, checkout, write=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build',required=True)
-    parser.add_argument('--retro-trans-tools',type=Path,default=ROOT/'tools/pkg_vendor/retro-trans-tools')
+    parser.add_argument('--retro-trans-tools',type=Path,default=ROOT.parent/'retro-trans-tools')
     parser.add_argument('--write',action='store_true')
     args = parser.parse_args()
     package(args.build,args.retro_trans_tools,args.write)

@@ -1,7 +1,7 @@
 {
-  "project_version": "0.1.12",
+  "project_version": "0.1.13",
   "checked_on": "2026-10-12",
-  "status": "structured_english_local_test_build_available",
+  "status": "structured_english_direct_pkg_local_test_build_available",
   "scenario_completed_slices": 166,
   "scenario_exported_rows": 13277,
   "scenario_drafted_japanese_rows": 13214,
@@ -2629,8 +2629,8 @@
   "scenario_remaining_japanese_rows": 0,
   "draft_milestone_version": "0.1.3",
   "latest_local_build": {
-    "version": "0.1.12",
-    "manifest": "work/output/cross-ange-0.1.12/manifest.json",
+    "version": "0.1.13",
+    "manifest": "work/output/cross-ange-0.1.13/manifest.json",
     "structured_targets_inserted": 17151,
     "scenario_files": 462,
     "scenario_layout_review_rows": 296,
@@ -2652,7 +2652,10 @@
       "maximum_lines": 3,
       "body_width_limit": 670
     },
-    "installation_status": "installed-and-hash-verified",
-    "installation_record": "work/output/cross-ange-0.1.12/vita3k-install.json"
+    "installation_status": "native-pkg-install-and-48-file-hashes-verified-in-isolation",
+    "installation_record": "docs/pkg-patching-validation-0.1.13.json",
+    "package": "work/output/cross-ange-0.1.13/Cross-Ange-English-0.1.13.pkg",
+    "gameplay_tested": false,
+    "release_published": false
   }
 }

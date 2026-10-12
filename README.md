@@ -1,10 +1,14 @@
 # Cross Ange: Rondo of Angel and Dragon tr. — English patch
 
-English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Dragon tr.** (**PCSG00597**, Japanese release). Apply the xdelta patches to your own decrypted game files. This repository contains English translation text, glossaries, layout records and tools; game packages, extracted artwork, licenses and local Japanese scripts stay outside Git.
+English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Dragon tr.** (**PCSG00597**, Japanese release). The local PKG patcher takes your original game package and matching license and creates an English PKG for Vita3K. This repository contains English translation text, glossaries, layout records and tools; game packages, extracted artwork, licenses and local Japanese scripts stay outside Git.
 
 ## Applying the patch
 
-Use the latest [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest) app for automatic patching:
+The preferred Vita3K workflow is **original PKG + matching NoNpDrm `work.bin` or `.rif` → English PKG → install in Vita3K with the same license**. In the Retro Trans **0.5.8 local test build**, open **Vita**, choose **Vita3K PKG**, and select your original package, matching license, this release's `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip`, and a new PKG filename. Click **Create translated PKG**. No existing installation or manual CPK editing is required. See [direct PKG patching](docs/pkg-patching.md) for the verified edition and CLI alternative. This custom emulator package is not Sony-signed.
+
+**The repository and releases remain private.** Version 0.1.13 adds a declarative Vita PKG profile and a small ZIP containing both translation patches, credits and font attribution. Users supply their own game package and license; the release includes neither. Retro Trans 0.5.8 adds the generic profile flow but has not been published as an app release. The existing Automatic and Apply xdelta routes remain available with the standard two-file patches.
+
+For the existing decrypted-file workflow, use [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest):
 
 1. From your own original decrypted game, copy `cpk/Ange.cpk` and `sce_sys/param.sfo` into one new working folder. Keep their names and preserve the originals.
 2. Open **Automatic**, click **Refresh catalog**, then use **Folder…** to select that working folder. Choose **Cross Ange English components (PCSG00597)**, leave **Target** on **Latest**, and choose a new output folder.
@@ -24,7 +28,7 @@ Create the `english` folder first. The patches require the exact original files 
 
 ## Release status
 
-**v0.1.12 is an early English test release requiring proofreading and full playtesting.** It inserts all 17,151 identified structured targets: scenario dialogue and choices, speaker labels, UI, battle/navigation captions, gallery fields and system titles. All 15 chapter/prologue headings appear in both graphic variants, and all ten identified tutorial pictures now have English text, including their embedded samples.
+**v0.1.13 is an early English local test build requiring proofreading and full playtesting.** Its rebuilt PKG passed an isolated Vita3K installation and all 48 installed file hashes matched the English build. Gameplay of this PKG has not been tested. Translation content is retained from 0.1.12: all 17,151 identified structured targets, including scenario dialogue and choices, speaker labels, UI, battle/navigation captions, gallery fields and system titles. All 15 chapter/prologue headings appear in both graphic variants, and all ten identified tutorial pictures have English text, including their embedded samples.
 
 The build uses **GenEi LateGo v2 Medium**, native proportional character advances and pixel-width dialogue wrapping. Title branding and the appended manual credits page share the build version. Briefing/unit labels use compact display wording, and result time fields use **s** and **Left** to fit their fixed spaces.
 

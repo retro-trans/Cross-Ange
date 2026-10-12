@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-12 — v0.1.13 private release preparation
+
+- User requested changing the release to original-PKG input and adding a generic Vita option to sibling `../retro-trans-tools`. Prepared a declarative VITA-PKG profile and a verified ZIP containing only translation deltas, credits and font attribution; retained the standard Automatic/Apply xdelta assets.
+- Retro Trans 0.5.8 selects a destination and reads game identities and inventories from release profiles. New supported games need profiles rather than game-specific UI. Added authenticated outer/inner path checks and output-installation verification; retained hardware rePatch and its Z3 fallback.
+- The sibling app suite passed 226 tests with four platform-specific skips. Prepared a local Windows app build; its source remains local, including preserved earlier diagnostics changes. No Retro Trans app publication is implied.
+- Exported all 226 English-only catalogs before committing. No Japanese scripts, full PKGs, original artwork, executables or licenses enter Git or the translation release. Repository privacy remains unchanged.
+
+## 0.1.13 — 2026-10-12 — Direct PKG patching for Vita3K
+
+- Added `tools/patch_pkg.py`: original Japanese PKG plus the user's matching NoNpDrm license produces a new English PKG, without an existing game installation or manual CPK editing. Accepts prepared local builds or the existing Retro Trans-compatible translation delta/extras assets.
+- Rebuilds native encrypted PFS sectors, file database, sector integrity tables, PKG offsets and plaintext metadata. Validates all encrypted payloads, then performs an isolated native Vita3K install and exact inventory/hash comparison before saving the output. Preserves original PKG, license, real emulator installation and saves.
+- Incremented to 0.1.13 and regenerated title footer and credits together. Retained 0.1.12 translation content, GenEi LateGo v2 Medium and OFL attribution. Repacked 483 archive members; preserved original payloads and 4,003 unaffected TOC rows.
+- Eight package regressions and twenty existing translation/font/tutorial/branding checks passed. Confirmed compatibility against original PFS header authentication and byte-identical original CPK sector encryption, rather than relying only on inverse round trips.
+- The 0.1.13 PKG installed successfully in isolated Vita3K; all 48 decrypted game files matched the English build. Separately converted the existing 0.1.12 release assets through the player route, with the same successful installation and 48-file verification. Recorded non-secret reports and repeatable setup in `docs/pkg-patching.md`.
+- Custom PKGs are for Vita3K, are not Sony-signed, and still need the matching license at installation. Gameplay of the new PKG and physical-Vita behavior are untested. Existing translation/layout limitations, remaining raster/manual/video text and the duplicate Naomi eye-animation tile remain unresolved.
+- Repository remains private following the user's request to unpublish. Full PKGs stay local; no 0.1.13 GitHub release was created or published.
+
 ## 2026-10-12 — v0.1.12 public release
 
 - Adopted retro-trans/ACE-3's README and release presentation: applying patches, review status, source workflow, repository layout and credits.
