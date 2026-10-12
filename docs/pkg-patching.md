@@ -2,7 +2,10 @@
 
 The current v0.1.13 release applies one xdelta to your original encrypted PKG.
 Patching does not read a license or run Vita3K. The matching license is needed
-separately when installing the translated result in Vita3K.
+separately when installing the translated result in Vita3K. You must have
+**Cross Ange PCSG00597's matching `work.bin`** (or compatible `.rif`); a license
+from another game will not work. Licenses are never included or downloaded.
+For hardware Vita, use the separate [rePatch route](repatch-installation.md).
 
 ## Automatic
 

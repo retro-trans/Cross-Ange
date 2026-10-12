@@ -4,6 +4,8 @@ English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Drag
 
 ## Applying the patch
 
+**Installation requirement:** you must have your own `work.bin` for **Cross Ange PCSG00597** (or its matching compatible `.rif`). A license from another game will not work. It is not included in the patch and is never downloaded by the tools. Whole-PKG patching does not read it; supply it when installing the result in Vita3K.
+
 Use **Retro Trans 0.5.12 or a later compatible build**:
 
 1. Open **Automatic** and browse to your original Japanese PCSG00597 `.pkg`.
@@ -22,6 +24,10 @@ xdelta3 -d -s Original.pkg Cross-Ange-English-0.1.13-PKG.xdelta English.pkg
 ```
 
 Keep a new output filename. The exact original and output sizes/hashes are recorded in `VITA-PKG-XDELTA.json`; `SHA256SUMS.txt` covers downloads. This is not an upgrade patch for an existing English PKG. [Release notes](https://github.com/retro-trans/Cross-Ange/releases) include changes and known limitations. GitHub's source ZIP contains project files, not the translation ZIP or a playable game.
+
+**Hardware Vita rePatch:** use the local **Retro Trans 0.5.14** build. In **Vita**, choose **Hardware rePatch**, select the original Japanese PCSG00597 PKG and its matching `work.bin`, and choose a new output folder. Leave **Local patch** blank to download the hardware patch ZIP, or select `Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip`. Click **Create rePatch**, then copy the generated `rePatch/PCSG00597` to `ux0:rePatch/PCSG00597` with VitaShell. Your original game must already be installed and a compatible rePatch plugin enabled. See [hardware instructions](docs/repatch-installation.md).
+
+The hardware ZIP is about **5.4 MB**. The tools create the complete translated archive locally; rePatch overlays whole files, so this game needs about **902 MB** for its archive on the Vita. The overlay leaves the original executable, installed game and license unchanged. Physical-Vita gameplay and the manual credits page still need testing. This option does not use the custom Vita3K PKG.
 
 ## Release status
 

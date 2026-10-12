@@ -1,5 +1,12 @@
 # Changelog
 
+### 0.1.13 — Hardware rePatch support
+
+- Added a separate rePatch profile/ZIP for PCSG00597 v01.00 and generic hardware discovery in the local tools 0.5.14 build. The overlay uses the existing English archive and includes generated credits/font attribution, preserving the original executable and authentication.
+- Explicitly require this game's matching work.bin for installation and for hardware PKG extraction; another title's license is unsuitable. Whole-PKG patching remains license-free. No licenses or full archives are published.
+- The hardware patch download is about 5.4 MB and generates an approximately 902 MB archive overlay locally. Game bytes and version stay 0.1.13; physical-Vita gameplay and manual credits are not verified.
+- The frozen local tools 0.5.14 app passed the published automatic hardware route, including isolated native PKG extraction and all three overlay-file hashes, preserving the original and license. Its suite passed 270 tests with four platform-specific skips. The existing whole-PKG assets remain unchanged; tools publication is not part of this update.
+
 ### 0.1.13 — Whole-PKG release distribution
 
 - Updated the existing private game release to `VITA-PKG-XDELTA.json` and one whole-PKG xdelta ZIP. Automatic in the local Retro Trans 0.5.12 build downloads the ZIP and patches the original encrypted PKG without a license. Manual patching uses the delta extracted from that same ZIP. Vita3K still requires the user's matching license during installation.

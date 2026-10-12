@@ -2,8 +2,7 @@
 
 Patch your original Japanese package through Retro Trans 0.5.12's **Automatic**
 tab, or use the whole-PKG delta with an external patcher. See [PKG instructions](pkg-patching.md).
-Patching does not request `work.bin`/`.rif`. The current release has one PKG
-route; it does not supply a CPK replacement or hardware rePatch overlay.
+Patching does not request `work.bin`/`.rif`. You must have the **PCSG00597 game's matching `work.bin`** (or compatible `.rif`) to install the result; another title's license will not work. The hardware Vita route is documented separately in [rePatch instructions](repatch-installation.md).
 
 1. Back up any existing Cross Ange saves before installation and close the game.
 2. In Vita3K, select **File → Install .pkg** and choose the translated English PKG.

@@ -60,5 +60,6 @@
   "zip_download_verified_by_frozen_app": true,
   "game_bytes_changed": false,
   "gameplay_tested": false,
-  "physical_vita_tested": false
+  "physical_vita_tested": false,
+  "additional_hardware_route_record": "repatch-release-0.1.13.json"
 }

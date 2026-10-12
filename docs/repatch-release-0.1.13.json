@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "version": "0.1.13",
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "private": true,
+  "routes": [
+    "Vita3K whole-PKG xdelta",
+    "hardware Vita rePatch"
+  ],
+  "minimum_repatch_app_version": "0.5.14",
+  "tools_build_published": false,
+  "whole_pkg_assets_unchanged": true,
+  "standalone_component_assets_retired": true,
+  "hardware_assets": [
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip",
+      "bytes": 5397094,
+      "sha256": "ed5411aff296c03a27ffa7a1e4e19d172f26ffb1233e4231f964cbb497930b1a",
+      "asset_id": 633359765
+    },
+    {
+      "name": "REPATCH-AUTOMATIC-VALIDATION.json",
+      "bytes": 1996,
+      "sha256": "3b875ebb46ad70b81a50bde49fd7efd74d8cac5f7bc08a6ea92fd3305179532e",
+      "asset_id": 633375013
+    },
+    {
+      "name": "REPATCH-SHA256SUMS.txt",
+      "bytes": 391,
+      "sha256": "cb5ac98d56c31b6e8c1f5b20cb0c681fdad6aed9acbb6bbd50eee1ce2cd6d858",
+      "asset_id": 633375098
+    },
+    {
+      "name": "REPATCH-VALIDATION.json",
+      "bytes": 1131,
+      "sha256": "81c8616079f7da8ca0db104edcca742e7a7734263e1707df0b6b7edbc37b5906",
+      "asset_id": 633374964
+    },
+    {
+      "name": "VITA-REPATCH.json",
+      "bytes": 1417,
+      "sha256": "2c9407c9cdbe0764b0d8604fdf74e88f1bef36b2d578116cdfc59cf28abd724b",
+      "asset_id": 633359900
+    }
+  ],
+  "frozen_hardware_automatic_verified": true,
+  "native_original_pkg_extraction_verified": true,
+  "original_executable_preserved": true,
+  "license_included": false,
+  "full_game_archive_included": false,
+  "release_notes_verified": true,
+  "asset_downloads_verified": true,
+  "physical_vita_tested": false,
+  "manual_credits_on_hardware_verified": false
+}
