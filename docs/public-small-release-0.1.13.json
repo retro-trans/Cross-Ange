@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T11:16:21.508881+00:00",
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "private": false,
+  "anonymous_pkg_and_hardware_discovery_reached_validated_archives": true,
+  "anonymous_browser_downloads": [
+    {
+      "profile": "VITA-PKG.json",
+      "archive": "Cross-Ange-English-0.1.13-Vita-PKG-patches.zip",
+      "bytes": 5399828,
+      "anonymous_download_and_validation_passed": true
+    },
+    {
+      "profile": "VITA-REPATCH.json",
+      "archive": "Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip",
+      "bytes": 5397094,
+      "anonymous_download_and_validation_passed": true
+    }
+  ],
+  "github_credentials_used_for_downloads": false,
+  "anonymous_api_rate_limit_encountered_on_repeated_scans": true,
+  "asset_count": 16,
+  "game_assets_unchanged": true,
+  "game_build_unchanged": true,
+  "tools_release_published": false,
+  "release_notes_sha256": "e9ae13280fbad7b38be125720e7c31bfad90e0ee395694f0d226e0f067d27120",
+  "full_rebuild_repeated": false,
+  "prior_rebuild_proof": "pkg-rebuild-automatic-0.1.13.json"
+}

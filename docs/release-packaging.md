@@ -1,6 +1,6 @@
 # Vita release packaging
 
-The recommended Vita3K route downloads small translation patches and rebuilds an English PKG locally from the user's original package and matching license. Manual installed CPK patches and hardware rePatch remain available. Keep the repository private; whole-PKG xdelta downloads remain withdrawn.
+The recommended Vita3K route downloads small translation patches and rebuilds an English PKG locally from the user's original package and matching license. Manual installed CPK patches and hardware rePatch remain available. The user authorized public access for the first public release; whole-PKG xdelta downloads remain withdrawn.
 
 Use `tools/package_release.py --build 0.1.13 --write` to package the local-rebuild profile/ZIP, or `--format cpk` for component assets. These delegate to `package_pkg_release.py` and `package_cpk_release.py`. Both preview by default and preserve existing outputs. Local-rebuild packaging validates all declared source/English/patch identities and the exact ZIP inventory, including credits/font attribution. It publishes nothing and does not include original game files or licenses.
 

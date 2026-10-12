@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.13 — First public release
+
+- Published the existing small-download game release at the user's request. Shortened release notes and replaced change history with What's included. Updated current instructions for public downloads without GitHub sign-in.
+- Preserved all 16 release assets, game bytes/version and local-only tools 0.5.16. No new game build or tools release.
+- Verified anonymous PKG/rePatch discovery and direct downloads with archive/hash checks. Repeated anonymous catalog scans reached GitHub's rate limit; public browser downloads remained available. See docs/public-small-release-0.1.13.json.
+
 ### 0.1.13 — Restore small-download PKG Automatic
 
 - Verification: the frozen local tools 0.5.16 app downloaded the small published ZIP with an empty cache and rebuilt the exact native-verified English PKG; the actual Automatic UI worker passed too. Both native installations verified all 48 files, originals/licenses stayed unchanged, and the 257-test suite passed with four platform skips. See PKG-REBUILD-VALIDATION.json.
