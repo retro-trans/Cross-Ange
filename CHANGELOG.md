@@ -1,5 +1,14 @@
 # Changelog
 
+### 0.1.13 — Restore installed CPK patching
+
+- Verification: the actual Apply xdelta UI reproduced the complete English CPK, metadata and extras matched their expected identities, and all seven restored component downloads were verified after upload. The replacement app passed its 251-test suite with four platform skips and frozen startup. Prior local app bundles are archived outside active build outputs.
+
+- At the user's request, restored the approximately 5.35 MB CPK delta, optional metadata delta and credits/font attribution extras. Users install their original licensed game in Vita3K, close it, patch installed files to new outputs and replace with backups.
+- Removed the approximately 945 MB whole-PKG ZIP/profile and their current verification assets. Keep the repository/release private, matching licenses required for original installation and hardware extraction, and preserve all historical proof records.
+- Withdrew local whole-PKG tools builds 0.5.12–0.5.14. Published tools 0.5.4 still handles Apply xdelta; local replacement source 0.5.15 removes PKG patch options and retains hardware rePatch. No new tools release is published.
+- Component output identities and native-verified English game bytes remain unchanged; version/footer/credits remain 0.1.13. Full gameplay and physical-Vita testing remain outstanding.
+
 ### 0.1.13 — Restore private access
 
 - Restored repository and existing release privacy at the user's request because the approximately 945 MB whole-PKG download is too large. Updated current instructions to require repository access through GitHub CLI sign-in.

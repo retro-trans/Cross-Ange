@@ -9,10 +9,10 @@ You must have **Cross Ange's matching `work.bin`** (or compatible NoNpDrm `.rif`
 to extract the original PKG with the tools. A different game's license will not
 work. A license is not supplied or downloaded. An already licensed cartridge or
 official installation uses its existing license; the overlay does not install or
-license the base game. Vita3K's English PKG installation also needs this game's
-matching local license, although whole-PKG patching does not.
+license the base game. Installing the original game in Vita3K also requires this game's matching license;
+patching its installed CPK does not.
 
-1. Run the local **Retro Trans 0.5.14** app and open **Vita → Hardware rePatch**.
+1. Use the local **Retro Trans 0.5.15** source/app and open **Vita → Hardware rePatch**.
 2. Select the original Japanese PCSG00597 `.pkg` and its matching `work.bin`.
 3. Choose a new output folder, with at least **6 GB free** for temporary work.
 4. Leave **Local patch** blank to download the game's hardware patch automatically.
@@ -21,7 +21,7 @@ matching local license, although whole-PKG patching does not.
 5. Click **Create rePatch** and wait for successful verification. The tools use
    an isolated official Vita3K runtime to decrypt your original locally, apply
    the archive delta and create the overlay. Emulator settings and saves remain
-   untouched. Tools 0.5.14 remains a local build, not a published app release.
+   untouched. Tools 0.5.15 remains a local build, not a published app release.
 6. Close the game, back up saves and any existing overlay, then copy the generated
    `rePatch/PCSG00597` into **`ux0:rePatch/PCSG00597`** using VitaShell. Keep the
    existing game installation; do not merge an older translation or other mods.
@@ -35,7 +35,7 @@ so the generated overlay contains the complete translated `cpk/Ange.cpk`
 release contains a delta, not a full archive. Users do not manually patch a CPK.
 The executable, original game files, licenses and save data are preserved.
 
-This is a hardware overlay, separate from the custom English PKG for Vita3K.
+This is a hardware overlay, separate from replacing the installed CPK in Vita3K.
 No modified executable or `self_auth.bin` is needed for this asset-only translation.
 The manual credit image and font attribution accompany the overlay, but access
 to manual page 25 through the Vita's system viewer has not been verified.

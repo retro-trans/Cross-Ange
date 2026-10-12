@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T10:37:58.971984+00:00",
+  "version": "0.1.13",
+  "private": true,
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "route": "installed CPK patches",
+  "component_assets_downloaded_and_verified": true,
+  "published_assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1899,
+      "sha256": "7e353aa3667bb95c94148d8b031d383d215341c67c7db9ee427cba1d2b3dc540",
+      "asset_id": 633469543
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Ange.xdelta",
+      "bytes": 5349702,
+      "sha256": "cdb726f114b55e0876bd0ce0b9fc635a748361fb5d6af487bc7f25e11fdec7ce",
+      "asset_id": 633469593
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-param.xdelta",
+      "bytes": 160,
+      "sha256": "33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14",
+      "asset_id": 633469663
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-extras.zip",
+      "bytes": 49284,
+      "sha256": "f21f7852c91c1f4a8209fd725f05ba35c61e3fadb581b3583b5cf06b2f04cea7",
+      "asset_id": 633469716
+    },
+    {
+      "name": "EXTRAS-SHA256SUMS.txt",
+      "bytes": 104,
+      "sha256": "a2faff09e79aadbc112ddc926135ff4ec234ac7390768c0ab2a9bd0997f70cfb",
+      "asset_id": 633469762
+    },
+    {
+      "name": "CPK-VALIDATION.json",
+      "bytes": 705,
+      "sha256": "7c1ff6b2fd5be5090223584fdf616211da81951095275e71ac115c07898ef3f9",
+      "asset_id": 633469807
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 572,
+      "sha256": "c61307fc7570faf27519f80d0f506bd307acc59b8f84e4c678f8cbbb41ff8473",
+      "asset_id": 633469896
+    }
+  ],
+  "retired_assets": [
+    "Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip",
+    "VITA-PKG-XDELTA.json",
+    "VALIDATION.json",
+    "AUTOMATIC-VALIDATION.json"
+  ],
+  "hardware_assets_unchanged": true,
+  "game_build_unchanged": true,
+  "tools_release_created": false,
+  "tools_source_pushed": false,
+  "prior_publication_records_retained": true,
+  "gameplay_tested": false
+}

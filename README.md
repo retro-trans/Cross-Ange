@@ -1,33 +1,36 @@
 # Cross Ange: Rondo of Angel and Dragon tr. — English patch
 
-English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Dragon tr.** (**PCSG00597**, Japanese release). Apply a whole-PKG xdelta to your original package to create an English PKG for Vita3K. Patching does not need a license; Vita3K requests your matching license during installation. This repository contains English text, glossaries, layout records and tools; full game packages, extracted artwork, licenses and local Japanese scripts stay outside Git.
+English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Dragon tr.** (**PCSG00597**, Japanese release). Install your original game in Vita3K, then apply the small xdelta to its installed CPK. Installation requires the game's matching license; CPK patching does not. This repository contains English text, glossaries, layout records and tools; full game packages, extracted artwork, licenses and local Japanese scripts stay outside Git.
 
 ## Applying the patch
 
-**Installation requirement:** you must have your own `work.bin` for **Cross Ange PCSG00597** (or its matching compatible `.rif`). A license from another game will not work. It is not included in the patch and is never downloaded by the tools. Whole-PKG patching does not read it; supply it when installing the result in Vita3K.
+**Install the original game first, then patch its installed files.** You need your own Japanese **PCSG00597 v01.00** PKG and that game's matching `work.bin` (or compatible `.rif`) for installation in Vita3K. Licenses are never included or downloaded. Patching the installed files does not read a license.
 
-Use the local **Retro Trans 0.5.14** build:
+The repository and release remain **private**. Download the small CPK delta, optional metadata delta and extras from the [v0.1.13 release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) using an account with repository access. The CPK delta is **5,349,702 bytes (about 5.35 MB)**. The whole-PKG ZIP and its profile have been withdrawn.
 
-1. Open **Automatic** and browse to your original Japanese PCSG00597 `.pkg`.
-2. Choose a new **Translated PKG** filename and click **Patch**. The matching whole-PKG translation ZIP downloads automatically; there is no license input.
-3. In Vita3K, use **File → Install .pkg** to install the output and supply your matching `work.bin`/`.rif` when requested.
-4. Restart the game and check **v0.1.13** on the title screen. Credits and the font license are included in the translated package.
+1. Install the original PKG in Vita3K with its matching license, then close Vita3K and back up your saves and original game files.
+2. Locate `<Vita3K data folder>/ux0/app/PCSG00597/cpk/Ange.cpk`. With this computer's configuration it is `E:\Emu\vita3k\fs\ux0\app\PCSG00597\cpk\Ange.cpk`. Other computers may use a different data folder.
+3. In **Retro Trans → Apply xdelta**, select that original `Ange.cpk`, `Cross-Ange-English-0.1.13-Ange.xdelta`, and a **new output filename** outside the installed game folder. The existing published tools **0.5.4** supports this manual binary route; local source 0.5.15 removes the withdrawn PKG options. External DeltaPatcher/xdelta3 also work.
+4. Verify the output SHA-256 below, then replace the installed `cpk/Ange.cpk` with the patched output, keeping the original backup. Never patch an already translated archive.
+5. Optionally patch the original `sce_sys/param.sfo` with `Cross-Ange-English-0.1.13-param.xdelta` to a new file, verify its hash, then replace that installed file. This updates the displayed game title.
+6. Extract `Cross-Ange-English-0.1.13-extras.zip` and copy its `sce_sys/manual/025.png` and `sce_sys/font-license.txt` into the installed game's corresponding folders. Read `INSTALL.md`; these extras contain translation credits and required font attribution.
+7. Restart Vita3K, launch Cross Ange and check **v0.1.13** in the title footer. Translation credits are on manual page 25.
 
-**The repository and release are private again.** Automatic downloads require your existing GitHub CLI sign-in with repository access. Use the local Retro Trans 0.5.14 build to test both Vita routes. Tools 0.5.14 is currently a local test build, not a published tools release; the remaining published tools 0.5.4 does not support this Automatic PKG route. Tools v0.5.11 has been withdrawn. The [game release](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13) supplies `VITA-PKG-XDELTA.json` and `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip` for the new flow. The ZIP is approximately **945 MB**. No full `.pkg` file or license is included.
-
-For a local override, download that ZIP and select it under **Vita → Vita3K PKG → Local patch (optional)**. The original PKG remains unchanged. The release no longer supplies decrypted-component patches or a CPK replacement workflow. See [installation instructions](docs/patch-installation.md).
-
-**Manual patching without our tools:** download the same ZIP, extract its `Cross-Ange-English-0.1.13-PKG.xdelta`, and use [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) or xdelta3 with your original PKG:
+**Manual commands:**
 
 ```text
-xdelta3 -d -s Original.pkg Cross-Ange-English-0.1.13-PKG.xdelta English.pkg
+xdelta3 -d -s Ange.cpk Cross-Ange-English-0.1.13-Ange.xdelta Ange-English.cpk
+xdelta3 -d -s param.sfo Cross-Ange-English-0.1.13-param.xdelta param-English.sfo
 ```
 
-Keep a new output filename. The exact original and output sizes/hashes are recorded in `VITA-PKG-XDELTA.json`; `SHA256SUMS.txt` covers downloads. This is not an upgrade patch for an existing English PKG. [Release notes](https://github.com/retro-trans/Cross-Ange/releases) include changes and known limitations. GitHub's source ZIP contains project files, not the translation ZIP or a playable game.
+| File | Original SHA-256 | English SHA-256 |
+| --- | --- | --- |
+| `Ange.cpk` | `e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de` | `4d6b444ee37994d5282a8fd377cee964f056a68e7a2be9a1f0b075b761601a3a` |
+| `param.sfo` | `04924d2566147471c89464d568c8ae8708b43cc296b370c6b8f208317cebf603` | `6d4414054f46e25b14e5ef25ae9d4c655f9c1111155cc51e43cf6e7c46d00c10` |
 
-**Hardware Vita rePatch:** use the local **Retro Trans 0.5.14** build. In **Vita**, choose **Hardware rePatch**, select the original Japanese PCSG00597 PKG and its matching `work.bin`, and choose a new output folder. Leave **Local patch** blank to download the hardware patch ZIP, or select `Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip`. Click **Create rePatch**, then copy the generated `rePatch/PCSG00597` to `ux0:rePatch/PCSG00597` with VitaShell. Your original game must already be installed and a compatible rePatch plugin enabled. See [hardware instructions](docs/repatch-installation.md).
+The original archive is **882,846,536 bytes**; the English archive is **902,054,728 bytes**. `BUILD-MANIFEST.json` pins sources, patches and outputs; `SHA256SUMS.txt` covers the downloads. Local file replacement requires enough space for the original backup and patched archive. If your original hash differs, stop and check the game revision or whether a translation/mod is already installed.
 
-The hardware ZIP is about **5.4 MB**. The tools create the complete translated archive locally; rePatch overlays whole files, so this game needs about **902 MB** for its archive on the Vita. The overlay leaves the original executable, installed game and license unchanged. Physical-Vita gameplay and the manual credits page still need testing. This option does not use the custom Vita3K PKG.
+Automatic catalog recognition depends on a catalog entry accessible to the app. This private release does not add an entry to the public catalog: use **Apply xdelta** with the downloaded patch. Hardware rePatch remains a separate [small-download route](docs/repatch-installation.md). Older whole-PKG tools builds 0.5.12–0.5.14 are withdrawn; no new tools release is published by this update.
 
 ## Release status
 

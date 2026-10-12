@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T10:34:37.578774+00:00",
+  "version": "0.1.13",
+  "route": "installed CPK with Apply xdelta",
+  "actual_apply_xdelta_ui_worker_passed": true,
+  "complete_cpk_sha256": "4d6b444ee37994d5282a8fd377cee964f056a68e7a2be9a1f0b075b761601a3a",
+  "original_cpk_unchanged": true,
+  "optional_metadata_delta_passed": true,
+  "credits_and_font_attribution_match_game_build": true,
+  "matching_license_needed_for_original_installation": true,
+  "license_read_during_cpk_patching": false,
+  "game_build_unchanged": true,
+  "tools_version": "0.5.15",
+  "tools_build_published": false,
+  "gameplay_tested": false,
+  "physical_vita_tested": false,
+  "ui_progress": []
+}
