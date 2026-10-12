@@ -1,0 +1,2144 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1120,
+    "last_id": 1199,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      1110,
+      1209
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 62,
+    "unchanged_nonlinguistic": 17,
+    "translated_needs_review": 1
+  },
+  "japanese_source_rows": 63,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 1120,
+      "key": "STR_ITM_DECAL_PERSONAL_40",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8980,
+      "label_offset": 69028,
+      "source_offset": 55468,
+      "source_bytes": 18,
+      "en": "No.00 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55468,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.00 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_40",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1121,
+      "key": "STR_ITM_DECAL_PERSONAL_41",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8988,
+      "label_offset": 69064,
+      "source_offset": 55488,
+      "source_bytes": 18,
+      "en": "No.01 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55488,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.01 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_41",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1122,
+      "key": "STR_ITM_DECAL_PERSONAL_42",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8996,
+      "label_offset": 69100,
+      "source_offset": 55508,
+      "source_bytes": 18,
+      "en": "No.02 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55508,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.02 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_42",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1123,
+      "key": "STR_ITM_DECAL_PERSONAL_43",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9004,
+      "label_offset": 69136,
+      "source_offset": 55528,
+      "source_bytes": 18,
+      "en": "No.03 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55528,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.03 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_43",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1124,
+      "key": "STR_ITM_DECAL_PERSONAL_44",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9012,
+      "label_offset": 69172,
+      "source_offset": 55548,
+      "source_bytes": 18,
+      "en": "No.04 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55548,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.04 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_44",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1125,
+      "key": "STR_ITM_DECAL_PERSONAL_45",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9020,
+      "label_offset": 69208,
+      "source_offset": 55568,
+      "source_bytes": 18,
+      "en": "No.05 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55568,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.05 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_45",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1126,
+      "key": "STR_ITM_DECAL_PERSONAL_46",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9028,
+      "label_offset": 69244,
+      "source_offset": 55588,
+      "source_bytes": 18,
+      "en": "No.06 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55588,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.06 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_46",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1127,
+      "key": "STR_ITM_DECAL_PERSONAL_47",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9036,
+      "label_offset": 69280,
+      "source_offset": 55608,
+      "source_bytes": 18,
+      "en": "No.07 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55608,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.07 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_47",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1128,
+      "key": "STR_ITM_DECAL_PERSONAL_48",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9044,
+      "label_offset": 69316,
+      "source_offset": 55628,
+      "source_bytes": 18,
+      "en": "No.08 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55628,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.08 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_48",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1129,
+      "key": "STR_ITM_DECAL_PERSONAL_49",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9052,
+      "label_offset": 69352,
+      "source_offset": 55648,
+      "source_bytes": 18,
+      "en": "No.09 Star",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55648,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "No.09 Star"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_49",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1130,
+      "key": "STR_ITM_DECAL_PERSONAL_50",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9060,
+      "label_offset": 69388,
+      "source_offset": 55668,
+      "source_bytes": 4,
+      "en": "50",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55668,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "50"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_50",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1131,
+      "key": "STR_ITM_DECAL_PERSONAL_51",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9068,
+      "label_offset": 69424,
+      "source_offset": 55676,
+      "source_bytes": 4,
+      "en": "51",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55676,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "51"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_51",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1132,
+      "key": "STR_ITM_DECAL_PERSONAL_52",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9076,
+      "label_offset": 69460,
+      "source_offset": 55684,
+      "source_bytes": 4,
+      "en": "52",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55684,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "52"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_52",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1133,
+      "key": "STR_ITM_DECAL_PERSONAL_53",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9084,
+      "label_offset": 69496,
+      "source_offset": 55692,
+      "source_bytes": 4,
+      "en": "53",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55692,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "53"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_53",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1134,
+      "key": "STR_ITM_DECAL_PERSONAL_54",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9092,
+      "label_offset": 69532,
+      "source_offset": 55700,
+      "source_bytes": 4,
+      "en": "54",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55700,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "54"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_54",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1135,
+      "key": "STR_ITM_DECAL_PERSONAL_55",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9100,
+      "label_offset": 69568,
+      "source_offset": 55708,
+      "source_bytes": 4,
+      "en": "55",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55708,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "55"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_55",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1136,
+      "key": "STR_ITM_DECAL_PERSONAL_56",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9108,
+      "label_offset": 69604,
+      "source_offset": 55716,
+      "source_bytes": 4,
+      "en": "56",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55716,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "56"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_56",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1137,
+      "key": "STR_ITM_DECAL_PERSONAL_57",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9116,
+      "label_offset": 69640,
+      "source_offset": 55724,
+      "source_bytes": 4,
+      "en": "57",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55724,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "57"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_57",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1138,
+      "key": "STR_ITM_DECAL_PERSONAL_58",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9124,
+      "label_offset": 69676,
+      "source_offset": 55732,
+      "source_bytes": 4,
+      "en": "58",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55732,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "58"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_58",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1139,
+      "key": "STR_ITM_DECAL_PERSONAL_59",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9132,
+      "label_offset": 69712,
+      "source_offset": 55740,
+      "source_bytes": 4,
+      "en": "59",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55740,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "59"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_59",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1140,
+      "key": "STR_ITM_DECAL_PERSONAL_60",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9140,
+      "label_offset": 69748,
+      "source_offset": 55748,
+      "source_bytes": 4,
+      "en": "60",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55748,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "60"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_60",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1141,
+      "key": "STR_ITM_DECAL_PERSONAL_61",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9148,
+      "label_offset": 69784,
+      "source_offset": 55756,
+      "source_bytes": 4,
+      "en": "61",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55756,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "61"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_61",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1142,
+      "key": "STR_ITM_DECAL_PERSONAL_62",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9156,
+      "label_offset": 69820,
+      "source_offset": 55764,
+      "source_bytes": 4,
+      "en": "62",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55764,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "62"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_62",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1143,
+      "key": "STR_ITM_DECAL_PERSONAL_63",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9164,
+      "label_offset": 69856,
+      "source_offset": 55772,
+      "source_bytes": 4,
+      "en": "63",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55772,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "63"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_63",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1144,
+      "key": "STR_ITM_DECAL_PERSONAL_64",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9172,
+      "label_offset": 69892,
+      "source_offset": 55780,
+      "source_bytes": 4,
+      "en": "64",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55780,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "64"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_64",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1145,
+      "key": "STR_ITM_DECAL_PERSONAL_65",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9180,
+      "label_offset": 69928,
+      "source_offset": 55788,
+      "source_bytes": 4,
+      "en": "65",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55788,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "65"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_65",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1146,
+      "key": "STR_ITM_DECAL_PERSONAL_66",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9188,
+      "label_offset": 69964,
+      "source_offset": 55796,
+      "source_bytes": 4,
+      "en": "66",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55796,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "66"
+        },
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_66",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 1147,
+      "key": "STR_TMG_SYSTEM_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9196,
+      "label_offset": 70000,
+      "source_offset": 55804,
+      "source_bytes": 22,
+      "en": "#b3Wait a second!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55804,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#b3Wait a second!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b3"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1148,
+      "key": "STR_TMG_COMMENT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9204,
+      "label_offset": 70036,
+      "source_offset": 55828,
+      "source_bytes": 10,
+      "en": "Line 01",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55828,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 01"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1149,
+      "key": "STR_TMG_COMMENT_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9212,
+      "label_offset": 70072,
+      "source_offset": 55840,
+      "source_bytes": 10,
+      "en": "Line 02",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55840,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 02"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1150,
+      "key": "STR_TMG_COMMENT_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9220,
+      "label_offset": 70108,
+      "source_offset": 55852,
+      "source_bytes": 10,
+      "en": "Line 03",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55852,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 03"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1151,
+      "key": "STR_TMG_COMMENT_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9228,
+      "label_offset": 70144,
+      "source_offset": 55864,
+      "source_bytes": 10,
+      "en": "Line 04",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55864,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 04"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1152,
+      "key": "STR_TMG_COMMENT_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9236,
+      "label_offset": 70180,
+      "source_offset": 55876,
+      "source_bytes": 10,
+      "en": "Line 05",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55876,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 05"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1153,
+      "key": "STR_TMG_COMMENT_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9244,
+      "label_offset": 70216,
+      "source_offset": 55888,
+      "source_bytes": 10,
+      "en": "Line 06",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55888,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 06"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1154,
+      "key": "STR_TMG_COMMENT_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9252,
+      "label_offset": 70252,
+      "source_offset": 55900,
+      "source_bytes": 10,
+      "en": "Line 07",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55900,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 07"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1155,
+      "key": "STR_TMG_COMMENT_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9260,
+      "label_offset": 70288,
+      "source_offset": 55912,
+      "source_bytes": 10,
+      "en": "Line 08",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55912,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 08"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1156,
+      "key": "STR_TMG_COMMENT_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9268,
+      "label_offset": 70324,
+      "source_offset": 55924,
+      "source_bytes": 10,
+      "en": "Line 09",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55924,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 09"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1157,
+      "key": "STR_TMG_COMMENT_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9276,
+      "label_offset": 70360,
+      "source_offset": 55936,
+      "source_bytes": 10,
+      "en": "Line 10",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55936,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 10"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1158,
+      "key": "STR_TMG_COMMENT_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9284,
+      "label_offset": 70396,
+      "source_offset": 55948,
+      "source_bytes": 10,
+      "en": "Line 11",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55948,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 11"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1159,
+      "key": "STR_TMG_COMMENT_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9292,
+      "label_offset": 70432,
+      "source_offset": 55960,
+      "source_bytes": 10,
+      "en": "Line 12",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55960,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 12"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1160,
+      "key": "STR_TMG_COMMENT_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9300,
+      "label_offset": 70468,
+      "source_offset": 55972,
+      "source_bytes": 10,
+      "en": "Line 13",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55972,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 13"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1161,
+      "key": "STR_TMG_COMMENT_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9308,
+      "label_offset": 70504,
+      "source_offset": 55984,
+      "source_bytes": 10,
+      "en": "Line 14",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55984,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 14"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1162,
+      "key": "STR_TMG_COMMENT_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9316,
+      "label_offset": 70540,
+      "source_offset": 55996,
+      "source_bytes": 10,
+      "en": "Line 15",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55996,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 15"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1163,
+      "key": "STR_TMG_COMMENT_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9324,
+      "label_offset": 70576,
+      "source_offset": 56008,
+      "source_bytes": 10,
+      "en": "Line 16",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56008,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 16"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1164,
+      "key": "STR_TMG_COMMENT_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9332,
+      "label_offset": 70612,
+      "source_offset": 56020,
+      "source_bytes": 10,
+      "en": "Line 17",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56020,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 17"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1165,
+      "key": "STR_TMG_COMMENT_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9340,
+      "label_offset": 70648,
+      "source_offset": 56032,
+      "source_bytes": 10,
+      "en": "Line 18",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56032,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 18"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1166,
+      "key": "STR_TMG_COMMENT_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9348,
+      "label_offset": 70684,
+      "source_offset": 56044,
+      "source_bytes": 10,
+      "en": "Line 19",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56044,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 19"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1167,
+      "key": "STR_TMG_COMMENT_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9356,
+      "label_offset": 70720,
+      "source_offset": 56056,
+      "source_bytes": 10,
+      "en": "Line 20",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56056,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Line 20"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1168,
+      "key": "STR_TMG_REACTION_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9364,
+      "label_offset": 70756,
+      "source_offset": 56068,
+      "source_bytes": 16,
+      "en": "Reaction: Correct",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56068,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Reaction: Correct"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1169,
+      "key": "STR_TMG_REACTION_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9372,
+      "label_offset": 70792,
+      "source_offset": 56088,
+      "source_bytes": 18,
+      "en": "Reaction: Incorrect",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56088,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Reaction: Incorrect"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1170,
+      "key": "STR_TMG_REACTION_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9380,
+      "label_offset": 70828,
+      "source_offset": 56108,
+      "source_bytes": 16,
+      "en": "Reaction: NG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56108,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Reaction: NG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1171,
+      "key": "STR_TMG_ANSWER_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9388,
+      "label_offset": 70864,
+      "source_offset": 56128,
+      "source_bytes": 8,
+      "en": "Answer 01",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56128,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 01"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1172,
+      "key": "STR_TMG_ANSWER_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9396,
+      "label_offset": 70900,
+      "source_offset": 56140,
+      "source_bytes": 8,
+      "en": "Answer 02",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56140,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 02"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1173,
+      "key": "STR_TMG_ANSWER_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9404,
+      "label_offset": 70936,
+      "source_offset": 56152,
+      "source_bytes": 8,
+      "en": "Answer 03",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56152,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 03"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1174,
+      "key": "STR_TMG_ANSWER_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9412,
+      "label_offset": 70972,
+      "source_offset": 56164,
+      "source_bytes": 8,
+      "en": "Answer 04",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56164,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 04"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1175,
+      "key": "STR_TMG_ANSWER_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9420,
+      "label_offset": 71008,
+      "source_offset": 56176,
+      "source_bytes": 8,
+      "en": "Answer 05",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56176,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 05"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1176,
+      "key": "STR_TMG_ANSWER_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9428,
+      "label_offset": 71044,
+      "source_offset": 56188,
+      "source_bytes": 8,
+      "en": "Answer 06",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56188,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 06"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1177,
+      "key": "STR_TMG_ANSWER_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9436,
+      "label_offset": 71080,
+      "source_offset": 56200,
+      "source_bytes": 8,
+      "en": "Answer 07",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56200,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 07"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1178,
+      "key": "STR_TMG_ANSWER_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9444,
+      "label_offset": 71116,
+      "source_offset": 56212,
+      "source_bytes": 8,
+      "en": "Answer 08",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56212,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 08"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1179,
+      "key": "STR_TMG_ANSWER_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9452,
+      "label_offset": 71152,
+      "source_offset": 56224,
+      "source_bytes": 8,
+      "en": "Answer 09",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56224,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 09"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1180,
+      "key": "STR_TMG_ANSWER_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9460,
+      "label_offset": 71188,
+      "source_offset": 56236,
+      "source_bytes": 8,
+      "en": "Answer 10",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56236,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 10"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1181,
+      "key": "STR_TMG_ANSWER_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9468,
+      "label_offset": 71224,
+      "source_offset": 56248,
+      "source_bytes": 8,
+      "en": "Answer 11",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56248,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 11"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1182,
+      "key": "STR_TMG_ANSWER_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9476,
+      "label_offset": 71260,
+      "source_offset": 56260,
+      "source_bytes": 8,
+      "en": "Answer 12",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56260,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 12"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1183,
+      "key": "STR_TMG_ANSWER_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9484,
+      "label_offset": 71296,
+      "source_offset": 56272,
+      "source_bytes": 8,
+      "en": "Answer 13",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56272,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 13"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1184,
+      "key": "STR_TMG_ANSWER_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9492,
+      "label_offset": 71332,
+      "source_offset": 56284,
+      "source_bytes": 8,
+      "en": "Answer 14",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56284,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 14"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1185,
+      "key": "STR_TMG_ANSWER_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9500,
+      "label_offset": 71368,
+      "source_offset": 56296,
+      "source_bytes": 8,
+      "en": "Answer 15",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56296,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Answer 15"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Minigame system line or numbered development placeholder; numbering and NG marker preserved.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1186,
+      "key": "STR_TMG_COMMENT_ANG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9508,
+      "label_offset": 71404,
+      "source_offset": 56308,
+      "source_bytes": 70,
+      "en": "Hey, hey!#nAnge, what do#nyou do when#nyou're not training?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56308,
+          "source_bytes": 70,
+          "contains_japanese": true,
+          "en": "Hey, hey!#nAnge, what do#nyou do when#nyou're not training?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1187,
+      "key": "STR_TMG_COMMENT_ANG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9516,
+      "label_offset": 71440,
+      "source_offset": 56380,
+      "source_bytes": 36,
+      "en": "When I'm not training?#nNothing in particular.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56380,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "When I'm not training?#nNothing in particular."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1188,
+      "key": "STR_TMG_COMMENT_ANG_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9524,
+      "label_offset": 71476,
+      "source_offset": 56420,
+      "source_bytes": 58,
+      "en": "You don't sneak off#nand train#nin secret or anything?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56420,
+          "source_bytes": 58,
+          "contains_japanese": true,
+          "en": "You don't sneak off#nand train#nin secret or anything?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1189,
+      "key": "STR_TMG_COMMENT_ANG_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9532,
+      "label_offset": 71512,
+      "source_offset": 56480,
+      "source_bytes": 58,
+      "en": "Why would I#nbother doing#nsomething like that?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56480,
+          "source_bytes": 58,
+          "contains_japanese": true,
+          "en": "Why would I#nbother doing#nsomething like that?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1190,
+      "key": "STR_TMG_COMMENT_ANG_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9540,
+      "label_offset": 71548,
+      "source_offset": 56540,
+      "source_bytes": 28,
+      "en": "Besides, why would#nI need to hide it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56540,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Besides, why would#nI need to hide it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1191,
+      "key": "STR_TMG_COMMENT_ANG_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9548,
+      "label_offset": 71584,
+      "source_offset": 56572,
+      "source_bytes": 34,
+      "en": "#b0(She doesn't do anything in particular...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56572,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "#b0(She doesn't do anything in particular...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1192,
+      "key": "STR_TMG_COMMENT_ANG_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9556,
+      "label_offset": 71620,
+      "source_offset": 56608,
+      "source_bytes": 50,
+      "en": "Then what do#nyou do with#nyour free time?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56608,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Then what do#nyou do with#nyour free time?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1193,
+      "key": "STR_TMG_COMMENT_ANG_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9564,
+      "label_offset": 71656,
+      "source_offset": 56660,
+      "source_bytes": 52,
+      "en": "I go for a run outside,#nor swim in the pool.#nAll sorts of things.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56660,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "I go for a run outside,#nor swim in the pool.#nAll sorts of things."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1194,
+      "key": "STR_TMG_COMMENT_ANG_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9572,
+      "label_offset": 71692,
+      "source_offset": 56716,
+      "source_bytes": 32,
+      "en": "That's#ntraining!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56716,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "That's#ntraining!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1195,
+      "key": "STR_TMG_COMMENT_ANG_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9580,
+      "label_offset": 71728,
+      "source_offset": 56752,
+      "source_bytes": 64,
+      "en": "It's nothing that#nserious. Everyone#ngets some exercise, don't they?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56752,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "It's nothing that#nserious. Everyone#ngets some exercise, don't they?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1196,
+      "key": "STR_TMG_COMMENT_ANG_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9588,
+      "label_offset": 71764,
+      "source_offset": 56820,
+      "source_bytes": 74,
+      "en": "Huh? I don't exercise#nat all.#nI spend my free time#nplaying games in my room...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56820,
+          "source_bytes": 74,
+          "contains_japanese": true,
+          "en": "Huh? I don't exercise#nat all.#nI spend my free time#nplaying games in my room..."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1197,
+      "key": "STR_TMG_COMMENT_ANG_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9596,
+      "label_offset": 71800,
+      "source_offset": 56896,
+      "source_bytes": 66,
+      "en": "#b0(She does it all the time,#nso she doesn't really think about it.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56896,
+          "source_bytes": 66,
+          "contains_japanese": true,
+          "en": "#b0(She does it all the time,#nso she doesn't really think about it.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1198,
+      "key": "STR_TMG_COMMENT_ANG_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9604,
+      "label_offset": 71836,
+      "source_offset": 56964,
+      "source_bytes": 94,
+      "en": "I can't be as#ncarefree as#nyou girls.#nIn that sense,#nI'm a little jealous.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 56964,
+          "source_bytes": 94,
+          "contains_japanese": true,
+          "en": "I can't be as#ncarefree as#nyou girls.#nIn that sense,#nI'm a little jealous."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1199,
+      "key": "STR_TMG_COMMENT_ANG_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9612,
+      "label_offset": 71872,
+      "source_offset": 57060,
+      "source_bytes": 14,
+      "en": "Is that another dig at us?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57060,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Is that another dig at us?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

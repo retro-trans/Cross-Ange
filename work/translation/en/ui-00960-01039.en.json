@@ -1,0 +1,2204 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 960,
+    "last_id": 1039,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      950,
+      1049
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 80
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 960,
+      "key": "STR_ITM_PARTS_COATING_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7700,
+      "label_offset": 63268,
+      "source_offset": 51216,
+      "source_bytes": 24,
+      "en": "Coating ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51216,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 961,
+      "key": "STR_ITM_PARTS_ACTUATOR_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7708,
+      "label_offset": 63304,
+      "source_offset": 51244,
+      "source_bytes": 26,
+      "en": "Actuator ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51244,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 962,
+      "key": "STR_ITM_PARTS_ACTUATOR_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7716,
+      "label_offset": 63340,
+      "source_offset": 51272,
+      "source_bytes": 26,
+      "en": "Actuator ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51272,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 963,
+      "key": "STR_ITM_PARTS_ACTUATOR_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7724,
+      "label_offset": 63376,
+      "source_offset": 51300,
+      "source_bytes": 26,
+      "en": "Actuator ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51300,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 964,
+      "key": "STR_ITM_PARTS_ACTUATOR_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7732,
+      "label_offset": 63412,
+      "source_offset": 51328,
+      "source_bytes": 26,
+      "en": "Actuator ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51328,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 965,
+      "key": "STR_ITM_PARTS_ACTUATOR_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7740,
+      "label_offset": 63448,
+      "source_offset": 51356,
+      "source_bytes": 26,
+      "en": "Actuator ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51356,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 966,
+      "key": "STR_ITM_PARTS_ACTUATOR_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7748,
+      "label_offset": 63484,
+      "source_offset": 51384,
+      "source_bytes": 26,
+      "en": "Actuator ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51384,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 967,
+      "key": "STR_ITM_PARTS_ACTUATOR_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7756,
+      "label_offset": 63520,
+      "source_offset": 51412,
+      "source_bytes": 26,
+      "en": "Actuator ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51412,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 968,
+      "key": "STR_ITM_PARTS_ACTUATOR_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7764,
+      "label_offset": 63556,
+      "source_offset": 51440,
+      "source_bytes": 26,
+      "en": "Actuator ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51440,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 969,
+      "key": "STR_ITM_PARTS_ACTUATOR_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7772,
+      "label_offset": 63592,
+      "source_offset": 51468,
+      "source_bytes": 26,
+      "en": "Actuator ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51468,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 970,
+      "key": "STR_ITM_PARTS_ACTUATOR_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7780,
+      "label_offset": 63628,
+      "source_offset": 51496,
+      "source_bytes": 26,
+      "en": "Actuator ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51496,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Actuator ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_actuator_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 971,
+      "key": "STR_ITM_DRAG_FIRE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7788,
+      "label_offset": 63664,
+      "source_offset": 51524,
+      "source_bytes": 6,
+      "en": "Fireball",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51524,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Fireball"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_drag_fire_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 972,
+      "key": "STR_ITM_DRAG_SCALE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7796,
+      "label_offset": 63700,
+      "source_offset": 51532,
+      "source_bytes": 4,
+      "en": "Scale Shot",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51532,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Scale Shot"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_drag_scale_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 973,
+      "key": "STR_ITM_DRAG_TAIL_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7804,
+      "label_offset": 63736,
+      "source_offset": 51540,
+      "source_bytes": 6,
+      "en": "Tail",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51540,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Tail"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_drag_tail_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 974,
+      "key": "STR_ITM_COLOR_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7812,
+      "label_offset": 63772,
+      "source_offset": 51548,
+      "source_bytes": 28,
+      "en": "Glaive T00 Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51548,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T00 Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 975,
+      "key": "STR_ITM_COLOR_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7820,
+      "label_offset": 63808,
+      "source_offset": 51580,
+      "source_bytes": 28,
+      "en": "Glaive T00 Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51580,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T00 Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 976,
+      "key": "STR_ITM_COLOR_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7828,
+      "label_offset": 63844,
+      "source_offset": 51612,
+      "source_bytes": 30,
+      "en": "Glaive T00 Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51612,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T00 Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 977,
+      "key": "STR_ITM_COLOR_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7836,
+      "label_offset": 63880,
+      "source_offset": 51644,
+      "source_bytes": 30,
+      "en": "Glaive T00 Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51644,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T00 Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 978,
+      "key": "STR_ITM_COLOR_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7844,
+      "label_offset": 63916,
+      "source_offset": 51676,
+      "source_bytes": 32,
+      "en": "Glaive T00 Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51676,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T00 Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 979,
+      "key": "STR_ITM_COLOR_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7852,
+      "label_offset": 63952,
+      "source_offset": 51712,
+      "source_bytes": 34,
+      "en": "Glaive T00 Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51712,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T00 Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 980,
+      "key": "STR_ITM_COLOR_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7860,
+      "label_offset": 63988,
+      "source_offset": 51748,
+      "source_bytes": 34,
+      "en": "Glaive T00 Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51748,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T00 Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 981,
+      "key": "STR_ITM_COLOR_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7868,
+      "label_offset": 64024,
+      "source_offset": 51784,
+      "source_bytes": 30,
+      "en": "Glaive T00 Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51784,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T00 Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 982,
+      "key": "STR_ITM_COLOR_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7876,
+      "label_offset": 64060,
+      "source_offset": 51816,
+      "source_bytes": 32,
+      "en": "Glaive T00 Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51816,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T00 Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 983,
+      "key": "STR_ITM_COLOR_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7884,
+      "label_offset": 64096,
+      "source_offset": 51852,
+      "source_bytes": 32,
+      "en": "Glaive T00 Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51852,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T00 Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_10",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 984,
+      "key": "STR_ITM_COLOR_81",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7892,
+      "label_offset": 64132,
+      "source_offset": 51888,
+      "source_bytes": 30,
+      "en": "Glaive T00 Marika Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51888,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T00 Marika Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_81",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 985,
+      "key": "STR_ITM_COLOR_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7900,
+      "label_offset": 64168,
+      "source_offset": 51920,
+      "source_bytes": 24,
+      "en": "Arquebus Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51920,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Arquebus Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_11",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 986,
+      "key": "STR_ITM_COLOR_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7908,
+      "label_offset": 64204,
+      "source_offset": 51948,
+      "source_bytes": 24,
+      "en": "Arquebus Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51948,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Arquebus Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_12",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 987,
+      "key": "STR_ITM_COLOR_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7916,
+      "label_offset": 64240,
+      "source_offset": 51976,
+      "source_bytes": 26,
+      "en": "Arquebus Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51976,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_13",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 988,
+      "key": "STR_ITM_COLOR_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7924,
+      "label_offset": 64276,
+      "source_offset": 52004,
+      "source_bytes": 26,
+      "en": "Arquebus Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52004,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_14",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 989,
+      "key": "STR_ITM_COLOR_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7932,
+      "label_offset": 64312,
+      "source_offset": 52032,
+      "source_bytes": 28,
+      "en": "Arquebus Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52032,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_15",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 990,
+      "key": "STR_ITM_COLOR_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7940,
+      "label_offset": 64348,
+      "source_offset": 52064,
+      "source_bytes": 30,
+      "en": "Arquebus Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52064,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Arquebus Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_16",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 991,
+      "key": "STR_ITM_COLOR_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7948,
+      "label_offset": 64384,
+      "source_offset": 52096,
+      "source_bytes": 30,
+      "en": "Arquebus Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52096,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Arquebus Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_17",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 992,
+      "key": "STR_ITM_COLOR_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7956,
+      "label_offset": 64420,
+      "source_offset": 52128,
+      "source_bytes": 26,
+      "en": "Arquebus Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52128,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_18",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 993,
+      "key": "STR_ITM_COLOR_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7964,
+      "label_offset": 64456,
+      "source_offset": 52156,
+      "source_bytes": 28,
+      "en": "Arquebus Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52156,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_19",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 994,
+      "key": "STR_ITM_COLOR_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7972,
+      "label_offset": 64492,
+      "source_offset": 52188,
+      "source_bytes": 28,
+      "en": "Arquebus Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52188,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_20",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 995,
+      "key": "STR_ITM_COLOR_82",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7980,
+      "label_offset": 64528,
+      "source_offset": 52220,
+      "source_bytes": 26,
+      "en": "Arquebus Zola Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52220,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Zola Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_82",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 996,
+      "key": "STR_ITM_COLOR_83",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7988,
+      "label_offset": 64564,
+      "source_offset": 52248,
+      "source_bytes": 26,
+      "en": "Arquebus Salia Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52248,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Salia Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_83",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 997,
+      "key": "STR_ITM_COLOR_84",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7996,
+      "label_offset": 64600,
+      "source_offset": 52276,
+      "source_bytes": 26,
+      "en": "Arquebus Hilda Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52276,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Hilda Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_84",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 998,
+      "key": "STR_ITM_COLOR_85",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8004,
+      "label_offset": 64636,
+      "source_offset": 52304,
+      "source_bytes": 26,
+      "en": "Arquebus Tusk Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52304,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Arquebus Tusk Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_85",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 999,
+      "key": "STR_ITM_COLOR_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8012,
+      "label_offset": 64672,
+      "source_offset": 52332,
+      "source_bytes": 22,
+      "en": "Razor Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52332,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Razor Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_21",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1000,
+      "key": "STR_ITM_COLOR_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8020,
+      "label_offset": 64708,
+      "source_offset": 52356,
+      "source_bytes": 22,
+      "en": "Razor Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52356,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Razor Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_22",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1001,
+      "key": "STR_ITM_COLOR_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8028,
+      "label_offset": 64744,
+      "source_offset": 52380,
+      "source_bytes": 24,
+      "en": "Razor Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52380,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Razor Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_23",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1002,
+      "key": "STR_ITM_COLOR_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8036,
+      "label_offset": 64780,
+      "source_offset": 52408,
+      "source_bytes": 24,
+      "en": "Razor Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52408,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Razor Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_24",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1003,
+      "key": "STR_ITM_COLOR_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8044,
+      "label_offset": 64816,
+      "source_offset": 52436,
+      "source_bytes": 26,
+      "en": "Razor Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52436,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Razor Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_25",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1004,
+      "key": "STR_ITM_COLOR_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8052,
+      "label_offset": 64852,
+      "source_offset": 52464,
+      "source_bytes": 28,
+      "en": "Razor Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52464,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Razor Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_26",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1005,
+      "key": "STR_ITM_COLOR_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8060,
+      "label_offset": 64888,
+      "source_offset": 52496,
+      "source_bytes": 28,
+      "en": "Razor Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52496,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Razor Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_27",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1006,
+      "key": "STR_ITM_COLOR_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8068,
+      "label_offset": 64924,
+      "source_offset": 52528,
+      "source_bytes": 24,
+      "en": "Razor Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52528,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Razor Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_28",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1007,
+      "key": "STR_ITM_COLOR_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8076,
+      "label_offset": 64960,
+      "source_offset": 52556,
+      "source_bytes": 26,
+      "en": "Razor Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52556,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Razor Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_29",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1008,
+      "key": "STR_ITM_COLOR_30",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8084,
+      "label_offset": 64996,
+      "source_offset": 52584,
+      "source_bytes": 26,
+      "en": "Razor Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52584,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Razor Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_30",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1009,
+      "key": "STR_ITM_COLOR_86",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8092,
+      "label_offset": 65032,
+      "source_offset": 52612,
+      "source_bytes": 30,
+      "en": "Razor Vivian Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52612,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Razor Vivian Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_86",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1010,
+      "key": "STR_ITM_COLOR_31",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8100,
+      "label_offset": 65068,
+      "source_offset": 52644,
+      "source_bytes": 28,
+      "en": "Glaive T01 Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52644,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T01 Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_31",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1011,
+      "key": "STR_ITM_COLOR_32",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8108,
+      "label_offset": 65104,
+      "source_offset": 52676,
+      "source_bytes": 28,
+      "en": "Glaive T01 Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52676,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T01 Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_32",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1012,
+      "key": "STR_ITM_COLOR_33",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8116,
+      "label_offset": 65140,
+      "source_offset": 52708,
+      "source_bytes": 30,
+      "en": "Glaive T01 Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52708,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T01 Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_33",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1013,
+      "key": "STR_ITM_COLOR_34",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8124,
+      "label_offset": 65176,
+      "source_offset": 52740,
+      "source_bytes": 30,
+      "en": "Glaive T01 Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52740,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T01 Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_34",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1014,
+      "key": "STR_ITM_COLOR_35",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8132,
+      "label_offset": 65212,
+      "source_offset": 52772,
+      "source_bytes": 32,
+      "en": "Glaive T01 Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52772,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T01 Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_35",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1015,
+      "key": "STR_ITM_COLOR_36",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8140,
+      "label_offset": 65248,
+      "source_offset": 52808,
+      "source_bytes": 34,
+      "en": "Glaive T01 Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52808,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T01 Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_36",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1016,
+      "key": "STR_ITM_COLOR_37",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8148,
+      "label_offset": 65284,
+      "source_offset": 52844,
+      "source_bytes": 34,
+      "en": "Glaive T01 Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52844,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T01 Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_37",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1017,
+      "key": "STR_ITM_COLOR_38",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8156,
+      "label_offset": 65320,
+      "source_offset": 52880,
+      "source_bytes": 28,
+      "en": "Glaive T01 Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52880,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T01 Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_38",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1018,
+      "key": "STR_ITM_COLOR_39",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8164,
+      "label_offset": 65356,
+      "source_offset": 52912,
+      "source_bytes": 30,
+      "en": "Glaive T01 Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52912,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T01 Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_39",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1019,
+      "key": "STR_ITM_COLOR_40",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8172,
+      "label_offset": 65392,
+      "source_offset": 52944,
+      "source_bytes": 30,
+      "en": "Glaive T01 Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52944,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T01 Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_40",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1020,
+      "key": "STR_ITM_COLOR_87",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8180,
+      "label_offset": 65428,
+      "source_offset": 52976,
+      "source_bytes": 30,
+      "en": "Glaive T01 Hilda Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 52976,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T01 Hilda Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_87",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1021,
+      "key": "STR_ITM_COLOR_88",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8188,
+      "label_offset": 65464,
+      "source_offset": 53008,
+      "source_bytes": 32,
+      "en": "Glaive T01 Mary Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53008,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T01 Mary Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_88",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1022,
+      "key": "STR_ITM_COLOR_41",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8196,
+      "label_offset": 65500,
+      "source_offset": 53044,
+      "source_bytes": 28,
+      "en": "Glaive T02 Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53044,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T02 Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_41",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1023,
+      "key": "STR_ITM_COLOR_42",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8204,
+      "label_offset": 65536,
+      "source_offset": 53076,
+      "source_bytes": 28,
+      "en": "Glaive T02 Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53076,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive T02 Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_42",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1024,
+      "key": "STR_ITM_COLOR_43",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8212,
+      "label_offset": 65572,
+      "source_offset": 53108,
+      "source_bytes": 30,
+      "en": "Glaive T02 Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53108,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T02 Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_43",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1025,
+      "key": "STR_ITM_COLOR_44",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8220,
+      "label_offset": 65608,
+      "source_offset": 53140,
+      "source_bytes": 30,
+      "en": "Glaive T02 Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53140,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T02 Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_44",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1026,
+      "key": "STR_ITM_COLOR_45",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8228,
+      "label_offset": 65644,
+      "source_offset": 53172,
+      "source_bytes": 32,
+      "en": "Glaive T02 Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53172,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T02 Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_45",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1027,
+      "key": "STR_ITM_COLOR_46",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8236,
+      "label_offset": 65680,
+      "source_offset": 53208,
+      "source_bytes": 34,
+      "en": "Glaive T02 Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53208,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T02 Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_46",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1028,
+      "key": "STR_ITM_COLOR_47",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8244,
+      "label_offset": 65716,
+      "source_offset": 53244,
+      "source_bytes": 34,
+      "en": "Glaive T02 Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53244,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Glaive T02 Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_47",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1029,
+      "key": "STR_ITM_COLOR_48",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8252,
+      "label_offset": 65752,
+      "source_offset": 53280,
+      "source_bytes": 30,
+      "en": "Glaive T02 Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53280,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Glaive T02 Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_48",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1030,
+      "key": "STR_ITM_COLOR_49",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8260,
+      "label_offset": 65788,
+      "source_offset": 53312,
+      "source_bytes": 32,
+      "en": "Glaive T02 Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53312,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T02 Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_49",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1031,
+      "key": "STR_ITM_COLOR_50",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8268,
+      "label_offset": 65824,
+      "source_offset": 53348,
+      "source_bytes": 32,
+      "en": "Glaive T02 Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53348,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T02 Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_50",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1032,
+      "key": "STR_ITM_COLOR_89",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8276,
+      "label_offset": 65860,
+      "source_offset": 53384,
+      "source_bytes": 32,
+      "en": "Glaive T02 Rosalie Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53384,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Glaive T02 Rosalie Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_89",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1033,
+      "key": "STR_ITM_COLOR_51",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8284,
+      "label_offset": 65896,
+      "source_offset": 53420,
+      "source_bytes": 22,
+      "en": "Howitzer Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53420,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Howitzer Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_51",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1034,
+      "key": "STR_ITM_COLOR_52",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8292,
+      "label_offset": 65932,
+      "source_offset": 53444,
+      "source_bytes": 22,
+      "en": "Howitzer Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53444,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Howitzer Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_52",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1035,
+      "key": "STR_ITM_COLOR_53",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8300,
+      "label_offset": 65968,
+      "source_offset": 53468,
+      "source_bytes": 24,
+      "en": "Howitzer Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53468,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Howitzer Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_53",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1036,
+      "key": "STR_ITM_COLOR_54",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8308,
+      "label_offset": 66004,
+      "source_offset": 53496,
+      "source_bytes": 24,
+      "en": "Howitzer Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53496,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Howitzer Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_54",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1037,
+      "key": "STR_ITM_COLOR_55",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8316,
+      "label_offset": 66040,
+      "source_offset": 53524,
+      "source_bytes": 26,
+      "en": "Howitzer Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53524,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Howitzer Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_55",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1038,
+      "key": "STR_ITM_COLOR_56",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8324,
+      "label_offset": 66076,
+      "source_offset": 53552,
+      "source_bytes": 28,
+      "en": "Howitzer Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53552,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Howitzer Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_56",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1039,
+      "key": "STR_ITM_COLOR_57",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8332,
+      "label_offset": 66112,
+      "source_offset": 53584,
+      "source_bytes": 28,
+      "en": "Howitzer Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53584,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Howitzer Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_57",
+      "glossary_status": "project_convention"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

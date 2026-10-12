@@ -1,0 +1,50 @@
+{
+  "version": "0.1.3",
+  "language": "en",
+  "source_type": "manual_embedded_screenshot",
+  "entries": [
+    {
+      "id": "manual-screenshot:008:load-heading",
+      "source_file": "sce_sys/manual/008.png",
+      "source_sha256": "36753ac25ad1bdd97e70f3b85414f5f6afabf7b9bec01a515dfc8332716a4d91",
+      "image_width": 960,
+      "image_height": 544,
+      "region": {
+        "x": 807,
+        "y": 326,
+        "width": 43,
+        "height": 12
+      },
+      "en": "Load",
+      "status": "translated",
+      "context": "Embedded platform load dialog, page 8. Read at original size and enlarged crop; new-save label repeats in four empty save slots.",
+      "decisions": [
+        "Translate the visible platform label separately from the game UI table."
+      ]
+    },
+    {
+      "id": "manual-screenshot:008:new-save-data",
+      "source_file": "sce_sys/manual/008.png",
+      "source_sha256": "36753ac25ad1bdd97e70f3b85414f5f6afabf7b9bec01a515dfc8332716a4d91",
+      "image_width": 960,
+      "image_height": 544,
+      "region": {
+        "x": 794,
+        "y": 359,
+        "width": 105,
+        "height": 66
+      },
+      "en": "New Save Data",
+      "status": "translated",
+      "context": "Embedded platform load dialog, page 8. Read at original size and enlarged crop; new-save label repeats in four empty save slots.",
+      "decisions": [
+        "Translate the visible platform label separately from the game UI table."
+      ]
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "terms": [
+    {
+      "id": "n_type_cryo_beam_absolute_zero",
+      "category": "ship_weapon",
+      "japanese": [
+        "Ｎ式零線破壊砲・アブソリュート・ゼロ",
+        "Ｎ式零線破壊砲"
+      ],
+      "english": "N-Type Cryo Beam, Absolute Zero",
+      "short_name": "N-Type Cryo Beam",
+      "status": "wiki_backed_base_project_expanded_name",
+      "game_source_observed": true,
+      "global_rows": [
+        9908
+      ],
+      "source_ids": [
+        "C101_BEV_0106:9835"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Aurora",
+          "supports": "Aurora's strongest weapon is named N-type Cryo Beam and freezes its path; researched and approved by coordinating translator."
+        }
+      ],
+      "notes": "Base weapon name follows the English wiki under project policy. Absolute Zero transliterates the local source subtitle; the full combined English title is not verified as official. Literal zero-line destruction cannon is an alternate literal rendering, not the canonical base name."
+    },
+    {
+      "id": "fashion_warrior_salia_perfect",
+      "category": "cosplay_persona",
+      "japanese": [
+        "おしゃれ戦士サリアパーフェクト"
+      ],
+      "english": "Fashion Warrior Salia Perfect",
+      "status": "project_provisional_source_backed",
+      "game_source_observed": true,
+      "global_rows": [
+        11401
+      ],
+      "source_ids": [
+        "C110_SLI_000:11323"
+      ],
+      "sources": [],
+      "notes": "Coordinating translator focused searches found no reliable external match. Full source title translated with phonetic persona name; keep distinct from Pretty Salian and other named titles."
+    },
+    {
+      "id": "magical_girl_salia_perfect",
+      "category": "cosplay_persona",
+      "japanese": [
+        "魔法少女サリアパーフェクト"
+      ],
+      "english": "Magical Girl Salia Perfect",
+      "status": "project_provisional_source_backed",
+      "game_source_observed": true,
+      "global_rows": [
+        11405
+      ],
+      "source_ids": [
+        "C110_SLI_000:11327"
+      ],
+      "sources": [],
+      "notes": "Coordinating translator focused searches found no reliable external match. Full source title translated with phonetic persona name; keep distinct from Pretty Salian and other named titles."
+    },
+    {
+      "id": "magic_warrior_blue_lily",
+      "category": "cosplay_persona",
+      "japanese": [
+        "魔法戦士ブルーリリー"
+      ],
+      "english": "Magic Warrior Blue Lily",
+      "status": "project_provisional_source_backed",
+      "game_source_observed": true,
+      "global_rows": [
+        11406
+      ],
+      "source_ids": [
+        "C110_SLI_000:11328"
+      ],
+      "sources": [],
+      "notes": "Coordinating translator focused searches found no reliable external match. Full source title translated with phonetic persona name; keep distinct from Pretty Salian and other named titles."
+    }
+  ]
+}

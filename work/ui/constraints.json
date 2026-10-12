@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "title_id": "PCSG00597",
+  "status": "assets_readable_pending_actual_game_capture",
+  "screenshots": [],
+  "text_classes": [
+    {
+      "id": "dialogue",
+      "rectangle": null,
+      "maximum_visible_characters": null,
+      "font_metrics": null,
+      "insertion_policy": "Relocate translated strings with their references after verifying the script format. Do not draft to original byte slots."
+    },
+    {
+      "id": "menu_label",
+      "rectangle": null,
+      "maximum_visible_characters": null,
+      "font_metrics": null
+    },
+    {
+      "id": "system_title",
+      "source_fields": ["STITLE", "TITLE"],
+      "rectangle": null,
+      "maximum_visible_characters": null,
+      "font_metrics": null,
+      "notes": "Two title drafts exist. Source newline preserved. They have not been inserted or tested on screen."
+    }
+  ],
+  "notes": "Assets are decrypted. Manual reference pages inspected at 960x544; these are not actual game-screen measurements. Text rectangles, font metrics and maximum visible lengths remain unmeasured. Glossary work takes priority; no guessed width or byte budget is imposed."
+}

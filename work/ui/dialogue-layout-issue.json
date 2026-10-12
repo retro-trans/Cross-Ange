@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "build": "0.1.5",
+  "reported_on": "2026-10-11",
+  "status": "dialogue_panel_and_position_restored_in_user_capture_0.1.6",
+  "capture": "work/ui/local/screenshots/0.1.5/dialogue-origin-bug.png",
+  "capture_size": [
+    962,
+    576
+  ],
+  "game_canvas": {
+    "width": 960,
+    "height": 544,
+    "capture_origin": [
+      1,
+      30
+    ]
+  },
+  "shown_dialogue_id": "C000_PRO_000:772",
+  "observed": [
+    "English dialogue starts at game canvas origin instead of the lower dialogue area.",
+    "Speaker name overlaps dialogue at the top.",
+    "Dialogue panel and speaker nameplate are absent; advance indicator remains at bottom right."
+  ],
+  "user_confirmation": "First classroom line is also broken; Select Difficulty displays normally.",
+  "expected_dialogue_bounds": [
+    180,
+    465,
+    865,
+    533
+  ],
+  "expected_nameplate_bounds": [
+    93,
+    413,
+    405,
+    451
+  ],
+  "measurements_approximate": true,
+  "fix_runtime_verified": true,
+  "fix_build": "0.1.6",
+  "root_cause": "The ADV control-code scan accepts UTF-16 values <=125, including NUL. English after a formatting marker allows it to scan past the input and overwrite dialogue/name/window state.",
+  "fix": "Use fullwidth Latin codepoints immediately after formatting controls; both fonts render identical ASCII glyphs and the kerning table supplies identical advances. Controls, IDs and voices are preserved.",
+  "regression_checks": "All emitted scenario controls stop before NUL; speaker/message lengths stay below native buffer limits. Font glyph and kerning equality verified.",
+  "follow_up_capture": "work/ui/local/screenshots/0.1.6/dialogue-clipping.png",
+  "remaining_issue": "English first line clips at the right edge in 0.1.6; font conversion and pixel-width reflow included in 0.1.7."
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "project_version": "0.1.12",
+  "checked_on": "2026-10-12",
+  "target_language": "en",
+  "title_id": "PCSG00597",
+  "status": "structured_english_local_test_build_available",
+  "source": {
+    "decrypted_app": "work/source/decrypted",
+    "canonical_archive": "work/source/archive/assets",
+    "archive_members": 4486,
+    "compressed_members": 2927,
+    "expanded_member_bytes": 1591898258,
+    "manual_image_files": 24,
+    "game_assets_readable": true
+  },
+  "scenario": {
+    "files": 462,
+    "records": 13277,
+    "nonempty_records": 13257,
+    "empty_records": 20,
+    "symbol_only_nonempty_records": 43,
+    "japanese_bearing_text_records": 13214,
+    "unique_text_strings": 11903,
+    "unique_speaker_text_pairs": 12025,
+    "japanese_text_characters": 288310,
+    "japanese_speaker_characters": 42348,
+    "records_without_adv_msg_reference": 349,
+    "choice_records": 329,
+    "unreferenced_nonempty_records": 0,
+    "unresolved_adv_msg_references": 0,
+    "japanese_command_fields": 2219,
+    "all_game_text_total": null,
+    "japanese_character_metric": "Kana letters and CJK ideographs; excludes punctuation, prolonged-sound marks, whitespace, controls and Latin text.",
+    "coverage": "All four-field records in 462 scenario TXT files; UI binaries/images and manual raster text are separate.",
+    "unique_japanese_text_strings": 11896,
+    "drafted_japanese_records": 13214,
+    "drafted_nonempty_records": 13257,
+    "preserved_empty_sentinels": 20,
+    "first_untranslated_global_row": null
+  },
+  "ui_table": {
+    "table_rows": 1792,
+    "named_localization_entries": 1788,
+    "japanese_records": 1716,
+    "japanese_characters": 21695,
+    "japanese_field_source_characters_including_controls": 27791,
+    "unique_japanese_text_strings": 1553,
+    "drafted_japanese_records": 1716,
+    "examined_table_records": 1792,
+    "unchanged_examined_records": 76,
+    "remaining_japanese_ids": [],
+    "reachability": "Includes debug/error rows; live-screen occurrence not verified."
+  },
+  "system_title_metadata": {
+    "records": 2,
+    "japanese_characters": 28,
+    "drafted_records": 2
+  },
+  "additional_tables": {
+    "japanese_targets": 2219,
+    "unique_japanese_strings": 925,
+    "japanese_characters": 25027,
+    "tables": [
+      {
+        "source_file": "data/_dat/BtlFriendEvt.bnd",
+        "groups": 18,
+        "table_records": 521,
+        "nonzero_text_fields": 861,
+        "japanese_targets": 861
+      },
+      {
+        "source_file": "data/_dat/BtlNavigatorEvt.bnd",
+        "groups": 18,
+        "table_records": 391,
+        "nonzero_text_fields": 1155,
+        "japanese_targets": 1155
+      },
+      {
+        "source_file": "data/_dat/GalleryDef.bnd",
+        "groups": 4,
+        "table_records": 107,
+        "nonzero_text_fields": 229,
+        "japanese_targets": 203
+      }
+    ],
+    "scope": "Battle voice/caption fields and gallery text; runtime occurrence and speaker mapping require verification.",
+    "drafted_japanese_records": 2219,
+    "remaining_japanese_records": 0,
+    "remaining_ids": []
+  },
+  "manual": {
+    "pages_examined": 24,
+    "drafted_reading_blocks": 166,
+    "coverage": "All main manual prose, character/voice labels, captions, headings and operation tables drafted. All 24 pages were also inspected for embedded UI: 45 screenshot rectangles, 126 translation matches, and two newly drafted platform load labels. Thirty-two specific microtext notes remain unresolved; English trademark text is retained in artwork.",
+    "image_replacement": "reading_translation_only_not_replaced_in_images",
+    "included_in_structured_target_count": false,
+    "additional_screenshot_reading_regions": 2,
+    "screenshot_coverage_report": "docs/manual-screenshot-coverage.json"
+  },
+  "raster": {
+    "drafted_reading_regions": 130,
+    "coverage": "130 identified readable raster regions after initial inspection of all 1,875 decoded textures and eight external save/launcher PNGs. Five unreadable or uncertain marking groups remain flagged; manual screenshots and video are separate.",
+    "image_replacement": "reading_translation_only_not_replaced_in_images",
+    "included_in_structured_target_count": false,
+    "decoded_archive_textures": 1875,
+    "initial_visual_scan_complete": true,
+    "readability_verification_complete": false,
+    "pending_marking_groups": 5
+  },
+  "video": {
+    "drafted_reading_regions": 2,
+    "frames_examined": 180,
+    "sampling_interval_seconds": 0.5,
+    "coverage": "Opening movie inspected at 0.5-second intervals across all 90.112 seconds. Readable Japanese logo only; no credit or subtitle overlays seen in sampled frames. Audio is outside text translation scope.",
+    "image_replacement": "draft_only_original_video_unchanged",
+    "included_in_structured_target_count": false
+  },
+  "known_structured_text": {
+    "japanese_records": 17151,
+    "japanese_characters": 335060,
+    "drafted_records": 17151,
+    "remaining_japanese_records": 0,
+    "draft_percentage_of_known_records": 100.0,
+    "full_game_percentage": null,
+    "image_text_records": null,
+    "notes": "Per insertion target; duplicate strings retained. Speaker-name repetitions are counted separately, not added as separate dialogue records. Raster text and other unverified assets remain outside this lower bound."
+  },
+  "glossary": {
+    "character_profiles": 38,
+    "indexed_entries_including_intentional_overlap": 941,
+    "coverage": {
+      "scenario_speaker_forms": {
+        "expected": 56,
+        "indexed": 56,
+        "narration_rows": 551
+      },
+      "ui_character_slots": {
+        "expected": 39,
+        "indexed": 39,
+        "missing_ids": []
+      },
+      "ui_mecha_and_target_slots": {
+        "expected": 42,
+        "indexed": 42,
+        "missing_ids": []
+      },
+      "ui_equipment_name_slots": {
+        "expected": 402,
+        "indexed": 402,
+        "missing_ids": []
+      },
+      "ui_location_slots": {
+        "expected": 30,
+        "indexed": 30,
+        "missing_ids": []
+      }
+    },
+    "equipment_resolution": {
+      "mapped": 402,
+      "provisional": 139,
+      "unresolved": 0,
+      "unresolved_source_ids": []
+    },
+    "validation": "passed",
+    "historical_proposed_ui_terms_excluded_from_lookup": 20,
+    "names_and_terms_are_not_completed_game_rows": true
+  },
+  "validation": {
+    "source_ids_and_controls": "See translation-progress.json for validated checkpoint.",
+    "english_export_files": 226,
+    "english_exports": "Completed slices and consolidated scenario, UI and additional-table drafts have source-free exports. Draft status does not establish a playable translation.",
+    "screen_measurements": "Two source captures measured approximately; English layout unverified.",
+    "reinsertion": "All identified structured targets inserted in 0.1.12",
+    "playable_build": "Local test candidate built; English runtime unverified."
+  },
+  "license_status": "User-supplied matching license successfully decrypted the package; key remains local and ignored.",
+  "draft_milestone_version": "0.1.3",
+  "latest_local_build": {
+    "version": "0.1.12",
+    "manifest": "work/output/cross-ange-0.1.12/manifest.json",
+    "structured_targets_inserted": 17151,
+    "scenario_files": 462,
+    "scenario_layout_review_rows": 296,
+    "runtime_tested": false,
+    "scope": "Build snapshot; later draft edits require a new build. Selected raster artwork is inserted; other raster, manual prose and movie text remain pending.",
+    "tutorial_textures_inserted": 10,
+    "tutorial_regions_inserted": 84,
+    "unique_chapter_titles_inserted": 15,
+    "chapter_title_regions_inserted": 30,
+    "chapter_title_textures_inserted": 2,
+    "compact_ui_labels_inserted": 13,
+    "ui_label_layout_record": "work/ui/briefing-label-layout.json",
+    "font": "GenEi LateGo v2",
+    "pixel_layout": {
+      "reflowed_records": 8364,
+      "scaled_dialogue_records": 88,
+      "scaled_speaker_records": 18,
+      "maximum_estimated_line_width": 670.0,
+      "maximum_lines": 3,
+      "body_width_limit": 670
+    },
+    "installation_status": "installed-and-hash-verified",
+    "installation_record": "work/output/cross-ange-0.1.12/vita3k-install.json"
+  }
+}

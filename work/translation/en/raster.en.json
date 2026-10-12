@@ -1,0 +1,3878 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.12",
+  "language": "en",
+  "coverage": "130 identified readable raster regions after initial inspection of all 1,875 decoded textures and eight external save/launcher PNGs. Five unreadable or uncertain marking groups remain flagged; manual screenshots and video are separate.",
+  "layout_status": "106_source_regions_inserted_other_24_regions_reading_drafts",
+  "entries": [
+    {
+      "id": "startup-warning-title",
+      "source_file": "data/_cg/ANGE_STARTUP_ILLEGAL.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "41610e3f23b283ab748a7776b233205ee9e2fe44e417b0caee7562b5849dc5a0",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 430,
+        "y": 110,
+        "width": 101,
+        "height": 37,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "Caution",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "startup-warning-body",
+      "source_file": "data/_cg/ANGE_STARTUP_ILLEGAL.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "41610e3f23b283ab748a7776b233205ee9e2fe44e417b0caee7562b5849dc5a0",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 246,
+        "y": 166,
+        "width": 479,
+        "height": 166,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "Distributing game software over the Internet without the rights holder’s permission, or downloading it while knowing that it has been illegally distributed online, is strictly prohibited by law.",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "startup-warning-request",
+      "source_file": "data/_cg/ANGE_STARTUP_ILLEGAL.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "41610e3f23b283ab748a7776b233205ee9e2fe44e417b0caee7562b5849dc5a0",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 246,
+        "y": 350,
+        "width": 364,
+        "height": 62,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "We ask for your understanding and cooperation.",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "title-game-name",
+      "source_file": "data/_ssa/title_set.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "3ea9efc9ecede3b344ab1070d7994bbf603db7b3fe1bc807a48cf9adfa676f0b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 16,
+        "y": 5,
+        "width": 565,
+        "height": 141,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "CROSS ANGE",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "title-game-subtitle",
+      "source_file": "data/_ssa/title_set.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "3ea9efc9ecede3b344ab1070d7994bbf603db7b3fe1bc807a48cf9adfa676f0b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 72,
+        "y": 144,
+        "width": 504,
+        "height": 74,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "Rondo of Angel and Dragon tr.",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "debt-document-heading",
+      "source_file": "data/_ui/debt_item.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "a5bcf9377b72c8784738957207ab3c46a26c628bb120c7fa3a1440e8f135a4c1",
+      "texture_dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "region": {
+        "x": 104,
+        "y": 42,
+        "width": 40,
+        "height": 17,
+        "measurement": "approximate source texture pixels, not an in-game capture"
+      },
+      "en": "IOU",
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending",
+        "document_body_is_too_blurred_to_read_reliably"
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-28",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A New Posting, and Then—",
+      "status": "translated_draft",
+      "matching_ui_id": 28,
+      "preserved_tokens": [
+        "Prologue"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A New Posting, and Then—",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        0,
+        344,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-29",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Welcome to the First Squadron of Death",
+      "status": "translated_draft",
+      "matching_ui_id": 29,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Welcome to the First Squadron of Death",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        0,
+        688,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-30",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Why I Fight",
+      "status": "translated_draft",
+      "matching_ui_id": 30,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Why I Fight",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        0,
+        1024,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-31",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A Cheerful Meal",
+      "status": "translated_draft",
+      "matching_ui_id": 31,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A Cheerful Meal",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        64,
+        344,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-32",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "The First Squadron on the Brink of Annihilation!",
+      "status": "translated_draft",
+      "matching_ui_id": 32,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "The First Squadron on the Brink of Annihilation!",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        64,
+        688,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-33",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "To Protect Smiles",
+      "status": "translated_draft",
+      "matching_ui_id": 33,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "To Protect Smiles",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        64,
+        1024,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-34",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Infiltration! The Empire of Misurugi",
+      "status": "translated_draft",
+      "matching_ui_id": 34,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Infiltration! The Empire of Misurugi",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        128,
+        344,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-35",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A Place for Each of Us",
+      "status": "translated_draft",
+      "matching_ui_id": 35,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A Place for Each of Us",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        128,
+        688,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-36",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Those Who Know the Truth",
+      "status": "translated_draft",
+      "matching_ui_id": 36,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Those Who Know the Truth",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        128,
+        1024,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-37",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Rebels Beneath the Sea",
+      "status": "translated_draft",
+      "matching_ui_id": 37,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Rebels Beneath the Sea",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        192,
+        344,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-38",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "The World's Restorer",
+      "status": "translated_draft",
+      "matching_ui_id": 38,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "The World's Restorer",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        192,
+        688,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-39",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Joining Forces, Standing Together",
+      "status": "translated_draft",
+      "matching_ui_id": 39,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Joining Forces, Standing Together",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        192,
+        1024,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-40",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Where Possibilities Converge",
+      "status": "translated_draft",
+      "matching_ui_id": 40,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Where Possibilities Converge",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        256,
+        344,
+        293
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-41",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "To the Other Side of the World",
+      "status": "translated_draft",
+      "matching_ui_id": 41,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "To the Other Side of the World",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        256,
+        688,
+        293
+      ]
+    },
+    {
+      "id": "sub_title_b-chapter-42",
+      "source_file": "data/_ssa/sub_title_b.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Trill—An Ever-Swaying Melody",
+      "status": "translated_draft",
+      "matching_ui_id": 42,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Trill—An Ever-Swaying Melody",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        256,
+        1024,
+        293
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-28",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A New Posting, and Then—",
+      "status": "translated_draft",
+      "matching_ui_id": 28,
+      "preserved_tokens": [
+        "Prologue"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A New Posting, and Then—",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        0,
+        344,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-29",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Welcome to the First Squadron of Death",
+      "status": "translated_draft",
+      "matching_ui_id": 29,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Welcome to the First Squadron of Death",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        0,
+        688,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-30",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 0,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Why I Fight",
+      "status": "translated_draft",
+      "matching_ui_id": 30,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Why I Fight",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        0,
+        1024,
+        37
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-31",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A Cheerful Meal",
+      "status": "translated_draft",
+      "matching_ui_id": 31,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A Cheerful Meal",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        64,
+        344,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-32",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "The First Squadron on the Brink of Annihilation!",
+      "status": "translated_draft",
+      "matching_ui_id": 32,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "The First Squadron on the Brink of Annihilation!",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        64,
+        688,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-33",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 65,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "To Protect Smiles",
+      "status": "translated_draft",
+      "matching_ui_id": 33,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "To Protect Smiles",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        64,
+        1024,
+        101
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-34",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Infiltration! The Empire of Misurugi",
+      "status": "translated_draft",
+      "matching_ui_id": 34,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Infiltration! The Empire of Misurugi",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        128,
+        344,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-35",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "A Place for Each of Us",
+      "status": "translated_draft",
+      "matching_ui_id": 35,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "A Place for Each of Us",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        128,
+        688,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-36",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 130,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Those Who Know the Truth",
+      "status": "translated_draft",
+      "matching_ui_id": 36,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Those Who Know the Truth",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        128,
+        1024,
+        165
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-37",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Rebels Beneath the Sea",
+      "status": "translated_draft",
+      "matching_ui_id": 37,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Rebels Beneath the Sea",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        192,
+        344,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-38",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "The World's Restorer",
+      "status": "translated_draft",
+      "matching_ui_id": 38,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "The World's Restorer",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        192,
+        688,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-39",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 195,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Joining Forces, Standing Together",
+      "status": "translated_draft",
+      "matching_ui_id": 39,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Joining Forces, Standing Together",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        192,
+        1024,
+        229
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-40",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 0,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Where Possibilities Converge",
+      "status": "translated_draft",
+      "matching_ui_id": 40,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Where Possibilities Converge",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        0,
+        256,
+        344,
+        293
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-41",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 341,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "To the Other Side of the World",
+      "status": "translated_draft",
+      "matching_ui_id": 41,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "To the Other Side of the World",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        344,
+        256,
+        688,
+        293
+      ]
+    },
+    {
+      "id": "sub_title_b_-chapter-42",
+      "source_file": "data/_ssa/sub_title_b_.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 512
+      },
+      "region": {
+        "x": 682,
+        "y": 260,
+        "width": 341,
+        "height": 35,
+        "measurement": "approximate texture cell; source title placement differs by variant"
+      },
+      "en": "Trill—An Ever-Swaying Melody",
+      "status": "translated_draft",
+      "matching_ui_id": 42,
+      "preserved_tokens": [
+        "Chapter"
+      ],
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.10",
+      "rendered_en": "Trill—An Ever-Swaying Melody",
+      "layout_record": "work/ui/chapter-title-layout.json",
+      "replacement_rect": [
+        688,
+        256,
+        1024,
+        293
+      ]
+    },
+    {
+      "id": "tutorial-043-affection",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 220,
+        "y": 37,
+        "width": 579,
+        "height": 29,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Affection Gauge: The gauge rises according to the type of touch marker and the timing of your tap.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Affection Gauge: Marker type and tap timing affect how much it rises.",
+      "rendered_region_ids": [
+        "ECG_043-affection"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-timer",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 738,
+        "y": 120,
+        "width": 190,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Timer: The time limit.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Timer: Time limit.",
+      "rendered_region_ids": [
+        "ECG_043-timer"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-markers",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 31,
+        "y": 161,
+        "width": 187,
+        "height": 32,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Touch Markers",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Touch Markers",
+      "rendered_region_ids": [
+        "ECG_043-markers"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-large",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 86,
+        "y": 205,
+        "width": 131,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Large Gauge Increase",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Large increase",
+      "rendered_region_ids": [
+        "ECG_043-large"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-small",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 86,
+        "y": 246,
+        "width": 131,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Small Gauge Increase",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Small increase",
+      "rendered_region_ids": [
+        "ECG_043-small"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-down",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 86,
+        "y": 286,
+        "width": 131,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Gauge Decrease",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Decrease",
+      "rendered_region_ids": [
+        "ECG_043-down"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-window",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 58,
+        "y": 342,
+        "width": 290,
+        "height": 72,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Conversation Window: Press □ to show or hide the window. (Normally hidden.)",
+      "status": "translated_draft",
+      "preserved_tokens": [
+        "□"
+      ],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Conversation Window: Show / hide the conversation window. (Normally hidden.)",
+      "rendered_region_ids": [
+        "ECG_043-window",
+        "ECG_043-window-toggle",
+        "ECG_043-window-hidden"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-condition",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 494,
+        "y": 373,
+        "width": 396,
+        "height": 43,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Condition: The more intense the waveform becomes, the better your chance to raise the Affection Gauge.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Condition: Stronger waves mean a better chance to raise affection.",
+      "rendered_region_ids": [
+        "ECG_043-condition",
+        "ECG_043-condition-help"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-043-reaction",
+      "source_file": "data/_cg/ECG_043.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 282,
+        "y": 235,
+        "width": 49,
+        "height": 17,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "That's nice.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "That's nice.",
+      "rendered_region_ids": [
+        "ECG_043-reaction"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-044-window",
+      "source_file": "data/_cg/ECG_044.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 39,
+        "y": 191,
+        "width": 151,
+        "height": 29,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Conversation Window",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Conversation Window",
+      "rendered_region_ids": [
+        "ECG_044-window"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-044-timer",
+      "source_file": "data/_cg/ECG_044.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 738,
+        "y": 120,
+        "width": 190,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Timer: The time limit.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Timer: Time limit.",
+      "rendered_region_ids": [
+        "ECG_044-timer"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-044-options",
+      "source_file": "data/_cg/ECG_044.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 505,
+        "y": 370,
+        "width": 282,
+        "height": 64,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Show Choices: Press □ while the Conversation Window is visible to display the choices.",
+      "status": "translated_draft",
+      "preserved_tokens": [
+        "□"
+      ],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Show Choices: With the conversation window visible, press Square to display the choices.",
+      "rendered_region_ids": [
+        "ECG_044-options",
+        "ECG_044-options-help"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-044-dialogue",
+      "source_file": "data/_cg/ECG_044.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 278,
+        "y": 207,
+        "width": 112,
+        "height": 70,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Hey, Ange, what do you do when you’re not training?",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Hey, Ange, what do you do when you're not training?",
+      "rendered_region_ids": [
+        "ECG_044-dialogue"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-044-wait",
+      "source_file": "data/_cg/ECG_044.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 530,
+        "y": 311,
+        "width": 98,
+        "height": 16,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Wait a second!",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Wait a second!",
+      "rendered_region_ids": [
+        "ECG_044-wait"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-045-options",
+      "source_file": "data/_cg/ECG_045.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 381,
+        "y": 373,
+        "width": 475,
+        "height": 29,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Choices: Use the directional buttons to select a choice. Press ○ to confirm. Press □ to close the choices.",
+      "status": "translated_draft",
+      "preserved_tokens": [
+        "□",
+        "○"
+      ],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Choices: Select choice. Confirm. Close choices.",
+      "rendered_region_ids": [
+        "ECG_045-options",
+        "ECG_045-options-select",
+        "ECG_045-options-confirm",
+        "ECG_045-options-close"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-045-dialogue",
+      "source_file": "data/_cg/ECG_045.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 278,
+        "y": 185,
+        "width": 110,
+        "height": 50,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Why should I have to do something that’s such a hassle?",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Why do I have to do something so troublesome?",
+      "rendered_region_ids": [
+        "ECG_045-dialogue"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-045-choice1",
+      "source_file": "data/_cg/ECG_045.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 429,
+        "y": 283,
+        "width": 207,
+        "height": 17,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "It’s amazing you’re that strong without doing anything.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "So strong without even trying. Amazing.",
+      "rendered_region_ids": [
+        "ECG_045-choice1"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-045-choice2",
+      "source_file": "data/_cg/ECG_045.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 378,
+        "y": 310,
+        "width": 217,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Training in secret? That sounds like you, Ange.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Secret training? That's Ange for you.",
+      "rendered_region_ids": [
+        "ECG_045-choice2"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "tutorial-045-choice3",
+      "source_file": "data/_cg/ECG_045.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 409,
+        "y": 339,
+        "width": 139,
+        "height": 15,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "I wonder how much Ange weighs.",
+      "status": "translated_draft",
+      "preserved_tokens": [],
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "I wonder how much Ange weighs.",
+      "rendered_region_ids": [
+        "ECG_045-choice3"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "emblem-mark_per_20",
+      "source_file": "data/_tex/mark_per_20.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "a6702a501290bf42fc89401e1f77f1efd4d039b531df468ec2156df8196e2e83",
+      "texture_dimensions": {
+        "width": 128,
+        "height": 128
+      },
+      "region": {
+        "x": 48,
+        "y": 25,
+        "width": 31,
+        "height": 84,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "King of Debt",
+      "status": "translated_draft",
+      "decisions": "Matches locked female title; entire vertical wording readable.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "emblem-mark_per_38",
+      "source_file": "data/_tex/mark_per_38.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "861a532c1616a381347d3faefb0dae3a2a5732c57eb92b8e2680ce45403295da",
+      "texture_dimensions": {
+        "width": 128,
+        "height": 128
+      },
+      "region": {
+        "x": 40,
+        "y": 22,
+        "width": 52,
+        "height": 66,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Flower",
+      "status": "translated_draft",
+      "decisions": "Literal reading of single decorative flower kanji; no unspoken personal name inferred.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-save_icon-icon-PNG-title",
+      "source_file": "save_icon/icon.PNG",
+      "region": {
+        "x": 3,
+        "y": 4,
+        "width": 151,
+        "height": 38,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "2a13c084f12de4478028ce58f0e1ea72df869e6bb571d2aca2ea80424a7d3920",
+      "texture_dimensions": {
+        "width": 160,
+        "height": 90
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-save_icon-icon-PNG-subtitle",
+      "source_file": "save_icon/icon.PNG",
+      "region": {
+        "x": 16,
+        "y": 41,
+        "width": 140,
+        "height": 25,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "2a13c084f12de4478028ce58f0e1ea72df869e6bb571d2aca2ea80424a7d3920",
+      "texture_dimensions": {
+        "width": 160,
+        "height": 90
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-save_icon-icon_empty-PNG-title",
+      "source_file": "save_icon/icon_empty.PNG",
+      "region": {
+        "x": 3,
+        "y": 4,
+        "width": 151,
+        "height": 38,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "3c360bea0b764b908089c0b77d2acbb030fed3d47559f3bc8e2d71e2278919ff",
+      "texture_dimensions": {
+        "width": 160,
+        "height": 90
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-save_icon-icon_empty-PNG-subtitle",
+      "source_file": "save_icon/icon_empty.PNG",
+      "region": {
+        "x": 16,
+        "y": 41,
+        "width": 140,
+        "height": 25,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "3c360bea0b764b908089c0b77d2acbb030fed3d47559f3bc8e2d71e2278919ff",
+      "texture_dimensions": {
+        "width": 160,
+        "height": 90
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-icon0-png-title",
+      "source_file": "sce_sys/icon0.png",
+      "region": {
+        "x": 3,
+        "y": 34,
+        "width": 122,
+        "height": 32,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "6fefcea226181bf9ae4a17dcbd0b416f854a44f54c06108186d6205b6b85e2ed",
+      "texture_dimensions": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-icon0-png-subtitle",
+      "source_file": "sce_sys/icon0.png",
+      "region": {
+        "x": 14,
+        "y": 64,
+        "width": 110,
+        "height": 19,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "6fefcea226181bf9ae4a17dcbd0b416f854a44f54c06108186d6205b6b85e2ed",
+      "texture_dimensions": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-livearea-contents-site_banner-png-title",
+      "source_file": "sce_sys/livearea/contents/site_banner.png",
+      "region": {
+        "x": 180,
+        "y": 8,
+        "width": 272,
+        "height": 66,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "69a1ddb21cc342a9cc2d6064378d4344964a9c73e1343c38c01ff7426c534c9a",
+      "texture_dimensions": {
+        "width": 640,
+        "height": 128
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-livearea-contents-site_banner-png-subtitle",
+      "source_file": "sce_sys/livearea/contents/site_banner.png",
+      "region": {
+        "x": 198,
+        "y": 71,
+        "width": 260,
+        "height": 44,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "69a1ddb21cc342a9cc2d6064378d4344964a9c73e1343c38c01ff7426c534c9a",
+      "texture_dimensions": {
+        "width": 640,
+        "height": 128
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-livearea-contents-startup-png-title",
+      "source_file": "sce_sys/livearea/contents/startup.png",
+      "region": {
+        "x": 8,
+        "y": 6,
+        "width": 264,
+        "height": 64,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "93985bf66e2291487e7b1f9868ae07876e0528a0386e22feb5968d9cb46a1958",
+      "texture_dimensions": {
+        "width": 280,
+        "height": 158
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-sce_sys-livearea-contents-startup-png-subtitle",
+      "source_file": "sce_sys/livearea/contents/startup.png",
+      "region": {
+        "x": 27,
+        "y": 69,
+        "width": 247,
+        "height": 45,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "decisions": "Same game logo wording as locked title; retain existing Latin tr. and English SAVE DATA or EMPTY DATA artwork.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "93985bf66e2291487e7b1f9868ae07876e0528a0386e22feb5968d9cb46a1958",
+      "texture_dimensions": {
+        "width": 280,
+        "height": 158
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "external-launcher-publisher",
+      "source_file": "sce_sys/livearea/contents/bg.png",
+      "region": {
+        "x": 548,
+        "y": 478,
+        "width": 282,
+        "height": 20,
+        "measurement": "approximate original PNG pixels, not a live game capture"
+      },
+      "en": "BANDAI NAMCO Entertainment Inc.",
+      "decisions": "Official 2015 corporate spelling matches original save copyright; primary source https://www.bandainamcoent.co.jp/corporate/150401/ . Existing Produced by label remains.",
+      "source_asset_kind": "png_raster",
+      "source_sha256": "261bf23ce47a502c2c7731ba942d30ab37e3a8be39910b68344e2b9ae019f36c",
+      "texture_dimensions": {
+        "width": 840,
+        "height": 500
+      },
+      "status": "translated_draft",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "EBG_106-lock",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 155,
+        "y": 136,
+        "width": 140,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Toggle Lock-On",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "L"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Toggle Lock-On",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-freeze",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 55,
+        "y": 194,
+        "width": 234,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Freeze Bullet (Destroyer Mode only)",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "D-pad Right"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Freeze Bullet (Destroyer Mode only)",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-twice",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 54,
+        "y": 224,
+        "width": 83,
+        "height": 22,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Press twice",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "D-pad Left"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Press twice",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-quick",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 28,
+        "y": 249,
+        "width": 240,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Quick Turn (Destroyer Mode only)",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "D-pad Left"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Quick Turn (Destroyer Mode only)",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-weapon",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 28,
+        "y": 305,
+        "width": 120,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Switch Weapon",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "D-pad Up",
+        "D-pad Down"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Switch Weapon",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-pilot",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 91,
+        "y": 423,
+        "width": 120,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Pilot Machine",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Left Stick"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Pilot Machine",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-accelerate",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 767,
+        "y": 138,
+        "width": 65,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Accelerate",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "R"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Accelerate",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-melee",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 834,
+        "y": 195,
+        "width": 65,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Melee Attack",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Square"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Melee Attack",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-ranged",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 894,
+        "y": 252,
+        "width": 65,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Ranged Attack",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Triangle"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Ranged Attack",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-transform",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 893,
+        "y": 307,
+        "width": 65,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Transform",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Circle"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Transform",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-decelerate",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 832,
+        "y": 365,
+        "width": 65,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Decelerate",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Cross"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Decelerate",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_106-target",
+      "source_file": "data/_cg/EBG_106.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 760,
+        "y": 423,
+        "width": 163,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Switch Target",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "buttons": [
+        "Right Stick"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Switch Target",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-sight",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 315,
+        "y": 54,
+        "width": 110,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Targeting Sight",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Targeting Sight",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-marker",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 556,
+        "y": 53,
+        "width": 163,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Target Marker",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Target Marker",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-operator",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 92,
+        "y": 113,
+        "width": 112,
+        "height": 24,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Operator",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Operator",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-speed",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 92,
+        "y": 167,
+        "width": 135,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Your Speed",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Your Speed",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-freeze",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 92,
+        "y": 224,
+        "width": 146,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Freeze Bullet",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Freeze Bullet",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-radar",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 92,
+        "y": 281,
+        "width": 95,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Radar",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Radar",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-center",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 95,
+        "y": 310,
+        "width": 129,
+        "height": 20,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Center marker: Your machine",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Center: Your machine",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-goal",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 110,
+        "y": 330,
+        "width": 70,
+        "height": 20,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": ": Objective",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": ": Objective",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-enemy",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 110,
+        "y": 349,
+        "width": 65,
+        "height": 20,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": ": Enemy",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": ": Enemy",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-ally",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 110,
+        "y": 368,
+        "width": 70,
+        "height": 20,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": ": Ally",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": ": Ally",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-energy",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 204,
+        "y": 395,
+        "width": 144,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Energy Gauge",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Energy Gauge",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-boost",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 388,
+        "y": 395,
+        "width": 163,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Boost Gauge",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Boost Gauge",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-talk",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 617,
+        "y": 395,
+        "width": 163,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Operator Conversation",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Operator Conversation",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-timer",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 803,
+        "y": 113,
+        "width": 95,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Timer",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Timer",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-ranged",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 794,
+        "y": 254,
+        "width": 108,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Ranged Weapon",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Ranged Weapon",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-kills",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 812,
+        "y": 338,
+        "width": 82,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Kill Count",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Kill Count",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-one",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 835,
+        "y": 370,
+        "width": 60,
+        "height": 20,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "1 enemy",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "1 enemy",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-ten",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 819,
+        "y": 398,
+        "width": 76,
+        "height": 22,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "10 enemies",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "10 enemies",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_107-embedded",
+      "source_file": "data/_cg/EBG_107.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 382,
+        "y": 328,
+        "width": 203,
+        "height": 16,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Radar contact. New enemies are approaching.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Radar contact. New enemies approaching.",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_108-shop",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 138,
+        "y": 46,
+        "width": 251,
+        "height": 25,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "SHOP: Buy weapons.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Buy weapons.",
+      "rendered_region_ids": [
+        "EBG_108-shop"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_108-hangar",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 266,
+        "y": 90,
+        "width": 333,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "HANGAR: Customize your machine.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Customize your machine.",
+      "rendered_region_ids": [
+        "EBG_108-hangar"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_108-briefing",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 246,
+        "y": 414,
+        "width": 376,
+        "height": 29,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "BRIEFING: Return to the briefing.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Return to the briefing.",
+      "rendered_region_ids": [
+        "EBG_108-briefing"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_108-sortie",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 138,
+        "y": 476,
+        "width": 325,
+        "height": 29,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "SORTIE: Deploy on a mission.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Deploy on a mission.",
+      "rendered_region_ids": [
+        "EBG_108-sortie"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_108-embedded",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 247,
+        "y": 388,
+        "width": 260,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Adjust settings for the frame you use.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Adjust settings for your frame.",
+      "rendered_region_ids": [
+        "EBG_108-embedded"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_108-view",
+      "source_file": "data/_cg/EBG_108.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 609,
+        "y": 146,
+        "width": 110,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Transform / Rotate Frame",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Form Rotate",
+      "rendered_region_ids": [
+        "EBG_108-view",
+        "EBG_108-view-rotate"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_109-lounge",
+      "source_file": "data/_cg/EBG_109.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "42e172763f20c1967321909af74444de5f336cd41b83c4e360a8182937219002",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 119,
+        "y": 50,
+        "width": 461,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "LOUNGE: Have conversation events with the heroines.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": ": Talk with the heroines in the lounge.",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_109-config",
+      "source_file": "data/_cg/EBG_109.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "42e172763f20c1967321909af74444de5f336cd41b83c4e360a8182937219002",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 280,
+        "y": 367,
+        "width": 391,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "CONFIG: Save, load, and change settings.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": ": Save, load, and change settings.",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_109-title",
+      "source_file": "data/_cg/EBG_109.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "42e172763f20c1967321909af74444de5f336cd41b83c4e360a8182937219002",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 266,
+        "y": 92,
+        "width": 237,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "A New Posting, and Then—",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "ui_source_id": 28,
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "A New Posting, and Then...",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_109-embedded",
+      "source_file": "data/_cg/EBG_109.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "42e172763f20c1967321909af74444de5f336cd41b83c4e360a8182937219002",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 395,
+        "y": 332,
+        "width": 292,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Come here if you want to meet everyone and talk.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_layout_review_pending"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified",
+      "inserted_build": "0.1.9",
+      "rendered_en": "Come here to meet everyone and talk.",
+      "layout_record": "work/ui/tutorial-layout.json"
+    },
+    {
+      "id": "EBG_110-deck",
+      "source_file": "data/_cg/EBG_110.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c0818a99d4faadc7cb04470d73a8fdbee2cbb793d9aafa9763dddc3b6c0189d5",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 215,
+        "y": 51,
+        "width": 558,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "DECK: Go to the deck to customize your machine and buy weapons.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Customize your machine and buy weapons on the deck.",
+      "rendered_region_ids": [
+        "EBG_110-deck"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_110-title",
+      "source_file": "data/_cg/EBG_110.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c0818a99d4faadc7cb04470d73a8fdbee2cbb793d9aafa9763dddc3b6c0189d5",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 266,
+        "y": 92,
+        "width": 237,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Why I Fight",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 30,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Why I Fight",
+      "rendered_region_ids": [
+        "EBG_110-title"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_110-embedded",
+      "source_file": "data/_cg/EBG_110.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "c0818a99d4faadc7cb04470d73a8fdbee2cbb793d9aafa9763dddc3b6c0189d5",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 393,
+        "y": 332,
+        "width": 296,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "You can customize your machine on the deck.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Customize your machine on the deck.",
+      "rendered_region_ids": [
+        "EBG_110-embedded"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_111-mission",
+      "source_file": "data/_cg/EBG_111.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "dc03a6fe6ba313aff540803b8b748aab4cb54406c0c2e700c7b088af0ab0f995",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 211,
+        "y": 51,
+        "width": 317,
+        "height": 26,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "MISSION: Take on training missions.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": ": Take on training missions.",
+      "rendered_region_ids": [
+        "EBG_111-mission"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_111-title",
+      "source_file": "data/_cg/EBG_111.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "dc03a6fe6ba313aff540803b8b748aab4cb54406c0c2e700c7b088af0ab0f995",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 266,
+        "y": 92,
+        "width": 237,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "A Pleasant Meal",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "A Pleasant Meal",
+      "rendered_region_ids": [
+        "EBG_111-title"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_111-embedded",
+      "source_file": "data/_cg/EBG_111.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "dc03a6fe6ba313aff540803b8b748aab4cb54406c0c2e700c7b088af0ab0f995",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 393,
+        "y": 332,
+        "width": 295,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Come here if you want to take missions and train.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Come here to take missions and train.",
+      "rendered_region_ids": [
+        "EBG_111-embedded"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-cash",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 361,
+        "y": 27,
+        "width": 600,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Cash Earned: Shows the most Cash you have earned on that mission.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Cash Earned: Your highest cash reward for this mission.",
+      "rendered_region_ids": [
+        "EBG_112-cash"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-rank",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 527,
+        "y": 58,
+        "width": 440,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Clear Rank: Shows your rank upon completing the mission.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Clear Rank: Your rank after completing the mission.",
+      "rendered_region_ids": [
+        "EBG_112-rank"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-mission",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 230,
+        "y": 372,
+        "width": 477,
+        "height": 27,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Mission: Shows the missions currently available.",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Mission: Shows the missions currently available.",
+      "rendered_region_ids": [
+        "EBG_112-mission"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-title",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 266,
+        "y": 92,
+        "width": 237,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "A Pleasant Meal",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "A Pleasant Meal",
+      "rendered_region_ids": [
+        "EBG_112-title"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-power",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 256,
+        "y": 145,
+        "width": 185,
+        "height": 17,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "The Power of Para-mail",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 73,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "The Power of Para-mail",
+      "rendered_region_ids": [
+        "EBG_112-power"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-time",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 256,
+        "y": 169,
+        "width": 194,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Time Attack: DRAGONs",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 81,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Time Attack: DRAGONs",
+      "rendered_region_ids": [
+        "EBG_112-time"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-transport",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 256,
+        "y": 193,
+        "width": 193,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Rescue the Transport Again",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 84,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Rescue the Transport Again",
+      "rendered_region_ids": [
+        "EBG_112-transport"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-defense1",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 256,
+        "y": 217,
+        "width": 192,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Defense of Arzenal I",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 87,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Defense of Arzenal I",
+      "rendered_region_ids": [
+        "EBG_112-defense1"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-defense2",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 256,
+        "y": 242,
+        "width": 191,
+        "height": 19,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Defense of Arzenal II",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "ui_source_id": 90,
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "Defense of Arzenal II",
+      "rendered_region_ids": [
+        "EBG_112-defense2"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "EBG_112-embedded",
+      "source_file": "data/_cg/EBG_112.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "texture_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "region": {
+        "x": 392,
+        "y": 332,
+        "width": 294,
+        "height": 18,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "(Which mission should I take this time...?)",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "live_game_layout_pending"
+      ],
+      "inserted_build": "0.1.12",
+      "layout_record": "work/ui/tutorial-layout.json",
+      "rendered_en": "(Which mission should I take this time...?)",
+      "rendered_region_ids": [
+        "EBG_112-embedded"
+      ],
+      "insertion_status": "inserted_texture_runtime_unverified"
+    },
+    {
+      "id": "gallery_illust_thumb_002-heading",
+      "source_file": "data/_cg/gallery_illust_thumb_002.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "acb3f02aa192a55e2bdf3f06bd8368fc6c35d8e7cbbbe889c1d556825461cb07",
+      "texture_dimensions": {
+        "width": 512,
+        "height": 256
+      },
+      "region": {
+        "x": 23,
+        "y": 104,
+        "width": 325,
+        "height": 58,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Cooking for Hilda",
+      "status": "translated_draft",
+      "decisions": "Readable original tutorial label/prose; use glossary and manual wording, retain surrounding button icons and existing English artwork.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "data-_ssa-nowloading-btx-title",
+      "source_file": "data/_ssa/nowloading.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "b0d31fed113e0ef71a1e455275c3e1493ae0b643058fc1f9e2f7675c0251025b",
+      "texture_dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "region": {
+        "x": 0,
+        "y": 146,
+        "width": 256,
+        "height": 66,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "CROSS ANGE",
+      "status": "translated_draft",
+      "decisions": "Matches locked game title; preserve existing Latin CROSSANGE and tr. artwork.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "data-_ssa-nowloading-btx-subtitle",
+      "source_file": "data/_ssa/nowloading.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "b0d31fed113e0ef71a1e455275c3e1493ae0b643058fc1f9e2f7675c0251025b",
+      "texture_dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "region": {
+        "x": 22,
+        "y": 205,
+        "width": 167,
+        "height": 36,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Rondo of Angel and Dragon",
+      "status": "translated_draft",
+      "decisions": "Matches locked game subtitle.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "data-_l2d-LV_PLY_03_tex_01-btx-class",
+      "source_file": "data/_l2d/LV_PLY_03_tex_01.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "02a53315f44ab48f8124cd81fed7f7226a143dd7a3c2d0cda369e5ed3dc47b7b",
+      "texture_dimensions": {
+        "width": 512,
+        "height": 512
+      },
+      "region": {
+        "x": 408,
+        "y": 439,
+        "width": 52,
+        "height": 17,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Norma 1",
+      "status": "translated_draft",
+      "decisions": "Swimsuit name tag class line; original numeral retained as 1. No unobserved class interpretation added.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    },
+    {
+      "id": "data-_l2d-LV_PLY_03_tex_01-btx-name",
+      "source_file": "data/_l2d/LV_PLY_03_tex_01.btx",
+      "source_asset_kind": "texture_raster",
+      "source_sha256": "02a53315f44ab48f8124cd81fed7f7226a143dd7a3c2d0cda369e5ed3dc47b7b",
+      "texture_dimensions": {
+        "width": 512,
+        "height": 512
+      },
+      "region": {
+        "x": 399,
+        "y": 453,
+        "width": 70,
+        "height": 28,
+        "measurement": "approximate original texture pixels, not a live game capture"
+      },
+      "en": "Naomi",
+      "status": "translated_draft",
+      "decisions": "Readable hiragana name on Naomi’s swimsuit tag; use locked character spelling.",
+      "review_flags": [
+        "artwork_replacement_and_live_layout_pending"
+      ]
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  },
+  "inserted_regions": 106,
+  "inserted_build": "0.1.12",
+  "rendered_text_rectangles": 114
+}

@@ -1,0 +1,959 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1760,
+    "last_id": 1791,
+    "rows_assigned": 32,
+    "rows_examined": 42,
+    "context_ids": [
+      1750,
+      1791
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 31,
+    "unchanged_nonlinguistic": 1
+  },
+  "japanese_source_rows": 31,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 32
+  },
+  "entries": [
+    {
+      "id": 1760,
+      "key": "STR_CONFIG_INFO_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14100,
+      "label_offset": 92068,
+      "source_offset": 74772,
+      "source_bytes": 14,
+      "en": "Retry the mission.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74772,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Retry the mission."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1761,
+      "key": "STR_CONFIG_INFO_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14108,
+      "label_offset": 92104,
+      "source_offset": 74788,
+      "source_bytes": 14,
+      "en": "Retire from the mission.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74788,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Retire from the mission."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1762,
+      "key": "STR_CONFIG_INFO_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14116,
+      "label_offset": 92140,
+      "source_offset": 74804,
+      "source_bytes": 18,
+      "en": "Adjust general settings.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74804,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Adjust general settings."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1763,
+      "key": "STR_CONFIG_INFO_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14124,
+      "label_offset": 92176,
+      "source_offset": 74824,
+      "source_bytes": 24,
+      "en": "Adjust unit controls.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74824,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Adjust unit controls."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1764,
+      "key": "STR_HELP_PARTNER_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14132,
+      "label_offset": 92212,
+      "source_offset": 74852,
+      "source_bytes": 30,
+      "en": "#b1Info #b5Rotate Frame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74852,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#b1Info #b5Rotate Frame"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b1",
+        "#b5"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1765,
+      "key": "STR_HELP_BRIEFING_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14140,
+      "label_offset": 92248,
+      "source_offset": 74884,
+      "source_bytes": 18,
+      "en": "#b0Select Unit",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74884,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#b0Select Unit"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1766,
+      "key": "STR_HELP_BRIEFING_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14148,
+      "label_offset": 92284,
+      "source_offset": 74904,
+      "source_bytes": 12,
+      "en": "#b0Deck",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74904,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "#b0Deck"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1767,
+      "key": "STR_HELP_BRIEFING_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14156,
+      "label_offset": 92320,
+      "source_offset": 74920,
+      "source_bytes": 10,
+      "en": "#b0Sortie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74920,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#b0Sortie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1768,
+      "key": "STR_HELP_DECK_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14164,
+      "label_offset": 92356,
+      "source_offset": 74932,
+      "source_bytes": 30,
+      "en": "#b6Transform #b5Rotate Frame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74932,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#b6Transform #b5Rotate Frame"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b6",
+        "#b5"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1769,
+      "key": "STR_HELP_DECK_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14172,
+      "label_offset": 92392,
+      "source_offset": 74964,
+      "source_bytes": 12,
+      "en": "#b0Close",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74964,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "#b0Close"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1770,
+      "key": "STR_HELP_HANGAR_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14180,
+      "label_offset": 92428,
+      "source_offset": 74980,
+      "source_bytes": 42,
+      "en": "#b1Info #b6Transform #b5Rotate Frame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 74980,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "#b1Info #b6Transform #b5Rotate Frame"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b1",
+        "#b6",
+        "#b5"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1771,
+      "key": "STR_HELP_HANGAR_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14188,
+      "label_offset": 92464,
+      "source_offset": 75024,
+      "source_bytes": 30,
+      "en": "#b1Info #b5Rotate Frame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75024,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#b1Info #b5Rotate Frame"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b1",
+        "#b5"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1772,
+      "key": "STR_HELP_HANGAR_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14196,
+      "label_offset": 92500,
+      "source_offset": 75056,
+      "source_bytes": 10,
+      "en": "#b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75056,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1773,
+      "key": "STR_HELP_HANGAR_PAINT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14204,
+      "label_offset": 92536,
+      "source_offset": 75068,
+      "source_bytes": 42,
+      "en": "#b4Move Cursor #b3Default Colors",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75068,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "#b4Move Cursor #b3Default Colors"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b4",
+        "#b3"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1774,
+      "key": "STR_HELP_SHOP_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14212,
+      "label_offset": 92572,
+      "source_offset": 75112,
+      "source_bytes": 18,
+      "en": "#b3Weapon Preview",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75112,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#b3Weapon Preview"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b3"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1775,
+      "key": "STR_HELP_CONFIG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14220,
+      "label_offset": 92608,
+      "source_offset": 75132,
+      "source_bytes": 22,
+      "en": "#b3Delete Save Data",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75132,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#b3Delete Save Data"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b3"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1776,
+      "key": "STR_HELP_CAMERA_CONFIG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14228,
+      "label_offset": 92644,
+      "source_offset": 75156,
+      "source_bytes": 68,
+      "en": "#b0Transform #b3Reset Position #b2ROOM #b13Check Camera",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75156,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "#b0Transform #b3Reset Position #b2ROOM #b13Check Camera"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0",
+        "#b3",
+        "#b2",
+        "#b13"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1777,
+      "key": "STR_HELP_CAMERA_CONFIG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14236,
+      "label_offset": 92680,
+      "source_offset": 75228,
+      "source_bytes": 18,
+      "en": "#b13Camera Settings",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75228,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#b13Camera Settings"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b13"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1778,
+      "key": "STR_HELP_ADV_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14244,
+      "label_offset": 92716,
+      "source_offset": 75248,
+      "source_bytes": 14,
+      "en": "#b0Play Voice",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75248,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "#b0Play Voice"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1779,
+      "key": "STR_HELP_GALLERY_ILLUST1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14252,
+      "label_offset": 92752,
+      "source_offset": 75264,
+      "source_bytes": 48,
+      "en": "#b2Back #b0Hide Guide #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75264,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Hide Guide #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1780,
+      "key": "STR_HELP_GALLERY_ILLUST2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14260,
+      "label_offset": 92788,
+      "source_offset": 75316,
+      "source_bytes": 64,
+      "en": "#b2Back #b0Hide Guide #b3Switch Variant #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75316,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Hide Guide #b3Switch Variant #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b3",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1781,
+      "key": "STR_HELP_GALLERY_ILLUST3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14268,
+      "label_offset": 92824,
+      "source_offset": 75384,
+      "source_bytes": 66,
+      "en": "#b2Back #b0Hide Guide #b4Scroll #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75384,
+          "source_bytes": 66,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Hide Guide #b4Scroll #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b4",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1782,
+      "key": "STR_HELP_GALLERY_ILLUST4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14276,
+      "label_offset": 92860,
+      "source_offset": 75452,
+      "source_bytes": 82,
+      "en": "#b2Back #b0Hide Guide #b4Scroll #b3Switch Variant #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75452,
+          "source_bytes": 82,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Hide Guide #b4Scroll #b3Switch Variant #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b4",
+        "#b3",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1783,
+      "key": "STR_HELP_GALLERY_SOUND",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14284,
+      "label_offset": 92896,
+      "source_offset": 75536,
+      "source_bytes": 62,
+      "en": "#b2Back #b0Play #b3Stop #b6Previous Track #b7Next Track",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75536,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Play #b3Stop #b6Previous Track #b7Next Track"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b3",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1784,
+      "key": "STR_HELP_GALLERY_CHARACTER1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14292,
+      "label_offset": 92932,
+      "source_offset": 75600,
+      "source_bytes": 108,
+      "en": "#b2Back #b0Play Voice #b8Switch Voice #b3Change Outfit #b15Switch Expression #b6Previous #b7Next #b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75600,
+          "source_bytes": 108,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Play Voice #b8Switch Voice #b3Change Outfit #b15Switch Expression #b6Previous #b7Next #b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b8",
+        "#b3",
+        "#b15",
+        "#b6",
+        "#b7",
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1785,
+      "key": "STR_HELP_GALLERY_CHARACTER2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14300,
+      "label_offset": 92968,
+      "source_offset": 75712,
+      "source_bytes": 92,
+      "en": "#b2Back #b0Play Voice #b8Switch Voice #b15Switch Expression #b6Previous #b7Next #b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75712,
+          "source_bytes": 92,
+          "contains_japanese": true,
+          "en": "#b2Back #b0Play Voice #b8Switch Voice #b15Switch Expression #b6Previous #b7Next #b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b0",
+        "#b8",
+        "#b15",
+        "#b6",
+        "#b7",
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1786,
+      "key": "STR_HELP_GALLERY_CHARACTER3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14308,
+      "label_offset": 93004,
+      "source_offset": 75808,
+      "source_bytes": 76,
+      "en": "#b2Back #b3Change Outfit #b15Switch Expression #b6Previous #b7Next #b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75808,
+          "source_bytes": 76,
+          "contains_japanese": true,
+          "en": "#b2Back #b3Change Outfit #b15Switch Expression #b6Previous #b7Next #b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b3",
+        "#b15",
+        "#b6",
+        "#b7",
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1787,
+      "key": "STR_HELP_GALLERY_CHARACTER4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14316,
+      "label_offset": 93040,
+      "source_offset": 75888,
+      "source_bytes": 60,
+      "en": "#b2Back #b15Switch Expression #b6Previous #b7Next #b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75888,
+          "source_bytes": 60,
+          "contains_japanese": true,
+          "en": "#b2Back #b15Switch Expression #b6Previous #b7Next #b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b15",
+        "#b6",
+        "#b7",
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1788,
+      "key": "STR_HELP_GALLERY_MECHANIC1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14324,
+      "label_offset": 93076,
+      "source_offset": 75952,
+      "source_bytes": 82,
+      "en": "#b2Back #b4Zoom #b5Rotate #b0Transform #b6Previous #b7Next #b1Info",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 75952,
+          "source_bytes": 82,
+          "contains_japanese": true,
+          "en": "#b2Back #b4Zoom #b5Rotate #b0Transform #b6Previous #b7Next #b1Info"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b4",
+        "#b5",
+        "#b0",
+        "#b6",
+        "#b7",
+        "#b1"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1789,
+      "key": "STR_HELP_GALLERY_MECHANIC2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14332,
+      "label_offset": 93112,
+      "source_offset": 76036,
+      "source_bytes": 70,
+      "en": "#b2Back #b4Zoom #b5Rotate #b0Transform #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 76036,
+          "source_bytes": 70,
+          "contains_japanese": true,
+          "en": "#b2Back #b4Zoom #b5Rotate #b0Transform #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b4",
+        "#b5",
+        "#b0",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1790,
+      "key": "STR_HELP_GALLERY_MECHANIC3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14340,
+      "label_offset": 93148,
+      "source_offset": 76108,
+      "source_bytes": 54,
+      "en": "#b2Back #b5Rotate #b0Transform #b6Previous #b7Next",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 76108,
+          "source_bytes": 54,
+          "contains_japanese": true,
+          "en": "#b2Back #b5Rotate #b0Transform #b6Previous #b7Next"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Settings prompt or button legend; button glyph codes kept in original order.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b2",
+        "#b5",
+        "#b0",
+        "#b6",
+        "#b7"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1791,
+      "key": null,
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 14348,
+      "label_offset": null,
+      "source_offset": null,
+      "source_bytes": null,
+      "en": null,
+      "fields": [
+        null,
+        null
+      ],
+      "status": "unchanged_nonlinguistic",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "No authored or settled glossary mapping yet.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,2229 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 640,
+    "last_id": 719,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      630,
+      729
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 80
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 640,
+      "key": "STR_BRIEFING_SUB_FAIL_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5140,
+      "label_offset": 51748,
+      "source_offset": 42492,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42492,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 641,
+      "key": "STR_BRIEFING_SUB_FAIL_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5148,
+      "label_offset": 51784,
+      "source_offset": 42564,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42564,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 642,
+      "key": "STR_BRIEFING_SUB_FAIL_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5156,
+      "label_offset": 51820,
+      "source_offset": 42636,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42636,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 643,
+      "key": "STR_BRIEFING_SUB_FAIL_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5164,
+      "label_offset": 51856,
+      "source_offset": 42708,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42708,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 644,
+      "key": "STR_BRIEFING_SUB_FAIL_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5172,
+      "label_offset": 51892,
+      "source_offset": 42780,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42780,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 645,
+      "key": "STR_BRIEFING_SUB_FAIL_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5180,
+      "label_offset": 51928,
+      "source_offset": 42852,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42852,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 646,
+      "key": "STR_BRIEFING_SUB_FAIL_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5188,
+      "label_offset": 51964,
+      "source_offset": 42924,
+      "source_bytes": 68,
+      "en": "・A transport is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42924,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・A transport is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 647,
+      "key": "STR_BRIEFING_SUB_FAIL_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5196,
+      "label_offset": 52000,
+      "source_offset": 42996,
+      "source_bytes": 98,
+      "en": "・The allied Para-mail is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42996,
+          "source_bytes": 98,
+          "contains_japanese": true,
+          "en": "・The allied Para-mail is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 648,
+      "key": "STR_BRIEFING_SUB_FAIL_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5204,
+      "label_offset": 52036,
+      "source_offset": 43096,
+      "source_bytes": 100,
+      "en": "・The allied Ragna-mail is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43096,
+          "source_bytes": 100,
+          "contains_japanese": true,
+          "en": "・The allied Ragna-mail is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 649,
+      "key": "STR_BRIEFING_SUB_FAIL_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5212,
+      "label_offset": 52072,
+      "source_offset": 43200,
+      "source_bytes": 84,
+      "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43200,
+          "source_bytes": 84,
+          "contains_japanese": true,
+          "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 650,
+      "key": "STR_BRIEFING_SUB_FAIL_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5220,
+      "label_offset": 52108,
+      "source_offset": 43288,
+      "source_bytes": 88,
+      "en": "・Small unmanned weapons enter the airspace above the Aurora.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43288,
+          "source_bytes": 88,
+          "contains_japanese": true,
+          "en": "・Small unmanned weapons enter the airspace above the Aurora.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 651,
+      "key": "STR_BRIEFING_SUB_FAIL_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5228,
+      "label_offset": 52144,
+      "source_offset": 43380,
+      "source_bytes": 82,
+      "en": "・DRAGONs enter the airspace above the Dawn Pillar.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43380,
+          "source_bytes": 82,
+          "contains_japanese": true,
+          "en": "・DRAGONs enter the airspace above the Dawn Pillar.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 652,
+      "key": "STR_BRIEFING_SUB_FAIL_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5236,
+      "label_offset": 52180,
+      "source_offset": 43464,
+      "source_bytes": 90,
+      "en": "・Five DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43464,
+          "source_bytes": 90,
+          "contains_japanese": true,
+          "en": "・Five DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 653,
+      "key": "STR_BRIEFING_SUB_FAIL_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5244,
+      "label_offset": 52216,
+      "source_offset": 43556,
+      "source_bytes": 94,
+      "en": "・Five small unmanned weapons enter the airspace above the Aurora.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43556,
+          "source_bytes": 94,
+          "contains_japanese": true,
+          "en": "・Five small unmanned weapons enter the airspace above the Aurora.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 654,
+      "key": "STR_BRIEFING_SUB_FAIL_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5252,
+      "label_offset": 52252,
+      "source_offset": 43652,
+      "source_bytes": 88,
+      "en": "・Five DRAGONs enter the airspace above the Dawn Pillar.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43652,
+          "source_bytes": 88,
+          "contains_japanese": true,
+          "en": "・Five DRAGONs enter the airspace above the Dawn Pillar.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 655,
+      "key": "STR_BRIEFING_SUB_FAIL_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5260,
+      "label_offset": 52288,
+      "source_offset": 43744,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43744,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 656,
+      "key": "STR_BRIEFING_SUB_FAIL_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5268,
+      "label_offset": 52324,
+      "source_offset": 43816,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43816,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 657,
+      "key": "STR_BRIEFING_SUB_FAIL_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5276,
+      "label_offset": 52360,
+      "source_offset": 43888,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43888,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 658,
+      "key": "STR_BRIEFING_SUB_FAIL_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5284,
+      "label_offset": 52396,
+      "source_offset": 43960,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 43960,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 659,
+      "key": "STR_BRIEFING_SUB_FAIL_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5292,
+      "label_offset": 52432,
+      "source_offset": 44032,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44032,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 660,
+      "key": "STR_BRIEFING_SUB_FAIL_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5300,
+      "label_offset": 52468,
+      "source_offset": 44104,
+      "source_bytes": 86,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out with fewer than 30 enemies destroyed.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44104,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out with fewer than 30 enemies destroyed."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 661,
+      "key": "STR_BRIEFING_SUB_FAIL_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5308,
+      "label_offset": 52504,
+      "source_offset": 44192,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44192,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 662,
+      "key": "STR_BRIEFING_SUB_FAIL_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5316,
+      "label_offset": 52540,
+      "source_offset": 44264,
+      "source_bytes": 86,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out with fewer than 30 enemies destroyed.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44264,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out with fewer than 30 enemies destroyed."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 663,
+      "key": "STR_BRIEFING_SUB_FAIL_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5324,
+      "label_offset": 52576,
+      "source_offset": 44352,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44352,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 664,
+      "key": "STR_CHR_NAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5332,
+      "label_offset": 52612,
+      "source_offset": 44424,
+      "source_bytes": 6,
+      "en": "Naomi",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44424,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Naomi"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0002",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 665,
+      "key": "STR_CHR_NAME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5340,
+      "label_offset": 52648,
+      "source_offset": 44432,
+      "source_bytes": 8,
+      "en": "Ange",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44432,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ange"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0012",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 666,
+      "key": "STR_CHR_NAME_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5348,
+      "label_offset": 52684,
+      "source_offset": 44444,
+      "source_bytes": 12,
+      "en": "Vivian",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44444,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Vivian"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0013",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 667,
+      "key": "STR_CHR_NAME_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5356,
+      "label_offset": 52720,
+      "source_offset": 44460,
+      "source_bytes": 6,
+      "en": "Salia",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44460,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Salia"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0005",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 668,
+      "key": "STR_CHR_NAME_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5364,
+      "label_offset": 52756,
+      "source_offset": 44468,
+      "source_bytes": 8,
+      "en": "Ersha",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44468,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ersha"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0007",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 669,
+      "key": "STR_CHR_NAME_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5372,
+      "label_offset": 52792,
+      "source_offset": 44480,
+      "source_bytes": 6,
+      "en": "Hilda",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44480,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hilda"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0008",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 670,
+      "key": "STR_CHR_NAME_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5380,
+      "label_offset": 52828,
+      "source_offset": 44488,
+      "source_bytes": 8,
+      "en": "Rosalie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44488,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rosalie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0006",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 671,
+      "key": "STR_CHR_NAME_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5388,
+      "label_offset": 52864,
+      "source_offset": 44500,
+      "source_bytes": 6,
+      "en": "Chris",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44500,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Chris"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0009",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 672,
+      "key": "STR_CHR_NAME_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5396,
+      "label_offset": 52900,
+      "source_offset": 44508,
+      "source_bytes": 6,
+      "en": "Momoka",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44508,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Momoka"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0028",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 673,
+      "key": "STR_CHR_NAME_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5404,
+      "label_offset": 52936,
+      "source_offset": 44516,
+      "source_bytes": 4,
+      "en": "Jill",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44516,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Jill"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0010",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 674,
+      "key": "STR_CHR_NAME_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5412,
+      "label_offset": 52972,
+      "source_offset": 44524,
+      "source_bytes": 6,
+      "en": "Maggie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44524,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Maggie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0018",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 675,
+      "key": "STR_CHR_NAME_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5420,
+      "label_offset": 53008,
+      "source_offset": 44532,
+      "source_bytes": 4,
+      "en": "Mei",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44532,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Mei"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0001",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 676,
+      "key": "STR_CHR_NAME_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5428,
+      "label_offset": 53044,
+      "source_offset": 44540,
+      "source_bytes": 4,
+      "en": "Emma",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44540,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Emma"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0025",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 677,
+      "key": "STR_CHR_NAME_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5436,
+      "label_offset": 53080,
+      "source_offset": 44548,
+      "source_bytes": 10,
+      "en": "Jasmine",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44548,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Jasmine"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0017",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 678,
+      "key": "STR_CHR_NAME_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5444,
+      "label_offset": 53116,
+      "source_offset": 44560,
+      "source_bytes": 6,
+      "en": "Tusk",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44560,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Tusk"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0011",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 679,
+      "key": "STR_CHR_NAME_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5452,
+      "label_offset": 53152,
+      "source_offset": 44568,
+      "source_bytes": 4,
+      "en": "Sala",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44568,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Sala"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0046",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 680,
+      "key": "STR_CHR_NAME_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5460,
+      "label_offset": 53188,
+      "source_offset": 44576,
+      "source_bytes": 10,
+      "en": "Embryo",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44576,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Embryo"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0014",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 681,
+      "key": "STR_CHR_NAME_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5468,
+      "label_offset": 53224,
+      "source_offset": 44588,
+      "source_bytes": 8,
+      "en": "Julio",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44588,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Julio"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0040",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 682,
+      "key": "STR_CHR_NAME_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5476,
+      "label_offset": 53260,
+      "source_offset": 44600,
+      "source_bytes": 10,
+      "en": "Sylvia",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44600,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Sylvia"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0015",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 683,
+      "key": "STR_CHR_NAME_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5484,
+      "label_offset": 53296,
+      "source_offset": 44612,
+      "source_bytes": 8,
+      "en": "DRAGON",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44612,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "DRAGON"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0045",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 684,
+      "key": "STR_CHR_NAME_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5492,
+      "label_offset": 53332,
+      "source_offset": 44624,
+      "source_bytes": 10,
+      "en": "Perolina",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44624,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Perolina"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0033",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 685,
+      "key": "STR_CHR_NAME_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5500,
+      "label_offset": 53368,
+      "source_offset": 44636,
+      "source_bytes": 6,
+      "en": "Naga",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44636,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Naga"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0047",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 686,
+      "key": "STR_CHR_NAME_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5508,
+      "label_offset": 53404,
+      "source_offset": 44644,
+      "source_bytes": 6,
+      "en": "Kaname",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44644,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Kaname"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0048",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 687,
+      "key": "STR_CHR_NAME_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5516,
+      "label_offset": 53440,
+      "source_offset": 44652,
+      "source_bytes": 6,
+      "en": "Zola",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44652,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Zola"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0019",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 688,
+      "key": "STR_CHR_NAME_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5524,
+      "label_offset": 53476,
+      "source_offset": 44660,
+      "source_bytes": 4,
+      "en": "Coco",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44660,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Coco"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0020",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 689,
+      "key": "STR_CHR_NAME_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5532,
+      "label_offset": 53512,
+      "source_offset": 44668,
+      "source_bytes": 8,
+      "en": "Miranda",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44668,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Miranda"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0021",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 690,
+      "key": "STR_CHR_NAME_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5540,
+      "label_offset": 53548,
+      "source_offset": 44680,
+      "source_bytes": 20,
+      "en": "DRAGON Vivian",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44680,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "DRAGON Vivian"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0057",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 691,
+      "key": "STR_CHR_NAME_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5548,
+      "label_offset": 53584,
+      "source_offset": 44704,
+      "source_bytes": 6,
+      "en": "Pamela",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44704,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Pamela"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0016",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 692,
+      "key": "STR_CHR_NAME_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5556,
+      "label_offset": 53620,
+      "source_offset": 44712,
+      "source_bytes": 6,
+      "en": "Hikaru",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44712,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hikaru"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0004",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 693,
+      "key": "STR_CHR_NAME_30",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5564,
+      "label_offset": 53656,
+      "source_offset": 44720,
+      "source_bytes": 8,
+      "en": "Olivier",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44720,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Olivier"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0003",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 694,
+      "key": "STR_CHR_NAME_31",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5572,
+      "label_offset": 53692,
+      "source_offset": 44732,
+      "source_bytes": 8,
+      "en": "Vulcan",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44732,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Vulcan"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0043",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 695,
+      "key": "STR_CHR_NAME_32",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5580,
+      "label_offset": 53728,
+      "source_offset": 44744,
+      "source_bytes": 8,
+      "en": "Child Soldier A",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44744,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Child Soldier A"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0034",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 696,
+      "key": "STR_CHR_NAME_33",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5588,
+      "label_offset": 53764,
+      "source_offset": 44756,
+      "source_bytes": 8,
+      "en": "Child Soldier B",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44756,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Child Soldier B"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0035",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 697,
+      "key": "STR_CHR_NAME_34",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5596,
+      "label_offset": 53800,
+      "source_offset": 44768,
+      "source_bytes": 12,
+      "en": "Misurugi Citizen",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44768,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Misurugi Citizen"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0039",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 698,
+      "key": "STR_CHR_NAME_35",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5604,
+      "label_offset": 53836,
+      "source_offset": 44784,
+      "source_bytes": 6,
+      "en": "Female Teacher",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44784,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Female Teacher"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0023",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 699,
+      "key": "STR_CHR_NAME_36",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5612,
+      "label_offset": 53872,
+      "source_offset": 44792,
+      "source_bytes": 8,
+      "en": "Children",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44792,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Children"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0024",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 700,
+      "key": "STR_CHR_NAME_37",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5620,
+      "label_offset": 53908,
+      "source_offset": 44804,
+      "source_bytes": 18,
+      "en": "International Rescue Fleet Radio Operator",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44804,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "International Rescue Fleet Radio Operator"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0058",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 701,
+      "key": "STR_CHR_NAME_38",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5628,
+      "label_offset": 53944,
+      "source_offset": 44824,
+      "source_bytes": 12,
+      "en": "Special Forces Soldier",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44824,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Special Forces Soldier"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0044",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 702,
+      "key": "STR_CHR_NAME_39",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5636,
+      "label_offset": 53980,
+      "source_offset": 44840,
+      "source_bytes": 4,
+      "en": "Everyone",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44840,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Everyone"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "speaker-labels.json:speaker_0027",
+      "glossary_status": "mapped"
+    },
+    {
+      "id": 703,
+      "key": "STR_PMAIL_NAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5644,
+      "label_offset": 54016,
+      "source_offset": 44848,
+      "source_bytes": 22,
+      "en": "Glaive TYPE-00",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44848,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Glaive TYPE-00"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_703",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 704,
+      "key": "STR_PMAIL_NAME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5652,
+      "label_offset": 54052,
+      "source_offset": 44872,
+      "source_bytes": 20,
+      "en": "Villkiss/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44872,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Villkiss/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_704",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 705,
+      "key": "STR_PMAIL_NAME_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5660,
+      "label_offset": 54088,
+      "source_offset": 44896,
+      "source_bytes": 16,
+      "en": "Enryugo/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44896,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Enryugo/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_705",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 706,
+      "key": "STR_PMAIL_NAME_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5668,
+      "label_offset": 54124,
+      "source_offset": 44916,
+      "source_bytes": 10,
+      "en": "Arquebus",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44916,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Arquebus"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_706",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 707,
+      "key": "STR_PMAIL_NAME_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5676,
+      "label_offset": 54160,
+      "source_offset": 44928,
+      "source_bytes": 8,
+      "en": "Razor",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44928,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Razor"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_707",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 708,
+      "key": "STR_PMAIL_NAME_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5684,
+      "label_offset": 54196,
+      "source_offset": 44940,
+      "source_bytes": 22,
+      "en": "Glaive TYPE-0１",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44940,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Glaive TYPE-0１"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_708",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 709,
+      "key": "STR_PMAIL_NAME_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5692,
+      "label_offset": 54232,
+      "source_offset": 44964,
+      "source_bytes": 22,
+      "en": "Glaive TYPE-02",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44964,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Glaive TYPE-02"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_709",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 710,
+      "key": "STR_PMAIL_NAME_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5700,
+      "label_offset": 54268,
+      "source_offset": 44988,
+      "source_bytes": 8,
+      "en": "Howitzer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 44988,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Howitzer"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_710",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 711,
+      "key": "STR_PMAIL_NAME_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5708,
+      "label_offset": 54304,
+      "source_offset": 45000,
+      "source_bytes": 10,
+      "en": "Villkiss",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45000,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Villkiss"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_711",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 712,
+      "key": "STR_PMAIL_NAME_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5716,
+      "label_offset": 54340,
+      "source_offset": 45012,
+      "source_bytes": 6,
+      "en": "Enryugo",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45012,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Enryugo"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_712",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 713,
+      "key": "STR_PMAIL_NAME_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5724,
+      "label_offset": 54376,
+      "source_offset": 45020,
+      "source_bytes": 28,
+      "en": "Arquebus/Zola Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45020,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus/Zola Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_713",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 714,
+      "key": "STR_PMAIL_NAME_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5732,
+      "label_offset": 54412,
+      "source_offset": 45052,
+      "source_bytes": 28,
+      "en": "Arquebus/Salia Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45052,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus/Salia Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_714",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 715,
+      "key": "STR_PMAIL_NAME_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5740,
+      "label_offset": 54448,
+      "source_offset": 45084,
+      "source_bytes": 8,
+      "en": "Razor",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45084,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Razor"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_715",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 716,
+      "key": "STR_PMAIL_NAME_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5748,
+      "label_offset": 54484,
+      "source_offset": 45096,
+      "source_bytes": 26,
+      "en": "Glaive/Hilda Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45096,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Glaive/Hilda Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_716",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 717,
+      "key": "STR_PMAIL_NAME_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5756,
+      "label_offset": 54520,
+      "source_offset": 45124,
+      "source_bytes": 28,
+      "en": "Glaive/Rosalie Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45124,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Glaive/Rosalie Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_717",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 718,
+      "key": "STR_PMAIL_NAME_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5764,
+      "label_offset": 54556,
+      "source_offset": 45156,
+      "source_bytes": 26,
+      "en": "Howitzer/Chris Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45156,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Howitzer/Chris Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_718",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 719,
+      "key": "STR_PMAIL_NAME_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5772,
+      "label_offset": 54592,
+      "source_offset": 45184,
+      "source_bytes": 28,
+      "en": "Howitzer/Ersha Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45184,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Howitzer/Ersha Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_719",
+      "glossary_status": "verified_base_name_project_variant"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,2120 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 80,
+    "last_id": 159,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      70,
+      169
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 78,
+    "translated_needs_review": 2
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 80,
+      "key": "STR_MISSION_NAME_SUB_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 660,
+      "label_offset": 31588,
+      "source_offset": 16072,
+      "source_bytes": 24,
+      "en": "#ETwo Red Shadows Closing In",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16072,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#ETwo Red Shadows Closing In"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 81,
+      "key": "STR_MISSION_NAME_SUB_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 668,
+      "label_offset": 31624,
+      "source_offset": 16100,
+      "source_bytes": 30,
+      "en": "#ETime Attack: DRAGONs",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16100,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#ETime Attack: DRAGONs"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 82,
+      "key": "STR_MISSION_NAME_SUB_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 676,
+      "label_offset": 31660,
+      "source_offset": 16132,
+      "source_bytes": 34,
+      "en": "#ETime Attack: Pyrethroids",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16132,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "#ETime Attack: Pyrethroids"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 83,
+      "key": "STR_MISSION_NAME_SUB_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 684,
+      "label_offset": 31696,
+      "source_offset": 16168,
+      "source_bytes": 34,
+      "en": "#ETime Attack: DRAGONs II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16168,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "#ETime Attack: DRAGONs II"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 84,
+      "key": "STR_MISSION_NAME_SUB_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 692,
+      "label_offset": 31732,
+      "source_offset": 16204,
+      "source_bytes": 26,
+      "en": "#ERescue the Transport Again",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16204,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#ERescue the Transport Again"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 85,
+      "key": "STR_MISSION_NAME_SUB_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 700,
+      "label_offset": 31768,
+      "source_offset": 16232,
+      "source_bytes": 28,
+      "en": "#ESupport a Rookie Mail-Rider",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16232,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "#ESupport a Rookie Mail-Rider"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 86,
+      "key": "STR_MISSION_NAME_SUB_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 708,
+      "label_offset": 31804,
+      "source_offset": 16264,
+      "source_bytes": 20,
+      "en": "#ESupport Tanya's Machine",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16264,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#ESupport Tanya's Machine"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 87,
+      "key": "STR_MISSION_NAME_SUB_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 716,
+      "label_offset": 31840,
+      "source_offset": 16288,
+      "source_bytes": 24,
+      "en": "#EDefense of Arzenal I",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16288,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EDefense of Arzenal I"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 88,
+      "key": "STR_MISSION_NAME_SUB_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 724,
+      "label_offset": 31876,
+      "source_offset": 16316,
+      "source_bytes": 24,
+      "en": "#EDefense of the Aurora I",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16316,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EDefense of the Aurora I"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 89,
+      "key": "STR_MISSION_NAME_SUB_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 732,
+      "label_offset": 31912,
+      "source_offset": 16344,
+      "source_bytes": 22,
+      "en": "#EDefense of the Dawn Pillar I",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16344,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EDefense of the Dawn Pillar I"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 90,
+      "key": "STR_MISSION_NAME_SUB_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 740,
+      "label_offset": 31948,
+      "source_offset": 16368,
+      "source_bytes": 24,
+      "en": "#EDefense of Arzenal II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16368,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EDefense of Arzenal II"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 91,
+      "key": "STR_MISSION_NAME_SUB_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 748,
+      "label_offset": 31984,
+      "source_offset": 16396,
+      "source_bytes": 24,
+      "en": "#EDefense of the Aurora II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16396,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EDefense of the Aurora II"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 92,
+      "key": "STR_MISSION_NAME_SUB_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 756,
+      "label_offset": 32020,
+      "source_offset": 16424,
+      "source_bytes": 22,
+      "en": "#EDefense of the Dawn Pillar II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16424,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EDefense of the Dawn Pillar II"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 93,
+      "key": "STR_MISSION_NAME_SUB_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 764,
+      "label_offset": 32056,
+      "source_offset": 16448,
+      "source_bytes": 24,
+      "en": "#ELibertus Bomb Disposal Squad",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16448,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#ELibertus Bomb Disposal Squad"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 94,
+      "key": "STR_MISSION_NAME_SUB_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 772,
+      "label_offset": 32092,
+      "source_offset": 16476,
+      "source_bytes": 24,
+      "en": "#EEmbryo's Bomb Disposal Squad",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16476,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EEmbryo's Bomb Disposal Squad"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 95,
+      "key": "STR_MISSION_NAME_SUB_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 780,
+      "label_offset": 32128,
+      "source_offset": 16504,
+      "source_bytes": 18,
+      "en": "#ERyuu-Shin-Ki Test",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16504,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#ERyuu-Shin-Ki Test"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 96,
+      "key": "STR_MISSION_NAME_SUB_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 788,
+      "label_offset": 32164,
+      "source_offset": 16524,
+      "source_bytes": 24,
+      "en": "#ERagna-mail Test",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16524,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#ERagna-mail Test"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 97,
+      "key": "STR_MISSION_NAME_HEROINE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 796,
+      "label_offset": 32200,
+      "source_offset": 16552,
+      "source_bytes": 28,
+      "en": "#EA Love Letter from Ange",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16552,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Ange"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 98,
+      "key": "STR_MISSION_NAME_HEROINE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 804,
+      "label_offset": 32236,
+      "source_offset": 16584,
+      "source_bytes": 32,
+      "en": "#EAnother Love Letter from Ange",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16584,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Ange"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 99,
+      "key": "STR_MISSION_NAME_HEROINE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 812,
+      "label_offset": 32272,
+      "source_offset": 16620,
+      "source_bytes": 32,
+      "en": "#EA Love Letter from Vivian",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16620,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Vivian"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 100,
+      "key": "STR_MISSION_NAME_HEROINE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 820,
+      "label_offset": 32308,
+      "source_offset": 16656,
+      "source_bytes": 36,
+      "en": "#EAnother Love Letter from Vivian",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16656,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Vivian"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 101,
+      "key": "STR_MISSION_NAME_HEROINE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 828,
+      "label_offset": 32344,
+      "source_offset": 16696,
+      "source_bytes": 26,
+      "en": "#EA Love Letter from Salia",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16696,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Salia"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 102,
+      "key": "STR_MISSION_NAME_HEROINE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 836,
+      "label_offset": 32380,
+      "source_offset": 16724,
+      "source_bytes": 30,
+      "en": "#EAnother Love Letter from Salia",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16724,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Salia"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 103,
+      "key": "STR_MISSION_NAME_HEROINE_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 844,
+      "label_offset": 32416,
+      "source_offset": 16756,
+      "source_bytes": 28,
+      "en": "#EA Love Letter from Ersha",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16756,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Ersha"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 104,
+      "key": "STR_MISSION_NAME_HEROINE_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 852,
+      "label_offset": 32452,
+      "source_offset": 16788,
+      "source_bytes": 32,
+      "en": "#EAnother Love Letter from Ersha",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16788,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Ersha"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 105,
+      "key": "STR_MISSION_NAME_HEROINE_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 860,
+      "label_offset": 32488,
+      "source_offset": 16824,
+      "source_bytes": 26,
+      "en": "#EA Love Letter from Hilda",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16824,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Hilda"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 106,
+      "key": "STR_MISSION_NAME_HEROINE_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 868,
+      "label_offset": 32524,
+      "source_offset": 16852,
+      "source_bytes": 30,
+      "en": "#EAnother Love Letter from Hilda",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16852,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Hilda"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 107,
+      "key": "STR_MISSION_NAME_HEROINE_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 876,
+      "label_offset": 32560,
+      "source_offset": 16884,
+      "source_bytes": 28,
+      "en": "#EA Love Letter from Rosalie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16884,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Rosalie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 108,
+      "key": "STR_MISSION_NAME_HEROINE_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 884,
+      "label_offset": 32596,
+      "source_offset": 16916,
+      "source_bytes": 32,
+      "en": "#EAnother Love Letter from Rosalie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16916,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Rosalie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 109,
+      "key": "STR_MISSION_NAME_HEROINE_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 892,
+      "label_offset": 32632,
+      "source_offset": 16952,
+      "source_bytes": 26,
+      "en": "#EA Love Letter from Chris",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16952,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EA Love Letter from Chris"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 110,
+      "key": "STR_MISSION_NAME_HEROINE_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 900,
+      "label_offset": 32668,
+      "source_offset": 16980,
+      "source_bytes": 30,
+      "en": "#EAnother Love Letter from Chris",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16980,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "#EAnother Love Letter from Chris"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 111,
+      "key": "STR_MISSION_NAME_SUB_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 908,
+      "label_offset": 32704,
+      "source_offset": 17012,
+      "source_bytes": 20,
+      "en": "#EPreparing to Return I",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17012,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EPreparing to Return I"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 112,
+      "key": "STR_MISSION_NAME_SUB_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 916,
+      "label_offset": 32740,
+      "source_offset": 17036,
+      "source_bytes": 20,
+      "en": "#EPreparing to Return II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17036,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EPreparing to Return II"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 113,
+      "key": "STR_MISSION_NAME_SUB_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 924,
+      "label_offset": 32776,
+      "source_offset": 17060,
+      "source_bytes": 20,
+      "en": "#EDaily Life at Arzenal",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17060,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EDaily Life at Arzenal"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 114,
+      "key": "STR_MISSION_NAME_SUB_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 932,
+      "label_offset": 32812,
+      "source_offset": 17084,
+      "source_bytes": 18,
+      "en": "#EWipe Out the Remaining Forces",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17084,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EWipe Out the Remaining Forces"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 115,
+      "key": "STR_MISSION_NAME_SUB_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 940,
+      "label_offset": 32848,
+      "source_offset": 17104,
+      "source_bytes": 22,
+      "en": "#ERecover the Dracunium",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17104,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#ERecover the Dracunium"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 116,
+      "key": "STR_ROOM_DIALOG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 948,
+      "label_offset": 32884,
+      "source_offset": 17128,
+      "source_bytes": 22,
+      "en": "Go to the deck?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17128,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Go to the deck?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 117,
+      "key": "STR_ROOM_DIALOG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 956,
+      "label_offset": 32920,
+      "source_offset": 17152,
+      "source_bytes": 14,
+      "en": "Deploy?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17152,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Deploy?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 118,
+      "key": "STR_ROOM_MENU_LOUNGE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 964,
+      "label_offset": 32956,
+      "source_offset": 17168,
+      "source_bytes": 36,
+      "en": "Head here if you want to meet everyone and have a chat.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17168,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Head here if you want to meet everyone and have a chat."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 119,
+      "key": "STR_ROOM_MENU_MISSION",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 972,
+      "label_offset": 32992,
+      "source_offset": 17208,
+      "source_bytes": 32,
+      "en": "Head here if you want to take missions and train.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17208,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Head here if you want to take missions and train."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 120,
+      "key": "STR_ROOM_MENU_DECK",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 980,
+      "label_offset": 33028,
+      "source_offset": 17244,
+      "source_bytes": 40,
+      "en": "You can customize your machine on the deck.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17244,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "You can customize your machine on the deck."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 121,
+      "key": "STR_ROOM_MENU_CONFIG",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 988,
+      "label_offset": 33064,
+      "source_offset": 17288,
+      "source_bytes": 24,
+      "en": "You can change your settings here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17288,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "You can change your settings here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 122,
+      "key": "STR_ROOM_MENU_GALLERY",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 996,
+      "label_offset": 33100,
+      "source_offset": 17316,
+      "source_bytes": 30,
+      "en": "You can view all kinds of information here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17316,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can view all kinds of information here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 123,
+      "key": "STR_ROOM_MENU_SAVE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1004,
+      "label_offset": 33136,
+      "source_offset": 17348,
+      "source_bytes": 30,
+      "en": "You can save your current game.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17348,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can save your current game."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 124,
+      "key": "STR_ROOM_MENU_LOAD",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1012,
+      "label_offset": 33172,
+      "source_offset": 17380,
+      "source_bytes": 30,
+      "en": "You can load saved data.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17380,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can load saved data."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 125,
+      "key": "STR_ROOM_MENU_SETTING",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1020,
+      "label_offset": 33208,
+      "source_offset": 17412,
+      "source_bytes": 32,
+      "en": "You can adjust the BGM and SE volume.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17412,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "You can adjust the BGM and SE volume."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 126,
+      "key": "STR_ROOM_MENU_KEY_CONFIG",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1028,
+      "label_offset": 33244,
+      "source_offset": 17448,
+      "source_bytes": 42,
+      "en": "You can change your machine's controls for action sequences.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17448,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "You can change your machine's controls for action sequences."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 127,
+      "key": "STR_ROOM_MENU_CAMERA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1036,
+      "label_offset": 33280,
+      "source_offset": 17492,
+      "source_bytes": 38,
+      "en": "You can change the camera position for action sequences.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17492,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "You can change the camera position for action sequences."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 128,
+      "key": "STR_ROOM_MENU_MECHANIC",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1044,
+      "label_offset": 33316,
+      "source_offset": 17532,
+      "source_bytes": 20,
+      "en": "You can view 3D models.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17532,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "You can view 3D models."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 129,
+      "key": "STR_ROOM_MENU_ILLUST",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1052,
+      "label_offset": 33352,
+      "source_offset": 17556,
+      "source_bytes": 18,
+      "en": "You can view illustrations.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17556,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "You can view illustrations."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 130,
+      "key": "STR_ROOM_MENU_CHARA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1060,
+      "label_offset": 33388,
+      "source_offset": 17576,
+      "source_bytes": 30,
+      "en": "You can view character illustrations.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17576,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can view character illustrations."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 131,
+      "key": "STR_ROOM_MENU_SOUND",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1068,
+      "label_offset": 33424,
+      "source_offset": 17608,
+      "source_bytes": 14,
+      "en": "You can listen to music.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17608,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "You can listen to music."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 132,
+      "key": "STR_ROOM_MENU_LOUNGE_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1076,
+      "label_offset": 33460,
+      "source_offset": 17624,
+      "source_bytes": 36,
+      "en": "Come here if you want to meet everyone and talk.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17624,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Come here if you want to meet everyone and talk."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 133,
+      "key": "STR_ROOM_MENU_MISSION_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1084,
+      "label_offset": 33496,
+      "source_offset": 17664,
+      "source_bytes": 32,
+      "en": "Come here if you want to take missions and train.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17664,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Come here if you want to take missions and train."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 134,
+      "key": "STR_ROOM_MENU_DECK_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1092,
+      "label_offset": 33532,
+      "source_offset": 17700,
+      "source_bytes": 42,
+      "en": "You can customize your machine on the deck.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17700,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "You can customize your machine on the deck."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 135,
+      "key": "STR_ROOM_MENU_CONFIG_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1100,
+      "label_offset": 33568,
+      "source_offset": 17744,
+      "source_bytes": 24,
+      "en": "You can change your settings here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17744,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "You can change your settings here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 136,
+      "key": "STR_ROOM_MENU_GALLERY_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1108,
+      "label_offset": 33604,
+      "source_offset": 17772,
+      "source_bytes": 30,
+      "en": "You can view all kinds of information here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17772,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can view all kinds of information here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 137,
+      "key": "STR_ROOM_MENU_SAVE_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1116,
+      "label_offset": 33640,
+      "source_offset": 17804,
+      "source_bytes": 30,
+      "en": "You can save your current game.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17804,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can save your current game."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 138,
+      "key": "STR_ROOM_MENU_LOAD_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1124,
+      "label_offset": 33676,
+      "source_offset": 17836,
+      "source_bytes": 30,
+      "en": "You can load saved data.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17836,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You can load saved data."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 139,
+      "key": "STR_ROOM_MENU_SETTING_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1132,
+      "label_offset": 33712,
+      "source_offset": 17868,
+      "source_bytes": 34,
+      "en": "You can adjust the BGM and SE volume.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17868,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "You can adjust the BGM and SE volume."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 140,
+      "key": "STR_ROOM_MENU_KEY_CONFIG_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1140,
+      "label_offset": 33748,
+      "source_offset": 17904,
+      "source_bytes": 42,
+      "en": "You can change your machine's controls for action sequences.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17904,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "You can change your machine's controls for action sequences."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 141,
+      "key": "STR_ROOM_MENU_CAMERA_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1148,
+      "label_offset": 33784,
+      "source_offset": 17948,
+      "source_bytes": 38,
+      "en": "You can change the camera position for action sequences.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17948,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "You can change the camera position for action sequences."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 142,
+      "key": "STR_ROOM_MENU_MECHANIC_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1156,
+      "label_offset": 33820,
+      "source_offset": 17988,
+      "source_bytes": 22,
+      "en": "You can view 3D models.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 17988,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "You can view 3D models."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 143,
+      "key": "STR_ROOM_MENU_ILLUST_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1164,
+      "label_offset": 33856,
+      "source_offset": 18012,
+      "source_bytes": 18,
+      "en": "You can view illustrations.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18012,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "You can view illustrations."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 144,
+      "key": "STR_ROOM_MENU_CHARA_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1172,
+      "label_offset": 33892,
+      "source_offset": 18032,
+      "source_bytes": 40,
+      "en": "You can view character illustrations here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18032,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "You can view character illustrations here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 145,
+      "key": "STR_ROOM_MENU_SOUND_SALIA",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1180,
+      "label_offset": 33928,
+      "source_offset": 18076,
+      "source_bytes": 20,
+      "en": "You can listen to music here.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18076,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "You can listen to music here."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 146,
+      "key": "CHAPTER_TITLE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1188,
+      "label_offset": 33964,
+      "source_offset": 18100,
+      "source_bytes": 16,
+      "en": "Reporting for Duty, and Then—",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18100,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Reporting for Duty, and Then—"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "chapter_title_deliberately_unfinished"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 147,
+      "key": "CHAPTER_TITLE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1196,
+      "label_offset": 34000,
+      "source_offset": 18120,
+      "source_bytes": 24,
+      "en": "Welcome to the First Squadron of Death",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18120,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Welcome to the First Squadron of Death"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 148,
+      "key": "CHAPTER_TITLE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1204,
+      "label_offset": 34036,
+      "source_offset": 18148,
+      "source_bytes": 16,
+      "en": "Why I Fight",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18148,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Why I Fight"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 149,
+      "key": "CHAPTER_TITLE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1212,
+      "label_offset": 34072,
+      "source_offset": 18168,
+      "source_bytes": 10,
+      "en": "A Cheerful Meal",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18168,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "A Cheerful Meal"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 150,
+      "key": "CHAPTER_TITLE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1220,
+      "label_offset": 34108,
+      "source_offset": 18180,
+      "source_bytes": 20,
+      "en": "The First Squadron on the Brink of Annihilation!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18180,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "The First Squadron on the Brink of Annihilation!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 151,
+      "key": "CHAPTER_TITLE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1228,
+      "label_offset": 34144,
+      "source_offset": 18204,
+      "source_bytes": 16,
+      "en": "To Protect Smiles",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18204,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "To Protect Smiles"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 152,
+      "key": "CHAPTER_TITLE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1236,
+      "label_offset": 34180,
+      "source_offset": 18224,
+      "source_bytes": 18,
+      "en": "Infiltration! The Empire of Misurugi",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18224,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Infiltration! The Empire of Misurugi"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 153,
+      "key": "CHAPTER_TITLE_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1244,
+      "label_offset": 34216,
+      "source_offset": 18244,
+      "source_bytes": 16,
+      "en": "A Place for Each of Us",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18244,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "A Place for Each of Us"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 154,
+      "key": "CHAPTER_TITLE_08A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1252,
+      "label_offset": 34252,
+      "source_offset": 18264,
+      "source_bytes": 16,
+      "en": "Those Who Know the Truth",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18264,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Those Who Know the Truth"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 155,
+      "key": "CHAPTER_TITLE_08B",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1260,
+      "label_offset": 34288,
+      "source_offset": 18284,
+      "source_bytes": 12,
+      "en": "Rebels Beneath the Sea",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18284,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Rebels Beneath the Sea"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 156,
+      "key": "CHAPTER_TITLE_08C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1268,
+      "label_offset": 34324,
+      "source_offset": 18300,
+      "source_bytes": 12,
+      "en": "The World's Restorer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18300,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "The World's Restorer"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "collective_or_individual_title_source_number_unspecified"
+      ]
+    },
+    {
+      "id": 157,
+      "key": "CHAPTER_TITLE_09A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1276,
+      "label_offset": 34360,
+      "source_offset": 18316,
+      "source_bytes": 16,
+      "en": "Joining Forces, Standing Together",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18316,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Joining Forces, Standing Together"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 158,
+      "key": "CHAPTER_TITLE_09C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1284,
+      "label_offset": 34396,
+      "source_offset": 18336,
+      "source_bytes": 14,
+      "en": "Where Possibilities Converge",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18336,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Where Possibilities Converge"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 159,
+      "key": "CHAPTER_TITLE_10A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1292,
+      "label_offset": 34432,
+      "source_offset": 18352,
+      "source_bytes": 16,
+      "en": "To the Other Side of the World",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18352,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "To the Other Side of the World"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

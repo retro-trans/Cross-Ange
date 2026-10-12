@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "checked_on": "2026-10-11",
+  "decoded_archive_textures": 1875,
+  "initial_visual_scan_complete": true,
+  "readability_verification_complete": false,
+  "external_save_launcher_pngs_examined": 8,
+  "sets": [
+    {
+      "inspection_set": "_cg-ECG_",
+      "images": 45,
+      "sheets": 3,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "_cg-ED_",
+      "images": 14,
+      "sheets": 1,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "_ssa-item_",
+      "images": 141,
+      "sheets": 8,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "_ssa-widgets",
+      "images": 63,
+      "sheets": 4,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "external-save_icon-widgets",
+      "images": 3,
+      "sheets": 1,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "gxt-_tex-widgets",
+      "images": 771,
+      "sheets": 39,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "remaining-_cg-widgets",
+      "images": 208,
+      "sheets": 11,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "remaining-_l2d-widgets",
+      "images": 200,
+      "sheets": 10,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "remaining-_ssa-widgets",
+      "images": 128,
+      "sheets": 7,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "remaining-_tex-widgets",
+      "images": 269,
+      "sheets": 14,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "remaining-_ui-widgets",
+      "images": 13,
+      "sheets": 1,
+      "initial_visual_scan": "complete"
+    },
+    {
+      "inspection_set": "wrapped-_tex-widgets",
+      "images": 23,
+      "sheets": 2,
+      "initial_visual_scan": "complete"
+    }
+  ],
+  "pending_marking_groups": 5,
+  "notes": [
+    "Each listed sheet was visually examined; manifests alone do not establish inspection.",
+    "Initial scan covers all decoded textures; tiny and blurred text remains unresolved.",
+    "Texture coordinates are not live game layout measurements.",
+    "Manual pages and movie are separate from the texture count."
+  ]
+}

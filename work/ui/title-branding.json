@@ -1,0 +1,34 @@
+{
+  "id": "title_translation_branding",
+  "canvas": {"width": 960, "height": 544},
+  "version_source": "VERSION",
+  "generation_tool": "tools/build_branding.py",
+  "assets": ["data/_ssa/title_set.btx", "data/_ssa/title_copyright.bsa"],
+  "footer": {
+    "alignment": "right",
+    "right_anchor": 944,
+    "color": "white",
+    "outline": "black, 1 pixel",
+    "lines": [
+      {"id": "translation_version", "format": "v{version}", "font_size": 15, "top": 469},
+      {"id": "translation_project_url", "text": "github.com/retro-trans", "font_size": 14, "top": 491}
+    ]
+  },
+  "copyright": {"screen_rect": [0, 510, 960, 533], "original_pixels_preserved": true},
+  "sprite": {
+    "atlas_rect": [0, 300, 960, 387],
+    "origin": [480, 75],
+    "position": [480, 521],
+    "screen_rect": [0, 446, 960, 533],
+    "animation_keys_preserved": true
+  },
+  "credits": {
+    "content": "work/translation/en/credits.en.json",
+    "location": "sce_sys/manual/025.png",
+    "access": "Final page of the game manual from LiveArea",
+    "page_size": [960, 544]
+  },
+  "evidence": "Original SSAD copyright AREA/ORGX/ORGY and POSX/POSY keys; original SHTXFS atlas",
+  "runtime_verified": false,
+  "preview_kind": "Decoded asset reconstruction, not an in-game screenshot"
+}

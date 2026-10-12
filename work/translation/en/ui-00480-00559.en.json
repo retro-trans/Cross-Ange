@@ -1,0 +1,2273 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 480,
+    "last_id": 559,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      470,
+      569
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 78,
+    "translated_needs_review": 2
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 480,
+      "key": "STR_BRIEFING_MISSION_08_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3860,
+      "label_offset": 45988,
+      "source_offset": 29816,
+      "source_bytes": 130,
+      "en": "Embryo has made#nAnge, Vivian and Tusk disappear!?#nEvade Embryo's incoming attacks#nand prioritize survival.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 29816,
+          "source_bytes": 130,
+          "contains_japanese": true,
+          "en": "Embryo has made#nAnge, Vivian and Tusk disappear!?#nEvade Embryo's incoming attacks#nand prioritize survival."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 481,
+      "key": "STR_BRIEFING_MISSION_08_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3868,
+      "label_offset": 46024,
+      "source_offset": 29948,
+      "source_bytes": 246,
+      "en": "Salia, Chris, Ersha and Naomi#nhave sided with Embryo and left Arzenal.#nHalt the pursuing Para-mail units#nso you can withdraw to safe airspace.#n #nYou will form up with Salia.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 29948,
+          "source_bytes": 246,
+          "contains_japanese": true,
+          "en": "Salia, Chris, Ersha and Naomi#nhave sided with Embryo and left Arzenal.#nHalt the pursuing Para-mail units#nso you can withdraw to safe airspace.#n #nYou will form up with Salia.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 482,
+      "key": "STR_BRIEFING_MISSION_09_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3876,
+      "label_offset": 46060,
+      "source_offset": 30196,
+      "source_bytes": 112,
+      "en": "Three machines belonging to Embryo's Knights, led by Salia,#nhave begun attacking the Aurora.#nAll Para-mail units: deploy immediately and intercept them.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30196,
+          "source_bytes": 112,
+          "contains_japanese": true,
+          "en": "Three machines belonging to Embryo's Knights, led by Salia,#nhave begun attacking the Aurora.#nAll Para-mail units: deploy immediately and intercept them."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 483,
+      "key": "STR_BRIEFING_MISSION_09_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3884,
+      "label_offset": 46096,
+      "source_offset": 30312,
+      "source_bytes": 88,
+      "en": "The Aurora is approaching.#nEmbryo's Knights: deploy immediately#nand intercept the fleet led by Hilda.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30312,
+          "source_bytes": 88,
+          "contains_japanese": true,
+          "en": "The Aurora is approaching.#nEmbryo's Knights: deploy immediately#nand intercept the fleet led by Hilda."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 484,
+      "key": "STR_BRIEFING_MISSION_10_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3892,
+      "label_offset": 46132,
+      "source_offset": 30404,
+      "source_bytes": 90,
+      "en": "Embryo has begun preparing to merge the dimensions.#nAll Para-mail units: deploy immediately and stop the merger.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30404,
+          "source_bytes": 90,
+          "contains_japanese": true,
+          "en": "Embryo has begun preparing to merge the dimensions.#nAll Para-mail units: deploy immediately and stop the merger."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 485,
+      "key": "STR_BRIEFING_MISSION_10_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3900,
+      "label_offset": 46168,
+      "source_offset": 30496,
+      "source_bytes": 36,
+      "en": "Defeat Embryo and stop the dimensions from merging.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30496,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Defeat Embryo and stop the dimensions from merging."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 486,
+      "key": "STR_BRIEFING_MISSION_10_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3908,
+      "label_offset": 46204,
+      "source_offset": 30536,
+      "source_bytes": 134,
+      "en": "Para-mail units have been confirmed launching from the Aurora off the coast of the Empire of Misurugi.#nEmbryo's Knights: deploy immediately and intercept them#nto prevent Aura from being recaptured.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30536,
+          "source_bytes": 134,
+          "contains_japanese": true,
+          "en": "Para-mail units have been confirmed launching from the Aurora off the coast of the Empire of Misurugi.#nEmbryo's Knights: deploy immediately and intercept them#nto prevent Aura from being recaptured."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 487,
+      "key": "STR_BRIEFING_MISSION_10_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3916,
+      "label_offset": 46240,
+      "source_offset": 30672,
+      "source_bytes": 118,
+      "en": "Ange's Villkiss and Sala's Enryugo are attempting to recapture Aura.#nIntercept them to fulfill the wishes of Aura and Embryo.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30672,
+          "source_bytes": 118,
+          "contains_japanese": true,
+          "en": "Ange's Villkiss and Sala's Enryugo are attempting to recapture Aura.#nIntercept them to fulfill the wishes of Aura and Embryo."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "embryo_route_aura_wishes_claim_retained_from_source"
+      ]
+    },
+    {
+      "id": 488,
+      "key": "STR_BRIEFING_MISSION_10_5",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3924,
+      "label_offset": 46276,
+      "source_offset": 30792,
+      "source_bytes": 90,
+      "en": "Embryo has begun preparing to merge the dimensions.#nAll Para-mail units: deploy immediately and stop the merger.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30792,
+          "source_bytes": 90,
+          "contains_japanese": true,
+          "en": "Embryo has begun preparing to merge the dimensions.#nAll Para-mail units: deploy immediately and stop the merger."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 489,
+      "key": "STR_BRIEFING_HEROINE_MISSION_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3932,
+      "label_offset": 46312,
+      "source_offset": 30884,
+      "source_bytes": 202,
+      "en": "The letter was a challenge from Ange.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Ange.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 30884,
+          "source_bytes": 202,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Ange.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Ange.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 490,
+      "key": "STR_BRIEFING_HEROINE_MISSION_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3940,
+      "label_offset": 46348,
+      "source_offset": 31088,
+      "source_bytes": 158,
+      "en": "Is Ange finally getting serious!?#nA one-on-one battle between Naomi and Ange.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31088,
+          "source_bytes": 158,
+          "contains_japanese": true,
+          "en": "Is Ange finally getting serious!?#nA one-on-one battle between Naomi and Ange.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 491,
+      "key": "STR_BRIEFING_HEROINE_MISSION_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3948,
+      "label_offset": 46384,
+      "source_offset": 31248,
+      "source_bytes": 210,
+      "en": "The letter was a challenge from Vivian.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Vivian.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31248,
+          "source_bytes": 210,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Vivian.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Vivian.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 492,
+      "key": "STR_BRIEFING_HEROINE_MISSION_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3956,
+      "label_offset": 46420,
+      "source_offset": 31460,
+      "source_bytes": 166,
+      "en": "Is Vivian finally getting serious!?#nA one-on-one battle between Naomi and Vivian.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31460,
+          "source_bytes": 166,
+          "contains_japanese": true,
+          "en": "Is Vivian finally getting serious!?#nA one-on-one battle between Naomi and Vivian.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 493,
+      "key": "STR_BRIEFING_HEROINE_MISSION_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3964,
+      "label_offset": 46456,
+      "source_offset": 31628,
+      "source_bytes": 198,
+      "en": "The letter was a challenge from Salia.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Salia.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31628,
+          "source_bytes": 198,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Salia.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Salia.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 494,
+      "key": "STR_BRIEFING_HEROINE_MISSION_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3972,
+      "label_offset": 46492,
+      "source_offset": 31828,
+      "source_bytes": 154,
+      "en": "Is Salia finally getting serious!?#nA one-on-one battle between Naomi and Salia.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31828,
+          "source_bytes": 154,
+          "contains_japanese": true,
+          "en": "Is Salia finally getting serious!?#nA one-on-one battle between Naomi and Salia.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 495,
+      "key": "STR_BRIEFING_HEROINE_MISSION_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3980,
+      "label_offset": 46528,
+      "source_offset": 31984,
+      "source_bytes": 202,
+      "en": "The letter was a challenge from Ersha.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Ersha.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 31984,
+          "source_bytes": 202,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Ersha.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Ersha.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 496,
+      "key": "STR_BRIEFING_HEROINE_MISSION_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3988,
+      "label_offset": 46564,
+      "source_offset": 32188,
+      "source_bytes": 158,
+      "en": "Is Ersha finally getting serious!?#nA one-on-one battle between Naomi and Ersha.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 32188,
+          "source_bytes": 158,
+          "contains_japanese": true,
+          "en": "Is Ersha finally getting serious!?#nA one-on-one battle between Naomi and Ersha.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 497,
+      "key": "STR_BRIEFING_HEROINE_MISSION_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3996,
+      "label_offset": 46600,
+      "source_offset": 32348,
+      "source_bytes": 198,
+      "en": "The letter was a challenge from Hilda.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Hilda.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 32348,
+          "source_bytes": 198,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Hilda.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Hilda.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 498,
+      "key": "STR_BRIEFING_HEROINE_MISSION_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4004,
+      "label_offset": 46636,
+      "source_offset": 32548,
+      "source_bytes": 154,
+      "en": "Is Hilda finally getting serious!?#nA one-on-one battle between Naomi and Hilda.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 32548,
+          "source_bytes": 154,
+          "contains_japanese": true,
+          "en": "Is Hilda finally getting serious!?#nA one-on-one battle between Naomi and Hilda.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 499,
+      "key": "STR_BRIEFING_HEROINE_MISSION_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4012,
+      "label_offset": 46672,
+      "source_offset": 32704,
+      "source_bytes": 202,
+      "en": "The letter was a challenge from Rosalie.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Rosalie.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 32704,
+          "source_bytes": 202,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Rosalie.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Rosalie.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 500,
+      "key": "STR_BRIEFING_HEROINE_MISSION_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4020,
+      "label_offset": 46708,
+      "source_offset": 32908,
+      "source_bytes": 158,
+      "en": "Is Rosalie finally getting serious!?#nA one-on-one battle between Naomi and Rosalie.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 32908,
+          "source_bytes": 158,
+          "contains_japanese": true,
+          "en": "Is Rosalie finally getting serious!?#nA one-on-one battle between Naomi and Rosalie.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 501,
+      "key": "STR_BRIEFING_HEROINE_MISSION_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4028,
+      "label_offset": 46744,
+      "source_offset": 33068,
+      "source_bytes": 198,
+      "en": "The letter was a challenge from Chris.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Chris.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33068,
+          "source_bytes": 198,
+          "contains_japanese": true,
+          "en": "The letter was a challenge from Chris.#nWho can defeat more small DRAGONs?#nCompete with your reward on the line!#n #nYou will form up with Chris.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 502,
+      "key": "STR_BRIEFING_HEROINE_MISSION_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4036,
+      "label_offset": 46780,
+      "source_offset": 33268,
+      "source_bytes": 154,
+      "en": "Is Chris finally getting serious!?#nA one-on-one battle between Naomi and Chris.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33268,
+          "source_bytes": 154,
+          "contains_japanese": true,
+          "en": "Is Chris finally getting serious!?#nA one-on-one battle between Naomi and Chris.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 503,
+      "key": "STR_BRIEFING_SUB_MISSION_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4044,
+      "label_offset": 46816,
+      "source_offset": 33424,
+      "source_bytes": 176,
+      "en": "Conduct a mock battle to prepare for real combat.#nFace Ange and Vivian in a two-on-one handicap match.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33424,
+          "source_bytes": 176,
+          "contains_japanese": true,
+          "en": "Conduct a mock battle to prepare for real combat.#nFace Ange and Vivian in a two-on-one handicap match.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 504,
+      "key": "STR_BRIEFING_SUB_MISSION_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4052,
+      "label_offset": 46852,
+      "source_offset": 33604,
+      "source_bytes": 74,
+      "en": "Conduct a mock battle against the Ryuu-Shin-Ki to prepare for the decisive battle.#nFight Sala, Naga and Kaname.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33604,
+          "source_bytes": 74,
+          "contains_japanese": true,
+          "en": "Conduct a mock battle against the Ryuu-Shin-Ki to prepare for the decisive battle.#nFight Sala, Naga and Kaname."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 505,
+      "key": "STR_BRIEFING_SUB_MISSION_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4060,
+      "label_offset": 46888,
+      "source_offset": 33680,
+      "source_bytes": 198,
+      "en": "Conduct a mock battle within Embryo's Knights to prepare for the decisive battle.#nNaomi and Chris face Salia and Ersha in a tag-team match.#n #nYou will form up with Chris.#n#c600(You cannot change partners.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33680,
+          "source_bytes": 198,
+          "contains_japanese": true,
+          "en": "Conduct a mock battle within Embryo's Knights to prepare for the decisive battle.#nNaomi and Chris face Salia and Ersha in a tag-team match.#n #nYou will form up with Chris.#n#c600(You cannot change partners.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 506,
+      "key": "STR_BRIEFING_SUB_MISSION_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4068,
+      "label_offset": 46924,
+      "source_offset": 33880,
+      "source_bytes": 128,
+      "en": "Take on the challenge of defeating a Horn DRAGON alone.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 33880,
+          "source_bytes": 128,
+          "contains_japanese": true,
+          "en": "Take on the challenge of defeating a Horn DRAGON alone.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 507,
+      "key": "STR_BRIEFING_SUB_MISSION_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4076,
+      "label_offset": 46960,
+      "source_offset": 34012,
+      "source_bytes": 208,
+      "en": "Chris asked Embryo to tune up her Ragna-mail,#nand the work is now underway.#nIt looks like you've been picked to help test the adjustments.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34012,
+          "source_bytes": 208,
+          "contains_japanese": true,
+          "en": "Chris asked Embryo to tune up her Ragna-mail,#nand the work is now underway.#nIt looks like you've been picked to help test the adjustments.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": [
+        "third_person_chriss_machine_reference_resolved_from_mission_context"
+      ]
+    },
+    {
+      "id": 508,
+      "key": "STR_BRIEFING_SUB_MISSION_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4084,
+      "label_offset": 46996,
+      "source_offset": 34224,
+      "source_bytes": 86,
+      "en": "Two Galleon-Class DRAGONs have appeared at once.#nDefeat them quickly, before Arzenal suffers damage.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34224,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "Two Galleon-Class DRAGONs have appeared at once.#nDefeat them quickly, before Arzenal suffers damage."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 509,
+      "key": "STR_BRIEFING_SUB_MISSION_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4092,
+      "label_offset": 47032,
+      "source_offset": 34312,
+      "source_bytes": 94,
+      "en": "Ersha's and Chris's Ragna-mails from Embryo's Knights are approaching.#nWork with your allies to intercept them.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34312,
+          "source_bytes": 94,
+          "contains_japanese": true,
+          "en": "Ersha's and Chris's Ragna-mails from Embryo's Knights are approaching.#nWork with your allies to intercept them."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 510,
+      "key": "STR_BRIEFING_SUB_MISSION_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4100,
+      "label_offset": 47068,
+      "source_offset": 34408,
+      "source_bytes": 86,
+      "en": "Vivian's and Hilda's machines are approaching the Empire of Misurugi.#nWork with your allies to intercept them.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34408,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "Vivian's and Hilda's machines are approaching the Empire of Misurugi.#nWork with your allies to intercept them."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 511,
+      "key": "STR_BRIEFING_SUB_MISSION_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4108,
+      "label_offset": 47104,
+      "source_offset": 34496,
+      "source_bytes": 188,
+      "en": "Many small and medium DRAGONs have appeared in the waters near Arzenal.#nEliminate 30 DRAGONs as quickly as possible.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34496,
+          "source_bytes": 188,
+          "contains_japanese": true,
+          "en": "Many small and medium DRAGONs have appeared in the waters near Arzenal.#nEliminate 30 DRAGONs as quickly as possible.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 512,
+      "key": "STR_BRIEFING_SUB_MISSION_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4116,
+      "label_offset": 47140,
+      "source_offset": 34688,
+      "source_bytes": 108,
+      "en": "A fleet has appeared without warning and is releasing large numbers of Pyrethroids.#nDestroy 30 Pyrethroids as quickly as possible.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34688,
+          "source_bytes": 108,
+          "contains_japanese": true,
+          "en": "A fleet has appeared without warning and is releasing large numbers of Pyrethroids.#nDestroy 30 Pyrethroids as quickly as possible."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 513,
+      "key": "STR_BRIEFING_SUB_MISSION_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4124,
+      "label_offset": 47176,
+      "source_offset": 34800,
+      "source_bytes": 184,
+      "en": "Many small DRAGONs have appeared above the Empire of Misurugi.#nEliminate 30 DRAGONs as quickly as possible.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34800,
+          "source_bytes": 184,
+          "contains_japanese": true,
+          "en": "Many small DRAGONs have appeared above the Empire of Misurugi.#nEliminate 30 DRAGONs as quickly as possible.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 514,
+      "key": "STR_BRIEFING_SUB_MISSION_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4132,
+      "label_offset": 47212,
+      "source_offset": 34988,
+      "source_bytes": 68,
+      "en": "Escort the transports to Arzenal.#nDeliver all three transports safely.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 34988,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "Escort the transports to Arzenal.#nDeliver all three transports safely."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 515,
+      "key": "STR_BRIEFING_SUB_MISSION_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4140,
+      "label_offset": 47248,
+      "source_offset": 35060,
+      "source_bytes": 156,
+      "en": "Go to support the Para-mail piloted by a rookie mail-rider.#nWipe out the pursuing Pyrethroids while#nescorting it safely to the Aurora, so the ship's location stays hidden.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35060,
+          "source_bytes": 156,
+          "contains_japanese": true,
+          "en": "Go to support the Para-mail piloted by a rookie mail-rider.#nWipe out the pursuing Pyrethroids while#nescorting it safely to the Aurora, so the ship's location stays hidden."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 516,
+      "key": "STR_BRIEFING_SUB_MISSION_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4148,
+      "label_offset": 47284,
+      "source_offset": 35220,
+      "source_bytes": 122,
+      "en": "Go to support the Ragna-mail piloted by Tanya.#nWipe out the pursuing DRAGONs and Para-mails#nwhile escorting it safely to the Dawn Pillar.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35220,
+          "source_bytes": 122,
+          "contains_japanese": true,
+          "en": "Go to support the Ragna-mail piloted by Tanya.#nWipe out the pursuing DRAGONs and Para-mails#nwhile escorting it safely to the Dawn Pillar."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 517,
+      "key": "STR_BRIEFING_SUB_MISSION_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4156,
+      "label_offset": 47320,
+      "source_offset": 35344,
+      "source_bytes": 52,
+      "en": "Defend Arzenal against the approaching swarm of small DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35344,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "Defend Arzenal against the approaching swarm of small DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 518,
+      "key": "STR_BRIEFING_SUB_MISSION_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4164,
+      "label_offset": 47356,
+      "source_offset": 35400,
+      "source_bytes": 48,
+      "en": "Defend the Aurora against the approaching swarm of Pyrethroids.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35400,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "Defend the Aurora against the approaching swarm of Pyrethroids."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 519,
+      "key": "STR_BRIEFING_SUB_MISSION_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4172,
+      "label_offset": 47392,
+      "source_offset": 35452,
+      "source_bytes": 50,
+      "en": "Defend the Dawn Pillar against the approaching swarm of small DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35452,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Defend the Dawn Pillar against the approaching swarm of small DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 520,
+      "key": "STR_BRIEFING_SUB_MISSION_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4180,
+      "label_offset": 47428,
+      "source_offset": 35504,
+      "source_bytes": 104,
+      "en": "DRAGONs have appeared from all directions, surrounding Arzenal.#nDefend Arzenal against the approaching swarm of small DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35504,
+          "source_bytes": 104,
+          "contains_japanese": true,
+          "en": "DRAGONs have appeared from all directions, surrounding Arzenal.#nDefend Arzenal against the approaching swarm of small DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 521,
+      "key": "STR_BRIEFING_SUB_MISSION_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4188,
+      "label_offset": 47464,
+      "source_offset": 35612,
+      "source_bytes": 100,
+      "en": "Fleets have appeared from all directions, surrounding the Aurora.#nDefend the Aurora against the approaching multitude of Pyrethroids.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35612,
+          "source_bytes": 100,
+          "contains_japanese": true,
+          "en": "Fleets have appeared from all directions, surrounding the Aurora.#nDefend the Aurora against the approaching multitude of Pyrethroids."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 522,
+      "key": "STR_BRIEFING_SUB_MISSION_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4196,
+      "label_offset": 47500,
+      "source_offset": 35716,
+      "source_bytes": 100,
+      "en": "DRAGONs have appeared from all directions, surrounding the Dawn Pillar.#nDefend the Dawn Pillar against the approaching swarm of small DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35716,
+          "source_bytes": 100,
+          "contains_japanese": true,
+          "en": "DRAGONs have appeared from all directions, surrounding the Dawn Pillar.#nDefend the Dawn Pillar against the approaching swarm of small DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 523,
+      "key": "STR_BRIEFING_SUB_MISSION_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4204,
+      "label_offset": 47536,
+      "source_offset": 35820,
+      "source_bytes": 160,
+      "en": "Ten destroyers carrying bombs have appeared around the Aurora.#nMake contact with all of them and disarm the bombs before time runs out.#nYou can disarm each bomb by transmitting its deactivation code from above and remaining there for ten seconds.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35820,
+          "source_bytes": 160,
+          "contains_japanese": true,
+          "en": "Ten destroyers carrying bombs have appeared around the Aurora.#nMake contact with all of them and disarm the bombs before time runs out.#nYou can disarm each bomb by transmitting its deactivation code from above and remaining there for ten seconds."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 524,
+      "key": "STR_BRIEFING_SUB_MISSION_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4212,
+      "label_offset": 47572,
+      "source_offset": 35984,
+      "source_bytes": 154,
+      "en": "Bombs have been placed at ten locations within the Empire of Misurugi.#nMake contact with all of them and disarm the bombs before time runs out.#nYou can disarm each bomb by transmitting its deactivation code from above and remaining there for ten seconds.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 35984,
+          "source_bytes": 154,
+          "contains_japanese": true,
+          "en": "Bombs have been placed at ten locations within the Empire of Misurugi.#nMake contact with all of them and disarm the bombs before time runs out.#nYou can disarm each bomb by transmitting its deactivation code from above and remaining there for ten seconds."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 525,
+      "key": "STR_BRIEFING_SUB_MISSION_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4220,
+      "label_offset": 47608,
+      "source_offset": 36140,
+      "source_bytes": 218,
+      "en": "Tusk has asked you to test a Ryuu-Shin-Ki he is adjusting.#nHe hopes to deploy it in real combat if the test goes well.#nWipe out the drones and Para-mails serving as simulated enemies.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 36140,
+          "source_bytes": 218,
+          "contains_japanese": true,
+          "en": "Tusk has asked you to test a Ryuu-Shin-Ki he is adjusting.#nHe hopes to deploy it in real combat if the test goes well.#nWipe out the drones and Para-mails serving as simulated enemies.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 526,
+      "key": "STR_BRIEFING_SUB_MISSION_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4228,
+      "label_offset": 47644,
+      "source_offset": 36360,
+      "source_bytes": 234,
+      "en": "Ersha has asked you to help with a Ragna-mail activation test.#nApparently, you will receive a Ragna-mail if the test succeeds.#nWipe out the drones and Para-mails serving as simulated enemies.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 36360,
+          "source_bytes": 234,
+          "contains_japanese": true,
+          "en": "Ersha has asked you to help with a Ragna-mail activation test.#nApparently, you will receive a Ragna-mail if the test succeeds.#nWipe out the drones and Para-mails serving as simulated enemies.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 527,
+      "key": "STR_BRIEFING_SUB_MISSION_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4236,
+      "label_offset": 47680,
+      "source_offset": 36596,
+      "source_bytes": 198,
+      "en": "Check your machine's repairs before returning to your own world.#nFace Ange and Vivian in a two-on-one handicap match.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 36596,
+          "source_bytes": 198,
+          "contains_japanese": true,
+          "en": "Check your machine's repairs before returning to your own world.#nFace Ange and Vivian in a two-on-one handicap match.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 528,
+      "key": "STR_BRIEFING_SUB_MISSION_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4244,
+      "label_offset": 47716,
+      "source_offset": 36796,
+      "source_bytes": 122,
+      "en": "Fight targets modeled after Pyrethroids#nto check your machine's repairs.#nDestroy at least 30 targets before time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 36796,
+          "source_bytes": 122,
+          "contains_japanese": true,
+          "en": "Fight targets modeled after Pyrethroids#nto check your machine's repairs.#nDestroy at least 30 targets before time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 529,
+      "key": "STR_BRIEFING_SUB_MISSION_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4252,
+      "label_offset": 47752,
+      "source_offset": 36920,
+      "source_bytes": 142,
+      "en": "Two Galleon-Class DRAGONs have appeared at once,#nas if to deal another blow to the ruined Arzenal.#nDefeat them quickly, before Arzenal suffers any further damage.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 36920,
+          "source_bytes": 142,
+          "contains_japanese": true,
+          "en": "Two Galleon-Class DRAGONs have appeared at once,#nas if to deal another blow to the ruined Arzenal.#nDefeat them quickly, before Arzenal suffers any further damage."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 530,
+      "key": "STR_BRIEFING_SUB_MISSION_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4260,
+      "label_offset": 47788,
+      "source_offset": 37064,
+      "source_bytes": 168,
+      "en": "New Pyrethroids have appeared from the remnants of Julio's fleet.#nDestroy as many as possible to prevent further casualties.#nDestroy at least 30 Pyrethroids before time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37064,
+          "source_bytes": 168,
+          "contains_japanese": true,
+          "en": "New Pyrethroids have appeared from the remnants of Julio's fleet.#nDestroy as many as possible to prevent further casualties.#nDestroy at least 30 Pyrethroids before time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 531,
+      "key": "STR_BRIEFING_SUB_MISSION_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4268,
+      "label_offset": 47824,
+      "source_offset": 37236,
+      "source_bytes": 184,
+      "en": "Collect the Dracunium needed to repair the world.#nGo to defeat the newly arrived Horn DRAGON.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37236,
+          "source_bytes": 184,
+          "contains_japanese": true,
+          "en": "Collect the Dracunium needed to repair the world.#nGo to defeat the newly arrived Horn DRAGON.#n #nThis is a solo mission for Naomi.#n#c600(You cannot select a partner.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#c600"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 532,
+      "key": "STR_BRIEFING_SUCCESS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4276,
+      "label_offset": 47860,
+      "source_offset": 37424,
+      "source_bytes": 28,
+      "en": "Success condition 01#nSuccess condition 02",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37424,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Success condition 01#nSuccess condition 02"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 533,
+      "key": "STR_BRIEFING_SUCCESS_00_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4284,
+      "label_offset": 47896,
+      "source_offset": 37456,
+      "source_bytes": 32,
+      "en": "・Complete the live Para-mail test.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37456,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "・Complete the live Para-mail test."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 534,
+      "key": "STR_BRIEFING_SUCCESS_01_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4292,
+      "label_offset": 47932,
+      "source_offset": 37492,
+      "source_bytes": 26,
+      "en": "・The transport reaches Arzenal.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37492,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "・The transport reaches Arzenal."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 535,
+      "key": "STR_BRIEFING_SUCCESS_01_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4300,
+      "label_offset": 47968,
+      "source_offset": 37520,
+      "source_bytes": 18,
+      "en": "・Wipe out the DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37520,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Wipe out the DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 536,
+      "key": "STR_BRIEFING_SUCCESS_02_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4308,
+      "label_offset": 48004,
+      "source_offset": 37540,
+      "source_bytes": 20,
+      "en": "・Find Villkiss.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37540,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Find Villkiss."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 537,
+      "key": "STR_BRIEFING_SUCCESS_03_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4316,
+      "label_offset": 48040,
+      "source_offset": 37564,
+      "source_bytes": 28,
+      "en": "・Destroy the Galleon-Class DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37564,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "・Destroy the Galleon-Class DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 538,
+      "key": "STR_BRIEFING_SUCCESS_04_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4324,
+      "label_offset": 48076,
+      "source_offset": 37596,
+      "source_bytes": 24,
+      "en": "・Destroy the Horn DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37596,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "・Destroy the Horn DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 539,
+      "key": "STR_BRIEFING_SUCCESS_05_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4332,
+      "label_offset": 48112,
+      "source_offset": 37624,
+      "source_bytes": 42,
+      "en": "・Keep DRAGONs from entering the airspace above Arzenal.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37624,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "・Keep DRAGONs from entering the airspace above Arzenal."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 540,
+      "key": "STR_BRIEFING_SUCCESS_06_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4340,
+      "label_offset": 48148,
+      "source_offset": 37668,
+      "source_bytes": 26,
+      "en": "・Escape the Empire of Misurugi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37668,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "・Escape the Empire of Misurugi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 541,
+      "key": "STR_BRIEFING_SUCCESS_06_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4348,
+      "label_offset": 48184,
+      "source_offset": 37696,
+      "source_bytes": 18,
+      "en": "・Wipe out the DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37696,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Wipe out the DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 542,
+      "key": "STR_BRIEFING_SUCCESS_06_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4356,
+      "label_offset": 48220,
+      "source_offset": 37716,
+      "source_bytes": 18,
+      "en": "・Naomi's machine survives.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37716,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Naomi's machine survives."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 543,
+      "key": "STR_BRIEFING_SUCCESS_07_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4364,
+      "label_offset": 48256,
+      "source_offset": 37736,
+      "source_bytes": 14,
+      "en": "・Wipe out the fleet.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37736,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "・Wipe out the fleet."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 544,
+      "key": "STR_BRIEFING_SUCCESS_08_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4372,
+      "label_offset": 48292,
+      "source_offset": 37752,
+      "source_bytes": 48,
+      "en": "・Naomi's machine survives.#n・The three Ragna-mails withdraw.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37752,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "・Naomi's machine survives.#n・The three Ragna-mails withdraw."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 545,
+      "key": "STR_BRIEFING_SUCCESS_08_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4380,
+      "label_offset": 48328,
+      "source_offset": 37804,
+      "source_bytes": 48,
+      "en": "・Naomi's machine survives.#n・The three Ragna-mails withdraw.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37804,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "・Naomi's machine survives.#n・The three Ragna-mails withdraw."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 546,
+      "key": "STR_BRIEFING_SUCCESS_08_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4388,
+      "label_offset": 48364,
+      "source_offset": 37856,
+      "source_bytes": 18,
+      "en": "・Naomi's machine survives.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37856,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Naomi's machine survives."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 547,
+      "key": "STR_BRIEFING_SUCCESS_08_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4396,
+      "label_offset": 48400,
+      "source_offset": 37876,
+      "source_bytes": 20,
+      "en": "・Destroy the Para-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37876,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy the Para-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 548,
+      "key": "STR_BRIEFING_SUCCESS_09_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4404,
+      "label_offset": 48436,
+      "source_offset": 37900,
+      "source_bytes": 22,
+      "en": "・Destroy the Ragna-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37900,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "・Destroy the Ragna-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 549,
+      "key": "STR_BRIEFING_SUCCESS_09_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4412,
+      "label_offset": 48472,
+      "source_offset": 37924,
+      "source_bytes": 14,
+      "en": "・Wipe out the fleet.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37924,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "・Wipe out the fleet."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 550,
+      "key": "STR_BRIEFING_SUCCESS_10_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4420,
+      "label_offset": 48508,
+      "source_offset": 37940,
+      "source_bytes": 22,
+      "en": "・Destroy the Ragna-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37940,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "・Destroy the Ragna-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 551,
+      "key": "STR_BRIEFING_SUCCESS_10_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4428,
+      "label_offset": 48544,
+      "source_offset": 37964,
+      "source_bytes": 20,
+      "en": "・Destroy Hysterica.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37964,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy Hysterica."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 552,
+      "key": "STR_BRIEFING_SUCCESS_10_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4436,
+      "label_offset": 48580,
+      "source_offset": 37988,
+      "source_bytes": 20,
+      "en": "・Destroy the Para-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 37988,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy the Para-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 553,
+      "key": "STR_BRIEFING_SUCCESS_10_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4444,
+      "label_offset": 48616,
+      "source_offset": 38012,
+      "source_bytes": 28,
+      "en": "・Destroy Villkiss and Enryugo.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38012,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "・Destroy Villkiss and Enryugo."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 554,
+      "key": "STR_BRIEFING_SUCCESS_10_5",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4452,
+      "label_offset": 48652,
+      "source_offset": 38044,
+      "source_bytes": 20,
+      "en": "・Approach the Dawn Pillar.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38044,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Approach the Dawn Pillar."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 555,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4460,
+      "label_offset": 48688,
+      "source_offset": 38068,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38068,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 556,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4468,
+      "label_offset": 48724,
+      "source_offset": 38104,
+      "source_bytes": 20,
+      "en": "・Destroy Ange's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38104,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy Ange's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 557,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4476,
+      "label_offset": 48760,
+      "source_offset": 38128,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38128,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 558,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4484,
+      "label_offset": 48796,
+      "source_offset": 38164,
+      "source_bytes": 24,
+      "en": "・Destroy Vivian's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38164,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "・Destroy Vivian's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 559,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4492,
+      "label_offset": 48832,
+      "source_offset": 38192,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38192,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

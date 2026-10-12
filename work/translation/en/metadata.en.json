@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "metadata": {
+    "APP_VER": "01.00",
+    "ATTRIBUTE": 2097153,
+    "ATTRIBUTE2": 0,
+    "ATTRIBUTE_MINOR": 17,
+    "CATEGORY": "gd",
+    "CONTENT_ID": "JP0700-PCSG00597_00-CROSSANGEGAME000",
+    "GC_RO_SIZE": 1835008,
+    "GC_RW_SIZE": 0,
+    "PARENTAL_LEVEL": 7,
+    "PSP2_DISP_VER": "03.360",
+    "PSP2_SYSTEM_VER": 53870592,
+    "PUBTOOLINFO": "c_date=20150412,sdk_ver=03300000",
+    "REGION_DENY": 0,
+    "SAVEDATA_MAX_SIZE": 1048576,
+    "STITLE": {
+      "japanese_characters": 14
+    },
+    "TITLE": {
+      "japanese_characters": 14
+    },
+    "TITLE_ID": "PCSG00597",
+    "VERSION": "01.00"
+  },
+  "entries": [
+    {
+      "id": "param_sfo:STITLE",
+      "source_file": "sce_sys/param.sfo",
+      "source_field": "STITLE",
+      "source_offset": 1128,
+      "source_encoding": "utf-8",
+      "en": "CROSS ANGE Rondo of Angel and Dragon tr.",
+      "japanese_characters": 14,
+      "category": "system_metadata_title",
+      "status": "translated_draft",
+      "note": "Metadata row only; no game reinsertion has been performed.",
+      "context": "System title metadata, no dialogue speaker or listener.",
+      "decisions": "Use the official English franchise title with the game suffix; preserve the source line boundary.",
+      "sources": [
+        "https://www.sunrise-inc.co.jp/international/work/detail.php?cid=362"
+      ],
+      "render_validation": "pending_decrypted_game_and_screenshots"
+    },
+    {
+      "id": "param_sfo:TITLE",
+      "source_file": "sce_sys/param.sfo",
+      "source_field": "TITLE",
+      "source_offset": 1180,
+      "source_encoding": "utf-8",
+      "en": "CROSS ANGE\nRondo of Angel and Dragon tr.",
+      "japanese_characters": 14,
+      "category": "system_metadata_title",
+      "status": "translated_draft",
+      "note": "Metadata row only; no game reinsertion has been performed.",
+      "context": "System title metadata, no dialogue speaker or listener.",
+      "decisions": "Use the official English franchise title with the game suffix; preserve the source line boundary.",
+      "sources": [
+        "https://www.sunrise-inc.co.jp/international/work/detail.php?cid=362"
+      ],
+      "render_validation": "pending_decrypted_game_and_screenshots"
+    }
+  ],
+  "project_version": "0.1.0",
+  "rows_in_slice": 2,
+  "rows_examined": 2,
+  "review_note": "Both SFO title fields checked together. Metadata only; not an 80-row dialogue slice.",
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

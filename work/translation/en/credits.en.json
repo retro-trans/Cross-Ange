@@ -1,0 +1,30 @@
+{
+  "title": "CROSS ANGE",
+  "subtitle": "English Translation",
+  "heading": "Credits",
+  "sections": [
+    {
+      "heading": "Translation Project",
+      "lines": [
+        "Retro Trans",
+        "github.com/retro-trans"
+      ]
+    },
+    {
+      "heading": "Original Game",
+      "lines": [
+        "SUNRISE / PROJECT ANGE",
+        "BANDAI NAMCO Entertainment Inc."
+      ]
+    },
+    {
+      "heading": "Typography",
+      "lines": [
+        "Based on GenEi LateGo v2 by o_tamon",
+        "SIL Open Font License 1.1"
+      ]
+    }
+  ],
+  "footer": "All original game credits and copyright notices are retained.",
+  "project_url": "github.com/retro-trans"
+}

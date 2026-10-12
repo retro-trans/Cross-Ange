@@ -1,0 +1,2266 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice_start": 9041,
+  "slice_end": 9120,
+  "rows_in_slice": 80,
+  "rows_examined": 100,
+  "entries": [
+    {
+      "id": "C091_PRO_000:8968",
+      "global_row": 9041,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 90,
+      "source_record_id": "8968",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Hey, what's going on?!",
+      "voice_id": "20032",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 12,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8969",
+      "global_row": 9042,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 91,
+      "source_record_id": "8969",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Salia, what's going on with what?",
+      "voice_id": "20033",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8970",
+      "global_row": 9043,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 92,
+      "source_record_id": "8970",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Ange, obviously!",
+      "voice_id": "20034",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8971",
+      "global_row": 9044,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 93,
+      "source_record_id": "8971",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Lately, Lord Embryo only pays attention to Ange#nand never even looks at me... What's going on?",
+      "voice_id": "20035",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 39,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8972",
+      "global_row": 9045,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 94,
+      "source_record_id": "8972",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "I don't know what to tell you.#nYou'll have to ask Embryo about that...",
+      "voice_id": "20036",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Reply trails off before implicit need to ask Embryo; no answer invented.",
+      "review_flags": [
+        "Reply trails off before implicit need to ask Embryo; no answer invented."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8973",
+      "global_row": 9046,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 95,
+      "source_record_id": "8973",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Even when I cosplay as Super Galactic Beautiful Girl#nGalaxy Salia, he doesn't turn to look...",
+      "voice_id": "20037",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 35,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Distinct source costume persona Galaxy Salia, not Pretty Salian; project epithet and transliteration.",
+      "review_flags": [
+        "Distinct source costume persona Galaxy Salia, not Pretty Salian; project epithet and transliteration."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8974",
+      "global_row": 9047,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 96,
+      "source_record_id": "8974",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "(Huh...?)",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 1,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8975",
+      "global_row": 9048,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 97,
+      "source_record_id": "8975",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Before, Lord Embryo would respond by cosplaying#nas Mr. Universe!",
+      "voice_id": "20039",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 34,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Mr. Universe named cosplay persona; source line-break preserved, no external identity inferred.",
+      "review_flags": [
+        "Mr. Universe named cosplay persona; source line-break preserved, no external identity inferred."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8976",
+      "global_row": 9049,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 98,
+      "source_record_id": "8976",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "So you do that sort of thing with Embryo, Salia...",
+      "voice_id": "20040",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8977",
+      "global_row": 9050,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 99,
+      "source_record_id": "8977",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "I-I'm not embarrassed about it!",
+      "voice_id": "20041",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8978",
+      "global_row": 9051,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 100,
+      "source_record_id": "8978",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Lord Embryo accepted me.#nHe said he needed me too.",
+      "voice_id": "20042",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 30,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8979",
+      "global_row": 9052,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 101,
+      "source_record_id": "8979",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Then why does he only pay attention to Ange?#nHe's just like Jill!",
+      "voice_id": "20043",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 31,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8980",
+      "global_row": 9053,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 102,
+      "source_record_id": "8980",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "He must not have liked the new costume.#nI'll have to order another one.",
+      "voice_id": "20044",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 29,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Salia assumes costume problem, not established cause.",
+      "review_flags": [
+        "Salia assumes costume problem, not established cause."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8981",
+      "global_row": 9054,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 103,
+      "source_record_id": "8981",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Maybe it should show more skin.#nOr...",
+      "voice_id": "20045",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Alternate costume idea deliberately trails off.",
+      "review_flags": [
+        "Alternate costume idea deliberately trails off.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8982",
+      "global_row": 9055,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 104,
+      "source_record_id": "8982",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Um, Salia?#nI don't think the costume is the problem.",
+      "voice_id": "20046",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 18,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8983",
+      "global_row": 9056,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 105,
+      "source_record_id": "8983",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Then what is the problem?#nGo on, tell me!",
+      "voice_id": "20047",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8984",
+      "global_row": 9057,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 106,
+      "source_record_id": "8984",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Salia...!",
+      "voice_id": "20048",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 3,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8985",
+      "global_row": 9058,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 107,
+      "source_record_id": "8985",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "...Sorry.",
+      "voice_id": "20049",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 3,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8986",
+      "global_row": 9059,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 108,
+      "source_record_id": "8986",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Salia",
+      "en": "Neither Ange nor Lord Embryo is here, then.#nI'll come back another time.",
+      "voice_id": "20050",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 25,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8987",
+      "global_row": 9060,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 109,
+      "source_record_id": "8987",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "I wonder if Salia's all right.",
+      "voice_id": "20051",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 8,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8988",
+      "global_row": 9061,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 110,
+      "source_record_id": "8988",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "All she talks about is Mr. Embryo.#nSometimes, when we talk, we don't seem to connect.",
+      "voice_id": "20052",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 42,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8989",
+      "global_row": 9062,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 111,
+      "source_record_id": "8989",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "So you feel that way too, Momoka.#nI get the same impression from Chris and Ersha.",
+      "voice_id": "20053",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 31,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8990",
+      "global_row": 9063,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 112,
+      "source_record_id": "8990",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "When Embryo comes up, they get worked up#nand angry, or they don't listen to what we're saying.",
+      "voice_id": "20054",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 36,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8991",
+      "global_row": 9064,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 113,
+      "source_record_id": "8991",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "They weren't like this before. Since we came here,#nthey've gradually been acting stranger.",
+      "voice_id": "20055",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 41,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8992",
+      "global_row": 9065,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 114,
+      "source_record_id": "8992",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "Um... could they be... brainwashed?",
+      "voice_id": "20056",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 19,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Momoka asks whether brainwashed; diagnosis not asserted.",
+      "review_flags": [
+        "Momoka asks whether brainwashed; diagnosis not asserted."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8993",
+      "global_row": 9066,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 115,
+      "source_record_id": "8993",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Brainwashed?",
+      "voice_id": "20057",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 2,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8994",
+      "global_row": 9067,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 116,
+      "source_record_id": "8994",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "If brainwashed isn't the right word, perhaps persuaded.#nAs if they're being made to believe something very strongly...",
+      "voice_id": "20058",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 33,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Momoka revises wording, suspicion stays tentative.",
+      "review_flags": [
+        "Momoka revises wording, suspicion stays tentative.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8995",
+      "global_row": 9068,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 117,
+      "source_record_id": "8995",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "Could he be taking his time talking with them#nto change how they feel?",
+      "voice_id": "20059",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 31,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Question about gradual persuasion retained.",
+      "review_flags": [
+        "Question about gradual persuasion retained."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8996",
+      "global_row": 9069,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 118,
+      "source_record_id": "8996",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "It seems like a rather patient plan#nfor Embryo.",
+      "voice_id": "20060",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 24,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8997",
+      "global_row": 9070,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 119,
+      "source_record_id": "8997",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "What is Embryo trying to do...?",
+      "voice_id": "20061",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8998",
+      "global_row": 9071,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 120,
+      "source_record_id": "8998",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "Yes? Who is it?",
+      "voice_id": "20062",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 11,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:8999",
+      "global_row": 9072,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 121,
+      "source_record_id": "8999",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Excuse me. Is Naomi here?",
+      "voice_id": "20063",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 10,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9000",
+      "global_row": 9073,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 122,
+      "source_record_id": "9000",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Embryo?! Weren't you out#nfor a drive with Ange?",
+      "voice_id": "20064",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 27,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9001",
+      "global_row": 9074,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 123,
+      "source_record_id": "9001",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Ange is on a drive with another me.#nBut it's about time I spoke with you too.",
+      "voice_id": "20065",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 38,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Embryo claims concurrent self; no mechanism invented.",
+      "review_flags": [
+        "Embryo claims concurrent self; no mechanism invented."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9002",
+      "global_row": 9075,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 124,
+      "source_record_id": "9002",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Another you?",
+      "voice_id": "20066",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 9,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9003",
+      "global_row": 9076,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 125,
+      "source_record_id": "9003",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I am everywhere, at all times.",
+      "voice_id": "20067",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 16,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9004",
+      "global_row": 9077,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 126,
+      "source_record_id": "9004",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "You mean there are several Embryos at the same time?",
+      "voice_id": "20068",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 18,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9005",
+      "global_row": 9078,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 127,
+      "source_record_id": "9005",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "You may think of it that way.#nMomoka, I'm sorry, but would you leave us alone?",
+      "voice_id": "20069",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 31,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9006",
+      "global_row": 9079,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 128,
+      "source_record_id": "9006",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Momoka",
+      "en": "Y-yes...#nExcuse me, then, Naomi.",
+      "voice_id": "20070",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 15,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9007",
+      "global_row": 9080,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 129,
+      "source_record_id": "9007",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Now... at last, I can speak with you.",
+      "voice_id": "20071",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9008",
+      "global_row": 9081,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 130,
+      "source_record_id": "9008",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "I have nothing to say to you.",
+      "voice_id": "20072",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9009",
+      "global_row": 9082,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 131,
+      "source_record_id": "9009",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I want to tell you about my plan.#nI'm sure you want to know too.",
+      "voice_id": "20073",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 23,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9010",
+      "global_row": 9083,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 132,
+      "source_record_id": "9010",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "...",
+      "voice_id": "20074",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 0,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Non-Japanese silent source punctuation retained.",
+      "review_flags": [
+        "Non-Japanese silent source punctuation retained.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9011",
+      "global_row": 9084,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 133,
+      "source_record_id": "9011",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I'm planning to make this world#na better place.",
+      "voice_id": "20075",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9012",
+      "global_row": 9085,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 134,
+      "source_record_id": "9012",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I'll destroy this rotten world completely,#nthen build a new one.",
+      "voice_id": "20076",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 25,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9013",
+      "global_row": 9086,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 135,
+      "source_record_id": "9013",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Destroy the world...?",
+      "voice_id": "20077",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 5,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9014",
+      "global_row": 9087,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 136,
+      "source_record_id": "9014",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "You and Ange are exceptional people#nworthy of living in the new world I rebuild.",
+      "voice_id": "20078",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 32,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9015",
+      "global_row": 9088,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 137,
+      "source_record_id": "9015",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I'd like you to help me.#nI'll treat you well.",
+      "voice_id": "20079",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9016",
+      "global_row": 9089,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 138,
+      "source_record_id": "9016",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "You don't have to destroy the world. If you'd just#nrelease Aura...",
+      "voice_id": "20080",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Naomi condition deliberately interrupted by Embryo rejection.",
+      "review_flags": [
+        "Naomi condition deliberately interrupted by Embryo rejection.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9017",
+      "global_row": 9090,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 139,
+      "source_record_id": "9017",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "That wouldn't change anything.",
+      "voice_id": "20081",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 16,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9018",
+      "global_row": 9091,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 140,
+      "source_record_id": "9018",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "We could at least avoid fighting the DRAGONs.#nIt's pointless fighting, isn't it?",
+      "voice_id": "20082",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9019",
+      "global_row": 9092,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 141,
+      "source_record_id": "9019",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Ha ha ha. You say the same things as Ange.#nYou're too influenced by her.",
+      "voice_id": "20083",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9020",
+      "global_row": 9093,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 142,
+      "source_record_id": "9020",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "But that expression is beautiful too.",
+      "voice_id": "20084",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 11,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9021",
+      "global_row": 9094,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 143,
+      "source_record_id": "9021",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Huh...?",
+      "voice_id": "20085",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 2,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Hesitant surprise retained.",
+      "review_flags": [
+        "Hesitant surprise retained.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9022",
+      "global_row": 9095,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 144,
+      "source_record_id": "9022",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "You have many charms you don't realize yourself...#nCharms too precious to leave buried.",
+      "voice_id": "20086",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 39,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Embryo flattering claim, not narrator assessment.",
+      "review_flags": [
+        "Embryo flattering claim, not narrator assessment.",
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9023",
+      "global_row": 9096,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 145,
+      "source_record_id": "9023",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "(Don't let him fool you!#nThis is how he gets inside people's hearts.)",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 26,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Private warning thought retained.",
+      "review_flags": [
+        "Private warning thought retained."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9024",
+      "global_row": 9097,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 146,
+      "source_record_id": "9024",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "There's no need to be so wary, Naomi.#nI recognize your worth.",
+      "voice_id": "20088",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 27,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9025",
+      "global_row": 9098,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 147,
+      "source_record_id": "9025",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "If you come with me, you'll have what you desire.#nWhat do you want? What is your dream?",
+      "voice_id": "20089",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 29,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9026",
+      "global_row": 9099,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 148,
+      "source_record_id": "9026",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Tell me what you desire, Naomi.",
+      "voice_id": "20090",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 15,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9027",
+      "global_row": 9100,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 149,
+      "source_record_id": "9027",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "(I can't let Embryo draw me into his pace.#nI have to change the subject somehow.)",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 32,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9028",
+      "global_row": 9101,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 150,
+      "source_record_id": "9028",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "",
+      "en": "What are you planning to do with Ange?",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "choice",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 12,
+      "japanese_speaker_characters": 0,
+      "adv_msg_references": 0,
+      "adv_select_references": 1,
+      "decisions": "Player choice label.",
+      "review_flags": [
+        "Player choice label."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9029",
+      "global_row": 9102,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 151,
+      "source_record_id": "9029",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "",
+      "en": "I want to know how Vivian and Tusk are doing.",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "choice",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 18,
+      "japanese_speaker_characters": 0,
+      "adv_msg_references": 0,
+      "adv_select_references": 1,
+      "decisions": "Player choice label.",
+      "review_flags": [
+        "Player choice label."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9030",
+      "global_row": 9103,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 152,
+      "source_record_id": "9030",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "",
+      "en": "I don't have a dream.",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "choice",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 6,
+      "japanese_speaker_characters": 0,
+      "adv_msg_references": 0,
+      "adv_select_references": 1,
+      "decisions": "Player choice label.",
+      "review_flags": [
+        "Player choice label."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9031",
+      "global_row": 9104,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 153,
+      "source_record_id": "9031",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "What are you planning to do with Ange?",
+      "voice_id": "20095",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 14,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9032",
+      "global_row": 9105,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 154,
+      "source_record_id": "9032",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Knowing that can't be your dream,#nbut... very well.",
+      "voice_id": "20096",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 28,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Concession with pause retained.",
+      "review_flags": [
+        "Concession with pause retained."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9033",
+      "global_row": 9106,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 155,
+      "source_record_id": "9033",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "I've chosen her as someone worthy of ruling#nthe better world I'll create... that new world.",
+      "voice_id": "20097",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 37,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9034",
+      "global_row": 9107,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 156,
+      "source_record_id": "9034",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Then what about Salia?#nWhat about Chris and Ersha?",
+      "voice_id": "20098",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9035",
+      "global_row": 9108,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 157,
+      "source_record_id": "9035",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "They're helping with my plan#nof their own free will. Ask them yourself.",
+      "voice_id": "20099",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 37,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Free-will assistance is Embryo claim questioned by Naomi.",
+      "review_flags": [
+        "Free-will assistance is Embryo claim questioned by Naomi."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9036",
+      "global_row": 9109,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 158,
+      "source_record_id": "9036",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "(...Of their own free will?)",
+      "voice_id": "",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 9,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9037",
+      "global_row": 9110,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 159,
+      "source_record_id": "9037",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "What happened to Vivian and Tusk?#nThrowing them away because you didn't need them is cruel.",
+      "voice_id": "20101",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 32,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9038",
+      "global_row": 9111,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 160,
+      "source_record_id": "9038",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "That's a difference of opinion.#nI'd prefer you say I released them along the way.",
+      "voice_id": "20102",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 21,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Discarded companions euphemism intentionally manipulative.",
+      "review_flags": [
+        "Discarded companions euphemism intentionally manipulative."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9039",
+      "global_row": 9112,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 161,
+      "source_record_id": "9039",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "But I understand your concern for them.",
+      "voice_id": "20103",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 20,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9040",
+      "global_row": 9113,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 162,
+      "source_record_id": "9040",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Rest assured.#nThey're safe.",
+      "voice_id": "20104",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Embryo claims safe; next-context rescue report gives Naomi relief.",
+      "review_flags": [
+        "Embryo claims safe; next-context rescue report gives Naomi relief."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9041",
+      "global_row": 9114,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 163,
+      "source_record_id": "9041",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "I don't have a dream.#nI've never thought about the world.",
+      "voice_id": "20105",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 23,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9042",
+      "global_row": 9115,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 164,
+      "source_record_id": "9042",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "How could I have?",
+      "voice_id": "20106",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 10,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Rhetorical inability, not lost ability to think.",
+      "review_flags": [
+        "Rhetorical inability, not lost ability to think."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9043",
+      "global_row": 9116,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 165,
+      "source_record_id": "9043",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Naomi",
+      "en": "Until just recently, Arzenal#nwas my entire world.",
+      "voice_id": "20107",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 33,
+      "japanese_speaker_characters": 3,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9044",
+      "global_row": 9117,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 166,
+      "source_record_id": "9044",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Then take your time and think.#nI can give you the world you desire.",
+      "voice_id": "20108",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 30,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9045",
+      "global_row": 9118,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 167,
+      "source_record_id": "9045",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Naomi, you're a strong, intelligent woman.",
+      "voice_id": "20109",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 13,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9046",
+      "global_row": 9119,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 168,
+      "source_record_id": "9046",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Surely you don't believe in#nthat fantasy called Libertus?",
+      "voice_id": "20110",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 28,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Embryo dismisses Libertas as fantasy; framing is his claim.",
+      "review_flags": [
+        "Embryo dismisses Libertas as fantasy; framing is his claim."
+      ],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    },
+    {
+      "id": "C091_PRO_000:9047",
+      "global_row": 9120,
+      "source_file": "data/_scr/C091_PRO_000.txt",
+      "source_row": 169,
+      "source_record_id": "9047",
+      "source_encoding": "utf-16le-bom",
+      "speaker": "Embryo",
+      "en": "Salia, Chris, and Ersha have realized it too.#nThe happiness they seek doesn't lie at the end of Libertus.",
+      "voice_id": "20111",
+      "status": "translated_draft",
+      "category": "spoken_text",
+      "control_codes": [
+        "#n"
+      ],
+      "speaker_control_codes": [],
+      "japanese_text_characters": 39,
+      "japanese_speaker_characters": 5,
+      "adv_msg_references": 1,
+      "adv_select_references": 0,
+      "decisions": "Referents established by adjacent replies; subjects and verbs restored where grammar requires them; full meaning retained.",
+      "review_flags": [],
+      "meaning_review": {
+        "reviewer": "scenario-a",
+        "status": "checked_against_source_and_neighbors",
+        "scope": "meaning_direction_and_retained_fragments"
+      }
+    }
+  ],
+  "status_counts": {
+    "translated_draft": 80
+  },
+  "translator": "coordinating_translator",
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  },
+  "meaning_review": {
+    "reviewer": "scenario-a",
+    "assigned": 80,
+    "examined": 100,
+    "status": "source_meaning_and_direction_checked"
+  }
+}

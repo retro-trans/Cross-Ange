@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "policy": "Glossary-first; names/short UI labels only, no dialogue source. Canonical spelling distinguished from project variants and provisional choices.",
+  "terms": [
+    {
+      "id": "mail_rider",
+      "category": "role",
+      "japanese": [
+        "メイルライダー"
+      ],
+      "english": "mail-rider",
+      "notes": "Professional Para-mail pilot; distinguish from the machine itself.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 95,
+        "scenario_example_ids": [
+          "C000_HEV_000:354",
+          "C000_HEV_000:355",
+          "C000_HEV_000:361",
+          "C000_HEV_000:365",
+          "C000_HEV_000:366"
+        ],
+        "ui_ids": [
+          85,
+          269,
+          515
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Arzenal",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "festa",
+      "category": "event",
+      "japanese": [
+        "フェスタ"
+      ],
+      "english": "Festa",
+      "notes": "Named Arzenal festival; do not add Mermaid where source says only Festa.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 61,
+        "scenario_example_ids": [
+          "105112:83",
+          "C000_HEV_000:369",
+          "C040_EPI_000:3478",
+          "C040_EPI_000:3501",
+          "C040_EPI_000:3505"
+        ],
+        "ui_ids": [
+          169,
+          170,
+          473
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Misty_Rosenblum",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "iaria",
+      "category": "sport",
+      "japanese": [
+        "エアリア"
+      ],
+      "english": "Iaria",
+      "notes": "Dedicated wiki spelling wins over phonetic Aerial or Earia.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 14,
+        "scenario_example_ids": [
+          "C020_HEV_010:2435",
+          "C020_HEV_010:2437",
+          "C020_HEV_010:2438",
+          "C113_END_000:11396",
+          "C113_END_000:11405"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Iaria",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "dracunium",
+      "category": "world",
+      "japanese": [
+        "ドラグニウム"
+      ],
+      "english": "Dracunium",
+      "notes": "Energy material; wiki also has inconsistent Draconium in some prose. Earth/Aura entries support Dracunium.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 21,
+        "scenario_example_ids": [
+          "C081_PRO_000:7253",
+          "C081_PRO_000:7254",
+          "C081_PRO_000:7268",
+          "C081_PRO_000:7275",
+          "C081_PRO_000:7284"
+        ],
+        "ui_ids": [
+          115,
+          531
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Earth",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "dawn_pillar",
+      "category": "location",
+      "japanese": [
+        "暁ノ御柱"
+      ],
+      "english": "Dawn Pillar",
+      "notes": "Wiki also says Pillar of Dawn; use one project spelling consistently.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 20,
+        "scenario_example_ids": [
+          "110311:187",
+          "C081_MAL_013:7064",
+          "C081_MAL_014:7068",
+          "C081_PRO_000:7286",
+          "C081_PRO_000:7287"
+        ],
+        "ui_ids": [
+          89,
+          92,
+          516,
+          519,
+          522,
+          554,
+          582,
+          585,
+          588,
+          651,
+          654
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Arzenal",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "people_of_aura",
+      "category": "organization",
+      "japanese": [
+        "アウラの民"
+      ],
+      "english": "People of Aura",
+      "notes": "DRAGON community self-designation, rather than Arzenal classification.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 3,
+        "scenario_example_ids": [
+          "C081_MAL_010:7054",
+          "C091_EPI_000:8543",
+          "C103_PRO_010:11049"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ancient_humans",
+      "category": "organization",
+      "japanese": [
+        "古の民"
+      ],
+      "english": "Ancient Humans",
+      "notes": "Franchise group; not every old person.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 8,
+        "scenario_example_ids": [
+          "C070_PRO_000:6401",
+          "C070_PRO_000:6404",
+          "C070_PRO_000:6408",
+          "C070_PRO_000:6411",
+          "C070_PRO_000:6427"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/World_of_Mana",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "enderant_union",
+      "category": "nation",
+      "japanese": [
+        "エンデラント",
+        "エンデラント連合"
+      ],
+      "english": "Enderant Union",
+      "notes": "Hilda homeland.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 7,
+        "scenario_example_ids": [
+          "C030_HEP_HIL:2831",
+          "C030_MAL_000:3329",
+          "C030_MAL_000:3330",
+          "C030_MAL_000:3333",
+          "C030_MAL_000:3340"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/World_of_Mana",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "galia_empire",
+      "category": "nation",
+      "japanese": [
+        "ガリア帝国"
+      ],
+      "english": "Galia Empire",
+      "notes": "Jill homeland.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 2,
+        "scenario_example_ids": [
+          "C070_PRO_000:6418",
+          "C082_HEV_000:7427"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/World_of_Mana",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "kingdom_rosenblum",
+      "category": "nation",
+      "japanese": [
+        "ローゼンブルム王国"
+      ],
+      "english": "Kingdom of Rosenblum",
+      "notes": "Full polity name; bare Rosenblum remains permitted.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "C110_SLI_000:11313"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/World_of_Mana",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "norma_administration_board",
+      "category": "organization",
+      "japanese": [
+        "ノーマ管理委員会"
+      ],
+      "english": "Norma Administration Board",
+      "notes": "Wiki uses this organization name; distinguish a generic committee.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 12,
+        "scenario_example_ids": [
+          "C000_HEV_010:460",
+          "C000_HEV_010:461",
+          "C050_EPI_000:4237",
+          "C070_HEV_020:6128",
+          "C070_MAL_000:6167"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Aurora",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "international_rescue_fleet",
+      "category": "organization",
+      "japanese": [
+        "国際救助艦隊"
+      ],
+      "english": "International Rescue Fleet",
+      "notes": "Local project rendering; do not infer humanitarian intent from the label.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 3,
+        "scenario_example_ids": [
+          "C070_MAL_000:6167",
+          "C070_MAL_000:6181",
+          "C070_MAL_000:6183"
+        ],
+        "ui_ids": [
+          700
+        ]
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "mail_rider_suit",
+      "category": "equipment_type",
+      "japanese": [
+        "ライダースーツ"
+      ],
+      "english": "rider suit",
+      "notes": "Pilot clothing; short rider in context can be a person, not clothing.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 4,
+        "scenario_example_ids": [
+          "109111:143",
+          "C010_MAL_010:1723",
+          "C050_PRO_000:4859",
+          "C091_BEV_000:8467"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "plenum_chamber",
+      "category": "mechanical",
+      "japanese": [
+        "プリナムチャンバー"
+      ],
+      "english": "plenum chamber",
+      "notes": "Real engineering term; local source confirms an engine chamber and pressure gauge.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 4,
+        "scenario_example_ids": [
+          "C000_MAL_010:765",
+          "C060_PRO_000:5678",
+          "C103_HEV_020:10730",
+          "samplescript:2589"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "touch_communication",
+      "category": "minigame",
+      "japanese": [
+        "タッチコミュニケーション"
+      ],
+      "english": "Touch Communication",
+      "notes": "Named tutorial mechanic; confirm visible layout later.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 28,
+        "scenario_example_ids": [
+          "TC1_ANG_PRO:12078",
+          "TC1_ANG_PRO:12079",
+          "TC1_CRS_PRO:12101",
+          "TC1_CRS_PRO:12102",
+          "TC1_ERS_PRO:12124"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "touch_marker",
+      "category": "minigame",
+      "japanese": [
+        "タッチマーカー"
+      ],
+      "english": "touch marker",
+      "notes": "Timing target in Touch Communication.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 28,
+        "scenario_example_ids": [
+          "TC1_ANG_PRO:12079",
+          "TC1_ANG_PRO:12081",
+          "TC1_CRS_PRO:12102",
+          "TC1_CRS_PRO:12104",
+          "TC1_ERS_PRO:12125"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "talk_battle",
+      "category": "minigame",
+      "japanese": [
+        "トークバトル"
+      ],
+      "english": "Talk Battle",
+      "notes": "Conversation-choice timing mechanic; keep distinct from ordinary combat.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 14,
+        "scenario_example_ids": [
+          "TIM_ANG_000:12382",
+          "TIM_ANG_000:12383",
+          "TIM_CRS_000:12406",
+          "TIM_CRS_000:12407",
+          "TIM_ERS_000:12429"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "cash",
+      "category": "currency",
+      "japanese": [
+        "キャッシュ"
+      ],
+      "english": "Cash",
+      "notes": "Currency label; distinguish balance, debt and reward.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 56,
+        "scenario_example_ids": [
+          "C010_HEV_010:1296",
+          "C010_HEV_010:1364",
+          "C010_HEV_010:1392",
+          "C010_HEV_010:1440",
+          "C020_HEP_ANG:2014"
+        ],
+        "ui_ids": [
+          47,
+          1361,
+          1368,
+          1370,
+          1394
+        ]
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "cooking_warrior_candy_twinkle",
+      "category": "fictional_title",
+      "japanese": [
+        "お料理戦士キャンディ★トゥインクル",
+        "キャンディ★トゥインクル"
+      ],
+      "english": "Cooking Warrior Candy★Twinkle",
+      "notes": "Game comic title. Short form Candy★Twinkle when source omits Cooking Warrior; no verified external English title.",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 4,
+        "scenario_example_ids": [
+          "C030_HEP_SLI:2870",
+          "C030_HEP_SLI:2880",
+          "C030_HEV_000:2999",
+          "C030_HEV_000:3001"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "yes_maam",
+      "category": "response",
+      "japanese": [
+        "イエス・マム"
+      ],
+      "english": "Yes, ma'am!",
+      "notes": "Military acknowledgment; defer stutter, punctuation and tone to each line.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 68,
+        "scenario_example_ids": [
+          "105111:80",
+          "106121:97",
+          "108321:116",
+          "109111:153",
+          "303013:240"
+        ],
+        "ui_ids": []
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "julio_fleet",
+      "category": "organization",
+      "japanese": [
+        "ジュリオ艦隊"
+      ],
+      "english": "Julio's Fleet",
+      "notes": "Possessive military designation, not a new personal name.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 2,
+        "scenario_example_ids": [
+          "107111:100",
+          "C070_BEV_000:5725"
+        ],
+        "ui_ids": [
+          62,
+          530,
+          744,
+          1513
+        ]
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "embryo_knights",
+      "category": "organization",
+      "japanese": [
+        "エンブリヲ騎士団"
+      ],
+      "english": "Embryo's Knights",
+      "notes": "Generic source designation; do not silently expand it to Diamond Rose Knights.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "C082_MAL_010:7699"
+        ],
+        "ui_ids": [
+          64,
+          67,
+          479,
+          482,
+          483,
+          486,
+          505,
+          509
+        ]
+      },
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "sylphis_clan",
+      "category": "organization",
+      "japanese": [
+        "シルフィス"
+      ],
+      "english": "Sylphis Clan",
+      "notes": "Clan affiliation of Lamia and Vivian; never invent a person or mother named Sylphis.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "source_occurrences": {
+        "scenario_record_count": 2,
+        "scenario_example_ids": [
+          "C081_PRO_000:7211",
+          "C081_PRO_000:7335"
+        ],
+        "ui_ids": []
+      },
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Lamia",
+          "supports": "English spelling and franchise context."
+        }
+      ],
+      "local_source_evidence": true
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Registered full-table world, mecha and recurring UI terminology before further translation."
+      ]
+    }
+  ]
+}

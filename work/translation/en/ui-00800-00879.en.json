@@ -1,0 +1,2356 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 800,
+    "last_id": 879,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      790,
+      889
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_needs_review": 75,
+    "translated_draft": 1,
+    "unchanged_existing_english": 4
+  },
+  "japanese_source_rows": 76,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 800,
+      "key": "STR_ITM_SWORDB_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6420,
+      "label_offset": 57508,
+      "source_offset": 46928,
+      "source_bytes": 28,
+      "en": "Multilayer Black Meteoric-Iron Dragon Eater",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46928,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Black Meteoric-Iron Dragon Eater"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 801,
+      "key": "STR_ITM_SWORDB_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6428,
+      "label_offset": 57544,
+      "source_offset": 46960,
+      "source_bytes": 28,
+      "en": "Composite Refined-Ore Dragon's Crown",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46960,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Composite Refined-Ore Dragon's Crown"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 802,
+      "key": "STR_ITM_SWORDC_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6436,
+      "label_offset": 57580,
+      "source_offset": 46992,
+      "source_bytes": 26,
+      "en": "Composite Forged-Steel Eagle Talon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46992,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Composite Forged-Steel Eagle Talon"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 803,
+      "key": "STR_ITM_SWORDC_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6444,
+      "label_offset": 57616,
+      "source_offset": 47020,
+      "source_bytes": 28,
+      "en": "Multilayer Composite-Steel Dvergr Knife",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47020,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Composite-Steel Dvergr Knife"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 804,
+      "key": "STR_ITM_SWORDC_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6452,
+      "label_offset": 57652,
+      "source_offset": 47052,
+      "source_bytes": 24,
+      "en": "Manganese-Steel Blade Labrys",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47052,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Manganese-Steel Blade Labrys"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 805,
+      "key": "STR_ITM_SWORDC_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6460,
+      "label_offset": 57688,
+      "source_offset": 47080,
+      "source_bytes": 28,
+      "en": "Chromium-Steel Fenrir Fang",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47080,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Chromium-Steel Fenrir Fang"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 806,
+      "key": "STR_ITM_SWORDC_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6468,
+      "label_offset": 57724,
+      "source_offset": 47112,
+      "source_bytes": 28,
+      "en": "Multilayer Chromium-Steel Dainsleif",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47112,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Chromium-Steel Dainsleif"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 807,
+      "key": "STR_ITM_SWORDC_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6476,
+      "label_offset": 57760,
+      "source_offset": 47144,
+      "source_bytes": 28,
+      "en": "Multilayer Mixed Chromoly-Steel Fenrir",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47144,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Mixed Chromoly-Steel Fenrir"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordc_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 808,
+      "key": "STR_ITM_HALBERD_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6484,
+      "label_offset": 57796,
+      "source_offset": 47176,
+      "source_bytes": 18,
+      "en": "Composite Wrought-Ore Marte",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47176,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Composite Wrought-Ore Marte"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 809,
+      "key": "STR_ITM_HALBERD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6492,
+      "label_offset": 57832,
+      "source_offset": 47196,
+      "source_bytes": 22,
+      "en": "Manganese-Steel Gae Dearg",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47196,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Manganese-Steel Gae Dearg"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 810,
+      "key": "STR_ITM_HALBERD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6500,
+      "label_offset": 57868,
+      "source_offset": 47220,
+      "source_bytes": 24,
+      "en": "Composite Refined Titanium-Steel Luin",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47220,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Composite Refined Titanium-Steel Luin"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 811,
+      "key": "STR_ITM_HALBERD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6508,
+      "label_offset": 57904,
+      "source_offset": 47248,
+      "source_bytes": 26,
+      "en": "Multilayer Manganese-Steel Gae Bolg",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47248,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Multilayer Manganese-Steel Gae Bolg"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 812,
+      "key": "STR_ITM_HALBERD_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6516,
+      "label_offset": 57940,
+      "source_offset": 47276,
+      "source_bytes": 24,
+      "en": "Multilayer Chromium-Steel Gungnir",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47276,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Multilayer Chromium-Steel Gungnir"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 813,
+      "key": "STR_ITM_HALBERD_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6524,
+      "label_offset": 57976,
+      "source_offset": 47304,
+      "source_bytes": 28,
+      "en": "Refined Chromoly-Steel Brionac",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47304,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Refined Chromoly-Steel Brionac"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_halberd_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 814,
+      "key": "STR_ITM_BROADSD_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6532,
+      "label_offset": 58012,
+      "source_offset": 47336,
+      "source_bytes": 26,
+      "en": "Forged Meteoric-Steel Heavy Sword Patagotuth",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47336,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Forged Meteoric-Steel Heavy Sword Patagotuth"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 815,
+      "key": "STR_ITM_BROADSD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6540,
+      "label_offset": 58048,
+      "source_offset": 47364,
+      "source_bytes": 24,
+      "en": "Steel Heavy Sword Dagda's Club",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47364,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Steel Heavy Sword Dagda's Club"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 816,
+      "key": "STR_ITM_BROADSD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6548,
+      "label_offset": 58084,
+      "source_offset": 47392,
+      "source_bytes": 28,
+      "en": "Forged Titanium-Steel Heavy Sword Troll's Talon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47392,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Forged Titanium-Steel Heavy Sword Troll's Talon"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 817,
+      "key": "STR_ITM_BROADSD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6556,
+      "label_offset": 58120,
+      "source_offset": 47424,
+      "source_bytes": 22,
+      "en": "Rare Red Meteoric-Iron Heavy Sword Mjolnir",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47424,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Rare Red Meteoric-Iron Heavy Sword Mjolnir"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 818,
+      "key": "STR_ITM_BROADSD_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6564,
+      "label_offset": 58156,
+      "source_offset": 47448,
+      "source_bytes": 28,
+      "en": "Refined Chromium Heavy Sword Jormungand",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47448,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Refined Chromium Heavy Sword Jormungand"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 819,
+      "key": "STR_ITM_BROADSD_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6572,
+      "label_offset": 58192,
+      "source_offset": 47480,
+      "source_bytes": 22,
+      "en": "Ultrahard Heavy Sword Centimani",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47480,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Ultrahard Heavy Sword Centimani"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_broadsd_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 820,
+      "key": "STR_ITM_KNUCKLE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6580,
+      "label_offset": 58228,
+      "source_offset": 47504,
+      "source_bytes": 18,
+      "en": "Multilayer Wrought-Ore Cestus",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47504,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Multilayer Wrought-Ore Cestus"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 821,
+      "key": "STR_ITM_KNUCKLE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6588,
+      "label_offset": 58264,
+      "source_offset": 47524,
+      "source_bytes": 24,
+      "en": "Manganese-Steel Horseshoe",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47524,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Manganese-Steel Horseshoe"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 822,
+      "key": "STR_ITM_KNUCKLE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6596,
+      "label_offset": 58300,
+      "source_offset": 47552,
+      "source_bytes": 24,
+      "en": "Forged Titanium-Steel Bare Knuckle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47552,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Forged Titanium-Steel Bare Knuckle"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 823,
+      "key": "STR_ITM_KNUCKLE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6604,
+      "label_offset": 58336,
+      "source_offset": 47580,
+      "source_bytes": 28,
+      "en": "Multilayer Composite-Steel Cold Fist",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47580,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Composite-Steel Cold Fist"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 824,
+      "key": "STR_ITM_KNUCKLE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6612,
+      "label_offset": 58372,
+      "source_offset": 47612,
+      "source_bytes": 28,
+      "en": "Chromium-Steel Bloody Kaiser",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47612,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Chromium-Steel Bloody Kaiser"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 825,
+      "key": "STR_ITM_KNUCKLE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6620,
+      "label_offset": 58408,
+      "source_offset": 47644,
+      "source_bytes": 28,
+      "en": "Ultrahard Chromoly Laminate Hellhounds",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47644,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Ultrahard Chromoly Laminate Hellhounds"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_knuckle_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 826,
+      "key": "STR_ITM_BOOMERANG_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6628,
+      "label_offset": 58444,
+      "source_offset": 47676,
+      "source_bytes": 28,
+      "en": "Composite Wrought-Ore Boomerang Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47676,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Composite Wrought-Ore Boomerang Blade"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 827,
+      "key": "STR_ITM_BOOMERANG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6636,
+      "label_offset": 58480,
+      "source_offset": 47708,
+      "source_bytes": 28,
+      "en": "Black Meteoric-Steel Darkness Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47708,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Black Meteoric-Steel Darkness Blade"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 828,
+      "key": "STR_ITM_BOOMERANG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6644,
+      "label_offset": 58516,
+      "source_offset": 47740,
+      "source_bytes": 28,
+      "en": "Super-Steel Chromium Boomerang Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47740,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Super-Steel Chromium Boomerang Blade"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 829,
+      "key": "STR_ITM_BOOMERANG_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6652,
+      "label_offset": 58552,
+      "source_offset": 47772,
+      "source_bytes": 28,
+      "en": "Multilayer Manganese-Steel Saw Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47772,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Manganese-Steel Saw Blade"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 830,
+      "key": "STR_ITM_BOOMERANG_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6660,
+      "label_offset": 58588,
+      "source_offset": 47804,
+      "source_bytes": 28,
+      "en": "Refined Chromium-Steel Shine Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47804,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Refined Chromium-Steel Shine Blade"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 831,
+      "key": "STR_ITM_BOOMERANG_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6668,
+      "label_offset": 58624,
+      "source_offset": 47836,
+      "source_bytes": 24,
+      "en": "Ultrahard Chromoly-Steel Eraser",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47836,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Ultrahard Chromoly-Steel Eraser"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 832,
+      "key": "STR_ITM_RAPIER_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6676,
+      "label_offset": 58660,
+      "source_offset": 47864,
+      "source_bytes": 28,
+      "en": "Forged Iron-Steel Rustic Stitch",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47864,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Forged Iron-Steel Rustic Stitch"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 833,
+      "key": "STR_ITM_RAPIER_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6684,
+      "label_offset": 58696,
+      "source_offset": 47896,
+      "source_bytes": 28,
+      "en": "Composite Refined-Steel Queen Bee Needle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47896,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Composite Refined-Steel Queen Bee Needle"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 834,
+      "key": "STR_ITM_RAPIER_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6692,
+      "label_offset": 58732,
+      "source_offset": 47928,
+      "source_bytes": 28,
+      "en": "Titanium-Steel Sleeping Needle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47928,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Titanium-Steel Sleeping Needle"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 835,
+      "key": "STR_ITM_RAPIER_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6700,
+      "label_offset": 58768,
+      "source_offset": 47960,
+      "source_bytes": 26,
+      "en": "Multilayer Composite-Steel Thorny Breath",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47960,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Multilayer Composite-Steel Thorny Breath"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 836,
+      "key": "STR_ITM_RAPIER_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6708,
+      "label_offset": 58804,
+      "source_offset": 47988,
+      "source_bytes": 28,
+      "en": "Refined Ore Thorn Fitch Shine",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 47988,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Refined Ore Thorn Fitch Shine"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 837,
+      "key": "STR_ITM_RAPIER_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6716,
+      "label_offset": 58840,
+      "source_offset": 48020,
+      "source_bytes": 28,
+      "en": "Chromoly-Steel Thorn of the Rose",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48020,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Chromoly-Steel Thorn of the Rose"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rapier_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 838,
+      "key": "STR_ITM_ARMSWORD_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6724,
+      "label_offset": 58876,
+      "source_offset": 48052,
+      "source_bytes": 18,
+      "en": "Laminated Forged Photon Blade Tenrai",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48052,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Laminated Forged Photon Blade Tenrai"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_armsword_00",
+      "glossary_status": "wiki_verified_name"
+    },
+    {
+      "id": 839,
+      "key": "STR_ITM_ARMSWORD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6732,
+      "label_offset": 58912,
+      "source_offset": 48072,
+      "source_bytes": 18,
+      "en": "Laminated Forged Photon Blade Instant Light",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48072,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Laminated Forged Photon Blade Instant Light"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_armsword_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 840,
+      "key": "STR_ITM_ARMSWORD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6740,
+      "label_offset": 58948,
+      "source_offset": 48092,
+      "source_bytes": 20,
+      "en": "Laminated Forged Photon Blade Sacred Instant",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48092,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Laminated Forged Photon Blade Sacred Instant"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_armsword_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 841,
+      "key": "STR_ITM_ARMSWORD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6748,
+      "label_offset": 58984,
+      "source_offset": 48116,
+      "source_bytes": 20,
+      "en": "Ifrit's Flame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48116,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Ifrit's Flame"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_armsword_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 842,
+      "key": "STR_ITM_BOOMERANG_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6756,
+      "label_offset": 59020,
+      "source_offset": 48140,
+      "source_bytes": 10,
+      "en": "Bunbunmaru",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48140,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Bunbunmaru"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_boomerang_06",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 843,
+      "key": "STR_ITM_CANNON_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6764,
+      "label_offset": 59056,
+      "source_offset": 48152,
+      "source_bytes": 18,
+      "en": "M15H Twin Cannon Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48152,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "M15H Twin Cannon Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 844,
+      "key": "STR_ITM_CANNON_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6772,
+      "label_offset": 59092,
+      "source_offset": 48172,
+      "source_bytes": 24,
+      "en": "Mk.XI-9AC Cannon Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48172,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Mk.XI-9AC Cannon Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 845,
+      "key": "STR_ITM_CANNON_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6780,
+      "label_offset": 59128,
+      "source_offset": 48200,
+      "source_bytes": 20,
+      "en": "M17AP Twin Cannon Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48200,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "M17AP Twin Cannon Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 846,
+      "key": "STR_ITM_CANNON_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6788,
+      "label_offset": 59164,
+      "source_offset": 48224,
+      "source_bytes": 26,
+      "en": "M12 Torevyushotto Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48224,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "M12 Torevyushotto Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 847,
+      "key": "STR_ITM_CANNON_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6796,
+      "label_offset": 59200,
+      "source_offset": 48252,
+      "source_bytes": 28,
+      "en": "Mk.III-11AC Cannon Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48252,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Mk.III-11AC Cannon Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 848,
+      "key": "STR_ITM_CANNON_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6804,
+      "label_offset": 59236,
+      "source_offset": 48284,
+      "source_bytes": 22,
+      "en": "M23 Woruban Cannon Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48284,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "M23 Woruban Cannon Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 849,
+      "key": "STR_ITM_CANNON_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6812,
+      "label_offset": 59272,
+      "source_offset": 48308,
+      "source_bytes": 18,
+      "en": "M15H Twin Cannon Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48308,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "M15H Twin Cannon Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_06",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 850,
+      "key": "STR_ITM_CANNON_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6820,
+      "label_offset": 59308,
+      "source_offset": 48328,
+      "source_bytes": 24,
+      "en": "Mk.XI-9AC Cannon Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48328,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Mk.XI-9AC Cannon Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_07",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 851,
+      "key": "STR_ITM_CANNON_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6828,
+      "label_offset": 59344,
+      "source_offset": 48356,
+      "source_bytes": 20,
+      "en": "M17AP Twin Cannon Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48356,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "M17AP Twin Cannon Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_08",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 852,
+      "key": "STR_ITM_CANNON_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6836,
+      "label_offset": 59380,
+      "source_offset": 48380,
+      "source_bytes": 26,
+      "en": "M12 Torevyushotto Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48380,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "M12 Torevyushotto Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_09",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 853,
+      "key": "STR_ITM_CANNON_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6844,
+      "label_offset": 59416,
+      "source_offset": 48408,
+      "source_bytes": 28,
+      "en": "Mk.III-11AC Cannon Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48408,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Mk.III-11AC Cannon Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_10",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 854,
+      "key": "STR_ITM_CANNON_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6852,
+      "label_offset": 59452,
+      "source_offset": 48440,
+      "source_bytes": 22,
+      "en": "M23 Woruban Cannon Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48440,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "M23 Woruban Cannon Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_11",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 855,
+      "key": "STR_ITM_MISSILE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6860,
+      "label_offset": 59488,
+      "source_offset": 48464,
+      "source_bytes": 24,
+      "en": "M55 String Puppet",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48464,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "M55 String Puppet"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_missile_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 856,
+      "key": "STR_ITM_MISSILE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6868,
+      "label_offset": 59524,
+      "source_offset": 48492,
+      "source_bytes": 24,
+      "en": "Mk.6/GM Pointer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48492,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Mk.6/GM Pointer"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_missile_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 857,
+      "key": "STR_ITM_MISSILE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6876,
+      "label_offset": 59560,
+      "source_offset": 48520,
+      "source_bytes": 20,
+      "en": "M37-GM115A",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48520,
+          "source_bytes": 20,
+          "contains_japanese": false,
+          "en": "M37-GM115A"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_missile_02",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 858,
+      "key": "STR_ITM_MISSILE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6884,
+      "label_offset": 59596,
+      "source_offset": 48544,
+      "source_bytes": 22,
+      "en": "M9-PT2M Thunder",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48544,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "M9-PT2M Thunder"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_missile_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 859,
+      "key": "STR_ITM_MISSILE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6892,
+      "label_offset": 59632,
+      "source_offset": 48568,
+      "source_bytes": 28,
+      "en": "M42-Swing Stick",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48568,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "M42-Swing Stick"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_missile_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 860,
+      "key": "STR_ITM_MISSILE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6900,
+      "label_offset": 59668,
+      "source_offset": 48600,
+      "source_bytes": 20,
+      "en": "M8-GM Chaser",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48600,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "M8-GM Chaser"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_missile_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 861,
+      "key": "STR_ITM_GATLING_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6908,
+      "label_offset": 59704,
+      "source_offset": 48624,
+      "source_bytes": 16,
+      "en": "Type GBU-14G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48624,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Type GBU-14G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 862,
+      "key": "STR_ITM_GATLING_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6916,
+      "label_offset": 59740,
+      "source_offset": 48644,
+      "source_bytes": 20,
+      "en": "GNo.7 Bugs Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48644,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "GNo.7 Bugs Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 863,
+      "key": "STR_ITM_GATLING_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6924,
+      "label_offset": 59776,
+      "source_offset": 48668,
+      "source_bytes": 16,
+      "en": "Type GBU-18G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48668,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Type GBU-18G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 864,
+      "key": "STR_ITM_GATLING_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6932,
+      "label_offset": 59812,
+      "source_offset": 48688,
+      "source_bytes": 28,
+      "en": "GNo.9 Grasshopper Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48688,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "GNo.9 Grasshopper Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 865,
+      "key": "STR_ITM_GATLING_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6940,
+      "label_offset": 59848,
+      "source_offset": 48720,
+      "source_bytes": 30,
+      "en": "GNo.11 Driver Ant Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48720,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "GNo.11 Driver Ant Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 866,
+      "key": "STR_ITM_GATLING_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6948,
+      "label_offset": 59884,
+      "source_offset": 48752,
+      "source_bytes": 20,
+      "en": "Type GBU-19R3G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48752,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Type GBU-19R3G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 867,
+      "key": "STR_ITM_GATLING_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6956,
+      "label_offset": 59920,
+      "source_offset": 48776,
+      "source_bytes": 16,
+      "en": "Type GBU-14H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48776,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Type GBU-14H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_06",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 868,
+      "key": "STR_ITM_GATLING_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6964,
+      "label_offset": 59956,
+      "source_offset": 48796,
+      "source_bytes": 20,
+      "en": "GNo.7 Bugs Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48796,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "GNo.7 Bugs Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_07",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 869,
+      "key": "STR_ITM_GATLING_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6972,
+      "label_offset": 59992,
+      "source_offset": 48820,
+      "source_bytes": 16,
+      "en": "Type GBU-18H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48820,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Type GBU-18H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_08",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 870,
+      "key": "STR_ITM_GATLING_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6980,
+      "label_offset": 60028,
+      "source_offset": 48840,
+      "source_bytes": 28,
+      "en": "GNo.9 Grasshopper Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48840,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "GNo.9 Grasshopper Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_09",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 871,
+      "key": "STR_ITM_GATLING_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6988,
+      "label_offset": 60064,
+      "source_offset": 48872,
+      "source_bytes": 30,
+      "en": "GNo.11 Driver Ant Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48872,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "GNo.11 Driver Ant Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_10",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 872,
+      "key": "STR_ITM_GATLING_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6996,
+      "label_offset": 60100,
+      "source_offset": 48904,
+      "source_bytes": 20,
+      "en": "Type GBU-19R3H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48904,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Type GBU-19R3H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gatling_11",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 873,
+      "key": "STR_ITM_GRENADE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7004,
+      "label_offset": 60136,
+      "source_offset": 48928,
+      "source_bytes": 18,
+      "en": "M226 Cracker",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48928,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "M226 Cracker"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_grenade_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 874,
+      "key": "STR_ITM_GRENADE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7012,
+      "label_offset": 60172,
+      "source_offset": 48948,
+      "source_bytes": 22,
+      "en": "M228 Cracker II",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48948,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "M228 Cracker II"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_grenade_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 875,
+      "key": "STR_ITM_GRENADE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7020,
+      "label_offset": 60208,
+      "source_offset": 48972,
+      "source_bytes": 26,
+      "en": "SN177HE-140mm",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 48972,
+          "source_bytes": 26,
+          "contains_japanese": false,
+          "en": "SN177HE-140mm"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_grenade_02",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 876,
+      "key": "STR_ITM_GRENADE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7028,
+      "label_offset": 60244,
+      "source_offset": 49000,
+      "source_bytes": 26,
+      "en": "M224HE/BSN108",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49000,
+          "source_bytes": 26,
+          "contains_japanese": false,
+          "en": "M224HE/BSN108"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_grenade_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 877,
+      "key": "STR_ITM_GRENADE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7036,
+      "label_offset": 60280,
+      "source_offset": 49028,
+      "source_bytes": 26,
+      "en": "SN109HE Popcorn",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49028,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "SN109HE Popcorn"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_grenade_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 878,
+      "key": "STR_ITM_GRENADE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7044,
+      "label_offset": 60316,
+      "source_offset": 49056,
+      "source_bytes": 26,
+      "en": "SN201HE-144mm",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49056,
+          "source_bytes": 26,
+          "contains_japanese": false,
+          "en": "SN201HE-144mm"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_grenade_05",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 879,
+      "key": "STR_ITM_ROCKET_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7052,
+      "label_offset": 60352,
+      "source_offset": 49084,
+      "source_bytes": 22,
+      "en": "Type H8R-MG221G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49084,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Type H8R-MG221G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_00",
+      "glossary_status": "provisional_name"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

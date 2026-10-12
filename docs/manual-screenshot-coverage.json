@@ -1,0 +1,2116 @@
+{
+  "version": "0.1.3",
+  "scope": "All 24 original manual images; embedded UI screenshots only. Main prose stays in manual.en.json.",
+  "method": "Visual inspection of original 960x544 images and 4x crops. Rectangles approximate the printed screenshot boundaries. Partial matches indicate readable source fragments plus a consistent display context; they do not certify every pixel or microtext character.",
+  "limitations": "Unresolved tiny text remains explicitly listed. English headings and numeric values need no translation. This review does not claim pixel-complete localization of embedded screenshot images.",
+  "pages": [
+    {
+      "page": 1,
+      "source_file": "sce_sys/manual/001.png",
+      "source_sha256": "ad4b256a419716133b26c99b7b1cfffc792f68e8e58c653b362555c61a62064d",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 2,
+      "source_file": "sce_sys/manual/002.png",
+      "source_sha256": "b75cb2bb1d713e4debbfa3834cad2bf94a92a56179c4ff9b18f51b9b92ca7a47",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 3,
+      "source_file": "sce_sys/manual/003.png",
+      "source_sha256": "7dd2cbf27e2039623257bb54cebcf3b8603b2c3ac162ee8af53f216a1f61aab3",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 4,
+      "source_file": "sce_sys/manual/004.png",
+      "source_sha256": "e360a50b06206a719612e3b1362eb63f4afbc7eb8ca6dd0d2ddce7ed9ee1fe8d",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 5,
+      "source_file": "sce_sys/manual/005.png",
+      "source_sha256": "2a9a37dbbfe4495dbb371660e98ae33390086493fea64407d5df262da723ef42",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 6,
+      "source_file": "sce_sys/manual/006.png",
+      "source_sha256": "210de0e7bfcd7ffe49c34c60a5b92374bcf12781b7b55a98b4551f628758e97e",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 7,
+      "source_file": "sce_sys/manual/007.png",
+      "source_sha256": "b76e133934a0a8f1d1647097c840df30b55b478757e15f2052da439c415129ad",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 349,
+            "y": 168,
+            "width": 297,
+            "height": 172
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-name",
+              "en": "CROSS ANGE",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-subtitle",
+              "en": "Rondo of Angel and Dragon tr.",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "NEW GAME",
+            "LOAD GAME",
+            "Copyright line"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 8,
+      "source_file": "sce_sys/manual/008.png",
+      "source_sha256": "36753ac25ad1bdd97e70f3b85414f5f6afabf7b9bec01a515dfc8332716a4d91",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 226,
+            "width": 196,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-name",
+              "en": "CROSS ANGE",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-subtitle",
+              "en": "Rondo of Angel and Dragon tr.",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "NEW GAME",
+            "LOAD GAME",
+            "Copyright line"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 726,
+            "y": 112,
+            "width": 197,
+            "height": 114
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-name",
+              "en": "CROSS ANGE",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-subtitle",
+              "en": "Rondo of Angel and Dragon tr.",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "EASY",
+            "NORMAL",
+            "HARD",
+            "Copyright line"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 726,
+            "y": 319,
+            "width": 197,
+            "height": 114
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-name",
+              "en": "CROSS ANGE",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "title-game-subtitle",
+              "en": "Rondo of Angel and Dragon tr.",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/manual-screenshots.en.json",
+              "translation_id": "manual-screenshot:008:load-heading",
+              "en": "Load",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/manual-screenshots.en.json",
+              "translation_id": "manual-screenshot:008:new-save-data",
+              "en": "New Save Data",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [
+            "Top saved-slot metadata: date/time and complete game title are truncated or too small."
+          ],
+          "already_english_or_numeric": [
+            "Close icon",
+            "Slot number"
+          ],
+          "note": "The two new labels belong to the embedded platform load dialog. Repeated empty slots share one translation."
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 9,
+      "source_file": "sce_sys/manual/009.png",
+      "source_sha256": "780a68266da3d6319b249c08e6e6eb54dc7a076aa42b55ab711bdb45d8145d1c",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 215,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 667,
+              "en": "Salia",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CHR_NAME_04"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00401-00480.en.json",
+              "translation_id": "C000_HEV_000:406",
+              "en": "This is Naomi. She's a mail-rider#nnewly assigned to the First Squadron.",
+              "location": "Dialogue box",
+              "match": "partial_visible_text"
+            }
+          ],
+          "unreadable_regions": [
+            "Small punctuation and exact line break in dialogue."
+          ],
+          "already_english_or_numeric": [
+            "Jasmine Mall sign"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 617,
+            "y": 162,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Left weapon list names, codes and stat names; top-right instruction strip; bottom description."
+          ],
+          "already_english_or_numeric": [
+            "DECK",
+            "Menu tab headings"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 617,
+            "y": 387,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Right weapon HUD names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "HUD headings and numeric gauges"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 10,
+      "source_file": "sce_sys/manual/010.png",
+      "source_sha256": "ff7ececf7f72d808ed6654087bccf2711ecba6022eb612531efbbb22e1628fcd",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 144,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:799",
+              "en": "Um, well, that's—",
+              "location": "Dialogue box",
+              "match": "partial_visible_text"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:800",
+              "en": "Think of a reason",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:801",
+              "en": "I don't know",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [
+            "Tiny speaker label."
+          ],
+          "already_english_or_numeric": []
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 105,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:802",
+              "en": "W-wait, please! Let me think!",
+              "location": "Dialogue box",
+              "match": "partial_visible_text"
+            }
+          ],
+          "unreadable_regions": [
+            "Tiny speaker label."
+          ],
+          "already_english_or_numeric": [
+            "AUTO"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 247,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Speaker label and skipped dialogue: some letters visible, insufficient for an exact source match."
+          ],
+          "already_english_or_numeric": []
+        },
+        {
+          "index": 4,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 396,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:771",
+              "en": "The Light of Mana was a new power brought to humanity#nseveral hundred years ago.",
+              "location": "First backlog line",
+              "match": "partial_visible_text"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:772",
+              "en": "The Light of Mana, with its limitless and universal power,#nwas bestowed upon every human being.",
+              "location": "Second backlog line",
+              "match": "partial_visible_text"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00801-00880.en.json",
+              "translation_id": "C000_PRO_000:773",
+              "en": "Through the Light of Mana, all of humanity's problems,#nincluding energy and food shortages, were solved.",
+              "location": "Third backlog line",
+              "match": "partial_visible_text"
+            }
+          ],
+          "unreadable_regions": [
+            "Repeated teacher speaker label and backlog corner instruction; exact microtext punctuation."
+          ],
+          "already_english_or_numeric": []
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 11,
+      "source_file": "sce_sys/manual/011.png",
+      "source_sha256": "76c755c7bf09e51d19e19794e4fca7db3263080d33daf656bef641edef65be6d",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 114,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 146,
+              "en": "Reporting for Duty, and Then—",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_00"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 132,
+              "en": "Come here if you want to meet everyone and talk.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_ROOM_MENU_LOUNGE_SALIA"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "ROOM",
+            "LOUNGE",
+            "MISSION",
+            "DECK",
+            "CONFIG"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 105,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 146,
+              "en": "Reporting for Duty, and Then—",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_00"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 162,
+              "en": "#EJasmine Mall",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_LOUNGE_EVENT_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 163,
+              "en": "#EMess Hall",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_LOUNGE_EVENT_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 190,
+              "en": "#EShower Room",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_LOUNGE_EVENT_30"
+            },
+            {
+              "translation_file": "work/translation/en/slice-00881-00960.en.json",
+              "translation_id": "C000_PRO_000:876",
+              "en": "Where should we start?",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "ROOM",
+            "LOUNGE"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 316,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "EBG_112-title",
+              "en": "A Pleasant Meal",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 73,
+              "en": "#EThe Power of Para-mail",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_SUB_01"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "EBG_112-time",
+              "en": "Time Attack: DRAGONs",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 84,
+              "en": "#ERescue the Transport Again",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_SUB_12"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 87,
+              "en": "#EDefense of Arzenal I",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_SUB_15"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 90,
+              "en": "#EDefense of Arzenal II",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_SUB_18"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "EBG_112-embedded",
+              "en": "(Which mission should I take this time...?)",
+              "location": "Bottom dialogue",
+              "match": "partial_visible_text"
+            }
+          ],
+          "unreadable_regions": [
+            "Small mission difficulty markers and acquired-cash/rank values."
+          ],
+          "already_english_or_numeric": [
+            "ROOM",
+            "MISSION"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 12,
+      "source_file": "sce_sys/manual/012.png",
+      "source_sha256": "4c31909e735be2df3ad9cab46506905b70a4aa7142a15813776a022c694a4e5a",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 28,
+            "y": 282,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-044-dialogue",
+              "en": "Hey, Ange, what do you do when you’re not training?",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-044-wait",
+              "en": "Wait a second!",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "Time 297"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 282,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-045-dialogue",
+              "en": "Why should I have to do something that’s such a hassle?",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-045-choice1",
+              "en": "It’s amazing you’re that strong without doing anything.",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-045-choice2",
+              "en": "Training in secret? That sounds like you, Ange.",
+              "location": "visible label",
+              "match": "readable_label"
+            },
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-045-choice3",
+              "en": "I wonder how much Ange weighs.",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "Time 283"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 616,
+            "y": 222,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/raster.en.json",
+              "translation_id": "tutorial-043-reaction",
+              "en": "That’s nice.",
+              "location": "visible label",
+              "match": "readable_label"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "Time 76",
+            "Condition waveform"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 13,
+      "source_file": "sce_sys/manual/013.png",
+      "source_sha256": "02d3141fdf9f71929d3f94f528fa20531ea0f1940d84e9993b9d785db5fc6b7f",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 138,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 54,
+              "en": "#ERescue the Transport",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_MAIN_01_1"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 463,
+              "en": "Operation Briefing",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 464,
+              "en": "Target Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 465,
+              "en": "Mission Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 468,
+              "en": "A transport carrying supplies has come under attack by DRAGONs.#nSalia, Hilda, Vivian, Ange and#nNaomi must rescue the transport, then#nescort it until it reaches Arzenal.",
+              "location": "Briefing body",
+              "match": "partial_visible_text",
+              "key": "STR_BRIEFING_MISSION_01_0"
+            }
+          ],
+          "unreadable_regions": [
+            "Small top-right button strip and bottom briefing comment."
+          ],
+          "already_english_or_numeric": [
+            "BRIEFING",
+            "MISSION"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 267,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 54,
+              "en": "#ERescue the Transport",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_MAIN_01_1"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 463,
+              "en": "Operation Briefing",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 464,
+              "en": "Target Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 465,
+              "en": "Mission Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_03"
+            }
+          ],
+          "unreadable_regions": [
+            "Target list identifiers and bottom comment are too soft for exact transcription."
+          ],
+          "already_english_or_numeric": [
+            "BRIEFING",
+            "MISSION"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 395,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 54,
+              "en": "#ERescue the Transport",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_MAIN_01_1"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 463,
+              "en": "Operation Briefing",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 464,
+              "en": "Target Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 465,
+              "en": "Mission Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 456,
+              "en": "Time Limit",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 457,
+              "en": "Success Conditions",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 458,
+              "en": "Failure Conditions",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 459,
+              "en": "Mission Reward",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_04"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 534,
+              "en": "・The transport reaches Arzenal.",
+              "location": "Success condition",
+              "match": "partial_visible_text",
+              "key": "STR_BRIEFING_SUCCESS_01_0"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 600,
+              "en": "・The transport is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+              "location": "Failure conditions",
+              "match": "partial_visible_text",
+              "key": "STR_BRIEFING_FAIL_01_0"
+            }
+          ],
+          "unreadable_regions": [
+            "Small time/reward numbers and bottom comment."
+          ],
+          "already_english_or_numeric": [
+            "BRIEFING",
+            "MISSION"
+          ]
+        },
+        {
+          "index": 4,
+          "approximate_rectangle": {
+            "x": 581,
+            "y": 282,
+            "width": 267,
+            "height": 154
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 461,
+              "en": "Confirm",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1764,
+              "en": "#b1Info #b5Rotate Frame",
+              "location": "Top-right helper",
+              "match": "partial_visible_text",
+              "key": "STR_HELP_PARTNER_01"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "BRIEFING",
+            "UNIT",
+            "RAZOR",
+            "ANGE",
+            "SALIA",
+            "HILDA",
+            "VIVIAN",
+            "ERSHA",
+            "CHRIS"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 14,
+      "source_file": "sce_sys/manual/014.png",
+      "source_sha256": "635ae7aefb8dd4578b29e0051615455caa21bb9189c40369239dd5288078bf3e",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 71,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 281,
+              "en": "Adjust various settings for your current frame.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_DECK_MENU_HELP_01"
+            }
+          ],
+          "unreadable_regions": [
+            "Small top-right helper."
+          ],
+          "already_english_or_numeric": [
+            "DECK",
+            "HANGAR",
+            "SHOP",
+            "ROOM",
+            "BRIEFING"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 105,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 286,
+              "en": "Select the frame you will use in battle.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_MENU_HELP_01"
+            }
+          ],
+          "unreadable_regions": [
+            "Small top-right helper."
+          ],
+          "already_english_or_numeric": [
+            "DECK",
+            "HANGAR",
+            "FRAME",
+            "ARMS",
+            "RIFLE",
+            "GADGET",
+            "SHOULDER",
+            "PARTS",
+            "PAINT",
+            "MARK",
+            "COLORING"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 331,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 275,
+              "en": "Funds",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_SYSTEM_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 407,
+              "en": "Buying a new frame? Those cost a pretty penny.",
+              "location": "Bottom shop comment",
+              "match": "partial_visible_text",
+              "key": "STR_SHOP_MENU_HELP_00_01"
+            }
+          ],
+          "unreadable_regions": [
+            "Small funds amount and top-right helper."
+          ],
+          "already_english_or_numeric": [
+            "DECK",
+            "SHOP",
+            "FRAME",
+            "ARMS",
+            "RIFLE",
+            "GADGET",
+            "SHOULDER",
+            "PARTS",
+            "PAINT",
+            "MARK"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 15,
+      "source_file": "sce_sys/manual/015.png",
+      "source_sha256": "4cc4d41a056b15b2c0d278ae50cdc36d815b965f283286d61df7cff367189c2c",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 71,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Right weapon names; bottom operator dialogue; tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numbers"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 16,
+      "source_file": "sce_sys/manual/016.png",
+      "source_sha256": "dac60ab2b213c51d7b43326f751901e3fd16ea1e8177ec7eda99930ab0c987e9",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 113,
+            "y": 155,
+            "width": 268,
+            "height": 154
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Small weapon-panel names and target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numbers"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 582,
+            "y": 146,
+            "width": 268,
+            "height": 155
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1759,
+              "en": "Display mission information.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_INFO_01"
+            }
+          ],
+          "unreadable_regions": [
+            "Tiny in-game weapon-panel names behind pause menu."
+          ],
+          "already_english_or_numeric": [
+            "MISSION INFO",
+            "SETTING",
+            "BATTLE CONFIG",
+            "RETRY",
+            "MISSION ABORT"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 17,
+      "source_file": "sce_sys/manual/017.png",
+      "source_sha256": "41e2b273728e7e09eec7d53975be0432546e207b128fea19d0041432e3f15c72",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 28,
+            "y": 332,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 332,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 497,
+            "y": 233,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        },
+        {
+          "index": 4,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 233,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        },
+        {
+          "index": 5,
+          "approximate_rectangle": {
+            "x": 723,
+            "y": 366,
+            "width": 208,
+            "height": 143
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 18,
+      "source_file": "sce_sys/manual/018.png",
+      "source_sha256": "88ba9d48ede1c828783df3c96a0cd9c4df5fda08c276af9420e8c89e13f5e055",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 106,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 461,
+              "en": "Confirm",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_SYS_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 719,
+              "en": "Howitzer/Ersha Custom",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_PMAIL_NAME_17"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 320,
+              "en": "Durability",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 321,
+              "en": "Attack Power",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 322,
+              "en": "Defense",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 323,
+              "en": "Shooting Accuracy",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_04"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 324,
+              "en": "Shot Grouping",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_05"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 325,
+              "en": "Effective Range",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 326,
+              "en": "Ammo Type",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HANGAR_STATUS_07"
+            }
+          ],
+          "unreadable_regions": [
+            "Equipment names/codes in lower right; small helper strip; smallest stat text and numbers."
+          ],
+          "already_english_or_numeric": [
+            "BRIEFING",
+            "UNIT",
+            "Frame headings",
+            "Pilot names"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 243,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "English HUD headings and numeric indicators"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 395,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 97,
+              "en": "#EA Love Letter from Ange",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_MISSION_NAME_HEROINE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 463,
+              "en": "Operation Briefing",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 464,
+              "en": "Target Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 465,
+              "en": "Mission Information",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BRIEFING_TAB_03"
+            }
+          ],
+          "unreadable_regions": [
+            "Chapter title is clipped at the left edge; full briefing body, red warning and bottom comment too small for reliable exact matching."
+          ],
+          "already_english_or_numeric": [
+            "BRIEFING"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 19,
+      "source_file": "sce_sys/manual/019.png",
+      "source_sha256": "93e4157d7c20780b444166670f7445f59df74aaef09f83eb3dda8530f3116907",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 225,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1479,
+              "en": "Clear Time",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_00"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1480,
+              "en": "Remaining",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1481,
+              "en": "Seconds",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1482,
+              "en": "Kills",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1484,
+              "en": "Total Amount",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_05"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1485,
+              "en": "Hits Taken",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1486,
+              "en": "Damage",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_07"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1487,
+              "en": "Next#b0",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P01_08"
+            }
+          ],
+          "unreadable_regions": [
+            "Enemy reward names and individual amount/time/damage numbers."
+          ],
+          "already_english_or_numeric": [
+            "BATTLE RESULT"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 147,
+            "y": 393,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1488,
+              "en": "Time Bonus",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_00"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1489,
+              "en": "Kill Reward",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1490,
+              "en": "Clear Reward",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1491,
+              "en": "Hit Penalty",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1492,
+              "en": "Total",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_04"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1493,
+              "en": "Clear Rank",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_05"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1494,
+              "en": "Funds",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_08"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1495,
+              "en": "Settle Account#b0",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_BTLRESULT_P02_09"
+            }
+          ],
+          "unreadable_regions": [
+            "Individual amounts and small footer."
+          ],
+          "already_english_or_numeric": [
+            "BATTLE RESULT",
+            "Rank C"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 116,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "MISSION FAILURE",
+            "English HUD headings and numbers"
+          ]
+        },
+        {
+          "index": 4,
+          "approximate_rectangle": {
+            "x": 728,
+            "y": 354,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [],
+          "unreadable_regions": [
+            "Weapon-panel names and tiny target labels."
+          ],
+          "already_english_or_numeric": [
+            "AREA OUTSIDE",
+            "English HUD headings and numbers"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 20,
+      "source_file": "sce_sys/manual/020.png",
+      "source_sha256": "00d53a3e0b20a8f98614d87022d00a93bb6174d1bf938f208003129be5335992",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 70,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 121,
+              "en": "You can change your settings here.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_ROOM_MENU_CONFIG"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "ROOM",
+            "LOUNGE",
+            "MISSION",
+            "DECK",
+            "CONFIG"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 203,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 123,
+              "en": "You can save your current game.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_ROOM_MENU_SAVE"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1775,
+              "en": "#b3Delete Save Data",
+              "location": "Top-right helper",
+              "match": "partial_visible_text",
+              "key": "STR_HELP_CONFIG_01"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "ROOM",
+            "CONFIG",
+            "SAVE",
+            "LOAD",
+            "SETTING",
+            "BATTLE CONFIG",
+            "CAMERA"
+          ]
+        },
+        {
+          "index": 3,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 339,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 147,
+              "en": "Welcome to the First Squadron of Death",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "CHAPTER_TITLE_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 124,
+              "en": "You can load saved data.",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_ROOM_MENU_LOAD"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1775,
+              "en": "#b3Delete Save Data",
+              "location": "Top-right helper",
+              "match": "partial_visible_text",
+              "key": "STR_HELP_CONFIG_01"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "ROOM",
+            "CONFIG",
+            "SAVE",
+            "LOAD",
+            "SETTING",
+            "BATTLE CONFIG",
+            "CAMERA"
+          ]
+        },
+        {
+          "index": 4,
+          "approximate_rectangle": {
+            "x": 736,
+            "y": 198,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1737,
+              "en": "Difficulty",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_SETTING_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1732,
+              "en": "Message Speed",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_SETTING_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1736,
+              "en": "Restore Defaults",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_SETTING_05"
+            }
+          ],
+          "unreadable_regions": [
+            "Small slider endpoint labels."
+          ],
+          "already_english_or_numeric": [
+            "SETTING",
+            "BGM",
+            "SE",
+            "VOICE",
+            "NORMAL"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 21,
+      "source_file": "sce_sys/manual/021.png",
+      "source_sha256": "8f08025c4b82cb1ebf6e31809d8dffa1c5426ca768634a7460a9bb14fa34adda",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [
+        {
+          "index": 1,
+          "approximate_rectangle": {
+            "x": 267,
+            "y": 105,
+            "width": 197,
+            "height": 115
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1738,
+              "en": "Accelerate",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_01"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1739,
+              "en": "Decelerate",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_02"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1740,
+              "en": "Shoot",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_03"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1741,
+              "en": "Melee Attack",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_04"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1742,
+              "en": "Transform",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_05"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1743,
+              "en": "Lock On",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_06"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1744,
+              "en": "Switch Weapon Up",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_07"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1745,
+              "en": "Switch Weapon Down",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_08"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1746,
+              "en": "Turn",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_09"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1747,
+              "en": "Freeze Bullet",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_10"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1748,
+              "en": "Auto Aim",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_11"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1749,
+              "en": "Lock Method",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_12"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1750,
+              "en": "Ascend/Descend",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_13"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1751,
+              "en": "Turn Left/Right",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_14"
+            },
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1752,
+              "en": "Restore Defaults",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_CONFIG_KEY_15"
+            }
+          ],
+          "unreadable_regions": [
+            "Small selected-button icons and reverse/normal values."
+          ],
+          "already_english_or_numeric": [
+            "ROOM",
+            "BATTLE CONFIG",
+            "ON",
+            "TOGGLE"
+          ]
+        },
+        {
+          "index": 2,
+          "approximate_rectangle": {
+            "x": 582,
+            "y": 195,
+            "width": 343,
+            "height": 151
+          },
+          "matches": [
+            {
+              "translation_file": "work/translation/en/interface.en.json",
+              "translation_id": 1776,
+              "en": "#b0Transform #b3Reset Position #b2ROOM #b13Check Camera",
+              "location": "visible label",
+              "match": "readable_label",
+              "key": "STR_HELP_CAMERA_CONFIG_01"
+            }
+          ],
+          "unreadable_regions": [],
+          "already_english_or_numeric": [
+            "CAMERA",
+            "UP",
+            "DOWN",
+            "LEFT",
+            "RIGHT",
+            "FORWARD",
+            "BACK"
+          ]
+        }
+      ],
+      "status": "embedded_screenshots_reviewed",
+      "note": null
+    },
+    {
+      "page": 22,
+      "source_file": "sce_sys/manual/022.png",
+      "source_sha256": "34221dec3aa285125fa54e2d83f3185e490627e7a2e73c5d7376f2de62fdddec",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 23,
+      "source_file": "sce_sys/manual/023.png",
+      "source_sha256": "90cc6885833cdd1f8fa28b8fbb3812a883bae1d14c4bbd0a2575a1d27cf14a9a",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    },
+    {
+      "page": 24,
+      "source_file": "sce_sys/manual/024.png",
+      "source_sha256": "da8a0562a9ff0fbf6d9e2c7c08ecf7ebcd331f6c991a27bcdcfb7d9e7839a7da",
+      "image_dimensions": {
+        "width": 960,
+        "height": 544
+      },
+      "screenshots": [],
+      "status": "no_embedded_game_ui_screenshot",
+      "note": "Main artwork/prose/character or glossary/legal page; main manual translation owns visible text."
+    }
+  ],
+  "summary": {
+    "pages_examined": 24,
+    "screenshot_rectangles": 45,
+    "translation_matches": 126,
+    "distinct_matched_targets": 100,
+    "unreadable_region_notes": 32,
+    "new_reading_regions": 2,
+    "artwork_replacement": "pending"
+  },
+  "changelog": [
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": "Matched readable embedded screenshot text across all manual pages; retained specific unreadable microtext notes and added two platform load-label drafts."
+    }
+  ]
+}

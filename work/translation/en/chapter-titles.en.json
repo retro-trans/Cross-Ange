@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "category": "chapter_and_prologue_title_cards",
+  "unique_titles": 15,
+  "rendered_variants": 2,
+  "raster_regions": 30,
+  "entries": [
+    {
+      "id": "chapter-title-00",
+      "chapter": 0,
+      "display_label": "Prologue",
+      "ui_id": 28,
+      "ui_key": "STR_SAVE_SUB_TITLE_00",
+      "en": "A New Posting, and Then—",
+      "raster_ids": [
+        "sub_title_b-chapter-28",
+        "sub_title_b_-chapter-28"
+      ]
+    },
+    {
+      "id": "chapter-title-01",
+      "chapter": 1,
+      "display_label": "Chapter 1",
+      "ui_id": 29,
+      "ui_key": "STR_SAVE_SUB_TITLE_01",
+      "en": "Welcome to the First Squadron of Death",
+      "raster_ids": [
+        "sub_title_b-chapter-29",
+        "sub_title_b_-chapter-29"
+      ]
+    },
+    {
+      "id": "chapter-title-02",
+      "chapter": 2,
+      "display_label": "Chapter 2",
+      "ui_id": 30,
+      "ui_key": "STR_SAVE_SUB_TITLE_02",
+      "en": "Why I Fight",
+      "raster_ids": [
+        "sub_title_b-chapter-30",
+        "sub_title_b_-chapter-30"
+      ]
+    },
+    {
+      "id": "chapter-title-03",
+      "chapter": 3,
+      "display_label": "Chapter 3",
+      "ui_id": 31,
+      "ui_key": "STR_SAVE_SUB_TITLE_03",
+      "en": "A Cheerful Meal",
+      "raster_ids": [
+        "sub_title_b-chapter-31",
+        "sub_title_b_-chapter-31"
+      ]
+    },
+    {
+      "id": "chapter-title-04",
+      "chapter": 4,
+      "display_label": "Chapter 4",
+      "ui_id": 32,
+      "ui_key": "STR_SAVE_SUB_TITLE_04",
+      "en": "The First Squadron on the Brink of Annihilation!",
+      "raster_ids": [
+        "sub_title_b-chapter-32",
+        "sub_title_b_-chapter-32"
+      ]
+    },
+    {
+      "id": "chapter-title-05",
+      "chapter": 5,
+      "display_label": "Chapter 5",
+      "ui_id": 33,
+      "ui_key": "STR_SAVE_SUB_TITLE_05",
+      "en": "To Protect Smiles",
+      "raster_ids": [
+        "sub_title_b-chapter-33",
+        "sub_title_b_-chapter-33"
+      ]
+    },
+    {
+      "id": "chapter-title-06",
+      "chapter": 6,
+      "display_label": "Chapter 6",
+      "ui_id": 34,
+      "ui_key": "STR_SAVE_SUB_TITLE_06",
+      "en": "Infiltration! The Empire of Misurugi",
+      "raster_ids": [
+        "sub_title_b-chapter-34",
+        "sub_title_b_-chapter-34"
+      ]
+    },
+    {
+      "id": "chapter-title-07",
+      "chapter": 7,
+      "display_label": "Chapter 7",
+      "ui_id": 35,
+      "ui_key": "STR_SAVE_SUB_TITLE_07",
+      "en": "A Place for Each of Us",
+      "raster_ids": [
+        "sub_title_b-chapter-35",
+        "sub_title_b_-chapter-35"
+      ]
+    },
+    {
+      "id": "chapter-title-08A",
+      "chapter": 8,
+      "display_label": "Chapter 8",
+      "ui_id": 36,
+      "ui_key": "STR_SAVE_SUB_TITLE_08A",
+      "en": "Those Who Know the Truth",
+      "raster_ids": [
+        "sub_title_b-chapter-36",
+        "sub_title_b_-chapter-36"
+      ]
+    },
+    {
+      "id": "chapter-title-08B",
+      "chapter": 8,
+      "display_label": "Chapter 8",
+      "ui_id": 37,
+      "ui_key": "STR_SAVE_SUB_TITLE_08B",
+      "en": "Rebels Beneath the Sea",
+      "raster_ids": [
+        "sub_title_b-chapter-37",
+        "sub_title_b_-chapter-37"
+      ]
+    },
+    {
+      "id": "chapter-title-08C",
+      "chapter": 8,
+      "display_label": "Chapter 8",
+      "ui_id": 38,
+      "ui_key": "STR_SAVE_SUB_TITLE_08C",
+      "en": "The World's Restorer",
+      "raster_ids": [
+        "sub_title_b-chapter-38",
+        "sub_title_b_-chapter-38"
+      ]
+    },
+    {
+      "id": "chapter-title-09A",
+      "chapter": 9,
+      "display_label": "Chapter 9",
+      "ui_id": 39,
+      "ui_key": "STR_SAVE_SUB_TITLE_09A",
+      "en": "Joining Forces, Standing Together",
+      "raster_ids": [
+        "sub_title_b-chapter-39",
+        "sub_title_b_-chapter-39"
+      ]
+    },
+    {
+      "id": "chapter-title-09C",
+      "chapter": 9,
+      "display_label": "Chapter 9",
+      "ui_id": 40,
+      "ui_key": "STR_SAVE_SUB_TITLE_09C",
+      "en": "Where Possibilities Converge",
+      "raster_ids": [
+        "sub_title_b-chapter-40",
+        "sub_title_b_-chapter-40"
+      ]
+    },
+    {
+      "id": "chapter-title-10A",
+      "chapter": 10,
+      "display_label": "Chapter 10",
+      "ui_id": 41,
+      "ui_key": "STR_SAVE_SUB_TITLE_10A",
+      "en": "To the Other Side of the World",
+      "raster_ids": [
+        "sub_title_b-chapter-41",
+        "sub_title_b_-chapter-41"
+      ]
+    },
+    {
+      "id": "chapter-title-10C",
+      "chapter": 10,
+      "display_label": "Chapter 10",
+      "ui_id": 42,
+      "ui_key": "STR_SAVE_SUB_TITLE_10C",
+      "en": "Trill—An Ever-Swaying Melody",
+      "raster_ids": [
+        "sub_title_b-chapter-42",
+        "sub_title_b_-chapter-42"
+      ]
+    }
+  ],
+  "scope": "All Japanese headings in both subtitle atlas variants; chapter labels and numbers are already English and retained.",
+  "category_assets": [
+    "data/_dat/sub_title.bsw",
+    "data/_dat/sub_title_.bsw",
+    "data/_ssa/sub_title.bsa",
+    "data/_ssa/sub_title_.bsa",
+    "data/_ssa/sub_title_a.btx",
+    "data/_ssa/sub_title_b.btx",
+    "data/_ssa/sub_title_b_.btx"
+  ],
+  "inserted_build": "0.1.10",
+  "insertion_status": "inserted_texture_runtime_unverified",
+  "layout_record": "work/ui/chapter-title-layout.json"
+}

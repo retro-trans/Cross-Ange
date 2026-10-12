@@ -1,0 +1,2215 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1040,
+    "last_id": 1119,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      1030,
+      1129
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 77,
+    "translated_needs_review": 3
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 1040,
+      "key": "STR_ITM_COLOR_58",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8340,
+      "label_offset": 66148,
+      "source_offset": 53616,
+      "source_bytes": 24,
+      "en": "Howitzer Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53616,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Howitzer Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_58",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1041,
+      "key": "STR_ITM_COLOR_59",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8348,
+      "label_offset": 66184,
+      "source_offset": 53644,
+      "source_bytes": 26,
+      "en": "Howitzer Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53644,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Howitzer Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_59",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1042,
+      "key": "STR_ITM_COLOR_60",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8356,
+      "label_offset": 66220,
+      "source_offset": 53672,
+      "source_bytes": 26,
+      "en": "Howitzer Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53672,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Howitzer Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_60",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1043,
+      "key": "STR_ITM_COLOR_90",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8364,
+      "label_offset": 66256,
+      "source_offset": 53700,
+      "source_bytes": 26,
+      "en": "Howitzer Ersha Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53700,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Howitzer Ersha Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_90",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1044,
+      "key": "STR_ITM_COLOR_91",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8372,
+      "label_offset": 66292,
+      "source_offset": 53728,
+      "source_bytes": 24,
+      "en": "Howitzer Chris Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53728,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Howitzer Chris Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_91",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1045,
+      "key": "STR_ITM_COLOR_92",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8380,
+      "label_offset": 66328,
+      "source_offset": 53756,
+      "source_bytes": 24,
+      "en": "Howitzer Nonna Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53756,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Howitzer Nonna Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_92",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1046,
+      "key": "STR_ITM_COLOR_61",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8388,
+      "label_offset": 66364,
+      "source_offset": 53784,
+      "source_bytes": 20,
+      "en": "Enryugo Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53784,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Enryugo Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_61",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1047,
+      "key": "STR_ITM_COLOR_62",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8396,
+      "label_offset": 66400,
+      "source_offset": 53808,
+      "source_bytes": 20,
+      "en": "Enryugo Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53808,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Enryugo Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_62",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1048,
+      "key": "STR_ITM_COLOR_63",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8404,
+      "label_offset": 66436,
+      "source_offset": 53832,
+      "source_bytes": 22,
+      "en": "Enryugo Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53832,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Enryugo Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_63",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1049,
+      "key": "STR_ITM_COLOR_64",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8412,
+      "label_offset": 66472,
+      "source_offset": 53856,
+      "source_bytes": 22,
+      "en": "Enryugo Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53856,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Enryugo Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_64",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1050,
+      "key": "STR_ITM_COLOR_65",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8420,
+      "label_offset": 66508,
+      "source_offset": 53880,
+      "source_bytes": 24,
+      "en": "Enryugo Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53880,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Enryugo Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_65",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1051,
+      "key": "STR_ITM_COLOR_66",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8428,
+      "label_offset": 66544,
+      "source_offset": 53908,
+      "source_bytes": 26,
+      "en": "Enryugo Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53908,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Enryugo Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_66",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1052,
+      "key": "STR_ITM_COLOR_67",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8436,
+      "label_offset": 66580,
+      "source_offset": 53936,
+      "source_bytes": 26,
+      "en": "Enryugo Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53936,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Enryugo Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_67",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1053,
+      "key": "STR_ITM_COLOR_68",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8444,
+      "label_offset": 66616,
+      "source_offset": 53964,
+      "source_bytes": 22,
+      "en": "Enryugo Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53964,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Enryugo Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_68",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1054,
+      "key": "STR_ITM_COLOR_69",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8452,
+      "label_offset": 66652,
+      "source_offset": 53988,
+      "source_bytes": 24,
+      "en": "Enryugo Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 53988,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Enryugo Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_69",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1055,
+      "key": "STR_ITM_COLOR_70",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8460,
+      "label_offset": 66688,
+      "source_offset": 54016,
+      "source_bytes": 24,
+      "en": "Enryugo Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54016,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Enryugo Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_70",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1056,
+      "key": "STR_ITM_COLOR_93",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8468,
+      "label_offset": 66724,
+      "source_offset": 54044,
+      "source_bytes": 32,
+      "en": "Enryugo Salamandinay Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54044,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Enryugo Salamandinay Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_93",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1057,
+      "key": "STR_ITM_COLOR_71",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8476,
+      "label_offset": 66760,
+      "source_offset": 54080,
+      "source_bytes": 24,
+      "en": "Villkiss Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54080,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Villkiss Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_71",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1058,
+      "key": "STR_ITM_COLOR_72",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8484,
+      "label_offset": 66796,
+      "source_offset": 54108,
+      "source_bytes": 24,
+      "en": "Villkiss Camouflage Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54108,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Villkiss Camouflage Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_72",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1059,
+      "key": "STR_ITM_COLOR_73",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8492,
+      "label_offset": 66832,
+      "source_offset": 54136,
+      "source_bytes": 26,
+      "en": "Villkiss Camouflage Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54136,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Villkiss Camouflage Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_73",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1060,
+      "key": "STR_ITM_COLOR_74",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8500,
+      "label_offset": 66868,
+      "source_offset": 54164,
+      "source_bytes": 26,
+      "en": "Villkiss Camouflage Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54164,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Villkiss Camouflage Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_74",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1061,
+      "key": "STR_ITM_COLOR_75",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8508,
+      "label_offset": 66904,
+      "source_offset": 54192,
+      "source_bytes": 28,
+      "en": "Villkiss Animal Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54192,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Villkiss Animal Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_75",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1062,
+      "key": "STR_ITM_COLOR_76",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8516,
+      "label_offset": 66940,
+      "source_offset": 54224,
+      "source_bytes": 30,
+      "en": "Villkiss Animal Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54224,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Villkiss Animal Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_76",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1063,
+      "key": "STR_ITM_COLOR_77",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8524,
+      "label_offset": 66976,
+      "source_offset": 54256,
+      "source_bytes": 30,
+      "en": "Villkiss Animal Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54256,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Villkiss Animal Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_77",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1064,
+      "key": "STR_ITM_COLOR_78",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8532,
+      "label_offset": 67012,
+      "source_offset": 54288,
+      "source_bytes": 26,
+      "en": "Villkiss Geometric Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54288,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Villkiss Geometric Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_78",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1065,
+      "key": "STR_ITM_COLOR_79",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8540,
+      "label_offset": 67048,
+      "source_offset": 54316,
+      "source_bytes": 28,
+      "en": "Villkiss Geometric Paint 2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54316,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Villkiss Geometric Paint 2"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_79",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1066,
+      "key": "STR_ITM_COLOR_80",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8548,
+      "label_offset": 67084,
+      "source_offset": 54348,
+      "source_bytes": 28,
+      "en": "Villkiss Geometric Paint 3",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54348,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Villkiss Geometric Paint 3"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_80",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1067,
+      "key": "STR_ITM_COLOR_94",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8556,
+      "label_offset": 67120,
+      "source_offset": 54380,
+      "source_bytes": 28,
+      "en": "Villkiss Ange Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54380,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Villkiss Ange Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_94",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1068,
+      "key": "STR_ITM_COLOR_95",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8564,
+      "label_offset": 67156,
+      "source_offset": 54412,
+      "source_bytes": 44,
+      "en": "#z73Villkiss Ariel Mode Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54412,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "#z73Villkiss Ariel Mode Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#z73"
+      ],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_95",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1069,
+      "key": "STR_ITM_COLOR_96",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8572,
+      "label_offset": 67192,
+      "source_offset": 54460,
+      "source_bytes": 44,
+      "en": "#z73Villkiss Michael Mode Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54460,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "#z73Villkiss Michael Mode Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#z73"
+      ],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_96",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1070,
+      "key": "STR_ITM_COLOR_97",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8580,
+      "label_offset": 67228,
+      "source_offset": 54508,
+      "source_bytes": 20,
+      "en": "Soryugo Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54508,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Soryugo Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_97",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1071,
+      "key": "STR_ITM_COLOR_98",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8588,
+      "label_offset": 67264,
+      "source_offset": 54532,
+      "source_bytes": 22,
+      "en": "Soryugo Naga Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54532,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Soryugo Naga Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_98",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1072,
+      "key": "STR_ITM_COLOR_99",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8596,
+      "label_offset": 67300,
+      "source_offset": 54556,
+      "source_bytes": 20,
+      "en": "Hekiryugo Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54556,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Hekiryugo Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_99",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1073,
+      "key": "STR_ITM_COLOR_100",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8604,
+      "label_offset": 67336,
+      "source_offset": 54580,
+      "source_bytes": 22,
+      "en": "Hekiryugo Kaname Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54580,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Hekiryugo Kaname Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_100",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1074,
+      "key": "STR_ITM_COLOR_101",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8612,
+      "label_offset": 67372,
+      "source_offset": 54604,
+      "source_bytes": 24,
+      "en": "Hysterica Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54604,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Hysterica Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_101",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1075,
+      "key": "STR_ITM_COLOR_102",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8620,
+      "label_offset": 67408,
+      "source_offset": 54632,
+      "source_bytes": 24,
+      "en": "Victoria Default Paint",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54632,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Victoria Default Paint"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_color_102",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1076,
+      "key": "STR_ITM_DECAL_EMBLEM_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8628,
+      "label_offset": 67444,
+      "source_offset": 54660,
+      "source_bytes": 14,
+      "en": "Arzenal 01",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54660,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Arzenal 01"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_emblem_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1077,
+      "key": "STR_ITM_DECAL_EMBLEM_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8636,
+      "label_offset": 67480,
+      "source_offset": 54676,
+      "source_bytes": 14,
+      "en": "Arzenal 02",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54676,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Arzenal 02"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_emblem_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1078,
+      "key": "STR_ITM_DECAL_EMBLEM_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8644,
+      "label_offset": 67516,
+      "source_offset": 54692,
+      "source_bytes": 14,
+      "en": "Arzenal 03",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54692,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Arzenal 03"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_emblem_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1079,
+      "key": "STR_ITM_DECAL_EMBLEM_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8652,
+      "label_offset": 67552,
+      "source_offset": 54708,
+      "source_bytes": 14,
+      "en": "Arzenal 04",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54708,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Arzenal 04"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_emblem_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1080,
+      "key": "STR_ITM_DECAL_EMBLEM_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8660,
+      "label_offset": 67588,
+      "source_offset": 54724,
+      "source_bytes": 14,
+      "en": "Arzenal 05",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54724,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Arzenal 05"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_emblem_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1081,
+      "key": "STR_ITM_DECAL_UNIT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8668,
+      "label_offset": 67624,
+      "source_offset": 54740,
+      "source_bytes": 8,
+      "en": "First Squadron",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54740,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "First Squadron"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_unit_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1082,
+      "key": "STR_ITM_DECAL_UNIT_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8676,
+      "label_offset": 67660,
+      "source_offset": 54752,
+      "source_bytes": 8,
+      "en": "Second Squadron",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54752,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Second Squadron"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_unit_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1083,
+      "key": "STR_ITM_DECAL_UNIT_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8684,
+      "label_offset": 67696,
+      "source_offset": 54764,
+      "source_bytes": 8,
+      "en": "Third Squadron",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54764,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Third Squadron"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_unit_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1084,
+      "key": "STR_ITM_DECAL_PERSONAL_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8692,
+      "label_offset": 67732,
+      "source_offset": 54776,
+      "source_bytes": 6,
+      "en": "Salia",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54776,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Salia"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1085,
+      "key": "STR_ITM_DECAL_PERSONAL_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8700,
+      "label_offset": 67768,
+      "source_offset": 54784,
+      "source_bytes": 12,
+      "en": "Vivian",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54784,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Vivian"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1086,
+      "key": "STR_ITM_DECAL_PERSONAL_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8708,
+      "label_offset": 67804,
+      "source_offset": 54800,
+      "source_bytes": 6,
+      "en": "Hilda",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54800,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hilda"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1087,
+      "key": "STR_ITM_DECAL_PERSONAL_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8716,
+      "label_offset": 67840,
+      "source_offset": 54808,
+      "source_bytes": 8,
+      "en": "Rosalie",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54808,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rosalie"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1088,
+      "key": "STR_ITM_DECAL_PERSONAL_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8724,
+      "label_offset": 67876,
+      "source_offset": 54820,
+      "source_bytes": 6,
+      "en": "Chris",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54820,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Chris"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1089,
+      "key": "STR_ITM_DECAL_PERSONAL_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8732,
+      "label_offset": 67912,
+      "source_offset": 54828,
+      "source_bytes": 8,
+      "en": "Ersha",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54828,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ersha"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1090,
+      "key": "STR_ITM_DECAL_PERSONAL_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8740,
+      "label_offset": 67948,
+      "source_offset": 54840,
+      "source_bytes": 6,
+      "en": "Zola",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54840,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Zola"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1091,
+      "key": "STR_ITM_DECAL_PERSONAL_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8748,
+      "label_offset": 67984,
+      "source_offset": 54848,
+      "source_bytes": 24,
+      "en": "Pixel Art 「Naomi」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54848,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Naomi」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_11",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1092,
+      "key": "STR_ITM_DECAL_PERSONAL_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8756,
+      "label_offset": 68020,
+      "source_offset": 54876,
+      "source_bytes": 26,
+      "en": "Pixel Art 「Ange」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54876,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Ange」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_12",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1093,
+      "key": "STR_ITM_DECAL_PERSONAL_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8764,
+      "label_offset": 68056,
+      "source_offset": 54904,
+      "source_bytes": 24,
+      "en": "Pixel Art 「Salia」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54904,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Salia」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_13",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1094,
+      "key": "STR_ITM_DECAL_PERSONAL_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8772,
+      "label_offset": 68092,
+      "source_offset": 54932,
+      "source_bytes": 24,
+      "en": "Pixel Art 「Hilda」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54932,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Hilda」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_14",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1095,
+      "key": "STR_ITM_DECAL_PERSONAL_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8780,
+      "label_offset": 68128,
+      "source_offset": 54960,
+      "source_bytes": 26,
+      "en": "Pixel Art 「Rosalie」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54960,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Rosalie」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_15",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1096,
+      "key": "STR_ITM_DECAL_PERSONAL_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8788,
+      "label_offset": 68164,
+      "source_offset": 54988,
+      "source_bytes": 30,
+      "en": "Pixel Art 「Vivian」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 54988,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Vivian」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_16",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1097,
+      "key": "STR_ITM_DECAL_PERSONAL_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8796,
+      "label_offset": 68200,
+      "source_offset": 55020,
+      "source_bytes": 26,
+      "en": "Pixel Art 「Ersha」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55020,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Ersha」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_17",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1098,
+      "key": "STR_ITM_DECAL_PERSONAL_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8804,
+      "label_offset": 68236,
+      "source_offset": 55048,
+      "source_bytes": 24,
+      "en": "Pixel Art 「Chris」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55048,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Chris」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_18",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1099,
+      "key": "STR_ITM_DECAL_PERSONAL_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8812,
+      "label_offset": 68272,
+      "source_offset": 55076,
+      "source_bytes": 24,
+      "en": "Pixel Art 「Momoka」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55076,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「Momoka」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_19",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1100,
+      "key": "STR_ITM_DECAL_PERSONAL_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8820,
+      "label_offset": 68308,
+      "source_offset": 55104,
+      "source_bytes": 24,
+      "en": "Pixel Art 「King of Debt」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55104,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Pixel Art 「King of Debt」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_20",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1101,
+      "key": "STR_ITM_DECAL_PERSONAL_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8828,
+      "label_offset": 68344,
+      "source_offset": 55132,
+      "source_bytes": 30,
+      "en": "Pixel Art「Naomi (Knights)」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55132,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Pixel Art「Naomi (Knights)」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_21",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1102,
+      "key": "STR_ITM_DECAL_PERSONAL_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8836,
+      "label_offset": 68380,
+      "source_offset": 55164,
+      "source_bytes": 30,
+      "en": "Pixel Art「Salia (Knights)」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55164,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Pixel Art「Salia (Knights)」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_22",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1103,
+      "key": "STR_ITM_DECAL_PERSONAL_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8844,
+      "label_offset": 68416,
+      "source_offset": 55196,
+      "source_bytes": 32,
+      "en": "Pixel Art「Ersha (Knights)」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55196,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Pixel Art「Ersha (Knights)」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_23",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1104,
+      "key": "STR_ITM_DECAL_PERSONAL_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8852,
+      "label_offset": 68452,
+      "source_offset": 55232,
+      "source_bytes": 30,
+      "en": "Pixel Art「Chris (Knights)」",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55232,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Pixel Art「Chris (Knights)」"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_24",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1105,
+      "key": "STR_ITM_DECAL_PERSONAL_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8860,
+      "label_offset": 68488,
+      "source_offset": 55264,
+      "source_bytes": 20,
+      "en": "Dance with Death",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55264,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Dance with Death"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_25",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1106,
+      "key": "STR_ITM_DECAL_PERSONAL_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8868,
+      "label_offset": 68524,
+      "source_offset": 55288,
+      "source_bytes": 12,
+      "en": "Devil Lady",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55288,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Devil Lady"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_26",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1107,
+      "key": "STR_ITM_DECAL_PERSONAL_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8876,
+      "label_offset": 68560,
+      "source_offset": 55304,
+      "source_bytes": 20,
+      "en": "Norma on Board",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55304,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Norma on Board"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_27",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1108,
+      "key": "STR_ITM_DECAL_PERSONAL_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8884,
+      "label_offset": 68596,
+      "source_offset": 55328,
+      "source_bytes": 8,
+      "en": "Peaky",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55328,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Peaky"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_28",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 1109,
+      "key": "STR_ITM_DECAL_PERSONAL_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8892,
+      "label_offset": 68632,
+      "source_offset": 55340,
+      "source_bytes": 4,
+      "en": "Sun",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55340,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Sun"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_29",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1110,
+      "key": "STR_ITM_DECAL_PERSONAL_30",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8900,
+      "label_offset": 68668,
+      "source_offset": 55348,
+      "source_bytes": 8,
+      "en": "Wind",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55348,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Wind"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_30",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1111,
+      "key": "STR_ITM_DECAL_PERSONAL_31",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8908,
+      "label_offset": 68704,
+      "source_offset": 55360,
+      "source_bytes": 6,
+      "en": "Ice",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55360,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Ice"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_31",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1112,
+      "key": "STR_ITM_DECAL_PERSONAL_32",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8916,
+      "label_offset": 68740,
+      "source_offset": 55368,
+      "source_bytes": 8,
+      "en": "Hazy Skull",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55368,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Hazy Skull"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_32",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 1113,
+      "key": "STR_ITM_DECAL_PERSONAL_33",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8924,
+      "label_offset": 68776,
+      "source_offset": 55380,
+      "source_bytes": 16,
+      "en": "Funny Flower",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55380,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Funny Flower"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_33",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1114,
+      "key": "STR_ITM_DECAL_PERSONAL_34",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8932,
+      "label_offset": 68812,
+      "source_offset": 55400,
+      "source_bytes": 8,
+      "en": "4 Cards",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55400,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "4 Cards"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_34",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1115,
+      "key": "STR_ITM_DECAL_PERSONAL_35",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8940,
+      "label_offset": 68848,
+      "source_offset": 55412,
+      "source_bytes": 10,
+      "en": "Piggy",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55412,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Piggy"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_35",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1116,
+      "key": "STR_ITM_DECAL_PERSONAL_36",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8948,
+      "label_offset": 68884,
+      "source_offset": 55424,
+      "source_bytes": 20,
+      "en": "Sniper Chameleon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55424,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Sniper Chameleon"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_36",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1117,
+      "key": "STR_ITM_DECAL_PERSONAL_37",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8956,
+      "label_offset": 68920,
+      "source_offset": 55448,
+      "source_bytes": 4,
+      "en": "Grim Reaper",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55448,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Grim Reaper"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_37",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1118,
+      "key": "STR_ITM_DECAL_PERSONAL_38",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8964,
+      "label_offset": 68956,
+      "source_offset": 55456,
+      "source_bytes": 2,
+      "en": "Flower",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55456,
+          "source_bytes": 2,
+          "contains_japanese": true,
+          "en": "Flower"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_38",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 1119,
+      "key": "STR_ITM_DECAL_PERSONAL_39",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 8972,
+      "label_offset": 68992,
+      "source_offset": 55460,
+      "source_bytes": 6,
+      "en": "Drago",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 55460,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Drago"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_decal_personal_39",
+      "glossary_status": "provisional_name"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

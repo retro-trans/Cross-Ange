@@ -1,0 +1,1593 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "terms": [
+    {
+      "id": "game_title",
+      "category": "title",
+      "japanese": [
+        "クロスアンジュ　天使と竜の輪舞tr.",
+        "クロスアンジュ 天使と竜の輪舞tr.",
+        "クロスアンジュ 天使と竜の輪舞 tr."
+      ],
+      "english": "CROSS ANGE Rondo of Angel and Dragon tr.",
+      "notes": "Project English convention: official Sunrise franchise title with the game's tr. suffix.",
+      "status": "verified_game_title",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.sunrise-inc.co.jp/international/work/detail.php?cid=362",
+          "supports": "official English anime/franchise title; game suffix observed in package by extraction agent"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/CROSS_ANGE_Rondo_of_Angel_and_Dragon_tr.",
+          "supports": "game naming convention (search result)"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 0,
+        "scenario_example_ids": [],
+        "ui_ids": [
+          27
+        ]
+      }
+    },
+    {
+      "id": "mana",
+      "category": "world",
+      "japanese": [
+        "マナ"
+      ],
+      "english": "Mana",
+      "notes": "Will-driven technology.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 80,
+        "scenario_example_ids": [
+          "C000_HEV_020:560",
+          "C000_PRO_000:771",
+          "C000_PRO_000:772",
+          "C000_PRO_000:773",
+          "C000_PRO_000:774"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "norma",
+      "category": "world",
+      "japanese": [
+        "ノーマ"
+      ],
+      "english": "Norma",
+      "notes": "People unable to use Mana; treated as outcasts.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 262,
+        "scenario_example_ids": [
+          "108321:124",
+          "302013:220",
+          "305013:265",
+          "C000_HEV_010:440",
+          "C000_HEV_010:441"
+        ],
+        "ui_ids": [
+          1107
+        ]
+      }
+    },
+    {
+      "id": "misurugi",
+      "category": "place",
+      "japanese": [
+        "ミスルギ皇国",
+        "ミスルギ",
+        "ミスルギ帝国"
+      ],
+      "english": "Empire of Misurugi",
+      "notes": "Use Misurugi for abbreviated country references.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 106,
+        "scenario_example_ids": [
+          "108322:131",
+          "108322:135",
+          "109312:179",
+          "110311:187",
+          "C010_HEV_020:1499"
+        ],
+        "ui_ids": [
+          34,
+          60,
+          152,
+          183,
+          184,
+          186,
+          474,
+          486,
+          510,
+          513,
+          524,
+          540,
+          697
+        ]
+      }
+    },
+    {
+      "id": "arzenal",
+      "category": "place_organization",
+      "japanese": [
+        "アルゼナル"
+      ],
+      "english": "Arzenal",
+      "notes": "Island military base and Norma confinement facility.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 226,
+        "scenario_example_ids": [
+          "101121:61",
+          "101121:63",
+          "103111:67",
+          "105112:82",
+          "105112:89"
+        ],
+        "ui_ids": [
+          66,
+          87,
+          90,
+          113,
+          172,
+          468,
+          469,
+          473,
+          474,
+          475,
+          477,
+          481,
+          508,
+          511,
+          514,
+          517,
+          520,
+          529,
+          534,
+          539,
+          580,
+          583,
+          586,
+          605,
+          607,
+          649,
+          652,
+          1076,
+          1077,
+          1078,
+          1079,
+          1080
+        ]
+      }
+    },
+    {
+      "id": "dragon",
+      "category": "world",
+      "japanese": [
+        "ドラゴン"
+      ],
+      "english": "DRAGON",
+      "notes": "Project chooses acronym capitals for faction/species term; ordinary creatures can use dragon.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 362,
+        "scenario_example_ids": [
+          "101121:59",
+          "101121:62",
+          "102111:64",
+          "105111:77",
+          "105111:79"
+        ],
+        "ui_ids": [
+          57,
+          58,
+          81,
+          83,
+          468,
+          469,
+          470,
+          472,
+          473,
+          475,
+          478,
+          489,
+          491,
+          493,
+          495,
+          497,
+          499,
+          501,
+          506,
+          508,
+          511,
+          513,
+          516,
+          517,
+          519,
+          520,
+          522,
+          529,
+          531,
+          535,
+          537,
+          538,
+          539,
+          541,
+          555,
+          557,
+          559,
+          561,
+          563,
+          565,
+          567,
+          572,
+          574,
+          577,
+          579,
+          582,
+          583,
+          585,
+          586,
+          588,
+          595,
+          597,
+          605,
+          607,
+          621,
+          623,
+          625,
+          627,
+          629,
+          631,
+          633,
+          649,
+          651,
+          652,
+          654,
+          683,
+          690,
+          735,
+          736,
+          737,
+          738,
+          739,
+          746,
+          747,
+          797,
+          798,
+          799,
+          800,
+          801,
+          1502,
+          1503,
+          1507,
+          1508,
+          1509
+        ]
+      }
+    },
+    {
+      "id": "paramail",
+      "category": "mecha_class",
+      "japanese": [
+        "パラメイル"
+      ],
+      "english": "Para-mail",
+      "notes": "Transformable anti-DRAGON machine.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 191,
+        "scenario_example_ids": [
+          "100111:4",
+          "101121:61",
+          "103111:67",
+          "105112:94",
+          "109111:151"
+        ],
+        "ui_ids": [
+          73,
+          467,
+          475,
+          479,
+          481,
+          482,
+          484,
+          486,
+          488,
+          515,
+          516,
+          525,
+          526,
+          533,
+          547,
+          552,
+          581,
+          582,
+          591,
+          592,
+          647,
+          1262,
+          1348,
+          1501
+        ]
+      }
+    },
+    {
+      "id": "ragnamail",
+      "category": "mecha_class",
+      "japanese": [
+        "ラグナメイル"
+      ],
+      "english": "Ragna-mail",
+      "notes": "Embryo's destructive machine class.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 59,
+        "scenario_example_ids": [
+          "109111:152",
+          "109112:159",
+          "109311:172",
+          "210022:204",
+          "210022:207"
+        ],
+        "ui_ids": [
+          75,
+          96,
+          478,
+          507,
+          509,
+          516,
+          526,
+          544,
+          545,
+          548,
+          550,
+          582,
+          648,
+          734,
+          1505
+        ]
+      }
+    },
+    {
+      "id": "ryushinki",
+      "category": "mecha_class",
+      "japanese": [
+        "龍神器"
+      ],
+      "english": "Ryuu-Shin-Ki",
+      "notes": "DRAGON combat-machine class; official English heading used.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 19,
+        "scenario_example_ids": [
+          "C081_HEV_010:6755",
+          "C081_HEV_010:6756",
+          "C081_HEV_010:6760",
+          "C081_HEV_010:6764",
+          "C081_HEV_010:6766"
+        ],
+        "ui_ids": [
+          74,
+          95,
+          268,
+          504,
+          525,
+          570,
+          1504
+        ]
+      }
+    },
+    {
+      "id": "perolina",
+      "category": "mascot",
+      "japanese": [
+        "ペロリーナ"
+      ],
+      "english": "Perolina",
+      "notes": "Mascot merchandise sold by Jasmine; romanization provisional.",
+      "status": "provisional",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 26,
+        "scenario_example_ids": [
+          "C040_HEV_010:3845",
+          "C040_HEV_010:3846",
+          "C040_HEV_010:3847",
+          "C050_HEV_000:4380",
+          "C050_HEV_000:4381"
+        ],
+        "ui_ids": [
+          684
+        ]
+      }
+    },
+    {
+      "id": "jasmine_mall",
+      "category": "place",
+      "japanese": [
+        "ジャスミン・モール",
+        "ジャスミンモール"
+      ],
+      "english": "Jasmine Mall",
+      "notes": "Marketplace run by Jasmine.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/jasmine/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 18,
+        "scenario_example_ids": [
+          "C000_HEV_000:352",
+          "C000_HEV_000:377",
+          "C000_PRO_000:875",
+          "C020_HEV_020:2502",
+          "C020_HEV_020:2504"
+        ],
+        "ui_ids": [
+          162,
+          403
+        ]
+      }
+    },
+    {
+      "id": "first_squadron",
+      "category": "organization",
+      "japanese": [
+        "第一中隊"
+      ],
+      "english": "First Squadron",
+      "notes": "Project military-unit convention; rank depends on scene.",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/salia/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 98,
+        "scenario_example_ids": [
+          "101121:61",
+          "108321:117",
+          "303023:244",
+          "307023:294",
+          "C000_EPI_003:343"
+        ],
+        "ui_ids": [
+          29,
+          32,
+          147,
+          150,
+          470,
+          471,
+          472,
+          473,
+          477,
+          1081,
+          1245
+        ]
+      }
+    },
+    {
+      "id": "libertus",
+      "category": "operation_organization",
+      "japanese": [
+        "リベルタス"
+      ],
+      "english": "Libertus",
+      "notes": "Rebellion operation; dedicated wiki spelling preferred over Libertas.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Jill",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 99,
+        "scenario_example_ids": [
+          "108321:123",
+          "C070_HEV_000:5845",
+          "C070_HEV_000:5849",
+          "C070_HEV_000:5856",
+          "C070_HEV_000:5867"
+        ],
+        "ui_ids": [
+          93,
+          477
+        ]
+      }
+    },
+    {
+      "id": "aurora",
+      "category": "vessel",
+      "japanese": [
+        "アウローラ"
+      ],
+      "english": "Aurora",
+      "notes": "Submarine aircraft carrier.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/aurora/",
+          "supports": "Japanese term and franchise context"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 22,
+        "scenario_example_ids": [
+          "C082_MAL_010:7621",
+          "C082_MAL_010:7680",
+          "C082_MAL_010:7690",
+          "C082_PRO_000:7702",
+          "C082_PRO_000:7753"
+        ],
+        "ui_ids": [
+          68,
+          88,
+          91,
+          179,
+          180,
+          181,
+          182,
+          187,
+          479,
+          482,
+          483,
+          486,
+          515,
+          518,
+          521,
+          523,
+          581,
+          584,
+          587,
+          650,
+          653
+        ]
+      }
+    },
+    {
+      "id": "villkiss",
+      "category": "mecha",
+      "japanese": [
+        "ヴィルキス"
+      ],
+      "english": "Villkiss",
+      "notes": "Ange's machine; wiki English spelling.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Villkiss_Awakens",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 108,
+        "scenario_example_ids": [
+          "102111:65",
+          "C000_HEV_030:1009",
+          "C000_HEV_030:1012",
+          "C000_HEV_030:1013",
+          "C010_BEV_004:896"
+        ],
+        "ui_ids": [
+          470,
+          487,
+          536,
+          553,
+          704,
+          711,
+          1057,
+          1058,
+          1059,
+          1060,
+          1061,
+          1062,
+          1063,
+          1064,
+          1065,
+          1066,
+          1067,
+          1068,
+          1069
+        ]
+      }
+    },
+    {
+      "id": "glaive",
+      "category": "mecha",
+      "japanese": [
+        "グレイブ"
+      ],
+      "english": "Glaive",
+      "notes": "Para-mail model.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/hilda/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Villkiss_Awakens",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 7,
+        "scenario_example_ids": [
+          "C050_EPI_000:4228",
+          "C060_HEV_020:5498",
+          "C060_HEV_020:5502",
+          "C081_HEV_010:6765",
+          "C081_HEV_010:6768"
+        ],
+        "ui_ids": [
+          382,
+          703,
+          708,
+          709,
+          716,
+          717,
+          974,
+          975,
+          976,
+          977,
+          978,
+          979,
+          980,
+          981,
+          982,
+          983,
+          984,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014,
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021,
+          1022,
+          1023,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          1031,
+          1032
+        ]
+      }
+    },
+    {
+      "id": "arquebus",
+      "category": "mecha",
+      "japanese": [
+        "アーキバス"
+      ],
+      "english": "Arquebus",
+      "notes": "Para-mail model.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/salia/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Villkiss_Awakens",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 2,
+        "scenario_example_ids": [
+          "C050_EPI_000:4228",
+          "C050_EPI_000:4229"
+        ],
+        "ui_ids": [
+          706,
+          713,
+          714,
+          732,
+          985,
+          986,
+          987,
+          988,
+          989,
+          990,
+          991,
+          992,
+          993,
+          994,
+          995,
+          996,
+          997,
+          998
+        ]
+      }
+    },
+    {
+      "id": "hauser",
+      "category": "mecha",
+      "japanese": [
+        "ハウザー"
+      ],
+      "english": "Howitzer",
+      "notes": "Heavy-artillery Para-mail. Dedicated mecha wiki heading/body and readable game manual use Howitzer; older episode prose and galleries use Hauser. Stable glossary ID retained.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/ersha/",
+          "supports": "Japanese name and mecha context."
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-ZZR520_%28CR%29_Howitzer_Chris_Custom",
+          "supports": "Preferred English spelling Howitzer; Japanese counterpart in body."
+        }
+      ],
+      "deprecated_english_aliases": [
+        "Hauser"
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 2,
+        "scenario_example_ids": [
+          "C093_HEP_CRS:9192",
+          "C093_HEP_ERS:9229"
+        ],
+        "ui_ids": [
+          299,
+          395,
+          397,
+          710,
+          718,
+          719,
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042,
+          1043,
+          1044,
+          1045
+        ]
+      }
+    },
+    {
+      "id": "razor",
+      "category": "mecha",
+      "japanese": [
+        "レイザー"
+      ],
+      "english": "Razor",
+      "notes": "Vivian's prototype Para-mail.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/vivian/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Villkiss_Awakens",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 5,
+        "scenario_example_ids": [
+          "C060_HEP_VIV:5093",
+          "C083_PRO_001:8346",
+          "C091_HEV_010:8796",
+          "C091_HEV_010:8813",
+          "C093_HEP_CRS:9195"
+        ],
+        "ui_ids": [
+          298,
+          300,
+          383,
+          385,
+          707,
+          715,
+          733,
+          831,
+          999,
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005,
+          1006,
+          1007,
+          1008,
+          1009
+        ]
+      }
+    },
+    {
+      "id": "enryugo",
+      "category": "mecha",
+      "japanese": [
+        "焔龍號"
+      ],
+      "english": "Enryugo",
+      "notes": "Sala's Ryuu-Shin-Ki.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/sala/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Enryugo",
+          "supports": "Dedicated mecha English spelling and pilot."
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 5,
+        "scenario_example_ids": [
+          "C081_HEV_010:6759",
+          "C081_HEV_010:6760",
+          "C081_HEV_010:6767",
+          "C081_HEV_010:6775",
+          "C103_MAL_000:10801"
+        ],
+        "ui_ids": [
+          487,
+          553,
+          705,
+          712,
+          1046,
+          1047,
+          1048,
+          1049,
+          1050,
+          1051,
+          1052,
+          1053,
+          1054,
+          1055,
+          1056
+        ]
+      }
+    },
+    {
+      "id": "soryugo",
+      "category": "mecha",
+      "japanese": [
+        "蒼龍號"
+      ],
+      "english": "Soryugo",
+      "notes": "Naga's Ryuu-Shin-Ki.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/n/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 0,
+        "scenario_example_ids": [],
+        "ui_ids": [
+          720,
+          730,
+          1070,
+          1071
+        ]
+      }
+    },
+    {
+      "id": "hekiryugo",
+      "category": "mecha",
+      "japanese": [
+        "碧龍號"
+      ],
+      "english": "Hekiryugo",
+      "notes": "Kaname's Ryuu-Shin-Ki.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/k/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 0,
+        "scenario_example_ids": [],
+        "ui_ids": [
+          721,
+          731,
+          1072,
+          1073
+        ]
+      }
+    },
+    {
+      "id": "hysterica",
+      "category": "mecha",
+      "japanese": [
+        "ヒステリカ"
+      ],
+      "english": "Hysterica",
+      "notes": "Embryo's machine.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "sources": [
+        {
+          "url": "https://www.crossange.com/mechanic/embryo/",
+          "supports": "Japanese term and franchise context"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English mecha spelling"
+        }
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "C083_MAL_000:8334"
+        ],
+        "ui_ids": [
+          551,
+          722,
+          728,
+          1074,
+          1506
+        ]
+      }
+    },
+    {
+      "id": "flight_mode",
+      "category": "mode",
+      "japanese": [
+        "飛翔形態"
+      ],
+      "english": "Flight Mode",
+      "notes": "Movement form. Exact English form appears in licensed Good Smile model description.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100111:6",
+        "100114:53"
+      ],
+      "sources": [
+        {
+          "url": "https://www.goodsmile.info/en/product/14602/MODEROID%2BVillkiss%2BFinal%2BBattle%2BVariant.html",
+          "supports": "English convention or franchise context"
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 6,
+        "scenario_example_ids": [
+          "100111:6",
+          "100111:7",
+          "100112:30",
+          "100114:48",
+          "100114:52"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "destroyer_mode",
+      "category": "mode",
+      "japanese": [
+        "駆逐形態"
+      ],
+      "english": "Destroyer Mode",
+      "notes": "Humanoid combat form. English wording appears in licensed model description.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100111:6",
+        "100114:54"
+      ],
+      "sources": [
+        {
+          "url": "https://www.goodsmile.info/en/product/14602/MODEROID%2BVillkiss%2BFinal%2BBattle%2BVariant.html",
+          "supports": "English convention or franchise context"
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 7,
+        "scenario_example_ids": [
+          "100111:6",
+          "100111:7",
+          "100112:30",
+          "100114:48",
+          "100114:49"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "freeze_bullet",
+      "category": "weapon",
+      "japanese": [
+        "凍結バレット"
+      ],
+      "english": "Freeze Bullet",
+      "notes": "Dedicated Villkiss wiki preferred wording; licensed model description uses frozen bullet descriptive phrase.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100114:49",
+        "100114:55"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-CBX007_%28AG%29_Villkiss",
+          "supports": "English convention or franchise context"
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 7,
+        "scenario_example_ids": [
+          "100114:49",
+          "100114:54",
+          "100114:55",
+          "100114:56",
+          "100114:57"
+        ],
+        "ui_ids": [
+          1747
+        ]
+      }
+    },
+    {
+      "id": "quick_turn",
+      "category": "ui_action",
+      "japanese": [
+        "クイックターン"
+      ],
+      "english": "Quick Turn",
+      "notes": "Observed game control-action label; plain translation convention.",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100114:49"
+      ],
+      "sources": [],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "100114:49"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "battle_config",
+      "category": "ui_menu",
+      "japanese": [
+        "ＢＡＴＴＬＥ　ＣＯＮＦＩＧ"
+      ],
+      "english": "BATTLE CONFIG",
+      "notes": "Preserve existing English menu label; normalize full-width letters and space.",
+      "status": "verified_game_label",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100114:50"
+      ],
+      "sources": [],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "100114:50"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "boost",
+      "category": "ui_meter",
+      "japanese": [
+        "ＢＯＯＳＴ"
+      ],
+      "english": "BOOST",
+      "notes": "Preserve existing English meter label; normalize full-width letters.",
+      "status": "verified_game_label",
+      "game_source_observed": true,
+      "observed_rows": [
+        "100111:13",
+        "100114:53"
+      ],
+      "sources": [],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 1,
+        "scenario_example_ids": [
+          "100114:53"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "singular",
+      "category": "world",
+      "japanese": [
+        "シンギュラー",
+        "シンギュラーポイント"
+      ],
+      "english": "Singularity",
+      "notes": "Portal phenomenon linking worlds. Game abbreviated label maps to wiki Singularity; wiki also has Singular Point in prose. Use singularity lower-case for an ordinary descriptive reference as context requires.",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "observed_rows": [
+        "102111:64"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Arzenal",
+          "supports": "Names the DRAGON portal phenomenon Singularity."
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Singularities connect Earth and the World of Mana."
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "deprecated_english_aliases": [
+        "Singular",
+        "Singular Point"
+      ],
+      "source_occurrences": {
+        "scenario_record_count": 23,
+        "scenario_example_ids": [
+          "102111:64",
+          "C000_EPI_000:303",
+          "C000_EPI_001:331",
+          "C010_BEV_001:885",
+          "C010_PRO_000:1828"
+        ],
+        "ui_ids": [
+          471,
+          473,
+          475
+        ]
+      }
+    },
+    {
+      "id": "rosenblum",
+      "category": "place_organization",
+      "japanese": [
+        "ローゼンブルム"
+      ],
+      "english": "Rosenblum",
+      "notes": "Country/royal-house short name, confirmed by Misty's name.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "observed_rows": [
+        "105111:75"
+      ],
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/misty/",
+          "supports": "English convention or franchise context"
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 6,
+        "scenario_example_ids": [
+          "105111:75",
+          "105112:84",
+          "C050_BEV_000:4183",
+          "C050_BEV_010:4192",
+          "C050_PRO_000:4865"
+        ],
+        "ui_ids": []
+      }
+    },
+    {
+      "id": "king_of_debt",
+      "category": "nickname",
+      "japanese": [
+        "借金王"
+      ],
+      "english": "King of Debt",
+      "notes": "Naomi's teasing title; preferred dedicated-wiki heading. Retain despite female referent; contextual renderings require one project-wide decision.",
+      "status": "verified_franchise",
+      "game_source_observed": true,
+      "observed_rows": [
+        "103111:70"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "English convention or franchise context"
+        }
+      ],
+      "source_evidence": "Extracted data/_scr scenario rows listed in observed_rows; Japanese dialogue remains in ignored local files.",
+      "source_occurrences": {
+        "scenario_record_count": 13,
+        "scenario_example_ids": [
+          "103111:70",
+          "C020_HEV_020:2457",
+          "C030_BEV_000:2701",
+          "C030_HEV_010:3091",
+          "C030_HEV_010:3159"
+        ],
+        "ui_ids": [
+          1100
+        ]
+      }
+    }
+  ],
+  "proposed_ui_terms": [
+    {
+      "id": "ui_0",
+      "category": "ui",
+      "japanese": [
+        "セーブ"
+      ],
+      "english": "Save",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_1",
+      "category": "ui",
+      "japanese": [
+        "ロード"
+      ],
+      "english": "Load",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_2",
+      "category": "ui",
+      "japanese": [
+        "ニューゲーム"
+      ],
+      "english": "New Game",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_3",
+      "category": "ui",
+      "japanese": [
+        "コンティニュー"
+      ],
+      "english": "Continue",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_4",
+      "category": "ui",
+      "japanese": [
+        "オプション"
+      ],
+      "english": "Options",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_5",
+      "category": "ui",
+      "japanese": [
+        "設定"
+      ],
+      "english": "Settings",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_6",
+      "category": "ui",
+      "japanese": [
+        "戻る"
+      ],
+      "english": "Back",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_7",
+      "category": "ui",
+      "japanese": [
+        "決定"
+      ],
+      "english": "Confirm",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_8",
+      "category": "ui",
+      "japanese": [
+        "キャンセル"
+      ],
+      "english": "Cancel",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_9",
+      "category": "ui",
+      "japanese": [
+        "出撃"
+      ],
+      "english": "Sortie",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_10",
+      "category": "ui",
+      "japanese": [
+        "機体"
+      ],
+      "english": "Machine",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_11",
+      "category": "ui",
+      "japanese": [
+        "装備"
+      ],
+      "english": "Equipment",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_12",
+      "category": "ui",
+      "japanese": [
+        "武器"
+      ],
+      "english": "Weapons",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_13",
+      "category": "ui",
+      "japanese": [
+        "改造"
+      ],
+      "english": "Upgrade",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_14",
+      "category": "ui",
+      "japanese": [
+        "借金"
+      ],
+      "english": "Debt",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_15",
+      "category": "ui",
+      "japanese": [
+        "所持金"
+      ],
+      "english": "Funds",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_16",
+      "category": "ui",
+      "japanese": [
+        "好感度"
+      ],
+      "english": "Affinity",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_17",
+      "category": "ui",
+      "japanese": [
+        "スキップ"
+      ],
+      "english": "Skip",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_18",
+      "category": "ui",
+      "japanese": [
+        "オート"
+      ],
+      "english": "Auto",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    },
+    {
+      "id": "ui_19",
+      "category": "ui",
+      "japanese": [
+        "バックログ"
+      ],
+      "english": "Backlog",
+      "status": "proposed_not_observed",
+      "game_source_observed": false,
+      "sources": [],
+      "notes": "Translation convention only. No plaintext game UI string or screenshot verified; confirm context before use."
+    }
+  ],
+  "uncertainties": [
+    "Title's English rendering is a project convention using Sunrise's singular Angel and Dragon; tr. game has no verified official English localization.",
+    "Official term page uses Dragon and Ryuu-Shin-Ki; DRAGON capitals are a project convention.",
+    "Do not count proposed UI terms or franchise glossary entries as translated source rows.",
+    "Game assets are decrypted and source occurrences checked. Raster text, active-screen reachability and layout remain unverified.",
+    "Game-specific item names may remain provisional or unresolved; consult equipment.json status before use."
+  ],
+  "changelog": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Added observed tutorial mode, weapon, meter and menu terms plus Rosenblum and Naomi's debt nickname.",
+        "Full-corpus occurrence checks and actual short aliases added; dedicated wiki spelling Howitzer and portal term Singularity replace initial choices."
+      ]
+    }
+  ],
+  "proposal_policy": "The 20 proposed_ui_terms are historical starter suggestions, excluded from authoritative lookup. Observed source-ID mappings take precedence."
+}

@@ -1,0 +1,2200 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1200,
+    "last_id": 1279,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      1190,
+      1289
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 73,
+    "translated_needs_review": 7
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 1200,
+      "key": "STR_TMG_COMMENT_ANG_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9620,
+      "label_offset": 71908,
+      "source_offset": 57076,
+      "source_bytes": 100,
+      "en": "I mean it. When I#nlived in the outside world,#nI never thought#nI might die#nthe very next day.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57076,
+          "source_bytes": 100,
+          "contains_japanese": true,
+          "en": "I mean it. When I#nlived in the outside world,#nI never thought#nI might die#nthe very next day."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1201,
+      "key": "STR_TMG_COMMENT_ANG_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9628,
+      "label_offset": 71944,
+      "source_offset": 57180,
+      "source_bytes": 90,
+      "en": "Well, we don't#nwant to die either.#nBut when it's your time,#nit's your time, right?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57180,
+          "source_bytes": 90,
+          "contains_japanese": true,
+          "en": "Well, we don't#nwant to die either.#nBut when it's your time,#nit's your time, right?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1202,
+      "key": "STR_TMG_COMMENT_ANG_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9636,
+      "label_offset": 71980,
+      "source_offset": 57272,
+      "source_bytes": 106,
+      "en": "I just don't#nsee it that#nway.#nI can't bring myself#nto think that dying#nis something we just have to accept.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57272,
+          "source_bytes": 106,
+          "contains_japanese": true,
+          "en": "I just don't#nsee it that#nway.#nI can't bring myself#nto think that dying#nis something we just have to accept."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1203,
+      "key": "STR_TMG_COMMENT_ANG_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9644,
+      "label_offset": 72016,
+      "source_offset": 57380,
+      "source_bytes": 56,
+      "en": "#b0(If Ange doesn't think#nshe's going to die either...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57380,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "#b0(If Ange doesn't think#nshe's going to die either...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1204,
+      "key": "STR_TMG_REACTION_ANG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9652,
+      "label_offset": 72052,
+      "source_offset": 57440,
+      "source_bytes": 10,
+      "en": "Do you think so?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57440,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Do you think so?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1205,
+      "key": "STR_TMG_REACTION_ANG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9660,
+      "label_offset": 72088,
+      "source_offset": 57452,
+      "source_bytes": 34,
+      "en": "I told you,#nI don't do anything.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57452,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "I told you,#nI don't do anything."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1206,
+      "key": "STR_TMG_REACTION_ANG_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9668,
+      "label_offset": 72124,
+      "source_offset": 57488,
+      "source_bytes": 6,
+      "en": "Huh?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57488,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Huh?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1207,
+      "key": "STR_TMG_REACTION_ANG_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9676,
+      "label_offset": 72160,
+      "source_offset": 57496,
+      "source_bytes": 30,
+      "en": "Now that you mention it,#nmaybe you're right.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57496,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Now that you mention it,#nmaybe you're right."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1208,
+      "key": "STR_TMG_REACTION_ANG_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9684,
+      "label_offset": 72196,
+      "source_offset": 57528,
+      "source_bytes": 32,
+      "en": "That's why you girls#nare hopeless.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57528,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "That's why you girls#nare hopeless."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1209,
+      "key": "STR_TMG_REACTION_ANG_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9692,
+      "label_offset": 72232,
+      "source_offset": 57564,
+      "source_bytes": 18,
+      "en": "What are you talking about?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57564,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "What are you talking about?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1210,
+      "key": "STR_TMG_REACTION_ANG_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9700,
+      "label_offset": 72268,
+      "source_offset": 57584,
+      "source_bytes": 14,
+      "en": "...Maybe you're right.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57584,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "...Maybe you're right."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1211,
+      "key": "STR_TMG_REACTION_ANG_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9708,
+      "label_offset": 72304,
+      "source_offset": 57600,
+      "source_bytes": 36,
+      "en": "Thinking like that#nis what gets you killed.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57600,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Thinking like that#nis what gets you killed."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1212,
+      "key": "STR_TMG_REACTION_ANG_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9716,
+      "label_offset": 72340,
+      "source_offset": 57640,
+      "source_bytes": 36,
+      "en": "Are you actually#nlistening to me?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57640,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Are you actually#nlistening to me?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1213,
+      "key": "STR_TMG_ANSWER_ANG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9724,
+      "label_offset": 72376,
+      "source_offset": 57680,
+      "source_bytes": 40,
+      "en": "You're so strong without doing anything. That's amazing.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57680,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "You're so strong without doing anything. That's amazing."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1214,
+      "key": "STR_TMG_ANSWER_ANG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9732,
+      "label_offset": 72412,
+      "source_offset": 57724,
+      "source_bytes": 36,
+      "en": "Training in secret? I can see Ange doing that.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57724,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Training in secret? I can see Ange doing that."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1215,
+      "key": "STR_TMG_ANSWER_ANG_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9740,
+      "label_offset": 72448,
+      "source_offset": 57764,
+      "source_bytes": 28,
+      "en": "I wonder how much Ange weighs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57764,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "I wonder how much Ange weighs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1216,
+      "key": "STR_TMG_ANSWER_ANG_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9748,
+      "label_offset": 72484,
+      "source_offset": 57796,
+      "source_bytes": 34,
+      "en": "I'd like to know how you keep your figure.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57796,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "I'd like to know how you keep your figure."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1217,
+      "key": "STR_TMG_ANSWER_ANG_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9756,
+      "label_offset": 72520,
+      "source_offset": 57832,
+      "source_bytes": 26,
+      "en": "Maybe it's because you're a former princess.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57832,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Maybe it's because you're a former princess."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1218,
+      "key": "STR_TMG_ANSWER_ANG_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9764,
+      "label_offset": 72556,
+      "source_offset": 57860,
+      "source_bytes": 36,
+      "en": "Your daily routine gives you all that training.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57860,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Your daily routine gives you all that training."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1219,
+      "key": "STR_TMG_ANSWER_ANG_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9772,
+      "label_offset": 72592,
+      "source_offset": 57900,
+      "source_bytes": 32,
+      "en": "Why exercise when you could play games, right?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57900,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Why exercise when you could play games, right?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1220,
+      "key": "STR_TMG_ANSWER_ANG_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9780,
+      "label_offset": 72628,
+      "source_offset": 57936,
+      "source_bytes": 36,
+      "en": "Want to go fishing together in our free time sometime?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57936,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Want to go fishing together in our free time sometime?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1221,
+      "key": "STR_TMG_ANSWER_ANG_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9788,
+      "label_offset": 72664,
+      "source_offset": 57976,
+      "source_bytes": 30,
+      "en": "You're lucky you don't have any debt, Ange.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 57976,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You're lucky you don't have any debt, Ange."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1222,
+      "key": "STR_TMG_ANSWER_ANG_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9796,
+      "label_offset": 72700,
+      "source_offset": 58008,
+      "source_bytes": 30,
+      "en": "If you've got time to spare, you should get a part-time job.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58008,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "If you've got time to spare, you should get a part-time job."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1223,
+      "key": "STR_TMG_ANSWER_ANG_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9804,
+      "label_offset": 72736,
+      "source_offset": 58040,
+      "source_bytes": 34,
+      "en": "We can survive if we all work together.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58040,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "We can survive if we all work together."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1224,
+      "key": "STR_TMG_ANSWER_ANG_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9812,
+      "label_offset": 72772,
+      "source_offset": 58076,
+      "source_bytes": 36,
+      "en": "Yeah, everyone's going to die in the end...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58076,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Yeah, everyone's going to die in the end..."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1225,
+      "key": "STR_TMG_ANSWER_ANG_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9820,
+      "label_offset": 72808,
+      "source_offset": 58116,
+      "source_bytes": 42,
+      "en": "You can't fight on an empty stomach, right?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58116,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "You can't fight on an empty stomach, right?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1226,
+      "key": "STR_TMG_ANSWER_ANG_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9828,
+      "label_offset": 72844,
+      "source_offset": 58160,
+      "source_bytes": 36,
+      "en": "I've never thought about anything that complicated.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58160,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "I've never thought about anything that complicated."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1227,
+      "key": "STR_TMG_ANSWER_ANG_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9836,
+      "label_offset": 72880,
+      "source_offset": 58200,
+      "source_bytes": 38,
+      "en": "By the way, how much does a grave cost?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58200,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "By the way, how much does a grave cost?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1228,
+      "key": "STR_TMG_COMMENT_SLI_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9844,
+      "label_offset": 72916,
+      "source_offset": 58240,
+      "source_bytes": 84,
+      "en": "Whether it's planning#noperations or commanding#nin the field, you're, well...#nall theory and no practice.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58240,
+          "source_bytes": 84,
+          "contains_japanese": true,
+          "en": "Whether it's planning#noperations or commanding#nin the field, you're, well...#nall theory and no practice."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1229,
+      "key": "STR_TMG_COMMENT_SLI_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9852,
+      "label_offset": 72952,
+      "source_offset": 58328,
+      "source_bytes": 30,
+      "en": "You're kind of#nunreliable, I guess.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58328,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "You're kind of#nunreliable, I guess."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1230,
+      "key": "STR_TMG_COMMENT_SLI_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9860,
+      "label_offset": 72988,
+      "source_offset": 58360,
+      "source_bytes": 78,
+      "en": "You're being so vague,#nI can't quite#nunderstand what#nyou're getting at...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58360,
+          "source_bytes": 78,
+          "contains_japanese": true,
+          "en": "You're being so vague,#nI can't quite#nunderstand what#nyou're getting at..."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1231,
+      "key": "STR_TMG_COMMENT_SLI_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9868,
+      "label_offset": 73024,
+      "source_offset": 58440,
+      "source_bytes": 26,
+      "en": "Hilda,#nyou tell her.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58440,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Hilda,#nyou tell her."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1232,
+      "key": "STR_TMG_COMMENT_SLI_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9876,
+      "label_offset": 73060,
+      "source_offset": 58468,
+      "source_bytes": 60,
+      "en": "We're asking whether#nyou're really#nfit to be captain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58468,
+          "source_bytes": 60,
+          "contains_japanese": true,
+          "en": "We're asking whether#nyou're really#nfit to be captain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1233,
+      "key": "STR_TMG_COMMENT_SLI_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9884,
+      "label_offset": 73096,
+      "source_offset": 58532,
+      "source_bytes": 62,
+      "en": "#b0(Salia works really#nhard as captain...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58532,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "#b0(Salia works really#nhard as captain...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1234,
+      "key": "STR_TMG_COMMENT_SLI_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9892,
+      "label_offset": 73132,
+      "source_offset": 58596,
+      "source_bytes": 50,
+      "en": "What are you#njudging my#nsuitability by?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58596,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "What are you#njudging my#nsuitability by?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1235,
+      "key": "STR_TMG_COMMENT_SLI_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9900,
+      "label_offset": 73168,
+      "source_offset": 58648,
+      "source_bytes": 64,
+      "en": "To put it bluntly, we#nhaven't been making much#nmoney since Salia became captain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58648,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "To put it bluntly, we#nhaven't been making much#nmoney since Salia became captain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1236,
+      "key": "STR_TMG_COMMENT_SLI_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9908,
+      "label_offset": 73204,
+      "source_offset": 58716,
+      "source_bytes": 58,
+      "en": "This never happened#nwhen our dear Zola#nwas captain, did it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58716,
+          "source_bytes": 58,
+          "contains_japanese": true,
+          "en": "This never happened#nwhen our dear Zola#nwas captain, did it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1237,
+      "key": "STR_TMG_COMMENT_SLI_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9916,
+      "label_offset": 73240,
+      "source_offset": 58776,
+      "source_bytes": 18,
+      "en": "Gee, whose fault could that be?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58776,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Gee, whose fault could that be?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1238,
+      "key": "STR_TMG_COMMENT_SLI_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9924,
+      "label_offset": 73276,
+      "source_offset": 58796,
+      "source_bytes": 76,
+      "en": "You seem to be saying#nwe'd make more#nmoney if someone#nelse were captain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58796,
+          "source_bytes": 76,
+          "contains_japanese": true,
+          "en": "You seem to be saying#nwe'd make more#nmoney if someone#nelse were captain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1239,
+      "key": "STR_TMG_COMMENT_SLI_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9932,
+      "label_offset": 73312,
+      "source_offset": 58876,
+      "source_bytes": 88,
+      "en": "#b0(Hilda seems to want to blame someone#nfor how little we've been making lately...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58876,
+          "source_bytes": 88,
+          "contains_japanese": true,
+          "en": "#b0(Hilda seems to want to blame someone#nfor how little we've been making lately...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1240,
+      "key": "STR_TMG_COMMENT_SLI_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9940,
+      "label_offset": 73348,
+      "source_offset": 58968,
+      "source_bytes": 64,
+      "en": "Jill made that decision.#nIf you have a complaint,#ntake it up with her.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 58968,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "Jill made that decision.#nIf you have a complaint,#ntake it up with her."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1241,
+      "key": "STR_TMG_COMMENT_SLI_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9948,
+      "label_offset": 73384,
+      "source_offset": 59036,
+      "source_bytes": 52,
+      "en": "We're telling you#nbecause we can't#ntell her, Salia!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59036,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "We're telling you#nbecause we can't#ntell her, Salia!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1242,
+      "key": "STR_TMG_COMMENT_SLI_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9956,
+      "label_offset": 73420,
+      "source_offset": 59092,
+      "source_bytes": 92,
+      "en": "Either way,#nsomeone has#nto be captain.#nYou do#nunderstand that, right?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59092,
+          "source_bytes": 92,
+          "contains_japanese": true,
+          "en": "Either way,#nsomeone has#nto be captain.#nYou do#nunderstand that, right?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1243,
+      "key": "STR_TMG_COMMENT_SLI_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9964,
+      "label_offset": 73456,
+      "source_offset": 59188,
+      "source_bytes": 50,
+      "en": "Or would you#nlike to try being#ncaptain, Chris?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59188,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Or would you#nlike to try being#ncaptain, Chris?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1244,
+      "key": "STR_TMG_COMMENT_SLI_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9972,
+      "label_offset": 73492,
+      "source_offset": 59240,
+      "source_bytes": 56,
+      "en": "N-no, I'm fine.#nThere's no way#nI could be captain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59240,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "N-no, I'm fine.#nThere's no way#nI could be captain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1245,
+      "key": "STR_TMG_COMMENT_SLI_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9980,
+      "label_offset": 73528,
+      "source_offset": 59300,
+      "source_bytes": 76,
+      "en": "#b0(It's about who's best suited#nto lead the First Squadron...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59300,
+          "source_bytes": 76,
+          "contains_japanese": true,
+          "en": "#b0(It's about who's best suited#nto lead the First Squadron...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1246,
+      "key": "STR_TMG_REACTION_SLI_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9988,
+      "label_offset": 73564,
+      "source_offset": 59380,
+      "source_bytes": 34,
+      "en": "Someone else seems#nto have this opinion.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59380,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Someone else seems#nto have this opinion."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1247,
+      "key": "STR_TMG_REACTION_SLI_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 9996,
+      "label_offset": 73600,
+      "source_offset": 59416,
+      "source_bytes": 48,
+      "en": "I see.#nI'll take it#nunder advisement.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59416,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "I see.#nI'll take it#nunder advisement."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1248,
+      "key": "STR_TMG_REACTION_SLI_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10004,
+      "label_offset": 73636,
+      "source_offset": 59468,
+      "source_bytes": 34,
+      "en": "That isn't what#nwe're talking about.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59468,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "That isn't what#nwe're talking about."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1249,
+      "key": "STR_TMG_REACTION_SLI_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10012,
+      "label_offset": 73672,
+      "source_offset": 59504,
+      "source_bytes": 14,
+      "en": "I agree, Naomi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59504,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "I agree, Naomi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1250,
+      "key": "STR_TMG_REACTION_SLI_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10020,
+      "label_offset": 73708,
+      "source_offset": 59520,
+      "source_bytes": 30,
+      "en": "So that's what#nyou thought...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59520,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "So that's what#nyou thought..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1251,
+      "key": "STR_TMG_REACTION_SLI_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10028,
+      "label_offset": 73744,
+      "source_offset": 59552,
+      "source_bytes": 18,
+      "en": "Huh?#nWhat are you talking about?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59552,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Huh?#nWhat are you talking about?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1252,
+      "key": "STR_TMG_REACTION_SLI_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10036,
+      "label_offset": 73780,
+      "source_offset": 59572,
+      "source_bytes": 18,
+      "en": "Thank you, Naomi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59572,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Thank you, Naomi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1253,
+      "key": "STR_TMG_REACTION_SLI_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10044,
+      "label_offset": 73816,
+      "source_offset": 59592,
+      "source_bytes": 56,
+      "en": "You can insult me,#nbut I won't let#nyou insult Jill.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59592,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "You can insult me,#nbut I won't let#nyou insult Jill."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1254,
+      "key": "STR_TMG_REACTION_SLI_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10052,
+      "label_offset": 73852,
+      "source_offset": 59652,
+      "source_bytes": 28,
+      "en": "Are you actually#nlistening?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59652,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Are you actually#nlistening?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1255,
+      "key": "STR_TMG_ANSWER_SLI_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10060,
+      "label_offset": 73888,
+      "source_offset": 59684,
+      "source_bytes": 32,
+      "en": "I think Salia is right for the job.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59684,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "I think Salia is right for the job."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1256,
+      "key": "STR_TMG_ANSWER_SLI_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10068,
+      "label_offset": 73924,
+      "source_offset": 59720,
+      "source_bytes": 34,
+      "en": "Hmm... You might be a little unreliable.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59720,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Hmm... You might be a little unreliable."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1257,
+      "key": "STR_TMG_ANSWER_SLI_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10076,
+      "label_offset": 73960,
+      "source_offset": 59756,
+      "source_bytes": 26,
+      "en": "I'll follow orders whoever the captain is.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59756,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "I'll follow orders whoever the captain is."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1258,
+      "key": "STR_TMG_ANSWER_SLI_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10084,
+      "label_offset": 73996,
+      "source_offset": 59784,
+      "source_bytes": 26,
+      "en": "I don't really have an opinion.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59784,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "I don't really have an opinion."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1259,
+      "key": "STR_TMG_ANSWER_SLI_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10092,
+      "label_offset": 74032,
+      "source_offset": 59812,
+      "source_bytes": 22,
+      "en": "Ahh, I'm hungry...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59812,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Ahh, I'm hungry..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1260,
+      "key": "STR_TMG_ANSWER_SLI_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10100,
+      "label_offset": 74068,
+      "source_offset": 59836,
+      "source_bytes": 18,
+      "en": "It isn't anyone's fault.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59836,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "It isn't anyone's fault."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1261,
+      "key": "STR_TMG_ANSWER_SLI_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10108,
+      "label_offset": 74104,
+      "source_offset": 59856,
+      "source_bytes": 34,
+      "en": "We'd probably make more money with Ange as captain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59856,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "We'd probably make more money with Ange as captain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1262,
+      "key": "STR_TMG_ANSWER_SLI_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10116,
+      "label_offset": 74140,
+      "source_offset": 59892,
+      "source_bytes": 30,
+      "en": "I'd like to upgrade our Para-mails' weapons.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59892,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "I'd like to upgrade our Para-mails' weapons."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1263,
+      "key": "STR_TMG_ANSWER_SLI_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10124,
+      "label_offset": 74176,
+      "source_offset": 59924,
+      "source_bytes": 30,
+      "en": "I wish everyone else had debts to pay, too.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59924,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "I wish everyone else had debts to pay, too."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1264,
+      "key": "STR_TMG_ANSWER_SLI_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10132,
+      "label_offset": 74212,
+      "source_offset": 59956,
+      "source_bytes": 32,
+      "en": "More importantly, I'm hungry.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59956,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "More importantly, I'm hungry."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1265,
+      "key": "STR_TMG_ANSWER_SLI_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10140,
+      "label_offset": 74248,
+      "source_offset": 59992,
+      "source_bytes": 32,
+      "en": "Salia really is the only one for the job.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 59992,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Salia really is the only one for the job."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1266,
+      "key": "STR_TMG_ANSWER_SLI_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10148,
+      "label_offset": 74284,
+      "source_offset": 60028,
+      "source_bytes": 30,
+      "en": "Commander Jill isn't a very good judge of character either.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60028,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Commander Jill isn't a very good judge of character either."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1267,
+      "key": "STR_TMG_ANSWER_SLI_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10156,
+      "label_offset": 74320,
+      "source_offset": 60060,
+      "source_bytes": 28,
+      "en": "Why don't we let Vivian try?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60060,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Why don't we let Vivian try?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1268,
+      "key": "STR_TMG_ANSWER_SLI_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10164,
+      "label_offset": 74356,
+      "source_offset": 60092,
+      "source_bytes": 36,
+      "en": "How about letting me try being captain?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60092,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "How about letting me try being captain?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1269,
+      "key": "STR_TMG_ANSWER_SLI_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10172,
+      "label_offset": 74392,
+      "source_offset": 60132,
+      "source_bytes": 36,
+      "en": "What's for dinner today? Curry, maybe?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60132,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "What's for dinner today? Curry, maybe?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1270,
+      "key": "STR_TMG_COMMENT_HIL_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10180,
+      "label_offset": 74428,
+      "source_offset": 60172,
+      "source_bytes": 72,
+      "en": "Huh? I handed mine#nin ages ago.#nWhy haven't#nyou submitted yours yet?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60172,
+          "source_bytes": 72,
+          "contains_japanese": true,
+          "en": "Huh? I handed mine#nin ages ago.#nWhy haven't#nyou submitted yours yet?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1271,
+      "key": "STR_TMG_COMMENT_HIL_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10188,
+      "label_offset": 74464,
+      "source_offset": 60248,
+      "source_bytes": 56,
+      "en": "No matter how many times#nI check, it doesn't add up.#nThat's weird.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60248,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "No matter how many times#nI check, it doesn't add up.#nThat's weird."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1272,
+      "key": "STR_TMG_COMMENT_HIL_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10196,
+      "label_offset": 74500,
+      "source_offset": 60308,
+      "source_bytes": 64,
+      "en": "I heard you get nothing#nif your calculations#nare wrong. Is that true?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60308,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "I heard you get nothing#nif your calculations#nare wrong. Is that true?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1273,
+      "key": "STR_TMG_COMMENT_HIL_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10204,
+      "label_offset": 74536,
+      "source_offset": 60376,
+      "source_bytes": 86,
+      "en": "Some people deliberately#nrequest more than they need.#nIf it's just a mistake,#nyou only get a warning.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60376,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "Some people deliberately#nrequest more than they need.#nIf it's just a mistake,#nyou only get a warning."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1274,
+      "key": "STR_TMG_COMMENT_HIL_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10212,
+      "label_offset": 74572,
+      "source_offset": 60464,
+      "source_bytes": 76,
+      "en": "I'm not planning#nanything that cheap.#nBut getting nothing#nwould be a problem.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60464,
+          "source_bytes": 76,
+          "contains_japanese": true,
+          "en": "I'm not planning#nanything that cheap.#nBut getting nothing#nwould be a problem."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1275,
+      "key": "STR_TMG_COMMENT_HIL_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10220,
+      "label_offset": 74608,
+      "source_offset": 60544,
+      "source_bytes": 50,
+      "en": "#b0(Hilda seems to be trying to get the calculations right.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60544,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "#b0(Hilda seems to be trying to get the calculations right.)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1276,
+      "key": "STR_TMG_COMMENT_HIL_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10228,
+      "label_offset": 74644,
+      "source_offset": 60596,
+      "source_bytes": 88,
+      "en": "How does#nVivian do this?#nIs she even#nsubmitting#nher requisitions properly?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60596,
+          "source_bytes": 88,
+          "contains_japanese": true,
+          "en": "How does#nVivian do this?#nIs she even#nsubmitting#nher requisitions properly?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1277,
+      "key": "STR_TMG_COMMENT_HIL_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10236,
+      "label_offset": 74680,
+      "source_offset": 60688,
+      "source_bytes": 34,
+      "en": "She seems to have#nsomeone write them for her.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60688,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "She seems to have#nsomeone write them for her."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1278,
+      "key": "STR_TMG_COMMENT_HIL_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10244,
+      "label_offset": 74716,
+      "source_offset": 60724,
+      "source_bytes": 98,
+      "en": "Paying someone to write#na supply requisition#ndefeats the whole point.#n...Huh? Does this#npart add up?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60724,
+          "source_bytes": 98,
+          "contains_japanese": true,
+          "en": "Paying someone to write#na supply requisition#ndefeats the whole point.#n...Huh? Does this#npart add up?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1279,
+      "key": "STR_TMG_COMMENT_HIL_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10252,
+      "label_offset": 74752,
+      "source_offset": 60824,
+      "source_bytes": 72,
+      "en": "This is getting irritating.#nShall I do#nit for you?#nI won't charge you.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 60824,
+          "source_bytes": 72,
+          "contains_japanese": true,
+          "en": "This is getting irritating.#nShall I do#nit for you?#nI won't charge you."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,2065 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "slice": {
+    "first_id": 0,
+    "last_id": 79,
+    "rows_assigned": 80,
+    "rows_examined": 90,
+    "context_ids": [
+      80,
+      89
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/terms.json",
+    "work/glossary/observed-terms.json"
+  ],
+  "status_counts": {
+    "unchanged_nonlinguistic": 6,
+    "unchanged_engine_format": 2,
+    "translated_draft": 60,
+    "unchanged_existing_english": 11,
+    "translated_needs_layout_review": 1
+  },
+  "japanese_source_rows": 61,
+  "entries": [
+    {
+      "id": 0,
+      "key": "ROOT",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 20,
+      "source_offset": null,
+      "source_bytes": null,
+      "label_offset": 28708,
+      "en": null,
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 1,
+      "key": "FMT_NONE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 28,
+      "source_offset": 14356,
+      "source_bytes": 4,
+      "label_offset": 28744,
+      "en": "#=",
+      "context": "Engine format-control table row.",
+      "decisions": "Both pointer fields and literal controls are preserved exactly; no linguistic content.",
+      "status": "unchanged_engine_format",
+      "control_codes": [
+        "#="
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14356,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "#="
+        },
+        {
+          "column": 1,
+          "source_offset": 14364,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "#="
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "key": "FMT_EDGE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 36,
+      "source_offset": 14372,
+      "source_bytes": 4,
+      "label_offset": 28780,
+      "en": "#e",
+      "context": "Engine format-control table row.",
+      "decisions": "Both pointer fields and literal controls are preserved exactly; no linguistic content.",
+      "status": "unchanged_engine_format",
+      "control_codes": [
+        "#e"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14372,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "#e"
+        },
+        {
+          "column": 1,
+          "source_offset": 14380,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "#e"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "key": "STR_YES",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 44,
+      "source_offset": 14388,
+      "source_bytes": 4,
+      "label_offset": 28816,
+      "en": "Yes",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14388,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Yes"
+        },
+        null
+      ]
+    },
+    {
+      "id": 4,
+      "key": "STR_NO",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 52,
+      "source_offset": 14396,
+      "source_bytes": 6,
+      "label_offset": 28852,
+      "en": "No",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14396,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "No"
+        },
+        null
+      ]
+    },
+    {
+      "id": 5,
+      "key": "STR_GAME_TITLE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 60,
+      "source_offset": 14404,
+      "source_bytes": 24,
+      "label_offset": 28888,
+      "en": "#eCROSS ANGE",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [
+        "#e"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14404,
+          "source_bytes": 24,
+          "contains_japanese": false,
+          "en": "#eCROSS ANGE"
+        },
+        null
+      ]
+    },
+    {
+      "id": 6,
+      "key": "STR_TITLE_DEBUG_MENU_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 68,
+      "source_offset": 14432,
+      "source_bytes": 10,
+      "label_offset": 28924,
+      "en": "STORY",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14432,
+          "source_bytes": 10,
+          "contains_japanese": false,
+          "en": "STORY"
+        },
+        null
+      ]
+    },
+    {
+      "id": 7,
+      "key": "STR_TITLE_DEBUG_MENU_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 76,
+      "source_offset": 14444,
+      "source_bytes": 12,
+      "label_offset": 28960,
+      "en": "BATTLE",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14444,
+          "source_bytes": 12,
+          "contains_japanese": false,
+          "en": "BATTLE"
+        },
+        null
+      ]
+    },
+    {
+      "id": 8,
+      "key": "STR_TITLE_DEBUG_MENU_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 84,
+      "source_offset": 14460,
+      "source_bytes": 18,
+      "label_offset": 28996,
+      "en": "LOAD GAME",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14460,
+          "source_bytes": 18,
+          "contains_japanese": false,
+          "en": "LOAD GAME"
+        },
+        null
+      ]
+    },
+    {
+      "id": 9,
+      "key": "STR_TITLE_MENU_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 92,
+      "source_offset": 14480,
+      "source_bytes": 16,
+      "label_offset": 29032,
+      "en": "NEW GAME",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14480,
+          "source_bytes": 16,
+          "contains_japanese": false,
+          "en": "NEW GAME"
+        },
+        null
+      ]
+    },
+    {
+      "id": 10,
+      "key": "STR_TITLE_MENU_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 100,
+      "source_offset": 14500,
+      "source_bytes": 18,
+      "label_offset": 29068,
+      "en": "LOAD GAME",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14500,
+          "source_bytes": 18,
+          "contains_japanese": false,
+          "en": "LOAD GAME"
+        },
+        null
+      ]
+    },
+    {
+      "id": 11,
+      "key": "STR_DIFFICULT_SELECT",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 108,
+      "source_offset": 14520,
+      "source_bytes": 10,
+      "label_offset": 29104,
+      "en": "Select Difficulty",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14520,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Select Difficulty"
+        },
+        null
+      ]
+    },
+    {
+      "id": 12,
+      "key": "STR_DIFFICULT_EASY",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 116,
+      "source_offset": 14532,
+      "source_bytes": 8,
+      "label_offset": 29140,
+      "en": "EASY",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14532,
+          "source_bytes": 8,
+          "contains_japanese": false,
+          "en": "EASY"
+        },
+        null
+      ]
+    },
+    {
+      "id": 13,
+      "key": "STR_DIFFICULT_NORMAL",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 124,
+      "source_offset": 14544,
+      "source_bytes": 12,
+      "label_offset": 29176,
+      "en": "NORMAL",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14544,
+          "source_bytes": 12,
+          "contains_japanese": false,
+          "en": "NORMAL"
+        },
+        null
+      ]
+    },
+    {
+      "id": 14,
+      "key": "STR_DIFFICULT_HARD",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 132,
+      "source_offset": 14560,
+      "source_bytes": 8,
+      "label_offset": 29212,
+      "en": "HARD",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14560,
+          "source_bytes": 8,
+          "contains_japanese": false,
+          "en": "HARD"
+        },
+        null
+      ]
+    },
+    {
+      "id": 15,
+      "key": "STR_EVB_TOP",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 140,
+      "source_offset": 14572,
+      "source_bytes": 26,
+      "label_offset": 29248,
+      "en": "■　Event Preview　■",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14572,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "■　Event Preview　■"
+        },
+        null
+      ]
+    },
+    {
+      "id": 16,
+      "key": "STR_BILL_TEXT",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 148,
+      "source_offset": 14600,
+      "source_bytes": 6,
+      "label_offset": 29284,
+      "en": "Invoice",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14600,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Invoice"
+        },
+        null
+      ]
+    },
+    {
+      "id": 17,
+      "key": "STR_BTL_RETRY_DIALOG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 156,
+      "source_offset": 14608,
+      "source_bytes": 18,
+      "label_offset": 29320,
+      "en": "Retry?",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14608,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Retry?"
+        },
+        null
+      ]
+    },
+    {
+      "id": 18,
+      "key": "STR_ADV_ITEMGET_DIALOG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 164,
+      "source_offset": 14628,
+      "source_bytes": 16,
+      "label_offset": 29356,
+      "en": " acquired.",
+      "context": "Runtime item-name acquisition suffix, appended after an item name.",
+      "decisions": "Retained item + suffix direction with a leading space: item acquired. Requires insertion/layout review; do not prepend You obtained without changing the consumer.",
+      "status": "translated_needs_layout_review",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14628,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": " acquired."
+        },
+        null
+      ],
+      "review_flags": [
+        "runtime_concatenation_review"
+      ]
+    },
+    {
+      "id": 19,
+      "key": "STR_OK",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 172,
+      "source_offset": 14648,
+      "source_bytes": 4,
+      "label_offset": 29392,
+      "en": "ＯＫ",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14648,
+          "source_bytes": 4,
+          "contains_japanese": false,
+          "en": "ＯＫ"
+        },
+        null
+      ]
+    },
+    {
+      "id": 20,
+      "key": "STR_GALLERY_UNLOCK",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 180,
+      "source_offset": 14656,
+      "source_bytes": 8,
+      "label_offset": 29428,
+      "en": "？？？？",
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14656,
+          "source_bytes": 8,
+          "contains_japanese": false,
+          "en": "？？？？"
+        },
+        null
+      ]
+    },
+    {
+      "id": 21,
+      "key": "STR_GALLERY_SEP",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 188,
+      "source_offset": 14668,
+      "source_bytes": 2,
+      "label_offset": 29464,
+      "en": "・",
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14668,
+          "source_bytes": 2,
+          "contains_japanese": false,
+          "en": "・"
+        },
+        null
+      ]
+    },
+    {
+      "id": 22,
+      "key": "STR_GALLERY_SOUND_MARKER",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 196,
+      "source_offset": 14672,
+      "source_bytes": 2,
+      "label_offset": 29500,
+      "en": "♪",
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14672,
+          "source_bytes": 2,
+          "contains_japanese": false,
+          "en": "♪"
+        },
+        null
+      ]
+    },
+    {
+      "id": 23,
+      "key": "STR_SYSTEM_NEXT",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 204,
+      "source_offset": 14676,
+      "source_bytes": 16,
+      "label_offset": 29536,
+      "en": "Continue?",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14676,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Continue?"
+        },
+        null
+      ]
+    },
+    {
+      "id": 24,
+      "key": "STR_SYSTEM_TITLE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 212,
+      "source_offset": 14696,
+      "source_bytes": 22,
+      "label_offset": 29572,
+      "en": "Return to the title screen?",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14696,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Return to the title screen?"
+        },
+        null
+      ]
+    },
+    {
+      "id": 25,
+      "key": "STR_SAVE_DIALOG_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 220,
+      "source_offset": 14720,
+      "source_bytes": 16,
+      "label_offset": 29608,
+      "en": "Save?",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14720,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Save?"
+        },
+        null
+      ]
+    },
+    {
+      "id": 26,
+      "key": "STR_SAVE_DIALOG_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 228,
+      "source_offset": 14740,
+      "source_bytes": 116,
+      "label_offset": 29644,
+      "en": "Save clear data?#n　#nLoading clear data lets you#nstart a new game while carrying over#nsome of your previous data.",
+      "context": "Clear-data save confirmation and explanation of carryover.",
+      "decisions": "Preserved every #n and the full-width blank-line space; retained the full carryover meaning without a byte budget.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14740,
+          "source_bytes": 116,
+          "contains_japanese": true,
+          "en": "Save clear data?#n　#nLoading clear data lets you#nstart a new game while carrying over#nsome of your previous data."
+        },
+        null
+      ]
+    },
+    {
+      "id": 27,
+      "key": "STR_SAVE_TITLE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 236,
+      "source_offset": 14860,
+      "source_bytes": 36,
+      "label_offset": 29680,
+      "en": "CROSS ANGE Rondo of Angel and Dragon tr.",
+      "context": "Save-data game title.",
+      "decisions": "Used the glossary title with singular Angel and Dragon.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14860,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "CROSS ANGE Rondo of Angel and Dragon tr."
+        },
+        null
+      ]
+    },
+    {
+      "id": 28,
+      "key": "STR_SAVE_SUB_TITLE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 244,
+      "source_offset": 14900,
+      "source_bytes": 16,
+      "label_offset": 29716,
+      "en": "A New Posting, and Then—",
+      "context": "Chapter title, deliberately trailing off.",
+      "decisions": "Retained the unfinished title and dash; no implied ending was added.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14900,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "A New Posting, and Then—"
+        },
+        null
+      ]
+    },
+    {
+      "id": 29,
+      "key": "STR_SAVE_SUB_TITLE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 252,
+      "source_offset": 14920,
+      "source_bytes": 24,
+      "label_offset": 29752,
+      "en": "Welcome to the First Squadron of Death",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14920,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Welcome to the First Squadron of Death"
+        },
+        null
+      ]
+    },
+    {
+      "id": 30,
+      "key": "STR_SAVE_SUB_TITLE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 260,
+      "source_offset": 14948,
+      "source_bytes": 16,
+      "label_offset": 29788,
+      "en": "Why I Fight",
+      "context": "First-person chapter-title fragment.",
+      "decisions": "Retained first-person I; narrative title fragments are intentional.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14948,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Why I Fight"
+        },
+        null
+      ]
+    },
+    {
+      "id": 31,
+      "key": "STR_SAVE_SUB_TITLE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 268,
+      "source_offset": 14968,
+      "source_bytes": 10,
+      "label_offset": 29824,
+      "en": "A Cheerful Meal",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14968,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "A Cheerful Meal"
+        },
+        null
+      ]
+    },
+    {
+      "id": 32,
+      "key": "STR_SAVE_SUB_TITLE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 276,
+      "source_offset": 14980,
+      "source_bytes": 20,
+      "label_offset": 29860,
+      "en": "The First Squadron on the Brink of Annihilation!",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 14980,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "The First Squadron on the Brink of Annihilation!"
+        },
+        null
+      ]
+    },
+    {
+      "id": 33,
+      "key": "STR_SAVE_SUB_TITLE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 284,
+      "source_offset": 15004,
+      "source_bytes": 16,
+      "label_offset": 29896,
+      "en": "To Protect Smiles",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15004,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "To Protect Smiles"
+        },
+        null
+      ]
+    },
+    {
+      "id": 34,
+      "key": "STR_SAVE_SUB_TITLE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 292,
+      "source_offset": 15024,
+      "source_bytes": 18,
+      "label_offset": 29932,
+      "en": "Infiltration! The Empire of Misurugi",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15024,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Infiltration! The Empire of Misurugi"
+        },
+        null
+      ]
+    },
+    {
+      "id": 35,
+      "key": "STR_SAVE_SUB_TITLE_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 300,
+      "source_offset": 15044,
+      "source_bytes": 16,
+      "label_offset": 29968,
+      "en": "A Place for Each of Us",
+      "context": "Chapter title about individual places to belong.",
+      "decisions": "Used A Place for Each of Us; collective viewpoint is a title-level reading, not a dialogue pronoun claim.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15044,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "A Place for Each of Us"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 36,
+      "key": "STR_SAVE_SUB_TITLE_08A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 308,
+      "source_offset": 15064,
+      "source_bytes": 16,
+      "label_offset": 30004,
+      "en": "Those Who Know the Truth",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15064,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Those Who Know the Truth"
+        },
+        null
+      ]
+    },
+    {
+      "id": 37,
+      "key": "STR_SAVE_SUB_TITLE_08B",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 316,
+      "source_offset": 15084,
+      "source_bytes": 12,
+      "label_offset": 30040,
+      "en": "Rebels Beneath the Sea",
+      "context": "Undersea rebel chapter title.",
+      "decisions": "Plural Rebels follows the likely group title reading; singular/plural referent remains a meaning-review uncertainty without the chapter scene.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15084,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Rebels Beneath the Sea"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 38,
+      "key": "STR_SAVE_SUB_TITLE_08C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 324,
+      "source_offset": 15100,
+      "source_bytes": 12,
+      "label_offset": 30076,
+      "en": "The World's Restorer",
+      "context": "Chapter title naming a world-restoring figure.",
+      "decisions": "Used singular Restorer; check against chapter referent during meaning review.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15100,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "The World's Restorer"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 39,
+      "key": "STR_SAVE_SUB_TITLE_09A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 332,
+      "source_offset": 15116,
+      "source_bytes": 16,
+      "label_offset": 30112,
+      "en": "Joining Forces, Standing Together",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15116,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Joining Forces, Standing Together"
+        },
+        null
+      ]
+    },
+    {
+      "id": 40,
+      "key": "STR_SAVE_SUB_TITLE_09C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 340,
+      "source_offset": 15136,
+      "source_bytes": 14,
+      "label_offset": 30148,
+      "en": "Where Possibilities Converge",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15136,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Where Possibilities Converge"
+        },
+        null
+      ]
+    },
+    {
+      "id": 41,
+      "key": "STR_SAVE_SUB_TITLE_10A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 348,
+      "source_offset": 15152,
+      "source_bytes": 16,
+      "label_offset": 30184,
+      "en": "To the Other Side of the World",
+      "context": "Chapter title; intentional title fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15152,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "To the Other Side of the World"
+        },
+        null
+      ]
+    },
+    {
+      "id": 42,
+      "key": "STR_SAVE_SUB_TITLE_10C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 356,
+      "source_offset": 15172,
+      "source_bytes": 22,
+      "label_offset": 30220,
+      "en": "Trill—An Ever-Swaying Melody",
+      "context": "Chapter title invoking a trill and an ongoing wavering melody.",
+      "decisions": "Rendered the opening word as the musical term Trill rather than introducing an unverified character name.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15172,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Trill—An Ever-Swaying Melody"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 43,
+      "key": "STR_SAVE_CHAPTER_END",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 364,
+      "source_offset": 15196,
+      "source_bytes": 8,
+      "label_offset": 30256,
+      "en": "　END",
+      "context": "Existing English UI label.",
+      "decisions": "Preserved the existing English string exactly, including full-width letters or whitespace and controls.",
+      "status": "unchanged_existing_english",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15196,
+          "source_bytes": 8,
+          "contains_japanese": false,
+          "en": "　END"
+        },
+        null
+      ]
+    },
+    {
+      "id": 44,
+      "key": "STR_SAVE_GAME_CLEAR",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 372,
+      "source_offset": 15208,
+      "source_bytes": 2,
+      "label_offset": 30292,
+      "en": "★",
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15208,
+          "source_bytes": 2,
+          "contains_japanese": false,
+          "en": "★"
+        },
+        null
+      ]
+    },
+    {
+      "id": 45,
+      "key": "STR_SAVE_DETAIL_TIME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 380,
+      "source_offset": 15212,
+      "source_bytes": 10,
+      "label_offset": 30328,
+      "en": "Play Time",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15212,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Play Time"
+        },
+        null
+      ]
+    },
+    {
+      "id": 46,
+      "key": "STR_SAVE_DETAIL_TIME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 388,
+      "source_offset": 15224,
+      "source_bytes": 2,
+      "label_offset": 30364,
+      "en": "：",
+      "context": "Empty root row or nonlinguistic display marker.",
+      "decisions": "Preserved null fields and symbols exactly.",
+      "status": "unchanged_nonlinguistic",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15224,
+          "source_bytes": 2,
+          "contains_japanese": false,
+          "en": "："
+        },
+        null
+      ]
+    },
+    {
+      "id": 47,
+      "key": "STR_SAVE_DETAIL_MONEY",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 396,
+      "source_offset": 15228,
+      "source_bytes": 10,
+      "label_offset": 30400,
+      "en": "Cash",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15228,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Cash"
+        },
+        null
+      ]
+    },
+    {
+      "id": 48,
+      "key": "STR_SAVEDATA_ERROR01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 404,
+      "source_offset": 15240,
+      "source_bytes": 38,
+      "label_offset": 30436,
+      "en": "The save data size is incorrect.",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15240,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "The save data size is incorrect."
+        },
+        null
+      ]
+    },
+    {
+      "id": 49,
+      "key": "STR_SAVEDATA_ERROR02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 412,
+      "source_offset": 15280,
+      "source_bytes": 44,
+      "label_offset": 30472,
+      "en": "The system save data version does not match.",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15280,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "The system save data version does not match."
+        },
+        null
+      ]
+    },
+    {
+      "id": 50,
+      "key": "STR_SAVEDATA_ERROR03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 420,
+      "source_offset": 15328,
+      "source_bytes": 44,
+      "label_offset": 30508,
+      "en": "The game save data version does not match.",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15328,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "The game save data version does not match."
+        },
+        null
+      ]
+    },
+    {
+      "id": 51,
+      "key": "STR_SAVEDATA_ERROR04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 428,
+      "source_offset": 15376,
+      "source_bytes": 62,
+      "label_offset": 30544,
+      "en": "The contents of the Excel file associated with the save data have changed.",
+      "context": "Developer-facing save-data error present in the string table.",
+      "decisions": "Translated the visible sentence and retained Excel as a product name; normal-player reachability is unknown.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15376,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "The contents of the Excel file associated with the save data have changed."
+        },
+        null
+      ]
+    },
+    {
+      "id": 52,
+      "key": "STR_SAVEDATA_ERROR05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 436,
+      "source_offset": 15440,
+      "source_bytes": 22,
+      "label_offset": 30580,
+      "en": "Invalid save data.",
+      "context": "Player-visible UI label or confirmation prompt.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15440,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Invalid save data."
+        },
+        null
+      ]
+    },
+    {
+      "id": 53,
+      "key": "STR_MISSION_NAME_TEST",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 444,
+      "source_offset": 15464,
+      "source_bytes": 20,
+      "label_offset": 30616,
+      "en": "#ETest Mission",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15464,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#ETest Mission"
+        },
+        null
+      ]
+    },
+    {
+      "id": 54,
+      "key": "STR_MISSION_NAME_MAIN_01_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 452,
+      "source_offset": 15488,
+      "source_bytes": 16,
+      "label_offset": 30652,
+      "en": "#ERescue the Transport",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15488,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "#ERescue the Transport"
+        },
+        null
+      ]
+    },
+    {
+      "id": 55,
+      "key": "STR_MISSION_NAME_MAIN_01_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 460,
+      "source_offset": 15508,
+      "source_bytes": 18,
+      "label_offset": 30688,
+      "en": "#EEliminate the Remaining Forces",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15508,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EEliminate the Remaining Forces"
+        },
+        null
+      ]
+    },
+    {
+      "id": 56,
+      "key": "STR_MISSION_NAME_MAIN_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 468,
+      "source_offset": 15528,
+      "source_bytes": 18,
+      "label_offset": 30724,
+      "en": "#ESearch for Ange",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15528,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#ESearch for Ange"
+        },
+        null
+      ]
+    },
+    {
+      "id": 57,
+      "key": "STR_MISSION_NAME_MAIN_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 476,
+      "source_offset": 15548,
+      "source_bytes": 26,
+      "label_offset": 30760,
+      "en": "#EEliminate the DRAGONs in the Patrol Airspace",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15548,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EEliminate the DRAGONs in the Patrol Airspace"
+        },
+        null
+      ]
+    },
+    {
+      "id": 58,
+      "key": "STR_MISSION_NAME_MAIN_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 484,
+      "source_offset": 15576,
+      "source_bytes": 24,
+      "label_offset": 30796,
+      "en": "#EEliminate the DRAGON Detachment",
+      "context": "Mission title concerning a separate DRAGON force.",
+      "decisions": "Rendered the separate force as Detachment; check mission briefing to distinguish a detached unit from a diversionary force.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15576,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EEliminate the DRAGON Detachment"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 59,
+      "key": "STR_MISSION_NAME_MAIN_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 492,
+      "source_offset": 15604,
+      "source_bytes": 24,
+      "label_offset": 30832,
+      "en": "#EHold the Final Defense Line at All Costs",
+      "context": "Final-defense-line mission title.",
+      "decisions": "At All Costs carries the force of holding a position to the death without introducing an instruction to die.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15604,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EHold the Final Defense Line at All Costs"
+        },
+        null
+      ]
+    },
+    {
+      "id": 60,
+      "key": "STR_MISSION_NAME_MAIN_06_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 500,
+      "source_offset": 15632,
+      "source_bytes": 22,
+      "label_offset": 30868,
+      "en": "#EEscape from the Empire of Misurugi",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15632,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EEscape from the Empire of Misurugi"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 61,
+      "key": "STR_MISSION_NAME_MAIN_06_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 508,
+      "source_offset": 15656,
+      "source_bytes": 16,
+      "label_offset": 30904,
+      "en": "#EScramble",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15656,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "#EScramble"
+        },
+        null
+      ]
+    },
+    {
+      "id": 62,
+      "key": "STR_MISSION_NAME_MAIN_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 516,
+      "source_offset": 15676,
+      "source_bytes": 20,
+      "label_offset": 30940,
+      "en": "#EIntercept Julio's Fleet",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15676,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EIntercept Julio's Fleet"
+        },
+        null
+      ]
+    },
+    {
+      "id": 63,
+      "key": "STR_MISSION_NAME_MAIN_08A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 524,
+      "source_offset": 15700,
+      "source_bytes": 8,
+      "label_offset": 30976,
+      "en": "#EReturn",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15700,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "#EReturn"
+        },
+        null
+      ]
+    },
+    {
+      "id": 64,
+      "key": "STR_MISSION_NAME_MAIN_08B",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 532,
+      "source_offset": 15712,
+      "source_bytes": 26,
+      "label_offset": 31012,
+      "en": "#EIntercept Embryo's Knights",
+      "context": "Mission title about intercepting the knights affiliated with Embryo.",
+      "decisions": "Kept the source generic Knights; did not substitute Diamond Rose Knights because that name is absent from this source string.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15712,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EIntercept Embryo's Knights"
+        },
+        null
+      ]
+    },
+    {
+      "id": 65,
+      "key": "STR_MISSION_NAME_MAIN_08C_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 540,
+      "source_offset": 15740,
+      "source_bytes": 18,
+      "label_offset": 31048,
+      "en": "#EAssault Embryo",
+      "context": "Mission title announcing an assault on Embryo.",
+      "decisions": "Rendered the source assault term as Assault and retained Embryo as the attack target.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15740,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EAssault Embryo"
+        },
+        null
+      ]
+    },
+    {
+      "id": 66,
+      "key": "STR_MISSION_NAME_MAIN_08C_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 548,
+      "source_offset": 15760,
+      "source_bytes": 24,
+      "label_offset": 31084,
+      "en": "#EDepart from Arzenal",
+      "context": "Mission title about leaving Arzenal.",
+      "decisions": "Used Depart from; whether tactical disengagement is more specific requires the mission briefing.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15760,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EDepart from Arzenal"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 67,
+      "key": "STR_MISSION_NAME_MAIN_09A",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 556,
+      "source_offset": 15788,
+      "source_bytes": 26,
+      "label_offset": 31120,
+      "en": "#EIntercept Embryo's Knights",
+      "context": "Repeated mission title about intercepting the knights affiliated with Embryo.",
+      "decisions": "Matched ID64 exactly; generic Knights remains faithful to the source.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15788,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EIntercept Embryo's Knights"
+        },
+        null
+      ]
+    },
+    {
+      "id": 68,
+      "key": "STR_MISSION_NAME_MAIN_09C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 564,
+      "source_offset": 15816,
+      "source_bytes": 20,
+      "label_offset": 31156,
+      "en": "#EIntercept the Aurora",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15816,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EIntercept the Aurora"
+        },
+        null
+      ]
+    },
+    {
+      "id": 69,
+      "key": "STR_MISSION_NAME_MAIN_10A_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 572,
+      "source_offset": 15840,
+      "source_bytes": 20,
+      "label_offset": 31192,
+      "en": "#ETo Protect the World",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15840,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#ETo Protect the World"
+        },
+        null
+      ]
+    },
+    {
+      "id": 70,
+      "key": "STR_MISSION_NAME_MAIN_10A_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 580,
+      "source_offset": 15864,
+      "source_bytes": 18,
+      "label_offset": 31228,
+      "en": "#EPrevent Dimensional Fusion",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15864,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EPrevent Dimensional Fusion"
+        },
+        null
+      ]
+    },
+    {
+      "id": 71,
+      "key": "STR_MISSION_NAME_MAIN_10C_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 588,
+      "source_offset": 15884,
+      "source_bytes": 8,
+      "label_offset": 31264,
+      "en": "#ESortie",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15884,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "#ESortie"
+        },
+        null
+      ]
+    },
+    {
+      "id": 72,
+      "key": "STR_MISSION_NAME_MAIN_10C_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 596,
+      "source_offset": 15896,
+      "source_bytes": 20,
+      "label_offset": 31300,
+      "en": "#EPrevent Aura's Recapture",
+      "context": "Mission title concerning prevention of Aura being taken back.",
+      "decisions": "Preserved recapture-prevention direction; the source does not identify a possessor or captor.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15896,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EPrevent Aura's Recapture"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 73,
+      "key": "STR_MISSION_NAME_SUB_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 604,
+      "source_offset": 15920,
+      "source_bytes": 18,
+      "label_offset": 31336,
+      "en": "#EThe Power of Para-mail",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15920,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EThe Power of Para-mail"
+        },
+        null
+      ]
+    },
+    {
+      "id": 74,
+      "key": "STR_MISSION_NAME_SUB_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 612,
+      "source_offset": 15940,
+      "source_bytes": 14,
+      "label_offset": 31372,
+      "en": "#EThe Power of Ryuu-Shin-Ki",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15940,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "#EThe Power of Ryuu-Shin-Ki"
+        },
+        null
+      ]
+    },
+    {
+      "id": 75,
+      "key": "STR_MISSION_NAME_SUB_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 620,
+      "source_offset": 15956,
+      "source_bytes": 20,
+      "label_offset": 31408,
+      "en": "#EThe Power of Ragna-mail",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15956,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EThe Power of Ragna-mail"
+        },
+        null
+      ]
+    },
+    {
+      "id": 76,
+      "key": "STR_MISSION_NAME_SUB_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 628,
+      "source_offset": 15980,
+      "source_bytes": 18,
+      "label_offset": 31444,
+      "en": "#EThe Reward, All to Yourself",
+      "context": "Mission title concerning monopolizing a reward.",
+      "decisions": "Retained the reward-for-yourself implication as a title fragment; runtime recipient should be checked in mission context.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 15980,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EThe Reward, All to Yourself"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    },
+    {
+      "id": 77,
+      "key": "STR_MISSION_NAME_SUB_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 636,
+      "source_offset": 16000,
+      "source_bytes": 16,
+      "label_offset": 31480,
+      "en": "#ESparring",
+      "context": "Mission title; intentional label fragment.",
+      "decisions": "Translated the language in full; preserved ID, key, source controls, and all null fields. No source-byte budget applied.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16000,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "#ESparring"
+        },
+        null
+      ]
+    },
+    {
+      "id": 78,
+      "key": "STR_MISSION_NAME_SUB_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 644,
+      "source_offset": 16020,
+      "source_bytes": 20,
+      "label_offset": 31516,
+      "en": "#ETwo Approaching Dragons",
+      "context": "Side-mission title paired with approaching black/red machine shadows in IDs79-80.",
+      "decisions": "Two Dragons preserves the source generic dragon word rather than assuming the categorical DRAGON designation.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16020,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#ETwo Approaching Dragons"
+        },
+        null
+      ]
+    },
+    {
+      "id": 79,
+      "key": "STR_MISSION_NAME_SUB_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 652,
+      "source_offset": 16044,
+      "source_bytes": 24,
+      "label_offset": 31552,
+      "en": "#ETwo Approaching Black Shadows",
+      "context": "Side-mission title paired with two dragons in ID78 and two red shadows in ID80.",
+      "decisions": "The source counts two machines; title uses Two Approaching Black Shadows. Machine referents and identities remain unstated.",
+      "status": "translated_draft",
+      "control_codes": [
+        "#E"
+      ],
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 16044,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#ETwo Approaching Black Shadows"
+        },
+        null
+      ],
+      "review_flags": [
+        "mission_or_chapter_context_review"
+      ]
+    }
+  ],
+  "meaning_review": {
+    "reviewer": "root",
+    "rows_examined": 90,
+    "rows_assigned": 80,
+    "status": "Reviewed against source; recorded uncertainties and runtime suffix need later scene/layout validation."
+  },
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

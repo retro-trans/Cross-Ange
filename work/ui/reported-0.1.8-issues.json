@@ -1,0 +1,48 @@
+{
+  "reported_build": "0.1.8",
+  "fix_build": "0.1.9",
+  "screenshots": "work/ui/local/screenshots/0.1.8",
+  "runtime_fix_verified": false,
+  "issues": [
+    {
+      "image": 1,
+      "id": "C000_PRO_000:774",
+      "cause": "Automatic #z80 for wording exceeding two normal-size lines",
+      "status": "Wording reviewed; inserted at normal size, calculated two-line fit"
+    },
+    {
+      "image": 2,
+      "id": "C000_PRO_000:779",
+      "cause": "Source font colon upper dot exceeds Latin x-height",
+      "status": "Bitmap uses two GenEi period dots at Latin colon heights"
+    },
+    {
+      "image": 3,
+      "asset": "data/_cg/EBG_109.btx",
+      "status": "4 raster regions inserted"
+    },
+    {
+      "image": 4,
+      "asset": "data/_cg/EBG_106.btx",
+      "status": "12 raster regions inserted"
+    },
+    {
+      "image": 5,
+      "asset": "data/_cg/EBG_107.btx",
+      "status": "19 raster regions inserted"
+    },
+    {
+      "image": 6,
+      "id": "C000_EPI_000:314",
+      "status": "unresolved",
+      "investigation": "docs/portrait-animation-issue.md",
+      "extra_tile_bounds": [
+        443,
+        456,
+        128,
+        128
+      ],
+      "comparison_prepared": true
+    }
+  ]
+}

@@ -1,0 +1,2161 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 320,
+    "last_id": 399,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      310,
+      409
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 80
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 320,
+      "key": "STR_HANGAR_STATUS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2580,
+      "label_offset": 40228,
+      "source_offset": 23524,
+      "source_bytes": 6,
+      "en": "Durability",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23524,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Durability"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_320",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 321,
+      "key": "STR_HANGAR_STATUS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2588,
+      "label_offset": 40264,
+      "source_offset": 23532,
+      "source_bytes": 6,
+      "en": "Attack Power",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23532,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Attack Power"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_321",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 322,
+      "key": "STR_HANGAR_STATUS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2596,
+      "label_offset": 40300,
+      "source_offset": 23540,
+      "source_bytes": 6,
+      "en": "Defense",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23540,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Defense"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_322",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 323,
+      "key": "STR_HANGAR_STATUS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2604,
+      "label_offset": 40336,
+      "source_offset": 23548,
+      "source_bytes": 8,
+      "en": "Shooting Accuracy",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23548,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Shooting Accuracy"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_323",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 324,
+      "key": "STR_HANGAR_STATUS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2612,
+      "label_offset": 40372,
+      "source_offset": 23560,
+      "source_bytes": 6,
+      "en": "Shot Grouping",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23560,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Shot Grouping"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_324",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 325,
+      "key": "STR_HANGAR_STATUS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2620,
+      "label_offset": 40408,
+      "source_offset": 23568,
+      "source_bytes": 8,
+      "en": "Effective Range",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23568,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Effective Range"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_325",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 326,
+      "key": "STR_HANGAR_STATUS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2628,
+      "label_offset": 40444,
+      "source_offset": 23580,
+      "source_bytes": 4,
+      "en": "Ammo Type",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23580,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Ammo Type"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_326",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 327,
+      "key": "STR_HANGAR_STATUS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2636,
+      "label_offset": 40480,
+      "source_offset": 23588,
+      "source_bytes": 10,
+      "en": "Gadget",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23588,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Gadget"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_327",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 328,
+      "key": "STR_HANGAR_STATUS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2644,
+      "label_offset": 40516,
+      "source_offset": 23600,
+      "source_bytes": 6,
+      "en": "Thrust",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23600,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Thrust"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_328",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 329,
+      "key": "STR_HANGAR_STATUS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2652,
+      "label_offset": 40552,
+      "source_offset": 23608,
+      "source_bytes": 10,
+      "en": "Boost Capacity",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23608,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Boost Capacity"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_329",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 330,
+      "key": "STR_HANGAR_STATUS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2660,
+      "label_offset": 40588,
+      "source_offset": 23620,
+      "source_bytes": 8,
+      "en": "Turning Performance",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23620,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Turning Performance"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_330",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 331,
+      "key": "STR_HANGAR_STATUS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2668,
+      "label_offset": 40624,
+      "source_offset": 23632,
+      "source_bytes": 6,
+      "en": "Agility",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23632,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Agility"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_331",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 332,
+      "key": "STR_HANGAR_STATUS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2676,
+      "label_offset": 40660,
+      "source_offset": 23640,
+      "source_bytes": 10,
+      "en": "Heat Recovery",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23640,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Heat Recovery"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_332",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 333,
+      "key": "STR_HANGAR_STATUS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2684,
+      "label_offset": 40696,
+      "source_offset": 23652,
+      "source_bytes": 4,
+      "en": "Available",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23652,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Available"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_333",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 334,
+      "key": "STR_HANGAR_STATUS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2692,
+      "label_offset": 40732,
+      "source_offset": 23660,
+      "source_bytes": 4,
+      "en": "Unavailable",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23660,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Unavailable"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_334",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 335,
+      "key": "STR_ASSIST_NAME",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2700,
+      "label_offset": 40768,
+      "source_offset": 23668,
+      "source_bytes": 10,
+      "en": "Support Type",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23668,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Support Type"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_335",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 336,
+      "key": "STR_ASSIST_TYPE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2708,
+      "label_offset": 40804,
+      "source_offset": 23680,
+      "source_bytes": 6,
+      "en": "Attack Type",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23680,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Attack Type"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_336",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 337,
+      "key": "STR_ASSIST_TYPE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2716,
+      "label_offset": 40840,
+      "source_offset": 23688,
+      "source_bytes": 6,
+      "en": "Defense Type",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23688,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Defense Type"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_337",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 338,
+      "key": "STR_ASSIST_TYPE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2724,
+      "label_offset": 40876,
+      "source_offset": 23696,
+      "source_bytes": 6,
+      "en": "Recovery Type",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23696,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Recovery Type"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_338",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 339,
+      "key": "STR_HANGAR_FRAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2732,
+      "label_offset": 40912,
+      "source_offset": 23704,
+      "source_bytes": 8,
+      "en": "Frame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23704,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Frame"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_339",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 340,
+      "key": "STR_HANGAR_ARMS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2740,
+      "label_offset": 40948,
+      "source_offset": 23716,
+      "source_bytes": 6,
+      "en": "Sword",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23716,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Sword"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_340",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 341,
+      "key": "STR_HANGAR_ARMS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2748,
+      "label_offset": 40984,
+      "source_offset": 23724,
+      "source_bytes": 10,
+      "en": "Halberd",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23724,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Halberd"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_341",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 342,
+      "key": "STR_HANGAR_ARMS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2756,
+      "label_offset": 41020,
+      "source_offset": 23736,
+      "source_bytes": 8,
+      "en": "Blade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23736,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Blade"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_342",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 343,
+      "key": "STR_HANGAR_ARMS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2764,
+      "label_offset": 41056,
+      "source_offset": 23748,
+      "source_bytes": 8,
+      "en": "Knuckle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23748,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Knuckle"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_343",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 344,
+      "key": "STR_HANGAR_ARMS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2772,
+      "label_offset": 41092,
+      "source_offset": 23760,
+      "source_bytes": 10,
+      "en": "Boomerang",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23760,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Boomerang"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_344",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 345,
+      "key": "STR_HANGAR_ARMS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2780,
+      "label_offset": 41128,
+      "source_offset": 23772,
+      "source_bytes": 8,
+      "en": "Rapier",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23772,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rapier"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_345",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 346,
+      "key": "STR_HANGAR_RIFLE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2788,
+      "label_offset": 41164,
+      "source_offset": 23784,
+      "source_bytes": 8,
+      "en": "Rifle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23784,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rifle"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_346",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 347,
+      "key": "STR_HANGAR_RIFLE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2796,
+      "label_offset": 41200,
+      "source_offset": 23796,
+      "source_bytes": 10,
+      "en": "Machine Gun",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23796,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Machine Gun"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_347",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 348,
+      "key": "STR_HANGAR_RIFLE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2804,
+      "label_offset": 41236,
+      "source_offset": 23808,
+      "source_bytes": 12,
+      "en": "Shotgun",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23808,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Shotgun"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_348",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 349,
+      "key": "STR_HANGAR_RIFLE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2812,
+      "label_offset": 41272,
+      "source_offset": 23824,
+      "source_bytes": 8,
+      "en": "Bazooka",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23824,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Bazooka"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_349",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 350,
+      "key": "STR_HANGAR_RIFLE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2820,
+      "label_offset": 41308,
+      "source_offset": 23836,
+      "source_bytes": 6,
+      "en": "Flamethrower",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23836,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Flamethrower"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_350",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 351,
+      "key": "STR_HANGAR_RIFLE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2828,
+      "label_offset": 41344,
+      "source_offset": 23844,
+      "source_bytes": 14,
+      "en": "Beam Rifle",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23844,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Beam Rifle"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_351",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 352,
+      "key": "STR_HANGAR_SHOULDER_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2836,
+      "label_offset": 41380,
+      "source_offset": 23860,
+      "source_bytes": 8,
+      "en": "Missile",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23860,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Missile"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_352",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 353,
+      "key": "STR_HANGAR_SHOULDER_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2844,
+      "label_offset": 41416,
+      "source_offset": 23872,
+      "source_bytes": 8,
+      "en": "Cannon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23872,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Cannon"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_353",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 354,
+      "key": "STR_HANGAR_SHOULDER_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2852,
+      "label_offset": 41452,
+      "source_offset": 23884,
+      "source_bytes": 14,
+      "en": "Gatling Gun",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23884,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Gatling Gun"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_354",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 355,
+      "key": "STR_HANGAR_SHOULDER_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2860,
+      "label_offset": 41488,
+      "source_offset": 23900,
+      "source_bytes": 10,
+      "en": "Grenade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23900,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Grenade"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_355",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 356,
+      "key": "STR_HANGAR_SHOULDER_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2868,
+      "label_offset": 41524,
+      "source_offset": 23912,
+      "source_bytes": 8,
+      "en": "Rocket",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23912,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rocket"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_356",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 357,
+      "key": "STR_HANGAR_GADGET_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2876,
+      "label_offset": 41560,
+      "source_offset": 23924,
+      "source_bytes": 10,
+      "en": "Grenade",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23924,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Grenade"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_357",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 358,
+      "key": "STR_HANGAR_GADGET_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2884,
+      "label_offset": 41596,
+      "source_offset": 23936,
+      "source_bytes": 8,
+      "en": "Missile",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23936,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Missile"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_358",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 359,
+      "key": "STR_HANGAR_GADGET_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2892,
+      "label_offset": 41632,
+      "source_offset": 23948,
+      "source_bytes": 8,
+      "en": "Rocket",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23948,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Rocket"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_359",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 360,
+      "key": "STR_HANGAR_COLOR_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2900,
+      "label_offset": 41668,
+      "source_offset": 23960,
+      "source_bytes": 4,
+      "en": "Main Body",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23960,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Main Body"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_360",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 361,
+      "key": "STR_HANGAR_COLOR_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2908,
+      "label_offset": 41704,
+      "source_offset": 23968,
+      "source_bytes": 4,
+      "en": "Secondary",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23968,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Secondary"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_361",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 362,
+      "key": "STR_HANGAR_COLOR_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2916,
+      "label_offset": 41740,
+      "source_offset": 23976,
+      "source_bytes": 2,
+      "en": "Eyes",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23976,
+          "source_bytes": 2,
+          "contains_japanese": true,
+          "en": "Eyes"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_362",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 363,
+      "key": "STR_HANGAR_MARK_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2924,
+      "label_offset": 41776,
+      "source_offset": 23980,
+      "source_bytes": 6,
+      "en": "Mark",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23980,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Mark"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_363",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 364,
+      "key": "STR_HANGAR_MARK_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2932,
+      "label_offset": 41812,
+      "source_offset": 23988,
+      "source_bytes": 8,
+      "en": "Mark１",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 23988,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Mark１"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_364",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 365,
+      "key": "STR_HANGAR_MARK_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2940,
+      "label_offset": 41848,
+      "source_offset": 24000,
+      "source_bytes": 8,
+      "en": "Mark２",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24000,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Mark２"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_365",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 366,
+      "key": "STR_HANGAR_MARK_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2948,
+      "label_offset": 41884,
+      "source_offset": 24012,
+      "source_bytes": 8,
+      "en": "Mark３",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24012,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Mark３"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_366",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 367,
+      "key": "STR_HANGAR_PAINT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2956,
+      "label_offset": 41920,
+      "source_offset": 24024,
+      "source_bytes": 12,
+      "en": "Paint Pattern",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24024,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Paint Pattern"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_367",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 368,
+      "key": "STR_HANGAR_PARTS_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2964,
+      "label_offset": 41956,
+      "source_offset": 24040,
+      "source_bytes": 6,
+      "en": "Parts",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24040,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Parts"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_368",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 369,
+      "key": "STR_HANGAR_PARTS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2972,
+      "label_offset": 41992,
+      "source_offset": 24048,
+      "source_bytes": 8,
+      "en": "Parts１",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24048,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Parts１"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_369",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 370,
+      "key": "STR_HANGAR_PARTS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2980,
+      "label_offset": 42028,
+      "source_offset": 24060,
+      "source_bytes": 8,
+      "en": "Parts２",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24060,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Parts２"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_370",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 371,
+      "key": "STR_HANGAR_PARTS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2988,
+      "label_offset": 42064,
+      "source_offset": 24072,
+      "source_bytes": 8,
+      "en": "Parts３",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24072,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Parts３"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_371",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 372,
+      "key": "STR_HANGAR_BULLET_AP00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 2996,
+      "label_offset": 42100,
+      "source_offset": 24084,
+      "source_bytes": 4,
+      "en": "Standard",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24084,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Standard"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_372",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 373,
+      "key": "STR_HANGAR_BULLET_HE00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3004,
+      "label_offset": 42136,
+      "source_offset": 24092,
+      "source_bytes": 4,
+      "en": "Explosive",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24092,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Explosive"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_373",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 374,
+      "key": "STR_HANGAR_BULLET_MISSILE00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3012,
+      "label_offset": 42172,
+      "source_offset": 24100,
+      "source_bytes": 4,
+      "en": "Homing",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24100,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Homing"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_374",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 375,
+      "key": "STR_HANGAR_BULLET_FLAME00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3020,
+      "label_offset": 42208,
+      "source_offset": 24108,
+      "source_bytes": 2,
+      "en": "Fire",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24108,
+          "source_bytes": 2,
+          "contains_japanese": true,
+          "en": "Fire"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_375",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 376,
+      "key": "STR_HANGAR_BULLET_APCB00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3028,
+      "label_offset": 42244,
+      "source_offset": 24112,
+      "source_bytes": 4,
+      "en": "Piercing",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24112,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Piercing"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_376",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 377,
+      "key": "STR_HANGAR_BULLET_SS00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3036,
+      "label_offset": 42280,
+      "source_offset": 24120,
+      "source_bytes": 4,
+      "en": "Scatter",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24120,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Scatter"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_377",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 378,
+      "key": "STR_HANGAR_BULLET_BEAM00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3044,
+      "label_offset": 42316,
+      "source_offset": 24128,
+      "source_bytes": 6,
+      "en": "Beam",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24128,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Beam"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_378",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 379,
+      "key": "STR_EXPL_SWORDA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3052,
+      "label_offset": 42352,
+      "source_offset": 24136,
+      "source_bytes": 34,
+      "en": "Well balanced overall and easy to handle.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24136,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Well balanced overall and easy to handle."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 380,
+      "key": "STR_EXPL_SWORDB_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3060,
+      "label_offset": 42388,
+      "source_offset": 24172,
+      "source_bytes": 42,
+      "en": "Slightly heavier than other swords, but more powerful as a result.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24172,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "Slightly heavier than other swords, but more powerful as a result."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 381,
+      "key": "STR_EXPL_SWORDC_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3068,
+      "label_offset": 42424,
+      "source_offset": 24216,
+      "source_bytes": 32,
+      "en": "Slightly lighter and easier to handle, at the cost of some power.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24216,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Slightly lighter and easier to handle, at the cost of some power."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 382,
+      "key": "STR_EXPL_HALBERD_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3076,
+      "label_offset": 42460,
+      "source_offset": 24252,
+      "source_bytes": 54,
+      "en": "Long reach and high weight make this weapon tricky to use, but it is powerful. For Glaive-type frames.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24252,
+          "source_bytes": 54,
+          "contains_japanese": true,
+          "en": "Long reach and high weight make this weapon tricky to use, but it is powerful. For Glaive-type frames."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 383,
+      "key": "STR_EXPL_BROADSD_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3084,
+      "label_offset": 42496,
+      "source_offset": 24308,
+      "source_bytes": 40,
+      "en": "This weapon has the longest reach, but is very heavy. Razor only.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24308,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "This weapon has the longest reach, but is very heavy. Razor only."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 384,
+      "key": "STR_EXPL_KNUCKLE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3092,
+      "label_offset": 42532,
+      "source_offset": 24352,
+      "source_bytes": 32,
+      "en": "This weapon is relatively powerful, but has short reach.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24352,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "This weapon is relatively powerful, but has short reach."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 385,
+      "key": "STR_EXPL_BOOMERANG_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3100,
+      "label_offset": 42568,
+      "source_offset": 24388,
+      "source_bytes": 30,
+      "en": "This weapon can also be used as twin swords. Razor only.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24388,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "This weapon can also be used as twin swords. Razor only."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 386,
+      "key": "STR_EXPL_RAPIER_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3108,
+      "label_offset": 42604,
+      "source_offset": 24420,
+      "source_bytes": 36,
+      "en": "Light weight allows quick attacks, but this weapon has low power.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24420,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Light weight allows quick attacks, but this weapon has low power."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 387,
+      "key": "STR_EXPL_RIFLEA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3116,
+      "label_offset": 42640,
+      "source_offset": 24460,
+      "source_bytes": 32,
+      "en": "This weapon has a high rate of fire and is easy to handle, but its range is rather short.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24460,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "This weapon has a high rate of fire and is easy to handle, but its range is rather short."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 388,
+      "key": "STR_EXPL_RIFLEB_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3124,
+      "label_offset": 42676,
+      "source_offset": 24496,
+      "source_bytes": 46,
+      "en": "This weapon has a high rate of fire and long range, but overheats easily.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24496,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "This weapon has a high rate of fire and long range, but overheats easily."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 389,
+      "key": "STR_EXPL_MGUN_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3132,
+      "label_offset": 42712,
+      "source_offset": 24544,
+      "source_bytes": 46,
+      "en": "This weapon has a very high rate of fire, but takes a long time to recover from overheating.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24544,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "This weapon has a very high rate of fire, but takes a long time to recover from overheating."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 390,
+      "key": "STR_EXPL_SHOTGUN_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3140,
+      "label_offset": 42748,
+      "source_offset": 24592,
+      "source_bytes": 40,
+      "en": "This weapon can attack a wide area, but has a low rate of fire.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24592,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "This weapon can attack a wide area, but has a low rate of fire."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 391,
+      "key": "STR_EXPL_BAZOOKA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3148,
+      "label_offset": 42784,
+      "source_offset": 24636,
+      "source_bytes": 56,
+      "en": "This weapon cannot fire rapidly, but makes up for it with powerful wide-area attacks.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24636,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "This weapon cannot fire rapidly, but makes up for it with powerful wide-area attacks."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 392,
+      "key": "STR_EXPL_FLAME_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3156,
+      "label_offset": 42820,
+      "source_offset": 24696,
+      "source_bytes": 52,
+      "en": "This weapon has short range, but deals sustained damage. Gadgets can be equipped.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24696,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "This weapon has short range, but deals sustained damage. Gadgets can be equipped."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 393,
+      "key": "STR_EXPL_BEAMRIFLE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3164,
+      "label_offset": 42856,
+      "source_offset": 24752,
+      "source_bytes": 54,
+      "en": "This weapon has long range and high power, but only certain frames can use it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24752,
+          "source_bytes": 54,
+          "contains_japanese": true,
+          "en": "This weapon has long range and high power, but only certain frames can use it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 394,
+      "key": "STR_EXPL_CANNON_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3172,
+      "label_offset": 42892,
+      "source_offset": 24808,
+      "source_bytes": 44,
+      "en": "Shoulder-mounted weapon with penetrating power and very long range.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24808,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "Shoulder-mounted weapon with penetrating power and very long range."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 395,
+      "key": "STR_EXPL_MISSILE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3180,
+      "label_offset": 42928,
+      "source_offset": 24856,
+      "source_bytes": 50,
+      "en": "Howitzer only. This weapon homes in on targets, but has a low rate of fire.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24856,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Howitzer only. This weapon homes in on targets, but has a low rate of fire."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 396,
+      "key": "STR_EXPL_GATLING_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3188,
+      "label_offset": 42964,
+      "source_offset": 24908,
+      "source_bytes": 52,
+      "en": "Shoulder-mounted weapon with a very high rate of fire and penetrating power, but short range.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24908,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "Shoulder-mounted weapon with a very high rate of fire and penetrating power, but short range."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 397,
+      "key": "STR_EXPL_GRENADE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3196,
+      "label_offset": 43000,
+      "source_offset": 24964,
+      "source_bytes": 50,
+      "en": "Howitzer only. This weapon fires explosive shells that can attack a wide area.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 24964,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Howitzer only. This weapon fires explosive shells that can attack a wide area."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 398,
+      "key": "STR_EXPL_ROCKET_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3204,
+      "label_offset": 43036,
+      "source_offset": 25016,
+      "source_bytes": 40,
+      "en": "Shoulder-mounted weapon with good range that can fire multiple projectiles.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 25016,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "Shoulder-mounted weapon with good range that can fire multiple projectiles."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 399,
+      "key": "STR_EXPL_GRENADE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 3212,
+      "label_offset": 43072,
+      "source_offset": 25060,
+      "source_bytes": 48,
+      "en": "A secondary weapon mounted on a gun. Fires explosive shells, but has rather short range.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 25060,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "A secondary weapon mounted on a gun. Fires explosive shells, but has rather short range."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,2161 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 560,
+    "last_id": 639,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      550,
+      649
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 80
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 560,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4500,
+      "label_offset": 48868,
+      "source_offset": 38228,
+      "source_bytes": 18,
+      "en": "・Destroy Salia's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38228,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Destroy Salia's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 561,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4508,
+      "label_offset": 48904,
+      "source_offset": 38248,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38248,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 562,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4516,
+      "label_offset": 48940,
+      "source_offset": 38284,
+      "source_bytes": 20,
+      "en": "・Destroy Ersha's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38284,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy Ersha's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 563,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4524,
+      "label_offset": 48976,
+      "source_offset": 38308,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38308,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 564,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4532,
+      "label_offset": 49012,
+      "source_offset": 38344,
+      "source_bytes": 18,
+      "en": "・Destroy Hilda's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38344,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Destroy Hilda's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 565,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4540,
+      "label_offset": 49048,
+      "source_offset": 38364,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38364,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 566,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4548,
+      "label_offset": 49084,
+      "source_offset": 38400,
+      "source_bytes": 20,
+      "en": "・Destroy Rosalie's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38400,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "・Destroy Rosalie's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 567,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4556,
+      "label_offset": 49120,
+      "source_offset": 38424,
+      "source_bytes": 34,
+      "en": "・Destroy more DRAGONs than your opponent.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38424,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy more DRAGONs than your opponent."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 568,
+      "key": "STR_BRIEFING_HEROINE_SUCCESS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4564,
+      "label_offset": 49156,
+      "source_offset": 38460,
+      "source_bytes": 18,
+      "en": "・Destroy Chris's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38460,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Destroy Chris's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 569,
+      "key": "STR_BRIEFING_SUB_SUCCESS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4572,
+      "label_offset": 49192,
+      "source_offset": 38480,
+      "source_bytes": 36,
+      "en": "・Destroy Ange's and Vivian's machines.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38480,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "・Destroy Ange's and Vivian's machines."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 570,
+      "key": "STR_BRIEFING_SUB_SUCCESS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4580,
+      "label_offset": 49228,
+      "source_offset": 38520,
+      "source_bytes": 16,
+      "en": "・Destroy the Ryuu-Shin-Ki.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38520,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "・Destroy the Ryuu-Shin-Ki."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 571,
+      "key": "STR_BRIEFING_SUB_SUCCESS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4588,
+      "label_offset": 49264,
+      "source_offset": 38540,
+      "source_bytes": 30,
+      "en": "・Destroy Salia's and Ersha's machines.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38540,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "・Destroy Salia's and Ersha's machines."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 572,
+      "key": "STR_BRIEFING_SUB_SUCCESS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4596,
+      "label_offset": 49300,
+      "source_offset": 38572,
+      "source_bytes": 24,
+      "en": "・Destroy the Horn DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38572,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "・Destroy the Horn DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 573,
+      "key": "STR_BRIEFING_SUB_SUCCESS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4604,
+      "label_offset": 49336,
+      "source_offset": 38600,
+      "source_bytes": 18,
+      "en": "・Destroy Chris's machine.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38600,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "・Destroy Chris's machine."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 574,
+      "key": "STR_BRIEFING_SUB_SUCCESS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4612,
+      "label_offset": 49372,
+      "source_offset": 38620,
+      "source_bytes": 28,
+      "en": "・Destroy the Galleon-Class DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38620,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "・Destroy the Galleon-Class DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 575,
+      "key": "STR_BRIEFING_SUB_SUCCESS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4620,
+      "label_offset": 49408,
+      "source_offset": 38652,
+      "source_bytes": 30,
+      "en": "・Destroy Ersha's and Chris's machines.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38652,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "・Destroy Ersha's and Chris's machines."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 576,
+      "key": "STR_BRIEFING_SUB_SUCCESS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4628,
+      "label_offset": 49444,
+      "source_offset": 38684,
+      "source_bytes": 34,
+      "en": "・Destroy Vivian's and Hilda's machines.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38684,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy Vivian's and Hilda's machines."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 577,
+      "key": "STR_BRIEFING_SUB_SUCCESS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4636,
+      "label_offset": 49480,
+      "source_offset": 38720,
+      "source_bytes": 30,
+      "en": "・Destroy at least 30 DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38720,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "・Destroy at least 30 DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 578,
+      "key": "STR_BRIEFING_SUB_SUCCESS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4644,
+      "label_offset": 49516,
+      "source_offset": 38752,
+      "source_bytes": 34,
+      "en": "・Destroy at least 30 small unmanned weapons.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38752,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy at least 30 small unmanned weapons."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 579,
+      "key": "STR_BRIEFING_SUB_SUCCESS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4652,
+      "label_offset": 49552,
+      "source_offset": 38788,
+      "source_bytes": 30,
+      "en": "・Destroy at least 30 DRAGONs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38788,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "・Destroy at least 30 DRAGONs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 580,
+      "key": "STR_BRIEFING_SUB_SUCCESS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4660,
+      "label_offset": 49588,
+      "source_offset": 38820,
+      "source_bytes": 32,
+      "en": "・All three transports reach Arzenal.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38820,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "・All three transports reach Arzenal."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 581,
+      "key": "STR_BRIEFING_SUB_SUCCESS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4668,
+      "label_offset": 49624,
+      "source_offset": 38856,
+      "source_bytes": 60,
+      "en": "・The allied Para-mail reaches the Aurora.#n・Wipe out the small unmanned weapons.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38856,
+          "source_bytes": 60,
+          "contains_japanese": true,
+          "en": "・The allied Para-mail reaches the Aurora.#n・Wipe out the small unmanned weapons."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 582,
+      "key": "STR_BRIEFING_SUB_SUCCESS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4676,
+      "label_offset": 49660,
+      "source_offset": 38920,
+      "source_bytes": 70,
+      "en": "・The allied Ragna-mail reaches the Dawn Pillar.#n・Wipe out the DRAGONs and enemy Para-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38920,
+          "source_bytes": 70,
+          "contains_japanese": true,
+          "en": "・The allied Ragna-mail reaches the Dawn Pillar.#n・Wipe out the DRAGONs and enemy Para-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 583,
+      "key": "STR_BRIEFING_SUB_SUCCESS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4684,
+      "label_offset": 49696,
+      "source_offset": 38992,
+      "source_bytes": 42,
+      "en": "・Keep DRAGONs from entering the airspace above Arzenal.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 38992,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "・Keep DRAGONs from entering the airspace above Arzenal."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 584,
+      "key": "STR_BRIEFING_SUB_SUCCESS_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4692,
+      "label_offset": 49732,
+      "source_offset": 39036,
+      "source_bytes": 46,
+      "en": "・Keep small unmanned weapons from entering the airspace above the Aurora.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39036,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Keep small unmanned weapons from entering the airspace above the Aurora."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 585,
+      "key": "STR_BRIEFING_SUB_SUCCESS_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4700,
+      "label_offset": 49768,
+      "source_offset": 39084,
+      "source_bytes": 40,
+      "en": "・Keep DRAGONs from entering the airspace above the Dawn Pillar.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39084,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "・Keep DRAGONs from entering the airspace above the Dawn Pillar."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 586,
+      "key": "STR_BRIEFING_SUB_SUCCESS_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4708,
+      "label_offset": 49804,
+      "source_offset": 39128,
+      "source_bytes": 42,
+      "en": "・Keep DRAGONs from entering the airspace above Arzenal.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39128,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "・Keep DRAGONs from entering the airspace above Arzenal."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 587,
+      "key": "STR_BRIEFING_SUB_SUCCESS_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4716,
+      "label_offset": 49840,
+      "source_offset": 39172,
+      "source_bytes": 46,
+      "en": "・Keep small unmanned weapons from entering the airspace above the Aurora.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39172,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Keep small unmanned weapons from entering the airspace above the Aurora."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 588,
+      "key": "STR_BRIEFING_SUB_SUCCESS_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4724,
+      "label_offset": 49876,
+      "source_offset": 39220,
+      "source_bytes": 40,
+      "en": "・Keep DRAGONs from entering the airspace above the Dawn Pillar.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39220,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "・Keep DRAGONs from entering the airspace above the Dawn Pillar."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 589,
+      "key": "STR_BRIEFING_SUB_SUCCESS_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4732,
+      "label_offset": 49912,
+      "source_offset": 39264,
+      "source_bytes": 36,
+      "en": "・Make contact with all ten destroyers and disarm their bombs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39264,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "・Make contact with all ten destroyers and disarm their bombs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 590,
+      "key": "STR_BRIEFING_SUB_SUCCESS_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4740,
+      "label_offset": 49948,
+      "source_offset": 39304,
+      "source_bytes": 30,
+      "en": "・Search all ten locations and disarm the bombs.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39304,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "・Search all ten locations and disarm the bombs."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 591,
+      "key": "STR_BRIEFING_SUB_SUCCESS_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4748,
+      "label_offset": 49984,
+      "source_offset": 39336,
+      "source_bytes": 34,
+      "en": "・Wipe out the small unmanned weapons and Para-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39336,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Wipe out the small unmanned weapons and Para-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 592,
+      "key": "STR_BRIEFING_SUB_SUCCESS_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4756,
+      "label_offset": 50020,
+      "source_offset": 39372,
+      "source_bytes": 34,
+      "en": "・Wipe out the small unmanned weapons and Para-mails.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39372,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Wipe out the small unmanned weapons and Para-mails."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 593,
+      "key": "STR_BRIEFING_SUB_SUCCESS_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4764,
+      "label_offset": 50056,
+      "source_offset": 39408,
+      "source_bytes": 36,
+      "en": "・Destroy Ange's and Vivian's machines.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39408,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "・Destroy Ange's and Vivian's machines."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 594,
+      "key": "STR_BRIEFING_SUB_SUCCESS_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4772,
+      "label_offset": 50092,
+      "source_offset": 39448,
+      "source_bytes": 34,
+      "en": "・Destroy at least 30 small unmanned weapons.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39448,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy at least 30 small unmanned weapons."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 595,
+      "key": "STR_BRIEFING_SUB_SUCCESS_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4780,
+      "label_offset": 50128,
+      "source_offset": 39484,
+      "source_bytes": 28,
+      "en": "・Destroy the Galleon-Class DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39484,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "・Destroy the Galleon-Class DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 596,
+      "key": "STR_BRIEFING_SUB_SUCCESS_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4788,
+      "label_offset": 50164,
+      "source_offset": 39516,
+      "source_bytes": 34,
+      "en": "・Destroy at least 30 small unmanned weapons.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39516,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "・Destroy at least 30 small unmanned weapons."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 597,
+      "key": "STR_BRIEFING_SUB_SUCCESS_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4796,
+      "label_offset": 50200,
+      "source_offset": 39552,
+      "source_bytes": 24,
+      "en": "・Destroy the Horn DRAGON.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39552,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "・Destroy the Horn DRAGON."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 598,
+      "key": "STR_BRIEFING_FAIL_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4804,
+      "label_offset": 50236,
+      "source_offset": 39580,
+      "source_bytes": 12,
+      "en": "Failure condition 01",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39580,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Failure condition 01"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 599,
+      "key": "STR_BRIEFING_FAIL_00_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4812,
+      "label_offset": 50272,
+      "source_offset": 39596,
+      "source_bytes": 22,
+      "en": "・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39596,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 600,
+      "key": "STR_BRIEFING_FAIL_01_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4820,
+      "label_offset": 50308,
+      "source_offset": 39620,
+      "source_bytes": 68,
+      "en": "・The transport is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39620,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・The transport is lost.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 601,
+      "key": "STR_BRIEFING_FAIL_01_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4828,
+      "label_offset": 50344,
+      "source_offset": 39692,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39692,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 602,
+      "key": "STR_BRIEFING_FAIL_02_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4836,
+      "label_offset": 50380,
+      "source_offset": 39764,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39764,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 603,
+      "key": "STR_BRIEFING_FAIL_03_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4844,
+      "label_offset": 50416,
+      "source_offset": 39836,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39836,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 604,
+      "key": "STR_BRIEFING_FAIL_04_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4852,
+      "label_offset": 50452,
+      "source_offset": 39908,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39908,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 605,
+      "key": "STR_BRIEFING_FAIL_05_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4860,
+      "label_offset": 50488,
+      "source_offset": 39980,
+      "source_bytes": 84,
+      "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 39980,
+          "source_bytes": 84,
+          "contains_japanese": true,
+          "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 606,
+      "key": "STR_BRIEFING_FAIL_06_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4868,
+      "label_offset": 50524,
+      "source_offset": 40068,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40068,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 607,
+      "key": "STR_BRIEFING_FAIL_06_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4876,
+      "label_offset": 50560,
+      "source_offset": 40140,
+      "source_bytes": 84,
+      "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40140,
+          "source_bytes": 84,
+          "contains_japanese": true,
+          "en": "・DRAGONs enter the airspace above Arzenal.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 608,
+      "key": "STR_BRIEFING_FAIL_06_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4884,
+      "label_offset": 50596,
+      "source_offset": 40228,
+      "source_bytes": 46,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40228,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 609,
+      "key": "STR_BRIEFING_FAIL_07_0",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4892,
+      "label_offset": 50632,
+      "source_offset": 40276,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40276,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 610,
+      "key": "STR_BRIEFING_FAIL_08_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4900,
+      "label_offset": 50668,
+      "source_offset": 40348,
+      "source_bytes": 46,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40348,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 611,
+      "key": "STR_BRIEFING_FAIL_08_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4908,
+      "label_offset": 50704,
+      "source_offset": 40396,
+      "source_bytes": 46,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40396,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 612,
+      "key": "STR_BRIEFING_FAIL_08_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4916,
+      "label_offset": 50740,
+      "source_offset": 40444,
+      "source_bytes": 46,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40444,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 613,
+      "key": "STR_BRIEFING_FAIL_08_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4924,
+      "label_offset": 50776,
+      "source_offset": 40492,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40492,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 614,
+      "key": "STR_BRIEFING_FAIL_09_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4932,
+      "label_offset": 50812,
+      "source_offset": 40564,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40564,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 615,
+      "key": "STR_BRIEFING_FAIL_09_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4940,
+      "label_offset": 50848,
+      "source_offset": 40636,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40636,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 616,
+      "key": "STR_BRIEFING_FAIL_10_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4948,
+      "label_offset": 50884,
+      "source_offset": 40708,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40708,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 617,
+      "key": "STR_BRIEFING_FAIL_10_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4956,
+      "label_offset": 50920,
+      "source_offset": 40780,
+      "source_bytes": 42,
+      "en": "・Naomi's machine is lost.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40780,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 618,
+      "key": "STR_BRIEFING_FAIL_10_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4964,
+      "label_offset": 50956,
+      "source_offset": 40824,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40824,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 619,
+      "key": "STR_BRIEFING_FAIL_10_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4972,
+      "label_offset": 50992,
+      "source_offset": 40896,
+      "source_bytes": 42,
+      "en": "・Naomi's machine is lost.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40896,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 620,
+      "key": "STR_BRIEFING_FAIL_10_5",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4980,
+      "label_offset": 51028,
+      "source_offset": 40940,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 40940,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 621,
+      "key": "STR_BRIEFING_HEROINE_FAIL_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4988,
+      "label_offset": 51064,
+      "source_offset": 41012,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41012,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 622,
+      "key": "STR_BRIEFING_HEROINE_FAIL_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 4996,
+      "label_offset": 51100,
+      "source_offset": 41100,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41100,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 623,
+      "key": "STR_BRIEFING_HEROINE_FAIL_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5004,
+      "label_offset": 51136,
+      "source_offset": 41172,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41172,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 624,
+      "key": "STR_BRIEFING_HEROINE_FAIL_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5012,
+      "label_offset": 51172,
+      "source_offset": 41260,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41260,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 625,
+      "key": "STR_BRIEFING_HEROINE_FAIL_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5020,
+      "label_offset": 51208,
+      "source_offset": 41332,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41332,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 626,
+      "key": "STR_BRIEFING_HEROINE_FAIL_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5028,
+      "label_offset": 51244,
+      "source_offset": 41420,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41420,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 627,
+      "key": "STR_BRIEFING_HEROINE_FAIL_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5036,
+      "label_offset": 51280,
+      "source_offset": 41492,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41492,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 628,
+      "key": "STR_BRIEFING_HEROINE_FAIL_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5044,
+      "label_offset": 51316,
+      "source_offset": 41580,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41580,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 629,
+      "key": "STR_BRIEFING_HEROINE_FAIL_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5052,
+      "label_offset": 51352,
+      "source_offset": 41652,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41652,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 630,
+      "key": "STR_BRIEFING_HEROINE_FAIL_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5060,
+      "label_offset": 51388,
+      "source_offset": 41740,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41740,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 631,
+      "key": "STR_BRIEFING_HEROINE_FAIL_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5068,
+      "label_offset": 51424,
+      "source_offset": 41812,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41812,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 632,
+      "key": "STR_BRIEFING_HEROINE_FAIL_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5076,
+      "label_offset": 51460,
+      "source_offset": 41900,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41900,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 633,
+      "key": "STR_BRIEFING_HEROINE_FAIL_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5084,
+      "label_offset": 51496,
+      "source_offset": 41972,
+      "source_bytes": 86,
+      "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 41972,
+          "source_bytes": 86,
+          "contains_japanese": true,
+          "en": "・Destroy fewer DRAGONs than your opponent.#n・Naomi's machine is lost.#n・Leave the combat airspace."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 634,
+      "key": "STR_BRIEFING_HEROINE_FAIL_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5092,
+      "label_offset": 51532,
+      "source_offset": 42060,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42060,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 635,
+      "key": "STR_BRIEFING_SUB_FAIL_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5100,
+      "label_offset": 51568,
+      "source_offset": 42132,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42132,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 636,
+      "key": "STR_BRIEFING_SUB_FAIL_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5108,
+      "label_offset": 51604,
+      "source_offset": 42204,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42204,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 637,
+      "key": "STR_BRIEFING_SUB_FAIL_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5116,
+      "label_offset": 51640,
+      "source_offset": 42276,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42276,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 638,
+      "key": "STR_BRIEFING_SUB_FAIL_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5124,
+      "label_offset": 51676,
+      "source_offset": 42348,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42348,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 639,
+      "key": "STR_BRIEFING_SUB_FAIL_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5132,
+      "label_offset": 51712,
+      "source_offset": 42420,
+      "source_bytes": 68,
+      "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 42420,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "・Naomi's machine is lost.#n・Leave the combat airspace.#n・Time runs out."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

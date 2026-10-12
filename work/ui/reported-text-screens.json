@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "canvas": {"width": 960, "height": 544},
+  "capture_build": "0.1.4",
+  "translation_build": "0.1.5",
+  "measurements": "Approximate pixel bounds measured from user-provided source screenshots; English layout requires a new in-game capture.",
+  "screens": [
+    {
+      "id": "difficulty-select",
+      "screenshot": "work/ui/local/screenshots/0.1.4/difficulty.png",
+      "panel_bounds": [294, 169, 666, 376],
+      "elements": [
+        {"source_id": 11, "key": "STR_DIFFICULT_SELECT", "bounds": [330, 194, 630, 215], "width": 300, "height": 21, "alignment": "center", "en": "Select Difficulty", "installed_bytes_verified": true, "english_runtime_verified": false}
+      ]
+    },
+    {
+      "id": "classroom-mana",
+      "screenshot": "work/ui/local/screenshots/0.1.4/classroom.png",
+      "nameplate_bounds": [93, 413, 405, 451],
+      "dialogue_panel_bounds": [0, 453, 960, 544],
+      "elements": [
+        {"source_id": "C000_PRO_000:771:speaker", "bounds": [180, 420, 390, 447], "width": 210, "height": 27, "en": "Female Teacher", "installed_bytes_verified": true, "english_runtime_verified": false},
+        {"source_id": "C000_PRO_000:771", "voice_id": "11184", "bounds": [180, 465, 865, 533], "width": 685, "height": 68, "en": "The Light of Mana was a new power brought to humanity#nseveral hundred years ago.", "installed_bytes_verified": true, "english_runtime_verified": false}
+      ]
+    }
+  ]
+}

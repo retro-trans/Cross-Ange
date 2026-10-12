@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "scope": "Remaining pchr, parameter and map BND labels; manual pages16-23 meaning/completeness review. Source assets and manual translation were not modified.",
+  "method": [
+    "Read local candidate inventory and additional_text_extract.py.",
+    "Parsed BND group headers and checked every nonzero pointer in the identified label columns; inspected representative neighboring ASCII asset fields and numeric records.",
+    "Visually compared all eight manual page images with manual.working.json."
+  ],
+  "candidate_inventory_limit": "The heuristic candidate scan includes ASCII asset bytes misdecoded as UTF-16 and sometimes starts inside genuine UTF-16 strings. Candidate counts are not verified player-text counts.",
+  "assets": [
+    {
+      "asset_path": "data/_dat/pchr.bnd",
+      "local_evidence_path": "E:\\Projects\\Cross Ange\\work\\source\\archive\\assets\\data\\_dat\\pchr.bnd",
+      "sha256": "44326ec90a28e43b3404790f7a0de0d95481995d7b3aad5e2e4f7a40bee0a4a6",
+      "classification": "likely_internal_asset_annotation",
+      "evidence": "Group0 has521 records of220 bytes starting at28. Columns0-13 include separate ASCII keys/model/texture/animation asset references. Column44 contains520 valid UTF-16 labels; all contain Japanese letters and none has a line-break control. Examples describe recolors, weapon mesh variants with numeric suffixes, individual horn/tail parts, battle UI target effects and large defense circles. Row1 label pointer114924 is stored at424; neighboring key/model/texture pointers identify KN_CHR_MAL_ANG_00, CHR_MAL_ANG_00.bnc and CHR_MAL_ANG_01.btx. Row127 label pointer139608 is a numbered sword model annotation, not a dialogue or shop description.",
+      "structure": {
+        "group": 0,
+        "records": 521,
+        "record_offset": 28,
+        "stride": 220,
+        "label_column_zero_based": 44,
+        "nonnull_labels": 520,
+        "japanese_labels": 520,
+        "invalid_label_pointers": 0
+      },
+      "unresolved": "No UI consumer or in-game rendering of column44 was verified. Human-readable mecha labels could in principle be exposed by a debug menu or another consumer; classification remains probable, not proven runtime exclusion.",
+      "action": "Preserve source and all engine identifiers; do not translate this field without runtime display or consumer-reference evidence."
+    },
+    {
+      "asset_path": "data/_dat/params.bnd",
+      "local_evidence_path": "E:\\Projects\\Cross Ange\\work\\source\\archive\\assets\\data\\_dat\\params.bnd",
+      "sha256": "e3ebfe8d43e753250b027c694b106c86e7f99799f4a5fa57008c1e832f4d4355",
+      "classification": "likely_internal_scene_parameter_annotation",
+      "evidence": "Group0 has1235 numeric4-byte entries. Group1 has101 records of16 bytes starting at4972, followed by the string pool at6588. Column0 is an ASCII preset/event identifier; column1 is UTF-16 descriptive annotation. All100 nonzero label pointers decode correctly:75 contain Japanese and25 are scenario IDs. Labels distinguish sortie scenes and wingmate slots, route A/C presets, time/weather result backgrounds and staff-roll scenes. Row1 references ASCII evt_cpt00_00 at6588 and label6604; row25 describes a result background and references result_m07. The field mixes descriptive notes with unlocalized engine scene IDs.",
+      "structure": {
+        "group": 1,
+        "records": 101,
+        "record_offset": 4972,
+        "stride": 16,
+        "label_column_zero_based": 1,
+        "nonnull_labels": 100,
+        "japanese_labels": 75,
+        "ascii_scenario_id_labels": 25,
+        "invalid_label_pointers": 0
+      },
+      "unresolved": "No rendered menu use of group1 column1 was established. Scene names require a consumer-reference or runtime check before they can be ruled out definitively as player text.",
+      "action": "Preserve source and all engine identifiers; do not translate this field without runtime display or consumer-reference evidence."
+    },
+    {
+      "asset_path": "data/_dat/maps.bnd",
+      "local_evidence_path": "E:\\Projects\\Cross Ange\\work\\source\\archive\\assets\\data\\_dat\\maps.bnd",
+      "sha256": "149b8a8f6098f28398293760ad1fc6a8e6ed3b51974e0d1e69cb81f57dd5899f",
+      "classification": "likely_internal_map_resource_annotation",
+      "evidence": "One group has34 records of108 bytes starting at20; the record block ends at3692. Columns0-2 hold ASCII map model, backdrop and map identifiers; column26 has32 valid Japanese UTF-16 labels. Labels include six test-map variants, final-room subareas, an internal shaft, the customization hangar background and the title-screen map. Row1 pairs label3744 with MP_TEST_01.bnm, BG_dey.bnb and MP_TEST_01. Row30 has the complete UTF-16 label at5816, whereas the heuristic inventory captured only its suffix at5826. Row31 similarly starts at5868 rather than the scanned suffix5882.",
+      "structure": {
+        "group": 0,
+        "records": 34,
+        "record_offset": 20,
+        "stride": 108,
+        "label_column_zero_based": 26,
+        "nonnull_labels": 32,
+        "japanese_labels": 32,
+        "invalid_label_pointers": 0
+      },
+      "unresolved": "The existence of a human-readable map-name field does not prove player display. Normal mission/map selection consumers were not traced, so retain these32 labels as an unresolved possible display field rather than counting them as translated UI.",
+      "action": "Preserve source and all engine identifiers; do not translate this field without runtime display or consumer-reference evidence."
+    }
+  ],
+  "translation_target_decision": {
+    "confirmed_new_player_facing_targets": 0,
+    "likely_internal_japanese_label_fields": 627,
+    "runtime_verification_pending": "pchr group0 column44; params group1 column1; maps group0 column26. No source or identifier edits were made.",
+    "verified_additional_tables": "BtlFriendEvt.bnd, BtlNavigatorEvt.bnd and GalleryDef.bnd remain separately extracted by additional_text_extract.py; they were not reclassified by this audit.",
+    "other_candidate_assets": "Other heuristic candidate files were outside this focused audit and are not declared internal or complete by this report."
+  },
+  "manual_review": {
+    "pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "source_images": "sce_sys/manual/016.png through sce_sys/manual/023.png",
+    "translation_file": "work/translation/en/manual.working.json",
+    "main_prose_completeness": "All main explanatory prose and associated explanatory illustration labels on these eight pages have corresponding English entries. No concrete missing main paragraph found. Embedded game screenshots still contain raster UI labels and were not treated as complete redraws.",
+    "findings": [
+      {
+        "id": "manual:016:02",
+        "kind": "meaning_error",
+        "evidence": "The final sentence of the Freeze Bullet explanation grants an extra result bonus for defeating enemies with that weapon; the current draft only requires freezing enemies.",
+        "suggested_english": "Defeating enemies with Freeze Bullet earns an additional bonus in the results."
+      },
+      {
+        "id": "manual:022:02",
+        "kind": "meaning_error",
+        "evidence": "The Norma description characterizes a feared possibility of destroying the social system. The current words must destroy incorrectly imply inevitability or obligation.",
+        "suggested_english": "They are regarded as devolved humans who reject Mana, and are feared and hated as dangerous beings who could destroy the social system."
+      }
+    ],
+    "action": "Reported to coordinating translator; manual translation left unchanged.",
+    "coordinator_resolution": {
+      "date": "2026-10-11",
+      "status": "Both reported errors corrected against the original page images, re-exported and validated."
+    }
+  }
+}

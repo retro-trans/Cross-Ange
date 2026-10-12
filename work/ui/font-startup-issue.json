@@ -1,0 +1,40 @@
+{
+  "version": "0.1.7",
+  "reported_on": "2026-10-11",
+  "runtime_tested": true,
+  "runtime_result": "failed_black_screen_before_difficulty",
+  "native_glyph_reader": "0x81145a38",
+  "first_log_font_stack_location": "0x810c162a",
+  "log": "work/source/layout-probe/0.1.7/vita3k-black-screen.log",
+  "glyph_records_checked": 46048,
+  "native_reader_failures": {
+    "BNF glyph missing native terminator or truncated token": 394
+  },
+  "examples": [
+    {
+      "font": "zenfont.bnf",
+      "offset": 92136,
+      "length": 340
+    },
+    {
+      "font": "zenfont.bnf",
+      "offset": 92476,
+      "length": 340
+    },
+    {
+      "font": "zenfont.bnf",
+      "offset": 92816,
+      "length": 340
+    },
+    {
+      "font": "zenfont.bnf",
+      "offset": 93156,
+      "length": 340
+    }
+  ],
+  "cause": "New 338-byte literal glyph records omitted the separate zero-token terminator. The native decoder continues across record boundaries; Vita3K log reports font-path memory errors and stack corruption.",
+  "fix_build": "0.1.8",
+  "fix": "Emit native zero-token terminators, validate every glyph with the native stopping rule, and reject unterminated glyph records.",
+  "fix_runtime_verified": true,
+  "fix_confirmation": "User supplied 0.1.8 classroom, tutorial and battle captures; startup reached difficulty selection and progressed into gameplay. This verifies the reported startup failure only."
+}

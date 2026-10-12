@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "terms": [
+    {
+      "id": "tonkotsu_impact",
+      "category": "pig_racer_name",
+      "japanese": [
+        "トンコツインパクト"
+      ],
+      "english": "Tonkotsu Impact",
+      "status": "project_provisional_romanization",
+      "game_source_observed": true,
+      "global_rows": [
+        4953,
+        4957,
+        4958
+      ],
+      "source_ids": [
+        "C050_PRO_000:4892",
+        "C050_PRO_000:4896",
+        "C050_PRO_000:4897"
+      ],
+      "source_file": "data/_scr/C050_PRO_000.txt",
+      "notes": "Japanese pig-racer name confirmed locally and in SRW Wiki's Rosalie episode notes. Bounded searches found no reliable official English spelling; straightforward provisional romanization retains the pork-food name. Do not assert an unsourced racing-horse parody as canonical.",
+      "sources": [
+        {
+          "url": "https://srw.wiki.cre.jp/wiki/%E3%83%AD%E3%82%B6%E3%83%AA%E3%83%BC",
+          "supports": "Japanese racer name and 307.2 gambling multiplier, not English spelling."
+        }
+      ]
+    },
+    {
+      "id": "juicy_chashu",
+      "category": "pig_racer_name",
+      "japanese": [
+        "ジューシーチャーシュー"
+      ],
+      "english": "Juicy Chashu",
+      "status": "project_provisional_romanization",
+      "game_source_observed": true,
+      "global_rows": [
+        4959
+      ],
+      "source_ids": [
+        "C050_PRO_000:4898"
+      ],
+      "source_file": "data/_scr/C050_PRO_000.txt",
+      "notes": "First-place pig named in the game result. Juicy is an English loan and Chashu retains the Japanese roast-pork food name. Bounded searches found no reliable external English spelling; provisional project rendering.",
+      "sources": []
+    },
+    {
+      "id": "rocket_sausage",
+      "category": "pig_racer_name",
+      "japanese": [
+        "ロケットソーセージ"
+      ],
+      "english": "Rocket Sausage",
+      "status": "project_provisional_literal",
+      "game_source_observed": true,
+      "global_rows": [
+        4959
+      ],
+      "source_ids": [
+        "C050_PRO_000:4898"
+      ],
+      "source_file": "data/_scr/C050_PRO_000.txt",
+      "notes": "Second-place pig named in the game result. Straightforward restoration of the two English loan words. Bounded searches found no reliable official English rendering; provisional project name.",
+      "sources": []
+    },
+    {
+      "id": "kampo",
+      "category": "traditional_medicine_term",
+      "japanese": [
+        "カンポー",
+        "漢方"
+      ],
+      "english": "Kampo",
+      "status": "standard_romanization",
+      "game_source_observed": true,
+      "global_rows": [
+        4107
+      ],
+      "source_ids": [
+        "C040_MAL_000:4046"
+      ],
+      "source_file": "data/_scr/C040_MAL_000.txt",
+      "notes": "Standard spelling used by the Japanese biomedical institute. The game supplies its own fantasy-setting explanation; no claim of real efficacy is added.",
+      "sources": [
+        {
+          "url": "https://www.nibn.go.jp/en/activities/Medicinal-Plant-Screening.html",
+          "supports": "English use of Kampo medicine prescriptions."
+        }
+      ]
+    },
+    {
+      "id": "roti_roast",
+      "category": "culinary_term",
+      "japanese": [
+        "ロティ"
+      ],
+      "english": "rôti",
+      "status": "context_supported_dictionary_spelling",
+      "game_source_observed": true,
+      "global_rows": [
+        3456,
+        3459,
+        3468
+      ],
+      "source_ids": [
+        "C030_PRO_000:3395",
+        "C030_PRO_000:3398",
+        "C030_PRO_000:3407"
+      ],
+      "source_file": "data/_scr/C030_PRO_000.txt",
+      "notes": "The lamb context supports French rôti, a roast, rather than flatbread roti. Retained the unfamiliar French name because the characters ask what it means. Meaning is an inference from local food context plus the dictionary, not a claimed official localization.",
+      "sources": [
+        {
+          "url": "https://www.dictionnaire-academie.fr/article/A9R3006",
+          "supports": "French spelling and definition of rôti as roasted meat."
+        }
+      ]
+    },
+    {
+      "id": "zola_axberg",
+      "category": "character_full_name",
+      "japanese": [
+        "ゾーラ・アクスバリ"
+      ],
+      "english": "Zola Axberg",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "global_rows": [
+        2705
+      ],
+      "source_ids": [
+        "C020_PRO_000:2644"
+      ],
+      "source_file": "data/_scr/C020_PRO_000.txt",
+      "notes": "SRW Wiki foreign spelling is Zola AXBERG, with the matching Japanese full name; normalized surname case for dialogue. Its footnote cites the official character page, whose surname is not exposed in readable text and whose direct fetch timed out. Full-name spelling is wiki-verified, not independently verified from official pixels.",
+      "sources": [
+        {
+          "url": "https://srw.wiki.cre.jp/wiki/%E3%82%BE%E3%83%BC%E3%83%A9",
+          "supports": "Foreign spelling Zola AXBERG and matching Japanese full name; footnote cites official character page."
+        },
+        {
+          "url": "https://www.crossange.com/character/zola/",
+          "supports": "Official short name and identity; no readable-text surname confirmation."
+        }
+      ]
+    },
+    {
+      "id": "assault_trooper",
+      "category": "combat_role",
+      "japanese": [
+        "突撃兵"
+      ],
+      "english": "assault trooper",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "source_ids": [
+        "C000_HEV_020:570",
+        "C000_HEV_020:581",
+        "C000_HEV_020:584",
+        "C000_HEV_020:596"
+      ],
+      "global_rows": [
+        589,
+        600,
+        603,
+        615
+      ],
+      "source_file": "data/_scr/C000_HEV_020.txt",
+      "notes": "Front-line attacking role explicitly contrasted with a rear-support gunner in row589. Generic role, not an externally canonical class name; approved project convention."
+    },
+    {
+      "id": "gunner",
+      "category": "combat_role",
+      "japanese": [
+        "砲兵"
+      ],
+      "english": "gunner",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "source_ids": [
+        "C000_HEV_020:570",
+        "C000_HEV_020:582",
+        "C000_HEV_020:595",
+        "C000_HEV_020:601"
+      ],
+      "global_rows": [
+        589,
+        601,
+        614,
+        620
+      ],
+      "source_file": "data/_scr/C000_HEV_020.txt",
+      "notes": "Rear fire-support role explicitly contrasted with a front-line assault trooper in row589. Generic role, not an externally canonical class name; approved project convention."
+    },
+    {
+      "id": "ridiculous_princess",
+      "category": "derogatory_character_nickname",
+      "japanese": [
+        "イタ姫様"
+      ],
+      "english": "ridiculous princess",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "referent": "Ange",
+      "global_rows": [
+        1113,
+        1119
+      ],
+      "source_ids": [
+        "C010_HEP_HIL:1052",
+        "C010_HEP_HIL:1058"
+      ],
+      "source_file": "data/_scr/C010_HEP_HIL.txt",
+      "notes": "Hilda's sneering nickname for Ange, expressing contempt for her embarrassing princess behavior. Bounded English/Japanese web searches found no reliable canonical rendering; local source supplies direct evidence. Provisional translation, not a replacement for Ange's actual name."
+    },
+    {
+      "id": "type_1_combat_readiness",
+      "category": "operational_alert",
+      "japanese": [
+        "第一種戦闘態勢"
+      ],
+      "english": "Type 1 combat readiness",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        5594
+      ],
+      "source_ids": [
+        "C060_MAL_010:5532"
+      ],
+      "source_file": "data/_scr/C060_MAL_010.txt",
+      "notes": "Literal project rendering of the combat posture ordered after cancellation of the Type 1 encounter alert during a direct DRAGON attack on Arzenal. Local structured source supplies evidence; no externally verified official English equivalent claimed."
+    },
+    {
+      "id": "ration_s",
+      "category": "food_ration",
+      "japanese": [
+        "レーションＳ"
+      ],
+      "english": "Ration S",
+      "status": "source_latin_grade_preserved",
+      "game_source_observed": true,
+      "global_rows": [
+        5992,
+        5994,
+        6057
+      ],
+      "source_ids": [
+        "C070_HEV_010:5925",
+        "C070_HEV_010:5927",
+        "C070_HEV_010:5990"
+      ],
+      "source_file": "data/_scr/C070_HEV_010.txt",
+      "notes": "The local scene explicitly describes a nutritious special food ration, contrasted with ordinary Norma rations. Restore the English loanword and preserve its Latin grade S; no external canonical product name claimed."
+    },
+    {
+      "id": "alektra_full_name",
+      "category": "character_full_name",
+      "japanese": [
+        "アレクトラ・マリア・フォン・レーベンヘルツ"
+      ],
+      "english": "Alektra Maria von Loewenherz",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "referent": "Jill",
+      "global_rows": [
+        6484
+      ],
+      "source_ids": [
+        "C070_PRO_000:6417"
+      ],
+      "source_file": "data/_scr/C070_PRO_000.txt",
+      "notes": "Dedicated Jill wiki introduction gives this full spelling with the matching Japanese name. Its later narrative uses Levenherz; prefer the introduction. Official Jill page confirms her short name and commander identity but does not independently confirm the full surname. Full name is wiki-verified, not claimed official English localization.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Jill",
+          "supports": "Full name Alektra Maria von Loewenherz in introduction with matching Japanese."
+        },
+        {
+          "url": "https://www.crossange.com/character/jill/",
+          "supports": "Official Jill short name and commander identity only."
+        }
+      ]
+    },
+    {
+      "id": "lamia",
+      "category": "character",
+      "japanese": [
+        "ラミア"
+      ],
+      "english": "Lamia",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "global_rows": [
+        7020,
+        7040
+      ],
+      "source_ids": [
+        "C081_HEV_020:6952",
+        "C081_HEV_020:6972"
+      ],
+      "source_file": "data/_scr/C081_HEV_020.txt",
+      "notes": "Dedicated character wiki gives Lamia with matching Japanese spelling and identifies her as Vivian's mother. Do not insert the relationship before the dialogue reveals it. Full page direct fetch unavailable; indexed page content supplies spelling evidence, not independent official verification.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Lamia",
+          "supports": "Lamia spelling with matching Japanese and character identity."
+        }
+      ]
+    },
+    {
+      "id": "d_type_gene",
+      "category": "fictional_genetics",
+      "japanese": [
+        "Ｄ型遺伝子"
+      ],
+      "english": "D-type gene",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        6980
+      ],
+      "source_ids": [
+        "C081_HEV_020:6912"
+      ],
+      "source_file": "data/_scr/C081_HEV_020.txt",
+      "notes": "Literal translation of the fictional genetic classification in Kaname's treatment explanation, preserving the Latin marker D. The Vivian wiki describes stabilized D genes; no verified official wording for type or real genetic assertion claimed.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Vivian",
+          "supports": "Fictional human-form restoration through stabilization of D genes."
+        }
+      ]
+    },
+    {
+      "id": "dimensional_fusion",
+      "category": "fictional_process",
+      "japanese": [
+        "次元融合"
+      ],
+      "english": "dimensional fusion",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        10380,
+        10381,
+        10394
+      ],
+      "source_ids": [
+        "C101_MAL_010:10305",
+        "C101_MAL_010:10306",
+        "C101_MAL_010:10319"
+      ],
+      "source_files": [
+        "data/_scr/C101_MAL_010.txt"
+      ],
+      "notes": "Literal source terminology for merging the two Earths; game wiki corroborates the process and English wording. External summary used for terminology only, never copied as dialogue.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "Game route summary names the Dimensional Fusion plan and the merging of two Earths."
+        }
+      ]
+    },
+    {
+      "id": "d_brane_resonator",
+      "category": "fictional_component",
+      "japanese": [
+        "Ｄブレーン共振器"
+      ],
+      "english": "D-brane resonator",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        10348
+      ],
+      "source_ids": [
+        "C101_MAL_000:10273"
+      ],
+      "source_files": [
+        "data/_scr/C101_MAL_000.txt"
+      ],
+      "notes": "Provisional literal component translation preserving D. No game-specific external English wording verified; real D-brane terminology does not establish fictional device function.",
+      "sources": []
+    },
+    {
+      "id": "dragon_princess",
+      "category": "character_nickname",
+      "japanese": [
+        "ドラ姫様"
+      ],
+      "english": "Dragon Princess",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        10397
+      ],
+      "source_ids": [
+        "C101_MAL_010:10322"
+      ],
+      "source_files": [
+        "data/_scr/C101_MAL_010.txt"
+      ],
+      "notes": "Transparent Hilda nickname for Sala, resolved by the allied DRAGON force preparing to sortie. Project translation, not a verified external canonical title.",
+      "sources": []
+    },
+    {
+      "id": "holy_knight_lillian",
+      "category": "fictional_media_title",
+      "japanese": [
+        "聖騎士リリアン"
+      ],
+      "english": "Holy Knight Lillian",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        10706
+      ],
+      "source_ids": [
+        "C103_HEV_010:10628"
+      ],
+      "source_files": [
+        "data/_scr/C103_HEV_010.txt"
+      ],
+      "notes": "Provisional literal title and name romanization for an in-world anime seen at Festa. Focused official/wiki search did not establish an English title; do not silently expand to Pretty Lillian or claim canonical spelling.",
+      "sources": []
+    },
+    {
+      "id": "arzenal_academy",
+      "category": "school_setting_location",
+      "japanese": [
+        "アルゼナル学園"
+      ],
+      "english": "Arzenal Academy",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        11474,
+        11498,
+        11504
+      ],
+      "source_ids": [
+        "C113_END_000:11396",
+        "C113_END_000:11420",
+        "C113_END_000:11426"
+      ],
+      "source_files": [
+        "data/_scr/C113_END_000.txt"
+      ],
+      "notes": "Provisional source-literal school name in the separate academy-setting ending. Private-school status is retained in dialogue. No external game-specific English wording verified; distinct from military Arzenal, Ho-o Institute and Floria Academy.",
+      "sources": []
+    },
+    {
+      "id": "namahage",
+      "category": "cultural_reference",
+      "japanese": [
+        "なまはげ"
+      ],
+      "english": "Namahage",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        13273
+      ],
+      "source_ids": [
+        "TIM_VIV_000:12540"
+      ],
+      "source_files": [
+        "data/_scr/TIM_VIV_000.txt"
+      ],
+      "notes": "Japanese visiting-deity ritual reference used by Vivian as an insult against Salia's strict discipline. Retain the cultural name; the museum describes warnings against laziness and threats to take disobedient children away. Not a new fictional character or ordinary evil demon.",
+      "sources": [
+        {
+          "url": "https://namahage.co.jp/namahagekan/en/oga_shinzan_folklore_museum/",
+          "supports": "Official museum English spelling and traditional warnings against laziness and disobedience."
+        }
+      ]
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added two short combat-role conventions, one provisional derogatory character nickname, the researched Zola Axberg full name, the context-supported culinary term rôti, standard Kampo spelling and three provisional pig-racer names, without dialogue text."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added short provisional Type 1 combat readiness terminology with local source evidence."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added source-backed Ration S food terminology while preserving its grade."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added wiki-verified full former name Alektra Maria von Loewenherz with explicit source limits."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added wiki-verified Lamia name and literal fictional D-type gene classification."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added short dimensional fusion terminology, provisional D-brane resonator component and source-resolved Dragon Princess nickname without dialogue."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added short terms without dialogue: Holy Knight Lillian."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added short terms without dialogue: Arzenal Academy."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added short terms without dialogue: Namahage."
+      ]
+    }
+  ]
+}

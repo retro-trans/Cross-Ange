@@ -1,0 +1,2256 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 880,
+    "last_id": 959,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      870,
+      969
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_needs_review": 25,
+    "unchanged_existing_english": 6,
+    "translated_draft": 49
+  },
+  "japanese_source_rows": 74,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 880,
+      "key": "STR_ITM_ROCKET_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7060,
+      "label_offset": 60388,
+      "source_offset": 49108,
+      "source_bytes": 22,
+      "en": "RKT04 Rabbit Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49108,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "RKT04 Rabbit Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 881,
+      "key": "STR_ITM_ROCKET_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7068,
+      "label_offset": 60424,
+      "source_offset": 49132,
+      "source_bytes": 26,
+      "en": "RKT07 Rabbit Type IIG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49132,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT07 Rabbit Type IIG"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 882,
+      "key": "STR_ITM_ROCKET_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7076,
+      "label_offset": 60460,
+      "source_offset": 49160,
+      "source_bytes": 22,
+      "en": "Type H8R-MG213G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49160,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Type H8R-MG213G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 883,
+      "key": "STR_ITM_ROCKET_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7084,
+      "label_offset": 60496,
+      "source_offset": 49184,
+      "source_bytes": 26,
+      "en": "RKT11 Rabbit Type IVG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49184,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT11 Rabbit Type IVG"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 884,
+      "key": "STR_ITM_ROCKET_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7092,
+      "label_offset": 60532,
+      "source_offset": 49212,
+      "source_bytes": 26,
+      "en": "RKT13 Tatchiadesu Type G",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49212,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT13 Tatchiadesu Type G"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 885,
+      "key": "STR_ITM_ROCKET_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7100,
+      "label_offset": 60568,
+      "source_offset": 49240,
+      "source_bytes": 22,
+      "en": "Type H8R-MG221H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49240,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Type H8R-MG221H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_06",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 886,
+      "key": "STR_ITM_ROCKET_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7108,
+      "label_offset": 60604,
+      "source_offset": 49264,
+      "source_bytes": 22,
+      "en": "RKT04 Rabbit Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49264,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "RKT04 Rabbit Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_07",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 887,
+      "key": "STR_ITM_ROCKET_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7116,
+      "label_offset": 60640,
+      "source_offset": 49288,
+      "source_bytes": 26,
+      "en": "RKT07 Rabbit Type IIH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49288,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT07 Rabbit Type IIH"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_08",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 888,
+      "key": "STR_ITM_ROCKET_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7124,
+      "label_offset": 60676,
+      "source_offset": 49316,
+      "source_bytes": 22,
+      "en": "Type H8R-MG213H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49316,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Type H8R-MG213H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_09",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 889,
+      "key": "STR_ITM_ROCKET_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7132,
+      "label_offset": 60712,
+      "source_offset": 49340,
+      "source_bytes": 26,
+      "en": "RKT11 Rabbit Type IVH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49340,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT11 Rabbit Type IVH"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_10",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 890,
+      "key": "STR_ITM_ROCKET_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7140,
+      "label_offset": 60748,
+      "source_offset": 49368,
+      "source_bytes": 26,
+      "en": "RKT13 Tatchiadesu Type H",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49368,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "RKT13 Tatchiadesu Type H"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rocket_11",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 891,
+      "key": "STR_ITM_CANNON_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7148,
+      "label_offset": 60784,
+      "source_offset": 49396,
+      "source_bytes": 28,
+      "en": "M23 Woruban Cannon Type G R/C",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49396,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "M23 Woruban Cannon Type G R/C"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_cannon_12",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 892,
+      "key": "STR_ITM_GRENADE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7156,
+      "label_offset": 60820,
+      "source_offset": 49428,
+      "source_bytes": 36,
+      "en": "SN201HE-144mmE・C/C",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49428,
+          "source_bytes": 36,
+          "contains_japanese": false,
+          "en": "SN201HE-144mmE・C/C"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_grenade_06",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 893,
+      "key": "STR_ITM_GADGET_GRENADE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7164,
+      "label_offset": 60856,
+      "source_offset": 49468,
+      "source_bytes": 22,
+      "en": "GDHE37 Beer Pot",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49468,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "GDHE37 Beer Pot"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 894,
+      "key": "STR_ITM_GADGET_GRENADE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7172,
+      "label_offset": 60892,
+      "source_offset": 49492,
+      "source_bytes": 24,
+      "en": "GDSW41-HG114",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49492,
+          "source_bytes": 24,
+          "contains_japanese": false,
+          "en": "GDSW41-HG114"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 895,
+      "key": "STR_ITM_GADGET_GRENADE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7180,
+      "label_offset": 60928,
+      "source_offset": 49520,
+      "source_bytes": 28,
+      "en": "GDSWHE-T10 Frog",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49520,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "GDSWHE-T10 Frog"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 896,
+      "key": "STR_ITM_GADGET_GRENADE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7188,
+      "label_offset": 60964,
+      "source_offset": 49552,
+      "source_bytes": 20,
+      "en": "GD-T11 Furogga",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49552,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "GD-T11 Furogga"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 897,
+      "key": "STR_ITM_GADGET_GRENADE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7196,
+      "label_offset": 61000,
+      "source_offset": 49576,
+      "source_bytes": 22,
+      "en": "GD43-HEBM20",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49576,
+          "source_bytes": 22,
+          "contains_japanese": false,
+          "en": "GD43-HEBM20"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_04",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 898,
+      "key": "STR_ITM_GADGET_GRENADE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7204,
+      "label_offset": 61036,
+      "source_offset": 49600,
+      "source_bytes": 28,
+      "en": "GDHE56 Barrel to Pop",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49600,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "GDHE56 Barrel to Pop"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_grenade_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 899,
+      "key": "STR_ITM_GADGET_MISSILE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7212,
+      "label_offset": 61072,
+      "source_offset": 49632,
+      "source_bytes": 26,
+      "en": "GDGM-424 Babe Bee",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49632,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "GDGM-424 Babe Bee"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 900,
+      "key": "STR_ITM_GADGET_MISSILE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7220,
+      "label_offset": 61108,
+      "source_offset": 49660,
+      "source_bytes": 24,
+      "en": "GDGM Carpenter Bee",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49660,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "GDGM Carpenter Bee"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 901,
+      "key": "STR_ITM_GADGET_MISSILE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7228,
+      "label_offset": 61144,
+      "source_offset": 49688,
+      "source_bytes": 26,
+      "en": "GDGM-401 Hornet",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49688,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "GDGM-401 Hornet"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 902,
+      "key": "STR_ITM_GADGET_MISSILE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7236,
+      "label_offset": 61180,
+      "source_offset": 49716,
+      "source_bytes": 24,
+      "en": "GDGM-511 Swallow",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49716,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "GDGM-511 Swallow"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 903,
+      "key": "STR_ITM_GADGET_MISSILE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7244,
+      "label_offset": 61216,
+      "source_offset": 49744,
+      "source_bytes": 18,
+      "en": "GDGM Dolphin",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49744,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "GDGM Dolphin"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 904,
+      "key": "STR_ITM_GADGET_MISSILE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7252,
+      "label_offset": 61252,
+      "source_offset": 49764,
+      "source_bytes": 30,
+      "en": "GDGM-388 Slow Stitch",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49764,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "GDGM-388 Slow Stitch"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_missile_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 905,
+      "key": "STR_ITM_GADGET_ROCKET_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7260,
+      "label_offset": 61288,
+      "source_offset": 49796,
+      "source_bytes": 26,
+      "en": "GDR-A7 Pin Bowling",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49796,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "GDR-A7 Pin Bowling"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 906,
+      "key": "STR_ITM_GADGET_ROCKET_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7268,
+      "label_offset": 61324,
+      "source_offset": 49824,
+      "source_bytes": 24,
+      "en": "GDR455No.2PT",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49824,
+          "source_bytes": 24,
+          "contains_japanese": false,
+          "en": "GDR455No.2PT"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 907,
+      "key": "STR_ITM_GADGET_ROCKET_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7276,
+      "label_offset": 61360,
+      "source_offset": 49852,
+      "source_bytes": 20,
+      "en": "GDR-A10PT1",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49852,
+          "source_bytes": 20,
+          "contains_japanese": false,
+          "en": "GDR-A10PT1"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_02",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 908,
+      "key": "STR_ITM_GADGET_ROCKET_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7284,
+      "label_offset": 61396,
+      "source_offset": 49876,
+      "source_bytes": 28,
+      "en": "GDR454No.8/240",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49876,
+          "source_bytes": 28,
+          "contains_japanese": false,
+          "en": "GDR454No.8/240"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 909,
+      "key": "STR_ITM_GADGET_ROCKET_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7292,
+      "label_offset": 61432,
+      "source_offset": 49908,
+      "source_bytes": 22,
+      "en": "GDR-A11 Shark",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49908,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "GDR-A11 Shark"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 910,
+      "key": "STR_ITM_GADGET_ROCKET_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7300,
+      "label_offset": 61468,
+      "source_offset": 49932,
+      "source_bytes": 28,
+      "en": "GDR-A2 Sailfish",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49932,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "GDR-A2 Sailfish"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_gadget_rocket_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 911,
+      "key": "STR_ITM_PARTS_ENGINE_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7308,
+      "label_offset": 61504,
+      "source_offset": 49964,
+      "source_bytes": 20,
+      "en": "Engine ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49964,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 912,
+      "key": "STR_ITM_PARTS_ENGINE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7316,
+      "label_offset": 61540,
+      "source_offset": 49988,
+      "source_bytes": 20,
+      "en": "Engine ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 49988,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 913,
+      "key": "STR_ITM_PARTS_ENGINE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7324,
+      "label_offset": 61576,
+      "source_offset": 50012,
+      "source_bytes": 20,
+      "en": "Engine ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50012,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 914,
+      "key": "STR_ITM_PARTS_ENGINE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7332,
+      "label_offset": 61612,
+      "source_offset": 50036,
+      "source_bytes": 20,
+      "en": "Engine ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50036,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 915,
+      "key": "STR_ITM_PARTS_ENGINE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7340,
+      "label_offset": 61648,
+      "source_offset": 50060,
+      "source_bytes": 20,
+      "en": "Engine ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50060,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 916,
+      "key": "STR_ITM_PARTS_ENGINE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7348,
+      "label_offset": 61684,
+      "source_offset": 50084,
+      "source_bytes": 20,
+      "en": "Engine ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50084,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 917,
+      "key": "STR_ITM_PARTS_ENGINE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7356,
+      "label_offset": 61720,
+      "source_offset": 50108,
+      "source_bytes": 20,
+      "en": "Engine ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50108,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 918,
+      "key": "STR_ITM_PARTS_ENGINE_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7364,
+      "label_offset": 61756,
+      "source_offset": 50132,
+      "source_bytes": 20,
+      "en": "Engine ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50132,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 919,
+      "key": "STR_ITM_PARTS_ENGINE_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7372,
+      "label_offset": 61792,
+      "source_offset": 50156,
+      "source_bytes": 20,
+      "en": "Engine ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50156,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 920,
+      "key": "STR_ITM_PARTS_ENGINE_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7380,
+      "label_offset": 61828,
+      "source_offset": 50180,
+      "source_bytes": 20,
+      "en": "Engine ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50180,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Engine ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_engine_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 921,
+      "key": "STR_ITM_PARTS_WINGUNIT_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7388,
+      "label_offset": 61864,
+      "source_offset": 50204,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50204,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 922,
+      "key": "STR_ITM_PARTS_WINGUNIT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7396,
+      "label_offset": 61900,
+      "source_offset": 50232,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50232,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 923,
+      "key": "STR_ITM_PARTS_WINGUNIT_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7404,
+      "label_offset": 61936,
+      "source_offset": 50260,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50260,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 924,
+      "key": "STR_ITM_PARTS_WINGUNIT_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7412,
+      "label_offset": 61972,
+      "source_offset": 50288,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50288,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 925,
+      "key": "STR_ITM_PARTS_WINGUNIT_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7420,
+      "label_offset": 62008,
+      "source_offset": 50316,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50316,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 926,
+      "key": "STR_ITM_PARTS_WINGUNIT_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7428,
+      "label_offset": 62044,
+      "source_offset": 50344,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50344,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 927,
+      "key": "STR_ITM_PARTS_WINGUNIT_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7436,
+      "label_offset": 62080,
+      "source_offset": 50372,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50372,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 928,
+      "key": "STR_ITM_PARTS_WINGUNIT_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7444,
+      "label_offset": 62116,
+      "source_offset": 50400,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50400,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 929,
+      "key": "STR_ITM_PARTS_WINGUNIT_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7452,
+      "label_offset": 62152,
+      "source_offset": 50428,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50428,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 930,
+      "key": "STR_ITM_PARTS_WINGUNIT_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7460,
+      "label_offset": 62188,
+      "source_offset": 50456,
+      "source_bytes": 24,
+      "en": "Main-Wing Controller ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50456,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Main-Wing Controller ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_wingunit_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 931,
+      "key": "STR_ITM_PARTS_BATTERY_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7468,
+      "label_offset": 62224,
+      "source_offset": 50484,
+      "source_bytes": 22,
+      "en": "Battery ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50484,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 932,
+      "key": "STR_ITM_PARTS_BATTERY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7476,
+      "label_offset": 62260,
+      "source_offset": 50508,
+      "source_bytes": 22,
+      "en": "Battery ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50508,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 933,
+      "key": "STR_ITM_PARTS_BATTERY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7484,
+      "label_offset": 62296,
+      "source_offset": 50532,
+      "source_bytes": 22,
+      "en": "Battery ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50532,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 934,
+      "key": "STR_ITM_PARTS_BATTERY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7492,
+      "label_offset": 62332,
+      "source_offset": 50556,
+      "source_bytes": 22,
+      "en": "Battery ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50556,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 935,
+      "key": "STR_ITM_PARTS_BATTERY_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7500,
+      "label_offset": 62368,
+      "source_offset": 50580,
+      "source_bytes": 22,
+      "en": "Battery ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50580,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 936,
+      "key": "STR_ITM_PARTS_BATTERY_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7508,
+      "label_offset": 62404,
+      "source_offset": 50604,
+      "source_bytes": 22,
+      "en": "Battery ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50604,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 937,
+      "key": "STR_ITM_PARTS_BATTERY_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7516,
+      "label_offset": 62440,
+      "source_offset": 50628,
+      "source_bytes": 22,
+      "en": "Battery ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50628,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 938,
+      "key": "STR_ITM_PARTS_BATTERY_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7524,
+      "label_offset": 62476,
+      "source_offset": 50652,
+      "source_bytes": 22,
+      "en": "Battery ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50652,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 939,
+      "key": "STR_ITM_PARTS_BATTERY_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7532,
+      "label_offset": 62512,
+      "source_offset": 50676,
+      "source_bytes": 22,
+      "en": "Battery ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50676,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 940,
+      "key": "STR_ITM_PARTS_BATTERY_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7540,
+      "label_offset": 62548,
+      "source_offset": 50700,
+      "source_bytes": 22,
+      "en": "Battery ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50700,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Battery ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_battery_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 941,
+      "key": "STR_ITM_PARTS_TRANSFOR_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7548,
+      "label_offset": 62584,
+      "source_offset": 50724,
+      "source_bytes": 20,
+      "en": "Transformer ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50724,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 942,
+      "key": "STR_ITM_PARTS_TRANSFOR_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7556,
+      "label_offset": 62620,
+      "source_offset": 50748,
+      "source_bytes": 20,
+      "en": "Transformer ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50748,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 943,
+      "key": "STR_ITM_PARTS_TRANSFOR_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7564,
+      "label_offset": 62656,
+      "source_offset": 50772,
+      "source_bytes": 20,
+      "en": "Transformer ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50772,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 944,
+      "key": "STR_ITM_PARTS_TRANSFOR_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7572,
+      "label_offset": 62692,
+      "source_offset": 50796,
+      "source_bytes": 20,
+      "en": "Transformer ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50796,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 945,
+      "key": "STR_ITM_PARTS_TRANSFOR_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7580,
+      "label_offset": 62728,
+      "source_offset": 50820,
+      "source_bytes": 20,
+      "en": "Transformer ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50820,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 946,
+      "key": "STR_ITM_PARTS_TRANSFOR_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7588,
+      "label_offset": 62764,
+      "source_offset": 50844,
+      "source_bytes": 20,
+      "en": "Transformer ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50844,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 947,
+      "key": "STR_ITM_PARTS_TRANSFOR_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7596,
+      "label_offset": 62800,
+      "source_offset": 50868,
+      "source_bytes": 20,
+      "en": "Transformer ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50868,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 948,
+      "key": "STR_ITM_PARTS_TRANSFOR_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7604,
+      "label_offset": 62836,
+      "source_offset": 50892,
+      "source_bytes": 20,
+      "en": "Transformer ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50892,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 949,
+      "key": "STR_ITM_PARTS_TRANSFOR_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7612,
+      "label_offset": 62872,
+      "source_offset": 50916,
+      "source_bytes": 20,
+      "en": "Transformer ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50916,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_08",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 950,
+      "key": "STR_ITM_PARTS_TRANSFOR_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7620,
+      "label_offset": 62908,
+      "source_offset": 50940,
+      "source_bytes": 20,
+      "en": "Transformer ClassS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50940,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Transformer ClassS"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_transfor_09",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 951,
+      "key": "STR_ITM_PARTS_COATING_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7628,
+      "label_offset": 62944,
+      "source_offset": 50964,
+      "source_bytes": 24,
+      "en": "Coating ClassI",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50964,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassI"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_00",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 952,
+      "key": "STR_ITM_PARTS_COATING_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7636,
+      "label_offset": 62980,
+      "source_offset": 50992,
+      "source_bytes": 24,
+      "en": "Coating ClassH",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 50992,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassH"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_01",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 953,
+      "key": "STR_ITM_PARTS_COATING_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7644,
+      "label_offset": 63016,
+      "source_offset": 51020,
+      "source_bytes": 24,
+      "en": "Coating ClassG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51020,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassG"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_02",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 954,
+      "key": "STR_ITM_PARTS_COATING_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7652,
+      "label_offset": 63052,
+      "source_offset": 51048,
+      "source_bytes": 24,
+      "en": "Coating ClassF",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51048,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassF"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_03",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 955,
+      "key": "STR_ITM_PARTS_COATING_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7660,
+      "label_offset": 63088,
+      "source_offset": 51076,
+      "source_bytes": 24,
+      "en": "Coating ClassE",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51076,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassE"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_04",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 956,
+      "key": "STR_ITM_PARTS_COATING_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7668,
+      "label_offset": 63124,
+      "source_offset": 51104,
+      "source_bytes": 24,
+      "en": "Coating ClassD",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51104,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassD"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_05",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 957,
+      "key": "STR_ITM_PARTS_COATING_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7676,
+      "label_offset": 63160,
+      "source_offset": 51132,
+      "source_bytes": 24,
+      "en": "Coating ClassC",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51132,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassC"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_06",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 958,
+      "key": "STR_ITM_PARTS_COATING_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7684,
+      "label_offset": 63196,
+      "source_offset": 51160,
+      "source_bytes": 24,
+      "en": "Coating ClassB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51160,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassB"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_07",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 959,
+      "key": "STR_ITM_PARTS_COATING_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 7692,
+      "label_offset": 63232,
+      "source_offset": 51188,
+      "source_bytes": 24,
+      "en": "Coating ClassA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 51188,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Coating ClassA"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_parts_coating_08",
+      "glossary_status": "project_convention"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

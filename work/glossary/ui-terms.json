@@ -1,0 +1,2802 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "policy": "Glossary-first; names/short UI labels only, no dialogue source. Canonical spelling distinguished from project variants and provisional choices.",
+  "terms": [
+    {
+      "id": "ui_term_161",
+      "category": "location_label",
+      "japanese": [
+        "司令室"
+      ],
+      "source_display_label_jp": "#E司令室",
+      "english": "Command Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 161,
+        "key": "STR_LOUNGE_EVENT_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_162",
+      "category": "location_label",
+      "japanese": [
+        "ジャスミンモール"
+      ],
+      "source_display_label_jp": "#Eジャスミンモール",
+      "english": "Jasmine Mall",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 162,
+        "key": "STR_LOUNGE_EVENT_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_163",
+      "category": "location_label",
+      "japanese": [
+        "食　堂",
+        "食堂"
+      ],
+      "source_display_label_jp": "#E食　堂",
+      "english": "Mess Hall",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 163,
+        "key": "STR_LOUNGE_EVENT_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_164",
+      "category": "location_label",
+      "japanese": [
+        "宿　舎",
+        "宿舎"
+      ],
+      "source_display_label_jp": "#E宿　舎",
+      "english": "Dormitory",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 164,
+        "key": "STR_LOUNGE_EVENT_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_165",
+      "category": "location_label",
+      "japanese": [
+        "ブリーフィングルーム"
+      ],
+      "source_display_label_jp": "#Eブリーフィングルーム",
+      "english": "Briefing Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 165,
+        "key": "STR_LOUNGE_EVENT_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_166",
+      "category": "location_label",
+      "japanese": [
+        "通　路",
+        "通路"
+      ],
+      "source_display_label_jp": "#E通　路",
+      "english": "Corridor",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 166,
+        "key": "STR_LOUNGE_EVENT_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_167",
+      "category": "location_label",
+      "japanese": [
+        "更衣室"
+      ],
+      "source_display_label_jp": "#E更衣室",
+      "english": "Changing Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 167,
+        "key": "STR_LOUNGE_EVENT_07"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_168",
+      "category": "location_label",
+      "japanese": [
+        "格納庫"
+      ],
+      "source_display_label_jp": "#E格納庫",
+      "english": "Hangar",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 168,
+        "key": "STR_LOUNGE_EVENT_08"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_169",
+      "category": "location_label",
+      "japanese": [
+        "フェスタ会場"
+      ],
+      "source_display_label_jp": "#Eフェスタ会場",
+      "english": "Festa Grounds",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 169,
+        "key": "STR_LOUNGE_EVENT_09"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_170",
+      "category": "location_label",
+      "japanese": [
+        "フェスタビーチ"
+      ],
+      "source_display_label_jp": "#Eフェスタビーチ",
+      "english": "Festa Beach",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 170,
+        "key": "STR_LOUNGE_EVENT_10"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_171",
+      "category": "location_label",
+      "japanese": [
+        "デッキ"
+      ],
+      "source_display_label_jp": "#Eデッキ",
+      "english": "Deck",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 171,
+        "key": "STR_LOUNGE_EVENT_11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_172",
+      "category": "location_label",
+      "japanese": [
+        "アルゼナル屋外"
+      ],
+      "source_display_label_jp": "#Eアルゼナル屋外",
+      "english": "Arzenal Exterior",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 172,
+        "key": "STR_LOUNGE_EVENT_12"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_173",
+      "category": "location_label",
+      "japanese": [
+        "崩壊した反省房"
+      ],
+      "source_display_label_jp": "#E崩壊した反省房",
+      "english": "Ruined Disciplinary Cell",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 173,
+        "key": "STR_LOUNGE_EVENT_13"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_174",
+      "category": "location_label",
+      "japanese": [
+        "崩壊したブリーフィングルーム"
+      ],
+      "source_display_label_jp": "#E崩壊したブリーフィングルーム",
+      "english": "Ruined Briefing Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 174,
+        "key": "STR_LOUNGE_EVENT_14"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_175",
+      "category": "location_label",
+      "japanese": [
+        "崩壊したデッキ"
+      ],
+      "source_display_label_jp": "#E崩壊したデッキ",
+      "english": "Ruined Deck",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 175,
+        "key": "STR_LOUNGE_EVENT_15"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_176",
+      "category": "location_label",
+      "japanese": [
+        "謁見の間"
+      ],
+      "source_display_label_jp": "#E謁見の間",
+      "english": "Audience Chamber",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 176,
+        "key": "STR_LOUNGE_EVENT_16"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_177",
+      "category": "location_label",
+      "japanese": [
+        "神殿前"
+      ],
+      "source_display_label_jp": "#E神殿前",
+      "english": "Temple Entrance",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 177,
+        "key": "STR_LOUNGE_EVENT_17"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_178",
+      "category": "location_label",
+      "japanese": [
+        "医務室"
+      ],
+      "source_display_label_jp": "#E医務室",
+      "english": "Infirmary",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 178,
+        "key": "STR_LOUNGE_EVENT_18"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_179",
+      "category": "location_label",
+      "japanese": [
+        "アウローラ　食堂",
+        "アウローラ食堂"
+      ],
+      "source_display_label_jp": "#Eアウローラ　食堂",
+      "english": "Aurora Mess Hall",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 179,
+        "key": "STR_LOUNGE_EVENT_19"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_180",
+      "category": "location_label",
+      "japanese": [
+        "アウローラ　シャワー室",
+        "アウローラシャワー室"
+      ],
+      "source_display_label_jp": "#Eアウローラ　シャワー室",
+      "english": "Aurora Shower Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 180,
+        "key": "STR_LOUNGE_EVENT_20"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_181",
+      "category": "location_label",
+      "japanese": [
+        "アウローラ　格納庫",
+        "アウローラ格納庫"
+      ],
+      "source_display_label_jp": "#Eアウローラ　格納庫",
+      "english": "Aurora Hangar",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 181,
+        "key": "STR_LOUNGE_EVENT_21"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_182",
+      "category": "location_label",
+      "japanese": [
+        "アウローラ　居室",
+        "アウローラ居室"
+      ],
+      "source_display_label_jp": "#Eアウローラ　居室",
+      "english": "Aurora Quarters",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 182,
+        "key": "STR_LOUNGE_EVENT_22"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_183",
+      "category": "location_label",
+      "japanese": [
+        "ミスルギ宮　図書寮",
+        "ミスルギ宮図書寮"
+      ],
+      "source_display_label_jp": "#Eミスルギ宮　図書寮",
+      "english": "Misurugi Palace Library",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 183,
+        "key": "STR_LOUNGE_EVENT_23"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_184",
+      "category": "location_label",
+      "japanese": [
+        "ミスルギ宮　居室",
+        "ミスルギ宮居室"
+      ],
+      "source_display_label_jp": "#Eミスルギ宮　居室",
+      "english": "Misurugi Palace Quarters",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 184,
+        "key": "STR_LOUNGE_EVENT_24"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_185",
+      "category": "location_label",
+      "japanese": [
+        "エンブリヲの庭"
+      ],
+      "source_display_label_jp": "#Eエンブリヲの庭",
+      "english": "Embryo's Garden",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 185,
+        "key": "STR_LOUNGE_EVENT_25"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_186",
+      "category": "location_label",
+      "japanese": [
+        "ミスルギ皇国市街地"
+      ],
+      "source_display_label_jp": "#Eミスルギ皇国市街地",
+      "english": "Empire of Misurugi City Streets",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 186,
+        "key": "STR_LOUNGE_EVENT_26"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_187",
+      "category": "location_label",
+      "japanese": [
+        "アウローラ　司令室",
+        "アウローラ司令室"
+      ],
+      "source_display_label_jp": "#Eアウローラ　司令室",
+      "english": "Aurora Command Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 187,
+        "key": "STR_LOUNGE_EVENT_27"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_188",
+      "category": "location_label",
+      "japanese": [
+        "アウラの間"
+      ],
+      "source_display_label_jp": "#Eアウラの間",
+      "english": "Aura's Chamber",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 188,
+        "key": "STR_LOUNGE_EVENT_28"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_189",
+      "category": "location_label",
+      "japanese": [
+        "崩壊した格納庫"
+      ],
+      "source_display_label_jp": "#E崩壊した格納庫",
+      "english": "Ruined Hangar",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 189,
+        "key": "STR_LOUNGE_EVENT_29"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_190",
+      "category": "location_label",
+      "japanese": [
+        "シャワー室"
+      ],
+      "source_display_label_jp": "#Eシャワー室",
+      "english": "Shower Room",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 190,
+        "key": "STR_LOUNGE_EVENT_30"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_275",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "所持金"
+      ],
+      "source_display_label_jp": "所持金",
+      "english": "Funds",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 275,
+        "key": "STR_HANGAR_SYSTEM_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_276",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "借金"
+      ],
+      "source_display_label_jp": "借金",
+      "english": "Debt",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 276,
+        "key": "STR_HANGAR_SYSTEM_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_277",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "可能"
+      ],
+      "source_display_label_jp": "可能",
+      "english": "Available",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 277,
+        "key": "STR_HANGAR_SYSTEM_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_278",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "不可"
+      ],
+      "source_display_label_jp": "不可",
+      "english": "Unavailable",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 278,
+        "key": "STR_HANGAR_SYSTEM_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_279",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "返済"
+      ],
+      "source_display_label_jp": "返済",
+      "english": "Repay",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 279,
+        "key": "STR_HANGAR_SYSTEM_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_280",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "全額返済"
+      ],
+      "source_display_label_jp": "全額返済",
+      "english": "Repay in Full",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 280,
+        "key": "STR_HANGAR_SYSTEM_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_320",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "耐久度"
+      ],
+      "source_display_label_jp": "耐久度",
+      "english": "Durability",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 320,
+        "key": "STR_HANGAR_STATUS_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_321",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "攻撃力"
+      ],
+      "source_display_label_jp": "攻撃力",
+      "english": "Attack Power",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 321,
+        "key": "STR_HANGAR_STATUS_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_322",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "防御力"
+      ],
+      "source_display_label_jp": "防御力",
+      "english": "Defense",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 322,
+        "key": "STR_HANGAR_STATUS_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_323",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "射撃精度"
+      ],
+      "source_display_label_jp": "射撃精度",
+      "english": "Shooting Accuracy",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 323,
+        "key": "STR_HANGAR_STATUS_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_324",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "集弾率"
+      ],
+      "source_display_label_jp": "集弾率",
+      "english": "Shot Grouping",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 324,
+        "key": "STR_HANGAR_STATUS_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_325",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "有効射程"
+      ],
+      "source_display_label_jp": "有効射程",
+      "english": "Effective Range",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 325,
+        "key": "STR_HANGAR_STATUS_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_326",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "弾種"
+      ],
+      "source_display_label_jp": "弾種",
+      "english": "Ammo Type",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 326,
+        "key": "STR_HANGAR_STATUS_07"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_327",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ガジェット"
+      ],
+      "source_display_label_jp": "ガジェット",
+      "english": "Gadget",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 327,
+        "key": "STR_HANGAR_STATUS_08"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_328",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "推進力"
+      ],
+      "source_display_label_jp": "推進力",
+      "english": "Thrust",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 328,
+        "key": "STR_HANGAR_STATUS_09"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_329",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ブースト量"
+      ],
+      "source_display_label_jp": "ブースト量",
+      "english": "Boost Capacity",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 329,
+        "key": "STR_HANGAR_STATUS_10"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_330",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "旋回能力"
+      ],
+      "source_display_label_jp": "旋回能力",
+      "english": "Turning Performance",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 330,
+        "key": "STR_HANGAR_STATUS_11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_331",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "素早さ"
+      ],
+      "source_display_label_jp": "素早さ",
+      "english": "Agility",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 331,
+        "key": "STR_HANGAR_STATUS_12"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_332",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ヒート回復"
+      ],
+      "source_display_label_jp": "ヒート回復",
+      "english": "Heat Recovery",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 332,
+        "key": "STR_HANGAR_STATUS_13"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_333",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "可能"
+      ],
+      "source_display_label_jp": "可能",
+      "english": "Available",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 333,
+        "key": "STR_HANGAR_STATUS_14"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_334",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "不可"
+      ],
+      "source_display_label_jp": "不可",
+      "english": "Unavailable",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 334,
+        "key": "STR_HANGAR_STATUS_15"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_335",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "支援タイプ"
+      ],
+      "source_display_label_jp": "支援タイプ",
+      "english": "Support Type",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 335,
+        "key": "STR_ASSIST_NAME"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_336",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "攻撃型"
+      ],
+      "source_display_label_jp": "攻撃型",
+      "english": "Attack Type",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 336,
+        "key": "STR_ASSIST_TYPE_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_337",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "防御型"
+      ],
+      "source_display_label_jp": "防御型",
+      "english": "Defense Type",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 337,
+        "key": "STR_ASSIST_TYPE_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_338",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "回復型"
+      ],
+      "source_display_label_jp": "回復型",
+      "english": "Recovery Type",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 338,
+        "key": "STR_ASSIST_TYPE_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_339",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "フレーム"
+      ],
+      "source_display_label_jp": "フレーム",
+      "english": "Frame",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 339,
+        "key": "STR_HANGAR_FRAME_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_340",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ソード"
+      ],
+      "source_display_label_jp": "ソード",
+      "english": "Sword",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 340,
+        "key": "STR_HANGAR_ARMS_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_341",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ハルバード"
+      ],
+      "source_display_label_jp": "ハルバード",
+      "english": "Halberd",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 341,
+        "key": "STR_HANGAR_ARMS_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_342",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ブレード"
+      ],
+      "source_display_label_jp": "ブレード",
+      "english": "Blade",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 342,
+        "key": "STR_HANGAR_ARMS_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_343",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ナックル"
+      ],
+      "source_display_label_jp": "ナックル",
+      "english": "Knuckle",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 343,
+        "key": "STR_HANGAR_ARMS_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_344",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ブーメラン"
+      ],
+      "source_display_label_jp": "ブーメラン",
+      "english": "Boomerang",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 344,
+        "key": "STR_HANGAR_ARMS_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_345",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "レイピア"
+      ],
+      "source_display_label_jp": "レイピア",
+      "english": "Rapier",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 345,
+        "key": "STR_HANGAR_ARMS_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_346",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ライフル"
+      ],
+      "source_display_label_jp": "ライフル",
+      "english": "Rifle",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 346,
+        "key": "STR_HANGAR_RIFLE_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_347",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "マシンガン"
+      ],
+      "source_display_label_jp": "マシンガン",
+      "english": "Machine Gun",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 347,
+        "key": "STR_HANGAR_RIFLE_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_348",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ショットガン"
+      ],
+      "source_display_label_jp": "ショットガン",
+      "english": "Shotgun",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 348,
+        "key": "STR_HANGAR_RIFLE_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_349",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "バズーカ"
+      ],
+      "source_display_label_jp": "バズーカ",
+      "english": "Bazooka",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 349,
+        "key": "STR_HANGAR_RIFLE_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_350",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "放射器"
+      ],
+      "source_display_label_jp": "放射器",
+      "english": "Flamethrower",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 350,
+        "key": "STR_HANGAR_RIFLE_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_351",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ビームライフル"
+      ],
+      "source_display_label_jp": "ビームライフル",
+      "english": "Beam Rifle",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 351,
+        "key": "STR_HANGAR_RIFLE_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_352",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ミサイル"
+      ],
+      "source_display_label_jp": "ミサイル",
+      "english": "Missile",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 352,
+        "key": "STR_HANGAR_SHOULDER_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_353",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "キャノン"
+      ],
+      "source_display_label_jp": "キャノン",
+      "english": "Cannon",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 353,
+        "key": "STR_HANGAR_SHOULDER_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_354",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ガトリングガン"
+      ],
+      "source_display_label_jp": "ガトリングガン",
+      "english": "Gatling Gun",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 354,
+        "key": "STR_HANGAR_SHOULDER_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_355",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "グレネード"
+      ],
+      "source_display_label_jp": "グレネード",
+      "english": "Grenade",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 355,
+        "key": "STR_HANGAR_SHOULDER_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_356",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ロケット"
+      ],
+      "source_display_label_jp": "ロケット",
+      "english": "Rocket",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 356,
+        "key": "STR_HANGAR_SHOULDER_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_357",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "グレネード"
+      ],
+      "source_display_label_jp": "グレネード",
+      "english": "Grenade",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 357,
+        "key": "STR_HANGAR_GADGET_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_358",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ミサイル"
+      ],
+      "source_display_label_jp": "ミサイル",
+      "english": "Missile",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 358,
+        "key": "STR_HANGAR_GADGET_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_359",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ロケット"
+      ],
+      "source_display_label_jp": "ロケット",
+      "english": "Rocket",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 359,
+        "key": "STR_HANGAR_GADGET_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_360",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "本体"
+      ],
+      "source_display_label_jp": "本体",
+      "english": "Main Body",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 360,
+        "key": "STR_HANGAR_COLOR_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_361",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "サブ"
+      ],
+      "source_display_label_jp": "サブ",
+      "english": "Secondary",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 361,
+        "key": "STR_HANGAR_COLOR_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_362",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "目"
+      ],
+      "source_display_label_jp": "目",
+      "english": "Eyes",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 362,
+        "key": "STR_HANGAR_COLOR_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_363",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "マーク"
+      ],
+      "source_display_label_jp": "マーク",
+      "english": "Mark",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 363,
+        "key": "STR_HANGAR_MARK_00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_364",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "マーク１"
+      ],
+      "source_display_label_jp": "マーク１",
+      "english": "Mark１",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 364,
+        "key": "STR_HANGAR_MARK_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_365",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "マーク２"
+      ],
+      "source_display_label_jp": "マーク２",
+      "english": "Mark２",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 365,
+        "key": "STR_HANGAR_MARK_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_366",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "マーク３"
+      ],
+      "source_display_label_jp": "マーク３",
+      "english": "Mark３",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 366,
+        "key": "STR_HANGAR_MARK_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_367",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "塗装パターン"
+      ],
+      "source_display_label_jp": "塗装パターン",
+      "english": "Paint Pattern",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 367,
+        "key": "STR_HANGAR_PAINT_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_368",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "パーツ"
+      ],
+      "source_display_label_jp": "パーツ",
+      "english": "Parts",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 368,
+        "key": "STR_HANGAR_PARTS_00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_369",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "パーツ１"
+      ],
+      "source_display_label_jp": "パーツ１",
+      "english": "Parts１",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 369,
+        "key": "STR_HANGAR_PARTS_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_370",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "パーツ２"
+      ],
+      "source_display_label_jp": "パーツ２",
+      "english": "Parts２",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 370,
+        "key": "STR_HANGAR_PARTS_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_371",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "パーツ３"
+      ],
+      "source_display_label_jp": "パーツ３",
+      "english": "Parts３",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 371,
+        "key": "STR_HANGAR_PARTS_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_372",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "通常"
+      ],
+      "source_display_label_jp": "通常",
+      "english": "Standard",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 372,
+        "key": "STR_HANGAR_BULLET_AP00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_373",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "爆破"
+      ],
+      "source_display_label_jp": "爆破",
+      "english": "Explosive",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 373,
+        "key": "STR_HANGAR_BULLET_HE00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_374",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "追尾"
+      ],
+      "source_display_label_jp": "追尾",
+      "english": "Homing",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 374,
+        "key": "STR_HANGAR_BULLET_MISSILE00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_375",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "火"
+      ],
+      "source_display_label_jp": "火",
+      "english": "Fire",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 375,
+        "key": "STR_HANGAR_BULLET_FLAME00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_376",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "貫通"
+      ],
+      "source_display_label_jp": "貫通",
+      "english": "Piercing",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 376,
+        "key": "STR_HANGAR_BULLET_APCB00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_377",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "拡散"
+      ],
+      "source_display_label_jp": "拡散",
+      "english": "Scatter",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 377,
+        "key": "STR_HANGAR_BULLET_SS00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_378",
+      "category": "stat_or_equipment_category",
+      "japanese": [
+        "ビーム"
+      ],
+      "source_display_label_jp": "ビーム",
+      "english": "Beam",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 378,
+        "key": "STR_HANGAR_BULLET_BEAM00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1732",
+      "category": "control_or_setting",
+      "japanese": [
+        "メッセージ速度"
+      ],
+      "source_display_label_jp": "メッセージ速度",
+      "english": "Message Speed",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1732,
+        "key": "STR_CONFIG_SETTING_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1733",
+      "category": "control_or_setting",
+      "japanese": [
+        "BGM"
+      ],
+      "source_display_label_jp": "BGM",
+      "english": "BGM",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1733,
+        "key": "STR_CONFIG_SETTING_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1734",
+      "category": "control_or_setting",
+      "japanese": [
+        "SE"
+      ],
+      "source_display_label_jp": "SE",
+      "english": "SE",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1734,
+        "key": "STR_CONFIG_SETTING_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1735",
+      "category": "control_or_setting",
+      "japanese": [
+        "VOICE"
+      ],
+      "source_display_label_jp": "VOICE",
+      "english": "VOICE",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1735,
+        "key": "STR_CONFIG_SETTING_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1736",
+      "category": "control_or_setting",
+      "japanese": [
+        "初期設定に戻す"
+      ],
+      "source_display_label_jp": "初期設定に戻す",
+      "english": "Restore Defaults",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1736,
+        "key": "STR_CONFIG_SETTING_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1737",
+      "category": "control_or_setting",
+      "japanese": [
+        "難易度"
+      ],
+      "source_display_label_jp": "難易度",
+      "english": "Difficulty",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1737,
+        "key": "STR_CONFIG_SETTING_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1738",
+      "category": "control_or_setting",
+      "japanese": [
+        "加速"
+      ],
+      "source_display_label_jp": "加速",
+      "english": "Accelerate",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1738,
+        "key": "STR_CONFIG_KEY_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1739",
+      "category": "control_or_setting",
+      "japanese": [
+        "減速"
+      ],
+      "source_display_label_jp": "減速",
+      "english": "Decelerate",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1739,
+        "key": "STR_CONFIG_KEY_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1740",
+      "category": "control_or_setting",
+      "japanese": [
+        "射撃"
+      ],
+      "source_display_label_jp": "射撃",
+      "english": "Shoot",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1740,
+        "key": "STR_CONFIG_KEY_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1741",
+      "category": "control_or_setting",
+      "japanese": [
+        "格闘"
+      ],
+      "source_display_label_jp": "格闘",
+      "english": "Melee Attack",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1741,
+        "key": "STR_CONFIG_KEY_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1742",
+      "category": "control_or_setting",
+      "japanese": [
+        "変形"
+      ],
+      "source_display_label_jp": "変形",
+      "english": "Transform",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1742,
+        "key": "STR_CONFIG_KEY_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1743",
+      "category": "control_or_setting",
+      "japanese": [
+        "ロック"
+      ],
+      "source_display_label_jp": "ロック",
+      "english": "Lock On",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1743,
+        "key": "STR_CONFIG_KEY_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1744",
+      "category": "control_or_setting",
+      "japanese": [
+        "武器切替上"
+      ],
+      "source_display_label_jp": "武器切替上",
+      "english": "Switch Weapon Up",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1744,
+        "key": "STR_CONFIG_KEY_07"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1745",
+      "category": "control_or_setting",
+      "japanese": [
+        "武器切替下"
+      ],
+      "source_display_label_jp": "武器切替下",
+      "english": "Switch Weapon Down",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1745,
+        "key": "STR_CONFIG_KEY_08"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1746",
+      "category": "control_or_setting",
+      "japanese": [
+        "ターン"
+      ],
+      "source_display_label_jp": "ターン",
+      "english": "Turn",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1746,
+        "key": "STR_CONFIG_KEY_09"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1747",
+      "category": "control_or_setting",
+      "japanese": [
+        "凍結バレット"
+      ],
+      "source_display_label_jp": "凍結バレット",
+      "english": "Freeze Bullet",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1747,
+        "key": "STR_CONFIG_KEY_10"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1748",
+      "category": "control_or_setting",
+      "japanese": [
+        "オートエイム"
+      ],
+      "source_display_label_jp": "オートエイム",
+      "english": "Auto Aim",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1748,
+        "key": "STR_CONFIG_KEY_11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1749",
+      "category": "control_or_setting",
+      "japanese": [
+        "ロック方法"
+      ],
+      "source_display_label_jp": "ロック方法",
+      "english": "Lock Method",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1749,
+        "key": "STR_CONFIG_KEY_12"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1750",
+      "category": "control_or_setting",
+      "japanese": [
+        "上昇下降"
+      ],
+      "source_display_label_jp": "上昇下降",
+      "english": "Ascend/Descend",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1750,
+        "key": "STR_CONFIG_KEY_13"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1751",
+      "category": "control_or_setting",
+      "japanese": [
+        "左右旋回"
+      ],
+      "source_display_label_jp": "左右旋回",
+      "english": "Turn Left/Right",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1751,
+        "key": "STR_CONFIG_KEY_14"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1752",
+      "category": "control_or_setting",
+      "japanese": [
+        "初期設定に戻す"
+      ],
+      "source_display_label_jp": "初期設定に戻す",
+      "english": "Restore Defaults",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1752,
+        "key": "STR_CONFIG_KEY_15"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1753",
+      "category": "control_or_setting",
+      "japanese": [
+        "ON"
+      ],
+      "source_display_label_jp": "ON",
+      "english": "ON",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1753,
+        "key": "STR_CONFIG_KEY_16"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1754",
+      "category": "control_or_setting",
+      "japanese": [
+        "OFF"
+      ],
+      "source_display_label_jp": "OFF",
+      "english": "OFF",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1754,
+        "key": "STR_CONFIG_KEY_17"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1755",
+      "category": "control_or_setting",
+      "japanese": [
+        "NORMAL"
+      ],
+      "source_display_label_jp": "NORMAL",
+      "english": "NORMAL",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1755,
+        "key": "STR_CONFIG_KEY_18"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1756",
+      "category": "control_or_setting",
+      "japanese": [
+        "REVERSE"
+      ],
+      "source_display_label_jp": "REVERSE",
+      "english": "REVERSE",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1756,
+        "key": "STR_CONFIG_KEY_19"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1757",
+      "category": "control_or_setting",
+      "japanese": [
+        "TOGGLE"
+      ],
+      "source_display_label_jp": "TOGGLE",
+      "english": "TOGGLE",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1757,
+        "key": "STR_CONFIG_KEY_20"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1758",
+      "category": "control_or_setting",
+      "japanese": [
+        "HOLD"
+      ],
+      "source_display_label_jp": "HOLD",
+      "english": "HOLD",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1758,
+        "key": "STR_CONFIG_KEY_21"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1479",
+      "category": "result_label",
+      "japanese": [
+        "クリアタイム"
+      ],
+      "source_display_label_jp": "クリアタイム",
+      "english": "Clear Time",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1479,
+        "key": "STR_BTLRESULT_P01_00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1480",
+      "category": "result_label",
+      "japanese": [
+        "残り"
+      ],
+      "source_display_label_jp": "残り",
+      "english": "Remaining",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1480,
+        "key": "STR_BTLRESULT_P01_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1481",
+      "category": "result_label",
+      "japanese": [
+        "秒"
+      ],
+      "source_display_label_jp": "秒",
+      "english": "Seconds",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1481,
+        "key": "STR_BTLRESULT_P01_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1482",
+      "category": "result_label",
+      "japanese": [
+        "撃墜数"
+      ],
+      "source_display_label_jp": "撃墜数",
+      "english": "Kills",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1482,
+        "key": "STR_BTLRESULT_P01_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1484",
+      "category": "result_label",
+      "japanese": [
+        "トータル金額"
+      ],
+      "source_display_label_jp": "トータル金額",
+      "english": "Total Amount",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1484,
+        "key": "STR_BTLRESULT_P01_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1485",
+      "category": "result_label",
+      "japanese": [
+        "被弾"
+      ],
+      "source_display_label_jp": "被弾",
+      "english": "Hits Taken",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1485,
+        "key": "STR_BTLRESULT_P01_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1486",
+      "category": "result_label",
+      "japanese": [
+        "ダメージ"
+      ],
+      "source_display_label_jp": "ダメージ",
+      "english": "Damage",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1486,
+        "key": "STR_BTLRESULT_P01_07"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1488",
+      "category": "result_label",
+      "japanese": [
+        "タイムボーナス"
+      ],
+      "source_display_label_jp": "タイムボーナス",
+      "english": "Time Bonus",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1488,
+        "key": "STR_BTLRESULT_P02_00"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1489",
+      "category": "result_label",
+      "japanese": [
+        "撃墜報酬"
+      ],
+      "source_display_label_jp": "撃墜報酬",
+      "english": "Kill Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1489,
+        "key": "STR_BTLRESULT_P02_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1490",
+      "category": "result_label",
+      "japanese": [
+        "クリア報酬"
+      ],
+      "source_display_label_jp": "クリア報酬",
+      "english": "Clear Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1490,
+        "key": "STR_BTLRESULT_P02_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1491",
+      "category": "result_label",
+      "japanese": [
+        "被弾ペナルティ"
+      ],
+      "source_display_label_jp": "被弾ペナルティ",
+      "english": "Hit Penalty",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1491,
+        "key": "STR_BTLRESULT_P02_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1492",
+      "category": "result_label",
+      "japanese": [
+        "合計"
+      ],
+      "source_display_label_jp": "合計",
+      "english": "Total",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1492,
+        "key": "STR_BTLRESULT_P02_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1493",
+      "category": "result_label",
+      "japanese": [
+        "クリアランク"
+      ],
+      "source_display_label_jp": "クリアランク",
+      "english": "Clear Rank",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1493,
+        "key": "STR_BTLRESULT_P02_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1494",
+      "category": "result_label",
+      "japanese": [
+        "所持金額"
+      ],
+      "source_display_label_jp": "所持金額",
+      "english": "Funds",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1494,
+        "key": "STR_BTLRESULT_P02_08"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1496",
+      "category": "result_label",
+      "japanese": [
+        "ランク取得への追加報酬"
+      ],
+      "source_display_label_jp": "ランク取得への追加報酬",
+      "english": "Additional Rank Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1496,
+        "key": "STR_BTLRESULT_P02_10"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1497",
+      "category": "result_label",
+      "japanese": [
+        "Sランク取得報酬"
+      ],
+      "source_display_label_jp": "Sランク取得報酬",
+      "english": "S-Rank Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1497,
+        "key": "STR_BTLRESULT_P02_11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1498",
+      "category": "result_label",
+      "japanese": [
+        "Aランク取得報酬"
+      ],
+      "source_display_label_jp": "Aランク取得報酬",
+      "english": "A-Rank Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1498,
+        "key": "STR_BTLRESULT_P02_12"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1499",
+      "category": "result_label",
+      "japanese": [
+        "Bランク取得報酬"
+      ],
+      "source_display_label_jp": "Bランク取得報酬",
+      "english": "B-Rank Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1499,
+        "key": "STR_BTLRESULT_P02_13"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1500",
+      "category": "result_label",
+      "japanese": [
+        "Cランク取得報酬"
+      ],
+      "source_display_label_jp": "Cランク取得報酬",
+      "english": "C-Rank Reward",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1500,
+        "key": "STR_BTLRESULT_P02_14"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1512",
+      "category": "result_label",
+      "japanese": [
+        "オブジェクト"
+      ],
+      "source_display_label_jp": "オブジェクト",
+      "english": "Object",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1512,
+        "key": "STR_BTLRESULT_NAME09"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1514",
+      "category": "result_label",
+      "japanese": [
+        "その他"
+      ],
+      "source_display_label_jp": "その他",
+      "english": "Other",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1514,
+        "key": "STR_BTLRESULT_NAME11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1515",
+      "category": "result_label",
+      "japanese": [
+        "凍結ボーナス"
+      ],
+      "source_display_label_jp": "　凍結ボーナス",
+      "english": "Freeze Bonus",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1515,
+        "key": "STR_BTLRESULT_ANCHOR"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1516",
+      "category": "result_label",
+      "japanese": [
+        "部位破壊"
+      ],
+      "source_display_label_jp": "部位破壊",
+      "english": "Part Destruction",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1516,
+        "key": "STR_BTLRESULT_PARTS"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_1517",
+      "category": "result_label",
+      "japanese": [
+        "全破壊"
+      ],
+      "source_display_label_jp": "全破壊",
+      "english": "Complete Destruction",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 1517,
+        "key": "STR_BTLRESULT_ALLBREAK"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Registered full-table world, mecha and recurring UI terminology before further translation."
+      ]
+    }
+  ]
+}

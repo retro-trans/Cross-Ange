@@ -1,0 +1,2479 @@
+{
+  "font": "GenEi LateGo v2 Medium",
+  "assets": [
+    {
+      "member": "data/_cg/EBG_106.btx",
+      "source_sha256": "f73a112daef32fff4ffead68ee5ac2908fd794b71f9f90f6fcbb1370300d9b71",
+      "output_sha256": "7d9c79f1648c28f9958720f0face2e84aad0e8567ecfef9b3f712c6cc80fd4e4",
+      "changed_pixels": 17854,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_106.png",
+      "labels": [
+        {
+          "id": "EBG_106-lock",
+          "erase": [
+            157,
+            139,
+            262,
+            155
+          ],
+          "draw": [
+            157,
+            139,
+            294,
+            155
+          ],
+          "text": "Toggle Lock-On",
+          "size": 15,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            157,
+            139,
+            272,
+            155
+          ]
+        },
+        {
+          "id": "EBG_106-freeze",
+          "erase": [
+            60,
+            195,
+            250,
+            214
+          ],
+          "draw": [
+            60,
+            195,
+            250,
+            214
+          ],
+          "text": "Freeze Bullet (Destroyer Mode only)",
+          "size": 13,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 11,
+          "text_bounds": [
+            60,
+            195,
+            250,
+            209
+          ]
+        },
+        {
+          "id": "EBG_106-twice",
+          "erase": [
+            56,
+            225,
+            120,
+            244
+          ],
+          "draw": [
+            56,
+            225,
+            155,
+            244
+          ],
+          "text": "Press twice",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            56,
+            225,
+            148,
+            240
+          ]
+        },
+        {
+          "id": "EBG_106-quick",
+          "erase": [
+            28,
+            250,
+            233,
+            271
+          ],
+          "draw": [
+            28,
+            250,
+            237,
+            271
+          ],
+          "text": "Quick Turn (Destroyer Mode only)",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            28,
+            250,
+            224,
+            265
+          ]
+        },
+        {
+          "id": "EBG_106-weapon",
+          "erase": [
+            29,
+            309,
+            90,
+            328
+          ],
+          "draw": [
+            29,
+            309,
+            157,
+            328
+          ],
+          "text": "Switch Weapon",
+          "size": 15,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            29,
+            309,
+            139,
+            326
+          ]
+        },
+        {
+          "id": "EBG_106-pilot",
+          "erase": [
+            93,
+            423,
+            154,
+            443
+          ],
+          "draw": [
+            93,
+            423,
+            223,
+            443
+          ],
+          "text": "Pilot Machine",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            93,
+            423,
+            199,
+            437
+          ]
+        },
+        {
+          "id": "EBG_106-accelerate",
+          "erase": [
+            768,
+            140,
+            800,
+            156
+          ],
+          "draw": [
+            728,
+            140,
+            800,
+            156
+          ],
+          "text": "Accelerate",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            732,
+            140,
+            800,
+            152
+          ]
+        },
+        {
+          "id": "EBG_106-melee",
+          "erase": [
+            835,
+            196,
+            868,
+            214
+          ],
+          "draw": [
+            786,
+            196,
+            868,
+            214
+          ],
+          "text": "Melee Attack",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 13,
+          "text_bounds": [
+            786,
+            196,
+            868,
+            208
+          ]
+        },
+        {
+          "id": "EBG_106-ranged",
+          "erase": [
+            898,
+            252,
+            931,
+            273
+          ],
+          "draw": [
+            828,
+            252,
+            931,
+            273
+          ],
+          "text": "Ranged Attack",
+          "size": 15,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            831,
+            252,
+            931,
+            266
+          ]
+        },
+        {
+          "id": "EBG_106-transform",
+          "erase": [
+            898,
+            309,
+            931,
+            329
+          ],
+          "draw": [
+            828,
+            309,
+            931,
+            329
+          ],
+          "text": "Transform",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            851,
+            309,
+            931,
+            322
+          ]
+        },
+        {
+          "id": "EBG_106-decelerate",
+          "erase": [
+            835,
+            367,
+            868,
+            385
+          ],
+          "draw": [
+            786,
+            367,
+            868,
+            385
+          ],
+          "text": "Decelerate",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            799,
+            367,
+            868,
+            379
+          ]
+        },
+        {
+          "id": "EBG_106-target",
+          "erase": [
+            762,
+            423,
+            868,
+            443
+          ],
+          "draw": [
+            754,
+            423,
+            868,
+            443
+          ],
+          "text": "Switch Target",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            763,
+            423,
+            868,
+            438
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_107.btx",
+      "source_sha256": "87f4b9ff7630d8d3020612953952aa59808243ed4bb745ab94b4ceefc8a0f736",
+      "output_sha256": "52ac1159096163c3ce77fdfdcdcf1d79637fc0eb941d64c3f65adf09943ea7a6",
+      "changed_pixels": 27484,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_107.png",
+      "labels": [
+        {
+          "id": "EBG_107-sight",
+          "erase": [
+            315,
+            54,
+            402,
+            74
+          ],
+          "draw": [
+            315,
+            54,
+            443,
+            74
+          ],
+          "text": "Targeting Sight",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            315,
+            54,
+            432,
+            69
+          ]
+        },
+        {
+          "id": "EBG_107-marker",
+          "erase": [
+            558,
+            53,
+            710,
+            74
+          ],
+          "draw": [
+            558,
+            53,
+            710,
+            74
+          ],
+          "text": "Target Marker",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            558,
+            53,
+            676,
+            71
+          ]
+        },
+        {
+          "id": "EBG_107-operator",
+          "erase": [
+            93,
+            113,
+            198,
+            132
+          ],
+          "draw": [
+            93,
+            113,
+            220,
+            132
+          ],
+          "text": "Operator",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            93,
+            113,
+            166,
+            131
+          ]
+        },
+        {
+          "id": "EBG_107-speed",
+          "erase": [
+            93,
+            168,
+            181,
+            187
+          ],
+          "draw": [
+            93,
+            168,
+            220,
+            187
+          ],
+          "text": "Your Speed",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            93,
+            168,
+            185,
+            187
+          ]
+        },
+        {
+          "id": "EBG_107-freeze",
+          "erase": [
+            93,
+            226,
+            195,
+            246
+          ],
+          "draw": [
+            93,
+            226,
+            238,
+            246
+          ],
+          "text": "Freeze Bullet",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            93,
+            226,
+            199,
+            241
+          ]
+        },
+        {
+          "id": "EBG_107-radar",
+          "erase": [
+            93,
+            282,
+            165,
+            301
+          ],
+          "draw": [
+            93,
+            282,
+            220,
+            301
+          ],
+          "text": "Radar",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            93,
+            282,
+            140,
+            297
+          ]
+        },
+        {
+          "id": "EBG_107-center",
+          "erase": [
+            95,
+            310,
+            220,
+            328
+          ],
+          "draw": [
+            95,
+            310,
+            239,
+            328
+          ],
+          "text": "Center: Your machine",
+          "size": 13,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 13,
+          "text_bounds": [
+            95,
+            310,
+            230,
+            322
+          ]
+        },
+        {
+          "id": "EBG_107-goal",
+          "erase": [
+            114,
+            331,
+            162,
+            347
+          ],
+          "draw": [
+            114,
+            331,
+            225,
+            347
+          ],
+          "text": ": Objective",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            114,
+            331,
+            184,
+            345
+          ]
+        },
+        {
+          "id": "EBG_107-enemy",
+          "erase": [
+            114,
+            349,
+            149,
+            365
+          ],
+          "draw": [
+            114,
+            349,
+            225,
+            365
+          ],
+          "text": ": Enemy",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            114,
+            349,
+            169,
+            363
+          ]
+        },
+        {
+          "id": "EBG_107-ally",
+          "erase": [
+            114,
+            367,
+            163,
+            383
+          ],
+          "draw": [
+            114,
+            367,
+            225,
+            383
+          ],
+          "text": ": Ally",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            114,
+            367,
+            149,
+            382
+          ]
+        },
+        {
+          "id": "EBG_107-energy",
+          "erase": [
+            204,
+            396,
+            342,
+            418
+          ],
+          "draw": [
+            204,
+            396,
+            342,
+            418
+          ],
+          "text": "Energy Gauge",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            204,
+            396,
+            320,
+            414
+          ]
+        },
+        {
+          "id": "EBG_107-boost",
+          "erase": [
+            420,
+            397,
+            536,
+            418
+          ],
+          "draw": [
+            420,
+            397,
+            551,
+            418
+          ],
+          "text": "Boost Gauge",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            420,
+            397,
+            525,
+            415
+          ]
+        },
+        {
+          "id": "EBG_107-talk",
+          "erase": [
+            619,
+            398,
+            755,
+            418
+          ],
+          "draw": [
+            619,
+            398,
+            783,
+            418
+          ],
+          "text": "Operator Conversation",
+          "size": 15,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            619,
+            398,
+            772,
+            412
+          ]
+        },
+        {
+          "id": "EBG_107-timer",
+          "erase": [
+            805,
+            113,
+            868,
+            132
+          ],
+          "draw": [
+            782,
+            113,
+            868,
+            132
+          ],
+          "text": "Timer",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            820,
+            113,
+            868,
+            127
+          ]
+        },
+        {
+          "id": "EBG_107-ranged",
+          "erase": [
+            796,
+            226,
+            869,
+            246
+          ],
+          "draw": [
+            747,
+            226,
+            869,
+            246
+          ],
+          "text": "Ranged Weapon",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            753,
+            226,
+            869,
+            243
+          ]
+        },
+        {
+          "id": "EBG_107-kills",
+          "erase": [
+            814,
+            339,
+            868,
+            359
+          ],
+          "draw": [
+            773,
+            339,
+            868,
+            359
+          ],
+          "text": "Kill Count",
+          "size": 17,
+          "background_sample_x": 20,
+          "align": "right",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            784,
+            339,
+            868,
+            354
+          ]
+        },
+        {
+          "id": "EBG_107-one",
+          "erase": [
+            837,
+            369,
+            868,
+            388
+          ],
+          "draw": [
+            830,
+            369,
+            899,
+            388
+          ],
+          "text": "1 enemy",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            830,
+            369,
+            885,
+            384
+          ]
+        },
+        {
+          "id": "EBG_107-ten",
+          "erase": [
+            823,
+            397,
+            868,
+            418
+          ],
+          "draw": [
+            823,
+            397,
+            911,
+            418
+          ],
+          "text": "10 enemies",
+          "size": 14,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            823,
+            397,
+            895,
+            409
+          ]
+        },
+        {
+          "id": "EBG_107-embedded",
+          "erase": [
+            383,
+            330,
+            584,
+            343
+          ],
+          "draw": [
+            383,
+            330,
+            585,
+            343
+          ],
+          "text": "Radar contact. New enemies approaching.",
+          "size": 10,
+          "background_sample_x": 604,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 10,
+          "text_bounds": [
+            383,
+            330,
+            585,
+            341
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_109.btx",
+      "source_sha256": "42e172763f20c1967321909af74444de5f336cd41b83c4e360a8182937219002",
+      "output_sha256": "b48ed9ee771e981fc182c511432cd52aaf55f38b2a3dfd49e5e6ac42df50cbcc",
+      "changed_pixels": 12466,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_109.png",
+      "labels": [
+        {
+          "id": "EBG_109-lounge",
+          "erase": [
+            221,
+            55,
+            490,
+            73
+          ],
+          "draw": [
+            221,
+            55,
+            680,
+            73
+          ],
+          "text": ": Talk with the heroines in the lounge.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            221,
+            55,
+            511,
+            70
+          ]
+        },
+        {
+          "id": "EBG_109-config",
+          "erase": [
+            377,
+            370,
+            633,
+            387
+          ],
+          "draw": [
+            377,
+            370,
+            810,
+            387
+          ],
+          "text": ": Save, load, and change settings.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            377,
+            370,
+            630,
+            386
+          ]
+        },
+        {
+          "id": "EBG_109-title",
+          "erase": [
+            266,
+            96,
+            368,
+            108
+          ],
+          "draw": [
+            266,
+            95,
+            502,
+            109
+          ],
+          "text": "A New Posting, and Then...",
+          "size": 12,
+          "background_sample_x": 480,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            266,
+            95,
+            425,
+            108
+          ]
+        },
+        {
+          "id": "EBG_109-embedded",
+          "erase": [
+            401,
+            335,
+            599,
+            348
+          ],
+          "draw": [
+            401,
+            335,
+            704,
+            348
+          ],
+          "text": "Come here to meet everyone and talk.",
+          "size": 12,
+          "background_sample_x": 702,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            401,
+            335,
+            620,
+            348
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_108.btx",
+      "source_sha256": "afc0622cacc557ca285f282ab9934e5c359c611d8eab3407be930b1a7fb9a35b",
+      "output_sha256": "fa5de7a7d3414a67b3162c02d6e24b92589c07b3d39bdfff625369f1c66e2a0a",
+      "changed_pixels": 14819,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_108.png",
+      "labels": [
+        {
+          "id": "EBG_108-shop",
+          "erase": [
+            211,
+            51,
+            370,
+            68
+          ],
+          "draw": [
+            211,
+            51,
+            530,
+            69
+          ],
+          "text": ": Buy weapons.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            211,
+            51,
+            327,
+            68
+          ]
+        },
+        {
+          "id": "EBG_108-hangar",
+          "erase": [
+            373,
+            96,
+            589,
+            113
+          ],
+          "draw": [
+            373,
+            96,
+            740,
+            114
+          ],
+          "text": ": Customize your machine.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            373,
+            96,
+            578,
+            112
+          ]
+        },
+        {
+          "id": "EBG_108-briefing",
+          "erase": [
+            358,
+            419,
+            549,
+            436
+          ],
+          "draw": [
+            358,
+            419,
+            775,
+            437
+          ],
+          "text": ": Return to the briefing.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            358,
+            419,
+            538,
+            435
+          ]
+        },
+        {
+          "id": "EBG_108-sortie",
+          "erase": [
+            229,
+            481,
+            405,
+            499
+          ],
+          "draw": [
+            229,
+            481,
+            640,
+            499
+          ],
+          "text": ": Deploy on a mission.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            229,
+            481,
+            399,
+            498
+          ]
+        },
+        {
+          "id": "EBG_108-embedded",
+          "erase": [
+            251,
+            393,
+            398,
+            403
+          ],
+          "draw": [
+            251,
+            392,
+            625,
+            405
+          ],
+          "text": "Adjust settings for your frame.",
+          "size": 11,
+          "background_sample_x": 704,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 11,
+          "text_bounds": [
+            251,
+            392,
+            411,
+            405
+          ]
+        },
+        {
+          "id": "EBG_108-view",
+          "erase": [
+            617,
+            151,
+            643,
+            161
+          ],
+          "draw": [
+            617,
+            150,
+            646,
+            163
+          ],
+          "text": "Form",
+          "size": 9,
+          "background_sample_x": 596,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 9,
+          "text_bounds": [
+            617,
+            150,
+            639,
+            158
+          ]
+        },
+        {
+          "id": "EBG_108-view-rotate",
+          "erase": [
+            664,
+            151,
+            717,
+            161
+          ],
+          "draw": [
+            664,
+            150,
+            717,
+            163
+          ],
+          "text": "Rotate",
+          "size": 10,
+          "background_sample_x": 596,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 10,
+          "text_bounds": [
+            664,
+            150,
+            696,
+            159
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_110.btx",
+      "source_sha256": "c0818a99d4faadc7cb04470d73a8fdbee2cbb793d9aafa9763dddc3b6c0189d5",
+      "output_sha256": "6850bec036732ca06f630b2ab9b4bb7935d72c24d44ee6f0de0fcd457c05430e",
+      "changed_pixels": 11211,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_110.png",
+      "labels": [
+        {
+          "id": "EBG_110-deck",
+          "erase": [
+            280,
+            55,
+            708,
+            74
+          ],
+          "draw": [
+            280,
+            55,
+            922,
+            75
+          ],
+          "text": ": Customize your machine and buy weapons on the deck.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            280,
+            55,
+            716,
+            71
+          ]
+        },
+        {
+          "id": "EBG_110-title",
+          "erase": [
+            266,
+            96,
+            368,
+            109
+          ],
+          "draw": [
+            266,
+            95,
+            502,
+            109
+          ],
+          "text": "Why I Fight",
+          "size": 12,
+          "background_sample_x": 480,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            266,
+            95,
+            336,
+            109
+          ]
+        },
+        {
+          "id": "EBG_110-embedded",
+          "erase": [
+            401,
+            335,
+            618,
+            348
+          ],
+          "draw": [
+            401,
+            335,
+            704,
+            349
+          ],
+          "text": "Customize your machine on the deck.",
+          "size": 12,
+          "background_sample_x": 702,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            401,
+            335,
+            619,
+            348
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_111.btx",
+      "source_sha256": "dc03a6fe6ba313aff540803b8b748aab4cb54406c0c2e700c7b088af0ab0f995",
+      "output_sha256": "a1db2414e7d7ab893e8ad6172e9fd73f2aa37b9638214e146149a447e661af8b",
+      "changed_pixels": 7387,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_111.png",
+      "labels": [
+        {
+          "id": "EBG_111-mission",
+          "erase": [
+            308,
+            55,
+            530,
+            74
+          ],
+          "draw": [
+            308,
+            55,
+            820,
+            75
+          ],
+          "text": ": Take on training missions.",
+          "size": 16,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            308,
+            55,
+            519,
+            70
+          ]
+        },
+        {
+          "id": "EBG_111-title",
+          "erase": [
+            266,
+            96,
+            331,
+            109
+          ],
+          "draw": [
+            266,
+            95,
+            502,
+            109
+          ],
+          "text": "A Pleasant Meal",
+          "size": 12,
+          "background_sample_x": 480,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            266,
+            95,
+            359,
+            106
+          ]
+        },
+        {
+          "id": "EBG_111-embedded",
+          "erase": [
+            401,
+            335,
+            626,
+            348
+          ],
+          "draw": [
+            401,
+            335,
+            704,
+            349
+          ],
+          "text": "Come here to take missions and train.",
+          "size": 12,
+          "background_sample_x": 702,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            401,
+            335,
+            621,
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/EBG_112.btx",
+      "source_sha256": "1088ce7af27c73869046fc2053b97bd52609cb12f3150c9cfc91ca6583b12191",
+      "output_sha256": "d3ee6bdaf4eec71aaf10fb36bebb0f190a5534b66283b9e3d19f99700a680768",
+      "changed_pixels": 35226,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\EBG_112.png",
+      "labels": [
+        {
+          "id": "EBG_112-cash",
+          "erase": [
+            360,
+            29,
+            884,
+            49
+          ],
+          "draw": [
+            360,
+            29,
+            941,
+            49
+          ],
+          "text": "Cash Earned: Your highest cash reward for this mission.",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            360,
+            29,
+            790,
+            45
+          ]
+        },
+        {
+          "id": "EBG_112-rank",
+          "erase": [
+            530,
+            60,
+            944,
+            79
+          ],
+          "draw": [
+            530,
+            60,
+            952,
+            80
+          ],
+          "text": "Clear Rank: Your rank after completing the mission.",
+          "size": 16,
+          "background_sample_x": 20,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            530,
+            60,
+            930,
+            77
+          ]
+        },
+        {
+          "id": "EBG_112-mission",
+          "erase": [
+            239,
+            375,
+            625,
+            393
+          ],
+          "draw": [
+            239,
+            374,
+            905,
+            394
+          ],
+          "text": "Mission: Shows the missions currently available.",
+          "size": 17,
+          "background_sample_x": 800,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            239,
+            374,
+            638,
+            393
+          ]
+        },
+        {
+          "id": "EBG_112-title",
+          "erase": [
+            266,
+            96,
+            331,
+            109
+          ],
+          "draw": [
+            266,
+            95,
+            502,
+            109
+          ],
+          "text": "A Pleasant Meal",
+          "size": 12,
+          "background_sample_x": 480,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            266,
+            95,
+            359,
+            106
+          ]
+        },
+        {
+          "id": "EBG_112-power",
+          "erase": [
+            262,
+            148,
+            352,
+            160
+          ],
+          "draw": [
+            262,
+            147,
+            459,
+            162
+          ],
+          "text": "The Power of Para-mail",
+          "size": 12,
+          "background_sample_x": 454,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            262,
+            147,
+            399,
+            158
+          ]
+        },
+        {
+          "id": "EBG_112-time",
+          "erase": [
+            262,
+            172,
+            414,
+            185
+          ],
+          "draw": [
+            262,
+            172,
+            459,
+            187
+          ],
+          "text": "Time Attack: DRAGONs",
+          "size": 12,
+          "background_sample_x": 454,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            262,
+            172,
+            403,
+            183
+          ]
+        },
+        {
+          "id": "EBG_112-transport",
+          "erase": [
+            262,
+            196,
+            394,
+            210
+          ],
+          "draw": [
+            262,
+            195,
+            459,
+            211
+          ],
+          "text": "Rescue the Transport Again",
+          "size": 12,
+          "background_sample_x": 454,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            262,
+            195,
+            420,
+            209
+          ]
+        },
+        {
+          "id": "EBG_112-defense1",
+          "erase": [
+            262,
+            221,
+            394,
+            234
+          ],
+          "draw": [
+            262,
+            220,
+            459,
+            235
+          ],
+          "text": "Defense of Arzenal I",
+          "size": 12,
+          "background_sample_x": 454,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            262,
+            220,
+            376,
+            231
+          ]
+        },
+        {
+          "id": "EBG_112-defense2",
+          "erase": [
+            262,
+            245,
+            394,
+            258
+          ],
+          "draw": [
+            262,
+            244,
+            459,
+            259
+          ],
+          "text": "Defense of Arzenal II",
+          "size": 12,
+          "background_sample_x": 454,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            262,
+            244,
+            380,
+            255
+          ]
+        },
+        {
+          "id": "EBG_112-embedded",
+          "erase": [
+            407,
+            335,
+            594,
+            348
+          ],
+          "draw": [
+            401,
+            335,
+            704,
+            349
+          ],
+          "text": "(Which mission should I take this time...?)",
+          "size": 12,
+          "background_sample_x": 702,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            401,
+            335,
+            647,
+            348
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/ECG_043.btx",
+      "source_sha256": "1f45e76a7e3d19bed8c750213135bcd4c6349b88317ef616b6a2714a11c3e483",
+      "output_sha256": "ea4e72723bb065653f1cd807e9c43f91dd88fb9c9c2bbf96308ba38826d29b71",
+      "changed_pixels": 39221,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\ECG_043.png",
+      "labels": [
+        {
+          "id": "ECG_043-affection",
+          "erase": [
+            221,
+            40,
+            798,
+            59
+          ],
+          "draw": [
+            221,
+            40,
+            948,
+            61
+          ],
+          "text": "Affection Gauge: Marker type and tap timing affect how much it rises.",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            221,
+            40,
+            802,
+            59
+          ]
+        },
+        {
+          "id": "ECG_043-timer",
+          "erase": [
+            739,
+            123,
+            924,
+            142
+          ],
+          "draw": [
+            739,
+            122,
+            952,
+            144
+          ],
+          "text": "Timer: Time limit.",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            739,
+            122,
+            888,
+            137
+          ]
+        },
+        {
+          "id": "ECG_043-markers",
+          "erase": [
+            32,
+            165,
+            213,
+            186
+          ],
+          "draw": [
+            32,
+            164,
+            225,
+            186
+          ],
+          "text": "Touch Markers",
+          "size": 19,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 19,
+          "text_bounds": [
+            32,
+            164,
+            170,
+            180
+          ]
+        },
+        {
+          "id": "ECG_043-large",
+          "erase": [
+            87,
+            210,
+            217,
+            227
+          ],
+          "draw": [
+            87,
+            210,
+            235,
+            228
+          ],
+          "text": ": Large increase",
+          "size": 15,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            87,
+            210,
+            199,
+            226
+          ]
+        },
+        {
+          "id": "ECG_043-small",
+          "erase": [
+            87,
+            250,
+            217,
+            267
+          ],
+          "draw": [
+            87,
+            250,
+            235,
+            268
+          ],
+          "text": ": Small increase",
+          "size": 15,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            87,
+            250,
+            198,
+            263
+          ]
+        },
+        {
+          "id": "ECG_043-down",
+          "erase": [
+            87,
+            290,
+            202,
+            307
+          ],
+          "draw": [
+            87,
+            290,
+            235,
+            308
+          ],
+          "text": ": Decrease",
+          "size": 15,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            87,
+            290,
+            161,
+            304
+          ]
+        },
+        {
+          "id": "ECG_043-window",
+          "erase": [
+            58,
+            345,
+            214,
+            365
+          ],
+          "draw": [
+            58,
+            344,
+            236,
+            366
+          ],
+          "text": "Conversation Window:",
+          "size": 16,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 16,
+          "text_bounds": [
+            58,
+            344,
+            231,
+            358
+          ]
+        },
+        {
+          "id": "ECG_043-window-toggle",
+          "erase": [
+            78,
+            377,
+            340,
+            393
+          ],
+          "draw": [
+            78,
+            377,
+            474,
+            393
+          ],
+          "text": "Show / hide the conversation window.",
+          "size": 14,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            78,
+            377,
+            338,
+            390
+          ]
+        },
+        {
+          "id": "ECG_043-window-hidden",
+          "erase": [
+            58,
+            396,
+            278,
+            416
+          ],
+          "draw": [
+            58,
+            399,
+            474,
+            416
+          ],
+          "text": "(Normally hidden.)",
+          "size": 14,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            58,
+            399,
+            187,
+            416
+          ]
+        },
+        {
+          "id": "ECG_043-condition",
+          "erase": [
+            495,
+            376,
+            649,
+            391
+          ],
+          "draw": [
+            495,
+            375,
+            692,
+            393
+          ],
+          "text": "Condition:",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            495,
+            375,
+            582,
+            390
+          ]
+        },
+        {
+          "id": "ECG_043-condition-help",
+          "erase": [
+            494,
+            400,
+            890,
+            415
+          ],
+          "draw": [
+            494,
+            400,
+            944,
+            419
+          ],
+          "text": "Stronger waves mean a better chance to raise affection.",
+          "size": 15,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            494,
+            400,
+            891,
+            415
+          ]
+        },
+        {
+          "id": "ECG_043-reaction",
+          "erase": [
+            283,
+            236,
+            332,
+            250
+          ],
+          "draw": [
+            283,
+            236,
+            397,
+            252
+          ],
+          "text": "That's nice.",
+          "size": 11,
+          "background_sample_x": 399,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 11,
+          "text_bounds": [
+            283,
+            236,
+            342,
+            247
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/ECG_044.btx",
+      "source_sha256": "c8e5ff99b71bc4afe290feec51136d1f362434c7ad9b057d66323e60c3bf9491",
+      "output_sha256": "3e1408c0bcb3f787d1d9a42299cdd32b0f82be95e8a30664c1dd0f133ce81473",
+      "changed_pixels": 24622,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\ECG_044.png",
+      "labels": [
+        {
+          "id": "ECG_044-window",
+          "erase": [
+            40,
+            193,
+            181,
+            216
+          ],
+          "draw": [
+            40,
+            193,
+            233,
+            215
+          ],
+          "text": "Conversation Window",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            40,
+            193,
+            222,
+            208
+          ]
+        },
+        {
+          "id": "ECG_044-timer",
+          "erase": [
+            739,
+            123,
+            924,
+            142
+          ],
+          "draw": [
+            739,
+            122,
+            952,
+            144
+          ],
+          "text": "Timer: Time limit.",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            739,
+            122,
+            888,
+            137
+          ]
+        },
+        {
+          "id": "ECG_044-options",
+          "erase": [
+            504,
+            372,
+            656,
+            391
+          ],
+          "draw": [
+            504,
+            372,
+            740,
+            393
+          ],
+          "text": "Show Choices:",
+          "size": 17,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 17,
+          "text_bounds": [
+            504,
+            372,
+            624,
+            387
+          ]
+        },
+        {
+          "id": "ECG_044-options-help",
+          "erase": [
+            505,
+            398,
+            758,
+            435
+          ],
+          "draw": [
+            505,
+            401,
+            901,
+            436
+          ],
+          "text": "With the conversation window visible,\npress Square to display the choices.",
+          "size": 15,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 15,
+          "text_bounds": [
+            505,
+            401,
+            776,
+            435
+          ]
+        },
+        {
+          "id": "ECG_044-dialogue",
+          "erase": [
+            278,
+            209,
+            389,
+            277
+          ],
+          "draw": [
+            278,
+            208,
+            390,
+            278
+          ],
+          "text": "Hey, Ange, what\ndo you do when\nyou're not\ntraining?",
+          "size": 12,
+          "background_sample_x": [
+            390,
+            205
+          ],
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            278,
+            208,
+            376,
+            263
+          ]
+        },
+        {
+          "id": "ECG_044-wait",
+          "erase": [
+            546,
+            313,
+            628,
+            327
+          ],
+          "draw": [
+            546,
+            313,
+            630,
+            327
+          ],
+          "text": "Wait a second!",
+          "size": 11,
+          "background_sample_x": 631,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 11,
+          "text_bounds": [
+            546,
+            313,
+            624,
+            324
+          ]
+        }
+      ]
+    },
+    {
+      "member": "data/_cg/ECG_045.btx",
+      "source_sha256": "cdcb79a3de4888f0d12cc63e263a8b909299c70e4ed8a58f37174b79e57dd552",
+      "output_sha256": "8a58ac14281c6825608f14166b782a379b10591e7fa90b18cd71dedcaf9764ef",
+      "changed_pixels": 17858,
+      "original_palette_preserved": true,
+      "outside_regions_unchanged": true,
+      "decoded_preview": "work\\ui\\local\\tutorial-fixes\\ECG_045.png",
+      "labels": [
+        {
+          "id": "ECG_045-options",
+          "erase": [
+            381,
+            376,
+            448,
+            395
+          ],
+          "draw": [
+            381,
+            376,
+            453,
+            396
+          ],
+          "text": "Choices:",
+          "size": 19,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 18,
+          "text_bounds": [
+            381,
+            376,
+            453,
+            391
+          ]
+        },
+        {
+          "id": "ECG_045-options-select",
+          "erase": [
+            511,
+            378,
+            612,
+            394
+          ],
+          "draw": [
+            511,
+            378,
+            617,
+            395
+          ],
+          "text": "Select choice.",
+          "size": 14,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            511,
+            378,
+            600,
+            390
+          ]
+        },
+        {
+          "id": "ECG_045-options-confirm",
+          "erase": [
+            642,
+            378,
+            690,
+            394
+          ],
+          "draw": [
+            641,
+            378,
+            697,
+            395
+          ],
+          "text": "Confirm.",
+          "size": 13,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 13,
+          "text_bounds": [
+            641,
+            378,
+            696,
+            390
+          ]
+        },
+        {
+          "id": "ECG_045-options-close",
+          "erase": [
+            721,
+            378,
+            855,
+            394
+          ],
+          "draw": [
+            721,
+            378,
+            915,
+            395
+          ],
+          "text": "Close choices.",
+          "size": 14,
+          "background_sample_x": "edges",
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 14,
+          "text_bounds": [
+            721,
+            378,
+            814,
+            390
+          ]
+        },
+        {
+          "id": "ECG_045-dialogue",
+          "erase": [
+            278,
+            186,
+            389,
+            237
+          ],
+          "draw": [
+            278,
+            186,
+            390,
+            239
+          ],
+          "text": "Why do I have\nto do something\nso troublesome?",
+          "size": 12,
+          "background_sample_x": [
+            390,
+            182
+          ],
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            278,
+            186,
+            372,
+            225
+          ]
+        },
+        {
+          "id": "ECG_045-choice1",
+          "erase": [
+            429,
+            284,
+            632,
+            299
+          ],
+          "draw": [
+            429,
+            283,
+            637,
+            300
+          ],
+          "text": "So strong without even trying. Amazing.",
+          "size": 11,
+          "background_sample_x": 633,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 10,
+          "text_bounds": [
+            429,
+            283,
+            622,
+            294
+          ]
+        },
+        {
+          "id": "ECG_045-choice2",
+          "erase": [
+            379,
+            312,
+            593,
+            326
+          ],
+          "draw": [
+            379,
+            311,
+            611,
+            328
+          ],
+          "text": "Secret training? That's Ange for you.",
+          "size": 12,
+          "background_sample_x": 608,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 12,
+          "text_bounds": [
+            379,
+            311,
+            592,
+            325
+          ]
+        },
+        {
+          "id": "ECG_045-choice3",
+          "erase": [
+            410,
+            339,
+            551,
+            352
+          ],
+          "draw": [
+            410,
+            338,
+            592,
+            354
+          ],
+          "text": "I wonder how much Ange weighs.",
+          "size": 11,
+          "background_sample_x": 582,
+          "align": "left",
+          "status": "inserted_texture",
+          "font_size": 11,
+          "text_bounds": [
+            410,
+            338,
+            590,
+            351
+          ]
+        }
+      ]
+    }
+  ],
+  "textures_inserted": 10,
+  "raster_regions_inserted": 84,
+  "inserted_region_ids": [
+    "EBG_106-lock",
+    "EBG_106-freeze",
+    "EBG_106-twice",
+    "EBG_106-quick",
+    "EBG_106-weapon",
+    "EBG_106-pilot",
+    "EBG_106-accelerate",
+    "EBG_106-melee",
+    "EBG_106-ranged",
+    "EBG_106-transform",
+    "EBG_106-decelerate",
+    "EBG_106-target",
+    "EBG_107-sight",
+    "EBG_107-marker",
+    "EBG_107-operator",
+    "EBG_107-speed",
+    "EBG_107-freeze",
+    "EBG_107-radar",
+    "EBG_107-center",
+    "EBG_107-goal",
+    "EBG_107-enemy",
+    "EBG_107-ally",
+    "EBG_107-energy",
+    "EBG_107-boost",
+    "EBG_107-talk",
+    "EBG_107-timer",
+    "EBG_107-ranged",
+    "EBG_107-kills",
+    "EBG_107-one",
+    "EBG_107-ten",
+    "EBG_107-embedded",
+    "EBG_109-lounge",
+    "EBG_109-config",
+    "EBG_109-title",
+    "EBG_109-embedded",
+    "EBG_108-shop",
+    "EBG_108-hangar",
+    "EBG_108-briefing",
+    "EBG_108-sortie",
+    "EBG_108-embedded",
+    "EBG_108-view",
+    "EBG_108-view-rotate",
+    "EBG_110-deck",
+    "EBG_110-title",
+    "EBG_110-embedded",
+    "EBG_111-mission",
+    "EBG_111-title",
+    "EBG_111-embedded",
+    "EBG_112-cash",
+    "EBG_112-rank",
+    "EBG_112-mission",
+    "EBG_112-title",
+    "EBG_112-power",
+    "EBG_112-time",
+    "EBG_112-transport",
+    "EBG_112-defense1",
+    "EBG_112-defense2",
+    "EBG_112-embedded",
+    "ECG_043-affection",
+    "ECG_043-timer",
+    "ECG_043-markers",
+    "ECG_043-large",
+    "ECG_043-small",
+    "ECG_043-down",
+    "ECG_043-window",
+    "ECG_043-window-toggle",
+    "ECG_043-window-hidden",
+    "ECG_043-condition",
+    "ECG_043-condition-help",
+    "ECG_043-reaction",
+    "ECG_044-window",
+    "ECG_044-timer",
+    "ECG_044-options",
+    "ECG_044-options-help",
+    "ECG_044-dialogue",
+    "ECG_044-wait",
+    "ECG_045-options",
+    "ECG_045-options-select",
+    "ECG_045-options-confirm",
+    "ECG_045-options-close",
+    "ECG_045-dialogue",
+    "ECG_045-choice1",
+    "ECG_045-choice2",
+    "ECG_045-choice3"
+  ],
+  "scope": "All ten identified tutorial textures are inserted. Other raster drafts, movie logos and original manual prose remain pending.",
+  "validation": "Native header, palette, dimensions and outside-region indices preserved; previews decoded from emitted bytes."
+}

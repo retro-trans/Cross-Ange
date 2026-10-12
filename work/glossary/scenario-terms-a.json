@@ -1,0 +1,609 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "terms": [
+    {
+      "id": "light_of_mana",
+      "japanese": [
+        "マナの光"
+      ],
+      "english": "Light of Mana",
+      "category": "power",
+      "status": "wiki_verified",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Mana",
+          "supports": "Explicit Japanese and English alias correspondence"
+        }
+      ],
+      "observed_rows": [
+        832,
+        833,
+        834,
+        835,
+        836,
+        839,
+        841,
+        847
+      ],
+      "notes": "Existing Mana entry remains unchanged; this records the longer observed phrase."
+    },
+    {
+      "id": "handywoman_nickname",
+      "japanese": [
+        "便利屋"
+      ],
+      "english": "handywoman",
+      "category": "teasing_character_nickname",
+      "referent": "Naomi",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        1134,
+        1135,
+        1136
+      ],
+      "source_ids": [
+        "C010_HEP_ROS:1073",
+        "C010_HEP_ROS:1074",
+        "C010_HEP_ROS:1075"
+      ],
+      "source_file": "data/_scr/C010_HEP_ROS.txt",
+      "notes": "Rosalie's situational useful-person nickname; handy/handywoman preserves immediate explanation. Not a literal career or canonical franchise nickname.",
+      "sources": [
+        {
+          "local": "data/_scr/C010_HEP_ROS.txt records 1073–1075",
+          "supports": "Observed short nickname and its handy/useful explanation."
+        }
+      ]
+    },
+    {
+      "id": "reserve_rider",
+      "japanese": [
+        "補欠ライダー"
+      ],
+      "english": "reserve rider",
+      "category": "pilot_status",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        1281,
+        1307,
+        1308,
+        1323,
+        1335
+      ],
+      "source_ids": [
+        "C010_HEV_000:1220",
+        "C010_HEV_000:1246",
+        "C010_HEV_000:1247",
+        "C010_HEV_000:1262",
+        "C010_HEV_000:1274"
+      ],
+      "source_file": "data/_scr/C010_HEV_000.txt",
+      "notes": "Mail-rider awaiting a Para-mail assignment; scarcity and priority discussed in source. Root confirmed convention; no new rank or separate species.",
+      "sources": [
+        {
+          "local": "data/_scr/C010_HEV_000.txt records 1245–1248",
+          "supports": "Local assignment-status explanation and other reserves."
+        }
+      ]
+    },
+    {
+      "id": "planck_response",
+      "category": "detection_signal",
+      "japanese": [
+        "プランク反応"
+      ],
+      "english": "Planck response",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        2602
+      ],
+      "source_ids": [
+        "C020_MAL_000:2541"
+      ],
+      "source_file": "data/_scr/C020_MAL_000.txt",
+      "notes": "Detection report exceeds threshold before a Singularity forms. Literal reading; no verified licensed English terminology found in bounded franchise-specific web searches. No real-physics mechanism asserted."
+    },
+    {
+      "id": "type_1_encounter_alert",
+      "category": "operational_alert",
+      "japanese": [
+        "第一種遭遇警報"
+      ],
+      "english": "Type 1 encounter alert",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        2604
+      ],
+      "source_ids": [
+        "C020_MAL_000:2543"
+      ],
+      "source_file": "data/_scr/C020_MAL_000.txt",
+      "notes": "Alert accompanies Singularity/DRAGON detection and First Squadron launch order. Literal project rendering; no verified official English equivalent found."
+    },
+    {
+      "id": "debt_rider",
+      "category": "teasing_character_nickname",
+      "japanese": [
+        "借金ライダー"
+      ],
+      "english": "Debt Rider",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "referent": "Naomi",
+      "global_rows": [
+        3118
+      ],
+      "source_ids": [
+        "C030_HEV_010:3057"
+      ],
+      "source_file": "data/_scr/C030_HEV_010.txt",
+      "notes": "Rosalie mocks Naomi's pilot debt. Literal local nickname, distinct from established King of Debt; no official localization claimed."
+    },
+    {
+      "id": "nasty_pigtails_girl",
+      "category": "derogatory_character_nickname",
+      "japanese": [
+        "性悪ツインテール"
+      ],
+      "english": "nasty pigtails girl",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "referent": "Hilda",
+      "global_rows": [
+        3202,
+        3203,
+        3259,
+        3260
+      ],
+      "source_ids": [
+        "C030_HEV_010:3141",
+        "C030_HEV_010:3142",
+        "C030_HEV_010:3198",
+        "C030_HEV_010:3199"
+      ],
+      "source_file": "data/_scr/C030_HEV_010.txt",
+      "notes": "Ange's contemptuous hairstyle-based epithet; Naomi explicitly identifies Hilda in the next row. Literal local source rendering; no canonical rename or appearance inference beyond source wording."
+    },
+    {
+      "id": "type_3_encounter_status",
+      "category": "operational_status",
+      "japanese": [
+        "第三種遭遇態勢"
+      ],
+      "english": "Type 3 encounter status",
+      "status": "project_provisional",
+      "game_source_observed": true,
+      "global_rows": [
+        3415
+      ],
+      "source_ids": [
+        "C030_MAL_000:3354"
+      ],
+      "source_file": "data/_scr/C030_MAL_000.txt",
+      "notes": "Operational posture declared after Singularity detection. Parallel literal numbering to Type 1 encounter alert, while retaining distinction between status and alert. No official English equivalent verified."
+    },
+    {
+      "id": "strengthening_tonic",
+      "category": "medicine",
+      "japanese": [
+        "強壮剤"
+      ],
+      "english": "tonic",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        3554,
+        3581,
+        3700
+      ],
+      "source_ids": [
+        "C040_EPI_000:3493",
+        "C040_HEP_ANG:3520",
+        "C040_HEP_VIV:3639"
+      ],
+      "notes": "Generic strengthening medicine in illness-care scenes; source describes forcing it on patients and unpleasant smell. No brand name or real-world efficacy claimed."
+    },
+    {
+      "id": "debt_squadron",
+      "category": "hypothetical_group_nickname",
+      "japanese": [
+        "借金中隊"
+      ],
+      "english": "Debt Squadron",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        4213
+      ],
+      "source_ids": [
+        "C040_PRO_000:4152"
+      ],
+      "source_file": "data/_scr/C040_PRO_000.txt",
+      "notes": "Naomi jokes First Squadron would become indebted if every sick pilot incurred missed-mission fines. Hypothetical pun, not official unit rename."
+    },
+    {
+      "id": "pig_races",
+      "japanese": [
+        "競豚",
+        "競豚レース"
+      ],
+      "english": "pig races",
+      "category": "Festa_activity",
+      "global_rows": [
+        4505,
+        4514,
+        4529
+      ],
+      "source_ids": [
+        "C050_HEV_000:4444",
+        "C050_HEV_000:4453",
+        "C050_HEV_000:4468"
+      ],
+      "notes": "Literal pigs racing, not horse racing; local Festa betting activity.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_file": "data/_scr/C050_HEV_000.txt"
+    },
+    {
+      "id": "rosalie_golden_goose",
+      "japanese": [
+        "金の鴨"
+      ],
+      "english": "golden goose",
+      "category": "teasing_character_nickname",
+      "referent": "Rosalie",
+      "global_rows": [
+        4515,
+        4546
+      ],
+      "source_ids": [
+        "C050_HEV_000:4454",
+        "C050_HEV_000:4485"
+      ],
+      "notes": "Source duck-based money-mark metaphor adapted to English lucrative golden-goose idiom. Race organizers allegedly profit from Rosalie repeated losses; not animal entity.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_file": "data/_scr/C050_HEV_000.txt"
+    },
+    {
+      "id": "vivian_socks_sense",
+      "japanese": [
+        "ソックスセンス"
+      ],
+      "english": "socks sense",
+      "category": "misremembered_phrase",
+      "referent": "sixth sense",
+      "global_rows": [
+        4520,
+        4521,
+        4523
+      ],
+      "source_ids": [
+        "C050_HEV_000:4459",
+        "C050_HEV_000:4460",
+        "C050_HEV_000:4462"
+      ],
+      "notes": "Vivian mistaken wording deliberately kept so Salia socks-versus-sixth correction and Rosalie repetition remain intelligible. Do not normalize to sixth sense in mistaken source line.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_file": "data/_scr/C050_HEV_000.txt"
+    },
+    {
+      "id": "original_naniwa_takoyaki",
+      "japanese": [
+        "元祖ナニワたこ焼き"
+      ],
+      "english": "Original Naniwa Takoyaki",
+      "category": "fictional_food_product",
+      "global_rows": [
+        4549
+      ],
+      "source_ids": [
+        "C050_HEV_000:4488"
+      ],
+      "notes": "Observed Jasmine food-stall label; literal local title rendering. Source control splits Naniwa and takoyaki; no real-world business or official localized title claimed.",
+      "status": "project_translation",
+      "game_source_observed": true,
+      "source_file": "data/_scr/C050_HEV_000.txt"
+    },
+    {
+      "id": "tatiana",
+      "japanese": [
+        "タチアナ"
+      ],
+      "english": "Tatiana",
+      "category": "character",
+      "status": "project_provisional",
+      "gender": null,
+      "personality": null,
+      "position": "Pilot named in machine kill-count report; no squad/rank established.",
+      "global_rows": [
+        4986
+      ],
+      "source_ids": [
+        "C060_BEV_010:4925"
+      ],
+      "notes": "Conventional transcription only; bounded Cross Ange-specific web searches did not confirm a matching profile. Do not conflate with Tanya; no gender/name-origin inference.",
+      "game_source_observed": true
+    },
+    {
+      "id": "eleanor",
+      "japanese": [
+        "エレノア"
+      ],
+      "english": "Eleanor",
+      "category": "character",
+      "status": "wiki_verified",
+      "gender": "female",
+      "personality": null,
+      "position": "Second Troop captain and Arzenal Para-mail pilot",
+      "global_rows": [
+        4987
+      ],
+      "source_ids": [
+        "C060_BEV_010:4926"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Eleanor",
+          "supports": "Explicit Japanese/English name correspondence, Female profile, Captain rank and Second Troop occupation."
+        }
+      ],
+      "notes": "Personality section has no content; do not guess demeanor from captain role.",
+      "game_source_observed": true
+    },
+    {
+      "id": "towagatari",
+      "japanese": [
+        "永久語り",
+        "永遠語り"
+      ],
+      "english": "Towagatari",
+      "category": "song_title",
+      "status": "primary_japanese_wiki_romanization",
+      "global_rows": [
+        5015,
+        5039
+      ],
+      "source_ids": [
+        "C060_EPI_000:4953",
+        "C060_EPI_000:4977"
+      ],
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/sophia/",
+          "supports": "Sophia gives Ange imperial family protective song titled with canonical Japanese variant."
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Towagatari_~Hikari_no_Uta~",
+          "supports": "Towagatari romanization and Eternal Story descriptive translation."
+        }
+      ],
+      "notes": "Game spelling differs in first two Japanese characters; mapped to same inherited song by source family/mother context. Bare title remains Towagatari; do not add version subtitle unless source names it. No lyrics stored.",
+      "game_source_observed": true
+    },
+    {
+      "id": "true_star_song",
+      "japanese": [
+        "真なる星歌",
+        "星歌"
+      ],
+      "english": "True Star Song",
+      "category": "song_designation",
+      "status": "wiki_verified",
+      "global_rows": [
+        5000
+      ],
+      "source_ids": [
+        "C060_BEV_022:4938"
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Salamandinay",
+          "supports": "Explicit English True Star Song name in ability description."
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Enryugo",
+          "supports": "Same name for sung weapon power source."
+        }
+      ],
+      "notes": "Long source phrase observed; bare shorter form uses same designation only when context settles song.",
+      "game_source_observed": true
+    },
+    {
+      "id": "false_people",
+      "japanese": [
+        "偽りの民"
+      ],
+      "english": "false people",
+      "category": "in_world_group_designation",
+      "status": "project_provisional",
+      "global_rows": [
+        5000
+      ],
+      "source_ids": [
+        "C060_BEV_022:4938"
+      ],
+      "notes": "Anonymous adversary uses derogatory/cosmological designation. Literal local convention only; no species, ethnicity or real-world group equivalence inferred.",
+      "game_source_observed": true
+    },
+    {
+      "id": "norma_rations",
+      "japanese": [
+        "ノーマ飯"
+      ],
+      "english": "Norma rations",
+      "category": "food",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "global_rows": [
+        492,
+        2895,
+        5993,
+        5994
+      ],
+      "source_ids": [
+        "C070_HEV_010:5926",
+        "C070_HEV_010:5927"
+      ],
+      "notes": "Generic prepared Norma food, distinct from grade Ration S; described as digestible packs and later snack. Existing drafts also use Norma food/meals; no machine rewrite of unrelated rows."
+    },
+    {
+      "id": "junior_division",
+      "japanese": [
+        "幼年部"
+      ],
+      "english": "junior division",
+      "category": "arzenal_section",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "global_rows": [
+        6146
+      ],
+      "source_ids": [
+        "C070_HEV_020:6079"
+      ],
+      "notes": "Observed Arzenal section whose children Ersha cares for. Formal age limits, training curriculum and exact organizational status unspecified; not equated with combat squadron or nursery."
+    },
+    {
+      "id": "dimensional_corridor",
+      "japanese": [
+        "次元回廊"
+      ],
+      "english": "Dimensional Corridor",
+      "category": "interworld_passage",
+      "status": "project_convention",
+      "game_source_observed": true,
+      "global_rows": [
+        7088,
+        7115
+      ],
+      "source_ids": [
+        "C081_MAL_000:7020",
+        "C081_MAL_010:7047"
+      ],
+      "notes": "Observed passage opened for return between Earths, with escort through it. Local English convention; not conflated with dimensional fusion or ordinary building Corridor."
+    },
+    {
+      "id": "cooling_bullet",
+      "japanese": [
+        "冷却バレット"
+      ],
+      "english": "Cooling Bullet",
+      "category": "battle_ammunition",
+      "status": "provisional_project_convention",
+      "game_source_observed": true,
+      "additional_global_rows": [
+        652,
+        653,
+        654
+      ],
+      "source_ids": [
+        "BtlFriendEvt.bnd:g6:r12:c2",
+        "BtlFriendEvt.bnd:g6:r12:c4",
+        "BtlFriendEvt.bnd:g6:r12:c6"
+      ],
+      "notes": "Literal observed battle-table label. Equivalence to scenario Freeze Bullet is pending; do not silently conflate cooling and freezing labels."
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.3",
+      "changes": [
+        "Added observed Light of Mana phrase with dedicated wiki spelling evidence.",
+        "Added Rosalie's observed handywoman nickname for Naomi as a local provisional convention.",
+        "Added reserve rider assignment-status convention, approved by root from source context."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added two provisional detection/alert terms from observed scenario reports; external searches did not verify English canonical terms."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added locally observed Debt Rider teasing nickname for Naomi."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added source-resolved Hilda epithet from Ange's cooking cooperation conversation."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added locally observed Type 3 encounter status, preserving source distinction from alert."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added generic tonic convention for observed strengthening medicine in illness-care scenes."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added observed hypothetical Debt Squadron nickname for First Squadron."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added observed Festa pig-race, lucrative-loser nickname, socks/sixth mistaken-word joke and Jasmine takoyaki label conventions."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added researched Eleanor, provisional Tatiana, inherited Towagatari title variant, verified True Star Song and provisional false-people designation from observed attack scenes."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Registered Norma rations convention for observed generic Norma food packs distinct from Ration S."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Registered source-backed junior division convention for Arzenal children section."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Registered observed Dimensional Corridor interworld passage convention."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Added provisional observed Cooling Bullet ammunition label, pending equivalence to Freeze Bullet."
+      ]
+    }
+  ]
+}

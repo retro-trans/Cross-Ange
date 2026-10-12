@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "checked_on": "2026-10-11",
+  "phase": "translation_in_progress",
+  "coverage": {
+    "scenario_speaker_forms": {
+      "expected": 56,
+      "indexed": 56,
+      "narration_rows": 551
+    },
+    "ui_character_slots": {
+      "expected": 39,
+      "indexed": 39,
+      "missing_ids": []
+    },
+    "ui_mecha_and_target_slots": {
+      "expected": 42,
+      "indexed": 42,
+      "missing_ids": []
+    },
+    "ui_equipment_name_slots": {
+      "expected": 402,
+      "indexed": 402,
+      "missing_ids": []
+    },
+    "ui_location_slots": {
+      "expected": 30,
+      "indexed": 30,
+      "missing_ids": []
+    }
+  },
+  "databases": {
+    "characters.json": {
+      "entries": 38,
+      "sections": {
+        "characters": 38
+      },
+      "status_counts": {
+        "starter_verified": 38
+      }
+    },
+    "equipment.json": {
+      "entries": 493,
+      "sections": {
+        "equipment": 402,
+        "short_ui_terms": 55,
+        "name_component_terms": 36
+      },
+      "status_counts": {
+        "project_convention": 308,
+        "provisional_name": 139,
+        "unchanged_model_literal": 44,
+        "wiki_verified_name": 2
+      }
+    },
+    "gallery-terms.json": {
+      "entries": 33,
+      "sections": {
+        "terms": 33
+      },
+      "status_counts": {
+        "wiki_backed_spelling": 3,
+        "source_backed_project_convention": 27,
+        "provisional_literal_translation": 3
+      }
+    },
+    "manual-terms.json": {
+      "entries": 16,
+      "sections": {
+        "terms": 16
+      },
+      "status_counts": {
+        "manual_credit_verified_spelling": 14,
+        "verified_wiki_spelling": 1,
+        "project_translation": 1
+      }
+    },
+    "mecha.json": {
+      "entries": 42,
+      "sections": {
+        "terms": 42
+      },
+      "status_counts": {
+        "verified_base_name_project_variant": 32,
+        "project_ui_convention": 5,
+        "project_provisional": 5
+      }
+    },
+    "observed-terms.json": {
+      "entries": 3,
+      "sections": {
+        "terms": 3
+      },
+      "status_counts": {
+        "verified_wiki_spelling": 2,
+        "project_translation": 1
+      }
+    },
+    "scenario-terms-a.json": {
+      "entries": 23,
+      "sections": {
+        "terms": 23
+      },
+      "status_counts": {
+        "wiki_verified": 3,
+        "project_provisional": 8,
+        "project_translation": 7,
+        "primary_japanese_wiki_romanization": 1,
+        "project_convention": 3,
+        "provisional_project_convention": 1
+      }
+    },
+    "scenario-terms-b.json": {
+      "entries": 20,
+      "sections": {
+        "terms": 20
+      },
+      "status_counts": {
+        "project_provisional_romanization": 2,
+        "project_provisional_literal": 1,
+        "standard_romanization": 1,
+        "context_supported_dictionary_spelling": 1,
+        "verified_wiki_spelling": 3,
+        "project_convention": 2,
+        "project_provisional": 6,
+        "source_latin_grade_preserved": 1,
+        "project_translation": 3
+      }
+    },
+    "scenario-terms-c.json": {
+      "entries": 4,
+      "sections": {
+        "terms": 4
+      },
+      "status_counts": {
+        "wiki_backed_base_project_expanded_name": 1,
+        "project_provisional_source_backed": 3
+      }
+    },
+    "scenario-terms-root.json": {
+      "entries": 10,
+      "sections": {
+        "terms": 10
+      },
+      "status_counts": {
+        "wiki_backed_name_project_epithet": 1,
+        "wiki_backed_spelling": 1,
+        "verified_wiki_spelling": 1,
+        "wiki_backed_rank_project_phrase": 1,
+        "source_observed_project_translation": 5,
+        "official_2015_spelling": 1
+      }
+    },
+    "speaker-labels.json": {
+      "entries": 58,
+      "sections": {
+        "labels": 58
+      },
+      "status_counts": {
+        "mapped": 54,
+        "identity_unresolved": 1,
+        "provisional_alias": 3
+      }
+    },
+    "terms.json": {
+      "entries": 32,
+      "sections": {
+        "terms": 32
+      },
+      "status_counts": {
+        "verified_game_title": 1,
+        "verified_franchise": 25,
+        "provisional": 1,
+        "project_convention": 2,
+        "verified_game_label": 2,
+        "verified_wiki_spelling": 1
+      }
+    },
+    "ui-terms.json": {
+      "entries": 146,
+      "sections": {
+        "terms": 146
+      },
+      "status_counts": {
+        "project_ui_convention": 146
+      }
+    },
+    "world.json": {
+      "entries": 23,
+      "sections": {
+        "terms": 23
+      },
+      "status_counts": {
+        "verified_wiki_spelling": 12,
+        "project_translation": 10,
+        "project_provisional": 1
+      }
+    }
+  },
+  "indexed_entries_including_intentional_overlap": 941,
+  "equipment_resolution": {
+    "mapped": 402,
+    "provisional": 139,
+    "unresolved": 0,
+    "unresolved_source_ids": []
+  },
+  "excluded_historical_ui_proposals": 20,
+  "source_slot_conflicts": [],
+  "context_dependent_alias_variants": [
+    {
+      "alias_sha256": "9efa73ed456258821ee84dc05a5fe5cfd39987bef1dd0f3517abad7cb23e3d5a",
+      "mappings": [
+        {
+          "file": "characters.json",
+          "id": "salamandinay",
+          "english": "Salamandinay",
+          "source_ids": []
+        },
+        {
+          "file": "speaker-labels.json",
+          "id": "speaker_0046",
+          "english": "Sala",
+          "source_ids": []
+        }
+      ],
+      "policy": "Match source ID, entity and scene context; never use blind alias substitution."
+    }
+  ],
+  "errors": [],
+  "validation": "passed",
+  "limitations": [
+    "Equipment/game-specific names with provisional or unresolved status require research before treating them as canonical.",
+    "Prototype Eunice labels and concealed identities remain uncertain.",
+    "Raster text and remaining sentence-level vocabulary can add terminology; registry is extensible.",
+    "Glossary entries are not completed game translation rows; translation drafts are tracked separately and no playable build exists yet."
+  ]
+}

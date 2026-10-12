@@ -1,0 +1,2209 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1360,
+    "last_id": 1439,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      1350,
+      1449
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 70,
+    "translated_needs_review": 10
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 1360,
+      "key": "STR_TMG_COMMENT_ROS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10900,
+      "label_offset": 77668,
+      "source_offset": 64676,
+      "source_bytes": 38,
+      "en": "By the way, how much#ndid you lend Rosalie?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64676,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "By the way, how much#ndid you lend Rosalie?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1361,
+      "key": "STR_TMG_COMMENT_ROS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10908,
+      "label_offset": 77704,
+      "source_offset": 64716,
+      "source_bytes": 18,
+      "en": "1,000 Cash.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64716,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "1,000 Cash."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1362,
+      "key": "STR_TMG_COMMENT_ROS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10916,
+      "label_offset": 77740,
+      "source_offset": 64736,
+      "source_bytes": 20,
+      "en": "Huh? Is that all?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64736,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Huh? Is that all?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1363,
+      "key": "STR_TMG_COMMENT_ROS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10924,
+      "label_offset": 77776,
+      "source_offset": 64760,
+      "source_bytes": 62,
+      "en": "However little it is,#nI don't have it.#nI'd pay you if I could.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64760,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "However little it is,#nI don't have it.#nI'd pay you if I could."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1364,
+      "key": "STR_TMG_COMMENT_ROS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10932,
+      "label_offset": 77812,
+      "source_offset": 64824,
+      "source_bytes": 50,
+      "en": "Honestly...#nYou're so shameless#nit's almost refreshing.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64824,
+          "source_bytes": 50,
+          "contains_japanese": true,
+          "en": "Honestly...#nYou're so shameless#nit's almost refreshing."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1365,
+      "key": "STR_TMG_COMMENT_ROS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10940,
+      "label_offset": 77848,
+      "source_offset": 64876,
+      "source_bytes": 54,
+      "en": "#b0(Rosalie really#ndoesn't seem to have any money...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64876,
+          "source_bytes": 54,
+          "contains_japanese": true,
+          "en": "#b0(Rosalie really#ndoesn't seem to have any money...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1366,
+      "key": "STR_TMG_COMMENT_ROS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10948,
+      "label_offset": 77884,
+      "source_offset": 64932,
+      "source_bytes": 68,
+      "en": "If you don't have#nthe money, so be it.#nYou'll pay me back#nwith your body, then.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 64932,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "If you don't have#nthe money, so be it.#nYou'll pay me back#nwith your body, then."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Preserve the intentionally suggestive body-repayment wording; following internal thought specifies labor without erasing the innuendo.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1367,
+      "key": "STR_TMG_COMMENT_ROS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10956,
+      "label_offset": 77920,
+      "source_offset": 65004,
+      "source_bytes": 52,
+      "en": "O-okay.#nI'll do anything.#nJust tell me what you want.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65004,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "O-okay.#nI'll do anything.#nJust tell me what you want."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1368,
+      "key": "STR_TMG_COMMENT_ROS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10964,
+      "label_offset": 77956,
+      "source_offset": 65060,
+      "source_bytes": 64,
+      "en": "Dying over#na measly#n 1,000 Cash#nwould be ridiculous.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65060,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "Dying over#na measly#n 1,000 Cash#nwould be ridiculous."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1369,
+      "key": "STR_TMG_COMMENT_ROS_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10972,
+      "label_offset": 77992,
+      "source_offset": 65128,
+      "source_bytes": 36,
+      "en": "Now, what should#nI make you do...?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65128,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Now, what should#nI make you do...?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1370,
+      "key": "STR_TMG_COMMENT_ROS_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10980,
+      "label_offset": 78028,
+      "source_offset": 65168,
+      "source_bytes": 42,
+      "en": "#b0(1,000 Cash worth of labor...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65168,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "#b0(1,000 Cash worth of labor...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1371,
+      "key": "STR_TMG_REACTION_ROS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10988,
+      "label_offset": 78064,
+      "source_offset": 65212,
+      "source_bytes": 36,
+      "en": "That's it, Naomi!#nGreat idea!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65212,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "That's it, Naomi!#nGreat idea!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1372,
+      "key": "STR_TMG_REACTION_ROS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 10996,
+      "label_offset": 78100,
+      "source_offset": 65252,
+      "source_bytes": 48,
+      "en": "H-hey!#nYou're saying that#ntoo, Naomi?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65252,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "H-hey!#nYou're saying that#ntoo, Naomi?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1373,
+      "key": "STR_TMG_REACTION_ROS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11004,
+      "label_offset": 78136,
+      "source_offset": 65304,
+      "source_bytes": 44,
+      "en": "Huh?#nWho cares about#nthat right now?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65304,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "Huh?#nWho cares about#nthat right now?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1374,
+      "key": "STR_TMG_REACTION_ROS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11012,
+      "label_offset": 78172,
+      "source_offset": 65352,
+      "source_bytes": 34,
+      "en": "P-please, let's do that,#nHilda!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65352,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "P-please, let's do that,#nHilda!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1375,
+      "key": "STR_TMG_REACTION_ROS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11020,
+      "label_offset": 78208,
+      "source_offset": 65388,
+      "source_bytes": 38,
+      "en": "That's not true!#nBelieve me!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65388,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "That's not true!#nBelieve me!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1376,
+      "key": "STR_TMG_REACTION_ROS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11028,
+      "label_offset": 78244,
+      "source_offset": 65428,
+      "source_bytes": 46,
+      "en": "That's not what I meant.#nAre you listening?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65428,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "That's not what I meant.#nAre you listening?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1377,
+      "key": "STR_TMG_REACTION_ROS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11036,
+      "label_offset": 78280,
+      "source_offset": 65476,
+      "source_bytes": 30,
+      "en": "Yeah, yeah,#nthat sounds about right.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65476,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Yeah, yeah,#nthat sounds about right."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1378,
+      "key": "STR_TMG_REACTION_ROS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11044,
+      "label_offset": 78316,
+      "source_offset": 65508,
+      "source_bytes": 18,
+      "en": "Don't egg Hilda on!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65508,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Don't egg Hilda on!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1379,
+      "key": "STR_TMG_REACTION_ROS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11052,
+      "label_offset": 78352,
+      "source_offset": 65528,
+      "source_bytes": 38,
+      "en": "It's none of your business?#nWell, I guess you're right...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65528,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "It's none of your business?#nWell, I guess you're right..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1380,
+      "key": "STR_TMG_ANSWER_ROS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11060,
+      "label_offset": 78388,
+      "source_offset": 65568,
+      "source_bytes": 30,
+      "en": "Why not give her a little longer to pay?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65568,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Why not give her a little longer to pay?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1381,
+      "key": "STR_TMG_ANSWER_ROS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11068,
+      "label_offset": 78424,
+      "source_offset": 65600,
+      "source_bytes": 38,
+      "en": "Exactly. There's no way Rosalie would pay you back.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65600,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "Exactly. There's no way Rosalie would pay you back."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1382,
+      "key": "STR_TMG_ANSWER_ROS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11076,
+      "label_offset": 78460,
+      "source_offset": 65640,
+      "source_bytes": 30,
+      "en": "Talking about debt hits a little close to home.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65640,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Talking about debt hits a little close to home."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1383,
+      "key": "STR_TMG_ANSWER_ROS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11084,
+      "label_offset": 78496,
+      "source_offset": 65672,
+      "source_bytes": 22,
+      "en": "This doesn't seem to involve me.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65672,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "This doesn't seem to involve me."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1384,
+      "key": "STR_TMG_ANSWER_ROS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11092,
+      "label_offset": 78532,
+      "source_offset": 65696,
+      "source_bytes": 18,
+      "en": "It's another nice day today.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65696,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "It's another nice day today."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1385,
+      "key": "STR_TMG_ANSWER_ROS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11100,
+      "label_offset": 78568,
+      "source_offset": 65716,
+      "source_bytes": 36,
+      "en": "If she has no money, why not have her work it off?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65716,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "If she has no money, why not have her work it off?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1386,
+      "key": "STR_TMG_ANSWER_ROS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11108,
+      "label_offset": 78604,
+      "source_offset": 65756,
+      "source_bytes": 38,
+      "en": "Maybe she's trying to skip out on paying after all?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65756,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "Maybe she's trying to skip out on paying after all?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1387,
+      "key": "STR_TMG_ANSWER_ROS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11116,
+      "label_offset": 78640,
+      "source_offset": 65796,
+      "source_bytes": 34,
+      "en": "Is gambling really that much fun?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65796,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Is gambling really that much fun?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1388,
+      "key": "STR_TMG_ANSWER_ROS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11124,
+      "label_offset": 78676,
+      "source_offset": 65832,
+      "source_bytes": 34,
+      "en": "More importantly, why don't we all have something to eat?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65832,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "More importantly, why don't we all have something to eat?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1389,
+      "key": "STR_TMG_ANSWER_ROS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11132,
+      "label_offset": 78712,
+      "source_offset": 65868,
+      "source_bytes": 32,
+      "en": "Yaaawn... I'm getting sleepy...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65868,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Yaaawn... I'm getting sleepy..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1390,
+      "key": "STR_TMG_ANSWER_ROS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11140,
+      "label_offset": 78748,
+      "source_offset": 65904,
+      "source_bytes": 22,
+      "en": "Let's keep this reasonable.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65904,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Let's keep this reasonable."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1391,
+      "key": "STR_TMG_ANSWER_ROS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11148,
+      "label_offset": 78784,
+      "source_offset": 65928,
+      "source_bytes": 38,
+      "en": "It's your chance to make Rosalie do all kinds of things!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65928,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "It's your chance to make Rosalie do all kinds of things!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1392,
+      "key": "STR_TMG_ANSWER_ROS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11156,
+      "label_offset": 78820,
+      "source_offset": 65968,
+      "source_bytes": 22,
+      "en": "I'm staying out of this!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65968,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "I'm staying out of this!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1393,
+      "key": "STR_TMG_ANSWER_ROS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11164,
+      "label_offset": 78856,
+      "source_offset": 65992,
+      "source_bytes": 34,
+      "en": "I wonder what they'll make Rosalie do...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 65992,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "I wonder what they'll make Rosalie do..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1394,
+      "key": "STR_TMG_ANSWER_ROS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11172,
+      "label_offset": 78892,
+      "source_offset": 66028,
+      "source_bytes": 42,
+      "en": "What would I buy with 1,000 Cash?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66028,
+          "source_bytes": 42,
+          "contains_japanese": true,
+          "en": "What would I buy with 1,000 Cash?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Talk Battle conversation and its branching Naomi answer choices; neighboring conversation, reaction and choice rows read together.",
+      "decisions": "Natural full English with explicit grammatical subjects; same source row and exact control sequence.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1395,
+      "key": "STR_TMG_COMMENT_ERS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11180,
+      "label_offset": 78928,
+      "source_offset": 66072,
+      "source_bytes": 52,
+      "en": "What's up, Salia?#nIf you've got something#nto say, say it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66072,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "What's up, Salia?#nIf you've got something#nto say, say it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1396,
+      "key": "STR_TMG_COMMENT_ERS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11188,
+      "label_offset": 78964,
+      "source_offset": 66128,
+      "source_bytes": 54,
+      "en": "Nothing.#nI just think#nfortune-telling#nis unscientific.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66128,
+          "source_bytes": 54,
+          "contains_japanese": true,
+          "en": "Nothing.#nI just think#nfortune-telling#nis unscientific."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1397,
+      "key": "STR_TMG_COMMENT_ERS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11196,
+      "label_offset": 79000,
+      "source_offset": 66184,
+      "source_bytes": 28,
+      "en": "Oh?#nYou don't believe in it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66184,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Oh?#nYou don't believe in it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1398,
+      "key": "STR_TMG_COMMENT_ERS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11204,
+      "label_offset": 79036,
+      "source_offset": 66216,
+      "source_bytes": 90,
+      "en": "That's right.#nI don't#nbelieve in it. But let#nme ask you: do you#nreally believe in it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66216,
+          "source_bytes": 90,
+          "contains_japanese": true,
+          "en": "That's right.#nI don't#nbelieve in it. But let#nme ask you: do you#nreally believe in it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1399,
+      "key": "STR_TMG_COMMENT_ERS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11212,
+      "label_offset": 79072,
+      "source_offset": 66308,
+      "source_bytes": 62,
+      "en": "It actually helped#nme find what I'd lost.#nHow could I not believe it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66308,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "It actually helped#nme find what I'd lost.#nHow could I not believe it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1400,
+      "key": "STR_TMG_COMMENT_ERS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11220,
+      "label_offset": 79108,
+      "source_offset": 66372,
+      "source_bytes": 38,
+      "en": "#b0(You've got to start by believing.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66372,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "#b0(You've got to start by believing.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1401,
+      "key": "STR_TMG_COMMENT_ERS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11228,
+      "label_offset": 79144,
+      "source_offset": 66412,
+      "source_bytes": 66,
+      "en": "That's the thing.#nCouldn't there be#nsome kind of trick#nor setup behind it?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66412,
+          "source_bytes": 66,
+          "contains_japanese": true,
+          "en": "That's the thing.#nCouldn't there be#nsome kind of trick#nor setup behind it?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1402,
+      "key": "STR_TMG_COMMENT_ERS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11236,
+      "label_offset": 79180,
+      "source_offset": 66480,
+      "source_bytes": 82,
+      "en": "There's a limit#nto how suspicious you can be.#nThis is why#nbookworms who live#nin their heads are such a pain.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66480,
+          "source_bytes": 82,
+          "contains_japanese": true,
+          "en": "There's a limit#nto how suspicious you can be.#nThis is why#nbookworms who live#nin their heads are such a pain."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1403,
+      "key": "STR_TMG_COMMENT_ERS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11244,
+      "label_offset": 79216,
+      "source_offset": 66564,
+      "source_bytes": 76,
+      "en": "Well...#nSalia has#na point, but#nthat's not the whole story.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66564,
+          "source_bytes": 76,
+          "contains_japanese": true,
+          "en": "Well...#nSalia has#na point, but#nthat's not the whole story."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1404,
+      "key": "STR_TMG_COMMENT_ERS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11252,
+      "label_offset": 79252,
+      "source_offset": 66644,
+      "source_bytes": 96,
+      "en": "First, I need to learn#nthe details of the situation.#nI also have to know#na lot about the person#nwhose fortune I'm telling.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66644,
+          "source_bytes": 96,
+          "contains_japanese": true,
+          "en": "First, I need to learn#nthe details of the situation.#nI also have to know#na lot about the person#nwhose fortune I'm telling."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1405,
+      "key": "STR_TMG_COMMENT_ERS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11260,
+      "label_offset": 79288,
+      "source_offset": 66744,
+      "source_bytes": 32,
+      "en": "The person whose fortune#nyou're telling? You mean me?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66744,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "The person whose fortune#nyou're telling? You mean me?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1406,
+      "key": "STR_TMG_COMMENT_ERS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11268,
+      "label_offset": 79324,
+      "source_offset": 66780,
+      "source_bytes": 64,
+      "en": "#b0(I see. She pays close attention#nto her friends all the time.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66780,
+          "source_bytes": 64,
+          "contains_japanese": true,
+          "en": "#b0(I see. She pays close attention#nto her friends all the time.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Source transposition interpreted as referring to her friends from the following explanation of observing their habits.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1407,
+      "key": "STR_TMG_COMMENT_ERS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11276,
+      "label_offset": 79360,
+      "source_offset": 66848,
+      "source_bytes": 96,
+      "en": "Knowing your personality,#nHilda, I could guess#nthat you'd assumed#nyou'd lost it outside#nand hadn't searched your room.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66848,
+          "source_bytes": 96,
+          "contains_japanese": true,
+          "en": "Knowing your personality,#nHilda, I could guess#nthat you'd assumed#nyou'd lost it outside#nand hadn't searched your room."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1408,
+      "key": "STR_TMG_COMMENT_ERS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11284,
+      "label_offset": 79396,
+      "source_offset": 66948,
+      "source_bytes": 100,
+      "en": "And you didn't#nfind it even after#nsearching outside.#nDoesn't that mean#nit must be in your room?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 66948,
+          "source_bytes": 100,
+          "contains_japanese": true,
+          "en": "And you didn't#nfind it even after#nsearching outside.#nDoesn't that mean#nit must be in your room?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1409,
+      "key": "STR_TMG_COMMENT_ERS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11292,
+      "label_offset": 79432,
+      "source_offset": 67052,
+      "source_bytes": 60,
+      "en": "I'd say that's#nenough to work out#nabout ninety percent#nof the answer.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67052,
+          "source_bytes": 60,
+          "contains_japanese": true,
+          "en": "I'd say that's#nenough to work out#nabout ninety percent#nof the answer."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1410,
+      "key": "STR_TMG_COMMENT_ERS_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11300,
+      "label_offset": 79468,
+      "source_offset": 67116,
+      "source_bytes": 96,
+      "en": "Let's say I#naccept that.#nWhat about the other ten percent?#nHow did you know#nit was under the bed?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67116,
+          "source_bytes": 96,
+          "contains_japanese": true,
+          "en": "Let's say I#naccept that.#nWhat about the other ten percent?#nHow did you know#nit was under the bed?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1411,
+      "key": "STR_TMG_COMMENT_ERS_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11308,
+      "label_offset": 79504,
+      "source_offset": 67216,
+      "source_bytes": 36,
+      "en": "Spiritual inspiration,#nof course.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67216,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Spiritual inspiration,#nof course."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1412,
+      "key": "STR_TMG_COMMENT_ERS_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11316,
+      "label_offset": 79540,
+      "source_offset": 67256,
+      "source_bytes": 56,
+      "en": "#b0(So that's what settles#nit in the end...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67256,
+          "source_bytes": 56,
+          "contains_japanese": true,
+          "en": "#b0(So that's what settles#nit in the end...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#b0",
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1413,
+      "key": "STR_TMG_REACTION_ERS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11324,
+      "label_offset": 79576,
+      "source_offset": 67316,
+      "source_bytes": 28,
+      "en": "Thank you,#nNaomi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67316,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Thank you,#nNaomi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1414,
+      "key": "STR_TMG_REACTION_ERS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11332,
+      "label_offset": 79612,
+      "source_offset": 67348,
+      "source_bytes": 28,
+      "en": "That's#ntrue, but...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67348,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "That's#ntrue, but..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1415,
+      "key": "STR_TMG_REACTION_ERS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11340,
+      "label_offset": 79648,
+      "source_offset": 67380,
+      "source_bytes": 16,
+      "en": "What are you talking about?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67380,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "What are you talking about?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1416,
+      "key": "STR_TMG_REACTION_ERS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11348,
+      "label_offset": 79684,
+      "source_offset": 67400,
+      "source_bytes": 28,
+      "en": "Thank you,#nNaomi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67400,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Thank you,#nNaomi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1417,
+      "key": "STR_TMG_REACTION_ERS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11356,
+      "label_offset": 79720,
+      "source_offset": 67432,
+      "source_bytes": 26,
+      "en": "You should hear people#nout to the end.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67432,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "You should hear people#nout to the end."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1418,
+      "key": "STR_TMG_REACTION_ERS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11364,
+      "label_offset": 79756,
+      "source_offset": 67460,
+      "source_bytes": 34,
+      "en": "Naomi,#nare you even listening?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67460,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Naomi,#nare you even listening?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1419,
+      "key": "STR_TMG_REACTION_ERS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11372,
+      "label_offset": 79792,
+      "source_offset": 67496,
+      "source_bytes": 16,
+      "en": "Oh, thank you.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67496,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Oh, thank you."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1420,
+      "key": "STR_TMG_REACTION_ERS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11380,
+      "label_offset": 79828,
+      "source_offset": 67516,
+      "source_bytes": 40,
+      "en": "Hearing that#nis a little depressing...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67516,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "Hearing that#nis a little depressing..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1421,
+      "key": "STR_TMG_REACTION_ERS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11388,
+      "label_offset": 79864,
+      "source_offset": 67560,
+      "source_bytes": 26,
+      "en": "Listen#nproperly.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67560,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Listen#nproperly."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1422,
+      "key": "STR_TMG_ANSWER_ERS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11396,
+      "label_offset": 79900,
+      "source_offset": 67588,
+      "source_bytes": 18,
+      "en": "I believe in it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67588,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "I believe in it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1423,
+      "key": "STR_TMG_ANSWER_ERS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11404,
+      "label_offset": 79936,
+      "source_offset": 67608,
+      "source_bytes": 28,
+      "en": "There really isn't any scientific basis for it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67608,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "There really isn't any scientific basis for it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1424,
+      "key": "STR_TMG_ANSWER_ERS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11412,
+      "label_offset": 79972,
+      "source_offset": 67640,
+      "source_bytes": 30,
+      "en": "Could fortune-telling make my breasts bigger?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67640,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Could fortune-telling make my breasts bigger?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1425,
+      "key": "STR_TMG_ANSWER_ERS_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11420,
+      "label_offset": 80008,
+      "source_offset": 67672,
+      "source_bytes": 16,
+      "en": "Does fortune-telling pay well?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67672,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Does fortune-telling pay well?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1426,
+      "key": "STR_TMG_ANSWER_ERS_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11428,
+      "label_offset": 80044,
+      "source_offset": 67692,
+      "source_bytes": 38,
+      "en": "I'd like you to predict what's for dinner tonight.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67692,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "I'd like you to predict what's for dinner tonight."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1427,
+      "key": "STR_TMG_ANSWER_ERS_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11436,
+      "label_offset": 80080,
+      "source_offset": 67732,
+      "source_bytes": 38,
+      "en": "You really care about your friends, Ersha.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67732,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "You really care about your friends, Ersha."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1428,
+      "key": "STR_TMG_ANSWER_ERS_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11444,
+      "label_offset": 80116,
+      "source_offset": 67772,
+      "source_bytes": 26,
+      "en": "Isn't that cheating?!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67772,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Isn't that cheating?!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1429,
+      "key": "STR_TMG_ANSWER_ERS_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11452,
+      "label_offset": 80152,
+      "source_offset": 67800,
+      "source_bytes": 24,
+      "en": "I don't think I could tell fortunes.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67800,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "I don't think I could tell fortunes."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1430,
+      "key": "STR_TMG_ANSWER_ERS_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11460,
+      "label_offset": 80188,
+      "source_offset": 67828,
+      "source_bytes": 34,
+      "en": "I'm more interested in dinner than fortune-telling.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67828,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "I'm more interested in dinner than fortune-telling."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1431,
+      "key": "STR_TMG_ANSWER_ERS_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11468,
+      "label_offset": 80224,
+      "source_offset": 67864,
+      "source_bytes": 38,
+      "en": "All this complicated talk is making me sleepy...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67864,
+          "source_bytes": 38,
+          "contains_japanese": true,
+          "en": "All this complicated talk is making me sleepy..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1432,
+      "key": "STR_TMG_ANSWER_ERS_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11476,
+      "label_offset": 80260,
+      "source_offset": 67904,
+      "source_bytes": 36,
+      "en": "Spiritual inspiration... You're amazing, Ersha!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67904,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Spiritual inspiration... You're amazing, Ersha!"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1433,
+      "key": "STR_TMG_ANSWER_ERS_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11484,
+      "label_offset": 80296,
+      "source_offset": 67944,
+      "source_bytes": 44,
+      "en": "You're good at spotting people's flaws, Ersha.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67944,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "You're good at spotting people's flaws, Ersha."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1434,
+      "key": "STR_TMG_ANSWER_ERS_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11492,
+      "label_offset": 80332,
+      "source_offset": 67992,
+      "source_bytes": 40,
+      "en": "I don't understand what any of you are talking about!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 67992,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "I don't understand what any of you are talking about!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1435,
+      "key": "STR_TMG_ANSWER_ERS_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11500,
+      "label_offset": 80368,
+      "source_offset": 68036,
+      "source_bytes": 34,
+      "en": "Hey, do you tell fortunes when you make curry, too?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 68036,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "Hey, do you tell fortunes when you make curry, too?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1436,
+      "key": "STR_TMG_ANSWER_ERS_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11508,
+      "label_offset": 80404,
+      "source_offset": 68072,
+      "source_bytes": 30,
+      "en": "Could fortune-telling reduce my debt?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 68072,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Could fortune-telling reduce my debt?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1437,
+      "key": "STR_TMG_COMMENT_CRS_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11516,
+      "label_offset": 80440,
+      "source_offset": 68104,
+      "source_bytes": 60,
+      "en": "Um, what's going on?#nChris looks#nreally angry.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 68104,
+          "source_bytes": 60,
+          "contains_japanese": true,
+          "en": "Um, what's going on?#nChris looks#nreally angry."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1438,
+      "key": "STR_TMG_COMMENT_CRS_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11524,
+      "label_offset": 80476,
+      "source_offset": 68168,
+      "source_bytes": 78,
+      "en": "Don't play#ndumb. You're#nthe culprit, aren't you?#nHurry up and confess.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 68168,
+          "source_bytes": 78,
+          "contains_japanese": true,
+          "en": "Don't play#ndumb. You're#nthe culprit, aren't you?#nHurry up and confess."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1439,
+      "key": "STR_TMG_COMMENT_CRS_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 11532,
+      "label_offset": 80512,
+      "source_offset": 68248,
+      "source_bytes": 52,
+      "en": "I'm innocent!#nI demand#nto be released!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 68248,
+          "source_bytes": 52,
+          "contains_japanese": true,
+          "en": "I'm innocent!#nI demand#nto be released!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Ersha fortune-telling or Chris deleted-save-data conversation; neighboring comments, reactions and Naomi answer choices read as a scene.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n",
+        "#n"
+      ],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "policy": "Glossary-first; names/short UI labels only, no dialogue source. Canonical spelling distinguished from project variants and provisional choices.",
+  "terms": [
+    {
+      "id": "ui_term_703",
+      "category": "mecha",
+      "japanese": [
+        "グレイブTYPE-00"
+      ],
+      "source_display_label_jp": "グレイブTYPE-00",
+      "english": "Glaive TYPE-00",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 703,
+        "key": "STR_PMAIL_NAME_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_704",
+      "category": "mecha",
+      "japanese": [
+        "ヴィルキス/レプリカ"
+      ],
+      "source_display_label_jp": "ヴィルキス/レプリカ",
+      "english": "Villkiss/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 704,
+        "key": "STR_PMAIL_NAME_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_705",
+      "category": "mecha",
+      "japanese": [
+        "焔龍號/レプリカ"
+      ],
+      "source_display_label_jp": "焔龍號/レプリカ",
+      "english": "Enryugo/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 705,
+        "key": "STR_PMAIL_NAME_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Enryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_706",
+      "category": "mecha",
+      "japanese": [
+        "アーキバス"
+      ],
+      "source_display_label_jp": "アーキバス",
+      "english": "Arquebus",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 706,
+        "key": "STR_PMAIL_NAME_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_707",
+      "category": "mecha",
+      "japanese": [
+        "レイザー"
+      ],
+      "source_display_label_jp": "レイザー",
+      "english": "Razor",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 707,
+        "key": "STR_PMAIL_NAME_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_708",
+      "category": "mecha",
+      "japanese": [
+        "グレイブTYPE-0１"
+      ],
+      "source_display_label_jp": "グレイブTYPE-0１",
+      "english": "Glaive TYPE-0１",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 708,
+        "key": "STR_PMAIL_NAME_06"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_709",
+      "category": "mecha",
+      "japanese": [
+        "グレイブTYPE-02"
+      ],
+      "source_display_label_jp": "グレイブTYPE-02",
+      "english": "Glaive TYPE-02",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 709,
+        "key": "STR_PMAIL_NAME_07"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_710",
+      "category": "mecha",
+      "japanese": [
+        "ハウザー"
+      ],
+      "source_display_label_jp": "ハウザー",
+      "english": "Howitzer",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 710,
+        "key": "STR_PMAIL_NAME_08"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-ZZR520_%28CR%29_Howitzer_Chris_Custom",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_711",
+      "category": "mecha",
+      "japanese": [
+        "ヴィルキス"
+      ],
+      "source_display_label_jp": "ヴィルキス",
+      "english": "Villkiss",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 711,
+        "key": "STR_PMAIL_NAME_09"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_712",
+      "category": "mecha",
+      "japanese": [
+        "焔龍號"
+      ],
+      "source_display_label_jp": "焔龍號",
+      "english": "Enryugo",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 712,
+        "key": "STR_PMAIL_NAME_10"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Enryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_713",
+      "category": "mecha",
+      "japanese": [
+        "アーキバス/ゾーラ・カスタム"
+      ],
+      "source_display_label_jp": "アーキバス/ゾーラ・カスタム",
+      "english": "Arquebus/Zola Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 713,
+        "key": "STR_PMAIL_NAME_11"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_714",
+      "category": "mecha",
+      "japanese": [
+        "アーキバス/サリア・カスタム"
+      ],
+      "source_display_label_jp": "アーキバス/サリア・カスタム",
+      "english": "Arquebus/Salia Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 714,
+        "key": "STR_PMAIL_NAME_12"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_715",
+      "category": "mecha",
+      "japanese": [
+        "レイザー"
+      ],
+      "source_display_label_jp": "レイザー",
+      "english": "Razor",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 715,
+        "key": "STR_PMAIL_NAME_13"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_716",
+      "category": "mecha",
+      "japanese": [
+        "グレイブ/ヒルダ・カスタム"
+      ],
+      "source_display_label_jp": "グレイブ/ヒルダ・カスタム",
+      "english": "Glaive/Hilda Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 716,
+        "key": "STR_PMAIL_NAME_14"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_717",
+      "category": "mecha",
+      "japanese": [
+        "グレイブ/ロザリー・カスタム"
+      ],
+      "source_display_label_jp": "グレイブ/ロザリー・カスタム",
+      "english": "Glaive/Rosalie Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 717,
+        "key": "STR_PMAIL_NAME_15"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_718",
+      "category": "mecha",
+      "japanese": [
+        "ハウザー/クリス・カスタム"
+      ],
+      "source_display_label_jp": "ハウザー/クリス・カスタム",
+      "english": "Howitzer/Chris Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 718,
+        "key": "STR_PMAIL_NAME_16"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-ZZR520_%28CR%29_Howitzer_Chris_Custom",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_719",
+      "category": "mecha",
+      "japanese": [
+        "ハウザー/エルシャ・カスタム"
+      ],
+      "source_display_label_jp": "ハウザー/エルシャ・カスタム",
+      "english": "Howitzer/Ersha Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 719,
+        "key": "STR_PMAIL_NAME_17"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-ZZR520_%28CR%29_Howitzer_Chris_Custom",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_720",
+      "category": "mecha",
+      "japanese": [
+        "蒼龍號"
+      ],
+      "source_display_label_jp": "蒼龍號",
+      "english": "Soryugo",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 720,
+        "key": "STR_PMAIL_NAME_18"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Soryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_721",
+      "category": "mecha",
+      "japanese": [
+        "碧龍號"
+      ],
+      "source_display_label_jp": "碧龍號 ",
+      "english": "Hekiryugo",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 721,
+        "key": "STR_PMAIL_NAME_19"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Hekiryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_722",
+      "category": "mecha",
+      "japanese": [
+        "ヒステリカ"
+      ],
+      "source_display_label_jp": "ヒステリカ",
+      "english": "Hysterica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 722,
+        "key": "STR_PMAIL_NAME_20"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_723",
+      "category": "mecha",
+      "japanese": [
+        "クレオパトラ"
+      ],
+      "source_display_label_jp": "クレオパトラ",
+      "english": "Cleopatra",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 723,
+        "key": "STR_PMAIL_NAME_21"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_724",
+      "category": "mecha",
+      "japanese": [
+        "レイジア"
+      ],
+      "source_display_label_jp": "レイジア",
+      "english": "Raziya",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 724,
+        "key": "STR_PMAIL_NAME_22"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_725",
+      "category": "mecha",
+      "japanese": [
+        "テオドーラ"
+      ],
+      "source_display_label_jp": "テオドーラ",
+      "english": "Theodra",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 725,
+        "key": "STR_PMAIL_NAME_23"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_726",
+      "category": "mecha",
+      "japanese": [
+        "ビクトリア"
+      ],
+      "source_display_label_jp": "ビクトリア",
+      "english": "Victoria",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 726,
+        "key": "STR_PMAIL_NAME_24"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_727",
+      "category": "mecha",
+      "japanese": [
+        "エイレーネ"
+      ],
+      "source_display_label_jp": "エイレーネ",
+      "english": "Eirene",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 727,
+        "key": "STR_PMAIL_NAME_25"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_728",
+      "category": "mecha",
+      "japanese": [
+        "ヒステリカ/レプリカ"
+      ],
+      "source_display_label_jp": "ヒステリカ/レプリカ",
+      "english": "Hysterica/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 728,
+        "key": "STR_PMAIL_NAME_26"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_729",
+      "category": "mecha",
+      "japanese": [
+        "ビクトリア/レプリカ"
+      ],
+      "source_display_label_jp": "ビクトリア/レプリカ",
+      "english": "Victoria/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 729,
+        "key": "STR_PMAIL_NAME_27"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_730",
+      "category": "mecha",
+      "japanese": [
+        "蒼龍號/レプリカ"
+      ],
+      "source_display_label_jp": "蒼龍號/レプリカ",
+      "english": "Soryugo/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 730,
+        "key": "STR_PMAIL_NAME_28"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Soryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_731",
+      "category": "mecha",
+      "japanese": [
+        "碧龍號/レプリカ"
+      ],
+      "source_display_label_jp": "碧龍號/レプリカ",
+      "english": "Hekiryugo/Replica",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 731,
+        "key": "STR_PMAIL_NAME_29"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Hekiryugo",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_732",
+      "category": "mecha",
+      "japanese": [
+        "アーキバス/ヒルダ・カスタム"
+      ],
+      "source_display_label_jp": "アーキバス/ヒルダ・カスタム",
+      "english": "Arquebus/Hilda Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 732,
+        "key": "STR_PMAIL_NAME_30"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_733",
+      "category": "mecha",
+      "japanese": [
+        "レイザー/ヴィヴィアン・カスタム"
+      ],
+      "source_display_label_jp": "レイザー/ヴィヴィアン・カスタム",
+      "english": "Razor/Vivian Custom",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 733,
+        "key": "STR_PMAIL_NAME_31"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Category:Arzenal_Mecha",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_734",
+      "category": "mecha",
+      "japanese": [
+        "ラグナメイル"
+      ],
+      "source_display_label_jp": "ラグナメイル",
+      "english": "Ragna-mail",
+      "game_source_observed": true,
+      "status": "verified_base_name_project_variant",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 734,
+        "key": "STR_PMAIL_NAME_99"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Ragna-mail",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_735",
+      "category": "enemy_class",
+      "japanese": [
+        "スクーナー級ドラゴン"
+      ],
+      "source_display_label_jp": "スクーナー級ドラゴン",
+      "english": "Schooner-Class DRAGON",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 735,
+        "key": "STR_DRAGON_NAME_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_736",
+      "category": "enemy_class",
+      "japanese": [
+        "ブリッグ級ドラゴン"
+      ],
+      "source_display_label_jp": "ブリッグ級ドラゴン",
+      "english": "Brig-Class DRAGON",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 736,
+        "key": "STR_DRAGON_NAME_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_737",
+      "category": "enemy_class",
+      "japanese": [
+        "ガレオン級ドラゴン"
+      ],
+      "source_display_label_jp": "ガレオン級ドラゴン",
+      "english": "Galleon-Class DRAGON",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 737,
+        "key": "STR_DRAGON_NAME_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_738",
+      "category": "enemy_class",
+      "japanese": [
+        "ガレオン級ホーンドラゴン"
+      ],
+      "source_display_label_jp": "ガレオン級ホーンドラゴン",
+      "english": "Galleon-Class Horn DRAGON",
+      "game_source_observed": true,
+      "status": "project_provisional",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 738,
+        "key": "STR_DRAGON_NAME_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending. Horn variant or game-specific target identity requires scene review.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_739",
+      "category": "enemy_class",
+      "japanese": [
+        "ガレオン級ドラゴン 巻角",
+        "ガレオン級ドラゴン巻角"
+      ],
+      "source_display_label_jp": "ガレオン級ドラゴン 巻角",
+      "english": "Galleon-Class DRAGON Curled Horns",
+      "game_source_observed": true,
+      "status": "project_provisional",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 739,
+        "key": "STR_DRAGON_NAME_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending. Horn variant or game-specific target identity requires scene review.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_740",
+      "category": "other_target",
+      "japanese": [
+        "VTOL"
+      ],
+      "source_display_label_jp": "VTOL",
+      "english": "VTOL",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 740,
+        "key": "STR_OTHER_NAME_01"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_741",
+      "category": "other_target",
+      "japanese": [
+        "アタックポイント"
+      ],
+      "source_display_label_jp": "アタックポイント",
+      "english": "Attack Point",
+      "game_source_observed": true,
+      "status": "project_provisional",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 741,
+        "key": "STR_OTHER_NAME_02"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending. Horn variant or game-specific target identity requires scene review.",
+      "sources": [],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_742",
+      "category": "other_target",
+      "japanese": [
+        "ピレスロイドTｙpeA"
+      ],
+      "source_display_label_jp": "ピレスロイドTｙpeA",
+      "english": "Pyrethroid TｙpeA",
+      "game_source_observed": true,
+      "status": "project_provisional",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 742,
+        "key": "STR_OTHER_NAME_03"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending. Horn variant or game-specific target identity requires scene review. Literal TｙpeA/B source model tokens retained; typography normalization is a separate display decision.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_743",
+      "category": "other_target",
+      "japanese": [
+        "ピレスロイドTｙpeB"
+      ],
+      "source_display_label_jp": "ピレスロイドTｙpeB",
+      "english": "Pyrethroid TｙpeB",
+      "game_source_observed": true,
+      "status": "project_provisional",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 743,
+        "key": "STR_OTHER_NAME_04"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending. Horn variant or game-specific target identity requires scene review. Literal TｙpeA/B source model tokens retained; typography normalization is a separate display decision.",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/DRAGON",
+          "supports": "Canonical base-name spelling; local source supplies exact variant."
+        }
+      ],
+      "local_source_evidence": true
+    },
+    {
+      "id": "ui_term_744",
+      "category": "other_target",
+      "japanese": [
+        "ジュリオ艦隊駆逐艦"
+      ],
+      "source_display_label_jp": "ジュリオ艦隊駆逐艦",
+      "english": "Julio's Fleet Destroyer",
+      "game_source_observed": true,
+      "status": "project_ui_convention",
+      "source": {
+        "file": "data/_dat/strings.bnd",
+        "id": 744,
+        "key": "STR_OTHER_NAME_05"
+      },
+      "notes": "Display label only; IDs, keys, assets and model tokens remain unchanged. Context/layout verification pending.",
+      "sources": [],
+      "local_source_evidence": true
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Registered full-table world, mecha and recurring UI terminology before further translation."
+      ]
+    }
+  ]
+}

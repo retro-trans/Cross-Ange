@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "terms": [
+    {
+      "id": "voice_naomi",
+      "category": "voice_credit",
+      "japanese": "原 紗友里",
+      "english": "Sayuri Hara",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/002.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_ange",
+      "category": "voice_credit",
+      "japanese": "水樹 奈々",
+      "english": "Nana Mizuki",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/002.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_salia",
+      "category": "voice_credit",
+      "japanese": "喜多村 英梨",
+      "english": "Eri Kitamura",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/002.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_hilda",
+      "category": "voice_credit",
+      "japanese": "田村 ゆかり",
+      "english": "Yukari Tamura",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/002.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_vivian",
+      "category": "voice_credit",
+      "japanese": "桑島 法子",
+      "english": "Houko Kuwashima",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/003.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_rosalie",
+      "category": "voice_credit",
+      "japanese": "石原 夏織",
+      "english": "Kaori Ishihara",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/003.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_ersha",
+      "category": "voice_credit",
+      "japanese": "小清水 亜美",
+      "english": "Ami Koshimizu",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/003.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_chris",
+      "category": "voice_credit",
+      "japanese": "小倉 唯",
+      "english": "Yui Ogura",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/003.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_momoka",
+      "category": "voice_credit",
+      "japanese": "上坂 すみれ",
+      "english": "Sumire Uesaka",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_jill",
+      "category": "voice_credit",
+      "japanese": "本田 貴子",
+      "english": "Takako Honda",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_jasmine",
+      "category": "voice_credit",
+      "japanese": "玉川 砂記子",
+      "english": "Sakiko Tamagawa",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_tusk",
+      "category": "voice_credit",
+      "japanese": "宮野 真守",
+      "english": "Mamoru Miyano",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_salamandinay",
+      "category": "voice_credit",
+      "japanese": "堀江 由衣",
+      "english": "Yui Horie",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "voice_embryo",
+      "category": "voice_credit",
+      "japanese": "関 俊彦",
+      "english": "Toshihiko Seki",
+      "status": "manual_credit_verified_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/004.png",
+          "supports": "Japanese actor credit"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "English actor name spelling"
+        }
+      ],
+      "notes": "Original Japanese voice credit; not an English dub credit."
+    },
+    {
+      "id": "discord_phaser",
+      "category": "weapon",
+      "japanese": "ディスコード・フェイザー",
+      "english": "Discord Phaser",
+      "status": "verified_wiki_spelling",
+      "sources": [
+        {
+          "file": "sce_sys/manual/023.png",
+          "supports": "Observed weapon alias"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/AW-CBX007_%28AG%29_Villkiss",
+          "supports": "Explicit English weapon name"
+        }
+      ]
+    },
+    {
+      "id": "no_makeup",
+      "category": "machine_nickname",
+      "japanese": "ノーメイク",
+      "english": "No Makeup",
+      "status": "project_translation",
+      "sources": [
+        {
+          "file": "sce_sys/manual/005.png",
+          "supports": "Nickname of unpainted recruit Glaive"
+        }
+      ],
+      "notes": "Translate literal nickname; preserve original reason that recruit machines are unpainted."
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.3",
+      "date": "2026-10-11",
+      "changes": "Added manual cast credit spellings and two observed terms before manual drafting."
+    }
+  ]
+}

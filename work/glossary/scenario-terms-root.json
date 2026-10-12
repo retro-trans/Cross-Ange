@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "terms": [
+    {
+      "id": "pretty_salian",
+      "category": "cosplay_persona",
+      "japanese": [
+        "美少女聖騎士プリティ・サリアン",
+        "プリティ・サリアン"
+      ],
+      "english": "Beautiful Girl Holy Knight Pretty Salian",
+      "short_name": "Pretty Salian",
+      "status": "wiki_backed_name_project_epithet",
+      "game_source_observed": true,
+      "source_ids": [
+        "C083_HEV_000:8006"
+      ],
+      "global_rows": [
+        8076
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Salia_Tereshkova",
+          "supports": "Pretty Salian name and Bishoujo Holy Knight epithet; English full epithet translated from the game."
+        }
+      ],
+      "notes": "Salia’s secret magical-girl cosplay persona. Translate Bishoujo as Beautiful Girl; do not turn this into a different character."
+    },
+    {
+      "id": "freya_clan",
+      "category": "clan",
+      "japanese": [
+        "フレイアの一族"
+      ],
+      "english": "Freya Clan",
+      "status": "wiki_backed_spelling",
+      "game_source_observed": true,
+      "global_rows": [
+        8602
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "Salamandinay described as princess of Freya DRAGON clan."
+        }
+      ],
+      "notes": "Named clan distinct from locked Sylphis Clan."
+    },
+    {
+      "id": "salako",
+      "category": "character_nickname",
+      "japanese": [
+        "サラ子"
+      ],
+      "english": "Salako",
+      "status": "verified_wiki_spelling",
+      "game_source_observed": true,
+      "global_rows": [
+        8600,
+        8633
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Salamandinay",
+          "supports": "Ange nickname Salako."
+        }
+      ],
+      "notes": "Affectionate nickname for Salamandinay in Ange dialogue; speaker label Sala remains unchanged."
+    },
+    {
+      "id": "sala_royal_guard_rank",
+      "category": "military_rank",
+      "japanese": [
+        "近衛中将"
+      ],
+      "english": "Lieutenant General of the Royal Guard",
+      "status": "wiki_backed_rank_project_phrase",
+      "game_source_observed": true,
+      "global_rows": [
+        8602
+      ],
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Salamandinay",
+          "supports": "Rank Lieutenant General; Royal Guard Commander occupation."
+        }
+      ],
+      "notes": "Full rank spoken in Salamandinay self-introduction; no shortened title while drafting."
+    },
+    {
+      "id": "galaxy_salia",
+      "category": "cosplay_persona",
+      "japanese": [
+        "超銀河美少女ギャラクシー・サリア"
+      ],
+      "english": "Super Galactic Beautiful Girl Galaxy Salia",
+      "status": "source_observed_project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        9046
+      ],
+      "notes": "Distinct costume persona from Pretty Salian. Full epithet translated, name transliterated; game-specific wording provisional."
+    },
+    {
+      "id": "mr_universe",
+      "category": "cosplay_persona",
+      "japanese": [
+        "ミスター・ユニバース様"
+      ],
+      "english": "Mr. Universe",
+      "status": "source_observed_project_translation",
+      "game_source_observed": true,
+      "global_rows": [
+        9048
+      ],
+      "notes": "Embryo costume response to Salia, not an external bodybuilding title. Respectful source suffix reflected by Salia respectful tone."
+    },
+    {
+      "id": "affection_gauge",
+      "category": "ui_term",
+      "japanese": [
+        "好感度ゲージ"
+      ],
+      "english": "Affection Gauge",
+      "status": "source_observed_project_translation",
+      "game_source_observed": true,
+      "global_rows": [],
+      "notes": "Tutorial gauge, same as manual draft."
+    },
+    {
+      "id": "condition",
+      "category": "ui_term",
+      "japanese": [
+        "コンディション"
+      ],
+      "english": "Condition",
+      "status": "source_observed_project_translation",
+      "game_source_observed": true,
+      "global_rows": [],
+      "notes": "Touch Communication waveform indicator."
+    },
+    {
+      "id": "conversation_window",
+      "category": "ui_term",
+      "japanese": [
+        "会話ウィンドウ"
+      ],
+      "english": "Conversation Window",
+      "status": "source_observed_project_translation",
+      "game_source_observed": true,
+      "global_rows": [],
+      "notes": "Talk Battle dialogue box label."
+    },
+    {
+      "id": "publisher",
+      "category": "publisher_credit",
+      "japanese": [
+        "株式会社バンダイナムコエンターテインメント"
+      ],
+      "english": "BANDAI NAMCO Entertainment Inc.",
+      "status": "official_2015_spelling",
+      "game_source_observed": true,
+      "global_rows": [],
+      "notes": "Original 2015 spelling supported by primary source https://www.bandainamcoent.co.jp/corporate/150401/ and save copyright."
+    }
+  ]
+}

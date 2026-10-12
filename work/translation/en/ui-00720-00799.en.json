@@ -1,0 +1,2288 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 720,
+    "last_id": 799,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      710,
+      809
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 21,
+    "translated_needs_review": 41,
+    "unchanged_existing_english": 18
+  },
+  "japanese_source_rows": 62,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 720,
+      "key": "STR_PMAIL_NAME_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5780,
+      "label_offset": 54628,
+      "source_offset": 45216,
+      "source_bytes": 6,
+      "en": "Soryugo",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45216,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Soryugo"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_720",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 721,
+      "key": "STR_PMAIL_NAME_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5788,
+      "label_offset": 54664,
+      "source_offset": 45224,
+      "source_bytes": 8,
+      "en": "Hekiryugo",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45224,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Hekiryugo"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_721",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 722,
+      "key": "STR_PMAIL_NAME_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5796,
+      "label_offset": 54700,
+      "source_offset": 45236,
+      "source_bytes": 10,
+      "en": "Hysterica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45236,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Hysterica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_722",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 723,
+      "key": "STR_PMAIL_NAME_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5804,
+      "label_offset": 54736,
+      "source_offset": 45248,
+      "source_bytes": 12,
+      "en": "Cleopatra",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45248,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Cleopatra"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_723",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 724,
+      "key": "STR_PMAIL_NAME_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5812,
+      "label_offset": 54772,
+      "source_offset": 45264,
+      "source_bytes": 8,
+      "en": "Raziya",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45264,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Raziya"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_724",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 725,
+      "key": "STR_PMAIL_NAME_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5820,
+      "label_offset": 54808,
+      "source_offset": 45276,
+      "source_bytes": 10,
+      "en": "Theodra",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45276,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Theodra"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_725",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 726,
+      "key": "STR_PMAIL_NAME_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5828,
+      "label_offset": 54844,
+      "source_offset": 45288,
+      "source_bytes": 10,
+      "en": "Victoria",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45288,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Victoria"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_726",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 727,
+      "key": "STR_PMAIL_NAME_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5836,
+      "label_offset": 54880,
+      "source_offset": 45300,
+      "source_bytes": 10,
+      "en": "Eirene",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45300,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Eirene"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_727",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 728,
+      "key": "STR_PMAIL_NAME_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5844,
+      "label_offset": 54916,
+      "source_offset": 45312,
+      "source_bytes": 20,
+      "en": "Hysterica/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45312,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Hysterica/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_728",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 729,
+      "key": "STR_PMAIL_NAME_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5852,
+      "label_offset": 54952,
+      "source_offset": 45336,
+      "source_bytes": 20,
+      "en": "Victoria/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45336,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Victoria/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_729",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 730,
+      "key": "STR_PMAIL_NAME_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5860,
+      "label_offset": 54988,
+      "source_offset": 45360,
+      "source_bytes": 16,
+      "en": "Soryugo/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45360,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Soryugo/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_730",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 731,
+      "key": "STR_PMAIL_NAME_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5868,
+      "label_offset": 55024,
+      "source_offset": 45380,
+      "source_bytes": 16,
+      "en": "Hekiryugo/Replica",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45380,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Hekiryugo/Replica"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_731",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 732,
+      "key": "STR_PMAIL_NAME_30",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5876,
+      "label_offset": 55060,
+      "source_offset": 45400,
+      "source_bytes": 28,
+      "en": "Arquebus/Hilda Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45400,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Arquebus/Hilda Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_732",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 733,
+      "key": "STR_PMAIL_NAME_31",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5884,
+      "label_offset": 55096,
+      "source_offset": 45432,
+      "source_bytes": 32,
+      "en": "Razor/Vivian Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45432,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Razor/Vivian Custom"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_733",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 734,
+      "key": "STR_PMAIL_NAME_99",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5892,
+      "label_offset": 55132,
+      "source_offset": 45468,
+      "source_bytes": 12,
+      "en": "Ragna-mail",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45468,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Ragna-mail"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_734",
+      "glossary_status": "verified_base_name_project_variant"
+    },
+    {
+      "id": 735,
+      "key": "STR_DRAGON_NAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5900,
+      "label_offset": 55168,
+      "source_offset": 45484,
+      "source_bytes": 20,
+      "en": "Schooner-Class DRAGON",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45484,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Schooner-Class DRAGON"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_735",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 736,
+      "key": "STR_DRAGON_NAME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5908,
+      "label_offset": 55204,
+      "source_offset": 45508,
+      "source_bytes": 18,
+      "en": "Brig-Class DRAGON",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45508,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Brig-Class DRAGON"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_736",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 737,
+      "key": "STR_DRAGON_NAME_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5916,
+      "label_offset": 55240,
+      "source_offset": 45528,
+      "source_bytes": 18,
+      "en": "Galleon-Class DRAGON",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45528,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Galleon-Class DRAGON"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_737",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 738,
+      "key": "STR_DRAGON_NAME_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5924,
+      "label_offset": 55276,
+      "source_offset": 45548,
+      "source_bytes": 24,
+      "en": "Galleon-Class Horn DRAGON",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45548,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Galleon-Class Horn DRAGON"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "mecha.json:ui_term_738",
+      "glossary_status": "project_provisional"
+    },
+    {
+      "id": 739,
+      "key": "STR_DRAGON_NAME_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5932,
+      "label_offset": 55312,
+      "source_offset": 45576,
+      "source_bytes": 24,
+      "en": "Galleon-Class DRAGON Curled Horns",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45576,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Galleon-Class DRAGON Curled Horns"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "mecha.json:ui_term_739",
+      "glossary_status": "project_provisional"
+    },
+    {
+      "id": 740,
+      "key": "STR_OTHER_NAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5940,
+      "label_offset": 55348,
+      "source_offset": 45604,
+      "source_bytes": 8,
+      "en": "VTOL",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45604,
+          "source_bytes": 8,
+          "contains_japanese": false,
+          "en": "VTOL"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_740",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 741,
+      "key": "STR_OTHER_NAME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5948,
+      "label_offset": 55384,
+      "source_offset": 45616,
+      "source_bytes": 16,
+      "en": "Attack Point",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45616,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Attack Point"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "mecha.json:ui_term_741",
+      "glossary_status": "project_provisional"
+    },
+    {
+      "id": 742,
+      "key": "STR_OTHER_NAME_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5956,
+      "label_offset": 55420,
+      "source_offset": 45636,
+      "source_bytes": 22,
+      "en": "Pyrethroid TｙpeA",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45636,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Pyrethroid TｙpeA"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "mecha.json:ui_term_742",
+      "glossary_status": "project_provisional"
+    },
+    {
+      "id": 743,
+      "key": "STR_OTHER_NAME_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5964,
+      "label_offset": 55456,
+      "source_offset": 45660,
+      "source_bytes": 22,
+      "en": "Pyrethroid TｙpeB",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45660,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Pyrethroid TｙpeB"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "mecha.json:ui_term_743",
+      "glossary_status": "project_provisional"
+    },
+    {
+      "id": 744,
+      "key": "STR_OTHER_NAME_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5972,
+      "label_offset": 55492,
+      "source_offset": 45684,
+      "source_bytes": 18,
+      "en": "Julio's Fleet Destroyer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45684,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Julio's Fleet Destroyer"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "mecha.json:ui_term_744",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 745,
+      "key": "STR_ITM_NAME_NONE",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5980,
+      "label_offset": 55528,
+      "source_offset": 45704,
+      "source_bytes": 4,
+      "en": "None",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45704,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "None"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_name_none",
+      "glossary_status": "project_convention"
+    },
+    {
+      "id": 746,
+      "key": "STR_ITM_RIFLEA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5988,
+      "label_offset": 55564,
+      "source_offset": 45712,
+      "source_bytes": 14,
+      "en": "Dragon Pain",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45712,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Dragon Pain"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_riflea_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 747,
+      "key": "STR_ITM_RIFLEA_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 5996,
+      "label_offset": 55600,
+      "source_offset": 45728,
+      "source_bytes": 18,
+      "en": "Dragon Pain T2",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45728,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Dragon Pain T2"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_riflea_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 748,
+      "key": "STR_ITM_RIFLEA_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6004,
+      "label_offset": 55636,
+      "source_offset": 45748,
+      "source_bytes": 12,
+      "en": "DP-S31",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45748,
+          "source_bytes": 12,
+          "contains_japanese": false,
+          "en": "DP-S31"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_riflea_02",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 749,
+      "key": "STR_ITM_RIFLEA_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6012,
+      "label_offset": 55672,
+      "source_offset": 45764,
+      "source_bytes": 14,
+      "en": "DP-SR32",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45764,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "DP-SR32"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_riflea_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 750,
+      "key": "STR_ITM_RIFLEA_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6020,
+      "label_offset": 55708,
+      "source_offset": 45780,
+      "source_bytes": 18,
+      "en": "P Type-DPS6",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45780,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "P Type-DPS6"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_riflea_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 751,
+      "key": "STR_ITM_RIFLEA_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6028,
+      "label_offset": 55744,
+      "source_offset": 45800,
+      "source_bytes": 18,
+      "en": "SRN2-DPSR",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45800,
+          "source_bytes": 18,
+          "contains_japanese": false,
+          "en": "SRN2-DPSR"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_riflea_05",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 752,
+      "key": "STR_ITM_RIFLEB_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6036,
+      "label_offset": 55780,
+      "source_offset": 45820,
+      "source_bytes": 22,
+      "en": "M110 Big Mama",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45820,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "M110 Big Mama"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rifleb_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 753,
+      "key": "STR_ITM_RIFLEB_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6044,
+      "label_offset": 55816,
+      "source_offset": 45844,
+      "source_bytes": 26,
+      "en": "M110/L Big Mama",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45844,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "M110/L Big Mama"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rifleb_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 754,
+      "key": "STR_ITM_RIFLEB_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6052,
+      "label_offset": 55852,
+      "source_offset": 45872,
+      "source_bytes": 22,
+      "en": "ASR-P Type N21",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45872,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "ASR-P Type N21"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rifleb_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 755,
+      "key": "STR_ITM_RIFLEB_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6060,
+      "label_offset": 55888,
+      "source_offset": 45896,
+      "source_bytes": 18,
+      "en": "ASRM112/S",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45896,
+          "source_bytes": 18,
+          "contains_japanese": false,
+          "en": "ASRM112/S"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_rifleb_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 756,
+      "key": "STR_ITM_RIFLEB_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6068,
+      "label_offset": 55924,
+      "source_offset": 45916,
+      "source_bytes": 12,
+      "en": "ARTM-5",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45916,
+          "source_bytes": 12,
+          "contains_japanese": false,
+          "en": "ARTM-5"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_rifleb_04",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 757,
+      "key": "STR_ITM_RIFLEB_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6076,
+      "label_offset": 55960,
+      "source_offset": 45932,
+      "source_bytes": 20,
+      "en": "PAS11 Grand Mum",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45932,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "PAS11 Grand Mum"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_rifleb_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 758,
+      "key": "STR_ITM_BEAMRIFLE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6084,
+      "label_offset": 55996,
+      "source_offset": 45956,
+      "source_bytes": 18,
+      "en": "Light of Yorugosu",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45956,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Light of Yorugosu"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 759,
+      "key": "STR_ITM_BEAMRIFLE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6092,
+      "label_offset": 56032,
+      "source_offset": 45976,
+      "source_bytes": 20,
+      "en": "Flame of Michael",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 45976,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Flame of Michael"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 760,
+      "key": "STR_ITM_BEAMRIFLE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6100,
+      "label_offset": 56068,
+      "source_offset": 46000,
+      "source_bytes": 10,
+      "en": "Sky-Racing Thunder God Gun",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46000,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Sky-Racing Thunder God Gun"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 761,
+      "key": "STR_ITM_BEAMRIFLE_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6108,
+      "label_offset": 56104,
+      "source_offset": 46012,
+      "source_bytes": 14,
+      "en": "Earth-Shaking Heaven-Ringing Storm Cannon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46012,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "Earth-Shaking Heaven-Ringing Storm Cannon"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 762,
+      "key": "STR_ITM_BEAMRIFLE_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6116,
+      "label_offset": 56140,
+      "source_offset": 46028,
+      "source_bytes": 10,
+      "en": "Divine Steed Flash Cannon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46028,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Divine Steed Flash Cannon"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 763,
+      "key": "STR_ITM_BEAMRIFLE_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6124,
+      "label_offset": 56176,
+      "source_offset": 46040,
+      "source_bytes": 16,
+      "en": "Sacred Dragon Hymnlike Light Cannon",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46040,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Sacred Dragon Hymnlike Light Cannon"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_beamrifle_06",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 764,
+      "key": "STR_ITM_MGUN_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6132,
+      "label_offset": 56212,
+      "source_offset": 46060,
+      "source_bytes": 24,
+      "en": "MSGR15 Nuts Pack",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46060,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "MSGR15 Nuts Pack"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_mgun_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 765,
+      "key": "STR_ITM_MGUN_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6140,
+      "label_offset": 56248,
+      "source_offset": 46088,
+      "source_bytes": 14,
+      "en": "MSRSR14",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46088,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "MSRSR14"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_mgun_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 766,
+      "key": "STR_ITM_MGUN_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6148,
+      "label_offset": 56284,
+      "source_offset": 46104,
+      "source_bytes": 10,
+      "en": "SMG98",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46104,
+          "source_bytes": 10,
+          "contains_japanese": false,
+          "en": "SMG98"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_mgun_02",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 767,
+      "key": "STR_ITM_MGUN_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6156,
+      "label_offset": 56320,
+      "source_offset": 46116,
+      "source_bytes": 14,
+      "en": "SMGRR/C",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46116,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "SMGRR/C"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_mgun_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 768,
+      "key": "STR_ITM_MGUN_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6164,
+      "label_offset": 56356,
+      "source_offset": 46132,
+      "source_bytes": 14,
+      "en": "SMG3-P7",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46132,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "SMG3-P7"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_mgun_04",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 769,
+      "key": "STR_ITM_MGUN_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6172,
+      "label_offset": 56392,
+      "source_offset": 46148,
+      "source_bytes": 14,
+      "en": "SMG31C4",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46148,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "SMG31C4"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_mgun_05",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 770,
+      "key": "STR_ITM_SHOTGUN_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6180,
+      "label_offset": 56428,
+      "source_offset": 46164,
+      "source_bytes": 24,
+      "en": "SH7 Stomping Bird",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46164,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "SH7 Stomping Bird"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_shotgun_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 771,
+      "key": "STR_ITM_SHOTGUN_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6188,
+      "label_offset": 56464,
+      "source_offset": 46192,
+      "source_bytes": 16,
+      "en": "SHGA1014",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46192,
+          "source_bytes": 16,
+          "contains_japanese": false,
+          "en": "SHGA1014"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_shotgun_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 772,
+      "key": "STR_ITM_SHOTGUN_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6196,
+      "label_offset": 56500,
+      "source_offset": 46212,
+      "source_bytes": 24,
+      "en": "SHGA-PA Buruokuto",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46212,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "SHGA-PA Buruokuto"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_shotgun_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 773,
+      "key": "STR_ITM_SHOTGUN_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6204,
+      "label_offset": 56536,
+      "source_offset": 46240,
+      "source_bytes": 18,
+      "en": "MKA45-SHG",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46240,
+          "source_bytes": 18,
+          "contains_japanese": false,
+          "en": "MKA45-SHG"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_shotgun_03",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 774,
+      "key": "STR_ITM_SHOTGUN_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6212,
+      "label_offset": 56572,
+      "source_offset": 46260,
+      "source_bytes": 14,
+      "en": "SHG8-12",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46260,
+          "source_bytes": 14,
+          "contains_japanese": false,
+          "en": "SHG8-12"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_shotgun_04",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 775,
+      "key": "STR_ITM_SHOTGUN_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6220,
+      "label_offset": 56608,
+      "source_offset": 46276,
+      "source_bytes": 22,
+      "en": "SHG8-SB Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46276,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "SHG8-SB Custom"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_shotgun_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 776,
+      "key": "STR_ITM_BAZOOKA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6228,
+      "label_offset": 56644,
+      "source_offset": 46300,
+      "source_bytes": 26,
+      "en": "No.86BZ Robin Boy",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46300,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "No.86BZ Robin Boy"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_bazooka_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 777,
+      "key": "STR_ITM_BAZOOKA_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6236,
+      "label_offset": 56680,
+      "source_offset": 46328,
+      "source_bytes": 10,
+      "en": "BZMk6",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46328,
+          "source_bytes": 10,
+          "contains_japanese": false,
+          "en": "BZMk6"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_bazooka_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 778,
+      "key": "STR_ITM_BAZOOKA_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6244,
+      "label_offset": 56716,
+      "source_offset": 46340,
+      "source_bytes": 16,
+      "en": "M2BZ Chimney",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46340,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "M2BZ Chimney"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_bazooka_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 779,
+      "key": "STR_ITM_BAZOOKA_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6252,
+      "label_offset": 56752,
+      "source_offset": 46360,
+      "source_bytes": 26,
+      "en": "No.21BK Baby Doll",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46360,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "No.21BK Baby Doll"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_bazooka_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 780,
+      "key": "STR_ITM_BAZOOKA_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6260,
+      "label_offset": 56788,
+      "source_offset": 46388,
+      "source_bytes": 24,
+      "en": "M113BZ Bob Burns",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46388,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "M113BZ Bob Burns"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_bazooka_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 781,
+      "key": "STR_ITM_BAZOOKA_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6268,
+      "label_offset": 56824,
+      "source_offset": 46416,
+      "source_bytes": 28,
+      "en": "No.87BK-RB Custom",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46416,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "No.87BK-RB Custom"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_bazooka_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 782,
+      "key": "STR_ITM_FLAME_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6276,
+      "label_offset": 56860,
+      "source_offset": 46448,
+      "source_bytes": 28,
+      "en": "FTN3 Girl's Jealousy",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46448,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "FTN3 Girl's Jealousy"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_flame_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 783,
+      "key": "STR_ITM_FLAME_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6284,
+      "label_offset": 56896,
+      "source_offset": 46480,
+      "source_bytes": 12,
+      "en": "JF-M43",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46480,
+          "source_bytes": 12,
+          "contains_japanese": false,
+          "en": "JF-M43"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_flame_01",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 784,
+      "key": "STR_ITM_FLAME_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6292,
+      "label_offset": 56932,
+      "source_offset": 46496,
+      "source_bytes": 20,
+      "en": "FTN1 Hell Flame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46496,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "FTN1 Hell Flame"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_flame_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 785,
+      "key": "STR_ITM_FLAME_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6300,
+      "label_offset": 56968,
+      "source_offset": 46520,
+      "source_bytes": 26,
+      "en": "FTN8 Cerberus Flame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46520,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "FTN8 Cerberus Flame"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_flame_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 786,
+      "key": "STR_ITM_FLAME_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6308,
+      "label_offset": 57004,
+      "source_offset": 46548,
+      "source_bytes": 16,
+      "en": "JF-M89/C",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46548,
+          "source_bytes": 16,
+          "contains_japanese": false,
+          "en": "JF-M89/C"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_flame_04",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 787,
+      "key": "STR_ITM_FLAME_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6316,
+      "label_offset": 57040,
+      "source_offset": 46568,
+      "source_bytes": 20,
+      "en": "FTN9/L-KBS",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46568,
+          "source_bytes": 20,
+          "contains_japanese": false,
+          "en": "FTN9/L-KBS"
+        },
+        null
+      ],
+      "status": "unchanged_existing_english",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_flame_05",
+      "glossary_status": "unchanged_model_literal"
+    },
+    {
+      "id": 788,
+      "key": "STR_ITM_ANCHOR_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6324,
+      "label_offset": 57076,
+      "source_offset": 46592,
+      "source_bytes": 12,
+      "en": "Cooling Anchor",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46592,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Cooling Anchor"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_anchor_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 789,
+      "key": "STR_ITM_SWORDA_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6332,
+      "label_offset": 57112,
+      "source_offset": 46608,
+      "source_bytes": 20,
+      "en": "Composite Wrought-Steel Sword Raguel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46608,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "Composite Wrought-Steel Sword Raguel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 790,
+      "key": "STR_ITM_SWORDA_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6340,
+      "label_offset": 57148,
+      "source_offset": 46632,
+      "source_bytes": 26,
+      "en": "Manganese-Steel Double-Edged Sword Remiel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46632,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Manganese-Steel Double-Edged Sword Remiel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 791,
+      "key": "STR_ITM_SWORDA_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6348,
+      "label_offset": 57184,
+      "source_offset": 46660,
+      "source_bytes": 28,
+      "en": "Multilayer Chromium-Steel Double-Edged Sword Ramiel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46660,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Chromium-Steel Double-Edged Sword Ramiel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 792,
+      "key": "STR_ITM_SWORDA_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6356,
+      "label_offset": 57220,
+      "source_offset": 46692,
+      "source_bytes": 22,
+      "en": "Refined Meteoric-Steel Zerachiel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46692,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Refined Meteoric-Steel Zerachiel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_03",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 793,
+      "key": "STR_ITM_SWORDA_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6364,
+      "label_offset": 57256,
+      "source_offset": 46716,
+      "source_bytes": 26,
+      "en": "Initial-Type Ultrahard Scale-Cutting Sword Rajiel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46716,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Initial-Type Ultrahard Scale-Cutting Sword Rajiel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_04",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 794,
+      "key": "STR_ITM_SWORDA_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6372,
+      "label_offset": 57292,
+      "source_offset": 46744,
+      "source_bytes": 26,
+      "en": "Modified-Type Ultrahard Scale-Cutting Sword Rajiel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46744,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Modified-Type Ultrahard Scale-Cutting Sword Rajiel"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_sworda_05",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 795,
+      "key": "STR_ITM_SWORDA_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6380,
+      "label_offset": 57328,
+      "source_offset": 46772,
+      "source_bytes": 28,
+      "en": "Type Zero Super High Strength Scale-Cutting Sword Raziel",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46772,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Type Zero Super High Strength Scale-Cutting Sword Raziel"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [],
+      "glossary_reference": "equipment.json:str_itm_sworda_06",
+      "glossary_status": "wiki_verified_name"
+    },
+    {
+      "id": 796,
+      "key": "STR_ITM_SWORDB_00",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6388,
+      "label_offset": 57364,
+      "source_offset": 46804,
+      "source_bytes": 28,
+      "en": "Multilayer Wrought-Ore Scale Slicer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46804,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Multilayer Wrought-Ore Scale Slicer"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_00",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 797,
+      "key": "STR_ITM_SWORDB_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6396,
+      "label_offset": 57400,
+      "source_offset": 46836,
+      "source_bytes": 28,
+      "en": "Prototype Wrought-Iron Dragon Slayer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46836,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Prototype Wrought-Iron Dragon Slayer"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_01",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 798,
+      "key": "STR_ITM_SWORDB_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6404,
+      "label_offset": 57436,
+      "source_offset": 46868,
+      "source_bytes": 28,
+      "en": "Titanium-Steel Dragon Slayer",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46868,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Titanium-Steel Dragon Slayer"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_02",
+      "glossary_status": "provisional_name"
+    },
+    {
+      "id": 799,
+      "key": "STR_ITM_SWORDB_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 6412,
+      "label_offset": 57472,
+      "source_offset": 46900,
+      "source_bytes": 26,
+      "en": "Rare Red Meteoric-Iron Dragon Flame",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 46900,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Rare Red Meteoric-Iron Dragon Flame"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "provisional_glossary_name_requires_research"
+      ],
+      "glossary_reference": "equipment.json:str_itm_swordb_03",
+      "glossary_status": "provisional_name"
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

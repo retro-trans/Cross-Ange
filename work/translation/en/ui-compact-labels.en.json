@@ -1,0 +1,122 @@
+{
+  "category": "briefing_shared_unit_and_battle_result_labels",
+  "entries": [
+    {
+      "id": 321,
+      "key": "STR_HANGAR_STATUS_02",
+      "column": 0,
+      "canonical_en": "Attack Power",
+      "display_en": "Attack",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 323,
+      "key": "STR_HANGAR_STATUS_04",
+      "column": 0,
+      "canonical_en": "Shooting Accuracy",
+      "display_en": "Accuracy",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 324,
+      "key": "STR_HANGAR_STATUS_05",
+      "column": 0,
+      "canonical_en": "Shot Grouping",
+      "display_en": "Grouping",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 325,
+      "key": "STR_HANGAR_STATUS_06",
+      "column": 0,
+      "canonical_en": "Effective Range",
+      "display_en": "Range",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 329,
+      "key": "STR_HANGAR_STATUS_10",
+      "column": 0,
+      "canonical_en": "Boost Capacity",
+      "display_en": "Boost",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 330,
+      "key": "STR_HANGAR_STATUS_11",
+      "column": 0,
+      "canonical_en": "Turning Performance",
+      "display_en": "Turning",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 332,
+      "key": "STR_HANGAR_STATUS_13",
+      "column": 0,
+      "canonical_en": "Heat Recovery",
+      "display_en": "Cooling",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 335,
+      "key": "STR_ASSIST_NAME",
+      "column": 0,
+      "canonical_en": "Support Type",
+      "display_en": "Support",
+      "context": "unit_stat_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 457,
+      "key": "STR_BRIEFING_SYS_02",
+      "column": 0,
+      "canonical_en": "Success Conditions",
+      "display_en": "Success",
+      "context": "mission_condition_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 458,
+      "key": "STR_BRIEFING_SYS_03",
+      "column": 0,
+      "canonical_en": "Failure Conditions",
+      "display_en": "Failure",
+      "context": "mission_condition_label",
+      "reason": "Fit the existing label column while retaining canonical wording."
+    },
+    {
+      "id": 460,
+      "key": "STR_BRIEFING_SYS_05",
+      "column": 0,
+      "canonical_en": "Minutes",
+      "display_en": " Minutes",
+      "context": "concatenated_time_unit",
+      "reason": "Separate the numeric value from its appended English unit."
+    },
+    {
+      "id": 1480,
+      "key": "STR_BTLRESULT_P01_01",
+      "column": 0,
+      "canonical_en": "Remaining",
+      "display_en": "Left",
+      "context": "battle_result_time",
+      "reason": "Fit fixed time-label spaces and separate the English unit from the number."
+    },
+    {
+      "id": 1481,
+      "key": "STR_BTLRESULT_P01_02",
+      "column": 0,
+      "canonical_en": "Seconds",
+      "display_en": " s",
+      "context": "battle_result_time",
+      "reason": "Fit fixed time-label spaces and separate the English unit from the number."
+    }
+  ]
+}

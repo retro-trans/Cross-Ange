@@ -1,0 +1,2179 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 1600,
+    "last_id": 1679,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      1590,
+      1689
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/scenario-terms-a.json",
+    "work/glossary/scenario-terms-b.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 46,
+    "translated_needs_review": 34
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 1600,
+      "key": "STR_SELECT_HIL_TC2_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12820,
+      "label_offset": 86308,
+      "source_offset": 72060,
+      "source_bytes": 10,
+      "en": "Mm, that's good.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72060,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Mm, that's good."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1601,
+      "key": "STR_SELECT_HIL_TC2_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12828,
+      "label_offset": 86344,
+      "source_offset": 72072,
+      "source_bytes": 24,
+      "en": "Yes,#nlike that...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72072,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Yes,#nlike that..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1602,
+      "key": "STR_SELECT_HIL_TC2_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12836,
+      "label_offset": 86380,
+      "source_offset": 72100,
+      "source_bytes": 16,
+      "en": "This is getting irritating.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72100,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "This is getting irritating."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1603,
+      "key": "STR_SELECT_HIL_TC2_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12844,
+      "label_offset": 86416,
+      "source_offset": 72120,
+      "source_bytes": 24,
+      "en": "Ow, ow!#nThat hurts!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72120,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Ow, ow!#nThat hurts!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1604,
+      "key": "STR_SELECT_HIL_TC2_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12852,
+      "label_offset": 86452,
+      "source_offset": 72148,
+      "source_bytes": 26,
+      "en": "Are you#neven trying?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72148,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Are you#neven trying?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1605,
+      "key": "STR_SELECT_HIL_TC2_PER50_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12860,
+      "label_offset": 86488,
+      "source_offset": 72176,
+      "source_bytes": 18,
+      "en": "I think there's still some left.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72176,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "I think there's still some left."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1606,
+      "key": "STR_SELECT_HIL_TC2_PER75_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12868,
+      "label_offset": 86524,
+      "source_offset": 72196,
+      "source_bytes": 28,
+      "en": "You got#nquite a lot off, didn't you?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72196,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "You got#nquite a lot off, didn't you?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1607,
+      "key": "STR_SELECT_HIL_TC2_PER100_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12876,
+      "label_offset": 86560,
+      "source_offset": 72228,
+      "source_bytes": 30,
+      "en": "Ahhhh,#nI feel refreshed.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72228,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Ahhhh,#nI feel refreshed."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1608,
+      "key": "STR_SELECT_VIV_TC1_BAD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12884,
+      "label_offset": 86596,
+      "source_offset": 72260,
+      "source_bytes": 6,
+      "en": "Ow.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72260,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Ow."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1609,
+      "key": "STR_SELECT_VIV_TC1_BAD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12892,
+      "label_offset": 86632,
+      "source_offset": 72268,
+      "source_bytes": 6,
+      "en": "That's not it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72268,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "That's not it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1610,
+      "key": "STR_SELECT_VIV_TC1_BAD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12900,
+      "label_offset": 86668,
+      "source_offset": 72276,
+      "source_bytes": 4,
+      "en": "Hm?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72276,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Hm?"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1611,
+      "key": "STR_SELECT_VIV_TC1_GOOD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12908,
+      "label_offset": 86704,
+      "source_offset": 72284,
+      "source_bytes": 4,
+      "en": "Mm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72284,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Mm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1612,
+      "key": "STR_SELECT_VIV_TC1_GOOD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12916,
+      "label_offset": 86740,
+      "source_offset": 72292,
+      "source_bytes": 8,
+      "en": "Whew...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72292,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Whew..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1613,
+      "key": "STR_SELECT_VIV_TC1_GOOD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12924,
+      "label_offset": 86776,
+      "source_offset": 72304,
+      "source_bytes": 8,
+      "en": "Yeah...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72304,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Yeah..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1614,
+      "key": "STR_SELECT_VIV_TC1_EXTASY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12932,
+      "label_offset": 86812,
+      "source_offset": 72316,
+      "source_bytes": 16,
+      "en": "Yes, that spot.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72316,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Yes, that spot."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1615,
+      "key": "STR_SELECT_VIV_TC1_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12940,
+      "label_offset": 86848,
+      "source_offset": 72336,
+      "source_bytes": 26,
+      "en": "It's nice and cool.#nThat feels good!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72336,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "It's nice and cool.#nThat feels good!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1616,
+      "key": "STR_SELECT_VIV_TC1_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12948,
+      "label_offset": 86884,
+      "source_offset": 72364,
+      "source_bytes": 16,
+      "en": "Yeah, more...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72364,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Yeah, more..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1617,
+      "key": "STR_SELECT_VIV_TC1_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12956,
+      "label_offset": 86920,
+      "source_offset": 72384,
+      "source_bytes": 18,
+      "en": "Aren't you being a little too rough?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72384,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Aren't you being a little too rough?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1618,
+      "key": "STR_SELECT_VIV_TC1_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12964,
+      "label_offset": 86956,
+      "source_offset": 72404,
+      "source_bytes": 10,
+      "en": "I said, that hurts.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72404,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "I said, that hurts."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1619,
+      "key": "STR_SELECT_VIV_TC1_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12972,
+      "label_offset": 86992,
+      "source_offset": 72416,
+      "source_bytes": 18,
+      "en": "Do it properly!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72416,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Do it properly!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1620,
+      "key": "STR_SELECT_VIV_TC1_PER50_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12980,
+      "label_offset": 87028,
+      "source_offset": 72436,
+      "source_bytes": 40,
+      "en": "I hurt in other spots#ntoo. Help me out, Naomi.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72436,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "I hurt in other spots#ntoo. Help me out, Naomi."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1621,
+      "key": "STR_SELECT_VIV_TC1_PER75_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12988,
+      "label_offset": 87064,
+      "source_offset": 72480,
+      "source_bytes": 28,
+      "en": "Could you do#na little more?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72480,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "Could you do#na little more?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1622,
+      "key": "STR_SELECT_VIV_TC1_PER100_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 12996,
+      "label_offset": 87100,
+      "source_offset": 72512,
+      "source_bytes": 32,
+      "en": "Mmm,#nthat feels really good...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72512,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "Mmm,#nthat feels really good..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1623,
+      "key": "STR_SELECT_VIV_TC2_BAD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13004,
+      "label_offset": 87136,
+      "source_offset": 72548,
+      "source_bytes": 4,
+      "en": "Huh?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72548,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Huh?"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1624,
+      "key": "STR_SELECT_VIV_TC2_BAD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13012,
+      "label_offset": 87172,
+      "source_offset": 72556,
+      "source_bytes": 6,
+      "en": "Hmm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72556,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hmm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1625,
+      "key": "STR_SELECT_VIV_TC2_BAD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13020,
+      "label_offset": 87208,
+      "source_offset": 72564,
+      "source_bytes": 8,
+      "en": "Ow, ow!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72564,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ow, ow!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1626,
+      "key": "STR_SELECT_VIV_TC2_GOOD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13028,
+      "label_offset": 87244,
+      "source_offset": 72576,
+      "source_bytes": 10,
+      "en": "Ahh...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72576,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Ahh..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1627,
+      "key": "STR_SELECT_VIV_TC2_GOOD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13036,
+      "label_offset": 87280,
+      "source_offset": 72588,
+      "source_bytes": 6,
+      "en": "Mmm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72588,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Mmm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1628,
+      "key": "STR_SELECT_VIV_TC2_GOOD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13044,
+      "label_offset": 87316,
+      "source_offset": 72596,
+      "source_bytes": 8,
+      "en": "Ah...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72596,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ah..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1629,
+      "key": "STR_SELECT_VIV_TC2_EXTASY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13052,
+      "label_offset": 87352,
+      "source_offset": 72608,
+      "source_bytes": 16,
+      "en": "Ahh, that feels good.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72608,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Ahh, that feels good."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1630,
+      "key": "STR_SELECT_VIV_TC2_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13060,
+      "label_offset": 87388,
+      "source_offset": 72628,
+      "source_bytes": 12,
+      "en": "This might be heaven...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72628,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "This might be heaven..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1631,
+      "key": "STR_SELECT_VIV_TC2_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13068,
+      "label_offset": 87424,
+      "source_offset": 72644,
+      "source_bytes": 14,
+      "en": "I'm going limp.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72644,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "I'm going limp."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1632,
+      "key": "STR_SELECT_VIV_TC2_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13076,
+      "label_offset": 87460,
+      "source_offset": 72660,
+      "source_bytes": 16,
+      "en": "Wait, seriously?!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72660,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Wait, seriously?!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1633,
+      "key": "STR_SELECT_VIV_TC2_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13084,
+      "label_offset": 87496,
+      "source_offset": 72680,
+      "source_bytes": 16,
+      "en": "I said, not there.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72680,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "I said, not there."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1634,
+      "key": "STR_SELECT_VIV_TC2_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13092,
+      "label_offset": 87532,
+      "source_offset": 72700,
+      "source_bytes": 22,
+      "en": "Yow!#nThat hurts!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72700,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Yow!#nThat hurts!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1635,
+      "key": "STR_SELECT_VIV_TC2_PER50_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13100,
+      "label_offset": 87568,
+      "source_offset": 72724,
+      "source_bytes": 36,
+      "en": "That might be good.#nKeep doing it!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72724,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "That might be good.#nKeep doing it!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1636,
+      "key": "STR_SELECT_VIV_TC2_PER75_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13108,
+      "label_offset": 87604,
+      "source_offset": 72764,
+      "source_bytes": 36,
+      "en": "Ahh, I want you#nto keep going a little longer.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72764,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "Ahh, I want you#nto keep going a little longer."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1637,
+      "key": "STR_SELECT_VIV_TC2_PER100_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13116,
+      "label_offset": 87640,
+      "source_offset": 72804,
+      "source_bytes": 30,
+      "en": "Mmm,#nthat might be really nice...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72804,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Mmm,#nthat might be really nice..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1638,
+      "key": "STR_SELECT_ROS_TC1_BAD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13124,
+      "label_offset": 87676,
+      "source_offset": 72836,
+      "source_bytes": 4,
+      "en": "Ngh.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72836,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Ngh."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1639,
+      "key": "STR_SELECT_ROS_TC1_BAD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13132,
+      "label_offset": 87712,
+      "source_offset": 72844,
+      "source_bytes": 8,
+      "en": "Ow, ow.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72844,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ow, ow."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1640,
+      "key": "STR_SELECT_ROS_TC1_BAD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13140,
+      "label_offset": 87748,
+      "source_offset": 72856,
+      "source_bytes": 6,
+      "en": "Hey!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72856,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hey!"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1641,
+      "key": "STR_SELECT_ROS_TC1_GOOD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13148,
+      "label_offset": 87784,
+      "source_offset": 72864,
+      "source_bytes": 4,
+      "en": "Mm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72864,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Mm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1642,
+      "key": "STR_SELECT_ROS_TC1_GOOD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13156,
+      "label_offset": 87820,
+      "source_offset": 72872,
+      "source_bytes": 8,
+      "en": "Whew...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72872,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Whew..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1643,
+      "key": "STR_SELECT_ROS_TC1_GOOD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13164,
+      "label_offset": 87856,
+      "source_offset": 72884,
+      "source_bytes": 8,
+      "en": "Ahh...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72884,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Ahh..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1644,
+      "key": "STR_SELECT_ROS_TC1_EXTASY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13172,
+      "label_offset": 87892,
+      "source_offset": 72896,
+      "source_bytes": 12,
+      "en": "Ahh, that's the spot.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72896,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Ahh, that's the spot."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1645,
+      "key": "STR_SELECT_ROS_TC1_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13180,
+      "label_offset": 87928,
+      "source_offset": 72912,
+      "source_bytes": 16,
+      "en": "You're pretty good at this.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72912,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "You're pretty good at this."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1646,
+      "key": "STR_SELECT_ROS_TC1_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13188,
+      "label_offset": 87964,
+      "source_offset": 72932,
+      "source_bytes": 16,
+      "en": "That's good, yeah...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72932,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "That's good, yeah..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1647,
+      "key": "STR_SELECT_ROS_TC1_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13196,
+      "label_offset": 88000,
+      "source_offset": 72952,
+      "source_bytes": 22,
+      "en": "I said,#nnot there.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72952,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "I said,#nnot there."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1648,
+      "key": "STR_SELECT_ROS_TC1_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13204,
+      "label_offset": 88036,
+      "source_offset": 72976,
+      "source_bytes": 26,
+      "en": "Be a little#ngentler, will you?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 72976,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "Be a little#ngentler, will you?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1649,
+      "key": "STR_SELECT_ROS_TC1_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13212,
+      "label_offset": 88072,
+      "source_offset": 73004,
+      "source_bytes": 24,
+      "en": "Do it#nproperly, will you?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73004,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "Do it#nproperly, will you?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [
+        "#n"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": 1650,
+      "key": "STR_SELECT_ROS_TC1_PER50_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13220,
+      "label_offset": 88108,
+      "source_offset": 73032,
+      "source_bytes": 14,
+      "en": "That isn't enough yet.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73032,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "That isn't enough yet."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1651,
+      "key": "STR_SELECT_ROS_TC1_PER75_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13228,
+      "label_offset": 88144,
+      "source_offset": 73048,
+      "source_bytes": 14,
+      "en": "A little more, please.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73048,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "A little more, please."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1652,
+      "key": "STR_SELECT_ROS_TC1_PER100_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13236,
+      "label_offset": 88180,
+      "source_offset": 73064,
+      "source_bytes": 16,
+      "en": "All right, perfect.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73064,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "All right, perfect."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1653,
+      "key": "STR_SELECT_ROS_TC2_BAD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13244,
+      "label_offset": 88216,
+      "source_offset": 73084,
+      "source_bytes": 6,
+      "en": "Hm?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73084,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hm?"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1654,
+      "key": "STR_SELECT_ROS_TC2_BAD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13252,
+      "label_offset": 88252,
+      "source_offset": 73092,
+      "source_bytes": 12,
+      "en": "What are you doing?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73092,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "What are you doing?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1655,
+      "key": "STR_SELECT_ROS_TC2_BAD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13260,
+      "label_offset": 88288,
+      "source_offset": 73108,
+      "source_bytes": 14,
+      "en": "That's not it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73108,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "That's not it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1656,
+      "key": "STR_SELECT_ROS_TC2_GOOD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13268,
+      "label_offset": 88324,
+      "source_offset": 73124,
+      "source_bytes": 4,
+      "en": "Oh.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73124,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Oh."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1657,
+      "key": "STR_SELECT_ROS_TC2_GOOD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13276,
+      "label_offset": 88360,
+      "source_offset": 73132,
+      "source_bytes": 12,
+      "en": "There, there...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73132,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "There, there..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1658,
+      "key": "STR_SELECT_ROS_TC2_GOOD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13284,
+      "label_offset": 88396,
+      "source_offset": 73148,
+      "source_bytes": 6,
+      "en": "Ahh.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73148,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Ahh."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1659,
+      "key": "STR_SELECT_ROS_TC2_EXTASY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13292,
+      "label_offset": 88432,
+      "source_offset": 73156,
+      "source_bytes": 16,
+      "en": "Ooh, that works...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73156,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "Ooh, that works..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1660,
+      "key": "STR_SELECT_ROS_TC2_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13300,
+      "label_offset": 88468,
+      "source_offset": 73176,
+      "source_bytes": 12,
+      "en": "That spot feels good.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73176,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "That spot feels good."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1661,
+      "key": "STR_SELECT_ROS_TC2_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13308,
+      "label_offset": 88504,
+      "source_offset": 73192,
+      "source_bytes": 8,
+      "en": "Mmm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73192,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Mmm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1662,
+      "key": "STR_SELECT_ROS_TC2_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13316,
+      "label_offset": 88540,
+      "source_offset": 73204,
+      "source_bytes": 10,
+      "en": "Ow, ow, ow!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73204,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "Ow, ow, ow!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1663,
+      "key": "STR_SELECT_ROS_TC2_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13324,
+      "label_offset": 88576,
+      "source_offset": 73216,
+      "source_bytes": 14,
+      "en": "What are you doing?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73216,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "What are you doing?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1664,
+      "key": "STR_SELECT_ROS_TC2_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13332,
+      "label_offset": 88612,
+      "source_offset": 73232,
+      "source_bytes": 12,
+      "en": "That's no good at all.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73232,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "That's no good at all."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1665,
+      "key": "STR_SELECT_ROS_TC2_PER50_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13340,
+      "label_offset": 88648,
+      "source_offset": 73248,
+      "source_bytes": 18,
+      "en": "That's good. Keep going.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73248,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "That's good. Keep going."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1666,
+      "key": "STR_SELECT_ROS_TC2_PER75_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13348,
+      "label_offset": 88684,
+      "source_offset": 73268,
+      "source_bytes": 20,
+      "en": "I'd like to enjoy a little more.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73268,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "I'd like to enjoy a little more."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1667,
+      "key": "STR_SELECT_ROS_TC2_PER100_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13356,
+      "label_offset": 88720,
+      "source_offset": 73292,
+      "source_bytes": 18,
+      "en": "Ahhh, that hit the spot!",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73292,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "Ahhh, that hit the spot!"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1668,
+      "key": "STR_SELECT_ERS_TC1_BAD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13364,
+      "label_offset": 88756,
+      "source_offset": 73312,
+      "source_bytes": 6,
+      "en": "Oh?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73312,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Oh?"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1669,
+      "key": "STR_SELECT_ERS_TC1_BAD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13372,
+      "label_offset": 88792,
+      "source_offset": 73320,
+      "source_bytes": 6,
+      "en": "Hmm.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73320,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Hmm."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1670,
+      "key": "STR_SELECT_ERS_TC1_BAD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13380,
+      "label_offset": 88828,
+      "source_offset": 73328,
+      "source_bytes": 4,
+      "en": "Hm?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73328,
+          "source_bytes": 4,
+          "contains_japanese": true,
+          "en": "Hm?"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1671,
+      "key": "STR_SELECT_ERS_TC1_GOOD_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13388,
+      "label_offset": 88864,
+      "source_offset": 73336,
+      "source_bytes": 8,
+      "en": "Mm...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73336,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Mm..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1672,
+      "key": "STR_SELECT_ERS_TC1_GOOD_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13396,
+      "label_offset": 88900,
+      "source_offset": 73348,
+      "source_bytes": 6,
+      "en": "Ah.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73348,
+          "source_bytes": 6,
+          "contains_japanese": true,
+          "en": "Ah."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1673,
+      "key": "STR_SELECT_ERS_TC1_GOOD_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13404,
+      "label_offset": 88936,
+      "source_offset": 73356,
+      "source_bytes": 8,
+      "en": "Whew...",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73356,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Whew..."
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 1674,
+      "key": "STR_SELECT_ERS_TC1_EXTASY_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13412,
+      "label_offset": 88972,
+      "source_offset": 73368,
+      "source_bytes": 12,
+      "en": "Ahh, that's good.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73368,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "Ahh, that's good."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1675,
+      "key": "STR_SELECT_ERS_TC1_EXTASY_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13420,
+      "label_offset": 89008,
+      "source_offset": 73384,
+      "source_bytes": 14,
+      "en": "It seems to be working.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73384,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "It seems to be working."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1676,
+      "key": "STR_SELECT_ERS_TC1_EXTASY_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13428,
+      "label_offset": 89044,
+      "source_offset": 73400,
+      "source_bytes": 18,
+      "en": "A little more on that spot, please.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73400,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "A little more on that spot, please."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1677,
+      "key": "STR_SELECT_ERS_TC1_HATE_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13436,
+      "label_offset": 89080,
+      "source_offset": 73420,
+      "source_bytes": 8,
+      "en": "Are you okay?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73420,
+          "source_bytes": 8,
+          "contains_japanese": true,
+          "en": "Are you okay?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1678,
+      "key": "STR_SELECT_ERS_TC1_HATE_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13444,
+      "label_offset": 89116,
+      "source_offset": 73432,
+      "source_bytes": 14,
+      "en": "That doesn't feel right.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73432,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "That doesn't feel right."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 1679,
+      "key": "STR_SELECT_ERS_TC1_HATE_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 13452,
+      "label_offset": 89152,
+      "source_offset": 73448,
+      "source_bytes": 12,
+      "en": "That's not quite it.",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 73448,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "That's not quite it."
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Named character response in treatment minigame; source performance/spot/progress category checked without inventing the physical target.",
+      "decisions": "Natural full English; preserve threats and insults, source row and exact control sequence. No byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

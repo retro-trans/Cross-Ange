@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "terms": [
+    {
+      "id": "diamond_rose_knights",
+      "category": "organization",
+      "japanese": ["ダイヤモンドローズ騎士団"],
+      "english": "Diamond Rose Knights",
+      "game_source_observed": true,
+      "status": "verified_wiki_spelling",
+      "source_row": 146,
+      "notes": "Vivian deliberately misnames this group as the Radish Knights in row 145. That joke is not a spelling correction target.",
+      "sources": [{"url": "https://crossange.fandom.com/wiki/Diamond_Rose_Knights", "supports": "Organization name and English spelling."}]
+    },
+    {
+      "id": "space_time_convergence_cannon",
+      "category": "weapon",
+      "japanese": ["収斂時空砲"],
+      "english": "Space-Time Convergence Cannon",
+      "game_source_observed": true,
+      "status": "verified_wiki_spelling",
+      "source_row": 155,
+      "notes": "Singular project form; wiki lists Space-time Convergence Cannons among Enryugo's weapons. Preserve deliberate interruption when discussing the testing prohibition.",
+      "sources": [{"url": "https://crossange.fandom.com/wiki/Enryugo", "supports": "English weapon name."}]
+    },
+    {
+      "id": "depth_charge",
+      "category": "weapon",
+      "japanese": ["爆雷"],
+      "english": "depth charge",
+      "game_source_observed": true,
+      "status": "project_translation",
+      "source_row": 140,
+      "notes": "Airborne scattering in the game scene does not justify silently substituting bomb or mine. Rendering is provisional until weapon UI is reviewed.",
+      "sources": [{"url": "https://crossange.fandom.com/wiki/Naomi", "supports": "Game synopsis uses depth charges for the matching blockade weapon."}]
+    }
+  ],
+  "changelog": [{"version": "0.1.2", "date": "2026-10-10", "changes": ["Added observed organization and weapon conventions for scenario rows 81-160."]}]
+}

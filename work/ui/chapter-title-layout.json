@@ -1,0 +1,1500 @@
+{
+  "category": "chapter_and_prologue_title_cards",
+  "unique_titles": 15,
+  "textures_inserted": 2,
+  "raster_regions_inserted": 30,
+  "font": "GenEi LateGo v2 Medium",
+  "assets": [
+    {
+      "member": "data/_ssa/sub_title_b.btx",
+      "source_sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "output_sha256": "686c2a0e2ef403dca488d8098fd6bc0c66d9032815ec9a9615b2d883b4eedb0d",
+      "native_palette_preserved": true,
+      "outside_heading_bands_unchanged": true,
+      "decoded_preview": "work/ui/local/chapter-titles/sub_title_b.png",
+      "regions": [
+        {
+          "id": "sub_title_b-chapter-28",
+          "ui_id": 28,
+          "en": "A New Posting, and Then—",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            0,
+            344,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            61,
+            1,
+            281,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            0,
+            344,
+            64
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A New Posting, and Then—"
+          ],
+          "font_size": 25,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              5.0,
+              3.0,
+              338.75,
+              32.75
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-29",
+          "ui_id": 29,
+          "en": "Welcome to the First Squadron of Death",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            0,
+            688,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            3,
+            1,
+            340,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            0,
+            688,
+            64
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Welcome to the First",
+            "Squadron of Death"
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "line_bounds": [
+            [
+              91.5,
+              1.0,
+              252.25,
+              16.25
+            ],
+            [
+              98.75,
+              16.25,
+              245.25,
+              34.75
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-30",
+          "ui_id": 30,
+          "en": "Why I Fight",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            0,
+            1024,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            51,
+            1,
+            293,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            0,
+            1032,
+            64
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Why I Fight"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              91.75,
+              2.5,
+              244.0,
+              33.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-31",
+          "ui_id": 31,
+          "en": "A Cheerful Meal",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            64,
+            344,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            96,
+            0,
+            248,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            64,
+            344,
+            128
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A Cheerful Meal"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              67.75,
+              5.5,
+              276.25,
+              30.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-32",
+          "ui_id": 32,
+          "en": "The First Squadron on the Brink of Annihilation!",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            64,
+            688,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            29,
+            0,
+            319,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            64,
+            688,
+            128
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "The First Squadron on",
+            "the Brink of Annihilation!"
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "line_bounds": [
+            [
+              86.0,
+              1.0,
+              258.0,
+              19.5
+            ],
+            [
+              72.25,
+              19.5,
+              271.5,
+              35.0
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-33",
+          "ui_id": 33,
+          "en": "To Protect Smiles",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            64,
+            1024,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            51,
+            0,
+            292,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            64,
+            1032,
+            128
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "To Protect Smiles"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              57.25,
+              5.5,
+              278.5,
+              30.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-34",
+          "ui_id": 34,
+          "en": "Infiltration! The Empire of Misurugi",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            128,
+            344,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            43,
+            0,
+            303,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            128,
+            344,
+            192
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Infiltration! The Empire of Misurugi"
+          ],
+          "font_size": 19,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              6.5,
+              6.0,
+              337.25,
+              30.0
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-35",
+          "ui_id": 35,
+          "en": "A Place for Each of Us",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            128,
+            688,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            55,
+            0,
+            295,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            128,
+            688,
+            192
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A Place for Each of Us"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              30.75,
+              5.5,
+              313.0,
+              30.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-36",
+          "ui_id": 36,
+          "en": "Those Who Know the Truth",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            128,
+            1024,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            49,
+            0,
+            286,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            128,
+            1032,
+            192
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Those Who Know the Truth"
+          ],
+          "font_size": 24,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              6.25,
+              6.25,
+              329.5,
+              29.5
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-37",
+          "ui_id": 37,
+          "en": "Rebels Beneath the Sea",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            192,
+            344,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            81,
+            0,
+            263,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            192,
+            344,
+            256
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Rebels Beneath the Sea"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              24.5,
+              5.5,
+              319.5,
+              30.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-38",
+          "ui_id": 38,
+          "en": "The World's Restorer",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            192,
+            688,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            81,
+            0,
+            262,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            192,
+            688,
+            256
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "The World's Restorer"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              40.5,
+              4.75,
+              303.5,
+              31.25
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-39",
+          "ui_id": 39,
+          "en": "Joining Forces, Standing Together",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            192,
+            1024,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            53,
+            0,
+            289,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            192,
+            1032,
+            256
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Joining Forces, Standing Together"
+          ],
+          "font_size": 19,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              11.5,
+              6.0,
+              324.25,
+              30.0
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-40",
+          "ui_id": 40,
+          "en": "Where Possibilities Converge",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            256,
+            344,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            69,
+            0,
+            278,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            256,
+            344,
+            320
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Where Possibilities Converge"
+          ],
+          "font_size": 23,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              10.5,
+              4.0,
+              333.5,
+              31.75
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-41",
+          "ui_id": 41,
+          "en": "To the Other Side of the World",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            256,
+            688,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            48,
+            0,
+            288,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            256,
+            688,
+            320
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "To the Other Side of the World"
+          ],
+          "font_size": 22,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              5.75,
+              7.0,
+              338.0,
+              28.75
+            ]
+          ],
+          "alignment": "center"
+        },
+        {
+          "id": "sub_title_b-chapter-42",
+          "ui_id": 42,
+          "en": "Trill—An Ever-Swaying Melody",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            256,
+            1024,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            15,
+            0,
+            329,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            256,
+            1032,
+            320
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Trill—An Ever-Swaying Melody"
+          ],
+          "font_size": 21,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              9.0,
+              5.0,
+              326.75,
+              30.75
+            ]
+          ],
+          "alignment": "center"
+        }
+      ]
+    },
+    {
+      "member": "data/_ssa/sub_title_b_.btx",
+      "source_sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "output_sha256": "3a07f33dca5276ae410d936226cf213d49c550eec779094ead2ea6dff18cf350",
+      "native_palette_preserved": true,
+      "outside_heading_bands_unchanged": true,
+      "decoded_preview": "work/ui/local/chapter-titles/sub_title_b_.png",
+      "regions": [
+        {
+          "id": "sub_title_b_-chapter-28",
+          "ui_id": 28,
+          "en": "A New Posting, and Then—",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            0,
+            344,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            121,
+            2,
+            340,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            0,
+            344,
+            64
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A New Posting, and Then—"
+          ],
+          "font_size": 25,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              4.25,
+              3.0,
+              338.0,
+              32.75
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-29",
+          "ui_id": 29,
+          "en": "Welcome to the First Squadron of Death",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            0,
+            688,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            1,
+            2,
+            337,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            0,
+            688,
+            64
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Welcome to the First",
+            "Squadron of Death"
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "line_bounds": [
+            [
+              177.25,
+              1.0,
+              338.0,
+              16.25
+            ],
+            [
+              191.5,
+              16.25,
+              338.0,
+              34.75
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-30",
+          "ui_id": 30,
+          "en": "Why I Fight",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            0,
+            1024,
+            37
+          ],
+          "original_nonzero_alpha_bounds": [
+            91,
+            2,
+            331,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            0,
+            1032,
+            64
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Why I Fight"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              177.75,
+              2.5,
+              330.0,
+              33.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-31",
+          "ui_id": 31,
+          "en": "A Cheerful Meal",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            64,
+            344,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            189,
+            0,
+            339,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            64,
+            344,
+            128
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A Cheerful Meal"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              129.5,
+              5.5,
+              338.0,
+              30.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-32",
+          "ui_id": 32,
+          "en": "The First Squadron on the Brink of Annihilation!",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            64,
+            688,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            40,
+            0,
+            328,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            64,
+            688,
+            128
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "The First Squadron on",
+            "the Brink of Annihilation!"
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "line_bounds": [
+            [
+              166.0,
+              1.0,
+              338.0,
+              19.5
+            ],
+            [
+              138.75,
+              19.5,
+              338.0,
+              35.0
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-33",
+          "ui_id": 33,
+          "en": "To Protect Smiles",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            64,
+            1024,
+            101
+          ],
+          "original_nonzero_alpha_bounds": [
+            93,
+            0,
+            332,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            64,
+            1032,
+            128
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "To Protect Smiles"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              108.75,
+              5.5,
+              330.0,
+              30.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-34",
+          "ui_id": 34,
+          "en": "Infiltration! The Empire of Misurugi",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            128,
+            344,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            82,
+            0,
+            340,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            128,
+            344,
+            192
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Infiltration! The Empire of Misurugi"
+          ],
+          "font_size": 19,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              7.25,
+              6.0,
+              338.0,
+              30.0
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-35",
+          "ui_id": 35,
+          "en": "A Place for Each of Us",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            128,
+            688,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            98,
+            0,
+            336,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            128,
+            688,
+            192
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "A Place for Each of Us"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              55.75,
+              5.5,
+              338.0,
+              30.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-36",
+          "ui_id": 36,
+          "en": "Those Who Know the Truth",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            128,
+            1024,
+            165
+          ],
+          "original_nonzero_alpha_bounds": [
+            98,
+            0,
+            333,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            128,
+            1032,
+            192
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Those Who Know the Truth"
+          ],
+          "font_size": 24,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              6.75,
+              6.25,
+              330.0,
+              29.5
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-37",
+          "ui_id": 37,
+          "en": "Rebels Beneath the Sea",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            192,
+            344,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            159,
+            0,
+            339,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            192,
+            344,
+            256
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Rebels Beneath the Sea"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              43.0,
+              5.5,
+              338.0,
+              30.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-38",
+          "ui_id": 38,
+          "en": "The World's Restorer",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            192,
+            688,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            156,
+            0,
+            335,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            192,
+            688,
+            256
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "The World's Restorer"
+          ],
+          "font_size": 26,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              75.0,
+              4.75,
+              338.0,
+              31.25
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-39",
+          "ui_id": 39,
+          "en": "Joining Forces, Standing Together",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            192,
+            1024,
+            229
+          ],
+          "original_nonzero_alpha_bounds": [
+            98,
+            0,
+            332,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            192,
+            1032,
+            256
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Joining Forces, Standing Together"
+          ],
+          "font_size": 19,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              17.25,
+              6.0,
+              330.0,
+              30.0
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-40",
+          "ui_id": 40,
+          "en": "Where Possibilities Converge",
+          "status": "inserted_texture",
+          "heading_rect": [
+            0,
+            256,
+            344,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            131,
+            0,
+            339,
+            37
+          ],
+          "sampling_rect": [
+            0,
+            256,
+            344,
+            320
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Where Possibilities Converge"
+          ],
+          "font_size": 23,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              15.0,
+              4.0,
+              338.0,
+              31.75
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-41",
+          "ui_id": 41,
+          "en": "To the Other Side of the World",
+          "status": "inserted_texture",
+          "heading_rect": [
+            344,
+            256,
+            688,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            98,
+            0,
+            337,
+            37
+          ],
+          "sampling_rect": [
+            344,
+            256,
+            688,
+            320
+          ],
+          "effective_sampling_width": 344,
+          "caption_glow_preserved": true,
+          "lines": [
+            "To the Other Side of the World"
+          ],
+          "font_size": 22,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              5.75,
+              7.0,
+              338.0,
+              28.75
+            ]
+          ],
+          "alignment": "right"
+        },
+        {
+          "id": "sub_title_b_-chapter-42",
+          "ui_id": 42,
+          "en": "Trill—An Ever-Swaying Melody",
+          "status": "inserted_texture",
+          "heading_rect": [
+            688,
+            256,
+            1024,
+            293
+          ],
+          "original_nonzero_alpha_bounds": [
+            19,
+            0,
+            331,
+            37
+          ],
+          "sampling_rect": [
+            688,
+            256,
+            1032,
+            320
+          ],
+          "effective_sampling_width": 336,
+          "caption_glow_preserved": true,
+          "lines": [
+            "Trill—An Ever-Swaying Melody"
+          ],
+          "font_size": 21,
+          "stroke_width": 2,
+          "line_bounds": [
+            [
+              12.25,
+              5.0,
+              330.0,
+              30.75
+            ]
+          ],
+          "alignment": "right"
+        }
+      ]
+    }
+  ],
+  "inserted_region_ids": [
+    "sub_title_b-chapter-28",
+    "sub_title_b-chapter-29",
+    "sub_title_b-chapter-30",
+    "sub_title_b-chapter-31",
+    "sub_title_b-chapter-32",
+    "sub_title_b-chapter-33",
+    "sub_title_b-chapter-34",
+    "sub_title_b-chapter-35",
+    "sub_title_b-chapter-36",
+    "sub_title_b-chapter-37",
+    "sub_title_b-chapter-38",
+    "sub_title_b-chapter-39",
+    "sub_title_b-chapter-40",
+    "sub_title_b-chapter-41",
+    "sub_title_b-chapter-42",
+    "sub_title_b_-chapter-28",
+    "sub_title_b_-chapter-29",
+    "sub_title_b_-chapter-30",
+    "sub_title_b_-chapter-31",
+    "sub_title_b_-chapter-32",
+    "sub_title_b_-chapter-33",
+    "sub_title_b_-chapter-34",
+    "sub_title_b_-chapter-35",
+    "sub_title_b_-chapter-36",
+    "sub_title_b_-chapter-37",
+    "sub_title_b_-chapter-38",
+    "sub_title_b_-chapter-39",
+    "sub_title_b_-chapter-40",
+    "sub_title_b_-chapter-41",
+    "sub_title_b_-chapter-42"
+  ],
+  "category_inventory": [
+    {
+      "member": "data/_dat/sub_title.bsw",
+      "sha256": "51d5fab0c91bf1fd0092d4b7326d39ef15613e733b7405695cd15646c7a64b86",
+      "modified": false,
+      "role": "original supporting asset"
+    },
+    {
+      "member": "data/_dat/sub_title_.bsw",
+      "sha256": "51d5fab0c91bf1fd0092d4b7326d39ef15613e733b7405695cd15646c7a64b86",
+      "modified": false,
+      "role": "original supporting asset"
+    },
+    {
+      "member": "data/_ssa/sub_title.bsa",
+      "sha256": "782ec452d9aaa6c5b95b65ab86ad359917313b8ff878cd0a9e32f45866ba86b9",
+      "modified": false,
+      "role": "original supporting asset"
+    },
+    {
+      "member": "data/_ssa/sub_title_.bsa",
+      "sha256": "58ce62c281b2e4fa24682008da7e93a011eba5ca53d46e3b15faa08313b30c91",
+      "modified": false,
+      "role": "original supporting asset"
+    },
+    {
+      "member": "data/_ssa/sub_title_a.btx",
+      "sha256": "e2d6a27cd62660866507ccb61564b22441570d2d1099ef60c068f7876630061b",
+      "modified": false,
+      "role": "original supporting asset"
+    },
+    {
+      "member": "data/_ssa/sub_title_b.btx",
+      "sha256": "c12accd4626bcf75574d7761d4cf0825848869334bd5df6c2a966782759a14ab",
+      "modified": true,
+      "role": "heading atlas"
+    },
+    {
+      "member": "data/_ssa/sub_title_b_.btx",
+      "sha256": "98f532ef5665af2b45a7be97e626d21007eaa8af3bfb1519f2374b8aeace91ee",
+      "modified": true,
+      "role": "heading atlas"
+    }
+  ],
+  "animations": {
+    "data/_ssa/sub_title.bsa": {
+      "original_title_area": [
+        0,
+        0,
+        344,
+        64
+      ],
+      "all_area_keys": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          391,
+          109,
+          491
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          511,
+          418,
+          1024,
+          489
+        ],
+        [
+          511,
+          418,
+          1024,
+          489
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          0,
+          0,
+          344,
+          64
+        ]
+      ],
+      "ssad_layers": 1,
+      "animation_modified": false,
+      "reachability": "SSAD supplies the 344x64 title sample; runtime selection offsets follow the existing 3x5 atlas grid. Static animation contains the initial sample only."
+    },
+    "data/_ssa/sub_title_.bsa": {
+      "original_title_area": [
+        0,
+        0,
+        344,
+        64
+      ],
+      "all_area_keys": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          511,
+          418,
+          1024,
+          489
+        ],
+        [
+          731,
+          356,
+          754,
+          418
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          735,
+          343,
+          1023,
+          353
+        ],
+        [
+          0,
+          0,
+          344,
+          64
+        ]
+      ],
+      "ssad_layers": 1,
+      "animation_modified": false,
+      "reachability": "SSAD supplies the 344x64 title sample; runtime selection offsets follow the existing 3x5 atlas grid. Static animation contains the initial sample only."
+    }
+  },
+  "scope": "All 15 unique titles in both chapter/prologue atlas variants; original captions, numbers, animation and supporting artwork retained."
+}

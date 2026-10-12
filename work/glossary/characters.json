@@ -1,0 +1,3214 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.2",
+  "language": "en",
+  "researched_on": "2026-10-10",
+  "policy": {
+    "unknown_gender": "Use neutral wording until an explicit source or scene establishes the referent.",
+    "name_priority": "BASE_RULES: wiki wins where corpus and wiki disagree; spelling decisions are project conventions, not a claim of an official game localization.",
+    "spoilers": "Profiles summarize introduction unless marked otherwise. Do not project anime later events onto alternate game routes.",
+    "replacement": "Apply name consistency after meaning edits; never replace control codes, IDs, tags or paths."
+  },
+  "characters": [
+    {
+      "id": "ange",
+      "japanese": [
+        "アンジュ",
+        "アンジュリーゼ"
+      ],
+      "english": "Ange",
+      "short_name": "Ange",
+      "nickname": [
+        "Angelise"
+      ],
+      "gender": "female",
+      "personality": "Proud, stubborn, confrontational",
+      "position": "Former first imperial princess; Para-mail pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/ange/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official feminine title",
+        "url": "https://www.crossange.com/character/ange/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [
+        "Use Angelise only for the former princess identity; full name requires exact source form."
+      ],
+      "speaker_label": "Ange",
+      "game_observation": {
+        "speaker_frequency": 1008,
+        "speaker_forms": [
+          "アンジュ"
+        ],
+        "source_files": [
+          "data/_scr/107111.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/110111.txt",
+          "data/_scr/110121.txt",
+          "data/_scr/110311.txt",
+          "data/_scr/301013.txt",
+          "data/_scr/301023.txt",
+          "data/_scr/C000_HEV_030.txt",
+          "data/_scr/C010_BEV_004.txt",
+          "data/_scr/C010_BEV_005.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_ANG.txt",
+          "data/_scr/C010_HEV_020.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_BEV_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_ANG.txt",
+          "data/_scr/C020_HEV_010.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_ANG.txt",
+          "data/_scr/C030_HEV_010.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_MAL_010.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_ANG.txt",
+          "data/_scr/C040_HEV_020.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C050_HEV_020.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_023.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_ANG.txt",
+          "data/_scr/C060_HEV_000.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C060_PRO_010.txt",
+          "data/_scr/C070_BEV_000.txt",
+          "data/_scr/C070_BEV_011.txt",
+          "data/_scr/C070_BEV_012.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_BEV_015.txt",
+          "data/_scr/C070_BEV_017.txt",
+          "data/_scr/C070_EPI_A01.txt",
+          "data/_scr/C070_EPI_A03.txt",
+          "data/_scr/C070_EPI_B01.txt",
+          "data/_scr/C070_EPI_B03.txt",
+          "data/_scr/C070_EPI_C01.txt",
+          "data/_scr/C070_EPI_C03.txt",
+          "data/_scr/C070_HEV_010.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_001.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_EPI_000.txt",
+          "data/_scr/C081_HEP_ANG.txt",
+          "data/_scr/C081_HEV_000.txt",
+          "data/_scr/C081_MAL_000.txt",
+          "data/_scr/C081_MAL_010.txt",
+          "data/_scr/C081_MAL_012.txt",
+          "data/_scr/C081_MAL_013.txt",
+          "data/_scr/C081_MAL_014.txt",
+          "data/_scr/C081_MAL_017.txt",
+          "data/_scr/C081_MAL_018.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C082_BEV_003.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEP_ANG.txt",
+          "data/_scr/C091_HEV_000.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C091_PRO_002.txt",
+          "data/_scr/C101_BEV_000.txt",
+          "data/_scr/C101_BEV_0102.txt",
+          "data/_scr/C101_BEV_0107.txt",
+          "data/_scr/C101_BEV_0113.txt",
+          "data/_scr/C101_BEV_0114.txt",
+          "data/_scr/C101_BEV_022.txt",
+          "data/_scr/C101_BEV_024.txt",
+          "data/_scr/C101_BEV_033.txt",
+          "data/_scr/C101_BEV_034.txt",
+          "data/_scr/C101_BEV_035.txt",
+          "data/_scr/C101_HEV_020.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_000.txt",
+          "data/_scr/C103_BEV_016.txt",
+          "data/_scr/C103_BEV_021.txt",
+          "data/_scr/C103_BEV_023.txt",
+          "data/_scr/C103_BEV_026.txt",
+          "data/_scr/C103_BEV_027.txt",
+          "data/_scr/C103_BEV_028.txt",
+          "data/_scr/C103_BEV_0301.txt",
+          "data/_scr/C103_BEV_0302.txt",
+          "data/_scr/C103_BEV_0307.txt",
+          "data/_scr/C103_BEV_0308.txt",
+          "data/_scr/C103_PRO_0003.txt",
+          "data/_scr/C103_PRO_0004.txt",
+          "data/_scr/C103_PRO_0005.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C103_PRO_0012.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_ANG_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_ANG_000.txt",
+          "data/_scr/HM1_ANG_END.txt",
+          "data/_scr/HM1_ANG_FAL.txt",
+          "data/_scr/HM1_ANG_PRO.txt",
+          "data/_scr/HM1_ANG_SUC.txt",
+          "data/_scr/HM1_CRS_END.txt",
+          "data/_scr/HM1_ERS_END.txt",
+          "data/_scr/HM1_HIL_END.txt",
+          "data/_scr/HM1_ROS_END.txt",
+          "data/_scr/HM1_SLI_END.txt",
+          "data/_scr/HM1_VIV_END.txt",
+          "data/_scr/HM2_ANG_END.txt",
+          "data/_scr/HM2_ANG_PRO.txt",
+          "data/_scr/HM2_ANG_SUC.txt",
+          "data/_scr/HM2_CRS_END.txt",
+          "data/_scr/HM2_ERS_END.txt",
+          "data/_scr/HM2_HIL_END.txt",
+          "data/_scr/HM2_ROS_END.txt",
+          "data/_scr/HM2_SLI_END.txt",
+          "data/_scr/HM2_VIV_END.txt",
+          "data/_scr/TC1_ANG_END.txt",
+          "data/_scr/TC1_ANG_PRO.txt",
+          "data/_scr/TC2_ANG_END.txt",
+          "data/_scr/TC2_ANG_PRO.txt",
+          "data/_scr/TIM_ANG_000.txt",
+          "data/_scr/TIM_ANG.txt",
+          "data/_scr/TIM_HIL_000.txt",
+          "data/_scr/TIM_ROS_000.txt"
+        ],
+        "sample_row_ids": [
+          "107111:102",
+          "107111:104",
+          "107111:106"
+        ],
+        "ui_records": [
+          {
+            "id": 665,
+            "key": "STR_CHR_NAME_02",
+            "source_offset": 44432,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salia",
+      "japanese": [
+        "サリア"
+      ],
+      "english": "Salia",
+      "short_name": "Salia",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Diligent, serious, follows procedure",
+      "position": "First Squadron deputy commander at introduction",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/salia/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Salia",
+      "game_observation": {
+        "speaker_frequency": 954,
+        "speaker_forms": [
+          "サリア"
+        ],
+        "source_files": [
+          "data/_scr/103111.txt",
+          "data/_scr/105111.txt",
+          "data/_scr/105112.txt",
+          "data/_scr/108321.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/109311.txt",
+          "data/_scr/109312.txt",
+          "data/_scr/110111.txt",
+          "data/_scr/303013.txt",
+          "data/_scr/303023.txt",
+          "data/_scr/C000_HEV_000.txt",
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C000_HEV_020.txt",
+          "data/_scr/C000_HEV_030.txt",
+          "data/_scr/C000_MAL_000.txt",
+          "data/_scr/C000_PRO_000.txt",
+          "data/_scr/C010_BEV_000.txt",
+          "data/_scr/C010_BEV_002.txt",
+          "data/_scr/C010_HEP_SLI.txt",
+          "data/_scr/C010_HEV_000.txt",
+          "data/_scr/C010_MAL_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_SLI.txt",
+          "data/_scr/C020_HEV_010.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_SLI.txt",
+          "data/_scr/C030_HEV_000.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_SLI.txt",
+          "data/_scr/C040_HEV_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C050_BEV_000.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_SLI.txt",
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_010.txt",
+          "data/_scr/C060_BEV_021.txt",
+          "data/_scr/C060_BEV_024.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_SLI.txt",
+          "data/_scr/C060_HEV_000.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C070_BEV_016.txt",
+          "data/_scr/C070_HEV_000.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_EPI_000.txt",
+          "data/_scr/C082_BEV_001.txt",
+          "data/_scr/C082_BEV_002.txt",
+          "data/_scr/C082_BEV_003.txt",
+          "data/_scr/C082_BEV_005.txt",
+          "data/_scr/C083_BEV_000.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C083_HEP_SLI.txt",
+          "data/_scr/C083_HEV_000.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C083_PRO_003.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C093_BEV_000.txt",
+          "data/_scr/C093_BEV_010.txt",
+          "data/_scr/C093_EPI_000.txt",
+          "data/_scr/C093_HEP_SLI.txt",
+          "data/_scr/C093_HEV_000.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C093_PRO_000.txt",
+          "data/_scr/C101_BEV_000.txt",
+          "data/_scr/C101_BEV_0108.txt",
+          "data/_scr/C101_BEV_0109.txt",
+          "data/_scr/C101_BEV_0110.txt",
+          "data/_scr/C101_BEV_0111.txt",
+          "data/_scr/C101_BEV_0112.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_012.txt",
+          "data/_scr/C103_BEV_013.txt",
+          "data/_scr/C103_BEV_015.txt",
+          "data/_scr/C103_BEV_0305.txt",
+          "data/_scr/C103_HEV_010.txt",
+          "data/_scr/C103_MAL_010.txt",
+          "data/_scr/C103_PRO_0001.txt",
+          "data/_scr/C103_PRO_0009.txt",
+          "data/_scr/C103_PRO_0011.txt",
+          "data/_scr/C103_PRO_0013.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_SLI_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_ERS_000.txt",
+          "data/_scr/HEV_SLI_000.txt",
+          "data/_scr/HM1_SLI_PRO.txt",
+          "data/_scr/HM1_SLI_SUC.txt",
+          "data/_scr/HM2_SLI_PRO.txt",
+          "data/_scr/HM2_SLI_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_SLI_END.txt",
+          "data/_scr/TC1_SLI_PRO.txt",
+          "data/_scr/TC2_SLI_END.txt",
+          "data/_scr/TC2_SLI_PRO.txt",
+          "data/_scr/TIM_ERS_000.txt",
+          "data/_scr/TIM_SLI_000.txt",
+          "data/_scr/TIM_VIV_000.txt"
+        ],
+        "sample_row_ids": [
+          "103111:68",
+          "105111:75",
+          "105111:77"
+        ],
+        "ui_records": [
+          {
+            "id": 667,
+            "key": "STR_CHR_NAME_04",
+            "source_offset": 44460,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hilda",
+      "japanese": [
+        "ヒルダ"
+      ],
+      "english": "Hilda",
+      "short_name": "Hilda",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Cynical, ambitious, hostile toward Ange initially",
+      "position": "First Squadron assault pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/hilda/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Hilda",
+      "game_observation": {
+        "speaker_frequency": 901,
+        "speaker_forms": [
+          "ヒルダ"
+        ],
+        "source_files": [
+          "data/_scr/103111.txt",
+          "data/_scr/108321.txt",
+          "data/_scr/108322.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/305013.txt",
+          "data/_scr/305023.txt",
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_HIL.txt",
+          "data/_scr/C010_HEV_000.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_HIL.txt",
+          "data/_scr/C020_HEV_020.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_HIL.txt",
+          "data/_scr/C030_HEV_020.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_HIL.txt",
+          "data/_scr/C040_HEV_010.txt",
+          "data/_scr/C040_HEV_020.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C050_HEV_020.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_HIL.txt",
+          "data/_scr/C060_HEV_000.txt",
+          "data/_scr/C070_EPI_B04.txt",
+          "data/_scr/C070_EPI_C04.txt",
+          "data/_scr/C070_HEV_000.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_BEV_003.txt",
+          "data/_scr/C082_BEV_005.txt",
+          "data/_scr/C082_BEV_007.txt",
+          "data/_scr/C082_HEV_010.txt",
+          "data/_scr/C082_MAL_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C083_BEV_000.txt",
+          "data/_scr/C083_BEV_010.txt",
+          "data/_scr/C083_HEV_020.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C083_PRO_003.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEP_HIL.txt",
+          "data/_scr/C091_HEV_010.txt",
+          "data/_scr/C091_MAL_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C091_PRO_002.txt",
+          "data/_scr/C101_BEV_0104.txt",
+          "data/_scr/C101_HEV_000.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_010.txt",
+          "data/_scr/C103_BEV_012.txt",
+          "data/_scr/C103_PRO_0004.txt",
+          "data/_scr/C103_PRO_0005.txt",
+          "data/_scr/C103_PRO_0006.txt",
+          "data/_scr/C103_PRO_0007.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_0009.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C103_PRO_0011.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_HIL_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_HIL_000.txt",
+          "data/_scr/HM1_HIL_PRO.txt",
+          "data/_scr/HM1_HIL_SUC.txt",
+          "data/_scr/HM2_HIL_PRO.txt",
+          "data/_scr/HM2_HIL_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_HIL_END.txt",
+          "data/_scr/TC1_HIL_PRO.txt",
+          "data/_scr/TC2_HIL_END.txt",
+          "data/_scr/TC2_HIL_PRO.txt",
+          "data/_scr/TIM_CRS_000.txt",
+          "data/_scr/TIM_ERS_000.txt",
+          "data/_scr/TIM_HIL_000.txt",
+          "data/_scr/TIM_ROS_000.txt",
+          "data/_scr/TIM_SLI_000.txt"
+        ],
+        "sample_row_ids": [
+          "103111:72",
+          "108321:117",
+          "108321:119"
+        ],
+        "ui_records": [
+          {
+            "id": 669,
+            "key": "STR_CHR_NAME_06",
+            "source_offset": 44480,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vivian",
+      "japanese": [
+        "ヴィヴィアン",
+        "ミィ"
+      ],
+      "english": "Vivian",
+      "short_name": "Vivian",
+      "nickname": [
+        "Mii"
+      ],
+      "gender": "female",
+      "personality": "Cheerful, friendly; likes quizzes",
+      "position": "First Squadron assault pilot and ace",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/vivian/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "Mii alternate name"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile calls her a girl; Mii from character list",
+        "url": "https://www.crossange.com/character/vivian/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Vivian",
+      "game_observation": {
+        "speaker_frequency": 607,
+        "speaker_forms": [
+          "ヴィヴィアン"
+        ],
+        "source_files": [
+          "data/_scr/107111.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/302013.txt",
+          "data/_scr/302023.txt",
+          "data/_scr/C000_HEV_000.txt",
+          "data/_scr/C000_HEV_030.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_VIV.txt",
+          "data/_scr/C010_HEV_020.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_VIV.txt",
+          "data/_scr/C020_HEV_010.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_VIV.txt",
+          "data/_scr/C030_HEV_000.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_VIV.txt",
+          "data/_scr/C040_HEV_000.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_VIV.txt",
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_VIV.txt",
+          "data/_scr/C060_HEV_020.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C070_BEV_000.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_EPI_A03.txt",
+          "data/_scr/C070_EPI_B03.txt",
+          "data/_scr/C070_EPI_C03.txt",
+          "data/_scr/C070_HEV_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_HEP_VIV.txt",
+          "data/_scr/C081_HEV_020.txt",
+          "data/_scr/C081_MAL_010.txt",
+          "data/_scr/C081_MAL_011.txt",
+          "data/_scr/C081_MAL_013.txt",
+          "data/_scr/C081_MAL_016.txt",
+          "data/_scr/C081_MAL_018.txt",
+          "data/_scr/C082_BEV_006.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEP_VIV.txt",
+          "data/_scr/C091_HEV_010.txt",
+          "data/_scr/C101_BEV_0102.txt",
+          "data/_scr/C101_HEV_010.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_PRO_0003.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C110_VIV_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_VIV_000.txt",
+          "data/_scr/HM1_VIV_PRO.txt",
+          "data/_scr/HM1_VIV_SUC.txt",
+          "data/_scr/HM2_VIV_PRO.txt",
+          "data/_scr/HM2_VIV_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_VIV_END.txt",
+          "data/_scr/TC1_VIV_PRO.txt",
+          "data/_scr/TC2_VIV_END.txt",
+          "data/_scr/TC2_VIV_PRO.txt",
+          "data/_scr/TIM_ANG_000.txt",
+          "data/_scr/TIM_ANG.txt",
+          "data/_scr/TIM_CRS_000.txt",
+          "data/_scr/TIM_VIV_000.txt"
+        ],
+        "sample_row_ids": [
+          "107111:105",
+          "107111:110",
+          "109111:144"
+        ],
+        "ui_records": [
+          {
+            "id": 666,
+            "key": "STR_CHR_NAME_03",
+            "source_offset": 44444,
+            "source_bytes": 12,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      },
+      "form_labels": [
+        {
+          "japanese": "ドラゴンヴィヴィアン",
+          "english": "DRAGON Vivian",
+          "relation": "Vivian in DRAGON form; not a separate character.",
+          "sources": [
+            {
+              "url": "https://crossange.fandom.com/wiki/Vivian",
+              "supports": "Vivian transforms into a DRAGON"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rosalie",
+      "japanese": [
+        "ロザリー"
+      ],
+      "english": "Rosalie",
+      "short_name": "Rosalie",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Follows stronger pilots; initially resents Ange",
+      "position": "First Squadron light artillery pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/rosalie/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Rosalie",
+      "game_observation": {
+        "speaker_frequency": 729,
+        "speaker_forms": [
+          "ロザリー"
+        ],
+        "source_files": [
+          "data/_scr/103111.txt",
+          "data/_scr/105111.txt",
+          "data/_scr/105112.txt",
+          "data/_scr/108321.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/306013.txt",
+          "data/_scr/306023.txt",
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C010_BEV_002.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_ROS.txt",
+          "data/_scr/C010_HEV_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_ROS.txt",
+          "data/_scr/C020_HEV_000.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_ROS.txt",
+          "data/_scr/C030_HEV_010.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_ROS.txt",
+          "data/_scr/C040_HEV_010.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C050_BEV_000.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_ROS.txt",
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_010.txt",
+          "data/_scr/C060_BEV_021.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_ROS.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_BEV_016.txt",
+          "data/_scr/C070_EPI_B04.txt",
+          "data/_scr/C070_EPI_C04.txt",
+          "data/_scr/C070_HEV_020.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_HEV_010.txt",
+          "data/_scr/C082_MAL_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C083_BEV_000.txt",
+          "data/_scr/C083_HEV_010.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEP_ROS.txt",
+          "data/_scr/C091_HEV_000.txt",
+          "data/_scr/C101_BEV_010.txt",
+          "data/_scr/C101_HEV_010.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_010.txt",
+          "data/_scr/C103_BEV_011.txt",
+          "data/_scr/C110_ROS_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_ROS_000.txt",
+          "data/_scr/HM1_ROS_PRO.txt",
+          "data/_scr/HM1_ROS_SUC.txt",
+          "data/_scr/HM2_ROS_PRO.txt",
+          "data/_scr/HM2_ROS_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_ROS_END.txt",
+          "data/_scr/TC1_ROS_PRO.txt",
+          "data/_scr/TC2_ROS_END.txt",
+          "data/_scr/TC2_ROS_PRO.txt",
+          "data/_scr/TIM_ROS_000.txt"
+        ],
+        "sample_row_ids": [
+          "103111:70",
+          "105111:74",
+          "105111:76"
+        ],
+        "ui_records": [
+          {
+            "id": 670,
+            "key": "STR_CHR_NAME_07",
+            "source_offset": 44488,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ersha",
+      "japanese": [
+        "エルシャ"
+      ],
+      "english": "Ersha",
+      "short_name": "Ersha",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Motherly, good cook, formidable when angry",
+      "position": "First Squadron heavy artillery pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/ersha/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Ersha",
+      "game_observation": {
+        "speaker_frequency": 642,
+        "speaker_forms": [
+          "エルシャ"
+        ],
+        "source_files": [
+          "data/_scr/103111.txt",
+          "data/_scr/108322.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/109311.txt",
+          "data/_scr/109312.txt",
+          "data/_scr/210022.txt",
+          "data/_scr/304013.txt",
+          "data/_scr/304023.txt",
+          "data/_scr/C000_HEV_000.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_ERS.txt",
+          "data/_scr/C010_HEV_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_ERS.txt",
+          "data/_scr/C020_HEV_020.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_ERS.txt",
+          "data/_scr/C030_HEV_000.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_ERS.txt",
+          "data/_scr/C040_HEV_020.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_ERS.txt",
+          "data/_scr/C050_HEV_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_ERS.txt",
+          "data/_scr/C060_HEV_020.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_HEV_020.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_EPI_000.txt",
+          "data/_scr/C082_BEV_001.txt",
+          "data/_scr/C082_BEV_005.txt",
+          "data/_scr/C083_BEV_010.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C083_HEP_ERS.txt",
+          "data/_scr/C083_HEV_010.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C093_BEV_000.txt",
+          "data/_scr/C093_BEV_010.txt",
+          "data/_scr/C093_EPI_000.txt",
+          "data/_scr/C093_HEP_ERS.txt",
+          "data/_scr/C093_HEV_020.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C093_PRO_000.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_0306.txt",
+          "data/_scr/C103_HEV_020.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C103_PRO_0011.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_ERS_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_ERS_000.txt",
+          "data/_scr/HM1_ERS_PRO.txt",
+          "data/_scr/HM1_ERS_SUC.txt",
+          "data/_scr/HM2_ERS_PRO.txt",
+          "data/_scr/HM2_ERS_SUC.txt",
+          "data/_scr/MEV_RGM_PRO.txt",
+          "data/_scr/MEV_RGM_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_ERS_END.txt",
+          "data/_scr/TC1_ERS_PRO.txt",
+          "data/_scr/TC2_ERS_END.txt",
+          "data/_scr/TC2_ERS_PRO.txt",
+          "data/_scr/TIM_ERS_000.txt",
+          "data/_scr/TIM_HIL_000.txt",
+          "data/_scr/TIM_VIV_000.txt"
+        ],
+        "sample_row_ids": [
+          "103111:71",
+          "108322:134",
+          "109111:141"
+        ],
+        "ui_records": [
+          {
+            "id": 668,
+            "key": "STR_CHR_NAME_05",
+            "source_offset": 44468,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chris",
+      "japanese": [
+        "クリス"
+      ],
+      "english": "Chris",
+      "short_name": "Chris",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Shy, withdrawn, pessimistic",
+      "position": "First Squadron heavy artillery pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/chris/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile calls her a girl",
+        "url": "https://www.crossange.com/character/chris/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Chris",
+      "game_observation": {
+        "speaker_frequency": 664,
+        "speaker_forms": [
+          "クリス"
+        ],
+        "source_files": [
+          "data/_scr/105111.txt",
+          "data/_scr/105112.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/109311.txt",
+          "data/_scr/110111.txt",
+          "data/_scr/307013.txt",
+          "data/_scr/307023.txt",
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_CRS.txt",
+          "data/_scr/C010_HEV_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_CRS.txt",
+          "data/_scr/C020_HEV_000.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_CRS.txt",
+          "data/_scr/C030_HEV_020.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_CRS.txt",
+          "data/_scr/C040_HEV_010.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C050_BEV_000.txt",
+          "data/_scr/C050_BEV_010.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_CRS.txt",
+          "data/_scr/C050_HEV_010.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_021.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_CRS.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C070_HEV_020.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_BEV_003.txt",
+          "data/_scr/C081_BEV_004.txt",
+          "data/_scr/C081_HEP_VIV.txt",
+          "data/_scr/C082_BEV_004.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C083_HEP_CRS.txt",
+          "data/_scr/C083_HEV_020.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C093_BEV_000.txt",
+          "data/_scr/C093_EPI_000.txt",
+          "data/_scr/C093_HEP_CRS.txt",
+          "data/_scr/C093_HEV_010.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C093_PRO_000.txt",
+          "data/_scr/C101_BEV_000.txt",
+          "data/_scr/C101_BEV_010.txt",
+          "data/_scr/C101_BEV_0101.txt",
+          "data/_scr/C101_BEV_0112.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_010.txt",
+          "data/_scr/C103_BEV_011.txt",
+          "data/_scr/C103_BEV_0306.txt",
+          "data/_scr/C103_HEV_000.txt",
+          "data/_scr/C103_MAL_010.txt",
+          "data/_scr/C103_PRO_0002.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_CRS_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_CRS_000.txt",
+          "data/_scr/HEV_ERS_000.txt",
+          "data/_scr/HM1_CRS_PRO.txt",
+          "data/_scr/HM1_CRS_SUC.txt",
+          "data/_scr/HM2_CRS_PRO.txt",
+          "data/_scr/HM2_CRS_SUC.txt",
+          "data/_scr/samplescript.txt",
+          "data/_scr/TC1_CRS_END.txt",
+          "data/_scr/TC1_CRS_PRO.txt",
+          "data/_scr/TC2_CRS_END.txt",
+          "data/_scr/TC2_CRS_PRO.txt",
+          "data/_scr/TIM_ANG_000.txt",
+          "data/_scr/TIM_ANG.txt",
+          "data/_scr/TIM_CRS_000.txt",
+          "data/_scr/TIM_SLI_000.txt"
+        ],
+        "sample_row_ids": [
+          "105111:78",
+          "105112:91",
+          "109111:139"
+        ],
+        "ui_records": [
+          {
+            "id": 671,
+            "key": "STR_CHR_NAME_08",
+            "source_offset": 44500,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "momoka",
+      "japanese": [
+        "モモカ・荻野目",
+        "モモカ"
+      ],
+      "english": "Momoka Oginome",
+      "short_name": "Momoka",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Devoted, hardworking, unusually resourceful",
+      "position": "Angelise's head maid",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/momoka/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "character list uses she",
+        "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Momoka",
+      "game_observation": {
+        "speaker_frequency": 121,
+        "speaker_forms": [
+          "モモカ"
+        ],
+        "source_files": [
+          "data/_scr/C030_HEP_ANG.txt",
+          "data/_scr/C030_HEV_010.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_HEV_020.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C101_HEV_020.txt"
+        ],
+        "sample_row_ids": [
+          "C030_HEP_ANG:2754",
+          "C030_HEP_ANG:2762",
+          "C030_HEP_ANG:2765"
+        ],
+        "ui_records": [
+          {
+            "id": 672,
+            "key": "STR_CHR_NAME_09",
+            "source_offset": 44508,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jill",
+      "japanese": [
+        "ジル",
+        "アレクトラ"
+      ],
+      "english": "Jill",
+      "short_name": "Jill",
+      "nickname": [
+        "Alektra"
+      ],
+      "gender": "female",
+      "personality": "Strict, cold, feared by Norma",
+      "position": "Arzenal commander in chief; former soldier",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/jill/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Jill",
+          "supports": "Alektra alternate identity and gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "wiki explicitly describes a woman; Alektra identity from wiki",
+        "url": "https://crossange.fandom.com/wiki/Jill"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Jill",
+      "game_observation": {
+        "speaker_frequency": 490,
+        "speaker_forms": [
+          "ジル"
+        ],
+        "source_files": [
+          "data/_scr/105112.txt",
+          "data/_scr/106121.txt",
+          "data/_scr/C000_EPI_000.txt",
+          "data/_scr/C000_EPI_001.txt",
+          "data/_scr/C000_EPI_003.txt",
+          "data/_scr/C000_MAL_000.txt",
+          "data/_scr/C000_MAL_010.txt",
+          "data/_scr/C000_PRO_000.txt",
+          "data/_scr/C010_MAL_000.txt",
+          "data/_scr/C010_MAL_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C020_MAL_010.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C030_MAL_010.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C050_BEV_010.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_MAL_000.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_000.txt",
+          "data/_scr/C060_BEV_024.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEV_020.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C060_PRO_010.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_HEV_010.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C083_PRO_015.txt",
+          "data/_scr/C091_HEV_020.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C101_BEV_0109.txt",
+          "data/_scr/C101_BEV_0111.txt",
+          "data/_scr/C101_BEV_0112.txt",
+          "data/_scr/C101_BEV_0113.txt",
+          "data/_scr/C103_BEV_012.txt",
+          "data/_scr/C103_BEV_013.txt",
+          "data/_scr/C103_BEV_014.txt",
+          "data/_scr/C103_BEV_015.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "105112:84",
+          "105112:87",
+          "105112:89"
+        ],
+        "ui_records": [
+          {
+            "id": 673,
+            "key": "STR_CHR_NAME_10",
+            "source_offset": 44516,
+            "source_bytes": 4,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "emma",
+      "japanese": [
+        "エマ・ブロンソン",
+        "エマ"
+      ],
+      "english": "Emma Bronson",
+      "short_name": "Emma",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Disciplinarian; initially looks down on Norma",
+      "position": "Inspector General at Arzenal",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/emma/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "wiki profile explicitly Female",
+        "url": "https://crossange.fandom.com/wiki/Emma_Bronson"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Emma",
+      "game_observation": {
+        "speaker_frequency": 83,
+        "speaker_forms": [
+          "エマ"
+        ],
+        "source_files": [
+          "data/_scr/C000_PRO_000.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C050_BEV_010.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_HEV_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_PRO_000:789",
+          "C000_PRO_000:793",
+          "C000_PRO_000:794"
+        ],
+        "ui_records": [
+          {
+            "id": 676,
+            "key": "STR_CHR_NAME_13",
+            "source_offset": 44540,
+            "source_bytes": 4,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mei",
+      "japanese": [
+        "メイ"
+      ],
+      "english": "Mei",
+      "short_name": "Mei",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Young, exceptionally skilled mechanic",
+      "position": "First Squadron chief mechanic",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/mei/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Zhao_Mei",
+          "supports": "full-name spelling Zhao Mei and gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "wiki Zhao Mei uses she",
+        "url": "https://crossange.fandom.com/wiki/Zhao_Mei"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "full_name": "Zhao Mei",
+      "speaker_label": "Mei",
+      "game_observation": {
+        "speaker_frequency": 95,
+        "speaker_forms": [
+          "メイ"
+        ],
+        "source_files": [
+          "data/_scr/100111.txt",
+          "data/_scr/100112.txt",
+          "data/_scr/100113.txt",
+          "data/_scr/100114.txt",
+          "data/_scr/C000_EPI_000.txt",
+          "data/_scr/C000_EPI_001.txt",
+          "data/_scr/C000_EPI_002.txt",
+          "data/_scr/C000_MAL_010.txt",
+          "data/_scr/C000_PRO_000.txt",
+          "data/_scr/C010_MAL_010.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C091_HEV_010.txt",
+          "data/_scr/C110_CRS_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "100111:1",
+          "100111:3",
+          "100111:4"
+        ],
+        "ui_records": [
+          {
+            "id": 675,
+            "key": "STR_CHR_NAME_12",
+            "source_offset": 44532,
+            "source_bytes": 4,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "maggy",
+      "japanese": [
+        "マギー"
+      ],
+      "english": "Maggie",
+      "short_name": "Maggie",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Foul mouthed but expert; excited by blood",
+      "position": "Arzenal military surgeon",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/maggy/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Maggie",
+          "supports": "preferred English spelling and gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "wiki profile explicitly Female",
+        "url": "https://crossange.fandom.com/wiki/Maggie"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "rejected_variants": [
+        "Maggy"
+      ],
+      "speaker_label": "Maggie",
+      "game_observation": {
+        "speaker_frequency": 70,
+        "speaker_forms": [
+          "マギー"
+        ],
+        "source_files": [
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_HEV_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_HEV_010:456",
+          "C000_HEV_010:458",
+          "C000_HEV_010:460"
+        ],
+        "ui_records": [
+          {
+            "id": 674,
+            "key": "STR_CHR_NAME_11",
+            "source_offset": 44524,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jasmine",
+      "japanese": [
+        "ジャスミン"
+      ],
+      "english": "Jasmine",
+      "short_name": "Jasmine",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Shrewd, overcharges, provides good aftercare",
+      "position": "Jasmine Mall proprietor",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/jasmine/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile calls her a woman",
+        "url": "https://www.crossange.com/character/jasmine/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Jasmine",
+      "game_observation": {
+        "speaker_frequency": 131,
+        "speaker_forms": [
+          "ジャスミン"
+        ],
+        "source_files": [
+          "data/_scr/C000_HEV_000.txt",
+          "data/_scr/C020_MAL_010.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C040_HEV_020.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_HEV_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C091_HEV_010.txt",
+          "data/_scr/C101_BEV_0102.txt",
+          "data/_scr/C101_BEV_0103.txt",
+          "data/_scr/C101_BEV_0105.txt",
+          "data/_scr/C101_BEV_0106.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_HEV_000:354",
+          "C000_HEV_000:355",
+          "C000_HEV_000:358"
+        ],
+        "ui_records": [
+          {
+            "id": 677,
+            "key": "STR_CHR_NAME_14",
+            "source_offset": 44548,
+            "source_bytes": 10,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vulcan",
+      "japanese": [
+        "バルカン"
+      ],
+      "english": "Vulcan",
+      "short_name": "Vulcan",
+      "nickname": [],
+      "gender": "male",
+      "personality": "Vigilant against shoplifting",
+      "position": "Jasmine Mall mascot and guard dog",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/vulcan/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Vulcan",
+          "supports": "English name and explicit gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly male.",
+        "url": "https://crossange.fandom.com/wiki/Vulcan"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Vulcan",
+      "game_observation": {
+        "speaker_frequency": 1,
+        "speaker_forms": [
+          "バルカン"
+        ],
+        "source_files": [
+          "data/_scr/C070_MAL_000.txt"
+        ],
+        "sample_row_ids": [
+          "C070_MAL_000:6210"
+        ],
+        "ui_records": [
+          {
+            "id": 694,
+            "key": "STR_CHR_NAME_31",
+            "source_offset": 44732,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zola",
+      "japanese": [
+        "ゾーラ"
+      ],
+      "english": "Zola",
+      "short_name": "Zola",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Veteran, respected, hedonistic",
+      "position": "First Squadron commander at introduction",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/zola/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Zola",
+      "game_observation": {
+        "speaker_frequency": 116,
+        "speaker_forms": [
+          "ゾーラ"
+        ],
+        "source_files": [
+          "data/_scr/C000_HEV_020.txt",
+          "data/_scr/C010_MAL_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_HEV_020:541",
+          "C000_HEV_020:546",
+          "C000_HEV_020:548"
+        ],
+        "ui_records": [
+          {
+            "id": 687,
+            "key": "STR_CHR_NAME_24",
+            "source_offset": 44652,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "julio",
+      "japanese": [
+        "ジュリオ・飛鳥・ミスルギ",
+        "ジュリオ"
+      ],
+      "english": "Julio Asuka Misurugi",
+      "short_name": "Julio",
+      "nickname": [],
+      "gender": "male",
+      "personality": "Elitist; despises Norma",
+      "position": "Misurugi crown prince; Ange's older brother",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/julio/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says brother and crown prince",
+        "url": "https://www.crossange.com/character/julio/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Julio",
+      "game_observation": {
+        "speaker_frequency": 18,
+        "speaker_forms": [
+          "ジュリオ"
+        ],
+        "source_files": [
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C070_BEV_011.txt",
+          "data/_scr/C070_BEV_012.txt",
+          "data/_scr/C070_BEV_013.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_MAL_000.txt"
+        ],
+        "sample_row_ids": [
+          "C060_PRO_000:5601",
+          "C060_PRO_000:5602",
+          "C060_PRO_000:5604"
+        ],
+        "ui_records": [
+          {
+            "id": 681,
+            "key": "STR_CHR_NAME_18",
+            "source_offset": 44588,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sylvia",
+      "japanese": [
+        "シルヴィア・斑鳩・ミスルギ",
+        "シルヴィア"
+      ],
+      "english": "Sylvia Ikaruga Misurugi",
+      "short_name": "Sylvia",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Initially admires Ange",
+      "position": "Misurugi second imperial princess; Ange's younger sister",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/sylvia/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says sister and princess",
+        "url": "https://www.crossange.com/character/sylvia/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Sylvia",
+      "game_observation": {
+        "speaker_frequency": 79,
+        "speaker_forms": [
+          "シルヴィア"
+        ],
+        "source_files": [
+          "data/_scr/109311.txt",
+          "data/_scr/109312.txt",
+          "data/_scr/110311.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C093_BEV_000.txt",
+          "data/_scr/C093_BEV_010.txt",
+          "data/_scr/C093_HEV_000.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C103_BEV_000.txt",
+          "data/_scr/C103_BEV_012.txt",
+          "data/_scr/C103_HEV_000.txt",
+          "data/_scr/C103_MAL_000.txt",
+          "data/_scr/C103_MAL_010.txt",
+          "data/_scr/C103_PRO_000.txt",
+          "data/_scr/C103_PRO_0001.txt",
+          "data/_scr/C103_PRO_010.txt"
+        ],
+        "sample_row_ids": [
+          "109311:167",
+          "109311:168",
+          "109311:170"
+        ],
+        "ui_records": [
+          {
+            "id": 682,
+            "key": "STR_CHR_NAME_19",
+            "source_offset": 44600,
+            "source_bytes": 10,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "riza",
+      "japanese": [
+        "リィザ・ランドッグ",
+        "リィザ",
+        "リザーディア"
+      ],
+      "english": "Riza Randog",
+      "short_name": "Riza",
+      "nickname": [
+        "Lizardia"
+      ],
+      "gender": "female",
+      "personality": "Calm demeanor; outwardly loyal to Julio.",
+      "position": "Misurugi Royal Guard chief; Julio's confidant",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/riza/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Riza_Randog",
+          "supports": "English name and explicit gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly female.",
+        "url": "https://crossange.fandom.com/wiki/Riza_Randog"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Riza",
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "source_files": [],
+        "sample_row_ids": []
+      }
+    },
+    {
+      "id": "misty",
+      "japanese": [
+        "ミスティ・ローゼンブルム",
+        "ミスティ"
+      ],
+      "english": "Misty Rosenblum",
+      "short_name": "Misty",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Sheltered; acquainted with Ange from school",
+      "position": "Princess of Rosenblum",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/misty/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says princess",
+        "url": "https://www.crossange.com/character/misty/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Misty",
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "source_files": [],
+        "sample_row_ids": []
+      }
+    },
+    {
+      "id": "sophia",
+      "japanese": [
+        "ソフィア・斑鳩・ミスルギ",
+        "ソフィア"
+      ],
+      "english": "Sophia Ikaruga Misurugi",
+      "short_name": "Sophia",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Gentle with inner strength",
+      "position": "Misurugi empress; Ange's mother",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/sophia/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says mother and woman",
+        "url": "https://www.crossange.com/character/sophia/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Sophia",
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "source_files": [],
+        "sample_row_ids": []
+      }
+    },
+    {
+      "id": "jurai",
+      "japanese": [
+        "ジュライ・飛鳥・ミスルギ",
+        "ジュライ"
+      ],
+      "english": "Jurai Asuka Misurugi",
+      "short_name": "Jurai",
+      "nickname": [],
+      "gender": "male",
+      "personality": "Strict, cares about family",
+      "position": "Misurugi emperor; Ange's father",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/jurai/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Jurai_Asuka_Misurugi",
+          "supports": "English name and explicit gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly male.",
+        "url": "https://crossange.fandom.com/wiki/Jurai_Asuka_Misurugi"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Jurai",
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "source_files": [],
+        "sample_row_ids": []
+      }
+    },
+    {
+      "id": "tusk",
+      "japanese": [
+        "タスク"
+      ],
+      "english": "Tusk",
+      "short_name": "Tusk",
+      "nickname": [],
+      "gender": "male",
+      "personality": "Not specified in short official profile",
+      "position": "Young man Ange meets in a forest",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/tusk/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says young man",
+        "url": "https://www.crossange.com/character/tusk/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Tusk",
+      "game_observation": {
+        "speaker_frequency": 203,
+        "speaker_forms": [
+          "タスク"
+        ],
+        "source_files": [
+          "data/_scr/107111.txt",
+          "data/_scr/210012.txt",
+          "data/_scr/C020_BEV_000.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C070_BEV_000.txt",
+          "data/_scr/C070_BEV_016.txt",
+          "data/_scr/C070_EPI_A00.txt",
+          "data/_scr/C070_EPI_B00.txt",
+          "data/_scr/C070_EPI_C00.txt",
+          "data/_scr/C081_HEV_010.txt",
+          "data/_scr/C081_MAL_010.txt",
+          "data/_scr/C081_MAL_011.txt",
+          "data/_scr/C081_MAL_012.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEV_020.txt",
+          "data/_scr/C101_HEV_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/MEV_DRG_PRO.txt",
+          "data/_scr/MEV_DRG_SUC.txt"
+        ],
+        "sample_row_ids": [
+          "107111:98",
+          "107111:100",
+          "107111:101"
+        ],
+        "ui_records": [
+          {
+            "id": 678,
+            "key": "STR_CHR_NAME_15",
+            "source_offset": 44560,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "coco",
+      "japanese": [
+        "ココ"
+      ],
+      "english": "Coco",
+      "short_name": "Coco",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Dreamy; likes picture books and pudding; admires Ange",
+      "position": "New First Squadron recruit",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/coco/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile calls her a girl",
+        "url": "https://www.crossange.com/character/coco/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Coco",
+      "game_observation": {
+        "speaker_frequency": 98,
+        "speaker_forms": [
+          "ココ"
+        ],
+        "source_files": [
+          "data/_scr/C000_HEV_020.txt",
+          "data/_scr/C010_MAL_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_HEV_020:543",
+          "C000_HEV_020:547",
+          "C000_HEV_020:550"
+        ],
+        "ui_records": [
+          {
+            "id": 688,
+            "key": "STR_CHR_NAME_25",
+            "source_offset": 44660,
+            "source_bytes": 4,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "miranda",
+      "japanese": [
+        "ミランダ"
+      ],
+      "english": "Miranda",
+      "short_name": "Miranda",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Responsible and caring; admires Zola",
+      "position": "New First Squadron recruit",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/miranda/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official Para-mail pilots described as girls",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Miranda",
+      "game_observation": {
+        "speaker_frequency": 35,
+        "speaker_forms": [
+          "ミランダ"
+        ],
+        "source_files": [
+          "data/_scr/C000_HEV_020.txt",
+          "data/_scr/C010_MAL_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_HEV_020:545",
+          "C000_HEV_020:577",
+          "C000_HEV_020:592"
+        ],
+        "ui_records": [
+          {
+            "id": 689,
+            "key": "STR_CHR_NAME_26",
+            "source_offset": 44668,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salamandinay",
+      "japanese": [
+        "サラマンディーネ",
+        "サラ"
+      ],
+      "english": "Salamandinay",
+      "short_name": "Salamandinay",
+      "nickname": [
+        "Sala"
+      ],
+      "gender": "female",
+      "personality": "Strong, intelligent, responsible; loved by her people",
+      "position": "DRAGON priestess princess; Enryugo pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/salamandinay/",
+          "supports": "Japanese name, position, personality"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "game synopsis uses Salamandinay spelling"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says priestess princess",
+        "url": "https://www.crossange.com/character/salamandinay/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [
+        "English wiki sources vary between Salamandinay and Salamandine; project selects dedicated franchise wiki's Salamandinay."
+      ],
+      "rejected_variants": [
+        "Salamandine"
+      ],
+      "speaker_label": "Sala",
+      "game_observation": {
+        "speaker_frequency": 179,
+        "speaker_forms": [
+          "サラ"
+        ],
+        "source_files": [
+          "data/_scr/C081_HEV_000.txt",
+          "data/_scr/C081_MAL_000.txt",
+          "data/_scr/C081_MAL_010.txt",
+          "data/_scr/C081_MAL_014.txt",
+          "data/_scr/C081_MAL_015.txt",
+          "data/_scr/C081_MAL_017.txt",
+          "data/_scr/C081_MAL_018.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C101_BEV_0107.txt",
+          "data/_scr/C101_HEV_020.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_016.txt",
+          "data/_scr/C103_BEV_022.txt",
+          "data/_scr/C103_BEV_025.txt",
+          "data/_scr/C103_BEV_0301.txt",
+          "data/_scr/C103_BEV_0303.txt",
+          "data/_scr/C103_BEV_0307.txt",
+          "data/_scr/C103_BEV_0309.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C103_PRO_010.txt"
+        ],
+        "sample_row_ids": [
+          "C081_HEV_000:6618",
+          "C081_HEV_000:6623",
+          "C081_HEV_000:6634"
+        ],
+        "ui_records": [
+          {
+            "id": 679,
+            "key": "STR_CHR_NAME_16",
+            "source_offset": 44568,
+            "source_bytes": 4,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n",
+      "japanese": [
+        "ナーガ"
+      ],
+      "english": "Naga",
+      "short_name": "Naga",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Fiercely protective of Sala",
+      "position": "Sala's attendant, swordswoman; Soryugo pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/n/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile says swordswoman",
+        "url": "https://www.crossange.com/character/n/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Naga",
+      "game_observation": {
+        "speaker_frequency": 77,
+        "speaker_forms": [
+          "ナーガ"
+        ],
+        "source_files": [
+          "data/_scr/C081_HEV_010.txt",
+          "data/_scr/C081_MAL_014.txt",
+          "data/_scr/C081_MAL_018.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C091_EPI_000.txt"
+        ],
+        "sample_row_ids": [
+          "C081_HEV_010:6759",
+          "C081_HEV_010:6776",
+          "C081_HEV_010:6779"
+        ],
+        "ui_records": [
+          {
+            "id": 685,
+            "key": "STR_CHR_NAME_22",
+            "source_offset": 44636,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k",
+      "japanese": [
+        "カナメ"
+      ],
+      "english": "Kaname",
+      "short_name": "Kaname",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Thoughtful; sees the larger picture",
+      "position": "Sala's attendant and strategist; Hekiryugo pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/k/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "character list uses she",
+        "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Kaname",
+      "game_observation": {
+        "speaker_frequency": 49,
+        "speaker_forms": [
+          "カナメ"
+        ],
+        "source_files": [
+          "data/_scr/C081_HEV_020.txt",
+          "data/_scr/C081_MAL_014.txt",
+          "data/_scr/C081_MAL_017.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C091_EPI_000.txt"
+        ],
+        "sample_row_ids": [
+          "C081_HEV_020:6912",
+          "C081_HEV_020:6913",
+          "C081_HEV_020:6919"
+        ],
+        "ui_records": [
+          {
+            "id": 686,
+            "key": "STR_CHR_NAME_23",
+            "source_offset": 44644,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "embryo",
+      "japanese": [
+        "エンブリヲ"
+      ],
+      "english": "Embryo",
+      "short_name": "Embryo",
+      "nickname": [],
+      "gender": "male",
+      "personality": "Enigmatic in the official introductory profile",
+      "position": "Mysterious figure above political rulers; Hysterica owner",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/embryo/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "official profile calls him a man",
+        "url": "https://www.crossange.com/character/embryo/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Embryo",
+      "game_observation": {
+        "speaker_frequency": 573,
+        "speaker_forms": [
+          "エンブリヲ"
+        ],
+        "source_files": [
+          "data/_scr/108322.txt",
+          "data/_scr/110121.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_EPI_A00.txt",
+          "data/_scr/C070_EPI_A04.txt",
+          "data/_scr/C070_EPI_B00.txt",
+          "data/_scr/C070_EPI_B04.txt",
+          "data/_scr/C070_EPI_C00.txt",
+          "data/_scr/C070_EPI_C04.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C083_BEV_010.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C083_HEV_000.txt",
+          "data/_scr/C083_HEV_010.txt",
+          "data/_scr/C083_HEV_020.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C083_MAL_010.txt",
+          "data/_scr/C083_PRO_001.txt",
+          "data/_scr/C083_PRO_004.txt",
+          "data/_scr/C083_PRO_012.txt",
+          "data/_scr/C083_PRO_013.txt",
+          "data/_scr/C083_PRO_014.txt",
+          "data/_scr/C083_PRO_015.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C093_EPI_000.txt",
+          "data/_scr/C093_HEV_010.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C093_PRO_000.txt",
+          "data/_scr/C101_BEV_022.txt",
+          "data/_scr/C101_BEV_023.txt",
+          "data/_scr/C101_BEV_024.txt",
+          "data/_scr/C101_BEV_025.txt",
+          "data/_scr/C101_BEV_031.txt",
+          "data/_scr/C101_BEV_033.txt",
+          "data/_scr/C101_BEV_034.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_023.txt",
+          "data/_scr/C103_BEV_024.txt",
+          "data/_scr/C103_BEV_025.txt",
+          "data/_scr/C103_BEV_0308.txt",
+          "data/_scr/C103_BEV_0309.txt",
+          "data/_scr/C103_HEV_020.txt",
+          "data/_scr/C103_MAL_000.txt",
+          "data/_scr/C103_MAL_010.txt",
+          "data/_scr/C103_PRO_000.txt",
+          "data/_scr/C103_PRO_010.txt"
+        ],
+        "sample_row_ids": [
+          "108322:132",
+          "108322:135",
+          "108322:136"
+        ],
+        "ui_records": [
+          {
+            "id": 680,
+            "key": "STR_CHR_NAME_17",
+            "source_offset": 44576,
+            "source_bytes": 10,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a",
+      "japanese": [
+        "アウラ"
+      ],
+      "english": "Aura",
+      "short_name": "Aura",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Not specified in short official profile",
+      "position": "DRAGON progenitor; genius scientist",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/a/",
+          "supports": "Japanese name, position, personality"
+        }
+      ],
+      "gender_evidence": {
+        "description": "character list uses she",
+        "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "speaker_label": "Aura",
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "source_files": [],
+        "sample_row_ids": []
+      }
+    },
+    {
+      "id": "naomi",
+      "japanese": [
+        "ナオミ"
+      ],
+      "english": "Naomi",
+      "short_name": "Naomi",
+      "nickname": [
+        "King of Debt"
+      ],
+      "gender": "female",
+      "personality": "Choices depend on player route; avoid a fixed dialogue voice",
+      "position": "Player protagonist of tr.; Arzenal pilot",
+      "scope": "introductory profile; rank and affiliation may change with story or game route",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "name, gender, role, debt title"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "Naomi Eunice full name and unconfirmed prototype Eunice alias"
+        }
+      ],
+      "gender_evidence": {
+        "description": "wiki profile Female and title; game-specific profile",
+        "url": "https://crossange.fandom.com/wiki/Naomi"
+      },
+      "status": "starter_verified",
+      "uncertainties": [
+        "King of Debt is wiki heading; contextual translation of 借金王 is editorial and may be Debt Queen in spoken teasing. No official English game localization verified."
+      ],
+      "speaker_label": "Naomi",
+      "game_observation": {
+        "speaker_frequency": 4353,
+        "speaker_forms": [
+          "ナオミ"
+        ],
+        "source_files": [
+          "data/_scr/100111.txt",
+          "data/_scr/100112.txt",
+          "data/_scr/100114.txt",
+          "data/_scr/101121.txt",
+          "data/_scr/102111.txt",
+          "data/_scr/103111.txt",
+          "data/_scr/105111.txt",
+          "data/_scr/105112.txt",
+          "data/_scr/106121.txt",
+          "data/_scr/107111.txt",
+          "data/_scr/108321.txt",
+          "data/_scr/108322.txt",
+          "data/_scr/109111.txt",
+          "data/_scr/109112.txt",
+          "data/_scr/109311.txt",
+          "data/_scr/109312.txt",
+          "data/_scr/110111.txt",
+          "data/_scr/110121.txt",
+          "data/_scr/110311.txt",
+          "data/_scr/210012.txt",
+          "data/_scr/210022.txt",
+          "data/_scr/301013.txt",
+          "data/_scr/301023.txt",
+          "data/_scr/302013.txt",
+          "data/_scr/302023.txt",
+          "data/_scr/303013.txt",
+          "data/_scr/303023.txt",
+          "data/_scr/304013.txt",
+          "data/_scr/304023.txt",
+          "data/_scr/305013.txt",
+          "data/_scr/305023.txt",
+          "data/_scr/306013.txt",
+          "data/_scr/306023.txt",
+          "data/_scr/307013.txt",
+          "data/_scr/307023.txt",
+          "data/_scr/ANGE_PUB.txt",
+          "data/_scr/C000_EPI_000.txt",
+          "data/_scr/C000_EPI_001.txt",
+          "data/_scr/C000_EPI_002.txt",
+          "data/_scr/C000_EPI_003.txt",
+          "data/_scr/C000_EPI_004.txt",
+          "data/_scr/C000_EPI_005.txt",
+          "data/_scr/C000_HEV_000.txt",
+          "data/_scr/C000_HEV_010.txt",
+          "data/_scr/C000_HEV_020.txt",
+          "data/_scr/C000_MAL_000.txt",
+          "data/_scr/C000_MAL_010.txt",
+          "data/_scr/C000_PRO_000.txt",
+          "data/_scr/C010_BEV_001.txt",
+          "data/_scr/C010_BEV_002.txt",
+          "data/_scr/C010_BEV_003.txt",
+          "data/_scr/C010_BEV_004.txt",
+          "data/_scr/C010_BEV_005.txt",
+          "data/_scr/C010_EPI_000.txt",
+          "data/_scr/C010_HEP_ANG.txt",
+          "data/_scr/C010_HEP_CRS.txt",
+          "data/_scr/C010_HEP_ERS.txt",
+          "data/_scr/C010_HEP_HIL.txt",
+          "data/_scr/C010_HEP_ROS.txt",
+          "data/_scr/C010_HEP_SLI.txt",
+          "data/_scr/C010_HEP_VIV.txt",
+          "data/_scr/C010_HEV_000.txt",
+          "data/_scr/C010_HEV_010.txt",
+          "data/_scr/C010_HEV_020.txt",
+          "data/_scr/C010_MAL_000.txt",
+          "data/_scr/C010_MAL_010.txt",
+          "data/_scr/C010_PRO_000.txt",
+          "data/_scr/C020_BEV_000.txt",
+          "data/_scr/C020_EPI_000.txt",
+          "data/_scr/C020_HEP_ANG.txt",
+          "data/_scr/C020_HEP_CRS.txt",
+          "data/_scr/C020_HEP_ERS.txt",
+          "data/_scr/C020_HEP_HIL.txt",
+          "data/_scr/C020_HEP_ROS.txt",
+          "data/_scr/C020_HEP_SLI.txt",
+          "data/_scr/C020_HEP_VIV.txt",
+          "data/_scr/C020_HEV_000.txt",
+          "data/_scr/C020_HEV_010.txt",
+          "data/_scr/C020_HEV_020.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C020_MAL_010.txt",
+          "data/_scr/C020_PRO_000.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_EPI_000.txt",
+          "data/_scr/C030_HEP_ANG.txt",
+          "data/_scr/C030_HEP_CRS.txt",
+          "data/_scr/C030_HEP_ERS.txt",
+          "data/_scr/C030_HEP_HIL.txt",
+          "data/_scr/C030_HEP_ROS.txt",
+          "data/_scr/C030_HEP_SLI.txt",
+          "data/_scr/C030_HEP_VIV.txt",
+          "data/_scr/C030_HEV_000.txt",
+          "data/_scr/C030_HEV_010.txt",
+          "data/_scr/C030_HEV_020.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C030_MAL_010.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C040_EPI_000.txt",
+          "data/_scr/C040_HEP_ANG.txt",
+          "data/_scr/C040_HEP_CRS.txt",
+          "data/_scr/C040_HEP_ERS.txt",
+          "data/_scr/C040_HEP_HIL.txt",
+          "data/_scr/C040_HEP_ROS.txt",
+          "data/_scr/C040_HEP_SLI.txt",
+          "data/_scr/C040_HEP_VIV.txt",
+          "data/_scr/C040_HEV_000.txt",
+          "data/_scr/C040_HEV_010.txt",
+          "data/_scr/C040_HEV_020.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C040_MAL_010.txt",
+          "data/_scr/C040_PRO_000.txt",
+          "data/_scr/C050_BEV_000.txt",
+          "data/_scr/C050_BEV_010.txt",
+          "data/_scr/C050_EPI_000.txt",
+          "data/_scr/C050_HEP_ANG.txt",
+          "data/_scr/C050_HEP_CRS.txt",
+          "data/_scr/C050_HEP_ERS.txt",
+          "data/_scr/C050_HEP_HIL.txt",
+          "data/_scr/C050_HEP_ROS.txt",
+          "data/_scr/C050_HEP_SLI.txt",
+          "data/_scr/C050_HEP_VIV.txt",
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_HEV_010.txt",
+          "data/_scr/C050_HEV_020.txt",
+          "data/_scr/C050_MAL_000.txt",
+          "data/_scr/C050_MAL_010.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_000.txt",
+          "data/_scr/C060_BEV_010.txt",
+          "data/_scr/C060_BEV_011.txt",
+          "data/_scr/C060_BEV_021.txt",
+          "data/_scr/C060_BEV_022.txt",
+          "data/_scr/C060_BEV_024.txt",
+          "data/_scr/C060_EPI_000.txt",
+          "data/_scr/C060_HEP_ANG.txt",
+          "data/_scr/C060_HEP_CRS.txt",
+          "data/_scr/C060_HEP_ERS.txt",
+          "data/_scr/C060_HEP_HIL.txt",
+          "data/_scr/C060_HEP_ROS.txt",
+          "data/_scr/C060_HEP_SLI.txt",
+          "data/_scr/C060_HEP_VIV.txt",
+          "data/_scr/C060_HEV_000.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C060_HEV_020.txt",
+          "data/_scr/C060_MAL_000.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C060_PRO_000.txt",
+          "data/_scr/C060_PRO_001.txt",
+          "data/_scr/C060_PRO_010.txt",
+          "data/_scr/C070_BEV_000.txt",
+          "data/_scr/C070_BEV_014.txt",
+          "data/_scr/C070_EPI_A02.txt",
+          "data/_scr/C070_EPI_A03.txt",
+          "data/_scr/C070_EPI_A05.txt",
+          "data/_scr/C070_EPI_B02.txt",
+          "data/_scr/C070_EPI_B04.txt",
+          "data/_scr/C070_EPI_B05.txt",
+          "data/_scr/C070_EPI_C02.txt",
+          "data/_scr/C070_EPI_C04.txt",
+          "data/_scr/C070_EPI_C05.txt",
+          "data/_scr/C070_HEV_000.txt",
+          "data/_scr/C070_HEV_010.txt",
+          "data/_scr/C070_HEV_020.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C070_MAL_010.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C081_BEV_001.txt",
+          "data/_scr/C081_BEV_002.txt",
+          "data/_scr/C081_BEV_003.txt",
+          "data/_scr/C081_BEV_004.txt",
+          "data/_scr/C081_EPI_000.txt",
+          "data/_scr/C081_HEP_ANG.txt",
+          "data/_scr/C081_HEV_000.txt",
+          "data/_scr/C081_HEV_010.txt",
+          "data/_scr/C081_HEV_020.txt",
+          "data/_scr/C081_MAL_000.txt",
+          "data/_scr/C081_MAL_010.txt",
+          "data/_scr/C081_MAL_011.txt",
+          "data/_scr/C081_MAL_014.txt",
+          "data/_scr/C081_MAL_018.txt",
+          "data/_scr/C081_PRO_000.txt",
+          "data/_scr/C082_BEV_001.txt",
+          "data/_scr/C082_BEV_003.txt",
+          "data/_scr/C082_HEV_000.txt",
+          "data/_scr/C082_HEV_010.txt",
+          "data/_scr/C082_MAL_000.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C083_BEV_000.txt",
+          "data/_scr/C083_BEV_010.txt",
+          "data/_scr/C083_EPI_000.txt",
+          "data/_scr/C083_HEP_CRS.txt",
+          "data/_scr/C083_HEP_ERS.txt",
+          "data/_scr/C083_HEP_SLI.txt",
+          "data/_scr/C083_HEV_000.txt",
+          "data/_scr/C083_HEV_010.txt",
+          "data/_scr/C083_HEV_020.txt",
+          "data/_scr/C083_MAL_000.txt",
+          "data/_scr/C083_MAL_010.txt",
+          "data/_scr/C083_PRO_001.txt",
+          "data/_scr/C083_PRO_002.txt",
+          "data/_scr/C083_PRO_003.txt",
+          "data/_scr/C083_PRO_004.txt",
+          "data/_scr/C083_PRO_011.txt",
+          "data/_scr/C083_PRO_013.txt",
+          "data/_scr/C083_PRO_014.txt",
+          "data/_scr/C083_PRO_015.txt",
+          "data/_scr/C091_BEV_000.txt",
+          "data/_scr/C091_BEV_010.txt",
+          "data/_scr/C091_EPI_000.txt",
+          "data/_scr/C091_HEP_ANG.txt",
+          "data/_scr/C091_HEP_HIL.txt",
+          "data/_scr/C091_HEP_ROS.txt",
+          "data/_scr/C091_HEP_VIV.txt",
+          "data/_scr/C091_HEV_000.txt",
+          "data/_scr/C091_HEV_010.txt",
+          "data/_scr/C091_HEV_020.txt",
+          "data/_scr/C091_MAL_000.txt",
+          "data/_scr/C091_PRO_000.txt",
+          "data/_scr/C091_PRO_001.txt",
+          "data/_scr/C091_PRO_002.txt",
+          "data/_scr/C093_BEV_000.txt",
+          "data/_scr/C093_BEV_010.txt",
+          "data/_scr/C093_EPI_000.txt",
+          "data/_scr/C093_HEP_CRS.txt",
+          "data/_scr/C093_HEP_ERS.txt",
+          "data/_scr/C093_HEP_SLI.txt",
+          "data/_scr/C093_HEV_000.txt",
+          "data/_scr/C093_HEV_010.txt",
+          "data/_scr/C093_HEV_020.txt",
+          "data/_scr/C093_MAL_000.txt",
+          "data/_scr/C093_PRO_000.txt",
+          "data/_scr/C101_BEV_000.txt",
+          "data/_scr/C101_BEV_0113.txt",
+          "data/_scr/C101_BEV_0114.txt",
+          "data/_scr/C101_BEV_021.txt",
+          "data/_scr/C101_BEV_023.txt",
+          "data/_scr/C101_BEV_032.txt",
+          "data/_scr/C101_BEV_033.txt",
+          "data/_scr/C101_BEV_035.txt",
+          "data/_scr/C101_BEV_036.txt",
+          "data/_scr/C101_HEV_000.txt",
+          "data/_scr/C101_HEV_010.txt",
+          "data/_scr/C101_HEV_020.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/C101_MAL_010.txt",
+          "data/_scr/C101_PRO_000.txt",
+          "data/_scr/C103_BEV_000.txt",
+          "data/_scr/C103_BEV_016.txt",
+          "data/_scr/C103_BEV_027.txt",
+          "data/_scr/C103_BEV_029.txt",
+          "data/_scr/C103_BEV_0300.txt",
+          "data/_scr/C103_BEV_0304.txt",
+          "data/_scr/C103_BEV_0305.txt",
+          "data/_scr/C103_BEV_0306.txt",
+          "data/_scr/C103_BEV_0309.txt",
+          "data/_scr/C103_HEV_000.txt",
+          "data/_scr/C103_HEV_010.txt",
+          "data/_scr/C103_HEV_020.txt",
+          "data/_scr/C103_MAL_000.txt",
+          "data/_scr/C103_MAL_010.txt",
+          "data/_scr/C103_PRO_000.txt",
+          "data/_scr/C103_PRO_0001.txt",
+          "data/_scr/C103_PRO_0004.txt",
+          "data/_scr/C103_PRO_0006.txt",
+          "data/_scr/C103_PRO_0007.txt",
+          "data/_scr/C103_PRO_0008.txt",
+          "data/_scr/C103_PRO_0009.txt",
+          "data/_scr/C103_PRO_0010.txt",
+          "data/_scr/C103_PRO_0011.txt",
+          "data/_scr/C103_PRO_0012.txt",
+          "data/_scr/C103_PRO_0013.txt",
+          "data/_scr/C103_PRO_010.txt",
+          "data/_scr/C110_ANG_000.txt",
+          "data/_scr/C110_CRS_000.txt",
+          "data/_scr/C110_ERS_000.txt",
+          "data/_scr/C110_HIL_000.txt",
+          "data/_scr/C110_ROS_000.txt",
+          "data/_scr/C110_SLI_000.txt",
+          "data/_scr/C110_VIV_000.txt",
+          "data/_scr/C113_END_000.txt",
+          "data/_scr/HEV_ANG_000.txt",
+          "data/_scr/HEV_CRS_000.txt",
+          "data/_scr/HEV_ERS_000.txt",
+          "data/_scr/HEV_HIL_000.txt",
+          "data/_scr/HEV_ROS_000.txt",
+          "data/_scr/HEV_SLI_000.txt",
+          "data/_scr/HEV_VIV_000.txt",
+          "data/_scr/HM1_ANG_END.txt",
+          "data/_scr/HM1_ANG_FAL.txt",
+          "data/_scr/HM1_ANG_PRO.txt",
+          "data/_scr/HM1_ANG_SUC.txt",
+          "data/_scr/HM1_CRS_END.txt",
+          "data/_scr/HM1_CRS_PRO.txt",
+          "data/_scr/HM1_CRS_SUC.txt",
+          "data/_scr/HM1_ERS_END.txt",
+          "data/_scr/HM1_ERS_PRO.txt",
+          "data/_scr/HM1_ERS_SUC.txt",
+          "data/_scr/HM1_HIL_END.txt",
+          "data/_scr/HM1_HIL_PRO.txt",
+          "data/_scr/HM1_HIL_SUC.txt",
+          "data/_scr/HM1_ROS_END.txt",
+          "data/_scr/HM1_ROS_PRO.txt",
+          "data/_scr/HM1_ROS_SUC.txt",
+          "data/_scr/HM1_SLI_END.txt",
+          "data/_scr/HM1_SLI_PRO.txt",
+          "data/_scr/HM1_SLI_SUC.txt",
+          "data/_scr/HM1_VIV_END.txt",
+          "data/_scr/HM1_VIV_PRO.txt",
+          "data/_scr/HM1_VIV_SUC.txt",
+          "data/_scr/HM2_ANG_END.txt",
+          "data/_scr/HM2_ANG_PRO.txt",
+          "data/_scr/HM2_ANG_SUC.txt",
+          "data/_scr/HM2_CRS_END.txt",
+          "data/_scr/HM2_CRS_PRO.txt",
+          "data/_scr/HM2_CRS_SUC.txt",
+          "data/_scr/HM2_ERS_END.txt",
+          "data/_scr/HM2_ERS_PRO.txt",
+          "data/_scr/HM2_ERS_SUC.txt",
+          "data/_scr/HM2_HIL_END.txt",
+          "data/_scr/HM2_HIL_PRO.txt",
+          "data/_scr/HM2_HIL_SUC.txt",
+          "data/_scr/HM2_ROS_END.txt",
+          "data/_scr/HM2_ROS_PRO.txt",
+          "data/_scr/HM2_ROS_SUC.txt",
+          "data/_scr/HM2_SLI_END.txt",
+          "data/_scr/HM2_SLI_PRO.txt",
+          "data/_scr/HM2_SLI_SUC.txt",
+          "data/_scr/HM2_VIV_END.txt",
+          "data/_scr/HM2_VIV_PRO.txt",
+          "data/_scr/HM2_VIV_SUC.txt",
+          "data/_scr/MEV_DRG_PRO.txt",
+          "data/_scr/MEV_DRG_SUC.txt",
+          "data/_scr/MEV_RGM_PRO.txt",
+          "data/_scr/MEV_RGM_SUC.txt",
+          "data/_scr/TC1_ANG_END.txt",
+          "data/_scr/TC1_ANG_PRO.txt",
+          "data/_scr/TC1_CRS_END.txt",
+          "data/_scr/TC1_CRS_PRO.txt",
+          "data/_scr/TC1_ERS_END.txt",
+          "data/_scr/TC1_ERS_PRO.txt",
+          "data/_scr/TC1_HIL_END.txt",
+          "data/_scr/TC1_HIL_PRO.txt",
+          "data/_scr/TC1_ROS_END.txt",
+          "data/_scr/TC1_ROS_PRO.txt",
+          "data/_scr/TC1_SLI_END.txt",
+          "data/_scr/TC1_SLI_PRO.txt",
+          "data/_scr/TC1_VIV_END.txt",
+          "data/_scr/TC1_VIV_PRO.txt",
+          "data/_scr/TC2_ANG_END.txt",
+          "data/_scr/TC2_ANG_PRO.txt",
+          "data/_scr/TC2_CRS_END.txt",
+          "data/_scr/TC2_CRS_PRO.txt",
+          "data/_scr/TC2_ERS_END.txt",
+          "data/_scr/TC2_ERS_PRO.txt",
+          "data/_scr/TC2_HIL_END.txt",
+          "data/_scr/TC2_HIL_PRO.txt",
+          "data/_scr/TC2_ROS_END.txt",
+          "data/_scr/TC2_ROS_PRO.txt",
+          "data/_scr/TC2_SLI_END.txt",
+          "data/_scr/TC2_SLI_PRO.txt",
+          "data/_scr/TC2_VIV_END.txt",
+          "data/_scr/TC2_VIV_PRO.txt",
+          "data/_scr/TIM_ANG_000.txt",
+          "data/_scr/TIM_ANG.txt",
+          "data/_scr/TIM_CRS_000.txt",
+          "data/_scr/TIM_ERS_000.txt",
+          "data/_scr/TIM_HIL_000.txt",
+          "data/_scr/TIM_ROS_000.txt",
+          "data/_scr/TIM_SLI_000.txt",
+          "data/_scr/TIM_VIV_000.txt"
+        ],
+        "sample_row_ids": [
+          "100111:2",
+          "100112:19",
+          "100112:23"
+        ],
+        "ui_records": [
+          {
+            "id": 664,
+            "key": "STR_CHR_NAME_01",
+            "source_offset": 44424,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      },
+      "full_name": "Naomi Eunice",
+      "full_name_status": "secondary_source_only",
+      "prototype_aliases": [
+        {
+          "japanese": "ユーニス",
+          "english": "Eunice",
+          "scope": "samplescript.txt only",
+          "relation": "Likely prototype name for Naomi; dedicated wiki expressly marks this as unconfirmed.",
+          "source_files": [
+            "data/_scr/samplescript.txt"
+          ],
+          "status": "provisional_identity_link"
+        },
+        {
+          "japanese": "ユーニスＭ",
+          "english": "Eunice M",
+          "scope": "samplescript.txt only",
+          "relation": "Same prototype speaker with M suffix; all 31 rows are unvoiced parenthetical thoughts. Suffix interpretation is inferred.",
+          "status": "provisional_label_suffix"
+        }
+      ]
+    },
+    {
+      "id": "olivier",
+      "japanese": [
+        "オリビエ"
+      ],
+      "english": "Olivier",
+      "short_name": "Olivier",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Works hard to catch up with the two senior operators.",
+      "position": "Arzenal novice communications operator monitoring mail-riders",
+      "scope": "Observed speaker in extracted game scenario; introductory franchise role",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/olivier/",
+          "supports": "name, role and personality where supplied"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters",
+          "supports": "gender and English spelling"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Character list describes Olivier as she.",
+        "url": "https://en.wikipedia.org/wiki/List_of_Cross_Ange_characters"
+      },
+      "status": "starter_verified",
+      "game_source_observed": true,
+      "uncertainties": [],
+      "speaker_label": "Olivier",
+      "game_observation": {
+        "speaker_frequency": 16,
+        "speaker_forms": [
+          "オリビエ"
+        ],
+        "source_files": [
+          "data/_scr/101121.txt",
+          "data/_scr/103111.txt",
+          "data/_scr/C010_BEV_000.txt",
+          "data/_scr/C010_BEV_001.txt",
+          "data/_scr/C010_BEV_002.txt",
+          "data/_scr/C030_BEV_000.txt",
+          "data/_scr/C030_PRO_000.txt",
+          "data/_scr/C050_PRO_000.txt",
+          "data/_scr/C060_BEV_010.txt",
+          "data/_scr/C060_BEV_023.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C070_MAL_000.txt"
+        ],
+        "sample_row_ids": [
+          "101121:59",
+          "101121:61",
+          "103111:67"
+        ],
+        "ui_records": [
+          {
+            "id": 693,
+            "key": "STR_CHR_NAME_30",
+            "source_offset": 44720,
+            "source_bytes": 8,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hikaru",
+      "japanese": [
+        "ヒカル"
+      ],
+      "english": "Hikaru",
+      "short_name": "Hikaru",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Not established by consulted short sources.",
+      "position": "Arzenal Chief Dispatcher and communications operator",
+      "scope": "Observed speaker in extracted game scenario; introductory franchise role",
+      "sources": [
+        {
+          "url": "https://crossange.fandom.com/wiki/Hikaru",
+          "supports": "name, role and personality where supplied"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Hikaru",
+          "supports": "gender and English spelling"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female",
+        "url": "https://crossange.fandom.com/wiki/Hikaru"
+      },
+      "status": "starter_verified",
+      "game_source_observed": true,
+      "uncertainties": [],
+      "speaker_label": "Hikaru",
+      "game_observation": {
+        "speaker_frequency": 14,
+        "speaker_forms": [
+          "ヒカル"
+        ],
+        "source_files": [
+          "data/_scr/102111.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C030_MAL_000.txt",
+          "data/_scr/C050_MAL_000.txt",
+          "data/_scr/C060_BEV_010.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C082_MAL_010.txt",
+          "data/_scr/C091_MAL_000.txt",
+          "data/_scr/C101_BEV_0105.txt",
+          "data/_scr/C101_MAL_000.txt"
+        ],
+        "sample_row_ids": [
+          "102111:64",
+          "C020_MAL_000:2543",
+          "C030_MAL_000:3354"
+        ],
+        "ui_records": [
+          {
+            "id": 692,
+            "key": "STR_CHR_NAME_29",
+            "source_offset": 44712,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pamela",
+      "japanese": [
+        "パメラ"
+      ],
+      "english": "Pamela",
+      "short_name": "Pamela",
+      "speaker_label": "Pamela",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Strong judgment under pressure; trusted by Jill.",
+      "position": "Arzenal chief communications control operator",
+      "scope": "Introductory franchise role; observed game speaker",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/pamela/",
+          "supports": "Japanese name, role and judgment/trust profile"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Pamela",
+          "supports": "English name and explicitly Female gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female.",
+        "url": "https://crossange.fandom.com/wiki/Pamela"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "game_observation": {
+        "speaker_frequency": 31,
+        "speaker_forms": [
+          "パメラ"
+        ],
+        "source_files": [
+          "data/_scr/C000_EPI_000.txt",
+          "data/_scr/C000_EPI_001.txt",
+          "data/_scr/C000_EPI_002.txt",
+          "data/_scr/C000_EPI_003.txt",
+          "data/_scr/C010_BEV_002.txt",
+          "data/_scr/C020_MAL_000.txt",
+          "data/_scr/C030_MAL_010.txt",
+          "data/_scr/C040_MAL_000.txt",
+          "data/_scr/C060_HEV_010.txt",
+          "data/_scr/C060_MAL_010.txt",
+          "data/_scr/C070_MAL_000.txt",
+          "data/_scr/C070_PRO_000.txt",
+          "data/_scr/C082_PRO_000.txt",
+          "data/_scr/C101_MAL_000.txt",
+          "data/_scr/samplescript.txt"
+        ],
+        "sample_row_ids": [
+          "C000_EPI_000:303",
+          "C000_EPI_000:306",
+          "C000_EPI_000:310"
+        ],
+        "ui_records": [
+          {
+            "id": 691,
+            "key": "STR_CHR_NAME_28",
+            "source_offset": 44704,
+            "source_bytes": 6,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "perolina",
+      "japanese": [
+        "ペロリーナ"
+      ],
+      "english": "Perolina",
+      "short_name": "Perolina",
+      "speaker_label": "Perolina",
+      "nickname": [],
+      "gender": null,
+      "personality": "Mascot performance depends on costume wearer; no fixed personality established.",
+      "position": "Mascot and costume speaker label",
+      "scope": "Festa costume/mascot; resolve wearer from each scene.",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/word/",
+          "supports": "Japanese mascot name and merchandising context"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Vivian",
+          "supports": "English Perolina spelling"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Naomi",
+          "supports": "Game costume can be worn by Jill"
+        }
+      ],
+      "gender_evidence": {
+        "description": "No mascot gender sourced; do not transfer a wearer's gender.",
+        "url": "https://www.crossange.com/word/"
+      },
+      "status": "starter_verified",
+      "uncertainties": [
+        "Do not identify every Perolina line as Jill or Ange; the costume may have different wearers across scenes."
+      ],
+      "game_observation": {
+        "speaker_frequency": 9,
+        "speaker_forms": [
+          "ペロリーナ"
+        ],
+        "source_files": [
+          "data/_scr/C050_HEV_000.txt",
+          "data/_scr/C050_HEV_010.txt",
+          "data/_scr/C050_MAL_000.txt"
+        ],
+        "sample_row_ids": [
+          "C050_HEV_000:4380",
+          "C050_HEV_000:4382",
+          "C050_HEV_000:4390"
+        ],
+        "ui_records": [
+          {
+            "id": 684,
+            "key": "STR_CHR_NAME_21",
+            "source_offset": 44624,
+            "source_bytes": 10,
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mary",
+      "japanese": [
+        "メアリー"
+      ],
+      "english": "Mary",
+      "short_name": "Mary",
+      "speaker_label": "Mary",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Offers stewardship to fellow recruits.",
+      "position": "Aurora novice Para-mail pilot and cadet",
+      "scope": "Franchise introduction; roles may differ by game route. Observed in game UI references, not a corpus speaker.",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/me/",
+          "supports": "Japanese name, personality and role"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Mary",
+          "supports": "English name and explicit Female gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female.",
+        "url": "https://crossange.fandom.com/wiki/Mary"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "ui_records": [
+          {
+            "id": 1021,
+            "key": "STR_ITM_COLOR_88",
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "marika",
+      "japanese": [
+        "マリカ",
+        "マリカ・ベルッチ"
+      ],
+      "english": "Marika Bellucci",
+      "short_name": "Marika",
+      "speaker_label": "Marika",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Energetic and competitive; admires Vivian.",
+      "position": "Aurora novice Para-mail pilot",
+      "scope": "Franchise introduction; roles may differ by game route. Observed in game UI references, not a corpus speaker.",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/ma/",
+          "supports": "Japanese name, personality and role"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Marika_Bellucci",
+          "supports": "English name and explicit Female gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female.",
+        "url": "https://crossange.fandom.com/wiki/Marika_Bellucci"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "ui_records": [
+          {
+            "id": 984,
+            "key": "STR_ITM_COLOR_81",
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nonna",
+      "japanese": [
+        "ノンナ"
+      ],
+      "english": "Nonna",
+      "short_name": "Nonna",
+      "speaker_label": "Nonna",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Shy and introverted; excellent classroom results but inexperienced in combat.",
+      "position": "Aurora novice Para-mail pilot",
+      "scope": "Franchise introduction; roles may differ by game route. Observed in game UI references, not a corpus speaker.",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/no/",
+          "supports": "Japanese name, personality and role"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Nonna",
+          "supports": "English name and explicit Female gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female.",
+        "url": "https://crossange.fandom.com/wiki/Nonna"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "ui_records": [
+          {
+            "id": 1045,
+            "key": "STR_ITM_COLOR_92",
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tanya",
+      "japanese": [
+        "ターニャ",
+        "ターニャ・ザビロワ"
+      ],
+      "english": "Tanya Zabirova",
+      "short_name": "Tanya",
+      "speaker_label": "Tanya",
+      "nickname": [],
+      "gender": "female",
+      "personality": "Devoted to Embryo's ideals; skilled cook.",
+      "position": "Former Third Squadron pilot; Diamond Rose Knight",
+      "scope": "Franchise introduction; roles may differ by game route. Observed in game UI references, not a corpus speaker.",
+      "sources": [
+        {
+          "url": "https://www.crossange.com/character/t/",
+          "supports": "Japanese name, personality and role"
+        },
+        {
+          "url": "https://crossange.fandom.com/wiki/Tanya_Zabirova",
+          "supports": "English name and explicit Female gender"
+        }
+      ],
+      "gender_evidence": {
+        "description": "Dedicated wiki profile explicitly Female.",
+        "url": "https://crossange.fandom.com/wiki/Tanya_Zabirova"
+      },
+      "status": "starter_verified",
+      "uncertainties": [],
+      "game_observation": {
+        "speaker_frequency": 0,
+        "speaker_forms": [],
+        "ui_records": [
+          {
+            "id": 86,
+            "key": "STR_MISSION_NAME_SUB_14",
+            "source_file": "data/_dat/strings.bnd"
+          }
+        ]
+      }
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Added observed scenario speakers Olivier and Hikaru with sourced names, roles and gender evidence."
+      ]
+    },
+    {
+      "version": "0.1.2",
+      "date": "2026-10-10",
+      "changes": [
+        "Added observed short aliases, Pamela and Perolina, full-corpus speaker observations, and provisional Eunice/M prototype labels linked to Naomi.",
+        "Added UI-referenced Mary, Marika, Nonna and Tanya. Verified Vulcan male, Riza female and canonical Riza/Jurai wiki names; retained unknown mascot gender."
+      ]
+    }
+  ]
+}

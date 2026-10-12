@@ -1,0 +1,21 @@
+# English font
+
+The user requested the font family at [Genei Latin](https://okoneya.jp/font/genei-latin.html). We use GenEi LateGo v2 Medium from the author's separate TTF package, version 2.1. The author describes proportional Latin characters and a Latin design derived from Linux Biolinum. The normal and proportional Japanese variants share these Latin metrics; this conversion uses `GenEiLateGoN_v2.ttf`.
+
+The source ZIP SHA-256 is `2e0bf6f454b10fd668fe420ef947b7e6a46284f728baa66501b7b6107ac68279`. The selected TTF SHA-256 is `39f4f7a7bf92586ab40df059d08f6202c0b28472c6cd4374bf3dd3a9ad2b70f7`. `python tools/fetch_genei_font.py` retrieves the official download and verifies both hashes. The author's ZIP uses Deflate64; the extraction helper requires 7-Zip. Downloaded font files stay under ignored `tools/fonts/genei-latin/`.
+
+`tools/build_english_font.py` rasterizes Latin glyphs at 22 pixels with four-times supersampling, a baseline at pixel 20 and four-bit alpha in 26x26 cells. The pipe is fitted into its cell to avoid cropping. In 0.1.9 the colon uses two GenEi period dots, at the baseline and nine pixels above it, to replace the source colon's unusually high upper dot with Latin spacing. Both ASCII and control-boundary colon slots use that same bitmap. It regenerates both BNF fonts, retains unrelated glyphs, and writes matching advances for both font variants into the native kerning table. The renderer uses per-character advances; pair kerning from the TTF is not added. The title footer and translation credits use the original TTF directly.
+
+The control-boundary aliases introduced in 0.1.6 remain. A Latin codepoint above 125 immediately after a formatting command terminates the ADV scan safely, while its bitmap and advance match the corresponding ASCII character. This prevents the command scan from continuing through the terminating NUL.
+
+BNF glyphs use a zero-token terminator. The native reader at 0x81145a38 does not stop at a glyph offset boundary or the optional FCAA declared output size. The 0.1.7 converter omitted that token; length-bounded decompression tests passed, but the game read into following glyphs and corrupted its font-path stack. Build 0.1.8 uses `tools/bnf_codec.py` to emit the token and bound-check each complete glyph under the native termination rules. All 46,048 output records pass; the regression rejects all 394 affected prior records. Native font termination must be validated for every future font build.
+
+The native loader initializes ASCII advance arrays until the first Unicode record. The generated table sorts ASCII records first, including the new seven-pixel space, then the Unicode aliases. All non-null pointer cells have relocation entries and the null sentinel remains last. Other source table groups and unrelated dimensions are preserved.
+
+The native #z command parses an integer percentage, multiplies it by ten, and supplies scales in thousandths. Long dialogue uses #z80. Word wrapping is calculated from the installed advance table; new line/size markers are boundary-protected again. Translation text, IDs, voices and non-layout markers remain unchanged. Speaker names are fitted to the measured nameplate width while staying below their 32-word buffer capacity.
+
+The user's 0.1.8 screenshots confirmed visible GenEi dialogue and progress into battle, resolving the reported startup failure. The peace explanation in `C000_PRO_000:774` had used automatic 80% size because its English wording exceeded two normal lines. Its 0.1.9 draft is now more concise with the same meaning and fits two lines at normal size. Eighty-eight other long records still use 80%; this build does not change the general fitting policy.
+
+The Latin bitmap derivative is called Cross Ange English Bitmap. The [source copyright and OFL 1.1 license](licenses/genei-latin-OFL.txt) accompany the local build and installed app. The typography credit acknowledges the source family and author. No font release or GitHub release has been published.
+
+Labeled decoded-bitmap previews and the user's original 0.1.6 capture are local under `work/ui/local/`. `work/ui/english-font.json` records them and the calculated dimensions. Only an in-game capture can confirm final rendered placement and emulator behavior.

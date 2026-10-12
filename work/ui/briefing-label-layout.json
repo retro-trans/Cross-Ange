@@ -1,0 +1,83 @@
+{
+  "reported_build": "0.1.10",
+  "fix_build": "0.1.12",
+  "fix_runtime_verified": false,
+  "screen_size": [
+    960,
+    544
+  ],
+  "source_captures": [
+    "work/ui/local/screenshots/0.1.10/briefing-mission-overlap.png",
+    "work/ui/local/screenshots/0.1.10/briefing-unit-overlap.png",
+    "work/ui/local/screenshots/0.1.11/battle-result-overlap.png"
+  ],
+  "geometry_provenance": "Positions estimated from the actual native-resolution game captures. Font sizes are conservative validation sizes, not claimed renderer-size measurements. Battle-result positions measured approximately from the native 960x544 user capture.",
+  "label_contracts": [
+    {
+      "name": "unit_stats",
+      "ids": [
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "label_x": 634,
+      "next_column_x": 724,
+      "minimum_gap": 6,
+      "font_size_for_validation": 14
+    },
+    {
+      "name": "mission_conditions",
+      "ids": [
+        457,
+        458
+      ],
+      "label_x": 30,
+      "next_column_x": 125,
+      "minimum_gap": 10,
+      "font_size_for_validation": 16
+    },
+    {
+      "name": "battle_result_seconds",
+      "ids": [
+        1481
+      ],
+      "label_x": 431,
+      "next_column_x": 489,
+      "minimum_gap": 8,
+      "font_size_for_validation": 18
+    },
+    {
+      "name": "battle_result_remaining",
+      "ids": [
+        1480
+      ],
+      "label_x": 489,
+      "next_column_x": 565,
+      "minimum_gap": 8,
+      "font_size_for_validation": 18
+    }
+  ],
+  "concatenated_unit_id": 460,
+  "replacement_inventory": "work/translation/en/ui-compact-labels.en.json",
+  "scope": "Shared string-table IDs also affect other briefing missions and hangar/shop screens using these stat labels. Equipment names and stat values retain full wording.",
+  "separated_units": [
+    {
+      "id": 1481,
+      "sample_number": "390.5",
+      "expected": "390.5 s"
+    }
+  ]
+}

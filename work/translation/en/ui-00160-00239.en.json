@@ -1,0 +1,2183 @@
+{
+  "schema_version": 1,
+  "project_version": "0.1.3",
+  "language": "en",
+  "slice": {
+    "first_id": 160,
+    "last_id": 239,
+    "rows_assigned": 80,
+    "rows_examined": 100,
+    "context_ids": [
+      150,
+      249
+    ]
+  },
+  "glossaries": [
+    "work/glossary/characters.json",
+    "work/glossary/equipment.json",
+    "work/glossary/mecha.json",
+    "work/glossary/name-policy.json",
+    "work/glossary/observed-terms.json",
+    "work/glossary/speaker-labels.json",
+    "work/glossary/terms.json",
+    "work/glossary/ui-terms.json",
+    "work/glossary/world.json"
+  ],
+  "status_counts": {
+    "translated_draft": 74,
+    "translated_needs_review": 6
+  },
+  "japanese_source_rows": 80,
+  "meaning_review": {
+    "reviewer": "root",
+    "status": "Authored against source and neighboring category/context; flagged uncertainties retained.",
+    "rows_assigned": 80
+  },
+  "entries": [
+    {
+      "id": 160,
+      "key": "CHAPTER_TITLE_10C",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1300,
+      "label_offset": 34468,
+      "source_offset": 18372,
+      "source_bytes": 22,
+      "en": "Trill—An Ever-Swaying Melody",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18372,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Trill—An Ever-Swaying Melody"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 161,
+      "key": "STR_LOUNGE_EVENT_01",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1308,
+      "label_offset": 34504,
+      "source_offset": 18396,
+      "source_bytes": 10,
+      "en": "#ECommand Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18396,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#ECommand Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_161",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 162,
+      "key": "STR_LOUNGE_EVENT_02",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1316,
+      "label_offset": 34540,
+      "source_offset": 18408,
+      "source_bytes": 20,
+      "en": "#EJasmine Mall",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18408,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EJasmine Mall"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_162",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 163,
+      "key": "STR_LOUNGE_EVENT_03",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1324,
+      "label_offset": 34576,
+      "source_offset": 18432,
+      "source_bytes": 10,
+      "en": "#EMess Hall",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18432,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EMess Hall"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_163",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 164,
+      "key": "STR_LOUNGE_EVENT_04",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1332,
+      "label_offset": 34612,
+      "source_offset": 18444,
+      "source_bytes": 10,
+      "en": "#EDormitory",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18444,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EDormitory"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_164",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 165,
+      "key": "STR_LOUNGE_EVENT_05",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1340,
+      "label_offset": 34648,
+      "source_offset": 18456,
+      "source_bytes": 24,
+      "en": "#EBriefing Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18456,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "#EBriefing Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_165",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 166,
+      "key": "STR_LOUNGE_EVENT_06",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1348,
+      "label_offset": 34684,
+      "source_offset": 18484,
+      "source_bytes": 10,
+      "en": "#ECorridor",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18484,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#ECorridor"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_166",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 167,
+      "key": "STR_LOUNGE_EVENT_07",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1356,
+      "label_offset": 34720,
+      "source_offset": 18496,
+      "source_bytes": 10,
+      "en": "#EChanging Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18496,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EChanging Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_167",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 168,
+      "key": "STR_LOUNGE_EVENT_08",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1364,
+      "label_offset": 34756,
+      "source_offset": 18508,
+      "source_bytes": 10,
+      "en": "#EHangar",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18508,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EHangar"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_168",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 169,
+      "key": "STR_LOUNGE_EVENT_09",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1372,
+      "label_offset": 34792,
+      "source_offset": 18520,
+      "source_bytes": 16,
+      "en": "#EFesta Grounds",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18520,
+          "source_bytes": 16,
+          "contains_japanese": true,
+          "en": "#EFesta Grounds"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_169",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 170,
+      "key": "STR_LOUNGE_EVENT_10",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1380,
+      "label_offset": 34828,
+      "source_offset": 18540,
+      "source_bytes": 18,
+      "en": "#EFesta Beach",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18540,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EFesta Beach"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_170",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 171,
+      "key": "STR_LOUNGE_EVENT_11",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1388,
+      "label_offset": 34864,
+      "source_offset": 18560,
+      "source_bytes": 10,
+      "en": "#EDeck",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18560,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EDeck"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_171",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 172,
+      "key": "STR_LOUNGE_EVENT_12",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1396,
+      "label_offset": 34900,
+      "source_offset": 18572,
+      "source_bytes": 18,
+      "en": "#EArzenal Exterior",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18572,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EArzenal Exterior"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_172",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 173,
+      "key": "STR_LOUNGE_EVENT_13",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1404,
+      "label_offset": 34936,
+      "source_offset": 18592,
+      "source_bytes": 18,
+      "en": "#ERuined Disciplinary Cell",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18592,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#ERuined Disciplinary Cell"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_173",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 174,
+      "key": "STR_LOUNGE_EVENT_14",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1412,
+      "label_offset": 34972,
+      "source_offset": 18612,
+      "source_bytes": 32,
+      "en": "#ERuined Briefing Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18612,
+          "source_bytes": 32,
+          "contains_japanese": true,
+          "en": "#ERuined Briefing Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_174",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 175,
+      "key": "STR_LOUNGE_EVENT_15",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1420,
+      "label_offset": 35008,
+      "source_offset": 18648,
+      "source_bytes": 18,
+      "en": "#ERuined Deck",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18648,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#ERuined Deck"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_175",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 176,
+      "key": "STR_LOUNGE_EVENT_16",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1428,
+      "label_offset": 35044,
+      "source_offset": 18668,
+      "source_bytes": 12,
+      "en": "#EAudience Chamber",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18668,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "#EAudience Chamber"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_176",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 177,
+      "key": "STR_LOUNGE_EVENT_17",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1436,
+      "label_offset": 35080,
+      "source_offset": 18684,
+      "source_bytes": 10,
+      "en": "#ETemple Entrance",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18684,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#ETemple Entrance"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_177",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 178,
+      "key": "STR_LOUNGE_EVENT_18",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1444,
+      "label_offset": 35116,
+      "source_offset": 18696,
+      "source_bytes": 10,
+      "en": "#EInfirmary",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18696,
+          "source_bytes": 10,
+          "contains_japanese": true,
+          "en": "#EInfirmary"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_178",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 179,
+      "key": "STR_LOUNGE_EVENT_19",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1452,
+      "label_offset": 35152,
+      "source_offset": 18708,
+      "source_bytes": 20,
+      "en": "#EAurora Mess Hall",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18708,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EAurora Mess Hall"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_179",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 180,
+      "key": "STR_LOUNGE_EVENT_20",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1460,
+      "label_offset": 35188,
+      "source_offset": 18732,
+      "source_bytes": 26,
+      "en": "#EAurora Shower Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18732,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "#EAurora Shower Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_180",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 181,
+      "key": "STR_LOUNGE_EVENT_21",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1468,
+      "label_offset": 35224,
+      "source_offset": 18760,
+      "source_bytes": 22,
+      "en": "#EAurora Hangar",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18760,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EAurora Hangar"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_181",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 182,
+      "key": "STR_LOUNGE_EVENT_22",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1476,
+      "label_offset": 35260,
+      "source_offset": 18784,
+      "source_bytes": 20,
+      "en": "#EAurora Quarters",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18784,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EAurora Quarters"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_182",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 183,
+      "key": "STR_LOUNGE_EVENT_23",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1484,
+      "label_offset": 35296,
+      "source_offset": 18808,
+      "source_bytes": 22,
+      "en": "#EMisurugi Palace Library",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18808,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EMisurugi Palace Library"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_183",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 184,
+      "key": "STR_LOUNGE_EVENT_24",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1492,
+      "label_offset": 35332,
+      "source_offset": 18832,
+      "source_bytes": 20,
+      "en": "#EMisurugi Palace Quarters",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18832,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "#EMisurugi Palace Quarters"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_184",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 185,
+      "key": "STR_LOUNGE_EVENT_25",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1500,
+      "label_offset": 35368,
+      "source_offset": 18856,
+      "source_bytes": 18,
+      "en": "#EEmbryo's Garden",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18856,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#EEmbryo's Garden"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_185",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 186,
+      "key": "STR_LOUNGE_EVENT_26",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1508,
+      "label_offset": 35404,
+      "source_offset": 18876,
+      "source_bytes": 22,
+      "en": "#EEmpire of Misurugi City Streets",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18876,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EEmpire of Misurugi City Streets"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_186",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 187,
+      "key": "STR_LOUNGE_EVENT_27",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1516,
+      "label_offset": 35440,
+      "source_offset": 18900,
+      "source_bytes": 22,
+      "en": "#EAurora Command Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18900,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "#EAurora Command Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_187",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 188,
+      "key": "STR_LOUNGE_EVENT_28",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1524,
+      "label_offset": 35476,
+      "source_offset": 18924,
+      "source_bytes": 14,
+      "en": "#EAura's Chamber",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18924,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "#EAura's Chamber"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_188",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 189,
+      "key": "STR_LOUNGE_EVENT_29",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1532,
+      "label_offset": 35512,
+      "source_offset": 18940,
+      "source_bytes": 18,
+      "en": "#ERuined Hangar",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18940,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "#ERuined Hangar"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_189",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 190,
+      "key": "STR_LOUNGE_EVENT_30",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1540,
+      "label_offset": 35548,
+      "source_offset": 18960,
+      "source_bytes": 14,
+      "en": "#EShower Room",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18960,
+          "source_bytes": 14,
+          "contains_japanese": true,
+          "en": "#EShower Room"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Player-visible label, confirmation, help text or name; neighboring source entries checked for category.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [
+        "#E"
+      ],
+      "review_flags": [],
+      "glossary_reference": "ui-terms.json:ui_term_190",
+      "glossary_status": "project_ui_convention"
+    },
+    {
+      "id": 191,
+      "key": "STR_LOUNGE_COMMENT_000_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1548,
+      "label_offset": 35584,
+      "source_offset": 18976,
+      "source_bytes": 22,
+      "en": "Where shall we go first?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 18976,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "Where shall we go first?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 192,
+      "key": "STR_LOUNGE_COMMENT_000_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1556,
+      "label_offset": 35620,
+      "source_offset": 19000,
+      "source_bytes": 30,
+      "en": "Now, where would you like to go next?",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19000,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "Now, where would you like to go next?"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 193,
+      "key": "STR_LOUNGE_COMMENT_000_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1564,
+      "label_offset": 35656,
+      "source_offset": 19032,
+      "source_bytes": 26,
+      "en": "(I need to head to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19032,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "(I need to head to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 194,
+      "key": "STR_LOUNGE_COMMENT_010_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1572,
+      "label_offset": 35692,
+      "source_offset": 19060,
+      "source_bytes": 24,
+      "en": "(Where should I go first?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19060,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "(Where should I go first?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 195,
+      "key": "STR_LOUNGE_COMMENT_010_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1580,
+      "label_offset": 35728,
+      "source_offset": 19088,
+      "source_bytes": 22,
+      "en": "(Where should I go next?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19088,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "(Where should I go next?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 196,
+      "key": "STR_LOUNGE_COMMENT_010_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1588,
+      "label_offset": 35764,
+      "source_offset": 19112,
+      "source_bytes": 46,
+      "en": "(Hmm... That's about the only place I haven't been yet.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19112,
+          "source_bytes": 46,
+          "contains_japanese": true,
+          "en": "(Hmm... That's about the only place I haven't been yet.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 197,
+      "key": "STR_LOUNGE_COMMENT_010_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1596,
+      "label_offset": 35800,
+      "source_offset": 19160,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19160,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 198,
+      "key": "STR_LOUNGE_COMMENT_020_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1604,
+      "label_offset": 35836,
+      "source_offset": 19180,
+      "source_bytes": 62,
+      "en": "(I wonder where Ange is. A place Ange might be...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19180,
+          "source_bytes": 62,
+          "contains_japanese": true,
+          "en": "(I wonder where Ange is. A place Ange might be...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "source_omission_retained"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 199,
+      "key": "STR_LOUNGE_COMMENT_020_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1612,
+      "label_offset": 35872,
+      "source_offset": 19244,
+      "source_bytes": 30,
+      "en": "(I'll try looking over here next.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19244,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "(I'll try looking over here next.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 200,
+      "key": "STR_LOUNGE_COMMENT_020_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1620,
+      "label_offset": 35908,
+      "source_offset": 19276,
+      "source_bytes": 92,
+      "en": "(I met Ange, but I forgot to tell her about the notice. I need to see her again and make sure I tell her this time.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19276,
+          "source_bytes": 92,
+          "contains_japanese": true,
+          "en": "(I met Ange, but I forgot to tell her about the notice. I need to see her again and make sure I tell her this time.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 201,
+      "key": "STR_LOUNGE_COMMENT_020_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1628,
+      "label_offset": 35944,
+      "source_offset": 19372,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19372,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 202,
+      "key": "STR_LOUNGE_COMMENT_030_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1636,
+      "label_offset": 35980,
+      "source_offset": 19392,
+      "source_bytes": 30,
+      "en": "(Now, who should I ask?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19392,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "(Now, who should I ask?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 203,
+      "key": "STR_LOUNGE_COMMENT_030_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1644,
+      "label_offset": 36016,
+      "source_offset": 19424,
+      "source_bytes": 40,
+      "en": "(Hmm... I'll try going over there next.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19424,
+          "source_bytes": 40,
+          "contains_japanese": true,
+          "en": "(Hmm... I'll try going over there next.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 204,
+      "key": "STR_LOUNGE_COMMENT_030_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1652,
+      "label_offset": 36052,
+      "source_offset": 19468,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19468,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 205,
+      "key": "STR_LOUNGE_COMMENT_040_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1660,
+      "label_offset": 36088,
+      "source_offset": 19488,
+      "source_bytes": 24,
+      "en": "(Where should I start looking...?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19488,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "(Where should I start looking...?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 206,
+      "key": "STR_LOUNGE_COMMENT_040_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1668,
+      "label_offset": 36124,
+      "source_offset": 19516,
+      "source_bytes": 20,
+      "en": "(All right. Next...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19516,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "(All right. Next...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "deliberate_internal_monologue_ellipsis"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 207,
+      "key": "STR_LOUNGE_COMMENT_040_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1676,
+      "label_offset": 36160,
+      "source_offset": 19540,
+      "source_bytes": 48,
+      "en": "(There are only so many places everyone might go.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19540,
+          "source_bytes": 48,
+          "contains_japanese": true,
+          "en": "(There are only so many places everyone might go.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 208,
+      "key": "STR_LOUNGE_COMMENT_040_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1684,
+      "label_offset": 36196,
+      "source_offset": 19592,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19592,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 209,
+      "key": "STR_LOUNGE_COMMENT_050_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1692,
+      "label_offset": 36232,
+      "source_offset": 19612,
+      "source_bytes": 28,
+      "en": "(Okay, I'll try going here.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19612,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "(Okay, I'll try going here.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 210,
+      "key": "STR_LOUNGE_COMMENT_050_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1700,
+      "label_offset": 36268,
+      "source_offset": 19644,
+      "source_bytes": 24,
+      "en": "(I'll go over here next.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19644,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "(I'll go over here next.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 211,
+      "key": "STR_LOUNGE_COMMENT_050_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1708,
+      "label_offset": 36304,
+      "source_offset": 19672,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19672,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 212,
+      "key": "STR_LOUNGE_COMMENT_060_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1716,
+      "label_offset": 36340,
+      "source_offset": 19692,
+      "source_bytes": 26,
+      "en": "(I wonder who I should talk to...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19692,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "(I wonder who I should talk to...)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 213,
+      "key": "STR_LOUNGE_COMMENT_060_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1724,
+      "label_offset": 36376,
+      "source_offset": 19720,
+      "source_bytes": 28,
+      "en": "(I'll try going over here next.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19720,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "(I'll try going over here next.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 214,
+      "key": "STR_LOUNGE_COMMENT_060_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1732,
+      "label_offset": 36412,
+      "source_offset": 19752,
+      "source_bytes": 30,
+      "en": "(I'll go see Commander Jill.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19752,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "(I'll go see Commander Jill.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 215,
+      "key": "STR_LOUNGE_COMMENT_070_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1740,
+      "label_offset": 36448,
+      "source_offset": 19784,
+      "source_bytes": 34,
+      "en": "(Where should I make my first delivery?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19784,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "(Where should I make my first delivery?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 216,
+      "key": "STR_LOUNGE_COMMENT_070_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1748,
+      "label_offset": 36484,
+      "source_offset": 19820,
+      "source_bytes": 18,
+      "en": "(Next up...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19820,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(Next up...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "deliberate_internal_monologue_ellipsis"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 217,
+      "key": "STR_LOUNGE_COMMENT_070_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1756,
+      "label_offset": 36520,
+      "source_offset": 19840,
+      "source_bytes": 30,
+      "en": "(I'll go see Commander Jill.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19840,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "(I'll go see Commander Jill.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 218,
+      "key": "STR_LOUNGE_COMMENT_081_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1764,
+      "label_offset": 36556,
+      "source_offset": 19872,
+      "source_bytes": 34,
+      "en": "(Where did everyone go?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19872,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "(Where did everyone go?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 219,
+      "key": "STR_LOUNGE_COMMENT_081_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1772,
+      "label_offset": 36592,
+      "source_offset": 19908,
+      "source_bytes": 28,
+      "en": "(I'll go see Tusk.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19908,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "(I'll go see Tusk.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 220,
+      "key": "STR_LOUNGE_COMMENT_082_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1780,
+      "label_offset": 36628,
+      "source_offset": 19940,
+      "source_bytes": 74,
+      "en": "(All right, I'll start gathering information about Commander Jill. Who should I talk to first...?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 19940,
+          "source_bytes": 74,
+          "contains_japanese": true,
+          "en": "(All right, I'll start gathering information about Commander Jill. Who should I talk to first...?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 221,
+      "key": "STR_LOUNGE_COMMENT_082_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1788,
+      "label_offset": 36664,
+      "source_offset": 20016,
+      "source_bytes": 34,
+      "en": "(Maybe I'll try going over here next.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20016,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "(Maybe I'll try going over here next.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 222,
+      "key": "STR_LOUNGE_COMMENT_082_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1796,
+      "label_offset": 36700,
+      "source_offset": 20052,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20052,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 223,
+      "key": "STR_LOUNGE_COMMENT_083_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1804,
+      "label_offset": 36736,
+      "source_offset": 20072,
+      "source_bytes": 44,
+      "en": "(So I need to prepare for when Ange and the others return.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20072,
+          "source_bytes": 44,
+          "contains_japanese": true,
+          "en": "(So I need to prepare for when Ange and the others return.)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "preparation_task_context_inferred_from_adjacent_route_comments"
+      ]
+    },
+    {
+      "id": 224,
+      "key": "STR_LOUNGE_COMMENT_083_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1812,
+      "label_offset": 36772,
+      "source_offset": 20120,
+      "source_bytes": 68,
+      "en": "(Anyway, I need to tell everyone that Ange and the others are coming back.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20120,
+          "source_bytes": 68,
+          "contains_japanese": true,
+          "en": "(Anyway, I need to tell everyone that Ange and the others are coming back.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 225,
+      "key": "STR_LOUNGE_COMMENT_083_3",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1820,
+      "label_offset": 36808,
+      "source_offset": 20192,
+      "source_bytes": 30,
+      "en": "(I wonder where everyone is...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20192,
+          "source_bytes": 30,
+          "contains_japanese": true,
+          "en": "(I wonder where everyone is...)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 226,
+      "key": "STR_LOUNGE_COMMENT_083_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1828,
+      "label_offset": 36844,
+      "source_offset": 20224,
+      "source_bytes": 36,
+      "en": "(I need to go see Embryo.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20224,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "(I need to go see Embryo.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 227,
+      "key": "STR_LOUNGE_COMMENT_091_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1836,
+      "label_offset": 36880,
+      "source_offset": 20264,
+      "source_bytes": 28,
+      "en": "(I wonder where everyone is.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20264,
+          "source_bytes": 28,
+          "contains_japanese": true,
+          "en": "(I wonder where everyone is.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 228,
+      "key": "STR_LOUNGE_COMMENT_091_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1844,
+      "label_offset": 36916,
+      "source_offset": 20296,
+      "source_bytes": 12,
+      "en": "(Next up...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20296,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "(Next up...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "deliberate_internal_monologue_fragment"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 229,
+      "key": "STR_LOUNGE_COMMENT_091_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1852,
+      "label_offset": 36952,
+      "source_offset": 20312,
+      "source_bytes": 18,
+      "en": "(I'd better hurry to the command room.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20312,
+          "source_bytes": 18,
+          "contains_japanese": true,
+          "en": "(I'd better hurry to the command room.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 230,
+      "key": "STR_LOUNGE_COMMENT_093_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1860,
+      "label_offset": 36988,
+      "source_offset": 20332,
+      "source_bytes": 20,
+      "en": "(I wonder where I should go.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20332,
+          "source_bytes": 20,
+          "contains_japanese": true,
+          "en": "(I wonder where I should go.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 231,
+      "key": "STR_LOUNGE_COMMENT_093_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1868,
+      "label_offset": 37024,
+      "source_offset": 20356,
+      "source_bytes": 22,
+      "en": "(Where should I go next?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20356,
+          "source_bytes": 22,
+          "contains_japanese": true,
+          "en": "(Where should I go next?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 232,
+      "key": "STR_LOUNGE_COMMENT_093_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1876,
+      "label_offset": 37060,
+      "source_offset": 20380,
+      "source_bytes": 36,
+      "en": "(I need to go see Embryo.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20380,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "(I need to go see Embryo.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 233,
+      "key": "STR_LOUNGE_COMMENT_101_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1884,
+      "label_offset": 37096,
+      "source_offset": 20420,
+      "source_bytes": 26,
+      "en": "(Hmm... Where should I go?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20420,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "(Hmm... Where should I go?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 234,
+      "key": "STR_LOUNGE_COMMENT_101_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1892,
+      "label_offset": 37132,
+      "source_offset": 20448,
+      "source_bytes": 26,
+      "en": "(I'd better hurry and join everyone.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20448,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "(I'd better hurry and join everyone.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 235,
+      "key": "STR_LOUNGE_COMMENT_103_1",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1900,
+      "label_offset": 37168,
+      "source_offset": 20476,
+      "source_bytes": 26,
+      "en": "(Who should I visit first...?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20476,
+          "source_bytes": 26,
+          "contains_japanese": true,
+          "en": "(Who should I visit first...?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 236,
+      "key": "STR_LOUNGE_COMMENT_103_2",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1908,
+      "label_offset": 37204,
+      "source_offset": 20504,
+      "source_bytes": 12,
+      "en": "(Next up...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20504,
+          "source_bytes": 12,
+          "contains_japanese": true,
+          "en": "(Next up...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "deliberate_internal_monologue_fragment"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 237,
+      "key": "STR_LOUNGE_COMMENT_103_4",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1916,
+      "label_offset": 37240,
+      "source_offset": 20520,
+      "source_bytes": 36,
+      "en": "(I need to go see Embryo.)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20520,
+          "source_bytes": 36,
+          "contains_japanese": true,
+          "en": "(I need to go see Embryo.)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    },
+    {
+      "id": 238,
+      "key": "STR_MISSION_COMMENT_000_000",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1924,
+      "label_offset": 37276,
+      "source_offset": 20560,
+      "source_bytes": 34,
+      "en": "(The missions I could take right now are...)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20560,
+          "source_bytes": 34,
+          "contains_japanese": true,
+          "en": "(The missions I could take right now are...)"
+        },
+        null
+      ],
+      "status": "translated_needs_review",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": [
+        "deliberately_unfinished_list_introduction"
+      ],
+      "source_omission_retained": true
+    },
+    {
+      "id": 239,
+      "key": "STR_MISSION_COMMENT_010_000",
+      "source_file": "data/_dat/strings.bnd",
+      "record_offset": 1932,
+      "label_offset": 37312,
+      "source_offset": 20596,
+      "source_bytes": 24,
+      "en": "(What should I do...?)",
+      "fields": [
+        {
+          "column": 0,
+          "source_offset": 20596,
+          "source_bytes": 24,
+          "contains_japanese": true,
+          "en": "(What should I do...?)"
+        },
+        null
+      ],
+      "status": "translated_draft",
+      "context": "Internal monologue/conversation displayed by this menu; preserve the speaker and scene context.",
+      "decisions": "Complete English; source pointers/IDs/nulls/controls preserved; no source-byte budget.",
+      "control_codes": [],
+      "review_flags": []
+    }
+  ],
+  "name_normalization": {
+    "policy": "work/glossary/name-policy.json",
+    "status": "applied_after_meaning_review",
+    "target_changes": 0
+  }
+}

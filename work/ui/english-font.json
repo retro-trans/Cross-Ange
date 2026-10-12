@@ -1,0 +1,52 @@
+{
+  "family": "GenEi LateGo v2",
+  "weight": "Medium",
+  "bitmap_derivative_name": "Cross Ange English Bitmap",
+  "source": "https://okoneya.jp/font/genei-latin.html",
+  "download": "https://okoneya.jp/font/GenEiLatin-Separate_v2.1.zip",
+  "source_file": "tools/fonts/genei-latin/GenEiLatin-Separate_v2.1/GenEiLateGoN_v2.ttf",
+  "source_sha256": "39f4f7a7bf92586ab40df059d08f6202c0b28472c6cd4374bf3dd3a9ad2b70f7",
+  "license": "SIL Open Font License 1.1",
+  "license_file": "sce_sys/font-license.txt",
+  "raster_size": 22,
+  "glyph_cell": [
+    26,
+    26
+  ],
+  "baseline": 20,
+  "supersampling": 4,
+  "pixel_format": "4-bit alpha, low nibble first",
+  "native_zero_token_terminators": true,
+  "native_proportional_advances": true,
+  "native_line_width": 670,
+  "latin_colon": "GenEi period dots, baseline and nine pixels above baseline",
+  "changed_glyphs_per_font": 197,
+  "runtime_tested": false,
+  "build": "0.1.10",
+  "status": "prior_dialogue_font_retained_chapter_title_artwork_awaiting_runtime_test",
+  "body_origin": [
+    180,
+    465
+  ],
+  "speaker_origin": [
+    180,
+    418
+  ],
+  "speaker_width_limit": 212,
+  "normal_line_advance": 36,
+  "long_dialogue_percentage": 80,
+  "layout": {
+    "reflowed_records": 8364,
+    "scaled_dialogue_records": 88,
+    "scaled_speaker_records": 18,
+    "maximum_estimated_line_width": 670.0,
+    "maximum_lines": 3,
+    "body_width_limit": 670
+  },
+  "prior_build_runtime_observed": true,
+  "prior_build_captures": "work/ui/local/screenshots/0.1.8",
+  "preview": "work/ui/local/font-probe/pending-0.1.9/normal-classroom.png",
+  "colon_preview": "work/ui/local/font-probe/pending-0.1.9/latin-colon.png",
+  "preview_is_in_game_capture": false,
+  "startup_issue": "work/ui/font-startup-issue.json"
+}

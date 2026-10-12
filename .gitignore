@@ -1,0 +1,26 @@
+# Original games, extracted assets, and local Japanese script working files.
+*.pkg
+*.iso
+*.cso
+*.zip
+work.bin
+*.rif
+*.zrif
+incoming/*
+!incoming/.gitkeep
+work/source/
+work/output/*
+!work/output/.gitkeep
+work/translation/*/*
+!work/translation/*/*.en.json
+!work/translation/*/.gitkeep
+work/ui/local/
+# Downloaded tools and generated Python files.
+tools/pkg_vendor/
+tools/pkg_downloads/
+tools/pkg2zip/
+__pycache__/
+*.pyc
+*.lnk
+tools/cpk_crilayla.dll
+tools/fonts/genei-latin/
