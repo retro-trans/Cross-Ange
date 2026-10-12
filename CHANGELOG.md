@@ -5,7 +5,7 @@
 - Adopted retro-trans/ACE-3's README and release presentation: applying patches, review status, source workflow, repository layout and credits.
 - Prepared verified xdelta packaging for the existing 0.1.12 archive and system-title files, using Retro Trans's schema-2 grouped solution. Credits and font-license additions are separate generated extras. Game bytes and build version are unchanged.
 - Exported all 226 local working translation files with `tools/strip_jp.py`; public sources exclude Japanese scripts, game binaries, artwork, packages and license keys. Retained permitted short glossary names/UI terms and added project MIT licensing alongside the existing font OFL attribution.
-- Publication was explicitly requested by the user for retro-trans under account binhlt0402. Release assets are checked locally and remotely before publication.
+- Both release deltas passed complete-file round trips. Retro Trans's grouped Automatic implementation recognized both source files and applied/verified both outputs locally; the extras ZIP passed readback. Recorded the manifest and compatibility report. Publication was explicitly requested for retro-trans under account binhlt0402; uploaded assets are checked before publishing.
 
 ## 0.1.12 — 2026-10-12 — Remaining tutorial artwork and battle-result spacing
 

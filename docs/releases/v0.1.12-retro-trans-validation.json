@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": "0.1.12",
+  "retro_trans_commit": "3ae0267979576ba56f0ba1b60559f0649713f1ab",
+  "automatic_group_recognition": true,
+  "required_components": 2,
+  "automatic_patch_steps": 2,
+  "full_target_hashes_verified": true,
+  "extras_zip_verified": true,
+  "game_runtime_tested": false
+}
