@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.13 — Published tools 0.5.16
+
+- Linked the separately authorized Retro Trans Tools 0.5.16 Windows release for Automatic PKG rebuilding and hardware rePatch. Game version, bytes and patch assets are unchanged.
+
 ### 0.1.13 — First public release
 
 - Published the existing small-download game release at the user's request. Shortened release notes and replaced change history with What's included. Updated current instructions for public downloads without GitHub sign-in.
