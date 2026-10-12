@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.13 — Generic Retro Trans integration verification
+
+- Verified the local Retro Trans 0.5.8 Windows app against the release ZIP and original PKG: native installation verified all 48 game files, and output matched the standalone package exactly.
+- Verified standard Automatic recognition and both complete-file patch outputs. Recorded the 226-test Retro Trans suite, with four platform-specific skips, and generic profiles for a second title.
+- Added `RETRO-TRANS-VALIDATION.json` to the private release assets. Retro Trans app publication, physical-Vita installation and full gameplay testing remain pending.
+
 ## 2026-10-12 — v0.1.13 private release preparation
 
 - User requested changing the release to original-PKG input and adding a generic Vita option to sibling `../retro-trans-tools`. Prepared a declarative VITA-PKG profile and a verified ZIP containing only translation deltas, credits and font attribution; retained the standard Automatic/Apply xdelta assets.

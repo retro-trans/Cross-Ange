@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "retro_trans_version": "0.5.8",
+  "retro_trans_app_published": false,
+  "retro_trans_source_note": "Uncommitted sibling working tree; manifest commit identifies Cross Ange source only.",
+  "automatic_group_recognition": true,
+  "required_components": 2,
+  "automatic_patch_steps": 2,
+  "full_target_hashes_verified": true,
+  "extras_zip_verified": true,
+  "generic_pkg_profiles_tested": [
+    "PCSG00597",
+    "PCSE12345"
+  ],
+  "generic_hardware_profile_tested": "PCSE12345",
+  "unit_tests": {
+    "total": 226,
+    "skipped": 4,
+    "failures": 0
+  },
+  "frozen_health_check": {
+    "ok": true,
+    "version": "0.5.8",
+    "tk": "8.6.12",
+    "title": "Retro Trans 0.5.8",
+    "window": [
+      700,
+      440
+    ],
+    "patches": 91,
+    "tabs": [
+      "Automatic",
+      "Apply xdelta",
+      "Save conversion",
+      "Vita"
+    ],
+    "z3_save_converter": true,
+    "chd_round_trip": true,
+    "mx_converter": "experimental early Hugo intermission",
+    "mx_cng_self_check": true,
+    "mx_crypto_provider": "Windows CNG",
+    "vita_pkg_profile_engine": true,
+    "vita_pkg_crypto_self_check": true
+  },
+  "frozen_executable_sha256": "36a0b3af8fb11c873f1bb71bf363506d46458965dd2fde1a5991de3296aabf8b",
+  "frozen_archive_sha256": "94a7dfab56d2480ffb243922168eb063625fae58ab192f84e79dc32873c30b2f",
+  "frozen_pkg_conversion_verified": true,
+  "native_pkg_install_verified": true,
+  "native_installed_files_verified": 48,
+  "pkg_sha256": "59bd8f558f8b657d6a298fa0760b7867f67475c579d531fbfffa9c69143d7c8d",
+  "deterministic_match_to_standalone_build": true,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "game_runtime_tested": false,
+  "physical_vita_tested": false,
+  "cross_ange_source_commit": "3114b9b19ae49f3852c8838056afde9dfdcb40b3"
+}
