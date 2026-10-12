@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "version": "0.1.13",
+  "repo": "retro-trans/Cross-Ange",
+  "private": true,
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "route": "whole-PKG xdelta",
+  "minimum_app_version": "0.5.12",
+  "tools_build_published": false,
+  "license_required_for_patching": false,
+  "license_required_for_installation": true,
+  "published_automatic_verified": true,
+  "retired_assets": [
+    "BUILD-MANIFEST.json",
+    "Cross-Ange-English-0.1.13-Ange.xdelta",
+    "Cross-Ange-English-0.1.13-extras.zip",
+    "Cross-Ange-English-0.1.13-param.xdelta",
+    "Cross-Ange-English-0.1.13-Vita-PKG-patches.zip",
+    "EXTRAS-SHA256SUMS.txt",
+    "RETRO-TRANS-0.5.11-VALIDATION.json",
+    "RETRO-TRANS-VALIDATION.json",
+    "VITA-PKG-SHA256SUMS.txt",
+    "VITA-PKG.json"
+  ],
+  "assets": [
+    {
+      "name": "AUTOMATIC-VALIDATION.json",
+      "bytes": 2507,
+      "sha256": "64730626294048b31f31a9fbb802be04b106dfc44895f36a9f8979db94aac5d8",
+      "asset_id": 633256645
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip",
+      "bytes": 944874420,
+      "sha256": "54bb7c571e6fdc1ac89ff28b07f76b93f0b2182e8e22edb6bc4adc429af8f9cc",
+      "asset_id": 633228553
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 377,
+      "sha256": "1d4a4d852ff05dd254dbea04c86181216eba6d9d3570eaffc262437764ed7d4e",
+      "asset_id": 633256728
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 1286,
+      "sha256": "03b9b77acdf5b5040f4b45664fba923bf235fd656990af665e860208e5db45d1",
+      "asset_id": 633256569
+    },
+    {
+      "name": "VITA-PKG-XDELTA.json",
+      "bytes": 695,
+      "sha256": "963906b15a6ac0c6172f00eaab16c042e54fef39026d9a57786f3ae0bc239dc0",
+      "asset_id": 633233995
+    }
+  ],
+  "release_notes_verified": true,
+  "metadata_downloads_verified": true,
+  "zip_download_verified_by_frozen_app": true,
+  "game_bytes_changed": false,
+  "gameplay_tested": false,
+  "physical_vita_tested": false
+}

@@ -1,138 +1,111 @@
-"""Preview or package an existing English build as a verified Retro Trans release.
+"""Package an existing native-verified English PKG as a whole-PKG xdelta ZIP.
 
-Requires a local checkout of retro-trans/retro-trans-tools and Git. No game build
-is generated, no license keys are read, and no GitHub publication happens here.
+Never reads licenses or publishes to GitHub. The ZIP contains only its profile
+and one delta. Preview by default; --write saves a new verified release folder.
 """
 import argparse
-import hashlib
 import json
 from pathlib import Path
-import subprocess
+import re
+import shutil
 import sys
+import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-REPO = 'retro-trans/Cross-Ange'
+CONTENT = 'JP0700-PCSG00597_00-CROSSANGEGAME000'
 
 
-def digest(path):
-    result = hashlib.sha256()
-    with path.open('rb') as stream:
-        for block in iter(lambda: stream.read(4*1024*1024), b''):
-            result.update(block)
-    return result.hexdigest()
+def package(version, original, translated, checkout, delta=None, output=None, write=False):
+    if not re.fullmatch(r'0\.\d+\.\d+', version):
+        raise ValueError('Choose an existing 0.x.y English build.')
+    sys.path.insert(0, str(checkout.resolve()))
+    from retro_trans import vita_binary as v
+    from retro_trans.core import decode, encode, engine_context, sha256_file
+    from retro_trans.vita_downloads import package_content
+    from retro_trans.vita_repatch import no_links, require, verify
 
+    original, translated = no_links(original).resolve(), no_links(translated).resolve()
+    output = no_links(output or ROOT/'work/output/releases'/('v'+version+'-whole-pkg'))
+    require(not output.exists(), 'Preserve the existing release folder.')
+    require(package_content(original) == package_content(translated) == CONTENT,
+            'Both PKGs must belong to Cross Ange PCSG00597.')
+    native = json.loads((ROOT/'docs'/('pkg-patching-validation-'+version+'.json')).read_text(encoding='utf-8'))
+    require(native['version'] == version and native['native_pkg_install_verified'] is True and
+            type(native['verified_files']) is int and native['verified_files'] > 0,
+            'The translated game needs prior native installation verification.')
 
-def configuration(version, commit):
-    original = ROOT/'work/source/decrypted'
-    game = ROOT/'work/output'/('cross-ange-'+version)/'game'
-    patches = []
-    for relative, label in [('cpk/Ange.cpk','Ange'),('sce_sys/param.sfo','param')]:
-        patches.append(dict(patch=f'Cross-Ange-English-{version}-{label}.xdelta',
-                            edition='Japan PCSG00597 / '+relative,language='en',
-                            source_version='original',source_format=Path(relative).suffix[1:],
-                            target_format=Path(relative).suffix[1:],
-                            source=str(original/relative),target=str(game/relative)))
-    return dict(game_id='cross-ange',game_name='CROSS ANGE Rondo of Angel and Dragon tr.',
-                platform='PS Vita',version=version,source_commit=commit,patches=patches,
-                solutions=[dict(id='pcsg00597-english-components',
-                                name='Cross Ange English components (PCSG00597)',
-                                edition='Japan PCSG00597',language='en',
-                                files=[dict(edition=p['edition'],output_name=Path(p['target']).name)
-                                       for p in patches])])
+    def identity(path):
+        return dict(bytes=path.stat().st_size, sha256=sha256_file(path))
 
-
-def package(version, checkout, write=False):
-    build = ROOT/'work/output'/('cross-ange-'+version)
-    local = json.loads((build/'manifest.json').read_text(encoding='utf-8'))
-    if local['version'] != version or not local['translation_drafts_inserted']:
-        raise ValueError('Choose an existing English build')
-    if not local['checks']['original_payload_bytes_preserved']:
-        raise ValueError('Build preservation checks are missing')
-    commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    config = configuration(version,commit)
-    output = ROOT/'work/output/releases'/('v'+version)
-    print(json.dumps(dict(version=version,source_commit=commit,output=str(output),
-                          components=[dict(patch=p['patch'],source=p['source'],target=p['target'])
-                                      for p in config['patches']],
-                          extras=['sce_sys/manual/025.png','sce_sys/font-license.txt'],
-                          includes_full_game_files=False,write=write),indent=2),flush=True)
+    source_id, target_id = identity(original), identity(translated)
+    require(source_id['sha256'] == native['original_package_sha256'] and
+            target_id == {key:native[key] for key in ('bytes','sha256')},
+            'PKG inputs differ from the native-verified game build.')
+    print(json.dumps(dict(version=version, route='whole-PKG xdelta', license_used=False,
+        source=source_id, target=target_id, output=str(output), write=write), indent=2), flush=True)
     if not write:
         return
-    if subprocess.check_output(['git','status','--porcelain'],cwd=ROOT,text=True).strip():
-        raise ValueError('Commit the reviewed public sources before packaging')
-    if not (checkout/'retro_trans/release.py').is_file():
-        raise ValueError('Supply the Retro Trans Tools checkout')
-    sys.path.insert(0,str(checkout.resolve()))
-    from retro_trans.release import build_release,validate_directory
-    private = ROOT/'work/source/release-packaging'/('v'+version)
-    private.mkdir(parents=True,exist_ok=True)
-    config_path = private/'release-local.json'
-    config_path.write_text(json.dumps(config,indent=2)+'\n',encoding='utf-8')
-    manifest = build_release(config_path,output,cache=private/'engine-cache')
-    extras = {relative:(build/'game'/relative).read_bytes()
-              for relative in ['sce_sys/manual/025.png','sce_sys/font-license.txt']}
-    extras['INSTALL.md'] = (ROOT/'docs/patch-installation.md').read_bytes()
-    extras['EXTRAS-MANIFEST.json'] = (json.dumps(dict(version=version,title_id='PCSG00597',
-        files=[dict(path=name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
-               for name,raw in extras.items()]),indent=2)+'\n').encode('utf-8')
-    archive = output/f'Cross-Ange-English-{version}-extras.zip'
-    with zipfile.ZipFile(archive,'x',compression=zipfile.ZIP_DEFLATED) as bundle:
-        for name,raw in extras.items():
-            entry = zipfile.ZipInfo(name,date_time=(1980,1,1,0,0,0))
-            entry.compress_type = zipfile.ZIP_DEFLATED
-            bundle.writestr(entry,raw)
-    with zipfile.ZipFile(archive) as bundle:
-        if set(bundle.namelist()) != set(extras) or any(bundle.read(name)!=raw for name,raw in extras.items()):
-            raise ValueError('Extras ZIP readback failed')
-    (output/'EXTRAS-SHA256SUMS.txt').write_text(digest(archive)+'  '+archive.name+'\n',encoding='utf-8')
-    # The application owns the PKG encryption code. This ZIP carries only a
-    # declarative profile, verified translation deltas and generated extras.
-    from retro_trans.vita_translation import validate,archive_description,SCHEMA
-    original_pkg = dict(bytes=925548400,sha256='962498429645bf92d0171280b075629ff6dc8100f365ce43805d2cd3e897ebcb')
-    source_files = []
-    original = ROOT/'work/source/decrypted'
-    for path in sorted(original.rglob('*')):
-        if path.is_file():
-            source_files.append(dict(path=path.relative_to(original).as_posix(),bytes=path.stat().st_size,sha256=digest(path)))
-    profile = dict(schema=SCHEMA,name='Cross Ange English '+version,build=version,title_id='PCSG00597',
-        content_id='JP0700-PCSG00597_00-CROSSANGEGAME000',target='Vita3K',minimum_app_version='0.5.8',
-        package=original_pkg,engine='pfs-v5-pkg-key2',source_files=source_files,files=[],extras=[])
-    for row in manifest['patches']:
-        profile['files'].append(dict(path=row['edition'].split(' / ',1)[1],
-            source=dict(bytes=row['source_bytes'],sha256=row['source_sha256']),
-            target=dict(bytes=row['target_bytes'],sha256=row['target_sha256']),
-            patch=dict(name=row['patch'],bytes=row['patch_bytes'],sha256=row['patch_sha256'])))
-    for relative,name in [('sce_sys/manual/025.png','credits.png'),('sce_sys/font-license.txt','font-license.txt')]:
-        raw = extras[relative]
-        profile['extras'].append(dict(path=relative,name=name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()))
-    validate(profile)
-    profile_file = output/'VITA-PKG.json'
-    profile_file.write_text(json.dumps(profile,indent=2)+'\n',encoding='utf-8')
-    vita_zip = output/f'Cross-Ange-English-{version}-Vita-PKG-patches.zip'
-    inventory = {'VITA-PKG.json':profile_file.read_bytes()}
-    inventory.update({row['patch']['name']:(output/row['patch']['name']).read_bytes() for row in profile['files']})
-    inventory.update({row['name']:extras[row['path']] for row in profile['extras']})
-    with zipfile.ZipFile(vita_zip,'x',compression=zipfile.ZIP_DEFLATED) as bundle:
-        for name,raw in inventory.items():
-            entry = zipfile.ZipInfo(name,date_time=(1980,1,1,0,0,0))
-            entry.compress_type = zipfile.ZIP_DEFLATED
-            bundle.writestr(entry,raw)
-    with archive_description(vita_zip) as (checked,temporary):
-        if checked != profile:
-            raise ValueError('Vita PKG profile readback mismatch')
-    (output/'VITA-PKG-SHA256SUMS.txt').write_text(''.join(digest(path)+'  '+path.name+'\n'
-        for path in (profile_file,vita_zip)),encoding='utf-8')
-    validate_directory(output)
-    print(json.dumps(dict(status='verified-release-package',version=version,
-                          patch_roundtrips=len(manifest['patches']),extras_zip_verified=True,
-                          output=str(output)),indent=2))
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='whole-pkg-release-', dir=output.parent) as temporary:
+        root = Path(temporary)
+        stage = root/'release'
+        stage.mkdir()
+        delta_name = 'Cross-Ange-English-'+version+'-PKG.xdelta'
+        with engine_context(cache=ROOT/'work/source/release-packaging/engine-cache') as engine:
+            if delta:
+                patch = no_links(delta).resolve()
+                require(patch != original and patch != translated, 'Choose the existing whole-PKG delta.')
+            else:
+                patch = root/delta_name
+                encode(engine, original, translated, patch)
+            delta_id = identity(patch)
+            profile = v.validate(dict(schema=v.SCHEMA, name='Cross Ange English '+version,
+                build=version, title_id='PCSG00597', content_id=CONTENT, target='Vita3K',
+                minimum_app_version='0.5.12', package=source_id, output=target_id,
+                patch=dict(name=delta_name, **delta_id)))
+            candidate = root/'roundtrip.pkg'
+            decode(engine, original, patch, candidate, target_id['bytes'])
+            verify(candidate, target_id)
+        verify(original, source_id)
+        verify(translated, target_id)
+        manifest = stage/v.MANIFEST
+        manifest.write_text(json.dumps(profile, indent=2)+'\n', encoding='utf-8')
+        archive = stage/('Cross-Ange-English-'+version+v.ZIP_SUFFIX)
+        with zipfile.ZipFile(archive, 'x', compression=zipfile.ZIP_STORED) as bundle:
+            for path, name in ((manifest,v.MANIFEST),(patch,delta_name)):
+                entry = zipfile.ZipInfo(name, date_time=(1980,1,1,0,0,0))
+                entry.external_attr = 0o100644 << 16
+                with path.open('rb') as source, bundle.open(entry,'w',force_zip64=True) as destination:
+                    shutil.copyfileobj(source,destination,1024*1024)
+        with v.archive_description(archive) as (checked, _):
+            require(checked == profile, 'Whole-PKG ZIP readback mismatch.')
+        validation = dict(schema_version=1, version=version, route='whole-PKG xdelta',
+            package=source_id, output=target_id, patch=dict(name=delta_name,**delta_id),
+            patch_zip=dict(name=archive.name,**identity(archive)),
+            delta_roundtrip_verified=True, zip_profile_inventory_verified=True,
+            original_pkg_unchanged=True, translated_pkg_unchanged=True, license_used_for_patching=False,
+            minimum_app_version='0.5.12', native_pkg_install_verified=True,
+            verified_installed_files=native['verified_files'], native_runtime=native['native_runtime'],
+            native_proof='docs/pkg-patching-validation-'+version+'.json',
+            sony_signed=False, gameplay_tested=False, physical_vita_tested=False,
+            includes_full_pkg_file=False, includes_license=False)
+        (stage/'VALIDATION.json').write_text(json.dumps(validation,indent=2)+'\n',encoding='utf-8')
+        checksums = ''.join(sha256_file(path)+'  '+path.name+'\n' for path in sorted(stage.iterdir()))
+        (stage/'SHA256SUMS.txt').write_text(checksums,encoding='utf-8')
+        require(not output.exists(), 'Release output appeared during packaging.')
+        stage.rename(output)
+    print('Verified whole-PKG release package: '+str(output),flush=True)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--build',required=True)
-    parser.add_argument('--retro-trans-tools',type=Path,default=ROOT.parent/'retro-trans-tools')
-    parser.add_argument('--write',action='store_true')
+    parser.add_argument('--build', required=True)
+    parser.add_argument('--package', type=Path, required=True, help='Original Japanese PKG')
+    parser.add_argument('--translated-pkg', type=Path, required=True, help='Previously native-verified English PKG')
+    parser.add_argument('--delta', type=Path, help='Reuse an existing whole-PKG delta after a complete decode/hash check')
+    parser.add_argument('--output', type=Path, help='New release asset directory')
+    parser.add_argument('--retro-trans-tools', type=Path, default=ROOT.parent/'retro-trans-tools')
+    parser.add_argument('--write', action='store_true')
     args = parser.parse_args()
-    package(args.build,args.retro_trans_tools,args.write)
+    package(args.build,args.package,args.translated_pkg,args.retro_trans_tools,args.delta,args.output,args.write)

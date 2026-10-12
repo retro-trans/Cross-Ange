@@ -62,5 +62,8 @@
   "checked_on": "2026-10-12",
   "catalog_workflow_status": "success",
   "catalog_release_present": true,
-  "catalog_solution_verified": true
+  "catalog_solution_verified": true,
+  "historical_record": true,
+  "distribution_superseded_by": "../whole-pkg-release-0.1.13.json",
+  "recorded_component_assets_are_current": false
 }

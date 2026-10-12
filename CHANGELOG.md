@@ -1,5 +1,18 @@
 # Changelog
 
+### 0.1.13 — Whole-PKG release distribution
+
+- Updated the existing private game release to `VITA-PKG-XDELTA.json` and one whole-PKG xdelta ZIP. Automatic in the local Retro Trans 0.5.12 build downloads the ZIP and patches the original encrypted PKG without a license. Manual patching uses the delta extracted from that same ZIP. Vita3K still requires the user's matching license during installation.
+- Removed the CPK/component deltas, component manifest, old license-based profile, separate extras and superseded release verification assets. Updated the README, installation instructions and release packager for the PKG-only player route.
+- Verified a fresh published download and complete patch through the frozen app, then the actual Automatic UI worker. Both outputs match the previously native-verified 48-file English package, with the original unchanged. Published `AUTOMATIC-VALIDATION.json` records these checks; gameplay and physical-Vita testing remain outstanding.
+- Disclosed the approximately 945 MB download. Preserved game bytes, 0.1.13 branding and repository privacy. This distribution update does not publish or push the local tools 0.5.12 build.
+
+### 0.1.13 — Local whole-PKG test for tools 0.5.12
+
+- The local frozen tools executable passed startup checks and applied the whole-PKG ZIP without a license argument. Output matches the previously native-verified 48-file build exactly, and the original PKG is unchanged. The app suite passed 260 tests with four platform-specific skips; local proof is in `work/output/cross-ange-0.1.13/whole-pkg-local/RT-0.5.12-VALIDATION.json`.
+- Prepared a local VITA-PKG-XDELTA.json and whole-PKG test ZIP for Retro Trans Tools 0.5.12. The player patcher uses encrypted bytes and does not need a license; Vita3K installation still requires the user's matching license.
+- Retained the existing game bytes and 0.1.13 branding. The test delta is 944,873,399 bytes and reproduces the previously verified English package exactly. It remains local; no game or tools release update is requested.
+
 ### 0.1.13 — Withdraw the recommended tools release
 
 - Removed Retro Trans Tools v0.5.11 and its downloads at the user's request because its PKG flow required a license during patching. Removed that recommendation from current game documentation and release instructions.

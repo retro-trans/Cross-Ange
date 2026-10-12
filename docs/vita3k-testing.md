@@ -1,4 +1,12 @@
-# Local Vita3K test installation — 0.1.12
+# Vita3K testing
+
+## Current package — 0.1.13
+
+The complete English PKG passed an isolated native Vita3K installation and comparison of all 48 installed files, recorded in `pkg-patching-validation-0.1.13.json`. The whole-PKG delta reproduces that exact package. Install it through Vita3K's **File → Install .pkg**, supplying your matching local license during installation, and check **v0.1.13** on the title screen. The patching step needs no license. See [installation instructions](patch-installation.md).
+
+This distribution update does not install or launch the game in the user's emulator. Full gameplay and physical-Vita testing remain outstanding. The records below describe earlier local installations.
+
+## Historical local installation — 0.1.12
 
 Build 0.1.12 is installed in `E:\Emu\vita3k\fs\ux0\app\PCSG00597`, using `E:\Emu\vita3k\Vita3K.exe`. All 48 installed files were hash-verified. Independent readback verified all 483 replacement archive members, 46,048 native font records, 13 compact UI fields and all ten tutorial replacements. Saves, licenses, firmware and other titles were preserved.
 

@@ -1,5 +1,7 @@
 # English test build 0.1.12
 
+This document records the historical 0.1.12 local installation. The current released distribution is 0.1.13, with whole-PKG patching and isolated native installation verification. See [current installation instructions](patch-installation.md) and [Vita3K testing](vita3k-testing.md).
+
 Build 0.1.12 is installed in the user's existing Vita3K. It translates the remaining seven tutorial pictures and uses compact battle-result time labels, retaining the briefing/unit-label fixes. All ten identified tutorial pictures now have English text, including their embedded samples. New layout still needs an in-game check. GenEi LateGo v2 Medium, proportional advances and all 30 chapter/prologue heading variants are retained.
 
 The user's 0.1.8 captures confirm startup reached gameplay, dialogue appeared in its panel, and the story progressed into battle. This confirms the prior missing font-terminator startup fix. The extra Naomi eye-animation tile in the battle screenshot remains unresolved; see [investigation and reversible comparison](portrait-animation-issue.md).

@@ -1,56 +1,22 @@
 {
-  "game_id": "cross-ange",
-  "game_name": "CROSS ANGE Rondo of Angel and Dragon tr.",
-  "platform": "PS Vita",
-  "version": "0.1.12",
-  "source_commit": "d10ad6622d4403340c5f82a161494d433529fe7b",
-  "schema_version": 2,
-  "patches": [
-    {
-      "patch": "Cross-Ange-English-0.1.12-Ange.xdelta",
-      "edition": "Japan PCSG00597 / cpk/Ange.cpk",
-      "language": "en",
-      "source_version": "original",
-      "source_format": "cpk",
-      "target_format": "cpk",
-      "source_sha256": "e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de",
-      "source_bytes": 882846536,
-      "target_sha256": "fccab176e91abdf15a263b6768557ffbf1e831e1b530ecfab020e7ba71a678f2",
-      "target_bytes": 902054728,
-      "patch_sha256": "52002f00bde276d3bf5a4e3060a1bd14a2632922cd2c5e34aa4b7aa20c22d03e",
-      "patch_bytes": 5349693
-    },
-    {
-      "patch": "Cross-Ange-English-0.1.12-param.xdelta",
-      "edition": "Japan PCSG00597 / sce_sys/param.sfo",
-      "language": "en",
-      "source_version": "original",
-      "source_format": "sfo",
-      "target_format": "sfo",
-      "source_sha256": "04924d2566147471c89464d568c8ae8708b43cc296b370c6b8f208317cebf603",
-      "source_bytes": 1328,
-      "target_sha256": "6d4414054f46e25b14e5ef25ae9d4c655f9c1111155cc51e43cf6e7c46d00c10",
-      "target_bytes": 1413,
-      "patch_sha256": "33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14",
-      "patch_bytes": 160
-    }
-  ],
-  "solutions": [
-    {
-      "id": "pcsg00597-english-components",
-      "name": "Cross Ange English components (PCSG00597)",
-      "edition": "Japan PCSG00597",
-      "language": "en",
-      "files": [
-        {
-          "edition": "Japan PCSG00597 / cpk/Ange.cpk",
-          "output_name": "Ange.cpk"
-        },
-        {
-          "edition": "Japan PCSG00597 / sce_sys/param.sfo",
-          "output_name": "param.sfo"
-        }
-      ]
-    }
-  ]
+  "schema": "retro-trans-vita-pkg-xdelta-v1",
+  "name": "Cross Ange English 0.1.13",
+  "build": "0.1.13",
+  "title_id": "PCSG00597",
+  "content_id": "JP0700-PCSG00597_00-CROSSANGEGAME000",
+  "target": "Vita3K",
+  "minimum_app_version": "0.5.12",
+  "package": {
+    "bytes": 925548400,
+    "sha256": "962498429645bf92d0171280b075629ff6dc8100f365ce43805d2cd3e897ebcb"
+  },
+  "output": {
+    "bytes": 944821248,
+    "sha256": "59bd8f558f8b657d6a298fa0760b7867f67475c579d531fbfffa9c69143d7c8d"
+  },
+  "patch": {
+    "name": "Cross-Ange-English-0.1.13-PKG.xdelta",
+    "bytes": 944873399,
+    "sha256": "13d0988539a0a63ee850583cd444ffd990141b8d047a980c3cf979eaab86a1d8"
+  }
 }

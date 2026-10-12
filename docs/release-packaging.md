@@ -1,20 +1,44 @@
-# Release packaging
+# Whole-PKG release packaging
 
-Release v0.1.13 packages the already built game files; packaging does not create another game build. A new game binary requires a new version. Follow the public [Retro Trans release standard](https://github.com/retro-trans/retro-trans-tools/blob/main/docs/RELEASE_STANDARD.md).
+Updating v0.1.13's distribution format does not change its game files, footer or
+credits version. A new game binary requires a new version. The current player
+route is whole-PKG xdelta; the previous CPK/component route is retired.
 
-The package uses manifest schema 2 with one explicit two-file solution: original `cpk/Ange.cpk` and `sce_sys/param.sfo`. Component identities and output names are stable. Automatic mode produces a new flat folder with both patched files; installation places them in their proper app directories. The credits page and font license are separate extras rather than original game files or synthetic source components.
-
-Use the sibling `../retro-trans-tools` checkout, commit the reviewed Cross Ange source snapshot, then preview:
+The local Retro Trans Tools 0.5.12 source supplies the generic
+`retro-trans-vita-pkg-xdelta-v1` contract. Use `tools/package_release.py` to
+preview, then add `--write` to generate a new verified asset folder:
 
 ```text
-python tools/package_release.py --build 0.1.13
-python tools/package_release.py --build 0.1.13 --write
+python tools/package_release.py --build 0.1.13 --package Original.pkg --translated-pkg English.pkg
 ```
 
-The packager uses Retro Trans's release builder to hash originals and targets, generate xdelta patches without private filename headers, decode both patches, compare complete targets and recheck unchanged inputs. The manifest records the actual source commit. It also verifies the extras ZIP after writing. Private source paths/configuration and engine cache remain under `work/source/release-packaging/`; public artifacts go to ignored `work/output/releases/v0.1.12/`.
+The original and translated packages must match the publisher's recorded native
+verification. Packaging does not read a license. It creates or reuses a whole-PKG
+delta, decodes it completely, checks the output and unchanged inputs, verifies
+the ZIP's exact inventory and writes checksums. `--delta Existing-PKG.xdelta`
+reuses a local patch only after another complete round trip. Preview does not
+write output. Existing release folders are preserved.
 
-Required protocol assets are `BUILD-MANIFEST.json`, both xdelta patches, `SHA256SUMS.txt` and `VALIDATION.json`. Extras have their own ZIP checksum. Publish only this allowlisted package after checking uploaded sizes and hashes. Game builds, installed apps, packages, licenses and Japanese working files must not be uploaded. Publishing requires an explicit user request.
+The release allowlist is:
 
-Version 0.1.13 additionally creates `VITA-PKG.json`, `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip` and `VITA-PKG-SHA256SUMS.txt`. The generic Retro Trans 0.5.8 profile describes the exact original PKG, all 46 decrypted originals, two translation patches and two generated extras. The ZIP contains only the profile, deltas, credits and font license. The app supplies the encryption code and the user supplies a matching license. Existing standard component assets remain compatible with older Automatic/Apply xdelta clients. See the sibling project's `docs/VITA_PKG.md` for the reusable profile contract.
+- `VITA-PKG-XDELTA.json`: exact original, output and delta identities;
+- `Cross-Ange-English-0.1.13-Vita-PKG-xdelta.zip`: that profile and one delta;
+- `VALIDATION.json`: native-output provenance and local packaging verification;
+- `AUTOMATIC-VALIDATION.json`: private-release download and Automatic checks;
+- `SHA256SUMS.txt`: checksums of those downloads.
 
-The repository remains private. Creating or updating a release here does not authorize publishing a Retro Trans app release or making this repository public.
+The flat ZIP contains no extra files. The current delta is about 945 MB, almost
+the output package's size; release notes must make this size clear. Full `.pkg`
+files, licenses, executables, extracted artwork and Japanese working scripts
+remain local. No CPK deltas, old per-file profiles, component manifest or extras
+ZIP should be included in the current release.
+
+Upload and verify the new ZIP/profile before removing retired assets. Test a
+fresh download through the local frozen 0.5.12 app with no local patch argument,
+then test its Automatic UI worker. Compare complete source/output identities.
+Preserve historical validation records in Git; mark them as superseded rather
+than rewriting their original results. The game repository/release stays private.
+
+Publication requires an explicit user request. Updating this game release does
+not authorize a Retro Trans Tools release or source push. Keep the tools 0.5.12
+build local until its own publication is requested.

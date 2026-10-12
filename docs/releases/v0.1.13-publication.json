@@ -64,5 +64,8 @@
       "bytes": 9483,
       "sha256": "8c78ef5ded3af14e02143458dfb894a37b1fea8771e7c742bbe153adeba05ae4"
     }
-  ]
+  ],
+  "historical_record": true,
+  "distribution_superseded_by": "../whole-pkg-release-0.1.13.json",
+  "recorded_component_assets_are_current": false
 }
