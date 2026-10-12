@@ -1,11 +1,11 @@
 # Changelog
 
-## 2026-10-12 — v0.1.12 publication preparation
+## 2026-10-12 — v0.1.12 public release
 
 - Adopted retro-trans/ACE-3's README and release presentation: applying patches, review status, source workflow, repository layout and credits.
 - Prepared verified xdelta packaging for the existing 0.1.12 archive and system-title files, using Retro Trans's schema-2 grouped solution. Credits and font-license additions are separate generated extras. Game bytes and build version are unchanged.
 - Exported all 226 local working translation files with `tools/strip_jp.py`; public sources exclude Japanese scripts, game binaries, artwork, packages and license keys. Retained permitted short glossary names/UI terms and added project MIT licensing alongside the existing font OFL attribution.
-- Both release deltas passed complete-file round trips. Retro Trans's grouped Automatic implementation recognized both source files and applied/verified both outputs locally; the extras ZIP passed readback. Recorded the manifest and compatibility report. Publication was explicitly requested for retro-trans under account binhlt0402; uploaded assets are checked before publishing.
+- Both release deltas passed complete-file round trips. Retro Trans's grouped Automatic implementation recognized both source files and applied/verified both outputs locally; the extras ZIP passed readback. Recorded the manifest and compatibility report. Created public retro-trans/Cross-Ange and published v0.1.12 under binhlt0402 after downloading and hash-verifying all eight uploaded assets. The Retro Trans catalog refresh succeeded; independently verified the published two-component solution and manifest in the central catalog. Game bytes and the v0.1.12 tag are unchanged.
 
 ## 0.1.12 — 2026-10-12 — Remaining tutorial artwork and battle-result spacing
 

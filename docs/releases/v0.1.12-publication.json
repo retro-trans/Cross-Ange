@@ -1,0 +1,66 @@
+{
+  "repo": "retro-trans/Cross-Ange",
+  "tag": "v0.1.12",
+  "release_id": 410067032,
+  "author": "binhlt0402",
+  "draft": false,
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1899,
+      "sha256": "9a6321a4908bf27d6025e17e4bfb61af4b29f9f41ea458b8293d4ee6d1205094",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "Cross-Ange-English-0.1.12-Ange.xdelta",
+      "bytes": 5349693,
+      "sha256": "52002f00bde276d3bf5a4e3060a1bd14a2632922cd2c5e34aa4b7aa20c22d03e",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "Cross-Ange-English-0.1.12-param.xdelta",
+      "bytes": 160,
+      "sha256": "33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "Cross-Ange-English-0.1.12-extras.zip",
+      "bytes": 48808,
+      "sha256": "72f47d679e38794f1c804e480d41b8e9067fc3306ed01de1a174d4e296a4e4f6",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 381,
+      "sha256": "6f01575f56aa4e5e4626dfa7e45790fe0260648bb670f660287368f92a6c0b39",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 521,
+      "sha256": "8a04aaec2fb2056b94804831d9591916db0bdb1ab8da6794b083bccf547cba74",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "EXTRAS-SHA256SUMS.txt",
+      "bytes": 104,
+      "sha256": "b54fcd9879962d24295bc49eff77ed2ab25b98b22b7eea9f592724543f947b8d",
+      "uploaded_download_verified": true
+    },
+    {
+      "name": "RETRO-TRANS-VALIDATION.json",
+      "bytes": 327,
+      "sha256": "5ec367b28712ee1fb7588a13349f17c4737017a810c4882479f2e28b8524a045",
+      "uploaded_download_verified": true
+    }
+  ],
+  "all_downloads_verified": true,
+  "published": true,
+  "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.12",
+  "repository_url": "https://github.com/retro-trans/Cross-Ange",
+  "catalog_workflow_url": "https://github.com/retro-trans/retro-trans-tools/actions/runs/38194345157",
+  "checked_on": "2026-10-12",
+  "catalog_workflow_status": "success",
+  "catalog_release_present": true,
+  "catalog_solution_verified": true
+}
