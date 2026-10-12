@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.1.13 — ACE-3 release presentation
+
+- Reformatted the existing private release using ACE-3's section order: Apply, changes since the previous build, release status, included content, translation method, acknowledgements, source code and contribution links. Added a manual component-patch table and commands, and preserved the verified PKG identities and Automatic instructions.
+- Updated release presentation only; retained the game version, all patch assets, verification records and repository privacy.
+
 ### 0.1.13 — Published Retro Trans 0.5.11 workflow
 
 - Updated the README, PKG instructions and existing private release notes to use the published Retro Trans 0.5.11 Windows app: Automatic takes the original PKG and matching local license, then downloads the translation ZIP on Patch. Kept the Vita tab's local ZIP override.
