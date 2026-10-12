@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T11:03:17.816520+00:00",
+  "game_version": "0.1.13",
+  "private": true,
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "route": "small component patches + local licensed PKG rebuilding",
+  "assets": [
+    {
+      "name": "VITA-PKG.json",
+      "bytes": 9190,
+      "sha256": "bd9fb94d2b8a0f7af225bf8ffe037e0fa4df47dbdb8d281c713cc10c3ea736c3",
+      "asset_id": 633513089
+    },
+    {
+      "name": "Cross-Ange-English-0.1.13-Vita-PKG-patches.zip",
+      "bytes": 5399828,
+      "sha256": "ea1e320f603406445ae241d5850eb3c24ab61cfc4070f0b0816043dd9030ca9f",
+      "asset_id": 633513086
+    },
+    {
+      "name": "VITA-PKG-SHA256SUMS.txt",
+      "bytes": 287,
+      "sha256": "8bf33dcd704ebe9c217000686d0e315e13c7808b9f33330b01d7efe6a425bfd7",
+      "asset_id": 633528641
+    },
+    {
+      "name": "PKG-REBUILD-VALIDATION.json",
+      "bytes": 3074,
+      "sha256": "869c0a622dae9dc38c5f04ca38978c18d19ee11091164228a86286d4168f90e6",
+      "asset_id": 633528545
+    }
+  ],
+  "all_new_assets_downloaded_and_verified": true,
+  "manual_and_hardware_assets_unchanged": true,
+  "whole_pkg_xdelta_withdrawn": true,
+  "game_build_unchanged": true,
+  "tools_build_published": false,
+  "proof": "pkg-rebuild-automatic-0.1.13.json"
+}

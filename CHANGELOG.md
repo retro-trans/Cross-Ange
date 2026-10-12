@@ -1,5 +1,13 @@
 # Changelog
 
+### 0.1.13 — Restore small-download PKG Automatic
+
+- Verification: the frozen local tools 0.5.16 app downloaded the small published ZIP with an empty cache and rebuilt the exact native-verified English PKG; the actual Automatic UI worker passed too. Both native installations verified all 48 files, originals/licenses stayed unchanged, and the 257-test suite passed with four platform skips. See PKG-REBUILD-VALIDATION.json.
+
+- Restored original-PKG Automatic using small component patches and local decryption/re-encryption. Requires the same game's matching local work.bin/.rif during patching and installation; no licenses are bundled/downloaded. Private profile discovery uses existing GitHub CLI access.
+- Whole-PKG xdelta remains withdrawn. Manual CPK patching, generic hardware rePatch, safe workspace cleanup and unchanged originals/licenses/emulator data remain supported. This is a local tools update; no tools release/source push is authorized.
+- Cross Ange translation bytes, game version/footer/credits and repository privacy remain unchanged. The refreshed translation ZIP is about 5.4 MB; official native runtime download and 6 GB temporary space are separate requirements. Gameplay and hardware testing remain outstanding.
+
 ### 0.1.13 — Restore installed CPK patching
 
 - Verification: the actual Apply xdelta UI reproduced the complete English CPK, metadata and extras matched their expected identities, and all seven restored component downloads were verified after upload. The replacement app passed its 251-test suite with four platform skips and frozen startup. Prior local app bundles are archived outside active build outputs.
