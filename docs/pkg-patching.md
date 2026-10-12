@@ -1,6 +1,15 @@
 # Direct PKG patching for Vita3K
 
-The local workflow is:
+The recommended player workflow uses [Retro Trans 0.5.11 or newer](https://github.com/retro-trans/retro-trans-tools/releases/latest):
+
+1. Open **Automatic** and browse to your original Japanese PCSG00597 `.pkg`.
+2. Select its matching local NoNpDrm `work.bin` or `.rif` in **Matching license**.
+3. Choose a new **Translated PKG** filename and click **Patch**. The matching translation ZIP downloads automatically.
+4. Install the resulting package in Vita3K with the same license and check **v0.1.13** on the title screen.
+
+The translation release is private, so automatic downloads need a GitHub account with repository access. An existing GitHub CLI sign-in is used automatically; public releases of other games need no sign-in. The app downloads translation assets and the official Vita3K tool, never your game or license. Use Windows x64 and at least 6 GB of free space. For a downloaded ZIP override, use **Vita → Vita3K PKG → Local patch (optional)** instead.
+
+The standalone local tool workflow is:
 
 1. Select your original Japanese PCSG00597 `.pkg` and its matching 512-byte NoNpDrm `work.bin` or `.rif`.
 2. Select either a prepared local English build or a folder containing the translation release assets.
@@ -13,7 +22,7 @@ The English PKG still requires the matching license. Renaming an unrelated `.rif
 
 ## Current availability
 
-Version 0.1.13 adds release assets for the generic Retro Trans **0.5.8 local test build**: open **Vita**, choose **Vita3K PKG**, supply original PKG and license, select `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip`, choose a new PKG filename, and click **Create translated PKG**. The release profile identifies the game; future supported games can use different profiles without new UI options. Full game PKGs and licenses stay on the user's computer. The repository and releases remain private; Retro Trans 0.5.8 has not been published as an app release. Its existing two-file Automatic workflow remains supported as an alternative.
+Version 0.1.13 supplies the `VITA-PKG.json` profile and `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip` used by Retro Trans's automatic downloads. The profile identifies the game and exact original edition; future supported games use different profiles without new UI options. Full game PKGs and licenses stay on the user's computer. The repository and releases remain private. Retro Trans's existing two-file Automatic workflow remains supported as an alternative.
 
 The rebuilt package is intended for **Vita3K**. Its encrypted sector data and integrity tables are regenerated, but Sony signatures cannot be regenerated. It is not an official signed package or a verified physical-Vita installation method. On hardware, follow the separate [rePatch installation instructions](patch-installation.md).
 

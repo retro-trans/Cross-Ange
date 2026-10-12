@@ -4,9 +4,9 @@ English fan translation of the PS Vita game **CROSS ANGE Rondo of Angel and Drag
 
 ## Applying the patch
 
-The preferred Vita3K workflow is **original PKG + matching NoNpDrm `work.bin` or `.rif` → English PKG → install in Vita3K with the same license**. In the Retro Trans **0.5.8 local test build**, open **Vita**, choose **Vita3K PKG**, and select your original package, matching license, this release's `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip`, and a new PKG filename. Click **Create translated PKG**. No existing installation or manual CPK editing is required. See [direct PKG patching](docs/pkg-patching.md) for the verified edition and CLI alternative. This custom emulator package is not Sony-signed.
+The preferred Vita3K workflow is **original PKG + matching NoNpDrm `work.bin` or `.rif` → English PKG → install in Vita3K with the same license**. Download [Retro Trans 0.5.11 or newer](https://github.com/retro-trans/retro-trans-tools/releases/latest). In **Automatic**, browse to your original package, select its matching license, choose a new **Translated PKG** filename and click **Patch**. The app downloads the matching translation ZIP automatically. No existing installation or manual CPK editing is required. See [direct PKG patching](docs/pkg-patching.md) for the verified edition and CLI alternative. This custom emulator package is not Sony-signed.
 
-**The repository and releases remain private.** Version 0.1.13 adds a declarative Vita PKG profile and a small ZIP containing both translation patches, credits and font attribution. Users supply their own game package and license; the release includes neither. Retro Trans 0.5.8 adds the generic profile flow but has not been published as an app release. The existing Automatic and Apply xdelta routes remain available with the standard two-file patches.
+**The repository and releases remain private.** Automatic downloads require a GitHub account with access; Retro Trans can use your existing GitHub CLI sign-in. Version 0.1.13 includes a declarative Vita PKG profile and a small ZIP containing both translation patches, credits and font attribution. Users supply their own game package and license; the release includes neither. For a local override, download `Cross-Ange-English-0.1.13-Vita-PKG-patches.zip`, open **Vita → Vita3K PKG**, select it under **Local patch (optional)** and click **Create translated PKG**. The existing decrypted-file Automatic and Apply xdelta routes remain available.
 
 For the existing decrypted-file workflow, use [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest):
 
@@ -15,13 +15,13 @@ For the existing decrypted-file workflow, use [Retro Trans](https://github.com/r
 3. Retro Trans downloads both matching patches and verifies the resulting files. Download the matching **extras ZIP** from [Releases](https://github.com/retro-trans/Cross-Ange/releases/latest) for the credits page and font license.
 4. Follow [installation instructions](docs/patch-installation.md) to place the two output files and extras in the right directories. Restart the game and check the title-screen version.
 
-Use Retro Trans 0.4.1 or newer for the grouped two-file solution; the latest version is recommended. This workflow takes decrypted files, not a PKG or `work.bin`. The app's separate **Vita rePatch — Z3** feature is specific to another game. The automatic catalog is refreshed after release publication; if a release has not appeared yet, use the manual steps below.
+Use Retro Trans 0.4.1 or newer for the grouped two-file solution; the latest version is recommended. This component workflow takes decrypted files. Use the preferred PKG workflow above to supply a PKG and license directly. The Vita tab also provides hardware rePatch for games with independently verified hardware profiles. The component catalog is refreshed after release publication; if a release has not appeared yet, use the manual steps below.
 
 For manual patching, download both `.xdelta` files and the extras ZIP from [Releases](https://github.com/retro-trans/Cross-Ange/releases/latest). Use Retro Trans's **Apply xdelta**, Delta Patcher, or xdelta3:
 
 ```text
-xdelta3 -d -s original/Ange.cpk Cross-Ange-English-0.1.12-Ange.xdelta english/Ange.cpk
-xdelta3 -d -s original/param.sfo Cross-Ange-English-0.1.12-param.xdelta english/param.sfo
+xdelta3 -d -s original/Ange.cpk Cross-Ange-English-0.1.13-Ange.xdelta english/Ange.cpk
+xdelta3 -d -s original/param.sfo Cross-Ange-English-0.1.13-param.xdelta english/param.sfo
 ```
 
 Create the `english` folder first. The patches require the exact original files listed in the release's `BUILD-MANIFEST.json`; existing local English builds are not supported upgrade inputs. [Release notes](https://github.com/retro-trans/Cross-Ange/releases) include source/output hashes, changes and known limitations. GitHub's source ZIP contains project files, not a playable game or the patch assets.

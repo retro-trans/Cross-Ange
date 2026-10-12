@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.13 — Published Retro Trans 0.5.11 workflow
+
+- Updated the README, PKG instructions and existing private release notes to use the published Retro Trans 0.5.11 Windows app: Automatic takes the original PKG and matching local license, then downloads the translation ZIP on Patch. Kept the Vita tab's local ZIP override.
+- Added supplementary published-app verification without changing the game patches, profile, branding or build version. The app release workflow passed 247 tests with four platform-specific skips, standalone checks and a real packaged update; the published executable's conversion record covers all 48 installed game files.
+- Retained the original 0.5.8 verification record and all existing game assets. The game repository and release remain private; no game package or license is distributed.
+
 ### 0.1.13 — Generic Retro Trans integration verification
 
 - Verified the local Retro Trans 0.5.8 Windows app against the release ZIP and original PKG: native installation verified all 48 game files, and output matched the standalone package exactly.

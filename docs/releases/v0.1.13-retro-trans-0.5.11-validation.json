@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "retro_trans_version": "0.5.11",
+  "retro_trans_app_published": true,
+  "retro_trans_release_url": "https://github.com/retro-trans/retro-trans-tools/releases/tag/v0.5.11",
+  "retro_trans_release_source_commit": "4cc647937c61afdd74d076be97277482c4cd0edb",
+  "verification_date": "2026-10-12",
+  "game_patch_assets_changed": false,
+  "original_0_5_8_validation_retained": true,
+  "automatic_pkg_ui_worker_verified": true,
+  "automatic_ui_verification_kind": "source UI; published Windows executable tested separately",
+  "published_windows_app_automatic_private_download_verified": true,
+  "local_patch_not_selected": true,
+  "native_pkg_install_verified": true,
+  "native_installed_files_verified": 48,
+  "pkg_sha256": "59bd8f558f8b657d6a298fa0760b7867f67475c579d531fbfffa9c69143d7c8d",
+  "deterministic_match_to_standalone_build": true,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "unit_tests": {
+    "total": 247,
+    "skipped": 4,
+    "failures": 0
+  },
+  "frozen_health_check": {
+    "ok": true,
+    "version": "0.5.11",
+    "tk": "8.6.15",
+    "title": "Retro Trans 0.5.11",
+    "window": [
+      700,
+      440
+    ],
+    "patches": 107,
+    "tabs": [
+      "Automatic",
+      "Apply xdelta",
+      "Save conversion",
+      "Vita"
+    ],
+    "z3_save_converter": true,
+    "chd_round_trip": true,
+    "mx_converter": "experimental early Hugo intermission",
+    "mx_cng_self_check": true,
+    "mx_crypto_provider": "Windows CNG",
+    "vita_pkg_profile_engine": true,
+    "vita_pkg_crypto_self_check": true
+  },
+  "published_tools_assets": [
+    {
+      "name": "Retro-Trans-Windows.zip",
+      "bytes": 17395542,
+      "sha256": "f996de19bbb5d82b86735ec2ec60e9f96a0de995c7d12d975e4bfa6891dc22ee"
+    },
+    {
+      "name": "Retro-Trans.exe",
+      "bytes": 17613279,
+      "sha256": "1b5cc107d6c2788f7a02615606e37e28e2e3f962cd91eaea402289df5768aa22"
+    },
+    {
+      "name": "UPDATE.json",
+      "bytes": 212,
+      "sha256": "7520af8e1136e0e990cb407bc28721eb470515911792677e2057272f8e33002e"
+    }
+  ],
+  "game_runtime_tested": false,
+  "physical_vita_tested": false,
+  "contains_game_or_license": false
+}
