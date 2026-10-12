@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.13",
+  "updated_on": "2026-10-12",
+  "repository_visibility": "PRIVATE",
+  "retro_trans_app_published": true,
+  "retro_trans_version": "0.5.11",
+  "retro_trans_release_url": "https://github.com/retro-trans/retro-trans-tools/releases/tag/v0.5.11",
+  "existing_11_assets_unchanged": true,
+  "supplement_downloaded_and_verified": true,
+  "preferred_flow": "Automatic: original PKG + matching local license -> translated Vita3K PKG",
+  "game_build_version_unchanged": true,
+  "release_notes_readback_verified": true,
+  "assets_include_game_or_license": false,
+  "asset_count": 12,
+  "supplemental_asset": {
+    "name": "RETRO-TRANS-0.5.11-VALIDATION.json",
+    "bytes": 2184,
+    "sha256": "4098544c1ab80a304ac520f551deffe26d5ebb9893082c8411246695e3f29bce"
+  }
+}
