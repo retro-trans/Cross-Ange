@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "reported_build": "0.1.13",
+  "fix_build": "0.1.14",
+  "power": "Light of Mana",
+  "person": "Mana user",
+  "game_source_checked": true,
+  "contextual_translation": true,
+  "reference": "https://www.sunrise-world.net/titles/pickup_362.php",
+  "entries": [
+    {
+      "id": "C030_PRO_000:3381",
+      "before": "Mana light!?",
+      "en": "The Light of Mana!?"
+    },
+    {
+      "id": "C030_PRO_000:3406",
+      "before": "I can't help it! She's a Mana, right?#nWhy is she at Arzenal?",
+      "en": "I can't help it! She's a Mana user, right?#nWhy is she at Arzenal?"
+    },
+    {
+      "id": "C030_PRO_000:3409",
+      "before": "Even if she's a Mana, is it really okay#nto let an outsider do whatever she wants like that?",
+      "en": "Even if she's a Mana user, is it really okay#nto let an outsider do whatever she wants like that?"
+    },
+    {
+      "id": "C030_PRO_000:3411",
+      "before": "Whaaat? A Norma buying a Mana?#nThat's allowed!?",
+      "en": "Whaaat? A Norma buying a Mana user?#nThat's allowed!?"
+    },
+    {
+      "id": "C050_BEV_010:4193",
+      "before": "They must have decided they didn't need her to escape,#nsince Momoka Oginome can use Mana light.",
+      "en": "They must have decided they didn't need her to escape,#nsince Momoka Oginome can use the Light of Mana."
+    },
+    {
+      "id": "C093_MAL_000:9683",
+      "before": "Maybe she said she'd guarantee their lives, even after Mana's light#ngoes out, if they joined Libertus.",
+      "en": "Maybe she said she'd guarantee their lives, even after the Light of Mana#ngoes out, if they joined Libertus."
+    },
+    {
+      "id": "C093_PRO_000:9737",
+      "before": "This is the world's most highly classified area.#nThe entire history of Mana's light and humanity is here.",
+      "en": "This is the world's most highly classified area.#nThe entire history of the Light of Mana and humanity is here."
+    },
+    {
+      "id": "C093_PRO_000:9774",
+      "before": "so that the energy she produced could continue#nto be supplied to humanity as Mana's light.",
+      "en": "so that the energy she produced could continue#nto be supplied to humanity as the Light of Mana."
+    },
+    {
+      "id": "C093_PRO_000:9776",
+      "before": "Mana's light is an infinite, all-purpose source of energy,#nand it can also exert a profound influence on the human mind.",
+      "en": "The Light of Mana is an infinite, all-purpose source of energy,#nand it can also exert a profound influence on the human mind."
+    },
+    {
+      "id": "C093_PRO_000:9788",
+      "before": "But the humans, content with Mana's light they were given,#nabandoned the path of evolution of their own accord.",
+      "en": "But the humans, content with the Light of Mana they were given,#nabandoned the path of evolution of their own accord."
+    },
+    {
+      "id": "C101_BEV_036:9904",
+      "before": "(Aura was rescued,#n and Mana's light would never shine again.)",
+      "en": "(Aura was rescued,#n and the Light of Mana would never shine again.)"
+    },
+    {
+      "id": "C110_CRS_000:11140",
+      "before": "(With Mana's light gone, every kind of system#n and machine had become useless.)",
+      "en": "(With the Light of Mana gone, every kind of system#n and machine had become useless.)"
+    },
+    {
+      "id": "C110_VIV_000:11354",
+      "before": "(Along with the disappearance of Mana's light,#n that fact threw the humans into great confusion.)",
+      "en": "(Along with the disappearance of the Light of Mana,#n that fact threw the humans into great confusion.)"
+    },
+    {
+      "id": "samplescript:2106",
+      "before": "\"The light of Mana was a new power#nbrought to humanity several hundred years ago.\"",
+      "en": "\"The Light of Mana was a new power#nbrought to humanity several hundred years ago.\""
+    },
+    {
+      "id": "samplescript:2107",
+      "before": "\"The light of Mana, with its limitless, all-powerful strength,#nwas given to every human being.\"",
+      "en": "\"The Light of Mana, with its limitless, all-powerful strength,#nwas given to every human being.\""
+    },
+    {
+      "id": "samplescript:2108",
+      "before": "\"The light of Mana solved all the problems facing humanity,#nincluding shortages of energy and food.\"",
+      "en": "\"The Light of Mana solved all the problems facing humanity,#nincluding shortages of energy and food.\""
+    },
+    {
+      "id": "samplescript:2109",
+      "before": "\"With the light of Mana, people achieved their ideals and no longer#nneeded to fight, creating a peaceful world.\"",
+      "en": "\"With the Light of Mana, people achieved their ideals and no longer#nneeded to fight, creating a peaceful world.\""
+    },
+    {
+      "id": "samplescript:2110",
+      "before": "\"The world reached the height of prosperity through the light of Mana.#nBut something appeared to disturb that peace.\"",
+      "en": "\"The world reached the height of prosperity through the Light of Mana.#nBut something appeared to disturb that peace.\""
+    },
+    {
+      "id": "samplescript:2113",
+      "before": "\"For reasons unknown, the light of Mana did not work on DRAGONs,#nand they reportedly wreaked destruction wherever they went.\"",
+      "en": "\"For reasons unknown, the Light of Mana did not work on DRAGONs,#nand they reportedly wreaked destruction wherever they went.\""
+    },
+    {
+      "id": "samplescript:2114",
+      "before": "\"Meanwhile, it was discovered that, on very rare occasions,#nchildren were born without the light of Mana.\"",
+      "en": "\"Meanwhile, it was discovered that, on very rare occasions,#nchildren were born without the Light of Mana.\""
+    },
+    {
+      "id": "samplescript:2116",
+      "before": "\"From birth, Norma cannot accept the light of Mana,#nnor can they use it.\"",
+      "en": "\"From birth, Norma cannot accept the Light of Mana,#nnor can they use it.\""
+    },
+    {
+      "id": "samplescript:2122",
+      "before": "\"At Arzenal, we educate Norma who lack the light of Mana#nand train them to be useful to the world. Understood?\"",
+      "en": "\"At Arzenal, we educate Norma who lack the Light of Mana#nand train them to be useful to the world. Understood?\""
+    },
+    {
+      "id": "samplescript:2155",
+      "before": "(We Norma are defectives who can't use the light of Mana.#nThat's what we've been taught all our lives.)",
+      "en": "(We Norma are defectives who can't use the Light of Mana.#nThat's what we've been taught all our lives.)"
+    },
+    {
+      "id": "C030_PRO_000:3422",
+      "before": "Hmm, it really is an unbelievable sight.#nA Mana working for a Norma...",
+      "en": "Hmm, it really is an unbelievable sight.#nA Mana user working for a Norma..."
+    }
+  ]
+}

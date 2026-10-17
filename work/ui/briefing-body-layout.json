@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "reported_build": "0.1.13",
+  "fix_build": "0.1.14",
+  "runtime_verified": false,
+  "screen_size": [
+    960,
+    544
+  ],
+  "panel": {
+    "text_x": 30,
+    "text_y": 130,
+    "right_edge": 640,
+    "bottom_edge": 420,
+    "line_advance": 30,
+    "glyph_cell_height": 26
+  },
+  "geometry_provenance": "Conservative bounds estimated from user briefing crops, normalized to the 960x544 native screen. Eight lines are supported by the original operation-briefing placeholder. Rendering in game still needs confirmation.",
+  "width_limit": 580,
+  "maximum_lines": 8,
+  "expected_descriptions": 65,
+  "font": "GenEi LateGo v2 Medium",
+  "measurement": "Native generated proportional advance table at font size 22; conservative for the displayed UI size.",
+  "preserve": [
+    "complete wording",
+    "blank paragraph separators",
+    "non-layout control sequence",
+    "color-warning line boundary",
+    "all unrelated string-table fields"
+  ],
+  "source_captures": [
+    "work/ui/local/screenshots/0.1.13/briefing-search-overflow.png",
+    "work/ui/local/screenshots/0.1.13/naomi-mana-light.png",
+    "work/ui/local/screenshots/0.1.13/chris-mana-user.png",
+    "work/ui/local/screenshots/0.1.13/briefing-dragons-overflow.png"
+  ]
+}

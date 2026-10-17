@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "project_version": "0.1.12",
-  "checked_on": "2026-10-12",
+  "project_version": "0.1.14",
+  "checked_on": "2026-10-17",
   "target_language": "en",
   "title_id": "PCSG00597",
   "status": "structured_english_local_test_build_available",
@@ -171,17 +171,17 @@
     "english_export_files": 226,
     "english_exports": "Completed slices and consolidated scenario, UI and additional-table drafts have source-free exports. Draft status does not establish a playable translation.",
     "screen_measurements": "Two source captures measured approximately; English layout unverified.",
-    "reinsertion": "All identified structured targets inserted in 0.1.12",
+    "reinsertion": "All identified structured targets inserted in 0.1.14",
     "playable_build": "Local test candidate built; English runtime unverified."
   },
   "license_status": "User-supplied matching license successfully decrypted the package; key remains local and ignored.",
   "draft_milestone_version": "0.1.3",
   "latest_local_build": {
-    "version": "0.1.12",
-    "manifest": "work/output/cross-ange-0.1.12/manifest.json",
+    "version": "0.1.14",
+    "manifest": "work/output/cross-ange-0.1.14/manifest.json",
     "structured_targets_inserted": 17151,
     "scenario_files": 462,
-    "scenario_layout_review_rows": 296,
+    "scenario_layout_review_rows": 297,
     "runtime_tested": false,
     "scope": "Build snapshot; later draft edits require a new build. Selected raster artwork is inserted; other raster, manual prose and movie text remain pending.",
     "tutorial_textures_inserted": 10,
@@ -193,14 +193,27 @@
     "ui_label_layout_record": "work/ui/briefing-label-layout.json",
     "font": "GenEi LateGo v2",
     "pixel_layout": {
-      "reflowed_records": 8364,
+      "reflowed_records": 8363,
       "scaled_dialogue_records": 88,
       "scaled_speaker_records": 18,
       "maximum_estimated_line_width": 670.0,
       "maximum_lines": 3,
       "body_width_limit": 670
     },
-    "installation_status": "installed-and-hash-verified",
-    "installation_record": "work/output/cross-ange-0.1.12/vita3k-install.json"
+    "briefing_layout": {
+      "descriptions_checked": 65,
+      "reflowed": 42,
+      "width_limit": 580,
+      "maximum_lines": 8,
+      "layout_record": "work/ui/briefing-body-layout.json",
+      "runtime_verified": false
+    },
+    "installation_status": "native-pkg-install-and-48-file-hashes-verified-in-isolation",
+    "installation_record": "docs/local-build-0.1.14-validation.json",
+    "package": "work/output/cross-ange-0.1.14/Cross-Ange-English-0.1.14.pkg",
+    "gameplay_tested": false,
+    "release_published": false,
+    "retro_trans_version": "0.5.16",
+    "retro_trans_app_published": true
   }
 }

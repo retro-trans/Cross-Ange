@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "build": "0.1.14",
+  "verified_at": "2026-10-17T01:15:49.691810+00:00",
+  "local_build_only": true,
+  "release_published": false,
+  "installed_user_game_modified": false,
+  "emulator_saves_modified": false,
+  "tests": {
+    "translation_font_and_layout": 16,
+    "branding": 3,
+    "failures": 0,
+    "glossary_audit": "passed"
+  },
+  "briefing_layout": {
+    "descriptions_checked": 65,
+    "reflowed": 42,
+    "width_limit": 580,
+    "maximum_lines": 8,
+    "wording_and_non_layout_controls_preserved": true,
+    "runtime_verified": false,
+    "layout_record": "work/ui/briefing-body-layout.json"
+  },
+  "terminology": {
+    "dialogue_records_changed": 24,
+    "power": "Light of Mana",
+    "person": "Mana user",
+    "review": "work/ui/mana-terminology-review.json"
+  },
+  "archive_checks": {
+    "member_count": 4486,
+    "replaced_members": 483,
+    "unchanged_toc_rows": 4003,
+    "original_payload_bytes_preserved": true,
+    "etoc_preserved": true,
+    "runtime_tested": false
+  },
+  "native_pkg": {
+    "bytes": 944820592,
+    "sha256": "c4952a7de9829d292cd96ab3afa50bde8b3bc62fafd7ea22e68b6f2e06b70f11",
+    "members": 62,
+    "encrypted_pfs": true,
+    "sony_signed": false,
+    "target": "Vita3K",
+    "version": "0.1.14",
+    "native_pkg_install_verified": true,
+    "verified_files": 48,
+    "original_pkg_unchanged": true,
+    "license_unchanged": true,
+    "gameplay_tested": false
+  },
+  "component_delta_roundtrips_verified": true,
+  "local_translation_zip": {
+    "path": "work/output/cross-ange-0.1.14/local-patches/Cross-Ange-English-0.1.14-Vita-PKG-patches.zip",
+    "bytes": 5399411
+  },
+  "title_and_credits_version": "0.1.14",
+  "native_font_records_validated": 46048,
+  "source_ids_and_voices_preserved": true,
+  "visual_gameplay_confirmation_pending": true,
+  "preview_images": [
+    "work/output/cross-ange-0.1.14/search-briefing-layout.png",
+    "work/output/cross-ange-0.1.14/dragons-briefing-layout.png"
+  ]
+}

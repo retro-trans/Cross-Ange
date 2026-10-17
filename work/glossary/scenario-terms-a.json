@@ -27,7 +27,26 @@
         841,
         847
       ],
-      "notes": "Existing Mana entry remains unchanged; this records the longer observed phrase."
+      "notes": "Existing Mana entry remains unchanged; this records the longer observed phrase.",
+      "usage_review_0_1_14": {
+        "power": "Mana; use Light of Mana for the longer named phrase",
+        "person_reference": "Mana user (when the source calls a person Mana by metonymy)",
+        "avoid": [
+          "Mana light",
+          "Mana's light",
+          "a Mana",
+          "Light of Mana user"
+        ],
+        "source_ids": [
+          "C030_PRO_000:3381",
+          "C030_PRO_000:3406",
+          "C030_PRO_000:3409",
+          "C030_PRO_000:3411",
+          "C030_PRO_000:3422"
+        ],
+        "reference": "https://www.sunrise-world.net/titles/pickup_362.php",
+        "reference_scope": "Official setting describes Mana as the power used by humans and Norma as people unable to use it. Mana user is our contextual English wording, not an asserted official English label."
+      }
     },
     {
       "id": "handywoman_nickname",

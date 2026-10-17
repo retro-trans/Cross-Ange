@@ -42,6 +42,11 @@ def attach(report):
     if 'font' in translation:
         report['latest_local_build']['font'] = translation['font']['family']
         report['latest_local_build']['pixel_layout'] = translation['scenario']['pixel_layout']
+    if 'briefing_layout' in translation:
+        layout = translation['briefing_layout']
+        report['latest_local_build']['briefing_layout'] = {
+            key: layout[key] for key in ('descriptions_checked', 'reflowed', 'width_limit',
+                                         'maximum_lines', 'layout_record', 'runtime_verified')}
     install = folder / 'vita3k-install.json'
     if install.exists():
         record = json.loads(install.read_text(encoding='utf-8'))

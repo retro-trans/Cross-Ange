@@ -71,6 +71,8 @@ class TranslationBuildChecks(unittest.TestCase):
         substitutions = {'latin_display_aliases': Counter()}
         overrides = {(entry['id'], entry['column']): entry['display_en']
                      for entry in self.report['ui_layout']['entries']}
+        overrides.update({(entry['id'], 0): entry['display_en']
+                          for entry in self.report['briefing_layout']['entries']})
         for row in load('interface')['entries']:
             for column, field in enumerate(row['fields']):
                 if field is None or not field['contains_japanese']:
@@ -78,6 +80,52 @@ class TranslationBuildChecks(unittest.TestCase):
                 pointer = struct.unpack_from('<I', raw, row['record_offset'] + column * 4)[0]
                 expected = overrides.get((row['id'], column), field['en'])
                 self.assertEqual(string_at(raw, pointer)[0], display_text(expected, substitutions))
+
+    def test_all_operation_briefings_fit_emitted_native_widths(self):
+        from briefing_layout import non_layout_controls, visible
+        raw = self.members['data/_dat/strings.bnd']
+        layout = self.report['briefing_layout']
+        self.assertEqual(layout['descriptions_checked'], 65)
+        self.assertGreater(layout['reflowed'], 20)
+        rows = {r['id']: r for r in load('interface')['entries']}
+        for entry in layout['entries']:
+            source = rows[entry['id']]['fields'][0]['en']
+            pointer = struct.unpack_from('<I', raw, rows[entry['id']]['record_offset'])[0]
+            actual = string_at(raw, pointer)[0]
+            self.assertEqual(visible(actual), visible(source), entry['key'])
+            self.assertEqual(non_layout_controls(actual), non_layout_controls(source), entry['key'])
+            self.assertLessEqual(len(actual.split('#n')), 8, entry['key'])
+            for line in actual.split('#n'):
+                self.assertLessEqual(english_font.measure(line), 580, entry['key'])
+            if '#c600' in source:
+                self.assertIn('#n#c600', actual, entry['key'])
+        for identifier in (470, 511):
+            entry = next(r for r in layout['entries'] if r['id'] == identifier)
+            self.assertGreater(entry['original_maximum_width'], layout['width_limit'])
+            self.assertTrue(entry['changed'])
+
+    def test_briefing_reflow_rejects_vertical_overflow_and_preserves_warnings(self):
+        from briefing_layout import fit, non_layout_controls, visible
+        source = ('Small and medium DRAGONs have appeared near Arzenal. ' * 2 +
+                  '#n #nThis is a solo mission.#n#c600(You cannot select a partner.)')
+        actual = fit(source, 580, 8)
+        self.assertEqual(visible(actual), visible(source))
+        self.assertEqual(non_layout_controls(actual), ['#c600'])
+        self.assertIn('#n #n', actual)
+        self.assertIn('#n#c600', actual)
+        with self.assertRaises(ValueError):
+            fit('A large DRAGON has appeared. ' * 100, 580, 8)
+        with self.assertRaises(ValueError):
+            fit('W' * 1000, 580, 8)
+
+    def test_mana_power_and_person_terms(self):
+        canonical = {r['id']: r['en'] for r in load('corpus')['entries']}
+        self.assertEqual(canonical['C030_PRO_000:3381'], 'The Light of Mana!?')
+        self.assertIn("She's a Mana user, right?", canonical['C030_PRO_000:3406'])
+        self.assertIn('A Mana user working for a Norma', canonical['C030_PRO_000:3422'])
+        for identifier, text in canonical.items():
+            visible = text.replace('#n', ' ')
+            self.assertIsNone(re.search(r"\bMana(?:'s)? light\b|\b[aA] Mana\b(?! user)", visible), identifier)
 
     def test_relocation_preserves_unrelated_fields(self):
         original = (SOURCE / 'data/_dat/strings.bnd').read_bytes()

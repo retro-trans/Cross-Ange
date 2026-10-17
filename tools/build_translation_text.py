@@ -166,7 +166,7 @@ def scenarios(substitutions):
                            'longest_line_character_diagnostic': max_line}
 
 
-def relocate_bnd(raw, changes):
+def relocate_bnd(raw, changes, reflow_cells=()):
     payload = struct.unpack_from('<I', raw, 4)[0]
     count = struct.unpack_from('<I', raw, payload)[0]
     if payload % 4 or payload + 4 + count * 4 != len(raw):
@@ -179,7 +179,10 @@ def relocate_bnd(raw, changes):
             raise ValueError('Missing or duplicated BND pointer relocation')
         if struct.unpack_from('<I', raw, pointer_cell)[0] != source_offset or string_at(raw, source_offset)[0] != source_text:
             raise ValueError('BND source pointer/text mismatch')
-        checked_controls(source_text, english, pointer_cell)
+        if pointer_cell in reflow_cells:
+            checked_controls(source_text.replace('#n', ''), english.replace('#n', ''), pointer_cell)
+        else:
+            checked_controls(source_text, english, pointer_cell)
         if english not in cached:
             cached[english] = len(modified)
             modified.extend(english.encode('utf-16le') + b'\0\0')
@@ -204,10 +207,12 @@ def tables(substitutions):
     interface = load('interface')
     from ui_label_layout import compact_labels
     compact, ui_layout = compact_labels(interface)
+    from briefing_layout import descriptions
+    briefings, briefing_report = descriptions(interface)
     originals = parse_ui(SOURCE / 'data/_dat')
     if len(originals) != len(interface['entries']):
         raise ValueError('UI row count mismatch')
-    changes, sample = [], None
+    changes, sample, reflow_cells = [], None, set()
     for source, row in zip(originals, interface['entries']):
         if source['id'] != row['id'] or source.get('key') != row.get('key') or source['record_offset'] != row['record_offset']:
             raise ValueError('UI identity mismatch')
@@ -224,15 +229,18 @@ def tables(substitutions):
             if not english:
                 raise ValueError('Missing English UI field')
             english = compact.get((row['id'], field['column']), english)
+            if (row['id'], field['column']) in briefings:
+                english = briefings[row['id'], field['column']]
+                reflow_cells.add(row['record_offset'] + field['column'] * 4)
             english = display_text(english, substitutions)
             cell = row['record_offset'] + field['column'] * 4
             changes.append((cell, field['source_offset'], field['text'], english))
             if row['key'] == 'STR_DIFFICULT_SELECT':
                 sample = {'id': row['id'], 'key': row['key'], 'en': english}
     filename = 'data/_dat/strings.bnd'
-    replacements[filename] = relocate_bnd((SOURCE / filename).read_bytes(), changes)
+    replacements[filename] = relocate_bnd((SOURCE / filename).read_bytes(), changes, reflow_cells)
     report.append({'file': filename, 'japanese_targets_inserted': len(changes), 'sample': sample,
-                   'ui_layout': ui_layout})
+                   'ui_layout': ui_layout, 'briefing_layout': briefing_report})
     if len(changes) != 1716:
         raise ValueError('Incomplete UI coverage')
     additional = load('additional')
@@ -303,6 +311,7 @@ def generate():
               'font': english_font.report(),
               'drafts_modified': False, 'tutorials': tutorial_report, 'chapter_titles': chapter_report,
               'ui_layout': table_report[0]['ui_layout'],
+              'briefing_layout': table_report[0]['briefing_layout'],
               'raster_and_manual_translation_inserted': False,
               'selected_tutorial_artwork_inserted': True,
               'layout_runtime_tested': False}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.14 — 2026-10-17 — Briefing layout and Mana terminology
+
+- Audited all 65 operation/heroine/side-mission descriptions and reflowed 42 that exceeded the panel. Generated strings fit 580 pixels and eight lines using native proportional advances; complete wording, blank paragraphs and color warnings survive. Unrelated UI fields remain unchanged.
+- Standardized 24 dialogue records, including sample-script counterparts: Light of Mana for the named power, Mana user for a person. Corrected Naomi's surprised line and all four metonymic person references in Momoka's arrival scene; updated glossary usage notes and related translation slices.
+- Added regressions for the two reported briefing fields, every mission description, vertical overflow, partner-warning color controls and Mana terminology. Sixteen translation/native-font/layout checks and three branding checks passed; glossary audit passed.
+- Regenerated the title footer and credits with the same 0.1.14 version, retaining original copyright and the GenEi font license. Repacked 483 members; all 4,003 unaffected archive rows/payloads and the ETOC remain intact.
+- Prepared a local small translation ZIP and English PKG for testing with Retro Trans Tools 0.5.16. Both component deltas roundtrip exactly; isolated native installation verified all 48 English game files and preserved the original PKG/license. See docs/local-build-0.1.14-validation.json. No release was requested or published. In-game layout confirmation and the existing portrait issue remain outstanding.
+
 ### 0.1.13 — Published tools 0.5.16
 
 - Linked the separately authorized Retro Trans Tools 0.5.16 Windows release for Automatic PKG rebuilding and hardware rePatch. Game version, bytes and patch assets are unchanged.
