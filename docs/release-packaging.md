@@ -6,4 +6,11 @@ Use `tools/package_release.py --build 0.1.13 --write` to package the local-rebui
 
 Current assets: VITA-PKG.json, Cross-Ange-English-0.1.13-Vita-PKG-patches.zip, VITA-PKG-SHA256SUMS.txt and PKG-REBUILD-VALIDATION.json; the seven installed CPK/component assets; and the five hardware rePatch assets. Do not publish VITA-PKG-XDELTA.json or the package-size whole-PKG ZIP.
 
+Catalog repair deployed after explicit approval: added standard `VALIDATION.json`, bound to the
+exact `BUILD-MANIFEST.json` bytes with one verified roundtrip per patch, and
+included it in `SHA256SUMS.txt`. The custom `CPK-VALIDATION.json` remains useful
+UI evidence but does not replace the standard report. Component packaging now
+generates both and runs the shared release validator before completing. Published metadata passed readback and strict catalog validation; all other
+release assets are unchanged.
+
 Upload/re-read the small profile/ZIP, then verify actual Automatic discovery and complete local conversion with a matching license. A second isolated native Vita3K installation must verify all 48 output files and the original/license must remain unchanged. Retain earlier verification records as historical provenance. Game bytes, title footer and credits remain 0.1.13 for this distribution update. The user separately authorized publishing tools 0.5.16; future game-release updates still do not implicitly authorize tools releases.

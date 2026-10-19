@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parent / 'retro-trans-tools'))
 from retro_trans.catalog import validate_manifest
 from retro_trans.core import decode, engine_context, sha256_file, PatchError
+from retro_trans.release import validate_directory
 
 def require(condition, message):
     if not condition:
@@ -46,6 +47,7 @@ def package(build, output=None, write=False):
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.cpk-release-', dir=output.parent) as temporary:
         stage = Path(temporary)
+        roundtrips = []
         with engine_context() as engine:
             for index, row in enumerate(manifest['patches']):
                 name = row['edition'].split(' / ', 1)[1]
@@ -57,12 +59,19 @@ def package(build, output=None, write=False):
                 decode(engine, original, assets/row['patch'], target, row['target_bytes'])
                 require(target.stat().st_size == row['target_bytes'] and sha256_file(target) == row['target_sha256'],
                         'Component round trip failed.')
+                roundtrips.append(dict(patch=row['patch'], roundtrip_verified=True,
+                                       target_sha256=row['target_sha256']))
                 target.unlink()
         for name in names:
             shutil.copyfile(assets/name, stage/name)
         (stage/'CPK-VALIDATION.json').write_bytes((json.dumps(proof, indent=2)+'\n').encode())
         names.append('CPK-VALIDATION.json')
+        validation = dict(schema_version=1, version=build,
+                          manifest_sha256=sha256_file(stage/'BUILD-MANIFEST.json'), patches=roundtrips)
+        (stage/'VALIDATION.json').write_bytes((json.dumps(validation, indent=2)+'\n').encode())
+        names.append('VALIDATION.json')
         (stage/'SHA256SUMS.txt').write_bytes(''.join(sha256_file(stage/name)+'  '+name+'\n' for name in names).encode())
+        validate_directory(stage)
         stage.rename(output)
     print('Verified component release prepared. Nothing published.')
 

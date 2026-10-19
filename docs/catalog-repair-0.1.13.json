@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "status": "uploaded_and_readback_verified",
+  "standard_validation_generated_from_complete_component_roundtrips": true,
+  "game_and_patch_bytes_unchanged": true,
+  "component_packager_shared_validation_passed": true,
+  "metadata": [
+    {
+      "name": "VALIDATION.json",
+      "path": "work/output/catalog-repair-0.1.13/VALIDATION.json",
+      "bytes": 1071,
+      "sha256": "384fc60866f9b69ed1a77c3e5542d16a54be9e7ba0a2508d09894b8bbd4a67bd"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "path": "work/output/catalog-repair-0.1.13/SHA256SUMS.txt",
+      "bytes": 654,
+      "sha256": "bf3e0de0ac2c12cddc717bdd23bffbfb668c5d4b18793e692bb14be8a8dc89d9"
+    }
+  ],
+  "tools_validation": "../retro-trans-tools/docs/catalog-refresh-repair-validation.json",
+  "tools_push_authorized": true,
+  "hosted_refresh_rerun": true,
+  "uploaded_at": "2026-10-19T06:29:17.814647+00:00",
+  "published_metadata_verified": true,
+  "other_fifteen_assets_unchanged": true,
+  "published_cross_ange_strict_catalog_validation_passed": true,
+  "hosted_run": "https://github.com/retro-trans/retro-trans-tools/actions/runs/39210109626"
+}
