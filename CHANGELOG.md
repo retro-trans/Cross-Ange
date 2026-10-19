@@ -1,5 +1,11 @@
 # Changelog
 
+### Unreleased — Catalog validation metadata repair
+
+- Prepared the missing standard VALIDATION.json for released 0.1.13 by fully decoding both published component deltas and checking the complete original/English identities. Extended the existing checksum list without changing any game, patch, profile or ZIP bytes. Both metadata files were uploaded after explicit approval; strict live catalog validation passed and the other 15 release assets stayed unchanged.
+- Component packaging now emits the manifest-bound standard proof alongside custom CPK UI evidence, checksums both and runs the shared Retro Trans release validator. A complete local packaging run passed. The tools catalog fix separately validates generic rePatch extras and isolates rejected releases. No new game build or release was created.
+
+
 ## 0.1.14 — 2026-10-17 — Briefing layout and Mana terminology
 
 - Audited all 65 operation/heroine/side-mission descriptions and reflowed 42 that exceeded the panel. Generated strings fit 580 pixels and eight lines using native proportional advances; complete wording, blank paragraphs and color warnings survive. Unrelated UI fields remain unchanged.
