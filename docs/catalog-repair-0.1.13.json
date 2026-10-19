@@ -26,5 +26,11 @@
   "published_metadata_verified": true,
   "other_fifteen_assets_unchanged": true,
   "published_cross_ange_strict_catalog_validation_passed": true,
-  "hosted_run": "https://github.com/retro-trans/retro-trans-tools/actions/runs/39210109626"
+  "hosted_run": "https://github.com/retro-trans/retro-trans-tools/actions/runs/39210109626",
+  "hosted_refresh_conclusion": "success",
+  "hosted_report_status": "complete",
+  "published_catalog_releases": 77,
+  "hosted_rejections": [],
+  "previous_catalog_identities_preserved": true,
+  "tools_checks": "https://github.com/retro-trans/retro-trans-tools/actions/runs/39210087958"
 }
