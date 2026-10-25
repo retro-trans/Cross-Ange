@@ -1,5 +1,102 @@
 # Changelog
 
+### 0.1.16 — Public release preparation
+
+- At the user's explicit request, prepared the existing verified 0.1.16 game build for publication, retaining its game bytes, title footer and credits version.
+- Refreshed current installation instructions and English-only source exports; retained small local PKG rebuilding, manual installed component patches and hardware rePatch. Added the separate experimental Vita3K HUD release link and retained gameplay/hardware limitations.
+- Re-ran all 27 translation/native-font/branding/HUD/timed-dialogue checks successfully. Release packaging validates every original, target, delta, extras file and native installation record. No full game or license is distributed; user installations and saves are preserved.
+
+### 2026-10-25 — Published experimental Vita3K HUD build
+
+- At the user's explicit request, published `retro-trans/Vita3K` prerelease `v0.2.1-cross-ange-hud.1`, tagged at the tested source commit `fbbdf3d3` (emulator build 4234).
+- Uploaded the original 38,704,992-byte Windows x64 CI ZIP and `SHA256SUMS.txt`. Verified the CI/archive/executable hashes, retained the license and excluded all local portable test data. Confirmed anonymous downloads work without GitHub sign-in.
+- Release notes describe the indexing correction, automatic shader regeneration, installation and source/credits. Compilation, both CTest suites and 256 native reference checks passed; full battle behavior remains unverified. Preserved the game releases, translation version, installed emulators and saves.
+
+### 2026-10-25 — Latest Vita3K check and experimental fork
+
+- Verified latest upstream `92bda548` still applies the extra indexed-register scaling. Created `retro-trans/Vita3K` and pushed an experimental branch based on that revision at the user's request.
+- Confirmed the same defect using official Windows build 4232's actual shader-recompile command: all 12 programs retain extra scaling and all 256 scalar references disagree with native declarations. Used an isolated empty portable directory; all emitted GLSL compiles independently.
+- Source correction `3da691c2` removes the repeated scaling, aligns disassembly and increments the current shader cache version from 15 to 16. Four native-reference/guard regressions pass, including 256 scalar reads. Broader runtime compatibility remains unverified.
+- Added a Windows CI test artifact build and retained the old source prototype and emulator backups. Full build results are recorded separately; no game build, installed emulator change, upstream report/PR or GitHub release.
+- Windows CI run `40204605165` succeeded with both upstream CTest suites; separate formatting checks also passed. Downloaded the test artifact separately and ran its real translator: 12 shaders compile and all 256 scalar reads match native declarations, versus 256 mismatches in official build 4232. The rebuilt emulator's battle behavior is still unverified.
+
+### 2026-10-25 — HUD fix packaging boundary
+
+- Located all 12 affected native shaders byte-for-byte inside the original executable ELF. The working correction targets Vita3K-generated shaders, so it is outside the CPK/rePatch asset patch.
+- Documented optional emulator-companion packaging and a corrected emulator build as separate delivery routes. No companion installer or corrected emulator binary has been packaged. Game files/version, releases and source visibility are unchanged.
+
+### 2026-10-25 — Vulkan HUD improvement confirmed; English workaround
+
+- The user reports the indexed-uniform Vulkan candidate is “much better”. Recorded the capture, Vulkan/High Accuracy/Mapping Disabled startup and unchanged candidate module identities. Timer, speed panel and radar background align; the large dark block is gone. Full radio/counter/mission coverage and a remaining outlined quad are unverified.
+- Backed up the closed main English emulator's game-specific shader cache/profile and installed the same 12 validated Vulkan modules with exact readback. Matched the successful GPU profile, retained native cache feature mask 25 and quarantined the previous pipeline cache. The successful running comparison was preserved.
+- Global configuration, game bytes, executable, licenses and saves are unchanged. English battle confirmation is pending. Cache resets, GPU-feature changes or Vita3K updates can remove this workaround; a persistent emulator build is not yet produced. No game build, release or source push.
+
+### 2026-10-25 — Indexed shader candidate and Vulkan comparison
+
+- Traced 12 Cross Ange vertex shaders to an extra indexed-uniform scaling in Vita3K 4188. Native GXP parameter/container declarations and I16MAD instructions support 256 corrected scalar lookups. Staged 24 OpenGL expression edits; all 12 shaders compile and four reference/guard regressions pass.
+- The user reports an improved top-right HUD after the isolated experiment; the dark panel/radar remain broken. Recorded this as partial improvement, not a complete fix.
+- At the user's request, switched the isolated comparison back to Vulkan and carried the same correction into 12 SPIR-V modules. Original and edited modules pass Vulkan 1.1 validation. Backed up the isolated cache, matched its profile/feature mask and preserved main-emulator files, game files and saves.
+- Retained an unbuilt source prototype and local evidence/rollback records. Vulkan battle verification is pending. Game version remains 0.1.16; no emulator executable, game build, release or source push.
+
+### 2026-10-25 — Surface Sync failed; HUD reproduction report
+
+- Recorded the user's failed original-game Surface Sync retest and retained the fresh OpenGL log and saved profile. No verified workaround has been found.
+- Consolidated original/English tests, file verification, screenshots and logs into a local upstream bug-report draft. The same symptom reproduces without modified game files; game/emulator/driver cause is unresolved. Fresh-save and physical-Vita behavior remain untested.
+- Left the English profile on restored Vulkan/High Accuracy/Double Buffer and retained the isolated copy's last tested profile. No further settings changes, game build, external report, release or source push.
+
+### 2026-10-25 — Original game reproduces HUD corruption
+
+- The user reproduced the same HUD corruption in the unpatched Japanese game. Verified its OpenGL startup log and all 46 original game files after testing; retained the Japanese screenshot and log. Modified game files are not required to reproduce the defect. Emulator/game rendering remains the target; hardware behavior is unverified.
+- Enabled Surface Sync only in the isolated original-game profile for one further controlled test. Restored the user's English profile to Vulkan, High Accuracy and Double Buffer after the unsuccessful diagnostics, with profile backups.
+- Preserved global configuration, game files, saves, licenses and caches. Game version remains 0.1.16; no new build, release, external report or source push.
+
+### 2026-10-25 — OpenGL failed; original-game comparison prepared
+
+- Recorded the user's failed OpenGL retest and dark-panel/radar corruption capture. The 19:23 log confirms OpenGL 4.6 loaded. The cause remains unconfirmed after both renderer tests.
+- Verified all 46 original game files and the matching emulator binary in an isolated comparison copy. Copied both current save files with stability checks, backed up the comparison's previous state and matched the failed test's OpenGL profile. Added the local “Compare Original - Cross Ange” shortcut.
+- The original-game battle comparison is awaiting user testing. Preserved the user's translated game, saves, settings, caches and running process. No new game build, release or source push.
+
+### 2026-10-25 — Disabled mapping failed; OpenGL diagnostic
+
+- Recorded the user's failed retest. The restarted 19:01 log confirms High Accuracy and Memory Mapping Disabled, so the earlier profile took effect without fixing the displaced HUD.
+- Backed up the current game profile and changed only Cross Ange's renderer from Vulkan to OpenGL for the next launch. Same game/battle comparison is pending; the cause remains unconfirmed. Added rollback instructions and retained the failed-test log.
+- Global configuration, game files, saves, licenses, caches and the running process are unchanged. No new game build, release or source push.
+
+### 2026-10-25 — HUD memory-mapping diagnostic
+
+- Recorded displaced speed/counter/radio panels, radar and kill display in the latest user capture. The user's startup log confirms High Accuracy loaded; it has not resolved the HUD. Fresh readback verified all 18 installed HUD members against the previous audit, including 13 original models.
+- Backed up the Cross Ange profile and changed only its Memory Mapping from Double Buffer to Disabled, retaining High Accuracy. This selects an alternative renderer upload path for the next launch; battle verification is pending. The cause and fix remain unconfirmed.
+- Preserved global configuration, game files, saves, licenses, caches and the running process. Version remains 0.1.16; no game build, release or source push.
+
+### 2026-10-25 — Hangar coloring preview investigation
+
+- Recorded the user's report that color changes appear after leaving and re-entering HANGAR, and documented that workaround. A stale live preview is a hypothesis; original-game versus Vita3K versus translation cause remains unconfirmed.
+- Compared 312 model/hangar/color/custom/shader/material members in the original, installed and local 0.1.16 archives; all selected payloads match the original. The installed executable is also unchanged. Shared text/font effects are not ruled out; the upstream compatibility report does not confirm this exact symptom.
+- Saved the screenshot and audit evidence locally. No game files, emulator settings, saves or licenses changed. Version remains 0.1.16; no new build, release or source push.
+
+## 0.1.16 — 2026-10-25 — Timed conversation bubble and wrapping
+
+- Widened the timed-conversation bubble from 252 to approximately 336 pixels through 12 horizontal animation keys. Retained the left edge, vertical animation, text origin, choice bars, timer and original executable.
+- Checked all 145 comments and 66 reactions using the bubble; rewrapped 161 entries by native glyph advances. All fit within four lines at the existing text size, with complete wording and thought controls preserved. Verified every scene anchor remains on screen.
+- Retained previous briefing/Mana and HUD artwork changes. Regenerated title footer and credits with version 0.1.16; repacked 487 members and verified 3,999 untouched archive rows, original payloads and ETOC.
+- All 27 translation/native-font/branding/HUD/timed-dialogue checks passed. A native-atlas/glyph preview fits both reported lines; it is not an in-game capture. Timed-dialogue appearance and the existing battle HUD issue still need runtime confirmation.
+- Built a local small component ZIP and English PKG with Retro Trans Tools 0.5.16. Both deltas roundtrip exactly; isolated native installation verified all 48 game files and preserved the original PKG/license. The user's emulator installation and saves are unchanged. No release or source push.
+
+### 2026-10-25 — Local Vita3K HUD accuracy investigation
+
+- Confirmed the installed 0.1.15 HUD still has missing left labels and flashing/incorrect kill icons in the user's mission-start capture. Read back 18 installed HUD members; all 13 layout models remain original and all five textures match the candidate.
+- Prepared an isolated original-game/save comparison. The emulator reached the title but did not accept injected confirm input, so no battle comparison was completed. Source review identified mapped-buffer synchronization as a hypothesis; the cause remains unconfirmed.
+- Applied a Cross Ange-only High Accuracy profile for the next launch after verifying the same profile loads in the isolated emulator. Other GPU settings, global configuration, running session, game files, saves, licenses and caches were preserved; configuration backups are local. Runtime HUD confirmation is pending.
+- Game version remains 0.1.15. No new game build, release or source push.
+
+## 0.1.15 — 2026-10-19 — Battle HUD readability test
+
+- Rendered timer, speed, Freeze Bullet labels and both cyan/red digit sizes using GenEi LateGo v2 Medium with stronger small-text strokes. Replaced the low-contrast DESTROY heading with KILLS.
+- Preserved every native atlas cell, complete headers/palettes, radar/kill icons and all unrelated pixel indices. HUD model geometry, UVs, animation, counters and executable are unchanged.
+- Retained 0.1.14 briefing/Mana fixes; regenerated title footer and credits from version 0.1.15. Repacked 486 members and verified all 4,000 untouched payloads/rows and the ETOC.
+- All 22 HUD/translation/native-font/branding regression checks passed. The displaced HUD panels and cramped runtime units remain open; original/English battle comparison was unavailable. Atlas previews do not establish an in-game fix.
+- Prepared local component patches and PKG with Retro Trans Tools 0.5.16; both deltas roundtrip exactly, and isolated native installation verified all 48 game files. The user's installed original game, settings and saves are preserved. No release or source push.
+
 ### Unreleased — Catalog validation metadata repair
 
 - Prepared the missing standard VALIDATION.json for released 0.1.13 by fully decoding both published component deltas and checking the complete original/English identities. Extended the existing checksum list without changing any game, patch, profile or ZIP bytes. Both metadata files were uploaded after explicit approval; strict live catalog validation passed and the other 15 release assets stayed unchanged.

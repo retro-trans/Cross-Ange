@@ -1,22 +1,294 @@
 {
-  "schema": "retro-trans-vita-pkg-xdelta-v1",
-  "name": "Cross Ange English 0.1.13",
-  "build": "0.1.13",
+  "schema": "retro-trans-vita-pkg-v1",
+  "name": "Cross Ange English 0.1.16",
+  "build": "0.1.16",
   "title_id": "PCSG00597",
   "content_id": "JP0700-PCSG00597_00-CROSSANGEGAME000",
   "target": "Vita3K",
-  "minimum_app_version": "0.5.12",
+  "minimum_app_version": "0.5.16",
   "package": {
     "bytes": 925548400,
     "sha256": "962498429645bf92d0171280b075629ff6dc8100f365ce43805d2cd3e897ebcb"
   },
-  "output": {
-    "bytes": 944821248,
-    "sha256": "59bd8f558f8b657d6a298fa0760b7867f67475c579d531fbfffa9c69143d7c8d"
-  },
-  "patch": {
-    "name": "Cross-Ange-English-0.1.13-PKG.xdelta",
-    "bytes": 944873399,
-    "sha256": "13d0988539a0a63ee850583cd444ffd990141b8d047a980c3cf979eaab86a1d8"
-  }
+  "engine": "pfs-v5-pkg-key2",
+  "source_files": [
+    {
+      "path": "cpk/Ange.cpk",
+      "bytes": 882846536,
+      "sha256": "e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de"
+    },
+    {
+      "path": "eboot.bin",
+      "bytes": 1240256,
+      "sha256": "c7a7d381f336d4aa254423cc3525f62c12490a1458cc2f025e1623e73341ddd0"
+    },
+    {
+      "path": "movie/movie_000.mp4",
+      "bytes": 29624749,
+      "sha256": "43d237da5b6156238cc3678544190b95048b6592134fb44eb2ce60191f0ad97e"
+    },
+    {
+      "path": "save_icon/copyright.png",
+      "bytes": 6194,
+      "sha256": "765ce5a94e3ea8f487b5cfe1617604a8f0629811fb6d90ef73f3a536eb96bc13"
+    },
+    {
+      "path": "save_icon/icon.PNG",
+      "bytes": 9237,
+      "sha256": "2a13c084f12de4478028ce58f0e1ea72df869e6bb571d2aca2ea80424a7d3920"
+    },
+    {
+      "path": "save_icon/icon_empty.PNG",
+      "bytes": 8204,
+      "sha256": "3c360bea0b764b908089c0b77d2acbb030fed3d47559f3bc8e2d71e2278919ff"
+    },
+    {
+      "path": "sce_module/libc.suprx",
+      "bytes": 202560,
+      "sha256": "30143d18a1c4f7820ceddc88ad6cade4982ea1861d345630598dfb179d0daa66"
+    },
+    {
+      "path": "sce_module/libface.suprx",
+      "bytes": 72208,
+      "sha256": "081112aa68106809c2feef0e47e5104f1b4acc59dfa21a5b91483e2323784a36"
+    },
+    {
+      "path": "sce_module/libfios2.suprx",
+      "bytes": 116928,
+      "sha256": "051ea775d56587d7aaec7eee7f40e29fa83f1314a8f5e2b645e9519cde20eb53"
+    },
+    {
+      "path": "sce_module/libsmart.suprx",
+      "bytes": 1574592,
+      "sha256": "f7dbe2fc2bd66ef5be716396ba2a0c820f672bf54036a4483728e84f4184fcbb"
+    },
+    {
+      "path": "sce_module/libult.suprx",
+      "bytes": 50560,
+      "sha256": "9810369ec98378ab979dd8baa8e59f99911b10ac35c05b47a14a8de0b7b6dcae"
+    },
+    {
+      "path": "sce_sys/about/right.suprx",
+      "bytes": 15520,
+      "sha256": "176e5750a8a90bf7ceb2a8e7c2a87d36ca4c5d5bbc46b888956ea4db4f377cbc"
+    },
+    {
+      "path": "sce_sys/clearsign",
+      "bytes": 512,
+      "sha256": "aa7289887ef29fa6b6e52aed51d6e5c89d9abd2e8be5bd191a701f9c7a1204d0"
+    },
+    {
+      "path": "sce_sys/icon0.png",
+      "bytes": 5830,
+      "sha256": "6fefcea226181bf9ae4a17dcbd0b416f854a44f54c06108186d6205b6b85e2ed"
+    },
+    {
+      "path": "sce_sys/keystone",
+      "bytes": 96,
+      "sha256": "47384eacffe4d145cb5cc8411e497918aca31b6b1fba5379fc20d5074059d460"
+    },
+    {
+      "path": "sce_sys/livearea/contents/bg.png",
+      "bytes": 215702,
+      "sha256": "261bf23ce47a502c2c7731ba942d30ab37e3a8be39910b68344e2b9ae019f36c"
+    },
+    {
+      "path": "sce_sys/livearea/contents/site_banner.png",
+      "bytes": 32207,
+      "sha256": "69a1ddb21cc342a9cc2d6064378d4344964a9c73e1343c38c01ff7426c534c9a"
+    },
+    {
+      "path": "sce_sys/livearea/contents/startup.png",
+      "bytes": 19020,
+      "sha256": "93985bf66e2291487e7b1f9868ae07876e0528a0386e22feb5968d9cb46a1958"
+    },
+    {
+      "path": "sce_sys/livearea/contents/template.xml",
+      "bytes": 440,
+      "sha256": "fc7f92811c104632275794b5ad9cf15f3cfa559ecef8be957d5a20d0e580c196"
+    },
+    {
+      "path": "sce_sys/manual/001.png",
+      "bytes": 158919,
+      "sha256": "ad4b256a419716133b26c99b7b1cfffc792f68e8e58c653b362555c61a62064d"
+    },
+    {
+      "path": "sce_sys/manual/002.png",
+      "bytes": 350159,
+      "sha256": "b75cb2bb1d713e4debbfa3834cad2bf94a92a56179c4ff9b18f51b9b92ca7a47"
+    },
+    {
+      "path": "sce_sys/manual/003.png",
+      "bytes": 291159,
+      "sha256": "7dd2cbf27e2039623257bb54cebcf3b8603b2c3ac162ee8af53f216a1f61aab3"
+    },
+    {
+      "path": "sce_sys/manual/004.png",
+      "bytes": 183014,
+      "sha256": "e360a50b06206a719612e3b1362eb63f4afbc7eb8ca6dd0d2ddce7ed9ee1fe8d"
+    },
+    {
+      "path": "sce_sys/manual/005.png",
+      "bytes": 357372,
+      "sha256": "2a9a37dbbfe4495dbb371660e98ae33390086493fea64407d5df262da723ef42"
+    },
+    {
+      "path": "sce_sys/manual/006.png",
+      "bytes": 124440,
+      "sha256": "210de0e7bfcd7ffe49c34c60a5b92374bcf12781b7b55a98b4551f628758e97e"
+    },
+    {
+      "path": "sce_sys/manual/007.png",
+      "bytes": 143451,
+      "sha256": "b76e133934a0a8f1d1647097c840df30b55b478757e15f2052da439c415129ad"
+    },
+    {
+      "path": "sce_sys/manual/008.png",
+      "bytes": 178408,
+      "sha256": "36753ac25ad1bdd97e70f3b85414f5f6afabf7b9bec01a515dfc8332716a4d91"
+    },
+    {
+      "path": "sce_sys/manual/009.png",
+      "bytes": 192735,
+      "sha256": "780a68266da3d6319b249c08e6e6eb54dc7a076aa42b55ab711bdb45d8145d1c"
+    },
+    {
+      "path": "sce_sys/manual/010.png",
+      "bytes": 235245,
+      "sha256": "ff7ececf7f72d808ed6654087bccf2711ecba6022eb612531efbbb22e1628fcd"
+    },
+    {
+      "path": "sce_sys/manual/011.png",
+      "bytes": 191278,
+      "sha256": "76c755c7bf09e51d19e19794e4fca7db3263080d33daf656bef641edef65be6d"
+    },
+    {
+      "path": "sce_sys/manual/012.png",
+      "bytes": 201708,
+      "sha256": "4c31909e735be2df3ad9cab46506905b70a4aa7142a15813776a022c694a4e5a"
+    },
+    {
+      "path": "sce_sys/manual/013.png",
+      "bytes": 216162,
+      "sha256": "02d3141fdf9f71929d3f94f528fa20531ea0f1940d84e9993b9d785db5fc6b7f"
+    },
+    {
+      "path": "sce_sys/manual/014.png",
+      "bytes": 210002,
+      "sha256": "635ae7aefb8dd4578b29e0051615455caa21bb9189c40369239dd5288078bf3e"
+    },
+    {
+      "path": "sce_sys/manual/015.png",
+      "bytes": 160395,
+      "sha256": "4cc4d41a056b15b2c0d278ae50cdc36d815b965f283286d61df7cff367189c2c"
+    },
+    {
+      "path": "sce_sys/manual/016.png",
+      "bytes": 170074,
+      "sha256": "dac60ab2b213c51d7b43326f751901e3fd16ea1e8177ec7eda99930ab0c987e9"
+    },
+    {
+      "path": "sce_sys/manual/017.png",
+      "bytes": 291014,
+      "sha256": "41e2b273728e7e09eec7d53975be0432546e207b128fea19d0041432e3f15c72"
+    },
+    {
+      "path": "sce_sys/manual/018.png",
+      "bytes": 232299,
+      "sha256": "88ba9d48ede1c828783df3c96a0cd9c4df5fda08c276af9420e8c89e13f5e055"
+    },
+    {
+      "path": "sce_sys/manual/019.png",
+      "bytes": 201784,
+      "sha256": "93e4157d7c20780b444166670f7445f59df74aaef09f83eb3dda8530f3116907"
+    },
+    {
+      "path": "sce_sys/manual/020.png",
+      "bytes": 198244,
+      "sha256": "00d53a3e0b20a8f98614d87022d00a93bb6174d1bf938f208003129be5335992"
+    },
+    {
+      "path": "sce_sys/manual/021.png",
+      "bytes": 174865,
+      "sha256": "8f08025c4b82cb1ebf6e31809d8dffa1c5426ca768634a7460a9bb14fa34adda"
+    },
+    {
+      "path": "sce_sys/manual/022.png",
+      "bytes": 108682,
+      "sha256": "34221dec3aa285125fa54e2d83f3185e490627e7a2e73c5d7376f2de62fdddec"
+    },
+    {
+      "path": "sce_sys/manual/023.png",
+      "bytes": 46502,
+      "sha256": "90cc6885833cdd1f8fa28b8fbb3812a883bae1d14c4bbd0a2575a1d27cf14a9a"
+    },
+    {
+      "path": "sce_sys/manual/024.png",
+      "bytes": 166683,
+      "sha256": "da8a0562a9ff0fbf6d9e2c7c08ecf7ebcd331f6c991a27bcdcfb7d9e7839a7da"
+    },
+    {
+      "path": "sce_sys/param.sfo",
+      "bytes": 1328,
+      "sha256": "04924d2566147471c89464d568c8ae8708b43cc296b370c6b8f208317cebf603"
+    },
+    {
+      "path": "sce_sys/pic0.png",
+      "bytes": 258410,
+      "sha256": "b3cc34bc5f8a2c439aff2a273f0b01bf25064ac6053cf77ab939b719b0bebf88"
+    },
+    {
+      "path": "sce_sys/trophy/NPWR08607_00/TROPHY.TRP",
+      "bytes": 3754624,
+      "sha256": "d480fd04a66567acebf83cb885c71e643a5cf140edea32efd4167df46d4aad18"
+    }
+  ],
+  "files": [
+    {
+      "path": "cpk/Ange.cpk",
+      "source": {
+        "bytes": 882846536,
+        "sha256": "e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de"
+      },
+      "target": {
+        "bytes": 902331208,
+        "sha256": "e75631ba8d1e33cb155e55a99b3a050f53d8b3a53f5e1085ece52157dc6367bd"
+      },
+      "patch": {
+        "name": "Cross-Ange-English-0.1.16-Ange.xdelta",
+        "bytes": 5388565,
+        "sha256": "531937fe70390e31d6b9c6a2b6964c959a6f6667344c0f12291b2d549ae212ce"
+      }
+    },
+    {
+      "path": "sce_sys/param.sfo",
+      "source": {
+        "bytes": 1328,
+        "sha256": "04924d2566147471c89464d568c8ae8708b43cc296b370c6b8f208317cebf603"
+      },
+      "target": {
+        "bytes": 1413,
+        "sha256": "6d4414054f46e25b14e5ef25ae9d4c655f9c1111155cc51e43cf6e7c46d00c10"
+      },
+      "patch": {
+        "name": "Cross-Ange-English-0.1.16-param.xdelta",
+        "bytes": 160,
+        "sha256": "33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14"
+      }
+    }
+  ],
+  "extras": [
+    {
+      "path": "sce_sys/manual/025.png",
+      "name": "credits.png",
+      "bytes": 47381,
+      "sha256": "8fb517705abbe9fb978774636f8c25750b708047bc640b213d9dc7b67209a4d1"
+    },
+    {
+      "path": "sce_sys/font-license.txt",
+      "name": "font-license.txt",
+      "bytes": 4879,
+      "sha256": "fe3d5478ef544a9b4b9080eaa08209d9e98873d5009e6da76ae9023b704e8439"
+    }
+  ]
 }

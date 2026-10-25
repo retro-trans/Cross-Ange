@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-25",
+  "original_elf_sha256": "19ec805002ae0354ae29f906e6093c5751944c2d025bd99a25af7a347b8e0076",
+  "shaders_checked": 12,
+  "exact_executable_matches": 12,
+  "native_programs": [
+    {
+      "program": "093c2b1dc4e8fb13071c147f9f9d1b4dff4aa114e2dbb9ceab88195b29364c80",
+      "exact_offset_in_original_elf": 2098832,
+      "bytes": 871
+    },
+    {
+      "program": "0ad032608b6fd1c839ad0329f4e5e9108ab587c6553202927f67d56336822f62",
+      "exact_offset_in_original_elf": 2040468,
+      "bytes": 871
+    },
+    {
+      "program": "3a2dbefb9676b37ef9aedf57d459b2e721ebb683c176e6a366368f27afe82b30",
+      "exact_offset_in_original_elf": 2096068,
+      "bytes": 601
+    },
+    {
+      "program": "3db959532e6d56a99159b4e235d259663458fdc5b0af9032f7958d9bac566ee6",
+      "exact_offset_in_original_elf": 2056424,
+      "bytes": 606
+    },
+    {
+      "program": "49bdf5b2d0952097a0c4153489ab2415712cef01b09622942c90a975d4ee13fd",
+      "exact_offset_in_original_elf": 2043360,
+      "bytes": 895
+    },
+    {
+      "program": "4b510c5c1089c941a57acff6cd6edf5be6ded8b0b7e8cba679c23c5c93ada5b6",
+      "exact_offset_in_original_elf": 2061680,
+      "bytes": 1604
+    },
+    {
+      "program": "793240589825c62743a7911524817383618c1ee9bbfdb6b2eac07ad264df9634",
+      "exact_offset_in_original_elf": 2035084,
+      "bytes": 440
+    },
+    {
+      "program": "82e6f8ddbc87817ae60e17e37cfb7c475c9b71f10ffd741d574cfbc5c623ab71",
+      "exact_offset_in_original_elf": 2072052,
+      "bytes": 950
+    },
+    {
+      "program": "8a204ef97f3663422c34b60bab3fc1dcaa7d82c3af636d87901664892f7621db",
+      "exact_offset_in_original_elf": 2125640,
+      "bytes": 601
+    },
+    {
+      "program": "b0b95004bd974011cd191b71e368d79e5216002b835d8e40789d2792137409d9",
+      "exact_offset_in_original_elf": 2041632,
+      "bytes": 625
+    },
+    {
+      "program": "b77e89f101b0933048fdcecd06c51c3e88c393c41ceb9b4a4a0dc0b7441b1cf4",
+      "exact_offset_in_original_elf": 2063576,
+      "bytes": 1094
+    },
+    {
+      "program": "f622bfa24d61f95145e3e9a2d78b30de08e1576beaf6da9687327f8f161de062",
+      "exact_offset_in_original_elf": 2075976,
+      "bytes": 1683
+    }
+  ],
+  "cpk_only_fix_available": false,
+  "conclusion": "The current correction changes Vita3K-generated code. All affected native programs are embedded in the original executable, outside the CPK/rePatch asset delta.",
+  "possible_delivery": "Optional Vita3K compatibility component alongside the translation, or a corrected emulator build.",
+  "companion_installer_packaged": false,
+  "corrected_emulator_binary_built": false,
+  "game_bytes_changed": false,
+  "new_build": false,
+  "release_published": false
+}

@@ -209,6 +209,8 @@ def tables(substitutions):
     compact, ui_layout = compact_labels(interface)
     from briefing_layout import descriptions
     briefings, briefing_report = descriptions(interface)
+    from timed_dialogue_layout import comments
+    timed, timed_report = comments(interface)
     originals = parse_ui(SOURCE / 'data/_dat')
     if len(originals) != len(interface['entries']):
         raise ValueError('UI row count mismatch')
@@ -232,6 +234,9 @@ def tables(substitutions):
             if (row['id'], field['column']) in briefings:
                 english = briefings[row['id'], field['column']]
                 reflow_cells.add(row['record_offset'] + field['column'] * 4)
+            if (row['id'], field['column']) in timed:
+                english = timed[row['id'], field['column']]
+                reflow_cells.add(row['record_offset'] + field['column'] * 4)
             english = display_text(english, substitutions)
             cell = row['record_offset'] + field['column'] * 4
             changes.append((cell, field['source_offset'], field['text'], english))
@@ -240,7 +245,8 @@ def tables(substitutions):
     filename = 'data/_dat/strings.bnd'
     replacements[filename] = relocate_bnd((SOURCE / filename).read_bytes(), changes, reflow_cells)
     report.append({'file': filename, 'japanese_targets_inserted': len(changes), 'sample': sample,
-                   'ui_layout': ui_layout, 'briefing_layout': briefing_report})
+                   'ui_layout': ui_layout, 'briefing_layout': briefing_report,
+                   'timed_dialogue_layout': timed_report})
     if len(changes) != 1716:
         raise ValueError('Incomplete UI coverage')
     additional = load('additional')
@@ -301,8 +307,13 @@ def generate():
     tutorials, tutorial_report = generate_tutorials()
     from build_chapter_titles import generate as generate_chapters
     chapters, chapter_report = generate_chapters()
+    from build_battle_hud import generate as generate_hud
+    hud, hud_report = generate_hud()
+    from timed_dialogue_layout import animation as bubble_animation, write_report as bubble_report
+    bubble, bubble_geometry = bubble_animation()
+    timed_report = bubble_report(table_report[0]['timed_dialogue_layout'], bubble_geometry)
     sfo, metadata_report = metadata()
-    replacements = {**dialogue, **bnd, **fonts, **tutorials, **chapters,
+    replacements = {**dialogue, **bnd, **fonts, **tutorials, **chapters, **hud, **bubble,
                     'data/_dat/kerning.bnd': english_font.kerning()}
     report = {'structured_targets_inserted': scenario_report['japanese_targets_inserted'] + sum(r['japanese_targets_inserted'] for r in table_report) + len(metadata_report),
               'scenario': scenario_report, 'tables': table_report, 'metadata': metadata_report,
@@ -310,6 +321,8 @@ def generate():
               'control_scan_boundary_protection': True,
               'font': english_font.report(),
               'drafts_modified': False, 'tutorials': tutorial_report, 'chapter_titles': chapter_report,
+              'battle_hud': hud_report,
+              'timed_dialogue_layout': timed_report,
               'ui_layout': table_report[0]['ui_layout'],
               'briefing_layout': table_report[0]['briefing_layout'],
               'raster_and_manual_translation_inserted': False,

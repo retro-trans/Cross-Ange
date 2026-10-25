@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "game_version": "0.1.15",
+  "installed_hud_members_verified": 18,
+  "models_identical_to_original": 13,
+  "user_report": "missing left labels; incorrect/flashing kill icons at mission start",
+  "profile": "E:/Emu/vita3k/config/config_PCSG00597.xml",
+  "only_effective_setting_changed": "high-accuracy: false -> true",
+  "profile_load_verified_in_isolation": true,
+  "qt_status": "HIGH",
+  "native_log_confirms_high_accuracy": true,
+  "battle_comparison_completed": false,
+  "hud_fix_runtime_verified": false,
+  "user_session_interrupted": false,
+  "user_game_or_save_written": false,
+  "new_game_build": false,
+  "release_published": false
+}

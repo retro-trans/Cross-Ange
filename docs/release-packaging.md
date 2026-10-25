@@ -1,19 +1,40 @@
 # Vita release packaging
 
-The recommended Vita3K route downloads small translation patches and rebuilds an English PKG locally from the user's original package and matching license. Manual installed CPK patches and hardware rePatch remain available. The user authorized public access for the first public release; whole-PKG xdelta downloads remain withdrawn.
+The current translation is **0.1.16**. Package the existing verified build;
+publication does not rebuild its game bytes, footer or credits. The recommended
+route downloads approximately 5.4 MB of patches and rebuilds an English PKG
+locally from the original Japanese PKG and matching work.bin/.rif. Retain manual
+installed CPK deltas and hardware rePatch. Never publish a complete game,
+license, or whole-PKG xdelta.
 
-Use `tools/package_release.py --build 0.1.13 --write` to package the local-rebuild profile/ZIP, or `--format cpk` for component assets. These delegate to `package_pkg_release.py` and `package_cpk_release.py`. Both preview by default and preserve existing outputs. Local-rebuild packaging validates all declared source/English/patch identities and the exact ZIP inventory, including credits/font attribution. It publishes nothing and does not include original game files or licenses.
+1. Run the translation/native-font/branding/HUD/timed-dialogue checks and export
+   local translations using `tools/strip_jp.py`. Commit the English-only source
+   and tools before generating a manifest that pins the source commit.
+2. Run `python tools/prepare_release_assets.py --build 0.1.16` to preview, then
+   add `--write`. This checks the existing native-installation proof, original
+   and English identities, both component round trips and the exact local ZIP.
+   It generates `BUILD-MANIFEST.json`, manifest-bound `VALIDATION.json`, deltas,
+   credits/font extras, the small `VITA-PKG.json`/ZIP and verification/checksums
+   under `work/output/releases/v0.1.16`.
+3. Run `python tools/package_repatch.py --build 0.1.16 --write`. Its separate
+   hardware bundle uses the same verified CPK delta and generated credits/font
+   attribution; the original executable is retained.
+4. Verify the hardware flow with published Retro Trans Tools 0.5.16, collect the
+   two routes into a clean publication folder and recompute checksum lists.
+   Run the shared strict release/catalog validators. Keep native game files,
+   licenses and all testing workspaces outside the publication folder.
+5. Publish only after explicit user authorization. Check the tag/source commit,
+   all uploaded asset hashes, anonymous downloads and actual Automatic
+   discovery/rebuilding with published tools. The rebuilt PKG must pass native
+   installation and all 48 file hashes, preserving the original and license.
 
-Current assets: VITA-PKG.json, Cross-Ange-English-0.1.13-Vita-PKG-patches.zip, VITA-PKG-SHA256SUMS.txt and PKG-REBUILD-VALIDATION.json; the eight installed CPK/component assets (including standard VALIDATION.json); and the five hardware rePatch assets. Do not publish VITA-PKG-XDELTA.json or the package-size whole-PKG ZIP.
+The public release retains the eight standard component assets, four small
+PKG-rebuild assets and five hardware rePatch assets. File verification does not
+establish gameplay or physical-Vita compatibility. The experimental
+[Vita3K HUD correction](https://github.com/retro-trans/Vita3K/releases/tag/v0.2.1-cross-ange-hud.1)
+is a separate emulator download.
 
-Catalog repair deployed after explicit approval: added standard `VALIDATION.json`, bound to the
-exact `BUILD-MANIFEST.json` bytes with one verified roundtrip per patch, and
-included it in `SHA256SUMS.txt`. The custom `CPK-VALIDATION.json` remains useful
-UI evidence but does not replace the standard report. Component packaging now
-generates both and runs the shared release validator before completing. Published metadata passed readback and strict catalog validation; all other
-release assets are unchanged.
-
-Upload/re-read the small profile/ZIP, then verify actual Automatic discovery and complete local conversion with a matching license. A second isolated native Vita3K installation must verify all 48 output files and the original/license must remain unchanged. Retain earlier verification records as historical provenance. Game bytes, title footer and credits remain 0.1.13 for this distribution update. The user separately authorized publishing tools 0.5.16; future game-release updates still do not implicitly authorize tools releases.
-
-The full unscoped catalog refresh on 2026-10-19 completed with 77 releases and
-zero rejections. See [deployment verification](catalog-repair-0.1.13.json).
+The older `package_release.py` wrappers preserve their historical verified-input
+contract. The 0.1.13 catalog metadata repair and its successful full refresh are
+recorded in [the historical repair report](catalog-repair-0.1.13.json); do not
+rewrite those older game assets while publishing a new version.

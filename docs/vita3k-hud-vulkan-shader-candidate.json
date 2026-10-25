@@ -1,0 +1,633 @@
+{
+  "status": "vulkan_runtime_improvement_confirmed_in_original",
+  "write": true,
+  "target": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\emulator",
+  "renderer": "Vulkan",
+  "high_accuracy": true,
+  "memory_mapping": "disabled",
+  "native_shader_cache_version": 13,
+  "features_mask": 25,
+  "seeded_modules": 42,
+  "patched_vertex_modules": 12,
+  "index_edits": 24,
+  "reference_cases": 256,
+  "shader_records": [
+    {
+      "program": "093c2b1dc4e8fb13071c147f9f9d1b4dff4aa114e2dbb9ceab88195b29364c80",
+      "file": "vk13-093c2b1dc4e8fb13071c147f9f9d1b4dff4aa114e2dbb9ceab88195b29364c80.spv",
+      "before_sha256": "53669cf49265e04ccfb2d2a0c097d4bd744d05349983847d5b8c10b539b5e825",
+      "after_sha256": "b97574f7ab7898d42809f464830e52b31f13120c725cb4c6dd62e4179201cb54",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 4874,
+          "old_words": [
+            327812,
+            8,
+            955,
+            954,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            955,
+            954,
+            65536
+          ]
+        },
+        {
+          "word_offset": 4993,
+          "old_words": [
+            327812,
+            8,
+            981,
+            979,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            981,
+            979,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "0ad032608b6fd1c839ad0329f4e5e9108ab587c6553202927f67d56336822f62",
+      "file": "vk13-0ad032608b6fd1c839ad0329f4e5e9108ab587c6553202927f67d56336822f62.spv",
+      "before_sha256": "fcab5b7314263177297dde5b5b476fa113bd26ed799950bb3f924f4222c92bef",
+      "after_sha256": "e39ded43b1c1bed3a705a4a9a2dd6ff061acd78342802fbdcc06667ae8d585d2",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 4874,
+          "old_words": [
+            327812,
+            8,
+            955,
+            954,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            955,
+            954,
+            65536
+          ]
+        },
+        {
+          "word_offset": 4993,
+          "old_words": [
+            327812,
+            8,
+            981,
+            979,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            981,
+            979,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "3a2dbefb9676b37ef9aedf57d459b2e721ebb683c176e6a366368f27afe82b30",
+      "file": "vk13-3a2dbefb9676b37ef9aedf57d459b2e721ebb683c176e6a366368f27afe82b30.spv",
+      "before_sha256": "45999014a4a53aa4cb3dd2aaa88986af2c90c3e8896bd059109049138da590b8",
+      "after_sha256": "2d4a024a5ac73166c718aab346df9db979984affc4cebc232a1d5aae8b577225",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 3040,
+          "old_words": [
+            327812,
+            8,
+            591,
+            590,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            591,
+            590,
+            65536
+          ]
+        },
+        {
+          "word_offset": 3159,
+          "old_words": [
+            327812,
+            8,
+            617,
+            615,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            617,
+            615,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 48
+    },
+    {
+      "program": "3db959532e6d56a99159b4e235d259663458fdc5b0af9032f7958d9bac566ee6",
+      "file": "vk13-3db959532e6d56a99159b4e235d259663458fdc5b0af9032f7958d9bac566ee6.spv",
+      "before_sha256": "a1db6fec066c1a11478a05f696ebc5152325d5e382dd2be943e7336fe1f6f4cf",
+      "after_sha256": "fec0e6f16c7c55232e459ff068bf7abd310d7348ffa5c838798caa98d9d2aa6a",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 2447,
+          "old_words": [
+            327812,
+            8,
+            421,
+            420,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            421,
+            420,
+            65536
+          ]
+        },
+        {
+          "word_offset": 2566,
+          "old_words": [
+            327812,
+            8,
+            447,
+            445,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            447,
+            445,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "49bdf5b2d0952097a0c4153489ab2415712cef01b09622942c90a975d4ee13fd",
+      "file": "vk13-49bdf5b2d0952097a0c4153489ab2415712cef01b09622942c90a975d4ee13fd.spv",
+      "before_sha256": "aee3e86a02f336837fa09154cb1d2d1a66ff78f8975f40e351d2087fb8703a07",
+      "after_sha256": "80e3a323c6e6c41be2b2dd159413d8e362909b250677bd00b2163c8aea12150b",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 4180,
+          "old_words": [
+            327812,
+            8,
+            742,
+            741,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            742,
+            741,
+            65536
+          ]
+        },
+        {
+          "word_offset": 4299,
+          "old_words": [
+            327812,
+            8,
+            767,
+            766,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            767,
+            766,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "4b510c5c1089c941a57acff6cd6edf5be6ded8b0b7e8cba679c23c5c93ada5b6",
+      "file": "vk13-4b510c5c1089c941a57acff6cd6edf5be6ded8b0b7e8cba679c23c5c93ada5b6.spv",
+      "before_sha256": "c538aef367e176cbd5748998e47c4a8ef335d8cad2f59a85186d7350aaae27cf",
+      "after_sha256": "d701d54a582bf96d6e747a56cd6cd3f176e5e061a2a19121122719a837c2365b",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 14481,
+          "old_words": [
+            327812,
+            8,
+            2783,
+            2782,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            2783,
+            2782,
+            65536
+          ]
+        },
+        {
+          "word_offset": 14600,
+          "old_words": [
+            327812,
+            8,
+            2809,
+            2807,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            2809,
+            2807,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "793240589825c62743a7911524817383618c1ee9bbfdb6b2eac07ad264df9634",
+      "file": "vk13-793240589825c62743a7911524817383618c1ee9bbfdb6b2eac07ad264df9634.spv",
+      "before_sha256": "37c3cfc82c0ebdbcc665acd8e91ce894a43b24a06b4a3e39d9288cb4272bbe7f",
+      "after_sha256": "70df819c8e60a521810a13ea280fd28ee9b141dad997b5a5bf0b941de2571fda",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 1441,
+          "old_words": [
+            327812,
+            8,
+            225,
+            223,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            225,
+            223,
+            65536
+          ]
+        },
+        {
+          "word_offset": 1560,
+          "old_words": [
+            327812,
+            8,
+            251,
+            249,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            251,
+            249,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "82e6f8ddbc87817ae60e17e37cfb7c475c9b71f10ffd741d574cfbc5c623ab71",
+      "file": "vk13-82e6f8ddbc87817ae60e17e37cfb7c475c9b71f10ffd741d574cfbc5c623ab71.spv",
+      "before_sha256": "ca2be1a4398feda9df677d16ec6886d251e08b12c0cca12369844ccbfac98377",
+      "after_sha256": "a0382771467aa91650e211a893fcc4fde53119dfaa3f5e4c191d32843f0af5bc",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 4812,
+          "old_words": [
+            327812,
+            8,
+            939,
+            938,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            939,
+            938,
+            65536
+          ]
+        },
+        {
+          "word_offset": 4931,
+          "old_words": [
+            327812,
+            8,
+            965,
+            963,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            965,
+            963,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "8a204ef97f3663422c34b60bab3fc1dcaa7d82c3af636d87901664892f7621db",
+      "file": "vk13-8a204ef97f3663422c34b60bab3fc1dcaa7d82c3af636d87901664892f7621db.spv",
+      "before_sha256": "91fbd8c1965a148a39d2ba7663f0e75f0e9cf98f749f179b9c1828c44569f6d3",
+      "after_sha256": "cacb497f50e6976c190fa54efb57368daed0e3fb1628e2993430e8fe81fba487",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 3040,
+          "old_words": [
+            327812,
+            8,
+            591,
+            590,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            591,
+            590,
+            65536
+          ]
+        },
+        {
+          "word_offset": 3159,
+          "old_words": [
+            327812,
+            8,
+            617,
+            615,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            617,
+            615,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 48
+    },
+    {
+      "program": "b0b95004bd974011cd191b71e368d79e5216002b835d8e40789d2792137409d9",
+      "file": "vk13-b0b95004bd974011cd191b71e368d79e5216002b835d8e40789d2792137409d9.spv",
+      "before_sha256": "4cafaee3951584a41589d1d19dbba8ab4ac690c6c7ab15138e02dd8b2270d66e",
+      "after_sha256": "d1c9f2d1783bef832b540e4ecd48cc1fc89a9200ea3ace22074b710971a128f6",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 3174,
+          "old_words": [
+            327812,
+            8,
+            646,
+            645,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            646,
+            645,
+            65536
+          ]
+        },
+        {
+          "word_offset": 3293,
+          "old_words": [
+            327812,
+            8,
+            672,
+            670,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            672,
+            670,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "b77e89f101b0933048fdcecd06c51c3e88c393c41ceb9b4a4a0dc0b7441b1cf4",
+      "file": "vk13-b77e89f101b0933048fdcecd06c51c3e88c393c41ceb9b4a4a0dc0b7441b1cf4.spv",
+      "before_sha256": "5c589db225d67d7554f748715774b8626ea99e48723aaedb8376875396f2d1cd",
+      "after_sha256": "867d9fd846964bb1778e122d6330ea5f81172cf2c7e100963bce7ad43bb13cf9",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 9021,
+          "old_words": [
+            327812,
+            8,
+            1752,
+            1751,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            1752,
+            1751,
+            65536
+          ]
+        },
+        {
+          "word_offset": 9140,
+          "old_words": [
+            327812,
+            8,
+            1778,
+            1776,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            1778,
+            1776,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    },
+    {
+      "program": "f622bfa24d61f95145e3e9a2d78b30de08e1576beaf6da9687327f8f161de062",
+      "file": "vk13-f622bfa24d61f95145e3e9a2d78b30de08e1576beaf6da9687327f8f161de062.spv",
+      "before_sha256": "9dafe831c7a21219e4574fc6f26530aae9902b584cce26c7a29589ccb9f12f2c",
+      "after_sha256": "e23aabf2813d6443a4e5a3616128617afc99084c01a5c7a3461e3ec6a01585e6",
+      "original_and_candidate_spirv_valid": true,
+      "edits": [
+        {
+          "word_offset": 14468,
+          "old_words": [
+            327812,
+            8,
+            2778,
+            2777,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            2778,
+            2777,
+            65536
+          ]
+        },
+        {
+          "word_offset": 14587,
+          "old_words": [
+            327812,
+            8,
+            2804,
+            2802,
+            17
+          ],
+          "new_words": [
+            262227,
+            8,
+            2804,
+            2802,
+            65536
+          ]
+        }
+      ],
+      "native_reference_cases": 16
+    }
+  ],
+  "runtime_fix_verified": false,
+  "partial_opengl_improvement_reported": true,
+  "game_or_save_changed": false,
+  "main_emulator_changed": false,
+  "new_game_build": false,
+  "source_pushed": false,
+  "release_published": false,
+  "backup": "E:\\Projects\\Cross Ange\\work\\source\\hud-shader-probe\\vulkan-candidate-20261025-211134-763882\\previous-cache",
+  "pipeline_cache_quarantined_only_in_isolation": true,
+  "profile_change": {
+    "title_id": "PCSG00597",
+    "profile": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\emulator\\config\\config_PCSG00597.xml",
+    "write": true,
+    "settings_before": {
+      "backend-renderer": "OpenGL",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "false",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "settings_after": {
+      "backend-renderer": "Vulkan",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "false",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "only_effective_setting_changed": "backend-renderer",
+    "changed_settings": [
+      "backend-renderer"
+    ],
+    "global_config_sha256": "a2a2bed69aedcd3bcc5aeca6ccff81dcf52f3ff82b4150286a96710bd41ab373",
+    "previous_profile_sha256": "32c78939bdf69330ef56e07e1220bdbaf53b7d656af2238469f40862140cec02",
+    "profile_sha256": "31283f1820752e7c63b9c0c4c09afa8133aa291f59c57f117e9a8cfc15d03ebe",
+    "restart_required": true,
+    "game_bytes_changed": false,
+    "saves_and_license_written": false,
+    "runtime_hud_fix_verified": false,
+    "backup": "E:\\Projects\\Cross Ange\\work\\source\\vita3k-install-backups\\hud-accuracy-20261025-211136-402829"
+  },
+  "full_emulator_binary_built": false,
+  "opengl_candidate_result": "partial improvement reported",
+  "source_prototype": "work/source/hud-shader-probe/indexed-uniform-candidate.patch",
+  "user_result": "much better now",
+  "runtime_improvement_verified": true,
+  "verified_visible_improvements": [
+    "timer alignment",
+    "speed panel alignment",
+    "full radar background",
+    "large dark block absent"
+  ],
+  "not_confirmed": [
+    "operator portrait during radio",
+    "all kill counts and icon states",
+    "all missions"
+  ],
+  "remaining_observation": "A white outlined quad is visible near the upper-right area; cause and intended role unconfirmed.",
+  "retest_screenshot": {
+    "path": "work/ui/local/screenshots/hud-report-20261025/vulkan-index-candidate-improved.png",
+    "sha256": "f900c3fea589b38b198b205dfa7c0d23139f64d51cbf9ee7c19d31a287e7759c"
+  },
+  "retest_log": {
+    "path": "work/source/hud-shader-probe/vulkan-improvement-retest.log",
+    "sha256": "d8e035c33e07d89a1c6b96483fd082830662707d24520a6f4fe712c6e4e6646b"
+  }
+}

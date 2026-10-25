@@ -1,0 +1,2232 @@
+{
+  "text": {
+    "comments_checked": 211,
+    "primary_comments": 145,
+    "reactions": 66,
+    "reflowed": 161,
+    "native_text_width": 340,
+    "text_percentage": 85,
+    "maximum_lines": 4,
+    "body_width": 335.916,
+    "wording_and_non_layout_controls_preserved": true,
+    "runtime_verified": false,
+    "entries": [
+      {
+        "id": 1148,
+        "key": "STR_TMG_COMMENT_01",
+        "canonical_en": "Line 01",
+        "display_en": "Line 01",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1149,
+        "key": "STR_TMG_COMMENT_02",
+        "canonical_en": "Line 02",
+        "display_en": "Line 02",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 77.0,
+        "maximum_screen_width": 65.45
+      },
+      {
+        "id": 1150,
+        "key": "STR_TMG_COMMENT_03",
+        "canonical_en": "Line 03",
+        "display_en": "Line 03",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 78.0,
+        "maximum_screen_width": 66.3
+      },
+      {
+        "id": 1151,
+        "key": "STR_TMG_COMMENT_04",
+        "canonical_en": "Line 04",
+        "display_en": "Line 04",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 78.0,
+        "maximum_screen_width": 66.3
+      },
+      {
+        "id": 1152,
+        "key": "STR_TMG_COMMENT_05",
+        "canonical_en": "Line 05",
+        "display_en": "Line 05",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 77.0,
+        "maximum_screen_width": 65.45
+      },
+      {
+        "id": 1153,
+        "key": "STR_TMG_COMMENT_06",
+        "canonical_en": "Line 06",
+        "display_en": "Line 06",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 78.0,
+        "maximum_screen_width": 66.3
+      },
+      {
+        "id": 1154,
+        "key": "STR_TMG_COMMENT_07",
+        "canonical_en": "Line 07",
+        "display_en": "Line 07",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 76.0,
+        "maximum_screen_width": 64.6
+      },
+      {
+        "id": 1155,
+        "key": "STR_TMG_COMMENT_08",
+        "canonical_en": "Line 08",
+        "display_en": "Line 08",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 78.0,
+        "maximum_screen_width": 66.3
+      },
+      {
+        "id": 1156,
+        "key": "STR_TMG_COMMENT_09",
+        "canonical_en": "Line 09",
+        "display_en": "Line 09",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 78.0,
+        "maximum_screen_width": 66.3
+      },
+      {
+        "id": 1157,
+        "key": "STR_TMG_COMMENT_10",
+        "canonical_en": "Line 10",
+        "display_en": "Line 10",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1158,
+        "key": "STR_TMG_COMMENT_11",
+        "canonical_en": "Line 11",
+        "display_en": "Line 11",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 70.0,
+        "maximum_screen_width": 59.5
+      },
+      {
+        "id": 1159,
+        "key": "STR_TMG_COMMENT_12",
+        "canonical_en": "Line 12",
+        "display_en": "Line 12",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 73.0,
+        "maximum_screen_width": 62.05
+      },
+      {
+        "id": 1160,
+        "key": "STR_TMG_COMMENT_13",
+        "canonical_en": "Line 13",
+        "display_en": "Line 13",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1161,
+        "key": "STR_TMG_COMMENT_14",
+        "canonical_en": "Line 14",
+        "display_en": "Line 14",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1162,
+        "key": "STR_TMG_COMMENT_15",
+        "canonical_en": "Line 15",
+        "display_en": "Line 15",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 73.0,
+        "maximum_screen_width": 62.05
+      },
+      {
+        "id": 1163,
+        "key": "STR_TMG_COMMENT_16",
+        "canonical_en": "Line 16",
+        "display_en": "Line 16",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1164,
+        "key": "STR_TMG_COMMENT_17",
+        "canonical_en": "Line 17",
+        "display_en": "Line 17",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 72.0,
+        "maximum_screen_width": 61.2
+      },
+      {
+        "id": 1165,
+        "key": "STR_TMG_COMMENT_18",
+        "canonical_en": "Line 18",
+        "display_en": "Line 18",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1166,
+        "key": "STR_TMG_COMMENT_19",
+        "canonical_en": "Line 19",
+        "display_en": "Line 19",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 74.0,
+        "maximum_screen_width": 62.9
+      },
+      {
+        "id": 1167,
+        "key": "STR_TMG_COMMENT_20",
+        "canonical_en": "Line 20",
+        "display_en": "Line 20",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 77.0,
+        "maximum_screen_width": 65.45
+      },
+      {
+        "id": 1168,
+        "key": "STR_TMG_REACTION_01",
+        "canonical_en": "Reaction: Correct",
+        "display_en": "Reaction: Correct",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 185.0,
+        "maximum_screen_width": 157.25
+      },
+      {
+        "id": 1169,
+        "key": "STR_TMG_REACTION_02",
+        "canonical_en": "Reaction: Incorrect",
+        "display_en": "Reaction: Incorrect",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 200.0,
+        "maximum_screen_width": 170.0
+      },
+      {
+        "id": 1170,
+        "key": "STR_TMG_REACTION_03",
+        "canonical_en": "Reaction: NG",
+        "display_en": "Reaction: NG",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 142.0,
+        "maximum_screen_width": 120.7
+      },
+      {
+        "id": 1186,
+        "key": "STR_TMG_COMMENT_ANG_01",
+        "canonical_en": "Hey, hey!#nAnge, what do#nyou do when#nyou're not training?",
+        "display_en": "Hey, hey! Ange, what do you#ndo when you're not training?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 311.0,
+        "maximum_screen_width": 264.35
+      },
+      {
+        "id": 1187,
+        "key": "STR_TMG_COMMENT_ANG_02",
+        "canonical_en": "When I'm not training?#nNothing in particular.",
+        "display_en": "When I'm not training?#nNothing in particular.",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 249.0,
+        "maximum_screen_width": 211.65
+      },
+      {
+        "id": 1188,
+        "key": "STR_TMG_COMMENT_ANG_03",
+        "canonical_en": "You don't sneak off#nand train#nin secret or anything?",
+        "display_en": "You don't sneak off and train in#nsecret or anything?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1189,
+        "key": "STR_TMG_COMMENT_ANG_04",
+        "canonical_en": "Why would I#nbother doing#nsomething like that?",
+        "display_en": "Why would I bother doing#nsomething like that?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 277.0,
+        "maximum_screen_width": 235.45
+      },
+      {
+        "id": 1190,
+        "key": "STR_TMG_COMMENT_ANG_05",
+        "canonical_en": "Besides, why would#nI need to hide it?",
+        "display_en": "Besides, why would I need to#nhide it?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 307.0,
+        "maximum_screen_width": 260.95
+      },
+      {
+        "id": 1191,
+        "key": "STR_TMG_COMMENT_ANG_06",
+        "canonical_en": "#b0(She doesn't do anything in particular...)",
+        "display_en": "#b0(She doesn't do anything in#nparticular...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 292.0,
+        "maximum_screen_width": 248.2
+      },
+      {
+        "id": 1192,
+        "key": "STR_TMG_COMMENT_ANG_07",
+        "canonical_en": "Then what do#nyou do with#nyour free time?",
+        "display_en": "Then what do you do with your#nfree time?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 337.0,
+        "maximum_screen_width": 286.45
+      },
+      {
+        "id": 1193,
+        "key": "STR_TMG_COMMENT_ANG_08",
+        "canonical_en": "I go for a run outside,#nor swim in the pool.#nAll sorts of things.",
+        "display_en": "I go for a run outside, or swim#nin the pool. All sorts of things.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 323.0,
+        "maximum_screen_width": 274.55
+      },
+      {
+        "id": 1194,
+        "key": "STR_TMG_COMMENT_ANG_09",
+        "canonical_en": "That's#ntraining!",
+        "display_en": "That's training!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 164.0,
+        "maximum_screen_width": 139.4
+      },
+      {
+        "id": 1195,
+        "key": "STR_TMG_COMMENT_ANG_10",
+        "canonical_en": "It's nothing that#nserious. Everyone#ngets some exercise, don't they?",
+        "display_en": "It's nothing that serious.#nEveryone gets some exercise,#ndon't they?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 304.0,
+        "maximum_screen_width": 258.4
+      },
+      {
+        "id": 1196,
+        "key": "STR_TMG_COMMENT_ANG_11",
+        "canonical_en": "Huh? I don't exercise#nat all.#nI spend my free time#nplaying games in my room...",
+        "display_en": "Huh? I don't exercise at all. I#nspend my free time playing#ngames in my room...",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 304.0,
+        "maximum_screen_width": 258.4
+      },
+      {
+        "id": 1197,
+        "key": "STR_TMG_COMMENT_ANG_12",
+        "canonical_en": "#b0(She does it all the time,#nso she doesn't really think about it.)",
+        "display_en": "#b0(She does it all the time, so she#ndoesn't really think about it.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 328.0,
+        "maximum_screen_width": 278.8
+      },
+      {
+        "id": 1198,
+        "key": "STR_TMG_COMMENT_ANG_13",
+        "canonical_en": "I can't be as#ncarefree as#nyou girls.#nIn that sense,#nI'm a little jealous.",
+        "display_en": "I can't be as carefree as you#ngirls. In that sense, I'm a little#njealous.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 314.0,
+        "maximum_screen_width": 266.9
+      },
+      {
+        "id": 1199,
+        "key": "STR_TMG_COMMENT_ANG_14",
+        "canonical_en": "Is that another dig at us?",
+        "display_en": "Is that another dig at us?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 270.0,
+        "maximum_screen_width": 229.5
+      },
+      {
+        "id": 1200,
+        "key": "STR_TMG_COMMENT_ANG_15",
+        "canonical_en": "I mean it. When I#nlived in the outside world,#nI never thought#nI might die#nthe very next day.",
+        "display_en": "I mean it. When I lived in the#noutside world, I never thought I#nmight die the very next day.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 335.0,
+        "maximum_screen_width": 284.75
+      },
+      {
+        "id": 1201,
+        "key": "STR_TMG_COMMENT_ANG_16",
+        "canonical_en": "Well, we don't#nwant to die either.#nBut when it's your time,#nit's your time, right?",
+        "display_en": "Well, we don't want to die#neither. But when it's your time,#nit's your time, right?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 333.0,
+        "maximum_screen_width": 283.05
+      },
+      {
+        "id": 1202,
+        "key": "STR_TMG_COMMENT_ANG_17",
+        "canonical_en": "I just don't#nsee it that#nway.#nI can't bring myself#nto think that dying#nis something we just have to accept.",
+        "display_en": "I just don't see it that way. I#ncan't bring myself to think that#ndying is something we just#nhave to accept.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 333.0,
+        "maximum_screen_width": 283.05
+      },
+      {
+        "id": 1203,
+        "key": "STR_TMG_COMMENT_ANG_18",
+        "canonical_en": "#b0(If Ange doesn't think#nshe's going to die either...)",
+        "display_en": "#b0(If Ange doesn't think she's#ngoing to die either...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 287.0,
+        "maximum_screen_width": 243.95
+      },
+      {
+        "id": 1204,
+        "key": "STR_TMG_REACTION_ANG_01",
+        "canonical_en": "Do you think so?",
+        "display_en": "Do you think so?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 186.0,
+        "maximum_screen_width": 158.1
+      },
+      {
+        "id": 1205,
+        "key": "STR_TMG_REACTION_ANG_02",
+        "canonical_en": "I told you,#nI don't do anything.",
+        "display_en": "I told you, I don't do anything.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 327.0,
+        "maximum_screen_width": 277.95
+      },
+      {
+        "id": 1206,
+        "key": "STR_TMG_REACTION_ANG_03",
+        "canonical_en": "Huh?",
+        "display_en": "Huh?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 60.0,
+        "maximum_screen_width": 51.0
+      },
+      {
+        "id": 1207,
+        "key": "STR_TMG_REACTION_ANG_04",
+        "canonical_en": "Now that you mention it,#nmaybe you're right.",
+        "display_en": "Now that you mention it,#nmaybe you're right.",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 272.0,
+        "maximum_screen_width": 231.2
+      },
+      {
+        "id": 1208,
+        "key": "STR_TMG_REACTION_ANG_05",
+        "canonical_en": "That's why you girls#nare hopeless.",
+        "display_en": "That's why you girls are#nhopeless.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 254.0,
+        "maximum_screen_width": 215.9
+      },
+      {
+        "id": 1209,
+        "key": "STR_TMG_REACTION_ANG_06",
+        "canonical_en": "What are you talking about?",
+        "display_en": "What are you talking about?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 306.0,
+        "maximum_screen_width": 260.1
+      },
+      {
+        "id": 1210,
+        "key": "STR_TMG_REACTION_ANG_07",
+        "canonical_en": "...Maybe you're right.",
+        "display_en": "...Maybe you're right.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 230.0,
+        "maximum_screen_width": 195.5
+      },
+      {
+        "id": 1211,
+        "key": "STR_TMG_REACTION_ANG_08",
+        "canonical_en": "Thinking like that#nis what gets you killed.",
+        "display_en": "Thinking like that is what gets#nyou killed.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 325.0,
+        "maximum_screen_width": 276.25
+      },
+      {
+        "id": 1212,
+        "key": "STR_TMG_REACTION_ANG_09",
+        "canonical_en": "Are you actually#nlistening to me?",
+        "display_en": "Are you actually listening to#nme?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 300.0,
+        "maximum_screen_width": 255.0
+      },
+      {
+        "id": 1228,
+        "key": "STR_TMG_COMMENT_SLI_01",
+        "canonical_en": "Whether it's planning#noperations or commanding#nin the field, you're, well...#nall theory and no practice.",
+        "display_en": "Whether it's planning#noperations or commanding in#nthe field, you're, well... all#ntheory and no practice.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 312.0,
+        "maximum_screen_width": 265.2
+      },
+      {
+        "id": 1229,
+        "key": "STR_TMG_COMMENT_SLI_02",
+        "canonical_en": "You're kind of#nunreliable, I guess.",
+        "display_en": "You're kind of unreliable, I#nguess.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 280.0,
+        "maximum_screen_width": 238.0
+      },
+      {
+        "id": 1230,
+        "key": "STR_TMG_COMMENT_SLI_03",
+        "canonical_en": "You're being so vague,#nI can't quite#nunderstand what#nyou're getting at...",
+        "display_en": "You're being so vague, I can't#nquite understand what you're#ngetting at...",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 312.0,
+        "maximum_screen_width": 265.2
+      },
+      {
+        "id": 1231,
+        "key": "STR_TMG_COMMENT_SLI_04",
+        "canonical_en": "Hilda,#nyou tell her.",
+        "display_en": "Hilda, you tell her.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 197.0,
+        "maximum_screen_width": 167.45
+      },
+      {
+        "id": 1232,
+        "key": "STR_TMG_COMMENT_SLI_05",
+        "canonical_en": "We're asking whether#nyou're really#nfit to be captain.",
+        "display_en": "We're asking whether you're#nreally fit to be captain.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 299.0,
+        "maximum_screen_width": 254.15
+      },
+      {
+        "id": 1233,
+        "key": "STR_TMG_COMMENT_SLI_06",
+        "canonical_en": "#b0(Salia works really#nhard as captain...)",
+        "display_en": "#b0(Salia works really hard as#ncaptain...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 276.0,
+        "maximum_screen_width": 234.6
+      },
+      {
+        "id": 1234,
+        "key": "STR_TMG_COMMENT_SLI_07",
+        "canonical_en": "What are you#njudging my#nsuitability by?",
+        "display_en": "What are you judging my#nsuitability by?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 271.0,
+        "maximum_screen_width": 230.35
+      },
+      {
+        "id": 1235,
+        "key": "STR_TMG_COMMENT_SLI_08",
+        "canonical_en": "To put it bluntly, we#nhaven't been making much#nmoney since Salia became captain.",
+        "display_en": "To put it bluntly, we haven't#nbeen making much money since#nSalia became captain.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1236,
+        "key": "STR_TMG_COMMENT_SLI_09",
+        "canonical_en": "This never happened#nwhen our dear Zola#nwas captain, did it?",
+        "display_en": "This never happened when our#ndear Zola was captain, did it?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 324.0,
+        "maximum_screen_width": 275.4
+      },
+      {
+        "id": 1237,
+        "key": "STR_TMG_COMMENT_SLI_10",
+        "canonical_en": "Gee, whose fault could that be?",
+        "display_en": "Gee, whose fault could that be?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 336.0,
+        "maximum_screen_width": 285.6
+      },
+      {
+        "id": 1238,
+        "key": "STR_TMG_COMMENT_SLI_11",
+        "canonical_en": "You seem to be saying#nwe'd make more#nmoney if someone#nelse were captain.",
+        "display_en": "You seem to be saying we'd#nmake more money if someone#nelse were captain.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 315.0,
+        "maximum_screen_width": 267.75
+      },
+      {
+        "id": 1239,
+        "key": "STR_TMG_COMMENT_SLI_12",
+        "canonical_en": "#b0(Hilda seems to want to blame someone#nfor how little we've been making lately...)",
+        "display_en": "#b0(Hilda seems to want to blame#nsomeone for how little we've#nbeen making lately...)",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 320.0,
+        "maximum_screen_width": 272.0
+      },
+      {
+        "id": 1240,
+        "key": "STR_TMG_COMMENT_SLI_13",
+        "canonical_en": "Jill made that decision.#nIf you have a complaint,#ntake it up with her.",
+        "display_en": "Jill made that decision. If you#nhave a complaint, take it up#nwith her.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 312.0,
+        "maximum_screen_width": 265.2
+      },
+      {
+        "id": 1241,
+        "key": "STR_TMG_COMMENT_SLI_14",
+        "canonical_en": "We're telling you#nbecause we can't#ntell her, Salia!",
+        "display_en": "We're telling you because we#ncan't tell her, Salia!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 303.0,
+        "maximum_screen_width": 257.55
+      },
+      {
+        "id": 1242,
+        "key": "STR_TMG_COMMENT_SLI_15",
+        "canonical_en": "Either way,#nsomeone has#nto be captain.#nYou do#nunderstand that, right?",
+        "display_en": "Either way, someone has to be#ncaptain. You do understand#nthat, right?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 323.0,
+        "maximum_screen_width": 274.55
+      },
+      {
+        "id": 1243,
+        "key": "STR_TMG_COMMENT_SLI_16",
+        "canonical_en": "Or would you#nlike to try being#ncaptain, Chris?",
+        "display_en": "Or would you like to try being#ncaptain, Chris?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 322.0,
+        "maximum_screen_width": 273.7
+      },
+      {
+        "id": 1244,
+        "key": "STR_TMG_COMMENT_SLI_17",
+        "canonical_en": "N-no, I'm fine.#nThere's no way#nI could be captain.",
+        "display_en": "N-no, I'm fine. There's no way I#ncould be captain.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1245,
+        "key": "STR_TMG_COMMENT_SLI_18",
+        "canonical_en": "#b0(It's about who's best suited#nto lead the First Squadron...)",
+        "display_en": "#b0(It's about who's best suited to#nlead the First Squadron...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 324.0,
+        "maximum_screen_width": 275.4
+      },
+      {
+        "id": 1246,
+        "key": "STR_TMG_REACTION_SLI_01",
+        "canonical_en": "Someone else seems#nto have this opinion.",
+        "display_en": "Someone else seems to have#nthis opinion.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 294.0,
+        "maximum_screen_width": 249.9
+      },
+      {
+        "id": 1247,
+        "key": "STR_TMG_REACTION_SLI_02",
+        "canonical_en": "I see.#nI'll take it#nunder advisement.",
+        "display_en": "I see. I'll take it under#nadvisement.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 227.0,
+        "maximum_screen_width": 192.95
+      },
+      {
+        "id": 1248,
+        "key": "STR_TMG_REACTION_SLI_03",
+        "canonical_en": "That isn't what#nwe're talking about.",
+        "display_en": "That isn't what we're talking#nabout.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 303.0,
+        "maximum_screen_width": 257.55
+      },
+      {
+        "id": 1249,
+        "key": "STR_TMG_REACTION_SLI_04",
+        "canonical_en": "I agree, Naomi.",
+        "display_en": "I agree, Naomi.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 161.0,
+        "maximum_screen_width": 136.85
+      },
+      {
+        "id": 1250,
+        "key": "STR_TMG_REACTION_SLI_05",
+        "canonical_en": "So that's what#nyou thought...",
+        "display_en": "So that's what you thought...",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 313.0,
+        "maximum_screen_width": 266.05
+      },
+      {
+        "id": 1251,
+        "key": "STR_TMG_REACTION_SLI_06",
+        "canonical_en": "Huh?#nWhat are you talking about?",
+        "display_en": "Huh? What are you talking#nabout?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 291.0,
+        "maximum_screen_width": 247.35
+      },
+      {
+        "id": 1252,
+        "key": "STR_TMG_REACTION_SLI_07",
+        "canonical_en": "Thank you, Naomi.",
+        "display_en": "Thank you, Naomi.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 205.0,
+        "maximum_screen_width": 174.25
+      },
+      {
+        "id": 1253,
+        "key": "STR_TMG_REACTION_SLI_08",
+        "canonical_en": "You can insult me,#nbut I won't let#nyou insult Jill.",
+        "display_en": "You can insult me, but I won't#nlet you insult Jill.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 321.0,
+        "maximum_screen_width": 272.85
+      },
+      {
+        "id": 1254,
+        "key": "STR_TMG_REACTION_SLI_09",
+        "canonical_en": "Are you actually#nlistening?",
+        "display_en": "Are you actually listening?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 285.0,
+        "maximum_screen_width": 242.25
+      },
+      {
+        "id": 1270,
+        "key": "STR_TMG_COMMENT_HIL_01",
+        "canonical_en": "Huh? I handed mine#nin ages ago.#nWhy haven't#nyou submitted yours yet?",
+        "display_en": "Huh? I handed mine in ages#nago. Why haven't you#nsubmitted yours yet?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 298.0,
+        "maximum_screen_width": 253.3
+      },
+      {
+        "id": 1271,
+        "key": "STR_TMG_COMMENT_HIL_02",
+        "canonical_en": "No matter how many times#nI check, it doesn't add up.#nThat's weird.",
+        "display_en": "No matter how many times I#ncheck, it doesn't add up. That's#nweird.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 329.0,
+        "maximum_screen_width": 279.65
+      },
+      {
+        "id": 1272,
+        "key": "STR_TMG_COMMENT_HIL_03",
+        "canonical_en": "I heard you get nothing#nif your calculations#nare wrong. Is that true?",
+        "display_en": "I heard you get nothing if your#ncalculations are wrong. Is that#ntrue?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 329.0,
+        "maximum_screen_width": 279.65
+      },
+      {
+        "id": 1273,
+        "key": "STR_TMG_COMMENT_HIL_04",
+        "canonical_en": "Some people deliberately#nrequest more than they need.#nIf it's just a mistake,#nyou only get a warning.",
+        "display_en": "Some people deliberately#nrequest more than they need. If#nit's just a mistake, you only get#na warning.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 333.0,
+        "maximum_screen_width": 283.05
+      },
+      {
+        "id": 1274,
+        "key": "STR_TMG_COMMENT_HIL_05",
+        "canonical_en": "I'm not planning#nanything that cheap.#nBut getting nothing#nwould be a problem.",
+        "display_en": "I'm not planning anything that#ncheap. But getting nothing#nwould be a problem.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 329.0,
+        "maximum_screen_width": 279.65
+      },
+      {
+        "id": 1275,
+        "key": "STR_TMG_COMMENT_HIL_06",
+        "canonical_en": "#b0(Hilda seems to be trying to get the calculations right.)",
+        "display_en": "#b0(Hilda seems to be trying to get#nthe calculations right.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1276,
+        "key": "STR_TMG_COMMENT_HIL_07",
+        "canonical_en": "How does#nVivian do this?#nIs she even#nsubmitting#nher requisitions properly?",
+        "display_en": "How does Vivian do this? Is she#neven submitting her#nrequisitions properly?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1277,
+        "key": "STR_TMG_COMMENT_HIL_08",
+        "canonical_en": "She seems to have#nsomeone write them for her.",
+        "display_en": "She seems to have someone#nwrite them for her.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 291.0,
+        "maximum_screen_width": 247.35
+      },
+      {
+        "id": 1278,
+        "key": "STR_TMG_COMMENT_HIL_09",
+        "canonical_en": "Paying someone to write#na supply requisition#ndefeats the whole point.#n...Huh? Does this#npart add up?",
+        "display_en": "Paying someone to write a#nsupply requisition defeats the#nwhole point. ...Huh? Does this#npart add up?",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 326.0,
+        "maximum_screen_width": 277.1
+      },
+      {
+        "id": 1279,
+        "key": "STR_TMG_COMMENT_HIL_10",
+        "canonical_en": "This is getting irritating.#nShall I do#nit for you?#nI won't charge you.",
+        "display_en": "This is getting irritating. Shall I#ndo it for you? I won't charge#nyou.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1280,
+        "key": "STR_TMG_COMMENT_HIL_11",
+        "canonical_en": "You'll mess up#nthe figures on purpose.#nI'm not falling for that.",
+        "display_en": "You'll mess up the figures on#npurpose. I'm not falling for that.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 340.0,
+        "maximum_screen_width": 289.0
+      },
+      {
+        "id": 1281,
+        "key": "STR_TMG_COMMENT_HIL_12",
+        "canonical_en": "#b0(She seems to be struggling.#nMaybe I should help her.)",
+        "display_en": "#b0(She seems to be struggling.#nMaybe I should help her.)",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 297.0,
+        "maximum_screen_width": 252.45
+      },
+      {
+        "id": 1282,
+        "key": "STR_TMG_COMMENT_HIL_13",
+        "canonical_en": "You're not very good#nwith numbers, are you, Hilda?",
+        "display_en": "You're not very good with#nnumbers, are you, Hilda?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 276.0,
+        "maximum_screen_width": 234.6
+      },
+      {
+        "id": 1283,
+        "key": "STR_TMG_COMMENT_HIL_14",
+        "canonical_en": "It's just adding#nand subtracting.#nYou're not paying attention.",
+        "display_en": "It's just adding and subtracting.#nYou're not paying attention.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1284,
+        "key": "STR_TMG_COMMENT_HIL_15",
+        "canonical_en": "You're the one#ndistracting me!",
+        "display_en": "You're the one distracting me!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 320.0,
+        "maximum_screen_width": 272.0
+      },
+      {
+        "id": 1285,
+        "key": "STR_TMG_COMMENT_HIL_16",
+        "canonical_en": "Oh, you noticed?",
+        "display_en": "Oh, you noticed?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 186.0,
+        "maximum_screen_width": 158.1
+      },
+      {
+        "id": 1286,
+        "key": "STR_TMG_COMMENT_HIL_17",
+        "canonical_en": "Look, you're almost done.#nKeep at it,#nHilda.",
+        "display_en": "Look, you're almost done. Keep#nat it, Hilda.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 331.0,
+        "maximum_screen_width": 281.35
+      },
+      {
+        "id": 1287,
+        "key": "STR_TMG_COMMENT_HIL_18",
+        "canonical_en": "#b0(Ange's doing it#non purpose. Honestly...)",
+        "display_en": "#b0(Ange's doing it on purpose.#nHonestly...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 298.0,
+        "maximum_screen_width": 253.3
+      },
+      {
+        "id": 1288,
+        "key": "STR_TMG_REACTION_HIL_01",
+        "canonical_en": "You know me#npretty well, don't you?",
+        "display_en": "You know me pretty well, don't#nyou?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1289,
+        "key": "STR_TMG_REACTION_HIL_02",
+        "canonical_en": "Damn it,#nI'll remember this, Naomi!",
+        "display_en": "Damn it, I'll remember this,#nNaomi!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 290.0,
+        "maximum_screen_width": 246.5
+      },
+      {
+        "id": 1290,
+        "key": "STR_TMG_REACTION_HIL_03",
+        "canonical_en": "This isn't the time#nto be talking about that!",
+        "display_en": "This isn't the time to be talking#nabout that!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 333.0,
+        "maximum_screen_width": 283.05
+      },
+      {
+        "id": 1291,
+        "key": "STR_TMG_REACTION_HIL_04",
+        "canonical_en": "Yeah, that'd help.#nJust check the calculations#nfor me.",
+        "display_en": "Yeah, that'd help. Just check#nthe calculations for me.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 303.0,
+        "maximum_screen_width": 257.55
+      },
+      {
+        "id": 1292,
+        "key": "STR_TMG_REACTION_HIL_05",
+        "canonical_en": "You've got some nerve.",
+        "display_en": "You've got some nerve.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 244.0,
+        "maximum_screen_width": 207.4
+      },
+      {
+        "id": 1293,
+        "key": "STR_TMG_REACTION_HIL_06",
+        "canonical_en": "Don't change the subject.#nYou're making me#nlose track of the numbers.",
+        "display_en": "Don't change the subject.#nYou're making me lose track of#nthe numbers.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 327.0,
+        "maximum_screen_width": 277.95
+      },
+      {
+        "id": 1294,
+        "key": "STR_TMG_REACTION_HIL_07",
+        "canonical_en": "Yeah, that's right!#nTell her!",
+        "display_en": "Yeah, that's right! Tell her!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 285.0,
+        "maximum_screen_width": 242.25
+      },
+      {
+        "id": 1295,
+        "key": "STR_TMG_REACTION_HIL_08",
+        "canonical_en": "Just because yours is#nalready in, you think#nyou can say whatever you want.",
+        "display_en": "Just because yours is already in,#nyou think you can say whatever#nyou want.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 340.0,
+        "maximum_screen_width": 289.0
+      },
+      {
+        "id": 1296,
+        "key": "STR_TMG_REACTION_HIL_09",
+        "canonical_en": "Just#nbe quiet, will you?",
+        "display_en": "Just be quiet, will you?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 247.0,
+        "maximum_screen_width": 209.95
+      },
+      {
+        "id": 1312,
+        "key": "STR_TMG_COMMENT_VIV_01",
+        "canonical_en": "She leaves her room#na complete mess,#nso I'm trying to#nget her to clean it up.",
+        "display_en": "She leaves her room a complete#nmess, so I'm trying to get her to#nclean it up.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1313,
+        "key": "STR_TMG_COMMENT_VIV_02",
+        "canonical_en": "A complete#nmess? Is it#nreally that bad?",
+        "display_en": "A complete mess? Is it really#nthat bad?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 300.0,
+        "maximum_screen_width": 255.0
+      },
+      {
+        "id": 1314,
+        "key": "STR_TMG_COMMENT_VIV_03",
+        "canonical_en": "I can't really#ndefend her.#nEven the aftermath of a#ntyphoon would look better.",
+        "display_en": "I can't really defend her. Even#nthe aftermath of a typhoon#nwould look better.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 312.0,
+        "maximum_screen_width": 265.2
+      },
+      {
+        "id": 1315,
+        "key": "STR_TMG_COMMENT_VIV_04",
+        "canonical_en": "But I'm#nreally bad at cleaning!#nIt's just going to#nget messy again,#nso it's fine the way it is!",
+        "display_en": "But I'm really bad at cleaning!#nIt's just going to get messy#nagain, so it's fine the way it is!",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 326.0,
+        "maximum_screen_width": 277.1
+      },
+      {
+        "id": 1316,
+        "key": "STR_TMG_COMMENT_VIV_05",
+        "canonical_en": "Don't make excuses!#nIf you put things#naway properly,#nit wouldn't get messy.",
+        "display_en": "Don't make excuses! If you put#nthings away properly, it#nwouldn't get messy.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 328.0,
+        "maximum_screen_width": 278.8
+      },
+      {
+        "id": 1317,
+        "key": "STR_TMG_COMMENT_VIV_06",
+        "canonical_en": "#b0(Everyone has something they're bad at...)",
+        "display_en": "#b0(Everyone has something#nthey're bad at...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 266.0,
+        "maximum_screen_width": 226.1
+      },
+      {
+        "id": 1318,
+        "key": "STR_TMG_COMMENT_VIV_07",
+        "canonical_en": "You leave your#nbooks piled up#ntoo, Salia.#nWhy's that okay?",
+        "display_en": "You leave your books piled up#ntoo, Salia. Why's that okay?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 317.0,
+        "maximum_screen_width": 269.45
+      },
+      {
+        "id": 1319,
+        "key": "STR_TMG_COMMENT_VIV_08",
+        "canonical_en": "Those are properly#norganized!#nYou just throw things#noff your hammock#nand leave them there!",
+        "display_en": "Those are properly organized!#nYou just throw things off your#nhammock and leave them there!",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1320,
+        "key": "STR_TMG_COMMENT_VIV_09",
+        "canonical_en": "You leave your clothes#nwherever you take them off.#nThey keep raining#ndown on my head!#nI can't stand it.",
+        "display_en": "You leave your clothes wherever#nyou take them off. They keep#nraining down on my head! I#ncan't stand it.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 340.0,
+        "maximum_screen_width": 289.0
+      },
+      {
+        "id": 1321,
+        "key": "STR_TMG_COMMENT_VIV_10",
+        "canonical_en": "I offered#nto clean it#nfor her, but...",
+        "display_en": "I offered to clean it for her,#nbut...",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 285.0,
+        "maximum_screen_width": 242.25
+      },
+      {
+        "id": 1322,
+        "key": "STR_TMG_COMMENT_VIV_11",
+        "canonical_en": "No. If someone else#ndoes it for her, she'll#njust do it again.#nShe needs to get into#nthe habit of cleaning herself.",
+        "display_en": "No. If someone else does it for#nher, she'll just do it again. She#nneeds to get into the habit of#ncleaning herself.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 320.0,
+        "maximum_screen_width": 272.0
+      },
+      {
+        "id": 1323,
+        "key": "STR_TMG_COMMENT_VIV_12",
+        "canonical_en": "#b0(She really does need to do it herself.)",
+        "display_en": "#b0(She really does need to do it#nherself.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 305.0,
+        "maximum_screen_width": 259.25
+      },
+      {
+        "id": 1324,
+        "key": "STR_TMG_COMMENT_VIV_13",
+        "canonical_en": "If only there were#na good way to make#nVivian want#nto clean up.",
+        "display_en": "If only there were a good way#nto make Vivian want to clean#nup.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 313.0,
+        "maximum_screen_width": 266.05
+      },
+      {
+        "id": 1325,
+        "key": "STR_TMG_COMMENT_VIV_14",
+        "canonical_en": "If it's fighting,#nI'm great at that!#nNo prey escapes#nonce I set my sights on it!#nHeh, just kidding.",
+        "display_en": "If it's fighting, I'm great at that!#nNo prey escapes once I set my#nsights on it! Heh, just kidding.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1326,
+        "key": "STR_TMG_COMMENT_VIV_15",
+        "canonical_en": "Take this#nseriously,#nwill you?",
+        "display_en": "Take this seriously, will you?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 309.0,
+        "maximum_screen_width": 262.65
+      },
+      {
+        "id": 1327,
+        "key": "STR_TMG_COMMENT_VIV_16",
+        "canonical_en": "I can't think of anything...",
+        "display_en": "I can't think of anything...",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 281.0,
+        "maximum_screen_width": 238.85
+      },
+      {
+        "id": 1328,
+        "key": "STR_TMG_COMMENT_VIV_17",
+        "canonical_en": "Ahh...#nMaybe I just#nhave to give up.",
+        "display_en": "Ahh... Maybe I just have to give#nup.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1329,
+        "key": "STR_TMG_COMMENT_VIV_18",
+        "canonical_en": "#b0(Hmm... Maybe we could connect it#nto something she's good at.)",
+        "display_en": "#b0(Hmm... Maybe we could#nconnect it to something she's#ngood at.)",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 310.0,
+        "maximum_screen_width": 263.5
+      },
+      {
+        "id": 1330,
+        "key": "STR_TMG_REACTION_VIV_01",
+        "canonical_en": "Seriously?!#nBut Salia says#nthat's no good.",
+        "display_en": "Seriously?! But Salia says that's#nno good.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1331,
+        "key": "STR_TMG_REACTION_VIV_02",
+        "canonical_en": "You're saying that#ntoo, Naomi?",
+        "display_en": "You're saying that too, Naomi?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1332,
+        "key": "STR_TMG_REACTION_VIV_03",
+        "canonical_en": "What are you talking about,#nNaomi?",
+        "display_en": "What are you talking about,#nNaomi?",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 299.0,
+        "maximum_screen_width": 254.15
+      },
+      {
+        "id": 1333,
+        "key": "STR_TMG_REACTION_VIV_04",
+        "canonical_en": "What's that?!#nThere's something like that?!",
+        "display_en": "What's that?! There's#nsomething like that?!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 228.0,
+        "maximum_screen_width": 193.8
+      },
+      {
+        "id": 1334,
+        "key": "STR_TMG_REACTION_VIV_05",
+        "canonical_en": "B-b-b-but...#nBut, but...",
+        "display_en": "B-b-b-but... But, but...",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 240.0,
+        "maximum_screen_width": 204.0
+      },
+      {
+        "id": 1335,
+        "key": "STR_TMG_REACTION_VIV_06",
+        "canonical_en": "Huh? What are you talking about?",
+        "display_en": "Huh? What are you talking#nabout?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 291.0,
+        "maximum_screen_width": 247.35
+      },
+      {
+        "id": 1336,
+        "key": "STR_TMG_REACTION_VIV_07",
+        "canonical_en": "Oh? What do you mean?",
+        "display_en": "Oh? What do you mean?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 269.0,
+        "maximum_screen_width": 228.65
+      },
+      {
+        "id": 1337,
+        "key": "STR_TMG_REACTION_VIV_08",
+        "canonical_en": "Isn't that a bit#ntoo cruel?",
+        "display_en": "Isn't that a bit too cruel?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 265.0,
+        "maximum_screen_width": 225.25
+      },
+      {
+        "id": 1338,
+        "key": "STR_TMG_REACTION_VIV_09",
+        "canonical_en": "Huh?#nI don't understand#nwhat you're saying.",
+        "display_en": "Huh? I don't understand what#nyou're saying.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 321.0,
+        "maximum_screen_width": 272.85
+      },
+      {
+        "id": 1354,
+        "key": "STR_TMG_COMMENT_ROS_01",
+        "canonical_en": "You're the one#nwho promised to pay#nme back, Rosalie.",
+        "display_en": "You're the one who promised to#npay me back, Rosalie.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 337.0,
+        "maximum_screen_width": 286.45
+      },
+      {
+        "id": 1355,
+        "key": "STR_TMG_COMMENT_ROS_02",
+        "canonical_en": "Nobody borrows money#nplanning to stiff someone.#nI thought I could pay#nit back at the time.",
+        "display_en": "Nobody borrows money#nplanning to stiff someone. I#nthought I could pay it back at#nthe time.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 316.0,
+        "maximum_screen_width": 268.6
+      },
+      {
+        "id": 1356,
+        "key": "STR_TMG_COMMENT_ROS_03",
+        "canonical_en": "Wasn't lending#nmoney to Rosalie#nyour mistake in#nthe first place?",
+        "display_en": "Wasn't lending money to#nRosalie your mistake in the first#nplace?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 338.0,
+        "maximum_screen_width": 287.3
+      },
+      {
+        "id": 1357,
+        "key": "STR_TMG_COMMENT_ROS_04",
+        "canonical_en": "Just give me#na little longer,#nHilda.#nI'll pay every last bit#nback, okay?",
+        "display_en": "Just give me a little longer,#nHilda. I'll pay every last bit#nback, okay?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 285.0,
+        "maximum_screen_width": 242.25
+      },
+      {
+        "id": 1358,
+        "key": "STR_TMG_COMMENT_ROS_05",
+        "canonical_en": "No. Pay me now!#nRight now! Come on!",
+        "display_en": "No. Pay me now! Right now!#nCome on!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 307.0,
+        "maximum_screen_width": 260.95
+      },
+      {
+        "id": 1359,
+        "key": "STR_TMG_COMMENT_ROS_06",
+        "canonical_en": "#b0(Rosalie does intend#nto pay her back...)",
+        "display_en": "#b0(Rosalie does intend to pay her#nback...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 326.0,
+        "maximum_screen_width": 277.1
+      },
+      {
+        "id": 1360,
+        "key": "STR_TMG_COMMENT_ROS_07",
+        "canonical_en": "By the way, how much#ndid you lend Rosalie?",
+        "display_en": "By the way, how much did you#nlend Rosalie?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1361,
+        "key": "STR_TMG_COMMENT_ROS_08",
+        "canonical_en": "1,000 Cash.",
+        "display_en": "1,000 Cash.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 122.0,
+        "maximum_screen_width": 103.7
+      },
+      {
+        "id": 1362,
+        "key": "STR_TMG_COMMENT_ROS_09",
+        "canonical_en": "Huh? Is that all?",
+        "display_en": "Huh? Is that all?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 180.0,
+        "maximum_screen_width": 153.0
+      },
+      {
+        "id": 1363,
+        "key": "STR_TMG_COMMENT_ROS_10",
+        "canonical_en": "However little it is,#nI don't have it.#nI'd pay you if I could.",
+        "display_en": "However little it is, I don't have#nit. I'd pay you if I could.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1364,
+        "key": "STR_TMG_COMMENT_ROS_11",
+        "canonical_en": "Honestly...#nYou're so shameless#nit's almost refreshing.",
+        "display_en": "Honestly... You're so shameless#nit's almost refreshing.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 330.0,
+        "maximum_screen_width": 280.5
+      },
+      {
+        "id": 1365,
+        "key": "STR_TMG_COMMENT_ROS_12",
+        "canonical_en": "#b0(Rosalie really#ndoesn't seem to have any money...)",
+        "display_en": "#b0(Rosalie really doesn't seem to#nhave any money...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 316.0,
+        "maximum_screen_width": 268.6
+      },
+      {
+        "id": 1366,
+        "key": "STR_TMG_COMMENT_ROS_13",
+        "canonical_en": "If you don't have#nthe money, so be it.#nYou'll pay me back#nwith your body, then.",
+        "display_en": "If you don't have the money, so#nbe it. You'll pay me back with#nyour body, then.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 335.0,
+        "maximum_screen_width": 284.75
+      },
+      {
+        "id": 1367,
+        "key": "STR_TMG_COMMENT_ROS_14",
+        "canonical_en": "O-okay.#nI'll do anything.#nJust tell me what you want.",
+        "display_en": "O-okay. I'll do anything. Just#ntell me what you want.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 309.0,
+        "maximum_screen_width": 262.65
+      },
+      {
+        "id": 1368,
+        "key": "STR_TMG_COMMENT_ROS_15",
+        "canonical_en": "Dying over#na measly#n 1,000 Cash#nwould be ridiculous.",
+        "display_en": "Dying over a measly 1,000 Cash#nwould be ridiculous.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 337.0,
+        "maximum_screen_width": 286.45
+      },
+      {
+        "id": 1369,
+        "key": "STR_TMG_COMMENT_ROS_16",
+        "canonical_en": "Now, what should#nI make you do...?",
+        "display_en": "Now, what should I make you#ndo...?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 317.0,
+        "maximum_screen_width": 269.45
+      },
+      {
+        "id": 1370,
+        "key": "STR_TMG_COMMENT_ROS_17",
+        "canonical_en": "#b0(1,000 Cash worth of labor...)",
+        "display_en": "#b0(1,000 Cash worth of labor...)",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 310.0,
+        "maximum_screen_width": 263.5
+      },
+      {
+        "id": 1371,
+        "key": "STR_TMG_REACTION_ROS_01",
+        "canonical_en": "That's it, Naomi!#nGreat idea!",
+        "display_en": "That's it, Naomi! Great idea!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 303.0,
+        "maximum_screen_width": 257.55
+      },
+      {
+        "id": 1372,
+        "key": "STR_TMG_REACTION_ROS_02",
+        "canonical_en": "H-hey!#nYou're saying that#ntoo, Naomi?",
+        "display_en": "H-hey! You're saying that too,#nNaomi?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 322.0,
+        "maximum_screen_width": 273.7
+      },
+      {
+        "id": 1373,
+        "key": "STR_TMG_REACTION_ROS_03",
+        "canonical_en": "Huh?#nWho cares about#nthat right now?",
+        "display_en": "Huh? Who cares about that#nright now?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 295.0,
+        "maximum_screen_width": 250.75
+      },
+      {
+        "id": 1374,
+        "key": "STR_TMG_REACTION_ROS_04",
+        "canonical_en": "P-please, let's do that,#nHilda!",
+        "display_en": "P-please, let's do that, Hilda!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 302.0,
+        "maximum_screen_width": 256.7
+      },
+      {
+        "id": 1375,
+        "key": "STR_TMG_REACTION_ROS_05",
+        "canonical_en": "That's not true!#nBelieve me!",
+        "display_en": "That's not true! Believe me!",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 292.0,
+        "maximum_screen_width": 248.2
+      },
+      {
+        "id": 1376,
+        "key": "STR_TMG_REACTION_ROS_06",
+        "canonical_en": "That's not what I meant.#nAre you listening?",
+        "display_en": "That's not what I meant. Are#nyou listening?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 304.0,
+        "maximum_screen_width": 258.4
+      },
+      {
+        "id": 1377,
+        "key": "STR_TMG_REACTION_ROS_07",
+        "canonical_en": "Yeah, yeah,#nthat sounds about right.",
+        "display_en": "Yeah, yeah, that sounds about#nright.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 323.0,
+        "maximum_screen_width": 274.55
+      },
+      {
+        "id": 1378,
+        "key": "STR_TMG_REACTION_ROS_08",
+        "canonical_en": "Don't egg Hilda on!",
+        "display_en": "Don't egg Hilda on!",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 208.0,
+        "maximum_screen_width": 176.8
+      },
+      {
+        "id": 1379,
+        "key": "STR_TMG_REACTION_ROS_09",
+        "canonical_en": "It's none of your business?#nWell, I guess you're right...",
+        "display_en": "It's none of your business?#nWell, I guess you're right...",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 284.0,
+        "maximum_screen_width": 241.4
+      },
+      {
+        "id": 1395,
+        "key": "STR_TMG_COMMENT_ERS_01",
+        "canonical_en": "What's up, Salia?#nIf you've got something#nto say, say it.",
+        "display_en": "What's up, Salia? If you've got#nsomething to say, say it.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 323.0,
+        "maximum_screen_width": 274.55
+      },
+      {
+        "id": 1396,
+        "key": "STR_TMG_COMMENT_ERS_02",
+        "canonical_en": "Nothing.#nI just think#nfortune-telling#nis unscientific.",
+        "display_en": "Nothing. I just think#nfortune-telling is unscientific.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 313.0,
+        "maximum_screen_width": 266.05
+      },
+      {
+        "id": 1397,
+        "key": "STR_TMG_COMMENT_ERS_03",
+        "canonical_en": "Oh?#nYou don't believe in it?",
+        "display_en": "Oh? You don't believe in it?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 300.0,
+        "maximum_screen_width": 255.0
+      },
+      {
+        "id": 1398,
+        "key": "STR_TMG_COMMENT_ERS_04",
+        "canonical_en": "That's right.#nI don't#nbelieve in it. But let#nme ask you: do you#nreally believe in it?",
+        "display_en": "That's right. I don't believe in#nit. But let me ask you: do you#nreally believe in it?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 316.0,
+        "maximum_screen_width": 268.6
+      },
+      {
+        "id": 1399,
+        "key": "STR_TMG_COMMENT_ERS_05",
+        "canonical_en": "It actually helped#nme find what I'd lost.#nHow could I not believe it?",
+        "display_en": "It actually helped me find what#nI'd lost. How could I not believe#nit?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1400,
+        "key": "STR_TMG_COMMENT_ERS_06",
+        "canonical_en": "#b0(You've got to start by believing.)",
+        "display_en": "#b0(You've got to start by#nbelieving.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 238.0,
+        "maximum_screen_width": 202.3
+      },
+      {
+        "id": 1401,
+        "key": "STR_TMG_COMMENT_ERS_07",
+        "canonical_en": "That's the thing.#nCouldn't there be#nsome kind of trick#nor setup behind it?",
+        "display_en": "That's the thing. Couldn't there#nbe some kind of trick or setup#nbehind it?",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 335.0,
+        "maximum_screen_width": 284.75
+      },
+      {
+        "id": 1402,
+        "key": "STR_TMG_COMMENT_ERS_08",
+        "canonical_en": "There's a limit#nto how suspicious you can be.#nThis is why#nbookworms who live#nin their heads are such a pain.",
+        "display_en": "There's a limit to how#nsuspicious you can be. This is#nwhy bookworms who live in#ntheir heads are such a pain.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 314.0,
+        "maximum_screen_width": 266.9
+      },
+      {
+        "id": 1403,
+        "key": "STR_TMG_COMMENT_ERS_09",
+        "canonical_en": "Well...#nSalia has#na point, but#nthat's not the whole story.",
+        "display_en": "Well... Salia has a point, but#nthat's not the whole story.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 298.0,
+        "maximum_screen_width": 253.3
+      },
+      {
+        "id": 1404,
+        "key": "STR_TMG_COMMENT_ERS_10",
+        "canonical_en": "First, I need to learn#nthe details of the situation.#nI also have to know#na lot about the person#nwhose fortune I'm telling.",
+        "display_en": "First, I need to learn the details#nof the situation. I also have to#nknow a lot about the person#nwhose fortune I'm telling.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 329.0,
+        "maximum_screen_width": 279.65
+      },
+      {
+        "id": 1405,
+        "key": "STR_TMG_COMMENT_ERS_11",
+        "canonical_en": "The person whose fortune#nyou're telling? You mean me?",
+        "display_en": "The person whose fortune#nyou're telling? You mean me?",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 317.0,
+        "maximum_screen_width": 269.45
+      },
+      {
+        "id": 1406,
+        "key": "STR_TMG_COMMENT_ERS_12",
+        "canonical_en": "#b0(I see. She pays close attention#nto her friends all the time.)",
+        "display_en": "#b0(I see. She pays close attention#nto her friends all the time.)",
+        "changed": false,
+        "lines": 2,
+        "maximum_native_width": 324.0,
+        "maximum_screen_width": 275.4
+      },
+      {
+        "id": 1407,
+        "key": "STR_TMG_COMMENT_ERS_13",
+        "canonical_en": "Knowing your personality,#nHilda, I could guess#nthat you'd assumed#nyou'd lost it outside#nand hadn't searched your room.",
+        "display_en": "Knowing your personality,#nHilda, I could guess that you'd#nassumed you'd lost it outside#nand hadn't searched your room.",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 336.0,
+        "maximum_screen_width": 285.6
+      },
+      {
+        "id": 1408,
+        "key": "STR_TMG_COMMENT_ERS_14",
+        "canonical_en": "And you didn't#nfind it even after#nsearching outside.#nDoesn't that mean#nit must be in your room?",
+        "display_en": "And you didn't find it even#nafter searching outside. Doesn't#nthat mean it must be in your#nroom?",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 335.0,
+        "maximum_screen_width": 284.75
+      },
+      {
+        "id": 1409,
+        "key": "STR_TMG_COMMENT_ERS_15",
+        "canonical_en": "I'd say that's#nenough to work out#nabout ninety percent#nof the answer.",
+        "display_en": "I'd say that's enough to work#nout about ninety percent of the#nanswer.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 333.0,
+        "maximum_screen_width": 283.05
+      },
+      {
+        "id": 1410,
+        "key": "STR_TMG_COMMENT_ERS_16",
+        "canonical_en": "Let's say I#naccept that.#nWhat about the other ten percent?#nHow did you know#nit was under the bed?",
+        "display_en": "Let's say I accept that. What#nabout the other ten percent?#nHow did you know it was under#nthe bed?",
+        "changed": true,
+        "lines": 4,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1411,
+        "key": "STR_TMG_COMMENT_ERS_17",
+        "canonical_en": "Spiritual inspiration,#nof course.",
+        "display_en": "Spiritual inspiration, of course.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 329.0,
+        "maximum_screen_width": 279.65
+      },
+      {
+        "id": 1412,
+        "key": "STR_TMG_COMMENT_ERS_18",
+        "canonical_en": "#b0(So that's what settles#nit in the end...)",
+        "display_en": "#b0(So that's what settles it in the#nend...)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 325.0,
+        "maximum_screen_width": 276.25
+      },
+      {
+        "id": 1413,
+        "key": "STR_TMG_REACTION_ERS_01",
+        "canonical_en": "Thank you,#nNaomi.",
+        "display_en": "Thank you, Naomi.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 205.0,
+        "maximum_screen_width": 174.25
+      },
+      {
+        "id": 1414,
+        "key": "STR_TMG_REACTION_ERS_02",
+        "canonical_en": "That's#ntrue, but...",
+        "display_en": "That's true, but...",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 185.0,
+        "maximum_screen_width": 157.25
+      },
+      {
+        "id": 1415,
+        "key": "STR_TMG_REACTION_ERS_03",
+        "canonical_en": "What are you talking about?",
+        "display_en": "What are you talking about?",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 306.0,
+        "maximum_screen_width": 260.1
+      },
+      {
+        "id": 1416,
+        "key": "STR_TMG_REACTION_ERS_04",
+        "canonical_en": "Thank you,#nNaomi.",
+        "display_en": "Thank you, Naomi.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 205.0,
+        "maximum_screen_width": 174.25
+      },
+      {
+        "id": 1417,
+        "key": "STR_TMG_REACTION_ERS_05",
+        "canonical_en": "You should hear people#nout to the end.",
+        "display_en": "You should hear people out to#nthe end.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 318.0,
+        "maximum_screen_width": 270.3
+      },
+      {
+        "id": 1418,
+        "key": "STR_TMG_REACTION_ERS_06",
+        "canonical_en": "Naomi,#nare you even listening?",
+        "display_en": "Naomi, are you even listening?",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 330.0,
+        "maximum_screen_width": 280.5
+      },
+      {
+        "id": 1419,
+        "key": "STR_TMG_REACTION_ERS_07",
+        "canonical_en": "Oh, thank you.",
+        "display_en": "Oh, thank you.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 163.0,
+        "maximum_screen_width": 138.55
+      },
+      {
+        "id": 1420,
+        "key": "STR_TMG_REACTION_ERS_08",
+        "canonical_en": "Hearing that#nis a little depressing...",
+        "display_en": "Hearing that is a little#ndepressing...",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 233.0,
+        "maximum_screen_width": 198.05
+      },
+      {
+        "id": 1421,
+        "key": "STR_TMG_REACTION_ERS_09",
+        "canonical_en": "Listen#nproperly.",
+        "display_en": "Listen properly.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 165.0,
+        "maximum_screen_width": 140.25
+      },
+      {
+        "id": 1437,
+        "key": "STR_TMG_COMMENT_CRS_01",
+        "canonical_en": "Um, what's going on?#nChris looks#nreally angry.",
+        "display_en": "Um, what's going on? Chris#nlooks really angry.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 298.0,
+        "maximum_screen_width": 253.3
+      },
+      {
+        "id": 1438,
+        "key": "STR_TMG_COMMENT_CRS_02",
+        "canonical_en": "Don't play#ndumb. You're#nthe culprit, aren't you?#nHurry up and confess.",
+        "display_en": "Don't play dumb. You're the#nculprit, aren't you? Hurry up#nand confess.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 308.0,
+        "maximum_screen_width": 261.8
+      },
+      {
+        "id": 1439,
+        "key": "STR_TMG_COMMENT_CRS_03",
+        "canonical_en": "I'm innocent!#nI demand#nto be released!",
+        "display_en": "I'm innocent! I demand to be#nreleased!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 304.0,
+        "maximum_screen_width": 258.4
+      },
+      {
+        "id": 1440,
+        "key": "STR_TMG_COMMENT_CRS_04",
+        "canonical_en": "Nobody's been#ncleared of suspicion yet.",
+        "display_en": "Nobody's been cleared of#nsuspicion yet.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 262.0,
+        "maximum_screen_width": 222.7
+      },
+      {
+        "id": 1441,
+        "key": "STR_TMG_COMMENT_CRS_05",
+        "canonical_en": "Who deleted#nmy game's#nsave data?#nConfess now and I'll only#nbeat you half to death.",
+        "display_en": "Who deleted my game's save#ndata? Confess now and I'll only#nbeat you half to death.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 332.0,
+        "maximum_screen_width": 282.2
+      },
+      {
+        "id": 1442,
+        "key": "STR_TMG_COMMENT_CRS_06",
+        "canonical_en": "#b0(A game? I don't know anything about it.)",
+        "display_en": "#b0(A game? I don't know#nanything about it.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 241.0,
+        "maximum_screen_width": 204.85
+      },
+      {
+        "id": 1443,
+        "key": "STR_TMG_COMMENT_CRS_07",
+        "canonical_en": "Give me a break already.",
+        "display_en": "Give me a break already.",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 260.0,
+        "maximum_screen_width": 221.0
+      },
+      {
+        "id": 1444,
+        "key": "STR_TMG_COMMENT_CRS_08",
+        "canonical_en": "Didn't you delete it#nby mistake yourself?",
+        "display_en": "Didn't you delete it by mistake#nyourself?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 326.0,
+        "maximum_screen_width": 277.1
+      },
+      {
+        "id": 1445,
+        "key": "STR_TMG_COMMENT_CRS_09",
+        "canonical_en": "That save data was#nmore precious than my life!#nWhy would I#ndelete it myself?!",
+        "display_en": "That save data was more#nprecious than my life! Why#nwould I delete it myself?!",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 287.0,
+        "maximum_screen_width": 243.95
+      },
+      {
+        "id": 1446,
+        "key": "STR_TMG_COMMENT_CRS_10",
+        "canonical_en": "Who gives a damn#nabout some game's#nsave data?",
+        "display_en": "Who gives a damn about some#ngame's save data?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 323.0,
+        "maximum_screen_width": 274.55
+      },
+      {
+        "id": 1447,
+        "key": "STR_TMG_COMMENT_CRS_11",
+        "canonical_en": "You're trying to#nchange the subject.#nWas it you, Hilda?#nThat's suspicious...",
+        "display_en": "You're trying to change the#nsubject. Was it you, Hilda?#nThat's suspicious...",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 291.0,
+        "maximum_screen_width": 247.35
+      },
+      {
+        "id": 1448,
+        "key": "STR_TMG_COMMENT_CRS_12",
+        "canonical_en": "#b0(It's up to Chris#nwhether it matters to her.)",
+        "display_en": "#b0(It's up to Chris whether it#nmatters to her.)",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 282.0,
+        "maximum_screen_width": 239.7
+      },
+      {
+        "id": 1449,
+        "key": "STR_TMG_COMMENT_CRS_13",
+        "canonical_en": "Even if you#nfind the culprit,#nthat won't bring#nyour save data back.",
+        "display_en": "Even if you find the culprit,#nthat won't bring your save data#nback.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1450,
+        "key": "STR_TMG_COMMENT_CRS_14",
+        "canonical_en": "That's true, but...",
+        "display_en": "That's true, but...",
+        "changed": false,
+        "lines": 1,
+        "maximum_native_width": 185.0,
+        "maximum_screen_width": 157.25
+      },
+      {
+        "id": 1451,
+        "key": "STR_TMG_COMMENT_CRS_15",
+        "canonical_en": "I don't even know#nhow to delete#nsave data!",
+        "display_en": "I don't even know how to delete#nsave data!",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 337.0,
+        "maximum_screen_width": 286.45
+      },
+      {
+        "id": 1452,
+        "key": "STR_TMG_COMMENT_CRS_16",
+        "canonical_en": "Don't you have any#nevidence or clues?",
+        "display_en": "Don't you have any evidence or#nclues?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1453,
+        "key": "STR_TMG_COMMENT_CRS_17",
+        "canonical_en": "If I did,#nI'd have killed them already.",
+        "display_en": "If I did, I'd have killed them#nalready.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 288.0,
+        "maximum_screen_width": 244.8
+      },
+      {
+        "id": 1454,
+        "key": "STR_TMG_COMMENT_CRS_18",
+        "canonical_en": "#b0(I think there's something else she should do#nbesides hunting down the culprit.)",
+        "display_en": "#b0(I think there's something else#nshe should do besides hunting#ndown the culprit.)",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 319.0,
+        "maximum_screen_width": 271.15
+      },
+      {
+        "id": 1455,
+        "key": "STR_TMG_REACTION_CRS_01",
+        "canonical_en": "Naomi says#nshe didn't do#nanything, though?",
+        "display_en": "Naomi says she didn't do#nanything, though?",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 265.0,
+        "maximum_screen_width": 225.25
+      },
+      {
+        "id": 1456,
+        "key": "STR_TMG_REACTION_CRS_02",
+        "canonical_en": "That's#nfor me#nto decide.",
+        "display_en": "That's for me to decide.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 248.0,
+        "maximum_screen_width": 210.8
+      },
+      {
+        "id": 1457,
+        "key": "STR_TMG_REACTION_CRS_03",
+        "canonical_en": "Oh?#nYou're suspicious too, Naomi...",
+        "display_en": "Oh? You're suspicious too,#nNaomi...",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 286.0,
+        "maximum_screen_width": 243.1
+      },
+      {
+        "id": 1458,
+        "key": "STR_TMG_REACTION_CRS_04",
+        "canonical_en": "Naomi's right.#nThat save data was#nthe result of#nblood, sweat and tears.",
+        "display_en": "Naomi's right. That save data#nwas the result of blood, sweat#nand tears.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 314.0,
+        "maximum_screen_width": 266.9
+      },
+      {
+        "id": 1459,
+        "key": "STR_TMG_REACTION_CRS_05",
+        "canonical_en": "There's no way#nI'd make that mistake.#nMaybe you really#nwere the one who did it, Naomi.",
+        "display_en": "There's no way I'd make that#nmistake. Maybe you really were#nthe one who did it, Naomi.",
+        "changed": true,
+        "lines": 3,
+        "maximum_native_width": 334.0,
+        "maximum_screen_width": 283.9
+      },
+      {
+        "id": 1460,
+        "key": "STR_TMG_REACTION_CRS_06",
+        "canonical_en": "That isn't what#nwe're talking about right now.",
+        "display_en": "That isn't what we're talking#nabout right now.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 303.0,
+        "maximum_screen_width": 257.55
+      },
+      {
+        "id": 1461,
+        "key": "STR_TMG_REACTION_CRS_07",
+        "canonical_en": "Start over?#nI could do that, but...",
+        "display_en": "Start over? I could do that,#nbut...",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 287.0,
+        "maximum_screen_width": 243.95
+      },
+      {
+        "id": 1462,
+        "key": "STR_TMG_REACTION_CRS_08",
+        "canonical_en": "You don't understand#nanything.",
+        "display_en": "You don't understand anything.",
+        "changed": true,
+        "lines": 1,
+        "maximum_native_width": 339.0,
+        "maximum_screen_width": 288.15
+      },
+      {
+        "id": 1463,
+        "key": "STR_TMG_REACTION_CRS_09",
+        "canonical_en": "You'd#nbe okay with that?#nBecause I#nwouldn't.",
+        "display_en": "You'd be okay with that?#nBecause I wouldn't.",
+        "changed": true,
+        "lines": 2,
+        "maximum_native_width": 269.0,
+        "maximum_screen_width": 228.65
+      }
+    ]
+  },
+  "animation": {
+    "member": "data/_ssa/talk_battle_window.bsa",
+    "source_sha256": "fe77cac021a45a80bc1f15c2c4fcc3bf2180e35c0d919640655a561038bbecc2",
+    "output_sha256": "8d8636d3127b344d49d16029cc6d1fb15c0b063dd2240df42a3fe07464936811",
+    "original_body_width": 252,
+    "body_width": 335.916,
+    "left_edge_preserved": true,
+    "text_origin_preserved": true,
+    "vertical_animation_preserved": true,
+    "tail_width_preserved": true,
+    "changed_keys": [
+      {
+        "part": "fukidashi_waku a",
+        "property": "SCAX",
+        "offset": 1920,
+        "before": 1000,
+        "after": 1333
+      },
+      {
+        "part": "fukidashi_waku a",
+        "property": "SCAX",
+        "offset": 1948,
+        "before": 1000,
+        "after": 1333
+      },
+      {
+        "part": "fukidashi_waku a",
+        "property": "POSX",
+        "offset": 1692,
+        "before": 126000,
+        "after": 167958
+      },
+      {
+        "part": "fukidashi_waku a",
+        "property": "POSX",
+        "offset": 1720,
+        "before": 126000,
+        "after": 167958
+      },
+      {
+        "part": "fukidashi_waku b",
+        "property": "SCAX",
+        "offset": 3528,
+        "before": 1000,
+        "after": 1333
+      },
+      {
+        "part": "fukidashi_waku b",
+        "property": "POSX",
+        "offset": 3384,
+        "before": 126000,
+        "after": 167958
+      },
+      {
+        "part": "fukidashi_waku c",
+        "property": "SCAX",
+        "offset": 2780,
+        "before": 1000,
+        "after": 1333
+      },
+      {
+        "part": "fukidashi_waku c",
+        "property": "SCAX",
+        "offset": 2808,
+        "before": 1000,
+        "after": 1333
+      },
+      {
+        "part": "fukidashi_waku c",
+        "property": "POSX",
+        "offset": 2552,
+        "before": 126000,
+        "after": 167958
+      },
+      {
+        "part": "fukidashi_waku c",
+        "property": "POSX",
+        "offset": 2580,
+        "before": 126000,
+        "after": 167958
+      },
+      {
+        "part": "fukidashi_r_side",
+        "property": "POSX",
+        "offset": 4184,
+        "before": 263000,
+        "after": 346916
+      },
+      {
+        "part": "fukidashi_r_side",
+        "property": "POSX",
+        "offset": 4212,
+        "before": 263000,
+        "after": 346916
+      }
+    ],
+    "executable_unchanged": true,
+    "runtime_verified": false
+  },
+  "scope": "Timed conversations only; source BSW audit found one user of the bubble animation.",
+  "runtime_verified": false,
+  "preview": {
+    "path": "work/ui/local/timed-dialogue/layout-preview.png",
+    "source": "Original atlas slices and native GenEi glyphs; nominal line-dependent height.",
+    "actual_game_capture": false
+  }
+}

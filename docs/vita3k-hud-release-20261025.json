@@ -1,0 +1,30 @@
+{
+  "repository": "retro-trans/Vita3K",
+  "release_id": 423508737,
+  "tag": "v0.2.1-cross-ange-hud.1",
+  "url": "https://github.com/retro-trans/Vita3K/releases/tag/v0.2.1-cross-ange-hud.1",
+  "published_at": "2026-10-25T16:10:00Z",
+  "published": true,
+  "prerelease": true,
+  "source_commit": "fbbdf3d3bab64e8f373bbabb962da42bc9c7f08f",
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 110,
+      "digest": "sha256:118226cd9952b83cf65f35d46c90a359c33cab6545ff15c34e5bbb1660b18f0b",
+      "browser_download_url": "https://github.com/retro-trans/Vita3K/releases/download/v0.2.1-cross-ange-hud.1/SHA256SUMS.txt"
+    },
+    {
+      "name": "Vita3K-Cross-Ange-HUD-4234-Windows-x64.zip",
+      "size": 38704992,
+      "digest": "sha256:e5a6dbe82886676340d2b486bffcd5d2d536218e53f9e3d27242fbbee6e2592b",
+      "browser_download_url": "https://github.com/retro-trans/Vita3K/releases/download/v0.2.1-cross-ange-hud.1/Vita3K-Cross-Ange-HUD-4234-Windows-x64.zip"
+    }
+  ],
+  "anonymous_checksum_download_matches": true,
+  "anonymous_zip_http_status": 200,
+  "zip_size": 38704992,
+  "tested_ci_run": 40204605165,
+  "game_or_user_emulator_changed": false,
+  "gameplay_verified": false
+}

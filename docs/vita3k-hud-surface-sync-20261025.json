@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-25",
+  "status": "tested_still_broken",
+  "baseline": "Original Japanese game reproduces the same HUD corruption on OpenGL, with surface sync disabled.",
+  "only_comparison_setting_changed": "disable-surface-sync: true -> false",
+  "profile": {
+    "title_id": "PCSG00597",
+    "profile": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\emulator\\config\\config_PCSG00597.xml",
+    "write": true,
+    "settings_before": {
+      "backend-renderer": "OpenGL",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "settings_after": {
+      "backend-renderer": "OpenGL",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "false",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "only_effective_setting_changed": "disable-surface-sync",
+    "changed_settings": [
+      "disable-surface-sync"
+    ],
+    "global_config_sha256": "a2a2bed69aedcd3bcc5aeca6ccff81dcf52f3ff82b4150286a96710bd41ab373",
+    "previous_profile_sha256": "50c6ec86c9bbbe9b1bc6ee4e4e98ab0f76512f3d9930af918d2e6dfdb697dbdc",
+    "profile_sha256": "32c78939bdf69330ef56e07e1220bdbaf53b7d656af2238469f40862140cec02",
+    "restart_required": true,
+    "game_bytes_changed": false,
+    "saves_and_license_written": false,
+    "runtime_hud_fix_verified": false,
+    "backup": "E:\\Projects\\Cross Ange\\work\\source\\vita3k-install-backups\\hud-accuracy-20261025-202443-234145"
+  },
+  "renderer": "OpenGL",
+  "original_game_files_verified": 46,
+  "english_profile_restored": {
+    "title_id": "PCSG00597",
+    "profile": "E:\\Emu\\vita3k\\config\\config_PCSG00597.xml",
+    "write": true,
+    "settings_before": {
+      "backend-renderer": "OpenGL",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "settings_after": {
+      "backend-renderer": "Vulkan",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "double-buffer",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "only_effective_setting_changed": null,
+    "changed_settings": [
+      "backend-renderer",
+      "memory-mapping"
+    ],
+    "global_config_sha256": "6293562bd92cbfe7b1d5bc489f1094d1d61d09da39168285462196a8c7b1b6a8",
+    "previous_profile_sha256": "50c6ec86c9bbbe9b1bc6ee4e4e98ab0f76512f3d9930af918d2e6dfdb697dbdc",
+    "profile_sha256": "8f94af9d43a7d19df62501e769fb569a24c9bcb2f2eba01465fe8f35900c1f5f",
+    "restart_required": true,
+    "game_bytes_changed": false,
+    "saves_and_license_written": false,
+    "runtime_hud_fix_verified": false,
+    "backup": "E:\\Projects\\Cross Ange\\work\\source\\vita3k-install-backups\\hud-accuracy-20261025-202443-658754"
+  },
+  "user_game_or_save_modified": false,
+  "comparison_save_modified": false,
+  "cache_deleted": false,
+  "original_game_surface_sync_fix_verified": false,
+  "game_version_unchanged": "0.1.16",
+  "new_game_build": false,
+  "rollback": "python tools/vita3k_hud_accuracy.py --vita3k work/source/hud-runtime-20261025/emulator --surface-sync disabled --write",
+  "source_references": [
+    {
+      "file": "vita3k/renderer/src/scene.cpp",
+      "lines": "125-149"
+    },
+    {
+      "file": "vita3k/renderer/src/vulkan/surface_cache.cpp",
+      "line": 1210
+    }
+  ],
+  "user_result": "Still broken",
+  "fresh_opengl_launch_log": [
+    "[20:38:30.093] |I| [GameWindow::create_gl_context]: Created OpenGL 4.6 context",
+    "[20:38:30.124] |I| [renderer::gl::create]: GL_VERSION = 4.6.0 NVIDIA 610.88"
+  ],
+  "saved_profile_surface_sync_enabled": true,
+  "effective_runtime_flag_directly_observed": false,
+  "retest_log": {
+    "path": "work/source/hud-runtime-20261025/original-surface-sync-failed-battle.log",
+    "sha256": "edf56c2dc1b7fab7b55395234d1d48f7410065e9847b908c4761d936244b4b95"
+  },
+  "saved_profile_sha256": "32c78939bdf69330ef56e07e1220bdbaf53b7d656af2238469f40862140cec02",
+  "bug_report_draft": "docs/vita3k-hud-bug-report.md",
+  "bug_report_submitted": false
+}

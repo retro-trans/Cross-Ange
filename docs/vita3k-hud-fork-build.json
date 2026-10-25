@@ -1,0 +1,23 @@
+{
+  "id": 12604717171,
+  "name": "vita3k-hud-windows-x64-fbbdf3d3bab64e8f373bbabb962da42bc9c7f08f",
+  "size_in_bytes": 38704992,
+  "digest": "sha256:e5a6dbe82886676340d2b486bffcd5d2d536218e53f9e3d27242fbbee6e2592b",
+  "expired": false,
+  "created_at": "2026-10-25T15:42:59Z",
+  "workflow_run": {
+    "id": 40204605165,
+    "repository_id": 1433306828,
+    "head_repository_id": 1433306828,
+    "head_branch": "fix/cross-ange-indexed-uniforms",
+    "head_sha": "fbbdf3d3bab64e8f373bbabb962da42bc9c7f08f"
+  },
+  "repository": "retro-trans/Vita3K",
+  "run_id": 40204605165,
+  "conclusion": "success",
+  "ctest_suites_passed": 2,
+  "format_checks_passed": true,
+  "local_build": "work/output/vita3k-hud-fix-fbbdf3d3",
+  "validation_record": "vita3k-hud-fork-validation.json",
+  "release_published": false
+}

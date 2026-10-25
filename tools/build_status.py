@@ -47,6 +47,19 @@ def attach(report):
         report['latest_local_build']['briefing_layout'] = {
             key: layout[key] for key in ('descriptions_checked', 'reflowed', 'width_limit',
                                          'maximum_lines', 'layout_record', 'runtime_verified')}
+    if 'battle_hud' in translation:
+        report['latest_local_build']['battle_hud'] = {
+            'textures': len(translation['battle_hud']['assets']),
+            'layout_record': 'work/ui/battle-hud-layout.json',
+            'runtime_verified': False, 'displaced_sprite_bug_fixed': False}
+    if 'timed_dialogue_layout' in translation:
+        layout = translation['timed_dialogue_layout']
+        report['latest_local_build']['timed_dialogue_layout'] = {
+            'comments_checked': layout['text']['comments_checked'],
+            'reflowed': layout['text']['reflowed'],
+            'body_width': layout['animation']['body_width'],
+            'runtime_verified': False,
+            'layout_record': 'work/ui/timed-dialogue-layout.json'}
     install = folder / 'vita3k-install.json'
     if install.exists():
         record = json.loads(install.read_text(encoding='utf-8'))

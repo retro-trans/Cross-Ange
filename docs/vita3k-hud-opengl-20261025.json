@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-25",
+  "status": "tested_still_displaced",
+  "prior_tests": [
+    {
+      "renderer": "Vulkan",
+      "high_accuracy": true,
+      "memory_mapping": "double-buffer",
+      "result": "HUD still displaced"
+    },
+    {
+      "renderer": "Vulkan",
+      "high_accuracy": true,
+      "memory_mapping": "disabled",
+      "result": "HUD still displaced",
+      "loaded_setting_verified": true
+    }
+  ],
+  "new_profile": {
+    "title_id": "PCSG00597",
+    "profile": "E:\\Emu\\vita3k\\config\\config_PCSG00597.xml",
+    "write": true,
+    "settings_before": {
+      "backend-renderer": "Vulkan",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "settings_after": {
+      "backend-renderer": "OpenGL",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "only_effective_setting_changed": "backend-renderer",
+    "changed_settings": [
+      "backend-renderer"
+    ],
+    "global_config_sha256": "6293562bd92cbfe7b1d5bc489f1094d1d61d09da39168285462196a8c7b1b6a8",
+    "previous_profile_sha256": "b662ad1c692ebb27779dcb8abc2c2563181aff0580e1595a10138420454e02cd",
+    "profile_sha256": "50c6ec86c9bbbe9b1bc6ee4e4e98ab0f76512f3d9930af918d2e6dfdb697dbdc",
+    "restart_required": true,
+    "game_bytes_changed": false,
+    "saves_and_license_written": false,
+    "runtime_hud_fix_verified": false,
+    "backup": "E:\\Projects\\Cross Ange\\work\\source\\vita3k-install-backups\\hud-accuracy-20261025-190840-887632"
+  },
+  "purpose": "Compare the same English game and battle on OpenGL to narrow Vulkan-specific versus shared-path corruption.",
+  "high_accuracy_and_memory_mapping_note": "Retained in the profile but these controls are Vulkan-specific.",
+  "original_game_baseline_completed": false,
+  "cause_confirmed": false,
+  "runtime_fix_verified": false,
+  "latest_local_build": "0.1.16",
+  "game_bytes_changed": false,
+  "saves_and_licenses_written": false,
+  "global_configuration_changed": false,
+  "shader_cache_deleted": false,
+  "running_process_interrupted": false,
+  "release_published": false,
+  "rollback": "python tools/vita3k_hud_accuracy.py --vita3k E:/Emu/vita3k --backend-renderer Vulkan --memory-mapping double-buffer --write",
+  "user_retest": "Still displaced on OpenGL",
+  "renderer_loaded_verified": true,
+  "renderer_log": [
+    "[19:23:51.107] |I| [GameWindow::create_gl_context]: Created OpenGL 4.6 context",
+    "[19:23:51.127] |I| [renderer::gl::create]: GL_VERSION = 4.6.0 NVIDIA 610.88"
+  ],
+  "retest_log": {
+    "path": "work/source/hud-runtime-20261025/opengl-user-retest.log",
+    "sha256": "4310b4f47dec3146e1d11002ad4d50c08fe84c76fac3c1e646645fce03123f1b"
+  }
+}

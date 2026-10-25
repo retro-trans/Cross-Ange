@@ -26,7 +26,9 @@ class TranslationBuildChecks(unittest.TestCase):
     def test_full_coverage_and_screenshot_targets(self):
         self.assertEqual(self.report['structured_targets_inserted'], 17151)
         self.assertEqual(self.report['scenario']['files'], 462)
-        self.assertEqual(len(self.members), 481)
+        self.assertEqual(len(self.members), 485)
+        self.assertEqual(len(self.report['battle_hud']['assets']), 3)
+        self.assertEqual(self.report['timed_dialogue_layout']['text']['comments_checked'], 211)
         self.assertEqual(self.report['chapter_titles']['unique_titles'], 15)
         self.assertEqual(self.report['chapter_titles']['raster_regions_inserted'], 30)
         rows = list(csv.reader(io.StringIO(self.members['data/_scr/C000_PRO_000.txt'].decode('utf-16'), newline='')))
@@ -73,6 +75,8 @@ class TranslationBuildChecks(unittest.TestCase):
                      for entry in self.report['ui_layout']['entries']}
         overrides.update({(entry['id'], 0): entry['display_en']
                           for entry in self.report['briefing_layout']['entries']})
+        overrides.update({(entry['id'], 0): entry['display_en']
+                          for entry in self.report['timed_dialogue_layout']['text']['entries']})
         for row in load('interface')['entries']:
             for column, field in enumerate(row['fields']):
                 if field is None or not field['contains_japanese']:

@@ -1,0 +1,30 @@
+{
+  "bytes": 945097152,
+  "sha256": "85952214027114c3a2d8a055d3f01cc0ac91ed13acc8fea8e460745856ab8e59",
+  "members": 62,
+  "encrypted_pfs": true,
+  "sony_signed": false,
+  "target": "Vita3K",
+  "version": "0.1.16",
+  "native_pkg_install_verified": true,
+  "verified_files": 48,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "gameplay_tested": false,
+  "test_suites": {
+    "translation_native_font_layout": 16,
+    "branding": 3,
+    "hud": 3,
+    "timed_dialogue": 5
+  },
+  "component_roundtrips_verified": 2,
+  "release_published": false,
+  "source_pushed": false,
+  "retro_trans_version": "0.5.16",
+  "user_installation_updated": false,
+  "timed_dialogue_runtime_verified": false,
+  "existing_battle_hud_issue_open": true,
+  "executable_unchanged": true,
+  "layout_record": "work/ui/timed-dialogue-layout.json",
+  "issue_record": "work/ui/timed-dialogue-issue.json"
+}

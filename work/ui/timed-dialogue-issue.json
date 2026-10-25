@@ -1,0 +1,64 @@
+{
+  "reported_on": "2026-10-25",
+  "captures": [
+    {
+      "path": "work/ui/local/screenshots/timed-dialogue-report-20261025/comment-1402.png",
+      "sha256": "b3ed650900f76fdd121d461e054d2aac8a6b539308340b0fa2e7906b2991a9a1",
+      "dimensions": [
+        960,
+        544
+      ],
+      "string_id": 1402,
+      "observed_body_bounds_approx": [
+        61,
+        162,
+        311,
+        359
+      ],
+      "reported_issue": "English extends beyond right border"
+    },
+    {
+      "path": "work/ui/local/screenshots/timed-dialogue-report-20261025/comment-1405.png",
+      "sha256": "0015d18c0276ea196e13784e729184fbcc9c02614876fc3155f78f573b29a849",
+      "dimensions": [
+        960,
+        544
+      ],
+      "string_id": 1405,
+      "observed_body_bounds_approx": [
+        61,
+        162,
+        311,
+        263
+      ],
+      "reported_issue": "English extends beyond right border"
+    }
+  ],
+  "fix_build": "0.1.16",
+  "geometry_record": "work/ui/timed-dialogue-layout.json",
+  "fix_runtime_verified": false,
+  "existing_text_percentage": 85,
+  "original_body_width": 252,
+  "new_body_width": 335.916,
+  "native_text_width_limit": 340,
+  "maximum_lines": 4,
+  "entries_checked": 211,
+  "reflowed": 161,
+  "text_origin_inside_body_approx": [
+    20,
+    20
+  ],
+  "line_pitch_approx": 36,
+  "executable_evidence": {
+    "font_scale_instructions": "0x810ae982-0x810ae98e",
+    "font_scale_float": "0x3f59999a",
+    "line_count_instructions": "0x810aeae0-0x810aeb30",
+    "native_animation_callbacks": "0x810b067e-0x810b09b6"
+  },
+  "preview": {
+    "path": "work/ui/local/timed-dialogue/layout-preview.png",
+    "source": "Original atlas slices and native GenEi glyphs; nominal line-dependent height.",
+    "actual_game_capture": false
+  },
+  "runtime_result": "awaiting_in_game_confirmation"
+}

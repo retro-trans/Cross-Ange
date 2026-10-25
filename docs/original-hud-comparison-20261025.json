@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-25",
+  "status": "completed_original_hud_also_broken",
+  "purpose": "Compare the original Japanese game and English game in the same emulator build, OpenGL profile and saved progress.",
+  "emulator": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\emulator\\Vita3K.exe",
+  "emulator_equals_user_binary": true,
+  "emulator_sha256": "d67df3b2247a5a6da183717bfbc583898bb15ee7f1beddef1da94ee5cc0b4ee9",
+  "original_game_files_verified": 46,
+  "game_files": [
+    {
+      "path": "cpk/Ange.cpk",
+      "sha256": "e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de"
+    },
+    {
+      "path": "eboot.bin",
+      "sha256": "c7a7d381f336d4aa254423cc3525f62c12490a1458cc2f025e1623e73341ddd0"
+    },
+    {
+      "path": "movie/movie_000.mp4",
+      "sha256": "43d237da5b6156238cc3678544190b95048b6592134fb44eb2ce60191f0ad97e"
+    },
+    {
+      "path": "save_icon/copyright.png",
+      "sha256": "765ce5a94e3ea8f487b5cfe1617604a8f0629811fb6d90ef73f3a536eb96bc13"
+    },
+    {
+      "path": "save_icon/icon.PNG",
+      "sha256": "2a13c084f12de4478028ce58f0e1ea72df869e6bb571d2aca2ea80424a7d3920"
+    },
+    {
+      "path": "save_icon/icon_empty.PNG",
+      "sha256": "3c360bea0b764b908089c0b77d2acbb030fed3d47559f3bc8e2d71e2278919ff"
+    },
+    {
+      "path": "sce_module/libc.suprx",
+      "sha256": "30143d18a1c4f7820ceddc88ad6cade4982ea1861d345630598dfb179d0daa66"
+    },
+    {
+      "path": "sce_module/libface.suprx",
+      "sha256": "081112aa68106809c2feef0e47e5104f1b4acc59dfa21a5b91483e2323784a36"
+    },
+    {
+      "path": "sce_module/libfios2.suprx",
+      "sha256": "051ea775d56587d7aaec7eee7f40e29fa83f1314a8f5e2b645e9519cde20eb53"
+    },
+    {
+      "path": "sce_module/libsmart.suprx",
+      "sha256": "f7dbe2fc2bd66ef5be716396ba2a0c820f672bf54036a4483728e84f4184fcbb"
+    },
+    {
+      "path": "sce_module/libult.suprx",
+      "sha256": "9810369ec98378ab979dd8baa8e59f99911b10ac35c05b47a14a8de0b7b6dcae"
+    },
+    {
+      "path": "sce_sys/about/right.suprx",
+      "sha256": "176e5750a8a90bf7ceb2a8e7c2a87d36ca4c5d5bbc46b888956ea4db4f377cbc"
+    },
+    {
+      "path": "sce_sys/clearsign",
+      "sha256": "aa7289887ef29fa6b6e52aed51d6e5c89d9abd2e8be5bd191a701f9c7a1204d0"
+    },
+    {
+      "path": "sce_sys/icon0.png",
+      "sha256": "6fefcea226181bf9ae4a17dcbd0b416f854a44f54c06108186d6205b6b85e2ed"
+    },
+    {
+      "path": "sce_sys/keystone",
+      "sha256": "47384eacffe4d145cb5cc8411e497918aca31b6b1fba5379fc20d5074059d460"
+    },
+    {
+      "path": "sce_sys/livearea/contents/bg.png",
+      "sha256": "261bf23ce47a502c2c7731ba942d30ab37e3a8be39910b68344e2b9ae019f36c"
+    },
+    {
+      "path": "sce_sys/livearea/contents/site_banner.png",
+      "sha256": "69a1ddb21cc342a9cc2d6064378d4344964a9c73e1343c38c01ff7426c534c9a"
+    },
+    {
+      "path": "sce_sys/livearea/contents/startup.png",
+      "sha256": "93985bf66e2291487e7b1f9868ae07876e0528a0386e22feb5968d9cb46a1958"
+    },
+    {
+      "path": "sce_sys/livearea/contents/template.xml",
+      "sha256": "fc7f92811c104632275794b5ad9cf15f3cfa559ecef8be957d5a20d0e580c196"
+    },
+    {
+      "path": "sce_sys/manual/001.png",
+      "sha256": "ad4b256a419716133b26c99b7b1cfffc792f68e8e58c653b362555c61a62064d"
+    },
+    {
+      "path": "sce_sys/manual/002.png",
+      "sha256": "b75cb2bb1d713e4debbfa3834cad2bf94a92a56179c4ff9b18f51b9b92ca7a47"
+    },
+    {
+      "path": "sce_sys/manual/003.png",
+      "sha256": "7dd2cbf27e2039623257bb54cebcf3b8603b2c3ac162ee8af53f216a1f61aab3"
+    },
+    {
+      "path": "sce_sys/manual/004.png",
+      "sha256": "e360a50b06206a719612e3b1362eb63f4afbc7eb8ca6dd0d2ddce7ed9ee1fe8d"
+    },
+    {
+      "path": "sce_sys/manual/005.png",
+      "sha256": "2a9a37dbbfe4495dbb371660e98ae33390086493fea64407d5df262da723ef42"
+    },
+    {
+      "path": "sce_sys/manual/006.png",
+      "sha256": "210de0e7bfcd7ffe49c34c60a5b92374bcf12781b7b55a98b4551f628758e97e"
+    },
+    {
+      "path": "sce_sys/manual/007.png",
+      "sha256": "b76e133934a0a8f1d1647097c840df30b55b478757e15f2052da439c415129ad"
+    },
+    {
+      "path": "sce_sys/manual/008.png",
+      "sha256": "36753ac25ad1bdd97e70f3b85414f5f6afabf7b9bec01a515dfc8332716a4d91"
+    },
+    {
+      "path": "sce_sys/manual/009.png",
+      "sha256": "780a68266da3d6319b249c08e6e6eb54dc7a076aa42b55ab711bdb45d8145d1c"
+    },
+    {
+      "path": "sce_sys/manual/010.png",
+      "sha256": "ff7ececf7f72d808ed6654087bccf2711ecba6022eb612531efbbb22e1628fcd"
+    },
+    {
+      "path": "sce_sys/manual/011.png",
+      "sha256": "76c755c7bf09e51d19e19794e4fca7db3263080d33daf656bef641edef65be6d"
+    },
+    {
+      "path": "sce_sys/manual/012.png",
+      "sha256": "4c31909e735be2df3ad9cab46506905b70a4aa7142a15813776a022c694a4e5a"
+    },
+    {
+      "path": "sce_sys/manual/013.png",
+      "sha256": "02d3141fdf9f71929d3f94f528fa20531ea0f1940d84e9993b9d785db5fc6b7f"
+    },
+    {
+      "path": "sce_sys/manual/014.png",
+      "sha256": "635ae7aefb8dd4578b29e0051615455caa21bb9189c40369239dd5288078bf3e"
+    },
+    {
+      "path": "sce_sys/manual/015.png",
+      "sha256": "4cc4d41a056b15b2c0d278ae50cdc36d815b965f283286d61df7cff367189c2c"
+    },
+    {
+      "path": "sce_sys/manual/016.png",
+      "sha256": "dac60ab2b213c51d7b43326f751901e3fd16ea1e8177ec7eda99930ab0c987e9"
+    },
+    {
+      "path": "sce_sys/manual/017.png",
+      "sha256": "41e2b273728e7e09eec7d53975be0432546e207b128fea19d0041432e3f15c72"
+    },
+    {
+      "path": "sce_sys/manual/018.png",
+      "sha256": "88ba9d48ede1c828783df3c96a0cd9c4df5fda08c276af9420e8c89e13f5e055"
+    },
+    {
+      "path": "sce_sys/manual/019.png",
+      "sha256": "93e4157d7c20780b444166670f7445f59df74aaef09f83eb3dda8530f3116907"
+    },
+    {
+      "path": "sce_sys/manual/020.png",
+      "sha256": "00d53a3e0b20a8f98614d87022d00a93bb6174d1bf938f208003129be5335992"
+    },
+    {
+      "path": "sce_sys/manual/021.png",
+      "sha256": "8f08025c4b82cb1ebf6e31809d8dffa1c5426ca768634a7460a9bb14fa34adda"
+    },
+    {
+      "path": "sce_sys/manual/022.png",
+      "sha256": "34221dec3aa285125fa54e2d83f3185e490627e7a2e73c5d7376f2de62fdddec"
+    },
+    {
+      "path": "sce_sys/manual/023.png",
+      "sha256": "90cc6885833cdd1f8fa28b8fbb3812a883bae1d14c4bbd0a2575a1d27cf14a9a"
+    },
+    {
+      "path": "sce_sys/manual/024.png",
+      "sha256": "da8a0562a9ff0fbf6d9e2c7c08ecf7ebcd331f6c991a27bcdcfb7d9e7839a7da"
+    },
+    {
+      "path": "sce_sys/param.sfo",
+      "sha256": "04924d2566147471c89464d568c8ae8708b43cc296b370c6b8f208317cebf603"
+    },
+    {
+      "path": "sce_sys/pic0.png",
+      "sha256": "b3cc34bc5f8a2c439aff2a273f0b01bf25064ac6053cf77ab939b719b0bebf88"
+    },
+    {
+      "path": "sce_sys/trophy/NPWR08607_00/TROPHY.TRP",
+      "sha256": "d480fd04a66567acebf83cb885c71e643a5cf140edea32efd4167df46d4aad18"
+    }
+  ],
+  "original_cpk_sha256": "e04d94fac7ba1bc21acfd98c9ea8352995e32229c642485fb2537cd0d53213de",
+  "comparison_filesystem": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\emulator\\fs",
+  "profile_equals_user_profile": true,
+  "renderer": "OpenGL",
+  "save_snapshot": [
+    {
+      "path": "data0000.bin",
+      "bytes": 7168,
+      "sha256": "f64014e59d0659eeacbf802947286fbdce3ce5ede46a6b8ec866621af22e1edf"
+    },
+    {
+      "path": "SlotParam_0.bin",
+      "bytes": 844,
+      "sha256": "206e04d7d2b817e030ab0e3f1c47fda3174b79e5efe5912bc92a557ef29271fd"
+    }
+  ],
+  "save_snapshot_verified_stable": true,
+  "previous_comparison_save_backed_up": "E:\\Projects\\Cross Ange\\work\\source\\hud-runtime-20261025\\baseline-refresh-20261025-192843-135431",
+  "launch_shortcut": "Compare Original - Cross Ange.lnk",
+  "arguments": [
+    "-r",
+    "PCSG00597"
+  ],
+  "screenshot": {
+    "path": "work/ui/local/screenshots/hud-report-20261025/opengl-still-displaced.png",
+    "sha256": "1d52f0394ca8a521ed3bbd4505d51acebd0156d77347b3d1dc8a236e4ab42e9c"
+  },
+  "user_installation_changed": false,
+  "user_save_written": false,
+  "user_settings_changed": false,
+  "user_process_interrupted": false,
+  "cache_deleted": false,
+  "comparison_battle_completed": true,
+  "original_game_bug_confirmed": false,
+  "translation_regression_ruled_out": false,
+  "release_published": false,
+  "new_game_build": false,
+  "user_result": "Original HUD is also broken",
+  "original_game_files_verified_after_test": 46,
+  "patched_game_files_required_to_reproduce": false,
+  "qualification": "Same defect reproduces without modified game files. Copied save provenance and emulator/hardware causes are not fully separated.",
+  "physical_vita_tested": false,
+  "fresh_original_save_tested": false,
+  "result_screenshot": {
+    "path": "work/ui/local/screenshots/hud-report-20261025/original-japanese-also-broken.png",
+    "sha256": "2813e19baa030dad501043916dea50f8c386fbf07c62fcdfcd0868a56c02d99d"
+  },
+  "result_log": {
+    "path": "work/source/hud-runtime-20261025/original-opengl-failed-battle.log",
+    "sha256": "65d2a983a283b1cbf07eb7cc79030e8d12121821d31e242895bbd53ad9ed7572"
+  }
+}

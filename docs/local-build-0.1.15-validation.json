@@ -1,0 +1,26 @@
+{
+  "bytes": 945088928,
+  "sha256": "e757635d097170c990f57964cc402c0c116b06b3ef2fca5ed88c913dd1fb0f9e",
+  "members": 62,
+  "encrypted_pfs": true,
+  "sony_signed": false,
+  "target": "Vita3K",
+  "version": "0.1.15",
+  "native_pkg_install_verified": true,
+  "verified_files": 48,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "gameplay_tested": false,
+  "test_suites": {
+    "hud": 3,
+    "translation_native_font_layout": 16,
+    "branding": 3
+  },
+  "component_roundtrips_verified": 2,
+  "release_published": false,
+  "source_pushed": false,
+  "retro_trans_version": "0.5.16",
+  "user_installation_updated": false,
+  "displaced_sprite_bug_fixed": false,
+  "readability_runtime_verified": false
+}

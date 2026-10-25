@@ -17,7 +17,7 @@ manual installed CPK patching does not.
 3. Choose a new output folder, with at least **6 GB free** for temporary work.
 4. Leave **Local patch** blank to download the game's hardware patch automatically.
    This public release can be downloaded without GitHub sign-in.
-   Alternatively select `Cross-Ange-English-0.1.13-Vita-rePatch-patches.zip`.
+   Alternatively select `Cross-Ange-English-0.1.16-Vita-rePatch-patches.zip`.
 5. Click **Create rePatch** and wait for successful verification. The tools use
    an isolated official Vita3K runtime to decrypt your original locally, apply
    the archive delta and create the overlay. Emulator settings and saves remain
@@ -25,12 +25,12 @@ manual installed CPK patching does not.
 6. Close the game, back up saves and any existing overlay, then copy the generated
    `rePatch/PCSG00597` into **`ux0:rePatch/PCSG00597`** using VitaShell. Keep the
    existing game installation; do not merge an older translation or other mods.
-7. Launch your installed original game with rePatch enabled. Check **v0.1.13**
+7. Launch your installed original game with rePatch enabled. Check **v0.1.16**
    in the title footer. To remove the translation, move this overlay out of rePatch.
 
 The download is about **5.4 MB**. Cross Ange loads its assets from a single archive,
 so the generated overlay contains the complete translated `cpk/Ange.cpk`
-(**902,054,728 bytes**), plus generated credit/attribution files. Allow about
+(**902,331,208 bytes**), plus generated credit/attribution files. Allow about
 1 GB on the Vita for it. The tool builds that archive from your own game; the
 release contains a delta, not a full archive. Users do not manually patch a CPK.
 The executable, original game files, licenses and save data are preserved.

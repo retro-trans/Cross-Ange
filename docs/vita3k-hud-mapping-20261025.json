@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-25",
+  "status": "tested_still_displaced",
+  "user_report": "Displaced speed/Freeze Bullet panel background, top-right counter and radio portrait; radar and kill panel also visibly malformed.",
+  "screenshot": {
+    "path": "work/ui/local/screenshots/hud-report-20261025/displaced-speed-counter-radio.png",
+    "sha256": "0531a85ec4eba1f0dfafd84b39b41d708f9b8c0deee9b8c7cffa0ba62633cc2a",
+    "dimensions": [
+      2560,
+      1369
+    ]
+  },
+  "regions_approx": {
+    "radio": [
+      162,
+      150,
+      446,
+      538
+    ],
+    "speed": [
+      138,
+      556,
+      482,
+      724
+    ],
+    "counter": [
+      2100,
+      63,
+      2444,
+      244
+    ],
+    "radar": [
+      138,
+      894,
+      650,
+      1325
+    ],
+    "kills": [
+      1988,
+      1125,
+      2456,
+      1308
+    ]
+  },
+  "previous_high_accuracy_loaded_in_user_session": true,
+  "high_accuracy_log": "[18:23:28.886] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation",
+  "memory_mapping_log": "[18:23:28.886] |I| [renderer::vulkan::VKState::late_init]: Using the following memory mapping method: Double buffer",
+  "new_profile": {
+    "title_id": "PCSG00597",
+    "profile": "E:\\Emu\\vita3k\\config\\config_PCSG00597.xml",
+    "write": true,
+    "settings_before": {
+      "backend-renderer": "Vulkan",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "double-buffer",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "settings_after": {
+      "backend-renderer": "Vulkan",
+      "gpu-idx": "0",
+      "high-accuracy": "true",
+      "resolution-multiplier": "1",
+      "disable-surface-sync": "true",
+      "screen-filter": "Bilinear",
+      "memory-mapping": "disabled",
+      "v-sync": "true",
+      "anisotropic-filtering": "1",
+      "async-pipeline-compilation": "true",
+      "import-textures": "false",
+      "export-textures": "false",
+      "export-as-png": "true",
+      "fps-hack": "false",
+      "shader-cache": "true",
+      "spirv-shader": "false",
+      "texture-cache": "true"
+    },
+    "only_effective_setting_changed": "memory-mapping",
+    "changed_settings": [
+      "memory-mapping"
+    ],
+    "global_config_sha256": "6293562bd92cbfe7b1d5bc489f1094d1d61d09da39168285462196a8c7b1b6a8",
+    "previous_profile_sha256": "8f94af9d43a7d19df62501e769fb569a24c9bcb2f2eba01465fe8f35900c1f5f",
+    "profile_sha256": "b662ad1c692ebb27779dcb8abc2c2563181aff0580e1595a10138420454e02cd",
+    "restart_required": true,
+    "game_bytes_changed": false,
+    "saves_and_license_written": false,
+    "runtime_hud_fix_verified": false,
+    "backup": "E:\\Projects\\Cross Ange\\work\\source\\vita3k-install-backups\\hud-accuracy-20261025-185921-314252"
+  },
+  "installed_hud_members": [
+    {
+      "member": "data/_chr/UI01_B0_LAYOU_00.bnp",
+      "sha256": "efe49130c8a81781e498799810d824a758bccded5d58032213e4edc91bf81024",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B1_SPE01_00.bnp",
+      "sha256": "b3ce5a003dec8d8347b9102260a20c20fc9089d3ca04dbfc6851a79d8f8288bc",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B2_ANC01_00.bnp",
+      "sha256": "0d1b4247cbec421ba401afcf98f6093eab7cc51d511c69362770d0f5e2c09890",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B3_RAR01_00.bnp",
+      "sha256": "9e3a4f135da9f6972a9247a62bb32d6442c9b28664b7bf9a7fa018a7db61b36c",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B4_TIM01_00.bnp",
+      "sha256": "3e03416896af9d9f1d3ad92bb99ef618060c2dd93c6376a6b8b82a37d153883e",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B5_ASS01_00.bnp",
+      "sha256": "acb11eb0ceb1f44ede6be9a5084d28732ddb2da74f163eaef64029313525120c",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B6_WEA01_00.bnp",
+      "sha256": "b3323f6630d752b1c5ed0ff7dca8e0f33fe763b87a83bc7212e42b3d64bbe8d3",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B6_WEA01_01.bnp",
+      "sha256": "4cd095fe6dae022f7b5224661dcb0f89c68d287c1843741e09c4ad4d214c0bf9",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B7_DES01_00.bnp",
+      "sha256": "d619954130000323061ca72c3d87d313527d133602c0ff01878b1e7eaf2727c8",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B8_MRK01_00.bnp",
+      "sha256": "2b96d38b57e4d2de4b44a1d4d9293d5ef2b61578eb1518d47e8b44ef5a304e10",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B8_MRK02_00.bnp",
+      "sha256": "ac427f63e0fafa6dc3302958d81664b03b5f767d0b7824e73d9e1991285c9af3",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_B9_ANC01_00.bnp",
+      "sha256": "9cbf066f890f02bc49743fbf0839d5ee302e794d4e43669f82bb273c579bcfdc",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_chr/UI01_BA_TGT01_00.bnp",
+      "sha256": "cced6ef11abd1418f2d662c35c0dc830116d36f0894ab0c39f08aa9a38eb163d",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_tex/UI01_BT_ANC01_00.btx",
+      "sha256": "fb51f379e1036b11f4731107f663943bd9672fa24c50efc519478251ceccacc9",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_tex/UI01_BT_FRA01_00.btx",
+      "sha256": "7deb45fe8b1b40ff40823b0ceecebb01349ca068994625de9b834cfd466d6c31",
+      "unchanged_since_prior_audit": true,
+      "equals_original": false
+    },
+    {
+      "member": "data/_tex/UI01_BT_FRA02_00.btx",
+      "sha256": "42d23e145447e293ffc4e7807eb0fd7f44b08c3233b9487a773d3b63fcfe7540",
+      "unchanged_since_prior_audit": true,
+      "equals_original": false
+    },
+    {
+      "member": "data/_tex/UI01_BT_FRA03_00.btx",
+      "sha256": "d8f8c6927d13f51dc2c4a31e67e81d6d374233e4a84eefda11e66772303a2c80",
+      "unchanged_since_prior_audit": true,
+      "equals_original": true
+    },
+    {
+      "member": "data/_tex/UI01_BT_NUM01_00.btx",
+      "sha256": "6570d0a77024731e99e3df07de895ce32053ffa38f3585b1a74491f208ebc7b5",
+      "unchanged_since_prior_audit": true,
+      "equals_original": false
+    }
+  ],
+  "models_equal_original": 13,
+  "source_reference": {
+    "commit": "86b8e2eb",
+    "mapping_selection": "vita3k/gui-qt/src/settings_dialog.cpp:336",
+    "mapping_renderer_switch": "vita3k/renderer/src/vulkan/renderer.cpp:1023"
+  },
+  "explanation": "Disabling memory mapping selects the alternate renderer upload path; this is a controlled hypothesis test, not a confirmed fix.",
+  "known_log_error": "sceGxmSetFragmentTexture returned SCE_GXM_ERROR_INVALID_POINTER at 18:33:20; causal relevance unconfirmed.",
+  "runtime_fix_verified": false,
+  "game_files_changed": false,
+  "game_version": "0.1.16",
+  "new_build": false,
+  "release_published": false,
+  "saves_or_licenses_modified": false,
+  "cache_deleted": false,
+  "rollback": "python tools/vita3k_hud_accuracy.py --vita3k E:/Emu/vita3k --memory-mapping double-buffer --write",
+  "user_retest": "Still displaced",
+  "diagnostic_effective_on_retest": true,
+  "retest_mapping_log": "[19:01:50.094] |I| [renderer::vulkan::VKState::late_init]: Using the following memory mapping method: Disabled",
+  "retest_accuracy_log": "[19:01:50.094] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation",
+  "retest_log": {
+    "path": "work/source/hud-runtime-20261025/disabled-mapping-user-retest.log",
+    "sha256": "cb9b5d5317934de9baee64d234aa51dabecbe3e80a027cb3545e49ac25138c72"
+  }
+}
