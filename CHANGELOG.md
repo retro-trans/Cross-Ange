@@ -2,6 +2,7 @@
 
 ## 0.1.16 — 2026-10-25 — Public release
 
+- Restyled the existing 0.1.16 release notes using SRW-Z at the user's request: cumulative changes since 0.1.13, testing/compatibility, included downloads and Vita-specific application instructions. This documentation update preserves the game build, source tag, assets and public release status.
 - Published all 17 verified small-download assets with the existing 0.1.16 game bytes and source commit `63ddecd`: original-PKG rebuilding, installed component deltas and hardware rePatch. Exact uploaded hashes, anonymous downloads and strict live catalog validation passed; both game releases validate with zero rejections.
 - Published Retro Trans 0.5.16 verified the local hardware bundle and all three overlay files. Its Automatic scan hits an unrelated SRW-Z3 profile larger than its 128 KiB limit. Current instructions now recommend already-published Tools 0.5.18, which supports the larger profiles; no tools release or source push was made here.
 - Actual published Tools 0.5.18 Automatic, without sign-in or a local patch and with an empty cache, downloaded 0.1.16 and reproduced PKG SHA-256 `85952214027114c3a2d8a055d3f01cc0ac91ed13acc8fea8e460745856ab8e59`. Native installation verified all 48 game files; original package, matching local license and user emulator data were preserved.

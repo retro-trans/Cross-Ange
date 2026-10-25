@@ -1,0 +1,20 @@
+{
+  "release": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.16",
+  "updated_at_utc": "2026-10-25T16:56:29.812885+00:00",
+  "template": "https://github.com/retro-trans/SRW-Z/releases/tag/v0.9.88",
+  "body_sha256": "03a67047e07ba6b28ca6b1f80f65e4707f01f95b39c6bd29a199f5f25b971dd7",
+  "sections": [
+    "Apply",
+    "What changed since v0.1.13",
+    "Testing and compatibility",
+    "What's included",
+    "How it was translated",
+    "Acknowledgements",
+    "Source code",
+    "Contribute"
+  ],
+  "asset_count": 17,
+  "asset_ids_sizes_and_digests_unchanged": true,
+  "source_tag_unchanged": "63ddecda7e41aee9f853534cf4361a5a6bc6321e",
+  "public_latest_stable": true
+}
