@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-25T16:33:17.762261+00:00",
+  "game_version": "0.1.16",
+  "tools_version": "0.5.16",
+  "frozen_executable_sha256": "3cdb81e749eac2afc2fd18b95699f19937745b586e56cbd68bb31b1648e9d6c0",
+  "frozen_health_check_passed": true,
+  "matching_local_license_supplied": true,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "user_emulator_data_untouched": true,
+  "license_downloaded": false,
+  "game_build_unchanged": true,
+  "frozen_hardware_local_bundle_passed": true,
+  "verified_overlay_files": 3,
+  "executable_replaced": false,
+  "physical_vita_tested": false,
+  "zip_sha256": "4aaa4589ae0b3011d595c7efd25c2eb477f4c701b0066839ba28ddf6a7b1f38f",
+  "automatic_download_tested": false
+}

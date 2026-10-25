@@ -7,6 +7,12 @@ locally from the original Japanese PKG and matching work.bin/.rif. Retain manual
 installed CPK deltas and hardware rePatch. Never publish a complete game,
 license, or whole-PKG xdelta.
 
+Recommend published **Retro Trans 0.5.18** for Automatic discovery. Version
+0.5.16's 128 KiB profile limit rejects an unrelated larger SRW-Z3 profile while
+scanning the organization. The released 0.5.18 supports 256 KiB profiles. The
+Cross Ange local ZIP and hardware route remain compatible with 0.5.16; their
+minimum-version metadata and earlier native validation remain valid.
+
 1. Run the translation/native-font/branding/HUD/timed-dialogue checks and export
    local translations using `tools/strip_jp.py`. Commit the English-only source
    and tools before generating a manifest that pins the source commit.

@@ -12,7 +12,7 @@ official installation uses its existing license; the overlay does not install or
 license the base game. Vita3K local PKG rebuilding and installation also require this game's matching license;
 manual installed CPK patching does not.
 
-1. Use **Retro Trans 0.5.16** and open **Vita → Hardware rePatch**.
+1. Use **Retro Trans 0.5.18** and open **Vita → Hardware rePatch**.
 2. Select the original Japanese PCSG00597 `.pkg` and its matching `work.bin`.
 3. Choose a new output folder, with at least **6 GB free** for temporary work.
 4. Leave **Local patch** blank to download the game's hardware patch automatically.
@@ -21,7 +21,7 @@ manual installed CPK patching does not.
 5. Click **Create rePatch** and wait for successful verification. The tools use
    an isolated official Vita3K runtime to decrypt your original locally, apply
    the archive delta and create the overlay. Emulator settings and saves remain
-   untouched. Tools 0.5.16 is available from the [tools release page](https://github.com/retro-trans/retro-trans-tools/releases/tag/v0.5.16).
+   untouched. Tools 0.5.18 is available from the [tools release page](https://github.com/retro-trans/retro-trans-tools/releases/tag/v0.5.18).
 6. Close the game, back up saves and any existing overlay, then copy the generated
    `rePatch/PCSG00597` into **`ux0:rePatch/PCSG00597`** using VitaShell. Keep the
    existing game installation; do not merge an older translation or other mods.

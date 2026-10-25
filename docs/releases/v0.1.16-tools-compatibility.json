@@ -1,0 +1,14 @@
+{
+  "version": "0.1.16",
+  "automatic_recommended_tools": "0.5.18",
+  "old_automatic_failure": {
+    "version": "0.5.16",
+    "reason": "An unrelated published SRW-Z3 VITA-PKG.json is 135578 bytes, above the old 128 KiB metadata limit; discovery aborts before patching.",
+    "signed_in_and_anonymous_tests_failed": true
+  },
+  "current_published_tools_metadata_limit": 262144,
+  "automatic_without_sign_in_passed": true,
+  "local_bundle_minimum_version_unchanged": "0.5.16",
+  "game_patch_assets_changed_for_dependency_update": false,
+  "tools_source_pushed_or_release_created": false
+}

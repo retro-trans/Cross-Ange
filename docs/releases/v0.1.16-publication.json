@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "version": "0.1.16",
+  "repository": "retro-trans/Cross-Ange",
+  "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.16",
+  "release_id": 423523434,
+  "published_at": "2026-10-25T16:36:58Z",
+  "source_commit": "63ddecda7e41aee9f853534cf4361a5a6bc6321e",
+  "public": true,
+  "prerelease": false,
+  "assets": [
+    {
+      "id": 675547185,
+      "name": "BUILD-MANIFEST.json",
+      "size": 1955,
+      "digest": "sha256:15b7dae0704966888f40fae9177b74d4fc8cbd4c9ab3c1db72ad008ad729e429",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/BUILD-MANIFEST.json"
+    },
+    {
+      "id": 675547189,
+      "name": "CPK-VALIDATION.json",
+      "size": 457,
+      "digest": "sha256:03849679bd545cc54ef327853be44b3630d591dfee2ce804251c85d61c03fd7b",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/CPK-VALIDATION.json"
+    },
+    {
+      "id": 675547186,
+      "name": "Cross-Ange-English-0.1.16-Ange.xdelta",
+      "size": 5388565,
+      "digest": "sha256:531937fe70390e31d6b9c6a2b6964c959a6f6667344c0f12291b2d549ae212ce",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/Cross-Ange-English-0.1.16-Ange.xdelta"
+    },
+    {
+      "id": 675547190,
+      "name": "Cross-Ange-English-0.1.16-extras.zip",
+      "size": 46969,
+      "digest": "sha256:b2507c015dda68d5eec8ac5daa734de1496904fab37f0cc40cafa1f8e1ba26a8",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/Cross-Ange-English-0.1.16-extras.zip"
+    },
+    {
+      "id": 675547188,
+      "name": "Cross-Ange-English-0.1.16-param.xdelta",
+      "size": 160,
+      "digest": "sha256:33b9e62e8aea9dc9485f029ca2a261d3c21f06ad38dc13950d35cb5e4151bc14",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/Cross-Ange-English-0.1.16-param.xdelta"
+    },
+    {
+      "id": 675547258,
+      "name": "Cross-Ange-English-0.1.16-Vita-PKG-patches.zip",
+      "size": 5438144,
+      "digest": "sha256:55e37d9c0727e31ea3af3e3dbeeb5a01280328ee592daff6fc828a0c8a2cb3a0",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/Cross-Ange-English-0.1.16-Vita-PKG-patches.zip"
+    },
+    {
+      "id": 675547257,
+      "name": "Cross-Ange-English-0.1.16-Vita-rePatch-patches.zip",
+      "size": 5435403,
+      "digest": "sha256:4aaa4589ae0b3011d595c7efd25c2eb477f4c701b0066839ba28ddf6a7b1f38f",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/Cross-Ange-English-0.1.16-Vita-rePatch-patches.zip"
+    },
+    {
+      "id": 675547259,
+      "name": "EXTRAS-SHA256SUMS.txt",
+      "size": 104,
+      "digest": "sha256:a93716ff4e27ad1ec09707482798e8fa3d9ab4edebe2989d42210bec7f950307",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/EXTRAS-SHA256SUMS.txt"
+    },
+    {
+      "id": 675547297,
+      "name": "PKG-REBUILD-VALIDATION.json",
+      "size": 1110,
+      "digest": "sha256:625231eb69ec1c1e112cf0fab652ae81cd1521cc4eec6e3e9f71453dde500ce1",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/PKG-REBUILD-VALIDATION.json"
+    },
+    {
+      "id": 675547303,
+      "name": "REPATCH-AUTOMATIC-VALIDATION.json",
+      "size": 766,
+      "digest": "sha256:cd7d4a203087076afbed35da47877deff9956f9f580498b3a57ccb5269b9507b",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/REPATCH-AUTOMATIC-VALIDATION.json"
+    },
+    {
+      "id": 675547321,
+      "name": "REPATCH-SHA256SUMS.txt",
+      "size": 395,
+      "digest": "sha256:4bb97c8f8c274205fdd7a7cddea2a9ff90b1f3653c916f1344fe56d2fc3cc89d",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/REPATCH-SHA256SUMS.txt"
+    },
+    {
+      "id": 675547341,
+      "name": "REPATCH-VALIDATION.json",
+      "size": 1131,
+      "digest": "sha256:17058fbee440f84806d7e35cffc4f0d1f996c0edaf71fb310531f46726a6f377",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/REPATCH-VALIDATION.json"
+    },
+    {
+      "id": 675547362,
+      "name": "SHA256SUMS.txt",
+      "size": 1527,
+      "digest": "sha256:9626aa9abad93fa2e8715ffcb28c5b29088b08286c2b759fd879b5da2919b49b",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/SHA256SUMS.txt"
+    },
+    {
+      "id": 675547372,
+      "name": "VALIDATION.json",
+      "size": 561,
+      "digest": "sha256:49562417ef1e795a850d646c259095fe8e562a9362c4159dad32aa624ce6be4d",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/VALIDATION.json"
+    },
+    {
+      "id": 675547407,
+      "name": "VITA-PKG-SHA256SUMS.txt",
+      "size": 290,
+      "digest": "sha256:893816279c43bf40755b95285a086b133fd9c936c438280b8022a8743dce501b",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/VITA-PKG-SHA256SUMS.txt"
+    },
+    {
+      "id": 675547412,
+      "name": "VITA-PKG.json",
+      "size": 9484,
+      "digest": "sha256:f1f7699634d81295d2dc87a7379e2fa38e37529116570583c09dd4ec4fa841b3",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/VITA-PKG.json"
+    },
+    {
+      "id": 675547449,
+      "name": "VITA-REPATCH.json",
+      "size": 1417,
+      "digest": "sha256:606a332f3d86a910b0c237710e6f550cebe052a0968ebaee8168817c6e68e292",
+      "browser_download_url": "https://github.com/retro-trans/Cross-Ange/releases/download/v0.1.16/VITA-REPATCH.json"
+    }
+  ],
+  "all_uploaded_asset_hashes_verified": true,
+  "anonymous_downloads_verified": true,
+  "strict_live_catalog_passed": true,
+  "catalog_rejections": 0,
+  "automatic_tools_version": "0.5.18",
+  "frozen_published_automatic_passed": true,
+  "github_sign_in_used": false,
+  "verified_files": 48,
+  "output": {
+    "bytes": 945097152,
+    "sha256": "85952214027114c3a2d8a055d3f01cc0ac91ed13acc8fea8e460745856ab8e59"
+  },
+  "hardware_local_bundle_tools_version": "0.5.16",
+  "hardware_local_bundle_passed": true,
+  "physical_vita_tested": false,
+  "gameplay_tested": false,
+  "existing_0_1_13_release_unchanged": true,
+  "user_installation_or_saves_changed": false,
+  "experimental_emulator_release": "https://github.com/retro-trans/Vita3K/releases/tag/v0.2.1-cross-ange-hud.1"
+}

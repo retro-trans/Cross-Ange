@@ -1,7 +1,7 @@
 {
   "project_version": "0.1.16",
   "checked_on": "2026-10-25",
-  "status": "structured_english_local_test_build_available",
+  "status": "structured_english_public_test_release_available",
   "scenario_completed_slices": 166,
   "scenario_exported_rows": 13277,
   "scenario_drafted_japanese_rows": 13214,
@@ -2686,10 +2686,14 @@
     "installation_record": "docs/local-build-0.1.16-validation.json",
     "package": "work/output/cross-ange-0.1.16/Cross-Ange-English-0.1.16.pkg",
     "gameplay_tested": false,
-    "release_published": false,
+    "release_published": true,
     "retro_trans_version": "0.5.16",
     "retro_trans_app_published": true,
     "existing_battle_hud_issue_open": true,
-    "runtime_issue": "work/ui/timed-dialogue-issue.json"
+    "runtime_issue": "work/ui/timed-dialogue-issue.json",
+    "release_url": "https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.16",
+    "automatic_tools_version": "0.5.18",
+    "published_automatic_verified": true,
+    "public_validation_record": "docs/releases/v0.1.16-publication.json"
   }
 }

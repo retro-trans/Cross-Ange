@@ -245,3 +245,18 @@ pending. The usual Play shortcut uses this English installation.
 See [English installation record](vita3k-hud-english-install-20261025.json).
 Vita3K updates, cache resets and GPU-feature changes can discard the workaround;
 a persistent emulator build remains future work. No game build or release.
+
+## Experimental emulator and game releases — 2026-10-25
+
+The subsequent [Vita3K fork release](https://github.com/retro-trans/Vita3K/releases/tag/v0.2.1-cross-ange-hud.1)
+contains the persistent source correction. Windows compilation, both upstream
+CTest suites and all 256 native reference reads pass. Its built translator's
+12 generated shaders also compile independently. This rebuilt executable still
+needs battle testing; the remaining quad and all radio/counter states are
+unverified.
+
+[Cross Ange v0.1.16](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.16)
+is published separately with the unchanged game executable. Its patch bundles
+do not include the emulator correction. Published Tools 0.5.18 Automatic
+reproduces the exact native-verified PKG and all 48 game files. Game layout,
+full gameplay and physical-hardware testing remain outstanding.

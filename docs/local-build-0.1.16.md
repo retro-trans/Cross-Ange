@@ -1,5 +1,10 @@
 # Local 0.1.16 candidate
 
+This build was subsequently [published as v0.1.16](https://github.com/retro-trans/Cross-Ange/releases/tag/v0.1.16).
+The notes below describe its original local preparation. See the current
+[release notes](releases/v0.1.16.md) and
+[published Automatic check](releases/v0.1.16-automatic-validation.json).
+
 Timed-conversation bubbles are widened from 252 to approximately 336 pixels.
 All 145 comments and 66 reactions using that bubble were checked; 161 entries
 were rewrapped. Complete wording and thought markers are retained, with no

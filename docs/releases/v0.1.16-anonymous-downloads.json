@@ -1,0 +1,21 @@
+{
+  "version": "0.1.16",
+  "anonymous_downloads_verified": true,
+  "files": [
+    {
+      "name": "VITA-PKG.json",
+      "bytes": 9484,
+      "sha256": "f1f7699634d81295d2dc87a7379e2fa38e37529116570583c09dd4ec4fa841b3"
+    },
+    {
+      "name": "Cross-Ange-English-0.1.16-Vita-PKG-patches.zip",
+      "bytes": 5438144,
+      "sha256": "55e37d9c0727e31ea3af3e3dbeeb5a01280328ee592daff6fc828a0c8a2cb3a0"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 1527,
+      "sha256": "9626aa9abad93fa2e8715ffcb28c5b29088b08286c2b759fd879b5da2919b49b"
+    }
+  ]
+}
